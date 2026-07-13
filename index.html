@@ -273,7 +273,11 @@
 
   async function checkPasscode(code) {
     const res = await fetch("/api/data", { headers: { "x-passcode": code } });
-    return res.status !== 401 && res.status !== 500;
+    if (res.status === 500) {
+      const body = await res.json().catch(() => ({}));
+      return { ok: false, serverError: body.error || "Server is not configured yet." };
+    }
+    return { ok: res.status !== 401 };
   }
 
   function showGate(errorMsg) {
@@ -293,13 +297,15 @@
     if (!code) { showGate("Enter a passcode."); return; }
     document.getElementById("gateSubmit").disabled = true;
     document.getElementById("gateError").textContent = "Checking...";
-    const ok = await checkPasscode(code).catch(() => false);
+    const result = await checkPasscode(code).catch((e) => ({ ok: false, serverError: "Could not reach the server: " + e.message }));
     document.getElementById("gateSubmit").disabled = false;
-    if (ok) {
+    if (result.ok) {
       PASSCODE = code;
       localStorage.setItem("bft_passcode", code);
       hideGate();
       loadData().then(renderAll);
+    } else if (result.serverError) {
+      showGate("Setup issue, not a wrong passcode: " + result.serverError);
     } else {
       showGate("Incorrect passcode.");
     }
