@@ -120,6 +120,7 @@
   .tag-stance-neutral { background: var(--gray-bg); color: var(--text-muted); }
   .tag-default { background: var(--navy-light); color: var(--navy); }
   .card-evidence { font-size: 11.5px; color: var(--text); line-height: 1.5; padding-left: 8px; margin-bottom: 6px; }
+  .card-yield { font-size: 10.5px; color: var(--navy); background: var(--navy-light); border-radius: 5px; padding: 5px 8px; margin: 0 8px 6px; line-height: 1.45; }
   .card-research-note { font-size: 10.5px; color: #92400E; background: #FEF3C7; border-radius: 5px; padding: 5px 8px; margin: 0 8px 6px; line-height: 1.4; }
   .card-source { font-size: 10px; color: var(--text-muted); padding-left: 8px; font-style: italic; }
 
@@ -10646,6 +10647,8 @@
         });
         // (c) Criteria taxonomy rename (old entry superseded by "Network: Entertainment" seed)
         existing.criteria = (existing.criteria || []).filter(c => c.name !== "Network: Sports");
+        // (c2) Provenance backfill: everything added before Jul 2026 came from Andy's direction
+        NETWORK_CATS.forEach(cat => (existing[cat] || []).forEach(i => { if (!i.addedBy) i.addedBy = "Andy"; }));
         // (d) Policy change: anti-Muslim rhetoric no longer auto-flagged -- restate affected entries from seeds
         ["Robert Spencer", "Amy Mek"].forEach(nm => {
           const item = (existing.influencer || []).find(i => i.name === nm);
@@ -10870,6 +10873,7 @@
       <div class="card-meta">${metaLine}</div>
       <div class="card-tags">${tagsHtml}</div>
       <div class="card-evidence">${evidenceField || ""}</div>
+      ${NETWORK_CATS.includes(cat) ? `<div class="card-yield">&#128279; ${(allyLinkCounts && allyLinkCounts[item.id]) || 0} ally links mapped${item.yieldStatus ? ` &middot; <b>${item.yieldStatus}</b>` : ""} &middot; added by ${item.addedBy || "Andy"}${item.yieldNotes ? `<br><span style="opacity:.85">Remaining potential: ${item.yieldNotes}</span>` : ""}</div>` : ""}
       ${item.researchNotes ? `<div class="card-research-note">&#128269; To research: ${item.researchNotes}</div>` : ""}
       ${item.links ? `<div class="card-source">Links: ${item.links}</div>` : ""}
       <div class="card-source">${item.source || ""}</div>
@@ -10878,6 +10882,7 @@
 
   function renderGrid() {
     const el = document.getElementById("gridContainer");
+    if (!allyLinkCounts) allyLinkCounts = computeAllyLinkCounts();
     document.getElementById("entryCount").textContent = Object.values(state.data).reduce((a,b) => a + b.length, 0);
 
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
@@ -11087,6 +11092,30 @@
     if (cat === "ecosystem") parts.push(item.anchors || "", item.orgs || "");
     if (item.related) parts.push(item.related);
     return parts.join(" \n ");
+  }
+
+  // Ally-link counts: how many OTHER tracked entities each entry connects to
+  // (same edge logic as the Ecosystem Network graph). Cached; invalidated on save/delete.
+  let allyLinkCounts = null;
+  function computeAllyLinkCounts() {
+    const counts = {}, nodes = [];
+    NETWORK_CATS.forEach(cat => (state.data[cat] || []).forEach(i => { if (i.name) nodes.push({ id: i.id, cat, name: i.name, raw: i }); }));
+    nodes.forEach(n => { counts[n.id] = 0; });
+    const blobs = nodes.map(n => ({ id: n.id, text: networkTextBlob(n.raw, n.cat).toLowerCase() }));
+    const seen = new Set();
+    nodes.forEach(target => {
+      if (!target.name || target.name.length < 4) return;
+      const esc = target.name.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      let re; try { re = new RegExp("(^|[^a-z0-9])" + esc + "([^a-z0-9]|$)"); } catch (err) { return; }
+      blobs.forEach(b => {
+        if (b.id === target.id || !re.test(b.text)) return;
+        const key = b.id < target.id ? b.id + "|" + target.id : target.id + "|" + b.id;
+        if (seen.has(key)) return;
+        seen.add(key);
+        counts[b.id]++; counts[target.id]++;
+      });
+    });
+    return counts;
   }
 
   function buildNetworkGraphData() {
@@ -11516,6 +11545,9 @@
       {key:"evidence", label:"Evidence", type:"textarea"},
       {key:"researchNotes", label:"Suggested Follow-Up Research (open questions to resolve manually)", type:"textarea"},
       {key:"related", label:"Related (comma-separated names, for Ecosystem Network graph)", type:"text"},
+      {key:"addedBy", label:"Added By (who originated this entry)", type:"select", options:["Andy","Claude (proactive)","Collaborator"]},
+      {key:"yieldStatus", label:"Connection Yield (how mined is this node?)", type:"select", options:["Untapped","Partially mined","Well mined","Exhausted"]},
+      {key:"yieldNotes", label:"Remaining connection potential (what else is reachable via this node?)", type:"textarea"},
       {key:"source", label:"Source", type:"text"},
     ],
     organization: [
@@ -11526,6 +11558,9 @@
       {key:"researchNotes", label:"Suggested Follow-Up Research (open questions to resolve manually)", type:"textarea"},
       {key:"leader", label:"Key Person/Leader", type:"text"},
       {key:"related", label:"Related (comma-separated names, for Ecosystem Network graph)", type:"text"},
+      {key:"addedBy", label:"Added By (who originated this entry)", type:"select", options:["Andy","Claude (proactive)","Collaborator"]},
+      {key:"yieldStatus", label:"Connection Yield (how mined is this node?)", type:"select", options:["Untapped","Partially mined","Well mined","Exhausted"]},
+      {key:"yieldNotes", label:"Remaining connection potential (what else is reachable via this node?)", type:"textarea"},
       {key:"source", label:"Source", type:"text"},
     ],
     business: [
@@ -11536,6 +11571,9 @@
       {key:"researchNotes", label:"Suggested Follow-Up Research (open questions to resolve manually)", type:"textarea"},
       {key:"leader", label:"Key Person/Leader", type:"text"},
       {key:"related", label:"Related (comma-separated names, for Ecosystem Network graph)", type:"text"},
+      {key:"addedBy", label:"Added By (who originated this entry)", type:"select", options:["Andy","Claude (proactive)","Collaborator"]},
+      {key:"yieldStatus", label:"Connection Yield (how mined is this node?)", type:"select", options:["Untapped","Partially mined","Well mined","Exhausted"]},
+      {key:"yieldNotes", label:"Remaining connection potential (what else is reachable via this node?)", type:"textarea"},
       {key:"source", label:"Source", type:"text"},
     ],
     ecosystem: [
@@ -11555,6 +11593,9 @@
       {key:"links", label:"Links (all social/web handles)", type:"textarea"},
       {key:"evidence", label:"Evidence", type:"textarea"},
       {key:"related", label:"Related (comma-separated names, for Ecosystem Network graph)", type:"text"},
+      {key:"addedBy", label:"Added By (who originated this entry)", type:"select", options:["Andy","Claude (proactive)","Collaborator"]},
+      {key:"yieldStatus", label:"Connection Yield (how mined is this node?)", type:"select", options:["Untapped","Partially mined","Well mined","Exhausted"]},
+      {key:"yieldNotes", label:"Remaining connection potential (what else is reachable via this node?)", type:"textarea"},
       {key:"source", label:"Source", type:"text"},
     ],
     sponsor: [
@@ -11673,7 +11714,7 @@
       const idx = state.data[cat].findIndex(i => i.id === item.id);
       state.data[cat][idx] = item;
     }
-    if (NETWORK_CATS.includes(cat)) networkGraphData = null; // invalidate cached graph layout so edits show up
+    if (NETWORK_CATS.includes(cat)) { networkGraphData = null; allyLinkCounts = null; } // invalidate graph layout + link counts
     await saveData();
     closeModal();
     renderAll();
@@ -11683,7 +11724,7 @@
     cat = cat || state.activeTab;
     if (!confirm("Delete this entry? This cannot be undone.")) return;
     state.data[cat] = state.data[cat].filter(i => i.id !== id);
-    if (NETWORK_CATS.includes(cat)) networkGraphData = null; // invalidate cached graph layout
+    if (NETWORK_CATS.includes(cat)) { networkGraphData = null; allyLinkCounts = null; } // invalidate graph layout + link counts
     await saveData();
     renderAll();
   }
