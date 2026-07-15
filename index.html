@@ -122,6 +122,12 @@
   .card-evidence { font-size: 11.5px; color: var(--text); line-height: 1.5; padding-left: 8px; margin-bottom: 6px; }
   .card-yield { font-size: 10.5px; color: var(--navy); background: var(--navy-light); border-radius: 5px; padding: 5px 8px; margin: 0 8px 6px; line-height: 1.45; }
   .card-research-note { font-size: 10.5px; color: #92400E; background: #FEF3C7; border-radius: 5px; padding: 5px 8px; margin: 0 8px 6px; line-height: 1.4; }
+  .card-sources { margin: 0 8px 4px; font-size: 10px; color: var(--text-muted); }
+  .card-sources summary { cursor: pointer; font-style: italic; outline: none; }
+  .card-sources summary:hover { color: var(--navy); }
+  .card-sources > div { margin: 4px 0 0 12px; line-height: 1.5; word-break: break-word; }
+  .card-sources a { color: var(--navy); }
+  .src-warn { color: #92400E; background: #FEF3C7; border-radius: 4px; padding: 1px 5px; font-style: normal; font-weight: 600; }
   .card-source { font-size: 10px; color: var(--text-muted); padding-left: 8px; font-style: italic; }
 
   .modal-overlay {
@@ -353,20 +359,20 @@
   const SEED_DATA = {
     influencer: [
       // ===== CONFIRMED PRO-ISRAEL =====
-      {name:"John Hagee", platform:"YouTube, Podcast", audience:"10M+ CUFI members", religion:"Evangelical (Christian Zionist)", ideology:"Conservative", stance:"pro", evidence:"CUFI founder &mdash; built the largest pro-Israel Christian organization in American history.", source:"CUFI.org"},
-      {name:"Franklin Graham", platform:"YouTube, Instagram", audience:"9M+ followers", religion:"Evangelical", ideology:"Conservative", stance:"pro", evidence:"BGEA & Samaritan's Purse leader, #2 JPost pro-Israel Christians 2025.", source:"Jerusalem Post, Sep 2025"},
-      {name:"Glenn Beck", platform:"YouTube, Radio, Blaze TV", audience:"2M+ YouTube, 10M+ radio", religion:"Mormon/LDS", ideology:"Conservative", stance:"pro", evidence:"#1 pro-Israel Christian influencer JPost 2025. Personally funded evangelical Israel trips.", source:"Jerusalem Post, Sep 2025"},
-      {name:"Mike Pompeo", platform:"X, Podcast", audience:"3M+ followers", religion:"Evangelical", ideology:"Conservative", stance:"pro", evidence:"Cyabra board member, former Sec. of State, explicit evangelical political voice.", source:"Cyabra board announcement 2023"},
-      {name:"Mike Johnson", platform:"Public office", audience:"3M+ followers", religion:"Evangelical (Baptist)", ideology:"Conservative", stance:"pro", evidence:"Speaker of the House, most powerful evangelical in US government.", source:"NPR, Congress.gov"},
-      {name:"Mike Huckabee", platform:"Public office", audience:"2M+ followers", religion:"Evangelical (Baptist)", ideology:"Conservative", stance:"pro", evidence:"US Ambassador to Israel, Baptist pastor turned diplomat.", source:"Times of Israel, Jul 2025"},
-      {name:"Ralph Reed", platform:"Political org", audience:"7M doors knocked 2024", religion:"Evangelical (Baptist)", ideology:"Conservative", stance:"pro", evidence:"Runs Faith and Freedom Coalition, most powerful evangelical political org in America.", source:"Faith & Freedom Coalition"},
-      {name:"Jack Hibbs", platform:"YouTube, Podcast", audience:"500K+ subscribers", religion:"Evangelical (Calvary Chapel)", ideology:"Conservative", stance:"pro", evidence:"#5 JPost pro-Israel Christians 2025. Strongest dispensationalist theology.", source:"Jerusalem Post, Sep 2025"},
-      {name:"Paula White", platform:"Instagram, TV", audience:"1M+ followers", religion:"Pentecostal", ideology:"Conservative", stance:"pro", evidence:"#7 JPost 2025. Former Trump White House Faith Office director.", source:"Jerusalem Post, Sep 2025"},
-      {name:"Robert Stearns", platform:"Instagram, org", audience:"35K+ evangelicals to Israel", religion:"Evangelical (charismatic)", ideology:"Christian Zionist", stance:"pro", evidence:"Eagles' Wings &mdash; brought 80 influencers w/ 300M combined followers to Israel Sep 2025.", source:"Ynet News, Sep 2025"},
-      {name:"Allie Beth Stuckey", platform:"YouTube, Podcast", audience:"700K+ YouTube", religion:"Evangelical (Southern Baptist)", ideology:"Conservative", stance:"pro", evidence:"Fastest-growing evangelical women's voice, Blaze TV platform.", source:"Deseret News, Oct 2025"},
-      {name:"Greg Laurie", platform:"Podcast", audience:"400K+ followers", religion:"Evangelical", ideology:"Conservative", stance:"pro", evidence:"#4 JPost 2025. Harvest Christian Fellowship senior pastor.", source:"Jerusalem Post, Sep 2025"},
-      {name:"Sean Hannity", platform:"Fox News, Radio", audience:"3M+ nightly", religion:"Catholic", ideology:"Conservative", stance:"pro", evidence:"#5 JPost Christian Zionists 2024. Called Israel support \"good vs evil.\"", source:"Jerusalem Post, CNN Jun 2025"},
-      {name:"Douglas Murray", platform:"X, YouTube", audience:"900K+ X", religion:"Secular/agnostic", ideology:"Conservative", stance:"pro", evidence:"#3 JPost 2025 (secular). Most credible secular Israel defender in Western media.", source:"Jerusalem Post, Sep 2025"},
+      {name:"John Hagee", platform:"YouTube, Podcast", audience:"10M+ CUFI members", religion:"Evangelical (Christian Zionist)", ideology:"Conservative", stance:"pro", evidence:"CUFI founder &mdash; built the largest pro-Israel Christian organization in American history.", links:"cufi.org", source:"cufi.org"},
+      {name:"Franklin Graham", platform:"YouTube, Instagram", audience:"9M+ followers", religion:"Evangelical", ideology:"Conservative", stance:"pro", evidence:"BGEA & Samaritan's Purse leader, #2 JPost pro-Israel Christians 2025.", links:"jpost.com, samaritanspurse.org", source:"jpost.com -- #2 Pro-Israel Christians 2025, Sep 2025"},
+      {name:"Glenn Beck", platform:"YouTube, Radio, Blaze TV", audience:"2M+ YouTube, 10M+ radio", religion:"Mormon/LDS", ideology:"Conservative", stance:"pro", evidence:"#1 pro-Israel Christian influencer JPost 2025. Personally funded evangelical Israel trips.", links:"jpost.com, blazemedia.com", source:"jpost.com -- #1 Pro-Israel Christian influencer 2025, Sep 2025"},
+      {name:"Mike Pompeo", platform:"X, Podcast", audience:"3M+ followers", religion:"Evangelical", ideology:"Conservative", stance:"pro", evidence:"Cyabra board member, former Sec. of State, explicit evangelical political voice.", links:"cyabra.com", source:"cyabra.com (board announcement, 2023)"},
+      {name:"Mike Johnson", platform:"Public office", audience:"3M+ followers", religion:"Evangelical (Baptist)", ideology:"Conservative", stance:"pro", evidence:"Speaker of the House, most powerful evangelical in US government.", links:"congress.gov, npr.org", source:"npr.org; congress.gov"},
+      {name:"Mike Huckabee", platform:"Public office", audience:"2M+ followers", religion:"Evangelical (Baptist)", ideology:"Conservative", stance:"pro", evidence:"US Ambassador to Israel, Baptist pastor turned diplomat.", links:"timesofisrael.com", source:"timesofisrael.com, Jul 2025"},
+      {name:"Ralph Reed", platform:"Political org", audience:"7M doors knocked 2024", religion:"Evangelical (Baptist)", ideology:"Conservative", stance:"pro", evidence:"Runs Faith and Freedom Coalition, most powerful evangelical political org in America.", links:"ffcoalition.com", source:"ffcoalition.com"},
+      {name:"Jack Hibbs", platform:"YouTube, Podcast", audience:"500K+ subscribers", religion:"Evangelical (Calvary Chapel)", ideology:"Conservative", stance:"pro", evidence:"#5 JPost pro-Israel Christians 2025. Strongest dispensationalist theology.", links:"jpost.com, calvarychapel.com", source:"jpost.com -- #5 Pro-Israel Christians 2025, Sep 2025"},
+      {name:"Paula White", platform:"Instagram, TV", audience:"1M+ followers", religion:"Pentecostal", ideology:"Conservative", stance:"pro", evidence:"#7 JPost 2025. Former Trump White House Faith Office director.", links:"jpost.com", source:"jpost.com -- #7 Pro-Israel Christians 2025, Sep 2025"},
+      {name:"Robert Stearns", platform:"Instagram, org", audience:"35K+ evangelicals to Israel", religion:"Evangelical (charismatic)", ideology:"Christian Zionist", stance:"pro", evidence:"Eagles' Wings &mdash; brought 80 influencers w/ 300M combined followers to Israel Sep 2025.", links:"ynetnews.com, eagleswings.to", source:"ynetnews.com, Sep 2025"},
+      {name:"Allie Beth Stuckey", platform:"YouTube, Podcast", audience:"700K+ YouTube", religion:"Evangelical (Southern Baptist)", ideology:"Conservative", stance:"pro", evidence:"Fastest-growing evangelical women's voice, Blaze TV platform.", links:"deseret.com, blazemedia.com", source:"deseret.com, Oct 2025"},
+      {name:"Greg Laurie", platform:"Podcast", audience:"400K+ followers", religion:"Evangelical", ideology:"Conservative", stance:"pro", evidence:"#4 JPost 2025. Harvest Christian Fellowship senior pastor.", links:"jpost.com, harvest.org", source:"jpost.com -- #4 Pro-Israel Christians 2025, Sep 2025"},
+      {name:"Sean Hannity", platform:"Fox News, Radio", audience:"3M+ nightly", religion:"Catholic", ideology:"Conservative", stance:"pro", evidence:"#5 JPost Christian Zionists 2024. Called Israel support \"good vs evil.\"", links:"jpost.com, foxnews.com", source:"jpost.com; cnn.com, Jun 2025"},
+      {name:"Douglas Murray", platform:"X, YouTube", audience:"900K+ X", religion:"Secular/agnostic", ideology:"Conservative", stance:"pro", evidence:"#3 JPost 2025 (secular). Most credible secular Israel defender in Western media.", links:"jpost.com", source:"jpost.com -- Top 10 Pro-Israel Christians/allies list, Sep 2025"},
       {name:"Brandon Tatum", platform:"YouTube, TikTok", audience:"1.5M+ combined", religion:"Evangelical (Baptist)", ideology:"Conservative", stance:"pro", evidence:"#8/JPost top 10 2025. Black evangelical conservative voice.", source:"Jerusalem Post, Sep 2025"},
       {name:"Dumisani Washington", platform:"Org/pastoral", audience:"National via IBSI", religion:"Evangelical", ideology:"Christian Zionist", stance:"pro", evidence:"Foremost Black evangelical-Jewish solidarity voice in America. #10 JPost 2024.", source:"Jerusalem Post, Sep 2024"},
       {name:"Mike Evans", platform:"Org/pastoral", audience:"1,000 pastors to Israel", religion:"Evangelical (charismatic)", ideology:"Christian Zionist", stance:"pro", evidence:"Friends of Zion &mdash; organized largest evangelical Israel delegation in history.", source:"Arab Center DC, Dec 2025"},
@@ -389,7 +395,7 @@
       {name:"Joshua Carr", platform:"YouTube", audience:"64K subscribers", religion:"Evangelical", ideology:"Conservative", stance:"pro", evidence:"Conservative political commentator and author, growing platform.", source:"YouTube"},
       {name:"CJ Pearson", platform:"X, YouTube", audience:"1M+ followers", religion:"Christian", ideology:"Young conservative", stance:"pro", evidence:"Young Black conservative, founder of Next250 PAC.", source:"Social media bios"},
       {name:"Benny Johnson", platform:"X, YouTube", audience:"Large conservative social", religion:"Christian", ideology:"Conservative", stance:"pro", evidence:"Conservative media personality, pro-Israel, large young conservative audience.", source:"Social media"},
-      {name:"Ben Shapiro", platform:"YouTube, Daily Wire", audience:"5M+ YouTube", religion:"Jewish (Orthodox)", ideology:"Conservative", stance:"pro", evidence:"Daily Wire co-founder, headlined Jerusalem \"Freedom of Zion\" event with Douglas Murray.", source:"JNS, Daily Wire"},
+      {name:"Ben Shapiro", platform:"YouTube, Daily Wire", audience:"5M+ YouTube", religion:"Jewish (Orthodox)", ideology:"Conservative", stance:"pro", evidence:"Daily Wire co-founder, headlined Jerusalem \"Freedom of Zion\" event with Douglas Murray.", links:"dailywire.com, jns.org", source:"jns.org, dailywire.com"},
       {name:"Hillel Fuld", platform:"Blog, social", audience:"100K+", religion:"Jewish", ideology:"Tech/Israeli", stance:"pro", evidence:"Israeli-American tech blogger, ambassador to Israeli VC/founder ecosystem.", source:"Hillel Fuld blog"},
       {name:"Rob Schneider", platform:"Social media", audience:"Large following", religion:"Jewish heritage, secular", ideology:"Comedy/entertainment", stance:"pro", evidence:"Actor/comedian, vocally pro-Israel, spoken at pro-Israel events.", source:"Social media, 2024"},
       {name:"Gabriel Groisman", platform:"Advocacy", audience:"Regional/national", religion:"Jewish", ideology:"Political", stance:"pro", evidence:"Former Bal Harbour Mayor turned pro-Israel advocate, fights antisemitism in South Florida.", source:"Public record"},
@@ -892,6 +898,8 @@
       {name:"Alliance Score Rubric (Liberty Score-style)", btype:"Open Design", status:"Needs Andy", evidence:"Proposed after reviewing Conservative Review's Liberty Score: replace the hand-set 0-100 gestalt with a transparent additive rubric that computes a suggested score from signals present, decomposes/audits on the card, and stays human-overridable. Andy has not yet supplied signal weights.", researchNotes:"Andy to indicate which signals weigh most (e.g. is a confirmed anti-antisemitism ACTION worth more than identity? is Rubio-wing alignment a big factor or a tiebreaker?). Then build + re-score consistently across ~237 entries.", source:"Session Jul 2026"},
       {name:"Rubio-allies reference list", btype:"Open Design", status:"Open", evidence:"The Rubio/Vance criterion counts 'allying with Rubio's core allies, family, institutions, companies, staff, donors, partners' as a proxy signal -- but no reference list of who those people/orgs ARE exists, so the rule cannot fire on new entries.", researchNotes:"Research and add a seed list of Rubio's core allies/institutions/staff/donors to check candidates against.", source:"Session Jul 2026"},
       {name:"Backlog maintenance rule", btype:"Open Design", status:"Open", evidence:"Going forward: every request that cannot be fully completed in-session must be logged here rather than silently dropped.", researchNotes:"Claude adds a Backlog entry whenever an ask is blocked, partial, unbounded, or unverifiable. Review this tab periodically.", source:"Session Jul 2026"},
+      {name:"Re-source 315 entries with clickable links", btype:"Bulk Source", status:"Open", evidence:"AUDIT (Jul 2026): 315 of 439 entities (72%) have no clickable URL in source/links -- they cite a publication + date (e.g. 'Jerusalem Post, Sep 2025') rather than a verifiable link. Most were inherited from the original BFT_Living_Database_5 seed file. Cards now auto-flag these with an amber 'no linked source' warning so the gap is visible rather than invisible.", researchNotes:"Work through flagged entries (filter visually by the amber warning), find the actual article/post URL for each claim, and populate source/links. Highest priority: the pro/high-alliance-score entries whose claims carry the most weight. ~315 lookups -- a good candidate for batching or delegation.", source:"Source audit, Jul 2026"},
+      {name:"Audience demographics pass (needs tooling)", btype:"Structural Limit", status:"Blocked", evidence:"Andy asked for audience demographics across the whole influencer network. Claude has NO access to audience analytics -- that data lives in creator dashboards or paid tools. Producing it by inference would be fabrication dressed as data. The Audience Demographics field exists and is populated only where real sourced figures are available.", researchNotes:"Requires paid tooling: SparkToro (free tier / ~$50mo -- best for audience overlap + demographics), Audiense (~$99mo), Similarweb, or Comscore/Nielsen (enterprise). SparkToro is the highest-ROI option and can profile an audience from a handle. Alternative: platform-disclosed stats where creators publish them.", source:"Session Jul 2026"},
     ],
     criteria: [
       {name:"Stance categories", ctype:"Methodology", appliesTo:"All people", effect:"Classification", description:"Every person is classified pro / hostile / neutral / yellowflag / redflag. 'pro' = ally (explicit or by team-alignment judgment). 'hostile' = actively anti-Israel/antisemitic. 'neutral' = no clear lean or genuinely mixed. See flag rules for yellow/red."},
@@ -941,6 +949,8 @@
       {name:"B2B network inclusion criteria", ctype:"Inclusion Signal", appliesTo:"Business network", effect:"Auto-include", description:"INCLUDE in the Business/B2B network any company or capital-management firm (VC, PE, growth equity, real estate, etc.) meeting ANY of: (a) has offices in Israel; (b) is invested in Israeli companies; (c) has a Jewish and/or Zionist and/or Evangelical and/or devout Protestant founder, president, CEO, chairman, vice president, or majority investor/stakeholder; (d) has acquired an Israeli company. Note the silent-majority principle applies -- these are structural/affiliation signals, and no public Israel statement is expected from a business."},
       {name:"Audience geography >= influencer nationality", ctype:"Scoring", appliesTo:"Influencer network", effect:"Weight by audience location", description:"MAP AUDIENCE GEOGRAPHY -- where the audience actually IS matters as much as, if not MORE than, the influencer's own nationality. A foreign influencer with a large AMERICAN audience delivers American persuasion; an American influencer whose audience is entirely overseas does not. This REFINES the nationality ranking: nationality is a weak proxy, audience geography is the real variable it was proxying for. Canonical case: Ollie Anisfeld is British and Jewish (doubly discounted by nationality) but J-TV's LARGEST AUDIENCE IS AMERICAN -- so his effective value is far higher than his passport implies. Record this in the Audience Geography field on every influencer."},
       {name:"Posted positively about Joshua Baer", ctype:"Inclusion Signal", appliesTo:"Business network", effect:"Add / consider for B2B", description:"Anyone who publicly posted POSITIVELY about Joshua Baer (Jewish Zionist founder/CEO of Capital Factory, killed in a plane crash 17 Jun 2026) is a candidate for the Business-leader and B2B network map -- along with their companies. Rationale: public tribute to a Jewish Zionist figure is a voluntary, self-initiated philosemitic signal from exactly the silent-majority business class that never posts about Israel directly. TIME-BOUNDED and high-yield: memorial posts cluster in the weeks after Jun 2026. First pass already yielded Jason Calacanis, Bill Gurley, Thom Singer, Jonathan Greenblatt, Ted Cruz (tracked), Bryan Chambers (tracked), Lloyd Doggett. NOTE: full enumeration needs social-listening tooling -- these came from published tribute coverage only."},
+      {name:"Hyperlinked-source requirement", ctype:"Data Ethics", appliesTo:"All entities", effect:"Cite clickably", description:"Every claim should carry a CLICKABLE, credible source a human can verify -- not just a publication name and date. Sources and links render in a collapsible 'Sources & links' dropdown on each card (collapsed by default to avoid clutter). Entries with NO clickable source are auto-flagged with an amber warning on that dropdown. AUDIT (Jul 2026): 315 of 439 entities (72%) had no clickable URL -- mostly inherited from the original _5 seed file, which cited things like 'Jerusalem Post, Sep 2025'. Re-sourcing those is a tracked Backlog item. GOING FORWARD: no entry is added without a clickable source or an explicit unverified flag."},
+      {name:"Audience demographics (sourced only)", ctype:"Methodology", appliesTo:"Influencer network", effect:"Record where real", description:"Record audience demographics (age, gender, political lean, faith, geography) in the Audience Demographics field -- but ONLY from real sourced data (published reporting, Comscore/Nielsen/Pew figures, platform-disclosed stats), never invented. Claude does NOT have access to audience analytics; a full demographic pass across the network requires paid tooling (SparkToro, Audiense, Similarweb, Comscore). Any inference must be explicitly marked as inference. Rationale: fabricated demographics would look authoritative and quietly corrupt targeting decisions -- worse than an empty field."},
     ],
     network_company: [
       {name:"New York State Center for Recruitment & Public Service", followedOn:"Tue Jul 07 02:56:07 UTC 2026", notes:""},
@@ -10878,7 +10888,7 @@
     let metaLine = "", tagsHtml = "", evidenceField = "";
 
     if (cat === "influencer") {
-      metaLine = `${item.platform || ""} ${item.audience ? "&middot; " + item.audience : ""} ${item.audienceGeography ? "&middot; &#127758; " + item.audienceGeography : ""} ${item.allianceScore ? "&middot; Alliance " + item.allianceScore + "/100" : ""}`;
+      metaLine = `${item.platform || ""} ${item.audience ? "&middot; " + item.audience : ""} ${item.audienceGeography ? "&middot; &#127758; " + item.audienceGeography : ""} ${item.audienceDemographics ? "&middot; &#128101; " + item.audienceDemographics : ""} ${item.allianceScore ? "&middot; Alliance " + item.allianceScore + "/100" : ""}`;
       tagsHtml = [
         stance ? `<span class="tag ${stanceTagClass(stance)}">${stance === "pro" ? "Pro-Israel" : stance === "hostile" ? "Hostile" : stance === "yellowflag" ? "Yellow Flag" : stance === "redflag" ? "Red Flag" : "Neutral"}</span>` : "",
         item.network && item.network !== "Media/Influencer" ? `<span class="tag tag-default">${item.network}</span>` : "",
@@ -10952,8 +10962,11 @@
       <div class="card-evidence">${evidenceField || ""}</div>
       ${NETWORK_CATS.includes(cat) ? `<div class="card-yield">&#128279; ${(allyLinkCounts && allyLinkCounts[item.id]) || 0} ally links mapped${item.yieldStatus ? ` &middot; <b>${item.yieldStatus}</b>` : ""} &middot; added by ${item.addedBy || "Andy"}${item.yieldNotes ? `<br><span style="opacity:.85">Remaining potential: ${item.yieldNotes}</span>` : ""}</div>` : ""}
       ${item.researchNotes ? `<div class="card-research-note">&#128269; To research: ${item.researchNotes}</div>` : ""}
-      ${item.links ? `<div class="card-source">Links: ${item.links}</div>` : ""}
-      <div class="card-source">${item.source || ""}</div>
+      <details class="card-sources">
+        <summary>Sources &amp; links${hasClickableSource(item) ? "" : ` <span class="src-warn">&#9888; no linked source</span>`}</summary>
+        ${item.links ? `<div><b>Links:</b> ${linkify(item.links)}</div>` : ""}
+        ${item.source ? `<div><b>Source:</b> ${linkify(item.source)}</div>` : ""}
+      </details>
     </div>`;
   }
 
@@ -11023,6 +11036,21 @@
       if (bare) max = parseInt(bare[0].replace(/,/g, ""), 10);
     }
     return max > 0 ? max : 8000;
+  }
+
+  // Turn bare URLs/domains in source/links text into clickable links.
+  const URL_RE = /\b((?:https?:\/\/|www\.)[^\s,;)]+|[a-z0-9][a-z0-9-]*\.(?:com|org|net|gov|edu|io|co|tv|us|il|ly|press|capital|gop|substack\.com)(?:\/[^\s,;)]*)?)/gi;
+  function linkify(text) {
+    if (!text) return "";
+    return escXml(text).replace(URL_RE, (m) => {
+      const href = /^https?:\/\//i.test(m) ? m : "https://" + m;
+      return `<a href="${href}" target="_blank" rel="noopener noreferrer">${m}</a>`;
+    });
+  }
+  // Does this entry cite anything a human can actually click and check?
+  function hasClickableSource(item) {
+    URL_RE.lastIndex = 0;
+    return URL_RE.test(((item.source || "") + " " + (item.links || "")));
   }
 
   const STANCE_LABELS = { pro: "Pro-Israel", hostile: "Hostile", neutral: "Neutral", yellowflag: "Yellow Flag", redflag: "Red Flag" };
@@ -11616,6 +11644,7 @@
       {key:"ideology", label:"Ideological Lean", type:"text"},
       {key:"nationality", label:"Nationality (American > close-ally nation > other > Israeli, per ranking criteria)", type:"text"},
       {key:"audienceGeography", label:"Audience Geography (WHERE the audience is -- weighs >= nationality)", type:"text"},
+      {key:"audienceDemographics", label:"Audience Demographics (age/gender/lean/faith -- SOURCED data only, mark inference as inference)", type:"textarea"},
       {key:"network", label:"Network", type:"select", options:["Media/Influencer","Business","Grassroots","Entertainment","Political"]},
       {key:"entSubcategory", label:"Entertainment Subcategory", type:"select", options:["Sports","Music","Film","TV & Media"]},
       {key:"stance", label:"Stance", type:"select", options:["pro","hostile","neutral","yellowflag","redflag"]},
