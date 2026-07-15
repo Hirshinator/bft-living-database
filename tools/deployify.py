@@ -153,11 +153,29 @@ rep('&#9998; Auto-saves in this browser. If opened in an environment with shared
     "header copy")
 rep('Data auto-saves in this browser &middot;', 'Data persists automatically across sessions &middot;', "footer copy")
 
-# sanity: script braces balance
+# Sanity: REAL syntax validation via JavaScriptCore, not brace counting.
+# Brace counting is what let three syntax errors reach production on 15 Jul 2026
+# -- balanced braces say nothing about a broken string literal. macOS ships jsc,
+# so parse the thing for real before writing it.
 m = re.search(r'<script>\n(.*?)\n</script>', text, re.S)
 s = m.group(1)
 assert s.count("{") == s.count("}"), "brace mismatch after deployify"
 assert s.count("`") % 2 == 0, "backtick mismatch after deployify"
+
+JSC = "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc"
+if os.path.exists(JSC):
+    import subprocess, tempfile
+    with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False, encoding="utf-8") as f:
+        f.write(s); probe = f.name
+    r = subprocess.run(
+        [JSC, "-e", 'try { new Function(read("%s")); print("OK"); } catch (e) { print("ERR: " + e); }' % probe],
+        capture_output=True, text=True)
+    os.unlink(probe)
+    verdict = r.stdout.strip()
+    assert verdict == "OK", f"SYNTAX ERROR after deployify -- refusing to write index.html:\n  {verdict}"
+    applied.append("jsc syntax check")
+else:
+    print("WARNING: jsc not found -- falling back to brace counting, which misses broken strings")
 
 open(DST, "w", encoding="utf-8").write(text)
 print(f"deployify OK ({len(applied)} transforms): " + ", ".join(applied))
