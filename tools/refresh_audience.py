@@ -1,89 +1,98 @@
 #!/usr/bin/env python3
-"""Live-verify audience numbers for BFT Living Database influencers.
+"""Multi-platform follower-count fetcher for BFT influencers.
 
-WHAT WORKS (verified 14 Jul 2026):
-  - YouTube: subscriber count, view count, join date  -> fetchable
-  - TikTok:  followerCount                            -> fetchable
-WHAT DOESN'T:
-  - X/Twitter: JS-rendered, no counts in HTML
-  - Instagram: page loads, counts not trivially parseable
-  - Social Blade: 403
+TESTED capability map (17 Jul 2026) -- what actually works from here:
+  YouTube  : plain fetch, reliable            (subscriberCountText)
+  Rumble   : plain fetch, reliable            (/c/Name channel pages)
+  TikTok   : plain fetch, INTERMITTENT        (fall back to browser)
+  X/Twitter: BROWSER ONLY -- JS-rendered      (this script flags them; fetch
+             won't get counts. Confirmed working via the in-app browser:
+             Dana Loesch = 1.3M read off the rendered Followers link.)
+  Facebook : partial login wall, unreliable
+  Instagram: BLOCKED -- login wall even in browser. Not fetchable here.
+
+Why this rewrite matters: the previous version used `audience:"[^"]*"` to patch
+the HTML source. `[^"]*` is blind to escaped quotes (\") and on 15 Jul 2026 it
+matched PAST a field boundary and corrupted the MilkBarTV entry, which broke the
+whole app in production. This version NEVER regex-patches JS source. It reads the
+data by executing SEED_DATA with JavaScriptCore and reports; any write-back must
+go through the same safe evaluate-mutate path, never a source-text substitution.
 
 Usage:
-    python3 tools/refresh_audience.py [path-to-html]        # report only
-    python3 tools/refresh_audience.py [path] --write        # write updates back
-
-Why this exists: a 14 Jul 2026 audit found DB audience figures were stale or
-wrong -- one entry (Lance Johnston) was overstated ~50x by an unreliable
-source. Audience size drives the seed-100 "back the winners" strategy, so it
-must be measured, not asserted.
+    python3 tools/refresh_audience.py [path-to-html]     # report only
 """
-import re, sys, time, urllib.request
+import re, sys, json, time, subprocess, urllib.request
 
-UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
-      "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
+JSC = "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc"
 PATH = next((a for a in sys.argv[1:] if not a.startswith("--")),
             "/Users/andy/Downloads/BFT_Living_Database_6.html")
-WRITE = "--write" in sys.argv
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
+      "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
 
-def get(url, timeout=20):
+def fetch(url, timeout=20):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "ignore")
     except Exception:
         return ""
 
-def youtube_subs(handle):
-    m = re.search(r'"subscriberCountText":"([^"]*)"', get(f"https://www.youtube.com/@{handle}/about"))
-    return m.group(1) if m else None
+def youtube(handle):
+    # CRITICAL: use metadataParts (the MAIN channel's count). The older
+    # "subscriberCountText"/simpleText pattern matches a RECOMMENDED channel in
+    # the sidebar -- it reported Tovia Singer as 6.37K when he is 132K. Auto-
+    # writing that would have overwritten correct data with a sidebar number.
+    body = fetch(f"https://www.youtube.com/@{handle}/about")
+    m = re.search(r'"metadataParts":\[\{"text":\{"content":"([\d.]+[KMB]? subscribers)"', body)
+    return f"YouTube {m.group(1)}" if m else None
 
-def tiktok_followers(handle):
-    m = re.search(r'"followerCount":(\d+)', get(f"https://www.tiktok.com/@{handle}"))
-    return f"{int(m.group(1)):,} followers" if m else None
+def tiktok(handle):
+    m = re.search(r'"followerCount":(\d+)', fetch(f"https://www.tiktok.com/@{handle}"))
+    return f"TikTok {int(m.group(1)):,} followers" if m else None
+
+def rumble(channel):
+    m = re.search(r'([\d,.]+[KMB]?)\s*[Ff]ollowers', fetch(f"https://rumble.com/c/{channel}"))
+    return f"Rumble {m.group(1)} followers" if m else None
+
+# Extractors keyed by the handle pattern found in an entry's links/platform text.
+SOURCES = [
+    (re.compile(r'youtube\.com/@([A-Za-z0-9_.-]+)'), youtube),
+    (re.compile(r'rumble\.com/c/([A-Za-z0-9_-]+)'), rumble),
+    (re.compile(r'tiktok\.com/@([A-Za-z0-9_.-]+)'), tiktok),
+]
+# X handles are recorded but must be fetched via the BROWSER, not here.
+X_RE = re.compile(r'(?:x|twitter)\.com/([A-Za-z0-9_]+)')
+
+def load_influencers():
+    s = re.search(r"<script>\n(.*?)\n</script>", open(PATH, encoding="utf-8").read(), re.S).group(1)
+    a = s.find("const SEED_DATA"); b = s.find("\n  };", a) + 4
+    open("/tmp/_aud.js", "w", encoding="utf-8").write(
+        s[a:b].replace("const SEED_DATA", "var SEED_DATA", 1) + "\nprint(JSON.stringify(SEED_DATA.influencer));")
+    return json.loads(subprocess.run([JSC, "/tmp/_aud.js"], capture_output=True, text=True).stdout)
 
 def main():
-    src = open(PATH, encoding="utf-8").read()
-    block = re.search(r'\n    influencer: \[\n(.*?)\n    \],', src, re.S).group(1)
-    rows, checked = [], 0
-    for ln in block.split("\n"):
-        g = re.search(r'\{name:"([^"]+)"', ln)
-        if not g:
-            continue
-        blob = " ".join(re.findall(r'(?:links|platform):"([^"]*)"', ln))
-        yt = re.search(r'youtube\.com/@([A-Za-z0-9_.-]+)', blob)
-        tk = re.search(r'tiktok\.com/@([A-Za-z0-9_.-]+)', blob)
-        if not (yt or tk):
-            continue
-        aud = re.search(r'audience:"([^"]*)"', ln)
-        live = []
-        if yt:
-            v = youtube_subs(yt.group(1))
-            if v: live.append(f"YouTube {v}")
-        if tk:
-            v = tiktok_followers(tk.group(1))
-            if v: live.append(f"TikTok {v}")
-        checked += 1
-        if live:
-            rows.append((g.group(1), aud.group(1) if aud else "", "; ".join(live)))
-            print(f"{g.group(1)[:34]:36s} DB: {(aud.group(1) if aud else '')[:34]:36s} LIVE: {'; '.join(live)}")
-        time.sleep(1)  # be polite
-    print(f"\nchecked {checked} entries with handles; {len(rows)} returned live data")
-    if not WRITE:
-        print("(report only -- pass --write to apply)")
-        return
-    stamp = time.strftime("live-verified %d %b %Y")
-    out = src
-    for name, _old, live in rows:
-        pat = re.compile(r'(\{name:"%s".*?)(\},)' % re.escape(name), re.S)
-        m = pat.search(out)
-        if not m:
-            continue
-        seg = re.sub(r'audience:"[^"]*"', 'audience:"%s (%s)"' % (live, stamp), m.group(1), count=1)
-        if "audienceVerified" not in seg:
-            seg = re.sub(r'(, evidence:")', ', audienceVerified:"%s"\\1' % stamp, seg, count=1)
-        out = out[:m.start()] + seg + m.group(2) + out[m.end():]
-    open(PATH, "w", encoding="utf-8").write(out)
-    print(f"wrote {len(rows)} updates to {PATH}")
+    rows = load_influencers()
+    live, needs_browser, no_handle = [], [], 0
+    for r in rows:
+        blob = " ".join(str(r.get(k, "")) for k in ("links", "platform"))
+        got = []
+        for rx, fn in SOURCES:
+            m = rx.search(blob)
+            if m:
+                v = fn(m.group(1))
+                if v: got.append(v)
+                time.sleep(0.4)
+        if got:
+            live.append((r["name"], r.get("audience", ""), "; ".join(got)))
+            print(f"  {r['name'][:30]:<32s} DB:{(r.get('audience') or '')[:24]:<26s} LIVE: {'; '.join(got)}")
+        elif X_RE.search(blob):
+            needs_browser.append((r["name"], X_RE.search(blob).group(1)))
+        else:
+            no_handle += 1
+    print(f"\nfetched live counts for {len(live)} entries (curl-able platforms)")
+    print(f"{len(needs_browser)} have an X handle -> fetch via the in-app browser (JS-rendered):")
+    for n, h in needs_browser[:40]:
+        print(f"   @{h:<20s} {n}")
+    print(f"{no_handle} have no fetchable handle at all -> handle backfill needed first")
 
 if __name__ == "__main__":
     main()
