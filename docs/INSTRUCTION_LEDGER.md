@@ -47,8 +47,8 @@
 - ○ **Comment-network / grassroots discovery** (Andy, 17 Jul): identify accounts posting POSITIVE sentiment on ally posts (→ grassroots + emerging-influencer pipeline) and NEGATIVE sentiment on hostile posts (→ enemy-of-enemy allies). **Tested feasibility 17 Jul: reading a post's commenters requires a logged-in session** (X shows follower counts logged-out, but gates the timeline/replies behind login). Feasible via Andy's session + a Phase-2 scanner; not doable at scale logged-out.
 
 ## G. Things I could NOT complete, and why (the honest column)
-1. **Instagram / LinkedIn / Facebook data** — login walls. *Fix: Andy logs in (Claude-in-Chrome or clears the wall).*
-2. **Reading comment sections / commenter identities** — login-gated on X. *Fix: same.*
+1. **Instagram / LinkedIn / Facebook data** — login walls, and NOT fixed by Andy's login. *Tested 17 Jul: Andy is logged in and his Chrome is connected, but the Claude-in-Chrome tool refuses to navigate to ANY domain here (even example.com). The in-app browser hits the login wall. Blocked on tooling/config, not on login. Unblock: extension domain permission (Andy/env owner), or Andy pastes the numbers he can see.*
+2. **Reading comment sections / commenter identities** — login-gated on X; same tooling block as above. *Not unblocked by Andy's login.*
 3. **Spotify / SoundCloud follower counts** — need authed APIs. *Apple Podcasts works.*
 4. **claude.ai (regular-Claude) instruction history** — not readable from Claude Code, so instructions Andy gave there are invisible here. *Fix: Andy exports/pastes them.* **This is why this ledger may still be incomplete — it can only cover instructions given in Claude Code.**
 5. **Start-Up Nation Central bulk extraction** — declined on licensing (their ToU forbids reuse). A values call, not a capability gap; flagged for Andy/other-LLM review.
