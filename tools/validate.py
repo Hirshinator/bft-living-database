@@ -53,7 +53,7 @@ def main():
     verdict = r.stdout.strip()
     if verdict == "OK":
         print(f"SYNTAX OK -- {len(s):,} chars parsed by JavaScriptCore")
-        return 0
+        return check_data(s)
 
     print(f"{verdict}\n\nLocating the offending row(s)...")
     a = s.index("{", s.find("const SEED_DATA")) + 1   # step INSIDE the outer object
@@ -76,6 +76,62 @@ print("---checked " + rows.length);
     if "ALL_ROWS_OK" in out:
         print("\n(rows are individually fine -- the error is in app logic, not data)")
     return 1
+
+
+def check_data(script):
+    """Data-integrity checks a syntax parse cannot catch.
+
+    Added after real bugs that PARSED FINE but were wrong: the Nurture category
+    rendered empty for weeks (its data sat in FIELD_DEFS, not SEED_DATA), and
+    duplicate records silently split the network graph's edges across two nodes
+    so an edit to one missed the other.
+    """
+    import json as _json
+    a = script.find("const SEED_DATA"); b = script.find("\n  };", a) + 4
+    open(f"{TMP}/seed.js", "w", encoding="utf-8").write(
+        script[a:b].replace("const SEED_DATA", "var SEED_DATA", 1) + "\nprint(JSON.stringify(SEED_DATA));")
+    out = subprocess.run([JSC, f"{TMP}/seed.js"], capture_output=True, text=True).stdout
+    if not out.strip():
+        print("  WARN: could not evaluate SEED_DATA for data checks"); return 0
+    data = _json.loads(out)
+    problems = []
+
+    # 1. every visible category must actually have data (the Nurture bug)
+    m = re.search(r"const VISIBLE_CATEGORIES = \[(.*?)\];", script, re.S)
+    if m:
+        for cat in [x.strip().strip('"') for x in m.group(1).split(",") if x.strip()]:
+            if cat not in data:
+                problems.append(f"VISIBLE_CATEGORIES lists '{cat}' but SEED_DATA has no such array -> its tab renders EMPTY")
+
+    # 2. duplicate names within a category
+    for cat, rows in data.items():
+        if cat.startswith("network_") or not isinstance(rows, list): continue
+        seen = {}
+        for r in rows:
+            n = (r or {}).get("name")
+            if not n: continue
+            seen[n] = seen.get(n, 0) + 1
+        for n, c in seen.items():
+            if c > 1:
+                problems.append(f"duplicate name in {cat}: '{n}' x{c}")
+
+    # 3. duplicate bftIds anywhere (the join key must be unique)
+    ids = {}
+    for cat, rows in data.items():
+        if cat.startswith("network_") or not isinstance(rows, list): continue
+        for r in rows:
+            i = (r or {}).get("bftId")
+            if i: ids[i] = ids.get(i, 0) + 1
+    for i, c in ids.items():
+        if c > 1:
+            problems.append(f"duplicate bftId '{i}' x{c} -- breaks the Sheets/Airtable join key")
+
+    if problems:
+        print(f"  DATA WARNINGS ({len(problems)}):")
+        for p in problems[:20]: print("   -", p)
+    else:
+        print("  data checks OK (no empty visible tabs, no duplicate names or bftIds)")
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())
