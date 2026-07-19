@@ -3,3 +3,7 @@ node_modules
 .env
 .env.local
 .DS_Store
+
+# local credentials -- never commit
+.bft_secrets
+*.secrets
