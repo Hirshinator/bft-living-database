@@ -108,6 +108,7 @@
   .card-stance-bar { position: absolute; top: 0; left: 0; width: 4px; height: 100%; border-radius: 10px 0 0 10px; }
   .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; padding-left: 8px; }
   .card-name { font-size: 14px; font-weight: 700; color: var(--navy); }
+  .card-avatar { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; vertical-align: middle; margin-right: 8px; background: #fff; border: 1px solid var(--border); flex: none; }
   .card-actions { display: flex; gap: 4px; opacity: 0; transition: opacity .12s; }
   .card:hover .card-actions { opacity: 1; }
   .icon-btn { background: none; border: none; cursor: pointer; font-size: 13px; color: var(--text-muted); padding: 2px 4px; border-radius: 4px; }
@@ -11212,6 +11213,15 @@
     return "tag-default";
   }
 
+  // Small round avatar shown on every card: a person's official channel photo,
+  // a company logo, or a state seal. Same base64 data URI the network graph
+  // uses, so nothing is fetched at render time.
+  function cardAvatar(item) {
+    const src = item && (item.photo || item.logo);
+    if (!src) return "";
+    return `<img class="card-avatar" src="${src}" alt="" loading="lazy">`;
+  }
+
   function renderCard(item, cat) {
     const stance = item.stance || null;
     const barColor = stanceBarColor(stance);
@@ -11291,7 +11301,7 @@
     return `<div class="card" data-id="${item.id}">
       <div class="card-stance-bar" style="background:${barColor}"></div>
       <div class="card-top">
-        <div class="card-name">${item.name}</div>
+        <div class="card-name">${cardAvatar(item)}${item.name}</div>
         <div class="card-actions">
           <button class="icon-btn" data-edit="${item.id}" title="Edit">&#9998;</button>
           <button class="icon-btn" data-delete="${item.id}" title="Delete">&times;</button>
@@ -11773,7 +11783,7 @@
         // once into a persistent cache; the image's onload repaints so it
         // appears as soon as it's ready. Data URIs => no external calls.
         const _logo = n.raw && (n.raw.logo || n.raw.photo); // company logo, state seal, or person's official avatar
-        if (_logo && r >= 6) {
+        if (_logo) {
           let _im = networkLogoImgs[n.id];
           if (!_im) {
             _im = networkLogoImgs[n.id] = new Image();
