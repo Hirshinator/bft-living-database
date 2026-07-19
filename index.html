@@ -10928,6 +10928,40 @@
   }
 
   // Merge seed data into existing stored data, keyed by normalized name, without overwriting user edits.
+  // Version-gated authoritative re-sync. The deployed app loads from the shared
+  // backend and previously ONLY added new-by-name entries -- it never refreshed
+  // existing ones, so computed fields added later (logos, state seals, verified
+  // follower counts, sources, stance changes) never reached the live site. When
+  // SEED_VERSION changes (deployify stamps a fresh value each deploy), match each
+  // seed entry to an existing record by bftId (preferred) or name and refresh its
+  // fields from the seed, keeping the runtime id. Entries that exist only in the
+  // backend (added live) are left untouched.
+  const SEED_VERSION = "e2d06d720678";
+  function syncSeedsAuthoritative(existing) {
+    let changed = 0;
+    Object.keys(SEED_DATA).forEach(cat => {
+      if (!existing[cat]) existing[cat] = [];
+      const byBft = {}, byName = {};
+      existing[cat].forEach(it => { if (it.bftId) byBft[it.bftId] = it; byName[normalizeName(it.name)] = it; });
+      SEED_DATA[cat].forEach(seed => {
+        const match = (seed.bftId && byBft[seed.bftId]) || byName[normalizeName(seed.name)];
+        if (match) {
+          const rid = match.id;
+          Object.keys(seed).forEach(k => { match[k] = seed[k]; });
+          match.id = rid;
+          changed++;
+        } else {
+          const added = Object.assign({}, seed, { id: uid() });
+          existing[cat].push(added);
+          if (added.bftId) byBft[added.bftId] = added;
+          byName[normalizeName(added.name)] = added;
+          changed++;
+        }
+      });
+    });
+    return changed;
+  }
+
   function mergeSeeds(existing) {
     let mergedCount = 0;
     Object.keys(SEED_DATA).forEach(cat => {
@@ -11004,7 +11038,14 @@
         });
       })();
 
-      state.mergedCount = mergeSeeds(existing);
+      if (existing._seedVersion !== SEED_VERSION) {
+        // Deploy bumped the version: refresh existing entries from the seed so
+        // logos/seals/verified counts/sources appear on the live site.
+        state.mergedCount = syncSeedsAuthoritative(existing);
+        existing._seedVersion = SEED_VERSION;
+      } else {
+        state.mergedCount = mergeSeeds(existing);
+      }
     }
 
     (existing.influencer || []).forEach(item => {

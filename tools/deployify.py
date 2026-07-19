@@ -153,6 +153,16 @@ rep('&#9998; Auto-saves in this browser. If opened in an environment with shared
     "header copy")
 rep('Data auto-saves in this browser &middot;', 'Data persists automatically across sessions &middot;', "footer copy")
 
+# 5. Stamp a fresh SEED_VERSION = hash of the SEED_DATA block. On every deploy
+# where the data changed, this changes -> the deployed app re-syncs existing
+# entries from the seed (logos, seals, verified counts, sources), instead of the
+# old behaviour where existing records were never refreshed and edits stayed
+# invisible on the live site.
+import hashlib
+_seed = re.search(r'const SEED_DATA = \{.*?\n  \};', text, re.S)
+_ver = hashlib.sha1(_seed.group(0).encode("utf-8")).hexdigest()[:12] if _seed else "deployed"
+rep('const SEED_VERSION = "DEV";', 'const SEED_VERSION = "%s";' % _ver, "seed version stamp")
+
 # Sanity: REAL syntax validation via JavaScriptCore, not brace counting.
 # Brace counting is what let three syntax errors reach production on 15 Jul 2026
 # -- balanced braces say nothing about a broken string literal. macOS ships jsc,
