@@ -16,9 +16,10 @@ A **living intelligence database** of the pro-Israel / philosemitic media, polit
 
 | Surface | What it's for |
 |---|---|
-| **Live web app** (Vercel, passcode-gated) | Interactive command center — stance map, ecosystem network graph, regional map, filterable records |
-| **Notion workspace** | System of record — methodology, backlog, and the searchable master database |
-| **GitHub** | Version-controlled source; reproducible, auditable, nothing hand-wavy |
+| **Airtable** | The **database** — source of truth. Team-editable grid, outreach status, read live by the app |
+| **Live web app** (Vercel, passcode-gated) | The **dashboard** — stance map, ecosystem network graph, regional map, filterable records |
+| **Notion workspace** | The **briefing room** — methodology, strategy, backlog, this pitch brief (the reading layer) |
+| **GitHub** | The **vault** — version-controlled source; reproducible, auditable |
 
 ## What's in it today
 
@@ -41,10 +42,10 @@ A **living intelligence database** of the pro-Israel / philosemitic media, polit
 
 ---
 
-### What lives where
+### What lives where — one home per thing, no duplicates
 
-- **Records** → the **BFT Master Database** in this workspace (one searchable table; filter by Category for per-network views). `bftId` is the permanent join key to the live app — never edit it.
-- **Methodology / criteria** → page `02`. **Open items / backlog** → page `03`. **Security & PII** → page `04`. **Founder's strategy notes** → page `05`.
-- **The graph views** (stance map, network) live in the live app — they can't be rebuilt in Notion.
+- **Records** → **Airtable** (source of truth), edited by the team and read live by the app. `bftId` is the permanent join key — never edit it. *(Notion holds no record table on purpose: two editable copies drift.)*
+- **Prose** → **this Notion workspace**: Methodology/criteria → page `02`, Backlog → page `03`, Security & PII → page `04`, Founder's strategy notes → page `05`.
+- **The visual views** (stance map, network graph) → the live app; they can't be rebuilt elsewhere.
 
 *Questions or a walkthrough: Andy Hirsh.*
