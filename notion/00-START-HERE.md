@@ -1,38 +1,50 @@
-# BFT Living Intelligence Database — Notion System of Record
+# BFT Living Intelligence Database — Start Here
 
-**Generated:** 20 Jul 2026 · **Source:** the live database + *Builders For Tomorrow Project Notes 19 July 2026*
+*A working intelligence system for the Evangelicals Program. Built by Andy Hirsh as a proof-of-value: this is the kind of asset the Project Lead role produces in weeks, not quarters.*
 
-## How to import this into Notion
+---
 
-1. In Notion: **Settings → Import → Markdown & CSV**, or drag this whole `notion/` folder into a page.
-2. The `.md` files become pages. Import them first — they're the narrative layer.
-3. The `.csv` files in `../export/` become **Notion databases** (one per category). Import each separately so Notion types the columns properly.
-4. After importing the CSVs, set **`bftId` as the unique key** on every database. It is the permanent join key back to the live app — never edit or delete it.
+## The thesis
 
-## What lives where
+The Jewish–evangelical alliance is the most strategically valuable and most **underbuilt** coalition in American life. The deep structure is old: **two pillars of one civilization** — the sage and the sovereign, Yaakov and Esav *as they were meant to be*, the Antoninus–Rebbi friendship. ~80 million pro-Israel evangelicals are the base; the alliance connecting them to Jewish leadership is held together by a handful of relationships and almost no shared infrastructure.
 
-| Layer | Home | Why |
-|---|---|---|
-| **Records** (people, orgs, companies) | Notion databases from `../export/*.csv` | Sortable, filterable, relational |
-| **Narrative** (strategy, methodology, notes) | These `.md` pages | Reads as documentation |
-| **Live app + visualisations** | https://bft-living-database.vercel.app | Stance Map + Ecosystem Network can't be rebuilt in Notion |
+**You can't activate a network you can't see.** This database makes the entire landscape legible — every ally, emerging voice, institution, business leader, and adversary, with the connections between them — so the coalition can be built deliberately instead of accidentally.
 
-The live app stays the source of truth for the graph views; Notion becomes the system of record for everything readable.
+## What it is
 
-## Current contents
+A **living intelligence database** of the pro-Israel / philosemitic media, political, and business ecosystem (and its opponents), delivered three ways:
 
-- **influencer** — 368 records
-- **political** — 237 records
-- **criteria** — 114 records
-- **backlog** — 100 records
-- **organization** — 90 records
-- **business_leader** — 40 records
-- **israeli_tech** — 38 records
-- **business** — 35 records
-- **nurture** — 11 records
-- **sponsor** — 9 records
-- **ecosystem** — 4 records
+| Surface | What it's for |
+|---|---|
+| **Live web app** (Vercel, passcode-gated) | Interactive command center — stance map, ecosystem network graph, regional map, filterable records |
+| **Notion workspace** | System of record — methodology, backlog, and the searchable master database |
+| **GitHub** | Version-controlled source; reproducible, auditable, nothing hand-wavy |
 
-## ⚠ Before you share this workspace
+## What's in it today
 
-Two things in the source notes must NOT be carried into a shared workspace — see `04-SECURITY-AND-PII.md`. Read that first.
+- **~839 tracked entities** — influencers (374), political officials (237, incl. a congressional voting-record sweep), organizations (90), business leaders (41), businesses (35), Israeli tech (38), sponsors, and a **"Nurture" pipeline** of emerging voices to cultivate.
+- **A real methodology**, not a hunch list: dual gates (loyalty = *cost paid*, plus talent), organic-over-paid weighting, a congressional **red-line rule** (voting against defense funding for Israel), a **genocide/apartheid test**, primary-source citation discipline, and a **"needs human verification"** flag on anything added without conclusive evidence.
+- **Two analytical views** — a **stance × reach map** (who matters and where they stand) and an **ecosystem network graph** (who's connected to whom) — the connective tissue no spreadsheet shows.
+
+## Why it wins as a coalition tool
+
+- **Find the emerging leaders early** — the "Nurture" pipeline surfaces rising pro-Israel voices *before* they're expensive or obvious.
+- **See the whole board** — allies, adversaries, and the moderate-Democrat and evangelical flanks that can be moved.
+- **Act on it** — the master database is built outreach-ready (contact + handle + status columns), so mapping turns into engagement.
+
+## The roadmap (what the role delivers next)
+
+1. **Outreach activation** — backfill handles/contacts on the highest-leverage entities; work the list.
+2. **Airtable sync** — the live app already writes through to a shared backend; wiring Airtable makes it a real-time team CRM.
+3. **Live sentiment monitoring** — scan platforms for newly-emerging voices and shifting stances automatically.
+4. **Grassroots + B2B layers** — extend from key players to grassroots mobilization and the Israel-linked business network.
+
+---
+
+### What lives where
+
+- **Records** → the **BFT Master Database** in this workspace (one searchable table; filter by Category for per-network views). `bftId` is the permanent join key to the live app — never edit it.
+- **Methodology / criteria** → page `02`. **Open items / backlog** → page `03`. **Security & PII** → page `04`. **Founder's strategy notes** → page `05`.
+- **The graph views** (stance map, network) live in the live app — they can't be rebuilt in Notion.
+
+*Questions or a walkthrough: Andy Hirsh.*
