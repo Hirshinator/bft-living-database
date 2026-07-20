@@ -1,6 +1,6 @@
 # Backlog / Open Items
 
-**98 items.** Grouped by why they are not done.
+**100 items.** Grouped by why they are not done.
 
 
 ## WONT (ethics/legal -- Andy can override)
@@ -91,6 +91,13 @@
 **What/why:** Andy asked again 18 Jul 2026 where the Notion project stands. STATUS, plainly: NOTHING exists in Notion yet. The narrative pages (notion/*.md, 6 pages, ~1,499 blocks) and the record CSVs (export/*.csv, now including business_leader and all additions through this session) are generated and current, and tools/notion_import.py is built and tested offline. The ONLY blocker is a Notion integration token -- the Notion API is reachable (returns 401 without auth), so this is a credential gap, not a capability gap.
 
 **Next step:** ANDY'S 2-MINUTE UNBLOCK: (1) create an integration at notion.so/my-integrations, copy the token; (2) make an empty Notion page and add the integration to it via ... -> Connections (skipping this makes every API call 404); (3) echo 'NOTION_TOKEN=ntn_xxx' >> ~/.bft_secrets (NOT into chat); (4) give Claude the page URL. Then: python3 tools/notion_import.py <page_id> creates the narrative pages, and the CSVs import natively via Notion's own CSV import (better column typing than the API). The pages regenerate on every deploy, so they already include everything added this session.
+
+### Reverse Canary Mission: mine the enemy's 5,000-name list for allies (Andy-assisted)
+*Status: Needs Andy · Type: Bulk Source · Origin: Andy, 18 Jul 2026*
+
+**What/why:** RCM is an anti-Israel doxxing site listing ~5,000 people it accuses of supporting Israel -- i.e. a pre-sorted ally roster compiled by the enemy. Not scrapable from here (Cloudflare 403 + in-app browser timeout).
+
+**Next step:** HIGHEST-SCALE ally-discovery source available, but needs access. OPTIONS: (1) Andy opens reversecanarymission.org/search in his own browser and pastes batches; (2) try its sitemap/API from a different route; (3) a one-time export if the site structure allows. Then vet each name on our criteria (expect many minor/anonymous -- it's a target list, not a quality-ranked one). ETHICS: take public-figure identity only, never mirror RCM's doxxing of private individuals.
 
 
 ## CANT? (unverified -- re-test)
@@ -293,6 +300,13 @@
 **What/why:** Andy, 18 Jul 2026: 'do the whole government sweep, including historical if still living, always cite sources, bias to PRIMARY sources / actual statements, prefer most recent.' DONE THIS PASS: 95 current SENATORS added as primary-sourced baseline (congress.gov / congress-legislators, bioguide-keyed, stance UNRATED not fabricated); 3 PRINCIPALS added that were somehow absent -- Trump, JD Vance (yellowflag -- the restraint pivot), Marco Rubio (the whole Rubio/Vance axis had no nodes!); 3 governors (Abbott, Youngkin, Sanders) + DeSantis earlier; Hegseth + Stephen Miller (executive) earlier. PROVED the Senate vote pipeline on senate.gov XML: attached the S.J.Res 26 arms-block vote to the 15 yea-voting senators as primary-source records, 8 flagged yellowflag on the pattern.
 
 **Next step:** REMAINING, each a bounded primary-sourced roster: (1) SENATE VOTES -- run all Israel/Iran roll calls (S.J.Res 26/34/41/59 arms-disapprovals, Huckabee ambassador confirmation, antisemitism votes) across the 119th/118th and attach + score each senator, same 3-tier disambiguation as the House. (2) HOUSE BASELINE -- 342 current reps not yet added; add from congress-legislators with congress.gov links + their existing 2015-2026 vote scores. (3) GOVERNORS -- complete all 50 (need a verified roster; NGA); score on signed anti-BDS laws + trade missions. (4) EXECUTIVE -- rest of Cabinet, US Ambassador to Israel (Huckabee -- confirmed by the Senate vote just parsed!), UN (Waltz, tracked), NSC. (5) HISTORICAL-LIVING -- former Presidents/VPs/SecStates/ambassadors still living, with a Wikidata death-date filter so the dead are excluded. SOURCING RULE per Andy: primary official records + most-recent actual statements; no asserted stances -- baseline entries stay UNRATED until a vote/statement backs them.
+
+### Medium/blog-tier exploration plan
+*Status: Open · Type: Bulk Source · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: explore/analyze/research Medium for pro-Israel/Christian-Zionist/Judeo-Christian writers.
+
+**Next step:** Medium tag RSS feeds are fetchable (medium.com/feed/tag/zionism etc). Pull recent authors from /tag/israel, /tag/zionism, /tag/antisemitism, /tag/judeo-christian; each author profile links their other platforms -> join to the DB and score. Same pass covers the broader BLOG tier (WordPress/Ghost/self-hosted) Andy flagged -- found by search + following ally links, since the open web has no aggregator.
 
 
 ## (unclassified — mostly open work)
