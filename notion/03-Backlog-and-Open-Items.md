@@ -1,6 +1,6 @@
 # Backlog / Open Items
 
-**87 items.** Grouped by why they are not done.
+**95 items.** Grouped by why they are not done.
 
 
 ## WONT (ethics/legal -- Andy can override)
@@ -84,6 +84,13 @@
 **What/why:** Found 19 Jul 2026 while importing 'Builders For Tomorrow Project Notes 19 July 2026 2-43 PM.docx': the file contains the live BFT_PASSCODE in PLAINTEXT, alongside a personal mobile number and donor/funding notes. The passcode gates the live Vercel app. It was NOT reproduced into any generated file -- redacted in the Notion export and flagged instead.
 
 **Next step:** ANDY -- THREE ACTIONS: (1) delete the passcode line from the Word doc; (2) ROTATE the passcode in Vercel (Settings -> Environment Variables -> BFT_PASSCODE) and redeploy -- treat the current one as compromised, since it has been sitting in a synced document; (3) keep personal contact details out of any shared Notion page. Standing rule: the passcode belongs only in Vercel env vars, never written down.
+
+### NOTION STATUS: pages+importer ready; NOT yet created (needs token)
+*Status: Needs Andy · Type: Open Design · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy asked again 18 Jul 2026 where the Notion project stands. STATUS, plainly: NOTHING exists in Notion yet. The narrative pages (notion/*.md, 6 pages, ~1,499 blocks) and the record CSVs (export/*.csv, now including business_leader and all additions through this session) are generated and current, and tools/notion_import.py is built and tested offline. The ONLY blocker is a Notion integration token -- the Notion API is reachable (returns 401 without auth), so this is a credential gap, not a capability gap.
+
+**Next step:** ANDY'S 2-MINUTE UNBLOCK: (1) create an integration at notion.so/my-integrations, copy the token; (2) make an empty Notion page and add the integration to it via ... -> Connections (skipping this makes every API call 404); (3) echo 'NOTION_TOKEN=ntn_xxx' >> ~/.bft_secrets (NOT into chat); (4) give Claude the page URL. Then: python3 tools/notion_import.py <page_id> creates the narrative pages, and the CSVs import natively via Notion's own CSV import (better column typing than the API). The pages regenerate on every deploy, so they already include everything added this session.
 
 
 ## CANT? (unverified -- re-test)
@@ -237,6 +244,41 @@
 **What/why:** From the 'Problems' list in Andy's notes doc: 'Ilya Shapiro and Molly O'shea are found in the influencer section when they should be in a section that you sh[ould]...' -- the line is truncated in the document, but the complaint is clear: both are miscategorised as Influencers.
 
 **Next step:** Both are plausibly BUSINESS LEADER or a professional/institutional category rather than media influencers -- Shapiro is a legal scholar (Manhattan Institute), O'Shea a founder/investor-adjacent interviewer. ASK ANDY which section he intended, since the note is cut off. This is exactly the distinction the new Business-Leader-vs-Influencer criterion exists to enforce.
+
+### GOVERNOR-TIER BLIND SPOT: only 2 governors tracked (why DeSantis was missed)
+*Status: Open · Type: Bulk Source · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: 'add Ron DeSantis... why haven't you and fix why you might not have picked up on that.' DeSantis was genuinely absent. ROOT CAUSE: the coverage-gap tool built last turn only enumerated PODCAST rosters, and the House sweep only covers Congress. GOVERNORS are neither -- and the database had exactly 2 (Josh Shapiro, Sam Brownback). An entire tier of the most demonstrably pro-Israel officials in the country was never enumerated: DeSantis (FL), Abbott (TX), Youngkin (VA), Sanders (AR), Stitt (OK), and many more sign anti-BDS laws, lead Israel trade missions, and act as executives.
+
+**Next step:** FIX THE METHOD, not just the one miss: enumerate all 50 sitting governors + notable recent ones, and diff against the database exactly like the podcast coverage-gap. It is a bounded, ranked, public roster (NGA membership). Score each on: anti-BDS legislation signed, Israel trade missions, post-Oct-7 actions, and (for the ~28 who previously served in Congress) their House/Senate voting record, which the existing sweep can already supply. This same gap applies to SENATORS (the Senate sweep is still outstanding) and to STATE AGs. Governors are pure-executive so they need the signed-legislation method, not a vote record.
+
+### JNS network roster -- 'add everyone connected to JNS'
+*Status: Open · Type: Bulk Source · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: 'Add everyone connected to JNS' (repeated instruction). JNS (Jewish News Syndicate) is already tracked as an organization but its people are not swept.
+
+**Next step:** Bounded roster: JNS masthead/columnists (editor-in-chief Jonathan Tobin is a major voice) + its syndicated contributors. jns.org is fetchable. Diff against the database. Tobin especially is a high-value miss to check for.
+
+### NURTURE WATCH: Hillsdale + University of Austin grads
+*Status: Open · Type: Open Design · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: 'look out for Hillsdale College and University of Austin grads (uaustin.org) as potential influencers to nurture.'
+
+**Next step:** SMART SEEDING TARGET -- these two schools are ideological filters that pre-select for the values BFT wants, so their emerging grads are a high-yield, low-noise nurture pool (the seed-100 logic applied to a pipeline rather than individuals). uaustin.org did not resolve on fetch (verify the domain). Method: watch each school's notable-alumni/fellows lists and their students who are building audiences; file promising sub-30K ones into Nurture. This is prospective, not a one-time add.
+
+### HOST/EMPLOYEE ROSTERS owed for tracked orgs (the 'all hosts' fix)
+*Status: Open · Type: Bulk Source · Origin: Andy, standing; reasserted 18 Jul 2026*
+
+**What/why:** Andy flagged, correctly, that 'add all associated hosts/employees' has been under-executed. Orgs were added without their people.
+
+**Next step:** Bounded rosters to fetch and diff -- each org's masthead/team page: The Dispatch (Williamson, Isgur, French, Catoggio), CBN News (Robertson, Jessup, Chris Mitchell, Graham, Griffith, Thomas), Commentary (Podhoretz, Greenwald, Rothman, Rosen, Continetti), JNS (Tobin + columnists), The Majority Report (Vigeland, Lech), Breaking Points (Ball, Enjeti, Grim), Reagan Caucus, Valuetainment (PBD network incl. Adam Sonic), Ward Radio associates. Add each person with the org in 'related'. Going forward every org add triggers this automatically per the new criterion.
+
+### Sponsor sweep of allies' shows
+*Status: Open · Type: Bulk Source · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: keep track of sponsors of allies' content. Sponsor category exists but is thin.
+
+**Next step:** For each ally podcast/show, capture read-aloud ad sponsors into the sponsor category linked to the host; cross-reference the Businesses tab. Sponsor flight from a drifting show is an early-warning signal worth watching.
 
 
 ## (unclassified — mostly open work)
@@ -625,3 +667,17 @@
 **What/why:** The long-standing 'Andy gave an instruction Claude never saw' problem is now explained. His project-notes DOCX contains directions that never appeared in the Claude Code conversation -- including verbatim 'Use government data - any public official who voted against Defense funding for Israel crosses a red line', the exact instruction Andy quoted and Claude could not find. It was in this file. Imported 19 Jul 2026: 814 paragraphs, ~83k characters, sorted into themes in notion/05-Project-Notes-Organised.md.
 
 **Next step:** DIFFED the notes against the database: 51 of 59 handles and 16 of 34 named people were ALREADY tracked -- coverage was better than it felt. The genuine gaps found and now added: Shai Davidai, Steve Deace, Brother Rachid, Jewish Uncensored, Sue Knows Best, Gaye Gallops, Hugh Hewitt, David Hatchwell, John-Clark Levin. STILL UNMINED from the notes: an unsorted 'Problems' list (e.g. Ilya Shapiro and Molly O'Shea are in Influencers but Andy says they belong elsewhere), ~20 'investigate/identify' items (unnamed people from specific photos/videos), and tooling ideas (Grin, Statusphere, Captivate for influencer management; Neo4j/Obsidian/Palantir for graph mapping). NOTE: regular-Claude chat history is still NOT accessible -- this doc closes much of that gap but not all of it.
+
+### INVESTIGATE: Larry O'Connor and Alex Marlow
+*Status: Done · Type: Unverified Identity · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: 'Investigate Larry O'Connor. Investigate Alex Marlow.' Neither in the database.
+
+**Next step:** Larry O'Connor: conservative radio host (WMAL DC), Salem-adjacent -- radio-first, so newly relevant. Alex Marlow: editor-in-chief of Breitbart -- important because Breitbart's Israel line is a bellwether for where the populist right sits (nominally pro-Israel but audience-adjacent to the drift). Verify each one's own Israel record and add with a stance, do not assume.
+
+### Pastor Russell Johnson (Pursuit NW) -- verify handle before adding
+*Status: Open · Type: Unverified Identity · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: 'add Pastor Russell Johnson.' The handle I guessed (x.com/pastorbryanjohn) 404'd, so NOT added on a bad guess.
+
+**Next step:** Likely Pastor Russ Johnson of The Pursuit NW (Pastorusslive) -- a large, politically outspoken evangelical church/YouTube presence, exactly the leg-1 profile. CONFIRM which Russell Johnson Andy means and the correct handle, then add. Do not guess the handle again.
