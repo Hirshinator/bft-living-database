@@ -1,6 +1,6 @@
 # Backlog / Open Items
 
-**95 items.** Grouped by why they are not done.
+**97 items.** Grouped by why they are not done.
 
 
 ## WONT (ethics/legal -- Andy can override)
@@ -279,6 +279,20 @@
 **What/why:** Andy, 18 Jul 2026: keep track of sponsors of allies' content. Sponsor category exists but is thin.
 
 **Next step:** For each ally podcast/show, capture read-aloud ad sponsors into the sponsor category linked to the host; cross-reference the Businesses tab. Sponsor flight from a drifting show is an early-warning signal worth watching.
+
+### EXECUTIVE-BRANCH BLIND SPOT: Cabinet/ambassadors/NSC never enumerated (why Hegseth was missed)
+*Status: Open · Type: Bulk Source · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: Pete Hegseth -- US SECRETARY OF DEFENSE -- was absent. Same class of miss as DeSantis (governor): the database indexes MEDIA rosters + CONGRESS, but never the EXECUTIVE BRANCH, which is where Israel policy is actually SET. Hegseth and Stephen Miller now added; the tier is still unswept.
+
+**Next step:** Enumerate a bounded, public, ranked roster: the Cabinet (esp. SecDef, SecState, Treasury, DNI, CIA), the US Ambassador to Israel and to the UN (Mike Waltz already tracked), NSC leadership, and key sub-cabinet Israel/Iran officials. Score on executive ACTS toward Israel (arms decisions, UN votes, sanctions) not statements. This closes the third and final officials tier: Congress (done, House), Governors (queued), Executive (this). Together with the podcast/masthead coverage-gap tool, that is the full set of enumerable rosters -- run all three and the 'why didn't you add X' class of miss ends.
+
+### GOVERNMENT SWEEP -- Senate votes started; House baseline + governors + executive + historical to finish
+*Status: Partial · Type: Bulk Source · Origin: Andy, 18 Jul 2026*
+
+**What/why:** Andy, 18 Jul 2026: 'do the whole government sweep, including historical if still living, always cite sources, bias to PRIMARY sources / actual statements, prefer most recent.' DONE THIS PASS: 95 current SENATORS added as primary-sourced baseline (congress.gov / congress-legislators, bioguide-keyed, stance UNRATED not fabricated); 3 PRINCIPALS added that were somehow absent -- Trump, JD Vance (yellowflag -- the restraint pivot), Marco Rubio (the whole Rubio/Vance axis had no nodes!); 3 governors (Abbott, Youngkin, Sanders) + DeSantis earlier; Hegseth + Stephen Miller (executive) earlier. PROVED the Senate vote pipeline on senate.gov XML: attached the S.J.Res 26 arms-block vote to the 15 yea-voting senators as primary-source records, 8 flagged yellowflag on the pattern.
+
+**Next step:** REMAINING, each a bounded primary-sourced roster: (1) SENATE VOTES -- run all Israel/Iran roll calls (S.J.Res 26/34/41/59 arms-disapprovals, Huckabee ambassador confirmation, antisemitism votes) across the 119th/118th and attach + score each senator, same 3-tier disambiguation as the House. (2) HOUSE BASELINE -- 342 current reps not yet added; add from congress-legislators with congress.gov links + their existing 2015-2026 vote scores. (3) GOVERNORS -- complete all 50 (need a verified roster; NGA); score on signed anti-BDS laws + trade missions. (4) EXECUTIVE -- rest of Cabinet, US Ambassador to Israel (Huckabee -- confirmed by the Senate vote just parsed!), UN (Waltz, tracked), NSC. (5) HISTORICAL-LIVING -- former Presidents/VPs/SecStates/ambassadors still living, with a Wikidata death-date filter so the dead are excluded. SOURCING RULE per Andy: primary official records + most-recent actual statements; no asserted stances -- baseline entries stay UNRATED until a vote/statement backs them.
 
 
 ## (unclassified — mostly open work)
