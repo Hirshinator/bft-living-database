@@ -106,7 +106,12 @@ def md_to_blocks(md):
 def main():
     if len(sys.argv) < 2:
         sys.exit("usage: python3 tools/notion_import.py <parent_page_id>")
-    parent = re.sub(r"[^0-9a-fA-F]", "", sys.argv[1])[-32:]   # accept a full URL
+    # Accept a full URL. Strip any ?query first (its chars pollute the hex
+    # window), then take the LAST 32-hex run -- the page id is the trailing
+    # -xxxxxxxx... on the path, not whatever hex the query string contains.
+    arg = sys.argv[1].split("?", 1)[0]
+    hexruns = re.findall(r"[0-9a-fA-F]{32}", arg.replace("-", ""))
+    parent = hexruns[-1] if hexruns else re.sub(r"[^0-9a-fA-F]", "", arg)[-32:]
     files = sorted(glob.glob(os.path.join(NOTION_DIR, "*.md")))
     if not files:
         sys.exit(f"no .md files in {NOTION_DIR}")
