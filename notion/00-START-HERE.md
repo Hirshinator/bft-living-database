@@ -1,6 +1,6 @@
 # BFT Living Intelligence Database — Notion System of Record
 
-**Generated:** 19 Jul 2026 · **Source:** the live database + *Builders For Tomorrow Project Notes 19 July 2026*
+**Generated:** 20 Jul 2026 · **Source:** the live database + *Builders For Tomorrow Project Notes 19 July 2026*
 
 ## How to import this into Notion
 
@@ -21,14 +21,14 @@ The live app stays the source of truth for the graph views; Notion becomes the s
 
 ## Current contents
 
-- **influencer** — 334 records
+- **influencer** — 347 records
 - **political** — 134 records
 - **criteria** — 112 records
 - **backlog** — 95 records
 - **organization** — 89 records
 - **israeli_tech** — 38 records
 - **business_leader** — 35 records
-- **business** — 33 records
+- **business** — 34 records
 - **sponsor** — 9 records
 - **nurture** — 9 records
 - **ecosystem** — 4 records
