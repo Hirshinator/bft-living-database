@@ -21,10 +21,10 @@ The live app stays the source of truth for the graph views; Notion becomes the s
 
 ## Current contents
 
-- **influencer** — 355 records
+- **influencer** — 362 records
 - **political** — 237 records
 - **criteria** — 112 records
-- **backlog** — 97 records
+- **backlog** — 98 records
 - **organization** — 89 records
 - **israeli_tech** — 38 records
 - **business_leader** — 35 records

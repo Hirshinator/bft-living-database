@@ -1,6 +1,6 @@
 # Backlog / Open Items
 
-**97 items.** Grouped by why they are not done.
+**98 items.** Grouped by why they are not done.
 
 
 ## WONT (ethics/legal -- Andy can override)
@@ -695,3 +695,10 @@
 **What/why:** Andy, 18 Jul 2026: 'add Pastor Russell Johnson.' The handle I guessed (x.com/pastorbryanjohn) 404'd, so NOT added on a bad guess.
 
 **Next step:** Likely Pastor Russ Johnson of The Pursuit NW (Pastorusslive) -- a large, politically outspoken evangelical church/YouTube presence, exactly the leg-1 profile. CONFIRM which Russell Johnson Andy means and the correct handle, then add. Do not guess the handle again.
+
+### CLARIFY: ambiguous names from Andy's influencer map
+*Status: Needs Andy · Type: Confirm with Andy · Origin: Andy, 18 Jul 2026*
+
+**What/why:** From the 18 Jul influencer map, two entries are too ambiguous to add without guessing: 'Zoe Booth/Sankey' (unclear which name / who) and 'Tinashe Peter' (unclear -- Tinashe is a musician; 'Tinashe Peter' may be two people or a specific person). Also 'Matt nuclear' is unparseable.
+
+**Next step:** ANDY: clarify these three. Not added rather than invent entries. Everything else from that map's 58 names is now in (47 were already present; 9 net-new added; Cardoza-Moore and Elica Le Bon were false 'missing' -- already tracked).
