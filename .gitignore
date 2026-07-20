@@ -7,3 +7,4 @@ node_modules
 # local credentials -- never commit
 .bft_secrets
 *.secrets
+notion/_raw/
