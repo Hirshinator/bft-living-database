@@ -32,9 +32,9 @@ HTML = "/Users/andy/Downloads/BFT_Living_Database_6.html"
 API = "https://api.airtable.com/v0"
 
 # Must match TABLES in api/data.js exactly.
-TABLES = ["influencer", "organization", "business", "ecosystem", "political",
+TABLES = ["influencer", "business_leader", "organization", "business", "ecosystem", "political",
           "sponsor", "israeli_tech", "nurture", "criteria", "backlog"]
-ENTITY_TABLES = {"influencer", "organization", "business", "political",
+ENTITY_TABLES = {"influencer", "business_leader", "organization", "business", "political",
                  "sponsor", "israeli_tech", "nurture"}
 
 LONG = {"evidence", "researchNotes", "votingRecord", "talentEvidence",
