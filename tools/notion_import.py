@@ -68,10 +68,42 @@ def call(method, path, payload=None):
                          "  (404 usually means the integration wasn't added to the parent page -- step 2.)")
 
 
+_INLINE = re.compile(r'\*\*(.+?)\*\*|`(.+?)`|\[([^\]]+)\]\(([^)]+)\)|(?<!\*)\*(?!\*)([^*]+?)\*(?!\*)')
+
+
+def _emit(content, out, ann=None, link=None):
+    if not content:
+        return
+    for i in range(0, len(content), 1900):
+        seg = content[i:i + 1900]
+        item = {"type": "text", "text": {"content": seg}}
+        if link:
+            item["text"]["link"] = {"url": link}
+        if ann:
+            item["annotations"] = ann
+        out.append(item)
+
+
 def rich(text):
-    """Notion caps a single rich_text item at 2000 chars."""
-    return [{"type": "text", "text": {"content": text[i:i + 1900]}}
-            for i in range(0, max(len(text), 1), 1900)]
+    """Parse inline markdown (**bold**, `code`, [text](url), *italic*) into
+    Notion rich_text so it renders as formatting, not literal ** / ` characters.
+    Notion caps a single rich_text item at 2000 chars, so long spans are chunked."""
+    out, pos = [], 0
+    for m in _INLINE.finditer(text):
+        if m.start() > pos:
+            _emit(text[pos:m.start()], out)
+        if m.group(1) is not None:
+            _emit(m.group(1), out, {"bold": True})
+        elif m.group(2) is not None:
+            _emit(m.group(2), out, {"code": True})
+        elif m.group(3) is not None:
+            _emit(m.group(3), out, link=m.group(4))
+        elif m.group(5) is not None:
+            _emit(m.group(5), out, {"italic": True})
+        pos = m.end()
+    if pos < len(text):
+        _emit(text[pos:], out)
+    return out or [{"type": "text", "text": {"content": ""}}]
 
 
 def md_to_blocks(md):

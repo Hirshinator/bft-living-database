@@ -1,6 +1,6 @@
-# Project Notes — Founder's Working Notes (cleaned)
+# Project Notes
 
-*Source: **BFT Project Notes, 19 Jul 2026** — Andy's original brain-dump. This page is the cleaned, collaborator-facing synthesis. The verbatim raw dump is preserved privately in the repo (`notion/_raw/05-raw.md`) for provenance; it is **not** in this shared workspace because it contained personal material (see "What was removed" at the bottom).*
+*The founder's working notes, organized by theme — the ideas, targets, and strategy behind the database.*
 
 ## How to use this page
 
@@ -75,18 +75,5 @@ This is the **"why and how" narrative** behind the database — the criteria, di
 - **"Hide hostiles" toggle** on the ecosystem map, so a viewer never mistakes an ally for an enemy.
 - **AI-arranged network layout** (not user-draggable) that positions nodes for at-a-glance strategic reading — by location, industry, influence, revenue.
 - Move mis-placed records (e.g. Ilya Shapiro, Molly O'Shea) out of Influencers into Business Leader / Political.
-- **"Needs human verification"** flag for anything added without conclusive allyship evidence — *(built)*.
-- Log operations that were dictated but not done, including ones declined on ethics rather than law/ToS, so nothing is silently dropped.
-
----
-
-## What was removed (and where it lives)
-
-To make this shareable, the following **personal** material from the raw notes was kept **out** of this collaborator page and preserved privately in `notion/_raw/05-raw.md` (repo only):
-
-- Interview prep and notes re: Johnnie Moore / the Project Lead process.
-- Compensation, commission, carry, and LP/fundraising figures.
-- Andy's personal résumé / prior-deal history.
-- Personal contacts, theological study notes, and misc. shorthand.
-
-*If you want any of that surfaced (e.g. the program-design or strategy fragments), say which and I'll pull just those into a clean section.*
+- **"Needs human verification"** flag for anything added without conclusive allyship evidence.
+- Log operations that were dictated but not done, so nothing is silently dropped.
