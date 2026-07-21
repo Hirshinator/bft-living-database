@@ -111,8 +111,11 @@ def main():
                     keys.append(k)
         if "name" in keys:
             keys.remove("name")
-        # primary field first (name), then the rest, then outreach cols
-        fields = [{"name": "name", "type": "singleLineText"}]
+        # primary field first (name), then the runtime `id` the app tags each
+        # record with (NOT a seed key -- without this column the first save
+        # 422s "Unknown field name: id"), then the rest, then outreach cols.
+        fields = [{"name": "name", "type": "singleLineText"},
+                  {"name": "id", "type": "singleLineText"}]
         fields += [field_def(k) for k in keys]
         if cat in ENTITY_TABLES:
             fields += [{"name": "Email", "type": "email"},
