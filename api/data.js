@@ -36,7 +36,7 @@ const AIRTABLE_MODE = Boolean(AT_TOKEN && AT_BASE);
 // Curated categories only. The LinkedIn network_* tables stay backend-only and
 // are never pushed to Airtable, per the standing instruction.
 const TABLES = [
-  "influencer", "business_leader", "organization", "business", "ecosystem",
+  "influencer", "business_leader", "grassroots", "organization", "business", "ecosystem",
   "political", "sponsor", "israeli_tech", "nurture", "criteria", "backlog",
 ];
 

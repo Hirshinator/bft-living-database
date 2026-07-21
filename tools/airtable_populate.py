@@ -15,7 +15,7 @@ import os, re, sys, json, time, uuid, subprocess, urllib.request, urllib.error
 
 JSC = "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc"
 HTML = "/Users/andy/Downloads/BFT_Living_Database_6.html"
-TABLES = ["influencer", "business_leader", "organization", "business", "ecosystem",
+TABLES = ["influencer", "business_leader", "grassroots", "organization", "business", "ecosystem",
           "political", "sponsor", "israeli_tech", "nurture", "criteria", "backlog"]
 
 

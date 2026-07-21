@@ -338,6 +338,7 @@
   const CATEGORIES = {
     influencer: { label: "Influencers", color: "navy" },
     business_leader: { label: "Business Leaders", color: "navy" },
+    grassroots: { label: "Grassroots Professionals", color: "navy" },
     organization: { label: "Organizations", color: "navy" },
     business: { label: "Businesses (B2B)", color: "navy" },
     ecosystem: { label: "Regional Ecosystems", color: "navy" },
@@ -355,7 +356,7 @@
   // Categories shown as clickable tabs in the UI. network_* categories stay loaded,
   // merged, and saved in the background (backend data layer) but are not exposed
   // as visible frontend tabs, per instruction: LinkedIn network data is backend-only.
-  const VISIBLE_CATEGORIES = ["influencer", "business_leader", "organization", "business", "ecosystem", "political", "sponsor", "israeli_tech", "nurture", "criteria", "backlog"];
+  const VISIBLE_CATEGORIES = ["influencer", "business_leader", "organization", "business", "ecosystem", "political", "sponsor", "israeli_tech", "nurture", "grassroots", "criteria", "backlog"];
 
   // Visualization views. These render alongside the data-category tabs but are not
   // data categories themselves -- they read from state.data and render custom
@@ -368,6 +369,7 @@
   const VIEW_IDS = VIEWS.map(v => v.id);
 
   const SEED_DATA = {
+    grassroots: [],
     influencer: [
       {name:"John Hagee", bftId:"inf-b254968f", platform:"YouTube, Podcast", audience:"10M+ CUFI members", religion:"Evangelical (Christian Zionist)", ideology:"Conservative", stance:"pro", evidence:"CUFI founder &mdash; built the largest pro-Israel Christian organization in American history.", links:"cufi.org; x.com/PastorJohnHagee; instagram.com/pastorjohnhagee", source:"cufi.org"},
       {name:"Franklin Graham", bftId:"inf-da7a6866", platform:"YouTube, Instagram", audience:"9M+ followers", religion:"Evangelical", ideology:"Conservative", stance:"pro", podcastStatus:"No podcast (TARGET)", seedStage:"Candidate", baselineAudience:"9M+ followers", evidence:"BGEA & Samaritan's Purse leader, #2 JPost pro-Israel Christians 2025.", links:"jpost.com, samaritanspurse.org; x.com/franklin_graham", source:"jpost.com -- #2 Pro-Israel Christians 2025, Sep 2025", handleSource:"auto-matched 18 Jul 2026 (X display name matched first+last; spot-check before relying on it)"},
@@ -11200,7 +11202,7 @@
   // seed entry to an existing record by bftId (preferred) or name and refresh its
   // fields from the seed, keeping the runtime id. Entries that exist only in the
   // backend (added live) are left untouched.
-  const SEED_VERSION = "a9ceb08e3138";
+  const SEED_VERSION = "6351dad90537";
   function syncSeedsAuthoritative(existing) {
     let changed = 0, refreshed = 0;
     Object.keys(SEED_DATA).forEach(cat => {
@@ -11341,7 +11343,7 @@
           // proactively whose allyship is not conclusive -- so a reviewer can
           // find every soft/inferred entry at a glance.
           const softText = /verify|TBD|unrated|unconfirmed|not yet established|not clearly|pending|possible|confirm |handle 404|do NOT read/i;
-          const hasStance = { influencer:1, business_leader:1, political:1, nurture:1 };
+          const hasStance = { influencer:1, business_leader:1, political:1, nurture:1, grassroots:1 };
           Object.keys(CATEGORIES).forEach(cat => {
             (existing[cat] || []).forEach(item => {
               if (item.needsVerification) return;                 // already set/cleared
@@ -12611,6 +12613,7 @@
       {key:"notes", label:"Notes (triage status)", type:"textarea"},
     ],
   };
+  FIELD_DEFS.grassroots = FIELD_DEFS.business_leader;
 
   function openModal(id, cat) {
     cat = cat || state.activeTab;
