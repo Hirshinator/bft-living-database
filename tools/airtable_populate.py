@@ -16,7 +16,7 @@ import os, re, sys, json, time, uuid, subprocess, urllib.request, urllib.error
 JSC = "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc"
 HTML = "/Users/andy/Downloads/BFT_Living_Database_6.html"
 TABLES = ["influencer", "business_leader", "grassroots_business", "grassroots_politics", "organization", "business", "ecosystem",
-          "political", "sponsor", "israeli_tech", "nurture", "criteria", "backlog"]
+          "political", "sponsor", "israeli_tech", "nurture", "rising_stars", "swing", "criteria", "backlog"]
 
 
 def tok():

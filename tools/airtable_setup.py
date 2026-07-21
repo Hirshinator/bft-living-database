@@ -33,7 +33,7 @@ API = "https://api.airtable.com/v0"
 
 # Must match TABLES in api/data.js exactly.
 TABLES = ["influencer", "business_leader", "grassroots_business", "grassroots_politics", "organization", "business", "ecosystem", "political",
-          "sponsor", "israeli_tech", "nurture", "criteria", "backlog"]
+          "sponsor", "israeli_tech", "nurture", "rising_stars", "swing", "criteria", "backlog"]
 ENTITY_TABLES = {"influencer", "business_leader", "grassroots_business", "grassroots_politics", "organization", "business", "political",
                  "sponsor", "israeli_tech", "nurture"}
 

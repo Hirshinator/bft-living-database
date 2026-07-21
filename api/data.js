@@ -37,7 +37,7 @@ const AIRTABLE_MODE = Boolean(AT_TOKEN && AT_BASE);
 // are never pushed to Airtable, per the standing instruction.
 const TABLES = [
   "influencer", "business_leader", "grassroots_business", "grassroots_politics", "organization", "business", "ecosystem",
-  "political", "sponsor", "israeli_tech", "nurture", "criteria", "backlog",
+  "political", "sponsor", "israeli_tech", "nurture", "rising_stars", "swing", "criteria", "backlog",
 ];
 
 /* ------------------------------- redis ---------------------------------- */
