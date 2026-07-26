@@ -73,27 +73,84 @@ def main():
                 nodes += 1
         print(f"nodes: {nodes}")
 
-        # 2. relationships from the `related` field (comma/&/;-separated names)
-        edges = 0
+        # 2. TYPED relationships -- ported from the app's edge derivation so the
+        #    graph brain matches the in-app map: org-leader, `related`, and an
+        #    evidence-mention scan, each typed by keyword + stance.
+        raws = {}  # name -> raw record
         for cat, rows in d.items():
             if cat not in ENTITY:
                 continue
             for r in rows:
-                src = r.get("name", "").strip()
-                rel = str(r.get("related", ""))
-                if not src or not rel:
-                    continue
-                for frag in re.split(r"[;,]| and | & ", rel):
-                    frag = re.sub(r"\(.*?\)", "", frag).strip()
-                    if len(frag) < 3:
-                        continue
-                    tgt = name_index.get(frag.lower())
-                    if tgt and tgt != src:
-                        ses.run(
-                            "MATCH (a:Entity {name:$a}), (b:Entity {name:$b}) "
-                            "MERGE (a)-[:CONNECTED_TO]->(b)", a=src, b=tgt)
-                        edges += 1
-        print(f"relationship edges (from `related`): {edges}")
+                nm = r.get("name", "").strip()
+                if nm:
+                    raws[nm] = (cat, r)
+
+        def is_pro(s): return s == "pro"
+        def is_hos(s): return s in ("hostile", "redflag")
+
+        def pair_type(src, a_raw, b_raw):
+            t = ((src.get("evidence", "") or "") + " " + (src.get("researchNotes", "") or "")).lower()
+            if re.search(r"co-?host", t): return "CO_HOST"
+            if re.search(r"\b(guest|interview|hosted|appeared on|featured)\b", t): return "HOST_GUEST"
+            if re.search(r"\b(co-?found|business partner|partner|invested|backer|portfolio)\b", t): return "BUSINESS_PARTNER"
+            if re.search(r"\b(friend|close ally|allied with|befriend)\b", t): return "FRIEND"
+            if re.search(r"\b(rival|feud|beef|clash)\b", t): return "RIVAL"
+            sa, sb = a_raw.get("stance"), b_raw.get("stance")
+            if is_pro(sa) and is_pro(sb): return "ALLY"
+            if is_hos(sa) and is_hos(sb): return "ENEMY"
+            if (is_pro(sa) and is_hos(sb)) or (is_hos(sa) and is_pro(sb)): return "ADVERSARY"
+            return "ASSOCIATE"
+
+        edges = {}  # (a,b) -> type  (dedup, keep most-specific)
+        RANK = {"SAME_ORG": 5, "BUSINESS_PARTNER": 4, "CO_HOST": 4, "HOST_GUEST": 3,
+                "FRIEND": 3, "RIVAL": 3, "ADVERSARY": 2, "ENEMY": 2, "ALLY": 1, "ASSOCIATE": 0}
+
+        def put(a, b, ty):
+            if a == b or not a or not b:
+                return
+            key = tuple(sorted((a, b)))
+            if key not in edges or RANK.get(ty, 0) > RANK.get(edges[key], 0):
+                edges[key] = ty
+
+        names = list(raws)
+        low = {n.lower(): n for n in names}
+        # 2a. org/media/business leader -> person works there
+        for nm, (cat, r) in raws.items():
+            if cat in ("organization", "media", "business"):
+                leader = re.sub(r"\(.*?\)", "", str(r.get("leader", "")))
+                for frag in re.split(r",|&|\band\b", leader):
+                    frag = frag.strip()
+                    if len(frag) >= 4 and frag.lower() in low:
+                        put(nm, low[frag.lower()], "SAME_ORG")
+        # 2b. explicit related -> typed
+        for nm, (cat, r) in raws.items():
+            for frag in re.split(r"[;,]", str(r.get("related", ""))):
+                frag = frag.strip().lower()
+                if frag and frag in low and low[frag] != nm:
+                    put(nm, low[frag], pair_type(r, r, raws[low[frag]][1]))
+        # 2c. evidence-mention scan -> associate (densifies)
+        blobs = {nm: (str(r.get("evidence", "")) + " " + str(r.get("researchNotes", "")) + " " + str(r.get("platform", ""))).lower()
+                 for nm, (cat, r) in raws.items()}
+        pats = [(nm, re.compile(r"(^|[^a-z0-9])" + re.escape(nm.lower()) + r"([^a-z0-9]|$)"))
+                for nm in names if len(nm) >= 5]
+        for src, blob in blobs.items():
+            for tgt, pat in pats:
+                if tgt != src and pat.search(blob):
+                    put(src, tgt, "ASSOCIATE")
+
+        # write typed edges (batched by type for APOC-free dynamic rel via per-type MERGE)
+        by_type = {}
+        for (a, b), ty in edges.items():
+            by_type.setdefault(ty, []).append({"a": a, "b": b})
+        for ty, pairs in by_type.items():
+            ses.run(
+                f"UNWIND $pairs AS p MATCH (a:Entity {{name:p.a}}), (b:Entity {{name:p.b}}) "
+                f"MERGE (a)-[:{ty}]->(b)", pairs=pairs)
+        from collections import Counter
+        tc = Counter(edges.values())
+        print(f"typed relationship edges: {len(edges)}")
+        for ty, n in tc.most_common():
+            print(f"   {ty:<18s} {n}")
 
         # 3. demo queries -- prove the graph brain works
         print("\n=== GRAPH BRAIN DEMO ===")
