@@ -51,10 +51,14 @@ def main():
     d=load(); limit=int(sys.argv[sys.argv.index("--limit")+1]) if "--limit" in sys.argv else 9999
     targets=[]
     if "--orgs" in sys.argv:
+        from urllib.parse import urlparse
         for c in ORG:
             for r in d.get(c,[]):
-                if not (r.get("logo") or r.get("photo")) and (r.get("website") or "").strip():
-                    targets.append((r["name"], r["website"], "site"))
+                if r.get("logo") or r.get("photo"): continue
+                site=(r.get("website") or "").strip() or (r.get("sourceUrl") or "").strip()
+                if not site.startswith("http"): continue
+                p=urlparse(site); root=f"{p.scheme}://{p.netloc}"   # site root -> favicon/og = the logo, not an article image
+                targets.append((r["name"], root, "site"))
     if "--youtube" in sys.argv:
         for c in ["influencer","business_leader","nurture","rising_stars","swing","political"]:
             for r in d.get(c,[]):
@@ -78,10 +82,16 @@ def main():
                 if not img: report.append((name,"no avatar")); continue
                 b64=to_b64(get(img))
             else:
-                html=get(url).decode("utf-8","ignore")
-                img=og_image(html)
-                if not img: report.append((name,"no og:image")); continue
-                b64=to_b64(get(absolutize(url,img)))
+                from urllib.parse import urlparse
+                b64=None
+                try:
+                    html=get(url).decode("utf-8","ignore")
+                    img=og_image(html)
+                    if img: b64=to_b64(get(absolutize(url,img)))
+                except Exception: pass
+                if not b64:   # universal fallback: Google's favicon service (never bot-blocks)
+                    dom=urlparse(url).netloc
+                    b64=to_b64(get(f"https://www.google.com/s2/favicons?domain={dom}&sz=128"))
             if not b64: report.append((name,"decode fail")); continue
         except Exception as e:
             report.append((name, type(e).__name__)); continue
