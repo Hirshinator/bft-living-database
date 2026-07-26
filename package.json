@@ -2,5 +2,8 @@
   "name": "bft-living-database",
   "version": "1.0.0",
   "private": true,
-  "description": "BFT Living Intelligence Database -- shared, passcode-gated deployment on Vercel."
+  "description": "BFT Living Intelligence Database -- shared, passcode-gated deployment on Vercel.",
+  "dependencies": {
+    "neo4j-driver": "^6.2.0"
+  }
 }
