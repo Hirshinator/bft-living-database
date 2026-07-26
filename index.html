@@ -12015,10 +12015,29 @@
     nodes.forEach(n => { byId[n.id] = n; });
 
     const edgeMap = new Map();
-    function addEdge(a, b) {
+    const _edgeRank = { same_org:5, business_partner:4, co_host:4, host_guest:3, friend:3, rival:3, adversary:2, enemy:2, ally:1, associate:0 };
+    function addEdge(a, b, type) {
       if (a === b) return;
+      type = type || "associate";
       const key = a < b ? a + "|" + b : b + "|" + a;
-      edgeMap.set(key, (edgeMap.get(key) || 0) + 1);
+      const prev = edgeMap.get(key);
+      if (!prev) edgeMap.set(key, { weight: 1, type });
+      else { prev.weight += 1; if ((_edgeRank[type]||0) > (_edgeRank[prev.type]||0)) prev.type = type; }
+    }
+    const _isPro = s => s === "pro";
+    const _isHos = s => s === "hostile" || s === "redflag";
+    function pairType(srcRaw, aRaw, bRaw) {
+      const t = ((srcRaw.evidence||"") + " " + (srcRaw.researchNotes||"")).toLowerCase();
+      if (/co-?host/.test(t)) return "co_host";
+      if (/\b(guest|interview|hosted|appeared on|featured)\b/.test(t)) return "host_guest";
+      if (/\b(co-?found|business partner|partner|invested|backer|portfolio)\b/.test(t)) return "business_partner";
+      if (/\b(friend|close ally|allied with|befriend)\b/.test(t)) return "friend";
+      if (/\b(rival|feud|beef|clash)\b/.test(t)) return "rival";
+      const sa = (aRaw||{}).stance, sb = (bRaw||{}).stance;
+      if (_isPro(sa) && _isPro(sb)) return "ally";
+      if (_isHos(sa) && _isHos(sb)) return "enemy";
+      if ((_isPro(sa)&&_isHos(sb)) || (_isHos(sa)&&_isPro(sb))) return "adversary";
+      return "associate";
     }
 
     // 1. Organization leader field -> match fragments against influencer/political names
@@ -12030,7 +12049,7 @@
       frags.forEach(frag => {
         nodes.forEach(n => {
           if ((n.cat === "influencer" || n.cat === "political") && n.name.toLowerCase() === frag.toLowerCase()) {
-            addEdge(orgNode.id, n.id);
+            addEdge(orgNode.id, n.id, "same_org");
           }
         });
       });
@@ -12041,7 +12060,7 @@
       if (!n.raw.related) return;
       n.raw.related.split(/[,;]/).map(s => s.trim().toLowerCase()).filter(Boolean).forEach(frag => {
         nodes.forEach(other => {
-          if (other.id !== n.id && other.name.toLowerCase() === frag) addEdge(n.id, other.id);
+          if (other.id !== n.id && other.name.toLowerCase() === frag) addEdge(n.id, other.id, pairType(n.raw, n.raw, other.raw));
         });
       });
     });
@@ -12055,13 +12074,13 @@
       try { re = new RegExp("(^|[^a-z0-9])" + esc + "([^a-z0-9]|$)"); } catch (e) { return; }
       blobs.forEach(b => {
         if (b.id === target.id) return;
-        if (re.test(b.text)) addEdge(b.id, target.id);
+        if (re.test(b.text)) addEdge(b.id, target.id, "associate");
       });
     });
 
-    const edges = Array.from(edgeMap.entries()).map(([key, weight]) => {
+    const edges = Array.from(edgeMap.entries()).map(([key, val]) => {
       const [a, b] = key.split("|");
-      return { a, b, weight };
+      return { a, b, weight: val.weight, type: val.type };
     });
     const degree = {};
     edges.forEach(e => { degree[e.a] = (degree[e.a] || 0) + 1; degree[e.b] = (degree[e.b] || 0) + 1; });
@@ -12166,7 +12185,9 @@
       return s;
     }
 
-    function nodeRadius(n) { return 4 + Math.min(n.degree, 12) * 1.1; }
+    function _parseReach(raw){ const t=((raw.audience||"")+" "+(raw.platform||"")); const m=t.match(/([\d.]+)\s*([KMB])/i); return m?parseFloat(m[1])*({k:1e3,m:1e6,b:1e9}[m[2].toLowerCase()]):0; }
+    function _influence(n){ const raw=n.raw||{}; const reach=_parseReach(raw); const rs=reach>0?Math.min(Math.log10(reach),8)/8:0; const al=(parseFloat(raw.allianceScore)||0)/100; const cw={political:0.75,business_leader:0.6,media:0.6,organization:0.5,business:0.5,sponsor:0.45,israeli_tech:0.5}[n.cat]||0.3; const dg=Math.min(n.degree||0,12)/12; return 0.30*rs+0.28*al+0.22*cw+0.20*dg; }
+    function nodeRadius(n) { return 5 + _influence(n) * 17; }
 
     function draw() {
       const rect = holder.getBoundingClientRect();
@@ -12183,6 +12204,7 @@
       const nodeHidden = (nn) => !nn || hiddenCats[nn.cat] ||
         (networkView.hideHostiles && nn.raw && (nn.raw.stance === "hostile" || nn.raw.stance === "redflag"));
 
+      const EDGE_STYLE = { same_org:{c:"#B8860B",d:[],w:1.5}, business_partner:{c:"#0E7490",d:[],w:1.5}, co_host:{c:"#7C3AED",d:[6,4],w:1.3}, host_guest:{c:"#2E86C1",d:[2,3],w:1.1}, friend:{c:"#0F6E56",d:[],w:1.2}, ally:{c:"#2E8B57",d:[],w:1.0}, rival:{c:"#D97706",d:[5,4],w:1.2}, adversary:{c:"#C0392B",d:[5,4],w:1.4}, enemy:{c:"#7B241C",d:[],w:1.4}, associate:{c:"#6b7a8f",d:[1,4],w:0.6} };
       edges.forEach(e => {
         if (nodeHidden(byId[e.a]) || nodeHidden(byId[e.b])) return;
         const a = byId[e.a], b = byId[e.b];
@@ -12191,13 +12213,17 @@
         if (networkView.selectedId) {
           op = (e.a === networkView.selectedId || e.b === networkView.selectedId) ? 0.75 : 0.03;
         }
-        ctx.strokeStyle = `rgba(27,58,92,${op})`;
-        ctx.lineWidth = Math.min(e.weight, 3) * 0.6 + 0.4;
+        const st = (EDGE_STYLE[e.type] || EDGE_STYLE.associate);
+        ctx.globalAlpha = op;
+        ctx.strokeStyle = st.c;
+        ctx.setLineDash(st.d);
+        ctx.lineWidth = st.w * (Math.min(e.weight, 3) * 0.35 + 0.75);
         ctx.beginPath();
         ctx.moveTo(a.x, a.y);
         ctx.lineTo(b.x, b.y);
         ctx.stroke();
       });
+      ctx.setLineDash([]); ctx.globalAlpha = 1;
 
       nodes.forEach(n => {
         if (nodeHidden(n)) return;
@@ -12252,6 +12278,12 @@
       });
 
       ctx.restore();
+      (function(){ const items=[["Works for / same org","#B8860B",[]],["Business partner","#0E7490",[]],["Co-host","#7C3AED",[6,4]],["Host \u2013 guest","#2E86C1",[2,3]],["Friends","#0F6E56",[]],["Ally \u2194 ally","#2E8B57",[]],["Rivals","#D97706",[5,4]],["Ally \u2194 hostile","#C0392B",[5,4]],["Enemy-aligned","#7B241C",[]]];
+        const x=12,y0=16,lh=15,bw=176,bh=items.length*lh+40; ctx.save(); ctx.globalAlpha=1;
+        ctx.fillStyle="rgba(253,251,247,0.92)"; ctx.fillRect(x-7,y0-11,bw,bh); ctx.strokeStyle="#d8d2c4"; ctx.lineWidth=1; ctx.strokeRect(x-7,y0-11,bw,bh);
+        ctx.fillStyle="#1C2530"; ctx.font="700 9px -apple-system, sans-serif"; ctx.textAlign="left"; ctx.fillText("CONNECTION TYPE",x,y0);
+        items.forEach((it,i)=>{ const yy=y0+16+i*lh; ctx.strokeStyle=it[1]; ctx.lineWidth=1.8; ctx.setLineDash(it[2]); ctx.beginPath(); ctx.moveTo(x,yy); ctx.lineTo(x+24,yy); ctx.stroke(); ctx.setLineDash([]); ctx.fillStyle="#1C2530"; ctx.font="10px -apple-system, sans-serif"; ctx.fillText(it[0],x+30,yy+3); });
+        ctx.fillStyle="#6b7a8f"; ctx.font="italic 9px -apple-system, sans-serif"; ctx.fillText("node size = influence (reach + score + power)",x,y0+20+items.length*lh); ctx.restore(); })();
     }
 
     function renderSidePanel() {
