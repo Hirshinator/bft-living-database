@@ -78,6 +78,18 @@ def main():
                 if not (r.get("logo") or r.get("photo")):
                     h=yt_handle(r)
                     if h: targets.append((r["name"], "https://www.youtube.com/"+h, "yt"))
+    if "--unavatar" in sys.argv:
+        for c in PEOPLE:
+            for r in d.get(c,[]):
+                if r.get("logo") or r.get("photo"): continue
+                blob=(r.get("links","") or "")+" "+(r.get("sourceUrl","") or "")+" "+(r.get("platform","") or "")
+                xm=re.search(r'(?:x|twitter)\.com/([A-Za-z0-9_]{2,15})\b', blob)
+                ym=re.search(r'youtube\.com/@([\w.-]+)', blob)
+                bad={"i","intent","home","search","share","status","hashtag","explore"}
+                if xm and xm.group(1).lower() not in bad:
+                    targets.append((r["name"], "https://unavatar.io/x/"+xm.group(1)+"?fallback=false", "unavatar"))
+                elif ym:
+                    targets.append((r["name"], "https://unavatar.io/youtube/"+ym.group(1)+"?fallback=false", "unavatar"))
     targets=targets[:limit]
     def yt_avatar(url):
         from yt_dlp import YoutubeDL
@@ -103,6 +115,8 @@ def main():
                     if pid!="-1" and pg.get("thumbnail"): thumb=pg["thumbnail"]["source"]
                 if not thumb: report.append((name,"no wiki page/image")); continue
                 b64=to_b64(get(thumb))
+            elif kind=="unavatar":
+                b64=to_b64(get(url))   # unavatar.io resolves x/youtube handle -> avatar server-side (404 if none)
             elif kind=="yt":
                 img=yt_avatar(url)
                 if not img: report.append((name,"no avatar")); continue
