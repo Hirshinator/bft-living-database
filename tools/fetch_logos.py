@@ -14,7 +14,14 @@ UA={"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/60
 ORG={"organization","media","business","israeli_tech","sponsor"}
 
 def get(u,to=12):
-    return urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=to).read()
+    import time as _t
+    for attempt in range(6):
+        try:
+            return urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=to).read()
+        except urllib.error.HTTPError as e:
+            if e.code in (429,500,502,503) and attempt < 5:
+                _t.sleep(4*(attempt+1)); continue   # back off on transient rate limits
+            raise
 
 def to_b64(raw):
     try:
@@ -59,8 +66,14 @@ def main():
                 if not site.startswith("http"): continue
                 p=urlparse(site); root=f"{p.scheme}://{p.netloc}"   # site root -> favicon/og = the logo, not an article image
                 targets.append((r["name"], root, "site"))
+    PEOPLE=["political","business_leader","influencer","nurture","rising_stars","swing"]
+    if "--wiki" in sys.argv:
+        for c in PEOPLE:
+            for r in d.get(c,[]):
+                if not (r.get("logo") or r.get("photo")):
+                    targets.append((r["name"], None, "wiki"))
     if "--youtube" in sys.argv:
-        for c in ["influencer","business_leader","nurture","rising_stars","swing","political"]:
+        for c in PEOPLE:
             for r in d.get(c,[]):
                 if not (r.get("logo") or r.get("photo")):
                     h=yt_handle(r)
@@ -74,10 +87,23 @@ def main():
         av=[t for t in thumbs if "avatar" in (t.get("id","")+t.get("url","")).lower()] or thumbs
         return av[-1]["url"] if av else None
 
+    import time as _t
+    from urllib.parse import urlencode
+    PACE=float(sys.argv[sys.argv.index("--pace")+1]) if "--pace" in sys.argv else 0.4
     src=open(P,encoding="utf-8").read(); done=0; report=[]
     for name, url, kind in targets:
+        _t.sleep(PACE)   # deliberate throttle -> never trip a rate limit
         try:
-            if kind=="yt":
+            if kind=="wiki":
+                q=urlencode({"action":"query","titles":name,"redirects":1,"prop":"pageimages",
+                             "piprop":"thumbnail","pithumbsize":"128","format":"json"})
+                j=json.loads(get("https://en.wikipedia.org/w/api.php?"+q).decode("utf-8","ignore"))
+                thumb=None
+                for pid,pg in j.get("query",{}).get("pages",{}).items():
+                    if pid!="-1" and pg.get("thumbnail"): thumb=pg["thumbnail"]["source"]
+                if not thumb: report.append((name,"no wiki page/image")); continue
+                b64=to_b64(get(thumb))
+            elif kind=="yt":
                 img=yt_avatar(url)
                 if not img: report.append((name,"no avatar")); continue
                 b64=to_b64(get(img))
