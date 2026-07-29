@@ -367,12 +367,24 @@
   // charts/graphs instead of a card grid. Scoped to the curated watchlist categories
   // only; LinkedIn network_* data stays backend-only per the instruction above.
   const VIEWS = [
+    { id: "feed", label: "Live Feed", icon: "&#128225" },
     { id: "stance_map", label: "Stance Map", icon: "&#9737" },
     { id: "network", label: "Ecosystem Network", icon: "&#8982" },
   ];
   const VIEW_IDS = VIEWS.map(v => v.id);
 
   const SEED_DATA = {
+    feed: [
+      {id:"ev-001", date:"2026-07-28", persons:["Nick Fuentes"], type:"statement", sentiment:"hostile", headline:"Fuentes escalates 'Groyper' antisemitic messaging into evangelical Gen-Z spaces", detail:"The Groyper movement positioned as distinct from mainstream MAGA; continued infiltration of young evangelical audiences.", source:"", addedBy:"Claude", verified:"no"},
+      {id:"ev-002", date:"2026-07-27", persons:["JP Sears","Joel Webbon"], type:"adversary", sentiment:"hostile", headline:"JP Sears aligns with Joel Webbon's anti-Christian-Zionism", detail:"Confirmed shift to explicit anti-Zionist content; network tie to hostile-list figure Joel Webbon ('Shred Christian Zionism').", source:"", addedBy:"Andy/Claude", verified:"yes"},
+      {id:"ev-003", date:"2026-07-26", persons:["Lando Vannata"], type:"statement", sentiment:"pro", headline:"UFC's Lando Vannata puts on tefillin at the Western Wall, reveals Jewish heritage", detail:"Lost ~1,900 IG followers within hours; praised by the Yesha Council -- a public act of Jewish identity under social pressure.", source:"israelnationalnews.com/news/430755", addedBy:"Claude", verified:"yes"},
+      {id:"ev-004", date:"2026-07-24", persons:["Stephen A. Smith","Tucker Carlson"], type:"hosted", sentiment:"watch", headline:"Stephen A. Smith hosts Tucker Carlson", detail:"A mainstream-sports megaphone platforming a hostile-list foreign-policy voice -- exactly the cross-pollination this feed exists to catch.", source:"", addedBy:"Andy", verified:"no"},
+      {id:"ev-005", date:"2026-07-22", persons:["Allie Beth Stuckey"], type:"post", sentiment:"pro", headline:"Allie Beth Stuckey posts positively about 'Judeo-Christian' values", detail:"Positive Judeo-Christian framing -- a sentiment signal worth logging for an evangelical bridge figure.", source:"", addedBy:"Andy", verified:"no"},
+      {id:"ev-006", date:"2026-07-23", persons:["International Freedom Coalition (IFC)","Ryan Williams (koreanscot)"], type:"conference", sentiment:"pro", headline:"International Freedom Coalition holds inaugural DC conference", detail:"Unites Middle Eastern Christians, Yazidis, Druze, Jews, Iranians and Kurds against jihadist extremism.", source:"", addedBy:"Andy", verified:"yes"},
+      {id:"ev-007", date:"2025-09-15", persons:["Eagles' Wings"], type:"trip", sentiment:"pro", headline:"Eagles' Wings brings 80 influencers (300M+ combined reach) to Israel", detail:"Largest evangelical influencer delegation to date -- a flywheel node worth mapping guest-by-guest.", source:"", addedBy:"Andy", verified:"yes"},
+      {id:"ev-008", date:"2025-08-11", persons:["Carl Higbie"], type:"broadcast", sentiment:"pro", headline:"Carl Higbie broadcasts Newsmax 'Frontline' live from Israel, interviews Netanyahu", detail:"Toured Israeli defense industries; 'the truth is stronger than anti-Israel lies.'", source:"newsmax.com", addedBy:"Claude", verified:"yes"},
+      {id:"ev-009", date:"2026-07-20", persons:["David Ellison","Bari Weiss"], type:"appointment", sentiment:"pro", headline:"David Ellison installs Bari Weiss as CBS News editor-in-chief", detail:"Paramount Skydance acquires The Free Press ($150M) -- a structural pro-Israel realignment in mainstream media.", source:"", addedBy:"Andy", verified:"yes"}
+    ],
     rising_stars: [
       {name:"HanShawnity", bftId:"nur-a1adeae4", platform:"X (@HanShawnity)", audience:"Mainstream", nurtureType:"Rising/emerging (<50K)", religion:"Unknown", nationality:"Unknown", stance:"neutral", allianceScore:"45", links:"x.com/HanShawnity", evidence:"Andy-submitted RISING/EMERGING target -- 36.4K followers, below the 50K threshold that defines this category. Early-stage influence; the point of nurture is to back people BEFORE they break out (the seed-100 logic applied one tier down).", researchNotes:"Verify identity + stance. X counts are not fetchable to me.", addedBy:"Andy", source:"Andy-submitted", profession:"Commentator/Host", industry:"Media & Publishing", expertise:"Media & Content", audienceDemographics:"[TIER-1 INFERRED -- not measured; upgrade via media kits (T2) / Modash-SparkToro (T3)] | Age: Core adults (~25-45) | Gender: Mixed (not yet measured) | Location: Primarily US (national) | Ideology: Mainstream | Platforms: X"},
       {name:"Jackie Chea", bftId:"nur-83bc2cd5", platform:"X (@Fair_and_Biased)", audience:"Mainstream", nurtureType:"Likely ally (unasked)", religion:"Unknown", nationality:"Unknown", stance:"neutral", allianceScore:"48", links:"x.com/Fair_and_Biased", costPaid:"ORGANIC SIGNAL (sub-30K rule): X verified at 22K on 17 Jul 2026 -- below the 30K threshold, so unlikely to be worth paying, i.e. the pro-Israel/pro-Shapiro sentiment is probably sincere. Still needs the earliest-content check for confirmation.", talentEvidence:"~22K X following; growing.", evidence:"Andy-submitted NURTURE: posted positively about Ben Shapiro and has expressed wanting to visit Israel -- both early positive signals, neither yet a costly stand.", researchNotes:"Verify identity + the Ben Shapiro / Israel-visit signals. A visit would be a good BFT touchpoint (cf. the Passages/trip model).", addedBy:"Andy", related:"", sourceUrl:"https://x.com/Fair_and_Biased", source:"Andy-submitted", profession:"Commentator/Host", industry:"Media & Publishing", expertise:"Media & Content", audienceDemographics:"[TIER-1 INFERRED -- not measured; upgrade via media kits (T2) / Modash-SparkToro (T3)] | Age: Core adults (~25-45) | Gender: Mixed (not yet measured) | Location: Primarily US (national) | Ideology: Mainstream | Platforms: X"},
@@ -11307,7 +11319,7 @@
   // seed entry to an existing record by bftId (preferred) or name and refresh its
   // fields from the seed, keeping the runtime id. Entries that exist only in the
   // backend (added live) are left untouched.
-  const SEED_VERSION = "d82ae5d35667";
+  const SEED_VERSION = "f0da05653138";
   function syncSeedsAuthoritative(existing) {
     let changed = 0, refreshed = 0;
     Object.keys(SEED_DATA).forEach(cat => {
@@ -11781,8 +11793,9 @@
   function renderGrid() {
     const el = document.getElementById("gridContainer");
     if (!allyLinkCounts) allyLinkCounts = computeAllyLinkCounts();
-    document.getElementById("entryCount").textContent = Object.values(state.data).reduce((a,b) => a + b.length, 0);
+    document.getElementById("entryCount").textContent = Object.entries(state.data).reduce((a,[k,v]) => a + (k === "feed" ? 0 : (v.length || 0)), 0);
 
+    if (state.activeTab === "feed") { renderFeed(el); return; }
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
     if (state.activeTab === "network") { renderNetworkGraph(el); return; }
 
@@ -11868,6 +11881,38 @@
   function stanceX(stance) {
     const map = { hostile: -1, neutral: 0, yellowflag: 0.55, redflag: 0.55, pro: 1 };
     return map[stance] !== undefined ? map[stance] : 0;
+  }
+
+  function renderFeed(el) {
+    const events = (state.data.feed || []).slice().sort((a,b) => (b.date||"").localeCompare(a.date||""));
+    const q = (state.search || "").toLowerCase();
+    const sc = { pro:"#2E8B57", hostile:"#C0392B", watch:"#B8860B", neutral:"#6b7a8f" };
+    const TL = { statement:"Statement", post:"Post", hosted:"Hosted guest", attended:"Attended", conference:"Conference", ally:"New alliance", adversary:"Clash", appointment:"Appointment", broadcast:"Broadcast", trip:"Delegation" };
+    const idx = {};
+    Object.keys(CATEGORIES).forEach(cat => (state.data[cat]||[]).forEach(it => { if (it.name && !idx[it.name]) idx[it.name] = { id: it.id, cat }; }));
+    const fmt = d => { if (!d) return ""; const p = d.split("-"); const mo = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][(+p[1])-1] || p[1]; return `${mo} ${+p[2]||""}, ${p[0]}`; };
+    const rows = events.filter(e => !q || ((e.headline||"") + " " + (e.persons||[]).join(" ") + " " + (e.detail||"")).toLowerCase().includes(q)).map(e => {
+      const col = sc[e.sentiment] || "#6b7a8f";
+      const people = (e.persons||[]).map(p => idx[p]
+        ? `<a href="#" data-goperson="${idx[p].id}" data-gocat="${idx[p].cat}" style="color:#B8860B;font-weight:600;text-decoration:none">${p}</a>`
+        : `<b>${p}</b>`).join(" &middot; ");
+      const vf = e.verified === "yes" ? "" : ` &middot; <span style="color:#B8860B">&#9888; unverified</span>`;
+      const src = e.source ? ` &middot; <a href="https://${e.source.replace(/^https?:\/\//,'')}" target="_blank" rel="noopener" style="color:#2E86C1">source &#8599;</a>` : "";
+      return `<div style="border-left:3px solid ${col};padding:9px 14px;margin:0 0 10px;background:rgba(128,128,128,.06);border-radius:0 8px 8px 0">
+        <div style="font-size:12px;opacity:.7;margin-bottom:2px">${fmt(e.date)} &middot; <span style="text-transform:uppercase;letter-spacing:.04em">${TL[e.type]||e.type||""}</span></div>
+        <div style="font-weight:600;margin-bottom:3px">${e.headline||""}</div>
+        <div style="font-size:13px;opacity:.85;margin-bottom:5px">${e.detail||""}</div>
+        <div style="font-size:13px">${people}${src}${vf}</div>
+      </div>`;
+    }).join("");
+    el.innerHTML = `<div style="max-width:820px;margin:0 auto">
+      <div style="margin:4px 0 16px">
+        <div style="font-size:18px;font-weight:700">&#128225; Amalgamated Activity Feed</div>
+        <div style="font-size:13px;opacity:.7">${events.length} events &middot; newest first &middot; <b>Layer A</b> (crowd-sourced + research) &middot; type in the search box to filter by person or keyword</div>
+      </div>
+      ${rows || `<div class="empty-state"><div class="big">&mdash;</div>No events match.</div>`}
+    </div>`;
+    el.querySelectorAll("[data-goperson]").forEach(a => a.addEventListener("click", ev => { ev.preventDefault(); openModal(a.dataset.goperson, a.dataset.gocat); }));
   }
 
   function renderStanceMap(el) {
