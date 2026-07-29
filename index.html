@@ -11427,6 +11427,16 @@
       // Returning user: top up with any seed entries not already present by name
       Object.keys(CATEGORIES).forEach(cat => { if (!existing[cat]) existing[cat] = []; ensureIds(existing[cat]); });
 
+      // The Live Feed is a centrally-maintained stream -> always refresh it from the
+      // latest seed so returning users see new events, while preserving any events a
+      // contributor flagged locally that haven't been merged centrally yet.
+      (function refreshFeed() {
+        const seedFeed = (SEED_DATA.feed || []).map(e => Object.assign({}, e));
+        const seedIds = new Set(seedFeed.map(e => e.id));
+        const localExtra = (existing.feed || []).filter(e => e.addedBy === "contributor" && !seedIds.has(e.id));
+        existing.feed = seedFeed.concat(localExtra);
+      })();
+
       // One-time migrations for previously-stored data (Jul 2026 restructure).
       // Runs BEFORE mergeSeeds so moved/renamed entries are seen as present-by-name
       // and don't get duplicated from the reorganized seeds.
