@@ -11341,7 +11341,7 @@
     ]
   };
 
-  let state = { data: null, activeTab: "influencer", search: "", activeFilters: {}, editingEntry: null, editingCat: null, isNew: false, mergedCount: 0, stanceMapFilters: null };
+  let state = { data: null, activeTab: "network", search: "", activeFilters: {}, editingEntry: null, editingCat: null, isNew: false, mergedCount: 0, stanceMapFilters: null };
 
   // Ecosystem Network view: layout is cached/frozen across re-renders (e.g. search
   // keystrokes) so nodes don't jump around; only rebuilt on data change or explicit reset.
@@ -12415,6 +12415,7 @@
         const matches = q && n.name.toLowerCase().includes(q);
         let opacity = 1;
         if (networkView.selectedId && networkView.selectedId !== n.id && !(selNeighbors && selNeighbors.has(n.id))) opacity = 0.16;
+        if (q && !matches) opacity = Math.min(opacity, 0.1);   // search: dim non-matches so hits pop
         ctx.globalAlpha = opacity;
         ctx.beginPath();
         ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
@@ -12582,6 +12583,18 @@
       renderNetworkGraph(el);
     }, { signal });
 
+    // Search: center + zoom the view on matches so typing a name visibly focuses it.
+    if (q) {
+      const hits = nodes.filter(n => n.name.toLowerCase().includes(q) && !hiddenCats[n.cat] &&
+        !(networkView.hideHostiles && n.raw && (n.raw.stance === "hostile" || n.raw.stance === "redflag")));
+      if (hits.length) {
+        let cx = 0, cy = 0; hits.forEach(h => { cx += h.x; cy += h.y; }); cx /= hits.length; cy /= hits.length;
+        const rectS = holder.getBoundingClientRect();
+        networkView.scale = hits.length === 1 ? 1.7 : Math.min(networkView.scale || 1, 1.2);
+        networkView.panX = rectS.width / 2 - cx * networkView.scale;
+        networkView.panY = 310 - cy * networkView.scale;
+      }
+    }
     draw();
     renderSidePanel();
   }
