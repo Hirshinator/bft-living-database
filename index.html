@@ -373,6 +373,15 @@
   ];
   const VIEW_IDS = VIEWS.map(v => v.id);
 
+  // ---- Member-editable app config (no-code; persists in this browser) ----
+  const _CFG_KEY = "bft_app_config";
+  let APP_CONFIG = (() => { try { return JSON.parse(localStorage.getItem(_CFG_KEY)) || {}; } catch (e) { return {}; } })();
+  APP_CONFIG.hiddenCats = APP_CONFIG.hiddenCats || [];
+  APP_CONFIG.labels = APP_CONFIG.labels || {};
+  function saveConfig() { try { localStorage.setItem(_CFG_KEY, JSON.stringify(APP_CONFIG)); } catch (e) {} }
+  function catLabel(k) { return (APP_CONFIG.labels && APP_CONFIG.labels[k]) || CATEGORIES[k].label; }
+  function visibleCats() { return VISIBLE_CATEGORIES.filter(k => !APP_CONFIG.hiddenCats.includes(k)); }
+
   const SEED_DATA = {
     feed: [
       {id:"ev-dreher-01", date:"2026-07-28", persons:["Allie Beth Stuckey", "Rod Dreher"], type:"post", sentiment:"pro", headline:"Dreher amplifies Stuckey's 'Judeo-Christian' defense; reply thread swarmed by replacement-theology antisemitism", detail:"Dreher ('salvation comes from the Jews... they need our support') boosted Stuckey; ~161 replies dominated by an anti-Jewish 'Talmudic/skin-suit' theology cluster (Groyper-adjacent). Grassroots supporters harvested.", source:"x.com/roddreher/status/2082187185499873281", addedBy:"Claude (browser harvest)", verified:"yes"},
@@ -11360,7 +11369,7 @@
     ]
   };
 
-  let state = { data: null, activeTab: "network", search: "", activeFilters: {}, editingEntry: null, editingCat: null, isNew: false, mergedCount: 0, stanceMapFilters: null };
+  let state = { data: null, activeTab: (APP_CONFIG.defaultView || "network"), search: "", activeFilters: {}, editingEntry: null, editingCat: null, isNew: false, mergedCount: 0, stanceMapFilters: null };
 
   // Ecosystem Network view: layout is cached/frozen across re-renders (e.g. search
   // keystrokes) so nodes don't jump around; only rebuilt on data change or explicit reset.
@@ -11604,13 +11613,42 @@
 
   function renderTabs() {
     const el = document.getElementById("tabs");
-    el.innerHTML = VISIBLE_CATEGORIES.map(k =>
-      `<button class="tab-btn ${state.activeTab === k ? 'active' : ''}" data-tab="${k}">${CATEGORIES[k].label} (${(state.data[k]||[]).length})</button>`
+    el.innerHTML = visibleCats().map(k =>
+      `<button class="tab-btn ${state.activeTab === k ? 'active' : ''}" data-tab="${k}">${catLabel(k)} (${(state.data[k]||[]).length})</button>`
     ).join("") + `<span class="tab-divider"></span>` + VIEWS.map(v =>
       `<button class="tab-btn tab-btn-view ${state.activeTab === v.id ? 'active' : ''}" data-tab="${v.id}">${v.icon} ${v.label}</button>`
-    ).join("");
+    ).join("") + `<button class="tab-btn" id="adminBtn" style="margin-left:auto;opacity:.7" title="Customize this app — no code needed">&#9881; Customize</button>`;
     el.querySelectorAll(".tab-btn").forEach(btn => {
+      if (btn.id === "adminBtn") { btn.addEventListener("click", openAdmin); return; }
       btn.addEventListener("click", () => { state.activeTab = btn.dataset.tab; state.activeFilters = {}; state.search = ""; document.getElementById("searchInput").value = ""; renderAll(); });
+    });
+  }
+
+  function openAdmin() {
+    const root = document.getElementById("modalRoot");
+    const allTabs = [...VIEWS.map(v => ({ id: v.id, label: v.label })), ...VISIBLE_CATEGORIES.map(k => ({ id: k, label: CATEGORIES[k].label }))];
+    root.innerHTML = `<div class="modal-overlay" id="modalOverlay"><div class="modal">
+      <h3>&#9881; Customize this app</h3>
+      <div style="font-size:12px;opacity:.7;margin-bottom:12px">Changes save in this browser &mdash; no code needed.</div>
+      <div class="field"><label>Default view when the app opens</label>
+        <select data-cfg="defaultView">${allTabs.map(t => `<option value="${t.id}" ${(APP_CONFIG.defaultView || "network") === t.id ? "selected" : ""}>${t.label}</option>`).join("")}</select></div>
+      <div class="field"><label>Show / hide &amp; rename category tabs</label>
+        <div style="max-height:240px;overflow:auto;border:1px solid rgba(128,128,128,.25);border-radius:8px;padding:8px">
+        ${VISIBLE_CATEGORIES.map(k => `<label style="display:flex;gap:8px;align-items:center;margin:4px 0"><input type="checkbox" data-showcat="${k}" ${APP_CONFIG.hiddenCats.includes(k) ? "" : "checked"}><input type="text" data-label="${k}" value="${(APP_CONFIG.labels[k] || CATEGORIES[k].label).replace(/"/g, "&quot;")}" style="flex:1;font-size:12px;padding:4px 7px"></label>`).join("")}
+        </div><div style="font-size:11px;opacity:.6;margin-top:5px">Uncheck to hide a tab; edit the text to rename it.</div></div>
+      <div class="modal-actions"><button class="btn btn-ghost" id="cancelModal">Cancel</button><button class="btn btn-ghost" id="adminReset">Reset all</button><button class="btn btn-primary" id="adminSave">Save</button></div>
+    </div></div>`;
+    document.getElementById("cancelModal").addEventListener("click", closeModal);
+    document.getElementById("modalOverlay").addEventListener("click", e => { if (e.target.id === "modalOverlay") closeModal(); });
+    document.getElementById("adminReset").addEventListener("click", () => { APP_CONFIG = { hiddenCats: [], labels: {} }; saveConfig(); closeModal(); renderAll(); });
+    document.getElementById("adminSave").addEventListener("click", () => {
+      APP_CONFIG.defaultView = document.querySelector('[data-cfg="defaultView"]').value;
+      APP_CONFIG.hiddenCats = [...document.querySelectorAll("[data-showcat]")].filter(c => !c.checked).map(c => c.dataset.showcat);
+      APP_CONFIG.labels = {};
+      document.querySelectorAll("[data-label]").forEach(i => { const v = i.value.trim(); if (v && v !== CATEGORIES[i.dataset.label].label) APP_CONFIG.labels[i.dataset.label] = v; });
+      saveConfig();
+      if (APP_CONFIG.hiddenCats.includes(state.activeTab)) state.activeTab = APP_CONFIG.defaultView || "network";
+      closeModal(); renderAll();
     });
   }
 
