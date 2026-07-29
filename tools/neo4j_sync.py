@@ -95,6 +95,9 @@ def main():
             if re.search(r"\b(co-?found|business partner|partner|invested|backer|portfolio)\b", t): return "BUSINESS_PARTNER"
             if re.search(r"\b(friend|close ally|allied with|befriend)\b", t): return "FRIEND"
             if re.search(r"\b(rival|feud|beef|clash)\b", t): return "RIVAL"
+            if re.search(r"\b(client|customer|vendor|retainer|contracted|does work for|hired by)\b", t): return "CLIENT"
+            if re.search(r"\b(praised|endorsed|defended|championed|applauded|paid tribute|thanked|shouted out|celebrated|posted positively)\b", t): return "MENTION_POS"
+            if re.search(r"\b(attacked|slammed|condemned|denounced|blasted|ripped|called out|smeared|targeted|accused|criticized)\b", t): return "MENTION_NEG"
             sa, sb = a_raw.get("stance"), b_raw.get("stance")
             if is_pro(sa) and is_pro(sb): return "ALLY"
             if is_hos(sa) and is_hos(sb): return "ENEMY"
@@ -102,8 +105,9 @@ def main():
             return "ASSOCIATE"
 
         edges = {}  # (a,b) -> type  (dedup, keep most-specific)
-        RANK = {"SAME_ORG": 5, "BUSINESS_PARTNER": 4, "CO_HOST": 4, "HOST_GUEST": 3,
-                "FRIEND": 3, "RIVAL": 3, "ADVERSARY": 2, "ENEMY": 2, "ALLY": 1, "ASSOCIATE": 0}
+        RANK = {"SAME_ORG": 5, "BUSINESS_PARTNER": 4, "CLIENT": 4, "CO_HOST": 4, "HOST_GUEST": 3,
+                "FRIEND": 3, "RIVAL": 3, "ADVERSARY": 2, "ENEMY": 2, "MENTION_NEG": 2,
+                "MENTION_POS": 1, "ALLY": 1, "ASSOCIATE": 0}
 
         def put(a, b, ty):
             if a == b or not a or not b:
