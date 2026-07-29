@@ -11636,6 +11636,17 @@
     return `<img class="card-avatar" src="${src}" alt="" loading="lazy">`;
   }
 
+  function cardActivity(item) {
+    const feed = state.data.feed || [];
+    if (!feed.length || !item.name) return "";
+    const evs = feed.filter(e => (e.persons||[]).includes(item.name)).sort((a,b) => (b.date||"").localeCompare(a.date||"")).slice(0,3);
+    if (!evs.length) return "";
+    const sc = { pro:"#2E8B57", hostile:"#C0392B", watch:"#B8860B", neutral:"#6b7a8f" };
+    const fmt = d => { if (!d) return ""; const p = d.split("-"); return (["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][(+p[1])-1] || p[1]) + " " + (+p[2]||"") + " '" + p[0].slice(2); };
+    const rows = evs.map(e => `<div style="font-size:12px;margin:2px 0"><span style="color:${sc[e.sentiment]||'#6b7a8f'}">&#9679;</span> <span style="opacity:.6">${fmt(e.date)}</span> ${e.headline||""}</div>`).join("");
+    return `<div class="card-activity" style="margin-top:8px;padding-top:7px;border-top:1px dashed rgba(128,128,128,.25)"><div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.6;margin-bottom:3px">&#128225; Recent activity</div>${rows}</div>`;
+  }
+
   function renderCard(item, cat) {
     const stance = item.stance || null;
     const barColor = stanceBarColor(stance);
@@ -11724,6 +11735,7 @@
       <div class="card-meta">${metaLine}</div>
       <div class="card-tags">${verifyBadge(item)}${tagsHtml}</div>
       <div class="card-evidence">${evidenceField || ""}</div>
+      ${cardActivity(item)}
       ${NETWORK_CATS.includes(cat) ? `<div class="card-yield">&#128279; ${(allyLinkCounts && allyLinkCounts[item.id]) || 0} ally links mapped${item.yieldStatus ? ` &middot; <b>${item.yieldStatus}</b>` : ""} &middot; added by ${item.addedBy || "Andy"}${item.yieldNotes ? `<br><span style="opacity:.85">Remaining potential: ${item.yieldNotes}</span>` : ""}</div>` : ""}
       ${item.researchNotes ? `<div class="card-research-note">&#128269; To research: ${item.researchNotes}</div>` : ""}
       <details class="card-sources">
