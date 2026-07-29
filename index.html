@@ -368,6 +368,7 @@
   // only; LinkedIn network_* data stays backend-only per the instruction above.
   const VIEWS = [
     { id: "feed", label: "Live Feed", icon: "&#128225" },
+    { id: "amplify", label: "Amplify", icon: "&#128227" },
     { id: "stance_map", label: "Stance Map", icon: "&#9737" },
     { id: "network", label: "Ecosystem Network", icon: "&#8982" },
   ];
@@ -11924,6 +11925,7 @@
     document.getElementById("entryCount").textContent = Object.entries(state.data).reduce((a,[k,v]) => a + (k === "feed" ? 0 : (v.length || 0)), 0);
 
     if (state.activeTab === "feed") { renderFeed(el); return; }
+    if (state.activeTab === "amplify") { renderAmplify(el); return; }
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
     if (state.activeTab === "network") { renderNetworkGraph(el); return; }
 
@@ -12079,6 +12081,31 @@
       closeModal();
       renderGrid();
     });
+  }
+
+  function renderAmplify(el) {
+    const AUDS = ["Conservative", "Evangelical/Christian", "Business/Professional", "Gen-Z/Youth", "Jewish", "MAGA/Populist", "Progressive/Left", "Mainstream"];
+    if (!state.amplify) state.amplify = { auds: [] };
+    const sel = state.amplify.auds;
+    const people = [];
+    ["influencer", "business_leader", "political", "nurture", "rising_stars", "grassroots_politics"].forEach(c =>
+      (state.data[c] || []).forEach(r => { if (r.stance === "pro") people.push(r); }));
+    const match = r => !sel.length || sel.some(a => (r.audience || "").includes(a));
+    const hits = people.filter(match).sort((a, b) => (parseFloat(b.allianceScore) || 0) - (parseFloat(a.allianceScore) || 0));
+    const handle = r => { const m = (r.links || "").match(/(?:x|instagram|youtube|tiktok)\.com\/[^\s;]+/); return m ? m[0] : ""; };
+    el.innerHTML = `<div style="max-width:900px;margin:0 auto">
+      <div style="font-size:18px;font-weight:700">&#128227; Amplify &mdash; activation queue</div>
+      <div style="font-size:13px;opacity:.72;margin-bottom:4px">Flag an <b>ally</b> post, pick the audiences you want engaging, and get the list of pro-allies to ask for <b>authentic</b> likes / comments / shares.</div>
+      <div style="font-size:12px;opacity:.6;margin-bottom:8px;padding:6px 9px;background:rgba(184,134,11,.1);border-radius:6px">&#9888; Organizing, not brigading. Use for real, authentic engagement on ally content &mdash; not coordinated attacks on hostile posts (that violates platform rules and hands opponents the story). For hostile posts, amplify the best <i>rebuttal</i> instead.</div>
+      <input id="ampUrl" placeholder="Paste the ally post URL or a note on what to amplify" style="width:100%;padding:8px;margin:6px 0;box-sizing:border-box">
+      <div style="margin:8px 0"><b style="font-size:12px">Target audiences:</b> ${AUDS.map(a => `<label style="display:inline-flex;gap:4px;margin:3px 8px 3px 0;font-size:12px"><input type="checkbox" data-amp-aud="${a}" ${sel.includes(a) ? "checked" : ""}>${a}</label>`).join("")}</div>
+      <div style="font-size:13px;opacity:.75;margin:8px 0"><b>${hits.length}</b> pro-allies match ${sel.length ? "(" + sel.join(", ") + ")" : "(all audiences)"} &mdash; sorted by alliance strength:</div>
+      <div style="max-height:520px;overflow:auto">${hits.slice(0, 150).map(r => `<div style="display:flex;justify-content:space-between;gap:10px;padding:6px 4px;border-bottom:1px solid rgba(128,128,128,.15);font-size:13px"><div><b>${r.name}</b> <span style="opacity:.6">&middot; ${r.audience || ""}</span></div><div style="opacity:.75;white-space:nowrap">${handle(r) || (r.platform || "").slice(0, 40)}${r.allianceScore ? ` &middot; ${r.allianceScore}/100` : ""}</div></div>`).join("")}</div>
+    </div>`;
+    el.querySelectorAll("[data-amp-aud]").forEach(c => c.addEventListener("change", () => {
+      state.amplify.auds = [...el.querySelectorAll("[data-amp-aud]")].filter(x => x.checked).map(x => x.dataset.ampAud);
+      renderGrid();
+    }));
   }
 
   function renderStanceMap(el) {
