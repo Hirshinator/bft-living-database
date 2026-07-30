@@ -346,6 +346,7 @@
     ecosystem: { label: "Regional Ecosystems", color: "navy" },
     political: { label: "Political", color: "navy" },
     sponsor: { label: "Sponsors", color: "navy" },
+    events: { label: "Events", color: "navy" },
     israeli_tech: { label: "Israeli Tech Ecosystem", color: "navy" },
     criteria: { label: "Criteria & Methodology", color: "navy" },
     nurture: { label: "Nurture (4K-20K)", color: "navy" },
@@ -360,7 +361,7 @@
   // Categories shown as clickable tabs in the UI. network_* categories stay loaded,
   // merged, and saved in the background (backend data layer) but are not exposed
   // as visible frontend tabs, per instruction: LinkedIn network data is backend-only.
-  const VISIBLE_CATEGORIES = ["influencer", "business_leader", "organization", "media", "business", "ecosystem", "political", "sponsor", "israeli_tech", "nurture", "rising_stars", "swing", "grassroots_business", "grassroots_politics", "criteria", "backlog"];
+  const VISIBLE_CATEGORIES = ["influencer", "business_leader", "organization", "media", "business", "ecosystem", "political", "sponsor", "events", "israeli_tech", "nurture", "rising_stars", "swing", "grassroots_business", "grassroots_politics", "criteria", "backlog"];
 
   // Visualization views. These render alongside the data-category tabs but are not
   // data categories themselves -- they read from state.data and render custom
@@ -431,6 +432,15 @@
       {id:"ev-007", date:"2025-09-15", persons:["Eagles' Wings"], type:"trip", sentiment:"pro", headline:"Eagles' Wings brings 80 influencers (300M+ combined reach) to Israel", detail:"Largest evangelical influencer delegation to date -- a flywheel node worth mapping guest-by-guest.", source:"", addedBy:"Andy", verified:"yes"},
       {id:"ev-008", date:"2025-08-11", persons:["Carl Higbie"], type:"broadcast", sentiment:"pro", headline:"Carl Higbie broadcasts Newsmax 'Frontline' live from Israel, interviews Netanyahu", detail:"Toured Israeli defense industries; 'the truth is stronger than anti-Israel lies.'", source:"newsmax.com", addedBy:"Claude", verified:"yes"},
       {id:"ev-009", date:"2026-07-20", persons:["David Ellison","Bari Weiss"], type:"appointment", sentiment:"pro", headline:"David Ellison installs Bari Weiss as CBS News editor-in-chief", detail:"Paramount Skydance acquires The Free Press ($150M) -- a structural pro-Israel realignment in mainstream media.", source:"", addedBy:"Andy", verified:"yes"}
+    ],
+    events: [
+      {name:"International Freedom Coalition — Inaugural Conference", bftId:"evt-523a323d", date:"Jul 23, 2026", status:"Past", venue:"Washington, DC", organizer:"International Freedom Coalition (IFC); Ryan Williams", attendees:"Middle Eastern Christians, Yazidis, Druze, Jews, Iranians, Kurds; Walid Phares, Charles Jacobs, Ayaan Hirsi Ali", evidence:"Inaugural coalition conference uniting minorities against jihadist extremism. Mine the attendee list for allies.", links:"internationalfreedomcoalition.org", addedBy:"Claude"},
+      {name:"Eagles' Wings Israel Influencer Delegation", bftId:"evt-6a81535c", date:"Sep 2025", status:"Past", venue:"Israel", organizer:"Eagles' Wings", attendees:"80 influencers with 300M+ combined reach", evidence:"Largest evangelical influencer delegation to Israel to date — a high-value guest list to map person-by-person.", links:"", addedBy:"Claude"},
+      {name:"CUFI Summit", bftId:"evt-67f9dee5", date:"Annual (summer), Washington, DC", status:"Recurring", venue:"Washington, DC", organizer:"Christians United for Israel (CUFI)", attendees:"Thousands of Christian-Zionist delegates; CUFI leadership, members of Congress", evidence:"The largest annual Christian-Zionist gathering; a prime ally-discovery and lobbying venue.", links:"cufi.org", addedBy:"Claude"},
+      {name:"AIPAC Policy Summit", bftId:"evt-92298ff9", date:"Annual, Washington, DC", status:"Recurring", venue:"Washington, DC", organizer:"AIPAC", attendees:"Bipartisan members of Congress; pro-Israel activists", evidence:"Marquee pro-Israel policy + lobbying convening.", links:"aipac.org", addedBy:"Claude"},
+      {name:"National Conservatism Conference (NatCon)", bftId:"evt-b01e1156", date:"Annual", status:"Recurring", venue:"Rotating (US / Europe)", organizer:"Edmund Burke Foundation; Yoram Hazony", attendees:"National-conservative intellectuals & politicians", evidence:"Key venue of the national-conservative right — watch for the pro- vs. anti-Israel split within NatCon.", links:"nationalconservatism.org", addedBy:"Claude"},
+      {name:"CPAC (Conservative Political Action Conference)", bftId:"evt-4c13b31d", date:"Annual (Feb), National Harbor, MD", status:"Recurring", venue:"National Harbor, MD (+ int'l chapters)", organizer:"American Conservative Union; Matt Schlapp", attendees:"Movement conservatives, MAGA figures, candidates", evidence:"Marquee movement-conservative gathering; large ally + hostile presence to track.", links:"cpac.org", addedBy:"Claude"},
+      {name:"Genesis Prize Ceremony", bftId:"evt-982aab51", date:"Annual, Jerusalem", status:"Recurring", venue:"Jerusalem, Israel", organizer:"The Genesis Prize Foundation", attendees:"Jewish/Israel philanthropic & business leaders", evidence:"The 'Jewish Nobel' ceremony — a network hub of Jewish business/philanthropy leaders.", links:"genesisprize.org", addedBy:"Claude"}
     ],
     rising_stars: [
       {name:"HanShawnity", bftId:"nur-a1adeae4", platform:"X (@HanShawnity)", audience:"Mainstream", nurtureType:"Rising/emerging (<50K)", religion:"Unknown", nationality:"Unknown", stance:"neutral", allianceScore:"45", links:"x.com/HanShawnity", evidence:"Andy-submitted RISING/EMERGING target -- 36.4K followers, below the 50K threshold that defines this category. Early-stage influence; the point of nurture is to back people BEFORE they break out (the seed-100 logic applied one tier down).", researchNotes:"Verify identity + stance. X counts are not fetchable to me.", addedBy:"Andy", source:"Andy-submitted", profession:"Commentator/Host", industry:"Media & Publishing", expertise:"Media & Content", audienceDemographics:"[TIER-1 INFERRED -- not measured; upgrade via media kits (T2) / Modash-SparkToro (T3)] | Age: Core adults (~25-45) | Gender: Mixed (not yet measured) | Location: Primarily US (national) | Ideology: Mainstream | Platforms: X", affiliation:"Independent"},
@@ -11449,7 +11459,7 @@
   // seed entry to an existing record by bftId (preferred) or name and refresh its
   // fields from the seed, keeping the runtime id. Entries that exist only in the
   // backend (added live) are left untouched.
-  const SEED_VERSION = "313e70fcfb50";
+  const SEED_VERSION = "cf97b5b34b1c";
   function syncSeedsAuthoritative(existing) {
     let changed = 0, refreshed = 0;
     Object.keys(SEED_DATA).forEach(cat => {
@@ -11844,6 +11854,13 @@
         item.anchors ? `<span class="tag tag-default">Anchors: ${item.anchors}</span>` : "",
       ].join("");
       evidenceField = (item.orgs ? "Organizers to know: " + item.orgs + ". " : "") + (item.evidence || "");
+    } else if (cat === "events") {
+      metaLine = `${item.date || ""} ${item.venue ? "&middot; " + item.venue : ""}`;
+      tagsHtml = [
+        item.status ? `<span class="tag ${item.status === "Upcoming" ? "tag-stance-pro" : "tag-default"}">${item.status === "Upcoming" ? "&#128197; " : ""}${item.status}</span>` : "",
+        item.organizer ? `<span class="tag tag-default">${item.organizer}</span>` : "",
+      ].join("");
+      evidenceField = (item.attendees ? "<b>Attendees/speakers:</b> " + item.attendees + ". " : "") + (item.evidence || "");
     } else if (cat === "political") {
       metaLine = `${item.office || ""}`;
       tagsHtml = [
@@ -13078,6 +13095,16 @@
   FIELD_DEFS.grassroots_business = FIELD_DEFS.business_leader;
   FIELD_DEFS.grassroots_politics = FIELD_DEFS.business_leader;
   FIELD_DEFS.media = FIELD_DEFS.organization;
+  FIELD_DEFS.events = [
+    {key:"name", label:"Event name", type:"text", required:true},
+    {key:"date", label:"Date", type:"text"},
+    {key:"status", label:"Status", type:"select", options:["Upcoming","Past","Recurring"]},
+    {key:"venue", label:"Venue / Location", type:"text"},
+    {key:"organizer", label:"Organizer(s)", type:"text"},
+    {key:"attendees", label:"Key attendees / speakers", type:"textarea"},
+    {key:"evidence", label:"Notes", type:"textarea"},
+    {key:"links", label:"Links", type:"text"},
+  ];
   ["influencer","business_leader","organization","business","israeli_tech","sponsor","political","nurture"].forEach(function(_c){ if(FIELD_DEFS[_c]) FIELD_DEFS[_c].push({key:"industry",label:"Industry / Sector",type:"text"},{key:"profession",label:"Profession / Role",type:"text"},{key:"expertise",label:"Expertise (can speak/lecture on)",type:"text"},{key:"audience",label:"Audience Type",type:"text"},{key:"audienceDemographics",label:"Audience Demographics — Age / Gender / Location / Ideology (T1 inferred → T2 media kits → T3 Modash/SparkToro)",type:"textarea"}); });
   // Independence axis: solo/self-employed vs. employed by a media company/institution.
   // Corporate-affiliated voices may be constrained on-air; when they go independent they
