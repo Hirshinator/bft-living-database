@@ -12632,12 +12632,14 @@
           op = (e.a === networkView.selectedId || e.b === networkView.selectedId) ? 0.75 : 0.03;
         }
         const selE = networkView.selectedEdge && networkView.selectedEdge.a === e.a && networkView.selectedEdge.b === e.b;
-        if (selE) op = 1;
+        const pathE = networkView.pathEdges && networkView.pathEdges.has(e.a < e.b ? e.a + "|" + e.b : e.b + "|" + e.a);
+        if (selE || pathE) op = 1;
+        else if (networkView.pathEdges && networkView.pathEdges.size) op = Math.min(op, 0.04);
         const st = (EDGE_STYLE[e.type] || EDGE_STYLE.associate);
         ctx.globalAlpha = op;
-        ctx.strokeStyle = st.c;
-        ctx.setLineDash(selE ? [] : st.d);
-        ctx.lineWidth = (selE ? 3.5 : st.w) * (Math.min(e.weight, 3) * 0.35 + 0.75);
+        ctx.strokeStyle = pathE ? "#B8860B" : st.c;
+        ctx.setLineDash(selE || pathE ? [] : st.d);
+        ctx.lineWidth = (selE || pathE ? 3.5 : st.w) * (Math.min(e.weight, 3) * 0.35 + 0.75);
         ctx.beginPath();
         ctx.moveTo(a.x, a.y);
         ctx.lineTo(b.x, b.y);
@@ -12652,6 +12654,7 @@
         let opacity = 1;
         if (networkView.selectedId && networkView.selectedId !== n.id && !(selNeighbors && selNeighbors.has(n.id))) opacity = 0.16;
         if (q && !matches) opacity = Math.min(opacity, 0.1);   // search: dim non-matches so hits pop
+        if (networkView.pathSet && !networkView.pathSet.has(n.id)) opacity = Math.min(opacity, 0.12);   // path trace: spotlight the chain
         ctx.globalAlpha = opacity;
         ctx.beginPath();
         ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
@@ -12681,7 +12684,7 @@
             ctx.restore();
           }
         }
-        if (matches || n.id === networkView.selectedId) {
+        if (matches || n.id === networkView.selectedId || (networkView.pathSet && networkView.pathSet.has(n.id))) {
           ctx.lineWidth = 2.5;
           ctx.strokeStyle = "#B8860B";
           ctx.globalAlpha = 1;
@@ -12730,9 +12733,33 @@
       document.getElementById("edgeOpenA").addEventListener("click", () => openModal(a.id, a.cat));
       document.getElementById("edgeOpenB").addEventListener("click", () => openModal(b.id, b.cat));
     }
+    function findPath(srcId, tgtId) {
+      const nh = id => { const nn = byId[id]; return !nn || hiddenCats[nn.cat] || (networkView.hideHostiles && nn.raw && (nn.raw.stance === "hostile" || nn.raw.stance === "redflag")); };
+      const adj = {};
+      edges.forEach(e => { if (nh(e.a) || nh(e.b)) return; (adj[e.a] = adj[e.a] || []).push({ to: e.b, type: e.type }); (adj[e.b] = adj[e.b] || []).push({ to: e.a, type: e.type }); });
+      const prev = { [srcId]: null }, ptype = {}, q = [srcId];
+      while (q.length) { const cur = q.shift(); if (cur === tgtId) break; (adj[cur] || []).forEach(({ to, type }) => { if (!(to in prev)) { prev[to] = cur; ptype[to] = type; q.push(to); } }); }
+      if (!(tgtId in prev)) return null;
+      const path = []; let c = tgtId; while (c !== null) { path.unshift({ id: c, type: ptype[c] }); c = prev[c]; } return path;
+    }
+    function renderPathPanel(panelEl, path) {
+      const chain = path.map((step, i) => {
+        const nm = escXml((byId[step.id] || {}).name || "?");
+        const hop = i === 0 ? "" : `<div style="color:var(--text-muted);font-size:11px;margin:1px 0 1px 6px">&darr; ${EDGE_LABEL[step.type] || step.type}</div>`;
+        const tag = i === path.length - 1 ? ' <span style="color:#B8860B">(target)</span>' : (i === 0 ? ' <span style="color:var(--text-muted)">(start)</span>' : '');
+        return hop + `<div style="font-weight:${i === 0 || i === path.length - 1 ? 600 : 400}">${nm}${tag}</div>`;
+      }).join("");
+      panelEl.innerHTML = `<div class="network-side-panel">
+        <div style="font-size:10px;text-transform:uppercase;color:var(--text-muted);font-weight:700;margin-bottom:6px">Warm-intro path &middot; ${path.length - 1} hop${path.length - 1 === 1 ? "" : "s"}</div>
+        ${chain}
+        <button class="btn btn-ghost" id="pathClearBtn" style="margin-top:10px">Clear path</button>
+      </div>`;
+      document.getElementById("pathClearBtn").addEventListener("click", () => { networkView.path = null; networkView.pathSet = null; networkView.pathEdges = null; renderSidePanel(); draw(); });
+    }
     function renderSidePanel() {
       const panelEl = document.getElementById("networkSidePanel");
       if (!panelEl) return;
+      if (networkView.path) { renderPathPanel(panelEl, networkView.path); return; }
       if (networkView.selectedEdge) { renderEdgePanel(panelEl, networkView.selectedEdge); return; }
       if (!networkView.selectedId || !byId[networkView.selectedId]) { panelEl.innerHTML = ""; return; }
       const n = byId[networkView.selectedId];
@@ -12749,20 +12776,42 @@
           : `<em>No auto-detected connections yet.</em>`}</div>
         <button class="btn btn-primary" id="networkOpenEntryBtn">Open full entry</button>
         <button class="btn btn-ghost" id="networkAddConnBtn" style="margin-top:6px">+ Add connection</button>
+        <button class="btn btn-ghost" id="networkTracePathBtn" style="margin-top:6px">&#128279; Trace intro path to&hellip;</button>
       </div>`;
       document.getElementById("networkOpenEntryBtn").addEventListener("click", () => openModal(n.id, n.cat));
       document.getElementById("networkAddConnBtn").addEventListener("click", async () => {
-        const other = prompt("Add a connection from " + n.name + " — type the exact name of another person or org in the database:");
+        const other = prompt("Connect " + n.name + " to a person or org they know. If your contact isn't in the database yet, you can add them as a new grassroots contact.");
         if (!other || !other.trim()) return;
-        const match = nodes.find(x => x.name.toLowerCase() === other.trim().toLowerCase());
-        if (!match) { alert("No entry named \"" + other.trim() + "\" found. Check the spelling, or add them first."); return; }
-        if (match.id === n.id) return;
+        const name = other.trim();
+        let match = nodes.find(x => x.name.toLowerCase() === name.toLowerCase());
+        if (match && match.id === n.id) return;
+        if (!match) {
+          if (!confirm("\"" + name + "\" isn't in the database yet.\n\nAdd them as a new grassroots contact connected to " + n.name + "?")) return;
+          const rel = (prompt("How are they connected? (e.g. friend, business partner, colleague, mentor)") || "").trim();
+          const rec = { id: uid(), name: name, bftId: "gp-" + Math.random().toString(16).slice(2, 10), stance: "neutral", needsVerification: "yes", network: "Grassroots", platform: rel ? (rel + " of " + n.name) : "", audience: "Business/Professional", related: n.name, evidence: "Added by a collaborator as a " + (rel || "connection") + " of " + n.name + " (pro-Israel or non-hostile). Verify stance/details.", addedBy: "collaborator", source: "collaborator" };
+          (state.data.grassroots_business = state.data.grassroots_business || []).push(rec);
+          match = { id: rec.id, name: rec.name };
+        }
         const cur = (n.raw.related || "").trim();
-        if (cur.toLowerCase().includes(match.name.toLowerCase())) { alert("Already connected."); return; }
-        n.raw.related = cur ? cur + "; " + match.name : match.name;
+        if (!cur.toLowerCase().includes(match.name.toLowerCase())) n.raw.related = cur ? cur + "; " + match.name : match.name;
         await saveData();
         networkGraphData = null;
         renderNetworkGraph(el);
+      });
+      document.getElementById("networkTracePathBtn").addEventListener("click", () => {
+        const other = prompt("Trace the shortest relationship path from " + n.name + " to whom? Type the exact name of the target:");
+        if (!other || !other.trim()) return;
+        const tgt = nodes.find(x => x.name.toLowerCase() === other.trim().toLowerCase());
+        if (!tgt) { alert("No entry named \"" + other.trim() + "\" found."); return; }
+        if (tgt.id === n.id) return;
+        const path = findPath(n.id, tgt.id);
+        if (!path) { alert("No known relationship path between them yet. Use '+ Add connection' to build the chain."); return; }
+        networkView.path = path;
+        networkView.pathSet = new Set(path.map(p => p.id));
+        networkView.pathEdges = new Set();
+        for (let i = 1; i < path.length; i++) { const a = path[i - 1].id, b = path[i].id; networkView.pathEdges.add(a < b ? a + "|" + b : b + "|" + a); }
+        networkView.selectedId = null; networkView.selectedEdge = null;
+        renderSidePanel(); draw();
       });
     }
 
