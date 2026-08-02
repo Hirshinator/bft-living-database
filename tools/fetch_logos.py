@@ -26,8 +26,8 @@ def get(u,to=12):
 def to_b64(raw):
     try:
         im=Image.open(io.BytesIO(raw)).convert("RGB")
-        im.thumbnail((64,64))
-        buf=io.BytesIO(); im.save(buf,"JPEG",quality=78)
+        im.thumbnail((96,96))
+        buf=io.BytesIO(); im.save(buf,"JPEG",quality=82)
         return "data:image/jpeg;base64,"+base64.b64encode(buf.getvalue()).decode()
     except Exception: return None
 
