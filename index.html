@@ -370,6 +370,7 @@
   const VIEWS = [
     { id: "feed", label: "Live Feed", icon: "&#128225" },
     { id: "amplify", label: "Amplify", icon: "&#128227" },
+    { id: "vet", label: "Vetting", icon: "&#128737" },
     { id: "stance_map", label: "Stance Map", icon: "&#9737" },
     { id: "network", label: "Ecosystem Network", icon: "&#8982" },
   ];
@@ -12076,6 +12077,7 @@
 
     if (state.activeTab === "feed") { renderFeed(el); return; }
     if (state.activeTab === "amplify") { renderAmplify(el); return; }
+    if (state.activeTab === "vet") { renderVet(el); return; }
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
     if (state.activeTab === "network") { renderNetworkGraph(el); return; }
 
@@ -12272,6 +12274,48 @@
       state.amplify.sent = null; renderGrid();
     }));
     document.getElementById("ampNotify").addEventListener("click", () => { state.amplify.sent = targeted.length; renderGrid(); });
+  }
+
+  function renderVet(el) {
+    if (!state.vet) state.vet = { name: "" };
+    const g = networkGraphData || buildNetworkGraphData();
+    const { nodes, edges, byId } = g;
+    const HOSTILE_KW = /\b(fuentes|groyper|talmud|from the river|apartheid|genocide|synagogue of satan|khazar|christ-?killer|joel webbon|great replacement|blood libel|globalist cabal|zionist (control|occupied|lobby))\b/i;
+    const q = (state.vet.name || "").trim().toLowerCase();
+    const target = q ? nodes.find(n => n.name.toLowerCase() === q) : null;
+    let report = "";
+    if (q && !target) {
+      report = `<div style="opacity:.7;margin-top:14px">No entry named "<b>${escXml(state.vet.name)}</b>" in the database yet. Add them (or their known connections) first, then vet.</div>`;
+    } else if (target) {
+      const nbrs = [];
+      edges.forEach(e => { if (e.a === target.id) nbrs.push(byId[e.b]); else if (e.b === target.id) nbrs.push(byId[e.a]); });
+      const hostileTies = nbrs.filter(n => n && n.raw && (n.raw.stance === "hostile" || n.raw.stance === "redflag"));
+      const proTies = nbrs.filter(n => n && n.raw && n.raw.stance === "pro");
+      const contentFlag = HOSTILE_KW.test((target.raw.evidence || "") + " " + (target.raw.researchNotes || "") + " " + (target.raw.platform || ""));
+      const selfHostile = target.raw.stance === "hostile" || target.raw.stance === "redflag";
+      let level, color;
+      if (selfHostile || hostileTies.length >= 2 || contentFlag) { level = "HIGH RISK"; color = "#C0392B"; }
+      else if (hostileTies.length === 1) { level = "REVIEW"; color = "#B8860B"; }
+      else if (proTies.length >= 1) { level = "LIKELY OK"; color = "#2E8B57"; }
+      else { level = "UNKNOWN — thin connection data"; color = "#6b7a8f"; }
+      const list = arr => arr.length ? arr.slice(0, 20).map(n => `<span class="tag tag-default">${escXml(n.name)}</span>`).join(" ") : `<span style="opacity:.5">none mapped</span>`;
+      report = `<div style="margin-top:14px">
+        <div style="display:inline-block;padding:6px 14px;border-radius:8px;background:${color};color:#fff;font-weight:700">${level}</div>
+        <div style="margin:12px 0"><div style="font-size:12px;font-weight:700;color:#C0392B;margin-bottom:4px">Hostile / red-flag ties (${hostileTies.length})</div>${list(hostileTies)}</div>
+        <div style="margin:12px 0"><div style="font-size:12px;font-weight:700;color:#2E8B57;margin-bottom:4px">Pro-Israel ties (${proTies.length})</div>${list(proTies)}</div>
+        ${contentFlag ? `<div style="margin:12px 0;padding:8px;background:rgba(192,57,43,.12);border-radius:6px;font-size:13px">&#9888; Their own content trips hostile-cluster language (Fuentes / Groyper / anti-Israel terms). Screen manually.</div>` : ""}
+        ${selfHostile ? `<div style="margin:12px 0;padding:8px;background:rgba(192,57,43,.12);border-radius:6px;font-size:13px">&#9888; Already flagged <b>${target.raw.stance}</b> in the database.</div>` : ""}
+      </div>`;
+    }
+    el.innerHTML = `<div style="max-width:640px;margin:0 auto">
+      <div style="font-size:18px;font-weight:700">&#128737; Vetting</div>
+      <div style="font-size:13px;opacity:.7;margin-bottom:12px">Screen an applicant by their connection-overlap with our mapped hostile cluster (groypers / anti-Israel left / red-flags). Deeper public-content sentiment screening runs via the vet tool.</div>
+      <input id="vetName" placeholder="Applicant name (must be in the database, or add their known connections first)" value="${(state.vet.name || "").replace(/"/g, "&quot;")}" style="width:100%;padding:9px;box-sizing:border-box">
+      ${report}
+    </div>`;
+    const inp = document.getElementById("vetName");
+    inp.addEventListener("change", () => { state.vet.name = inp.value; renderGrid(); });
+    inp.addEventListener("keydown", e => { if (e.key === "Enter") { state.vet.name = inp.value; renderGrid(); } });
   }
 
   function renderStanceMap(el) {
