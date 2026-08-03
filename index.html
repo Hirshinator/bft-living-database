@@ -11870,9 +11870,23 @@
   // Small round avatar shown on every card: a person's official channel photo,
   // a company logo, or a state seal. Same base64 data URI the network graph
   // uses, so nothing is fetched at render time.
+  // Provenance: always state whether a record's DATA was entered by AI or a trusted human.
+  // Almost all field data (stance/evidence/tags) was AI-researched, even when a human named the subject.
   function verifyBadge(item) {
-    return item && item.needsVerification === "yes"
-      ? `<span class="tag tag-verify" title="Claude-added; allyship not conclusively verified. Confirm before relying on this entry.">&#9888; needs verification</span>` : "";
+    if (!item) return "";
+    if (item.verifiedBy === "human")
+      return `<span class="tag" style="background:#2E8B57;color:#fff" title="Reviewed and confirmed by a trusted human.">&#10003; Human-verified</span>`;
+    const by = (item.addedBy || "").toLowerCase();
+    const aiEntered = /claude|layer b|roster mine|flywheel|apify|auto|allied-media|free press/.test(by);
+    const collab = /collaborator/.test(by);
+    const humanFlagged = /andy/.test(by);
+    let sub, tip;
+    if (collab) { sub = "Member-added"; tip = "Added by a collaborator; not yet verified by the team."; }
+    else if (aiEntered && !humanFlagged) { sub = "AI-found & AI-written"; tip = "This entry was discovered AND its details written by AI. Verify before relying on it."; }
+    else if (humanFlagged) { sub = "Human-flagged, AI-written"; tip = "A human flagged the subject; the stance / evidence / tags were researched and written by AI. Verify."; }
+    else { sub = "AI-entered"; tip = "Details written by AI. Verify."; }
+    const warn = item.needsVerification === "yes" ? " &#9888;" : "";
+    return `<span class="tag" style="background:#7c5b12;color:#fff" title="${tip}">&#129302; ${sub}${warn}</span>`;
   }
 
   function cardAvatar(item) {
@@ -13283,6 +13297,8 @@
   // Corporate-affiliated voices may be constrained on-air; when they go independent they
   // can take a boosted audience with them and flip (Candace Owens, Tucker Carlson, Brett Cooper).
   ["influencer","business_leader","swing","nurture","rising_stars"].forEach(function(_c){ if(FIELD_DEFS[_c]) FIELD_DEFS[_c].push({key:"affiliation",label:"Independence — Independent vs. Corporate/Establishment (flight-risk when corporate voices go solo)",type:"select",options:["Independent","Corporate/Establishment","Independent (ex-corporate)"]}); });
+  // Provenance: a trusted human sets this to "human" once they've reviewed/confirmed the entry (turns the card badge green).
+  ["influencer","business_leader","political","nurture","rising_stars","swing","grassroots_business","grassroots_politics","organization","media","business","israeli_tech","sponsor","events"].forEach(function(_c){ if(FIELD_DEFS[_c]) FIELD_DEFS[_c].push({key:"verifiedBy",label:"Verified by (set to 'human' when a trusted human has confirmed this entry)",type:"select",options:["","human"]}); });
 
   function openModal(id, cat) {
     cat = cat || state.activeTab;
