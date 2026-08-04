@@ -12504,8 +12504,11 @@
     function pairType(srcRaw, aRaw, bRaw) {
       const t = ((srcRaw.evidence||"") + " " + (srcRaw.researchNotes||"")).toLowerCase();
       if (/co-?host/.test(t)) return "co_host";
-      if (/\b(guest|interview|hosted|appeared on|featured)\b/.test(t)) return "host_guest";
-      if (/\b(co-?found|business partner|partner|invested|backer|portfolio)\b/.test(t)) return "business_partner";
+      // partnership / leadership / investment first -- the most stable ties, and this
+      // avoids a stray research-note "interview" (e.g. "Paulina interview") mislabeling a partnership.
+      if (/\b(co-?found|founded by|founder|leads?\b|leading|heads?\b|director of|principal|chair(man)?|president of|business partner|partner(ed| with| at)|board (member|of|seat)|initiative|colleague|works (at|for)|invested|invests|backer|portfolio|co-invest|donor|philanthrop)\b/.test(t)) return "business_partner";
+      // host/guest requires a real media appearance, not a bare "interview"/"hosted"/"featured"
+      if (/\b(guest on|guest of|appeared on|featured on|hosted (him|her|them)|interviewed (him|her|them)|joined .{0,20}on (his|her|the) (show|podcast))\b/.test(t)) return "host_guest";
       if (/\b(friend|close ally|allied with|befriend)\b/.test(t)) return "friend";
       if (/\b(rival|feud|beef|clash)\b/.test(t)) return "rival";
       if (/\b(client|customer|vendor|retainer|contracted|does work for|hired by)\b/.test(t)) return "client";
@@ -12783,7 +12786,7 @@
       panelEl.innerHTML = `<div class="network-side-panel">
         <div style="font-size:10px;text-transform:uppercase;color:var(--text-muted);font-weight:700;margin-bottom:4px">Connection</div>
         <h4 style="font-size:15px">${escXml(a.name)} <span style="color:var(--text-muted)">↔</span> ${escXml(b.name)}</h4>
-        <div class="nsp-meta" style="margin:5px 0"><b>${EDGE_LABEL[e.type] || e.type}</b></div>
+        <div class="nsp-meta" style="margin:5px 0"><b>${EDGE_LABEL[e.type] || e.type}</b> <span style="color:var(--text-muted);font-weight:400">&middot; inferred type, verify</span></div>
         <div class="nsp-edges" style="font-size:12px">${snip ? escXml(snip) + "…" : "<em>Auto-detected link. Add detail via either entry's \"Related\" field.</em>"}</div>
         <div style="display:flex;gap:6px;margin-top:8px">
           <button class="btn btn-ghost" id="edgeOpenA" style="flex:1">${escXml(a.name.split(" ")[0])}</button>

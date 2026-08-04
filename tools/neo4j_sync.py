@@ -91,8 +91,9 @@ def main():
         def pair_type(src, a_raw, b_raw):
             t = ((src.get("evidence", "") or "") + " " + (src.get("researchNotes", "") or "")).lower()
             if re.search(r"co-?host", t): return "CO_HOST"
-            if re.search(r"\b(guest|interview|hosted|appeared on|featured)\b", t): return "HOST_GUEST"
-            if re.search(r"\b(co-?found|business partner|partner|invested|backer|portfolio)\b", t): return "BUSINESS_PARTNER"
+            # partnership/leadership/investment first (stable ties); avoids stray "interview" mislabeling
+            if re.search(r"\b(co-?found|founded by|founder|leads?\b|leading|heads?\b|director of|principal|chair(man)?|president of|business partner|partner(ed| with| at)|board (member|of|seat)|initiative|colleague|works (at|for)|invested|invests|backer|portfolio|co-invest|donor|philanthrop)\b", t): return "BUSINESS_PARTNER"
+            if re.search(r"\b(guest on|guest of|appeared on|featured on|hosted (him|her|them)|interviewed (him|her|them)|joined .{0,20}on (his|her|the) (show|podcast))\b", t): return "HOST_GUEST"
             if re.search(r"\b(friend|close ally|allied with|befriend)\b", t): return "FRIEND"
             if re.search(r"\b(rival|feud|beef|clash)\b", t): return "RIVAL"
             if re.search(r"\b(client|customer|vendor|retainer|contracted|does work for|hired by)\b", t): return "CLIENT"
