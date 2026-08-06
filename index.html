@@ -371,6 +371,7 @@
     { id: "feed", label: "Live Feed", icon: "&#128225" },
     { id: "amplify", label: "Amplify", icon: "&#128227" },
     { id: "vet", label: "Vetting", icon: "&#128737" },
+    { id: "apply", label: "Join / Apply", icon: "&#129309" },
     { id: "docs", label: "Docs", icon: "&#128214" },
     { id: "stance_map", label: "Stance Map", icon: "&#9737" },
     { id: "network", label: "Ecosystem Network", icon: "&#8982" },
@@ -383,7 +384,12 @@
   let APP_CONFIG = (() => { try { return JSON.parse(localStorage.getItem(_CFG_KEY)) || {}; } catch (e) { return {}; } })();
   APP_CONFIG.hiddenCats = APP_CONFIG.hiddenCats || [];
   APP_CONFIG.labels = APP_CONFIG.labels || {};
+  APP_CONFIG.notionUrl = APP_CONFIG.notionUrl || "";
   function saveConfig() { try { localStorage.setItem(_CFG_KEY, JSON.stringify(APP_CONFIG)); } catch (e) {} }
+  // ---- Grassroots membership applications (crowdsourced growth + vetting queue) ----
+  const _APPS_KEY = "bft_applications";
+  function loadApps() { try { return JSON.parse(localStorage.getItem(_APPS_KEY)) || []; } catch (e) { return []; } }
+  function saveApps(a) { try { localStorage.setItem(_APPS_KEY, JSON.stringify(a)); } catch (e) {} }
   function catLabel(k) { return (APP_CONFIG.labels && APP_CONFIG.labels[k]) || CATEGORIES[k].label; }
   function visibleCats() { return VISIBLE_CATEGORIES.filter(k => !APP_CONFIG.hiddenCats.includes(k)); }
 
@@ -11790,8 +11796,11 @@
         <select data-cfg="defaultView">${allTabs.map(t => `<option value="${t.id}" ${(APP_CONFIG.defaultView || "network") === t.id ? "selected" : ""}>${t.label}</option>`).join("")}</select></div>
       <div class="field"><label>Show / hide &amp; rename category tabs</label>
         <div style="max-height:240px;overflow:auto;border:1px solid rgba(128,128,128,.25);border-radius:8px;padding:8px">
-        ${VISIBLE_CATEGORIES.map(k => `<label style="display:flex;gap:8px;align-items:center;margin:4px 0"><input type="checkbox" data-showcat="${k}" ${APP_CONFIG.hiddenCats.includes(k) ? "" : "checked"}><input type="text" data-label="${k}" value="${(APP_CONFIG.labels[k] || CATEGORIES[k].label).replace(/"/g, "&quot;")}" style="flex:1;font-size:12px;padding:4px 7px"></label>`).join("")}
+        ${VISIBLE_CATEGORIES.map(k => `<label style="display:flex;gap:8px;align-items:center;margin:4px 0"><input type="checkbox" data-showcat="${k}" ${APP_CONFIG.hiddenCats.includes(k) ? "" : "checked"} style="flex:0 0 auto;width:16px;height:16px;margin:0"><input type="text" data-label="${k}" value="${(APP_CONFIG.labels[k] || CATEGORIES[k].label || k).replace(/"/g, "&quot;")}" style="flex:1;font-size:13px;padding:5px 8px;color:#1C2530;background:#fff;border:1px solid rgba(0,0,0,.25);border-radius:4px"></label>`).join("")}
         </div><div style="font-size:11px;opacity:.6;margin-top:5px">Uncheck to hide a tab; edit the text to rename it.</div></div>
+      <div class="field"><label>Notion published URL <span style="font-weight:400;opacity:.6">(embeds live in the Docs tab)</span></label>
+        <input type="text" data-cfg="notionUrl" value="${(APP_CONFIG.notionUrl || "").replace(/"/g, "&quot;")}" placeholder="https://your-page.notion.site/…" style="width:100%;font-size:13px;padding:7px 9px;color:#1C2530;background:#fff;border:1px solid rgba(0,0,0,.25);border-radius:4px;box-sizing:border-box">
+        <div style="font-size:11px;opacity:.6;margin-top:5px">In Notion: Share &rarr; Publish &rarr; copy the <code>notion.site</code> link. Leave blank to keep Notion private (Docs tab links out instead).</div></div>
       <div class="modal-actions"><button class="btn btn-ghost" id="cancelModal">Cancel</button><button class="btn btn-ghost" id="adminReset">Reset all</button><button class="btn btn-primary" id="adminSave">Save</button></div>
     </div></div>`;
     document.getElementById("cancelModal").addEventListener("click", closeModal);
@@ -11799,6 +11808,7 @@
     document.getElementById("adminReset").addEventListener("click", () => { APP_CONFIG = { hiddenCats: [], labels: {} }; saveConfig(); closeModal(); renderAll(); });
     document.getElementById("adminSave").addEventListener("click", () => {
       APP_CONFIG.defaultView = document.querySelector('[data-cfg="defaultView"]').value;
+      APP_CONFIG.notionUrl = (document.querySelector('[data-cfg="notionUrl"]').value || "").trim();
       APP_CONFIG.hiddenCats = [...document.querySelectorAll("[data-showcat]")].filter(c => !c.checked).map(c => c.dataset.showcat);
       APP_CONFIG.labels = {};
       document.querySelectorAll("[data-label]").forEach(i => { const v = i.value.trim(); if (v && v !== CATEGORIES[i.dataset.label].label) APP_CONFIG.labels[i.dataset.label] = v; });
@@ -12104,6 +12114,7 @@
     if (state.activeTab === "feed") { renderFeed(el); return; }
     if (state.activeTab === "amplify") { renderAmplify(el); return; }
     if (state.activeTab === "vet") { renderVet(el); return; }
+    if (state.activeTab === "apply") { renderApply(el); return; }
     if (state.activeTab === "docs") { renderDocs(el); return; }
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
     if (state.activeTab === "network") { renderNetworkGraph(el); return; }
@@ -12303,15 +12314,38 @@
     document.getElementById("ampNotify").addEventListener("click", () => { state.amplify.sent = targeted.length; renderGrid(); });
   }
 
+  // Andy's live Notion workspace (private). Embedding requires a published (public) notion.site URL,
+  // set in ⚙ Customize. Until then we deep-link to the private page.
+  const NOTION_PRIVATE_URL = "https://app.notion.com/p/BFT-3a369e5a893f80c0a7e1eaaf4a94ba95";
+  function notionDocHtml() {
+    const pub = (APP_CONFIG.notionUrl || "").trim();
+    if (pub) {
+      return `<h2 style="margin:8px 0 10px;font-size:20px">&#128214; BFT Notion Workspace</h2>
+        <div style="font-size:12px;opacity:.6;margin-bottom:10px">Live embed of the published Notion workspace. Edit it in Notion; changes appear here on refresh. <a href="${escXml(pub)}" target="_blank" rel="noopener" style="color:var(--accent)">Open in Notion &#8599;</a></div>
+        <iframe src="${escXml(pub)}" style="width:100%;height:78vh;border:1px solid rgba(128,128,128,.25);border-radius:10px;background:#fff" loading="lazy"></iframe>`;
+    }
+    return `<h2 style="margin:8px 0 10px;font-size:20px">&#128214; BFT Notion Workspace</h2>
+      <div style="padding:16px;border:1px dashed rgba(128,128,128,.4);border-radius:10px;font-size:14px;line-height:1.6">
+        <p style="margin:0 0 10px"><b>Your Notion doc is private</b>, so it can't be embedded yet — Notion only allows embedding a page that's been <b>Published to web</b> (which makes a public <code>notion.site</code> link). Two ways to connect it:</p>
+        <ol style="margin:0 0 10px 18px">
+          <li style="margin:4px 0">In Notion, open your BFT page &rarr; <b>Share</b> (top-right) &rarr; <b>Publish</b> &rarr; copy the <code>*.notion.site</code> link.</li>
+          <li style="margin:4px 0">Here in the app: <b>&#9881; Customize</b> &rarr; paste it into <b>“Notion published URL”</b> &rarr; Save. It embeds live, right on this page.</li>
+        </ol>
+        <p style="margin:0 0 12px;opacity:.75">Prefer to keep it fully private? Skip publishing — the button below opens your private workspace in Notion (you'll need to be logged in). The five project docs in this tab already mirror your workspace's key pages.</p>
+        <a class="btn btn-primary" href="${escXml(NOTION_PRIVATE_URL)}" target="_blank" rel="noopener">Open my private Notion workspace &#8599;</a>
+      </div>`;
+  }
+
   function renderDocs(el) {
-    if (!state.docId) state.docId = DOCS[0].id;
-    const doc = DOCS.find(d => d.id === state.docId) || DOCS[0];
-    el.innerHTML = `<div style="display:flex;gap:22px;max-width:1000px;margin:0 auto;align-items:flex-start">
+    const docList = [{ id: "notion", title: "&#128214; Notion Workspace" }].concat(DOCS.map(d => ({ id: d.id, title: d.title })));
+    if (!state.docId || !docList.find(d => d.id === state.docId)) state.docId = docList[0].id;
+    const bodyHtml = state.docId === "notion" ? notionDocHtml() : (DOCS.find(d => d.id === state.docId) || DOCS[0]).html;
+    el.innerHTML = `<div style="display:flex;gap:22px;max-width:1100px;margin:0 auto;align-items:flex-start">
       <aside style="flex:0 0 190px;position:sticky;top:8px">
         <div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin-bottom:8px">Project docs</div>
-        ${DOCS.map(d => `<button class="btn ${d.id === state.docId ? "btn-primary" : "btn-ghost"}" data-doc="${d.id}" style="display:block;width:100%;text-align:left;margin-bottom:5px">${d.title}</button>`).join("")}
+        ${docList.map(d => `<button class="btn ${d.id === state.docId ? "btn-primary" : "btn-ghost"}" data-doc="${d.id}" style="display:block;width:100%;text-align:left;margin-bottom:5px">${d.title}</button>`).join("")}
       </aside>
-      <div style="flex:1;min-width:0;font-size:14px">${doc.html}</div>
+      <div style="flex:1;min-width:0;font-size:14px">${bodyHtml}</div>
     </div>`;
     el.querySelectorAll("[data-doc]").forEach(b => b.addEventListener("click", () => { state.docId = b.dataset.doc; renderGrid(); }));
   }
@@ -12356,6 +12390,171 @@
     const inp = document.getElementById("vetName");
     inp.addEventListener("change", () => { state.vet.name = inp.value; renderGrid(); });
     inp.addEventListener("keydown", e => { if (e.key === "Enter") { state.vet.name = inp.value; renderGrid(); } });
+  }
+
+  // ---- Crowdsourced grassroots growth: apply -> screen -> human vet -> add ----
+  const APPLY_HOSTILE_KW = /\b(fuentes|groyper|nick fuentes|from the river to the sea|apartheid state|genocide in gaza|zionist (occupied|control|lobby|entity)|khazar|christ-?killer|synagogue of satan|blood libel|holohoax|kanye is right|joel webbon|great replacement|jews (control|did|run)|globalist cabal)\b/i;
+
+  function screenApplication(a) {
+    const flags = [];
+    // Hard red lines (auto-reject) — mirror the database's genocide/apartheid + right-to-exist tests.
+    if (a.q_apartheid === "yes") flags.push({ level: "reject", msg: "Self-reported calling Israel an “apartheid state” / Gaza a “genocide” without retraction — crosses the database red line." });
+    if (a.q_exist === "no") flags.push({ level: "reject", msg: "Does not affirm Israel’s right to exist as a Jewish state." });
+    if (a.q_conduct !== "yes") flags.push({ level: "review", msg: "Did not agree to the code of conduct." });
+    // Content scan of their own words + handles.
+    const blob = ((a.statement || "") + " " + (a.handles || "") + " " + (a.network || "")).toLowerCase();
+    if (APPLY_HOSTILE_KW.test(blob)) flags.push({ level: "reject", msg: "Application text trips hostile-cluster language (groyper / anti-Israel terms). Screen manually before any approval." });
+    // Connection-overlap: does anything they submitted name a mapped hostile?
+    const g = networkGraphData || buildNetworkGraphData();
+    const hostileNodes = g.nodes.filter(n => n.raw && (n.raw.stance === "hostile" || n.raw.stance === "redflag"));
+    const hostileHits = hostileNodes.filter(n => n.name.length >= 5 && blob.includes(n.name.toLowerCase())).map(n => n.name);
+    if (hostileHits.length) flags.push({ level: "review", msg: "Names / follows mapped hostiles: " + hostileHits.slice(0, 6).join(", ") + ". Confirm the tie is oppositional, not affiliative." });
+    // Trust signal: a vouching referrer who is already a mapped ally.
+    let vouch = null;
+    if (a.referrer && a.referrer.trim()) {
+      const r = g.nodes.find(n => n.name.toLowerCase() === a.referrer.trim().toLowerCase());
+      if (r && r.raw && r.raw.stance === "pro") vouch = r.name;
+    }
+    const rejects = flags.filter(f => f.level === "reject");
+    const reviews = flags.filter(f => f.level === "review");
+    let verdict, color;
+    if (rejects.length) { verdict = "AUTO-REJECT — red line"; color = "#C0392B"; }
+    else if (reviews.length) { verdict = "NEEDS HUMAN REVIEW"; color = "#B8860B"; }
+    else if (vouch) { verdict = "LIKELY OK — vouched by " + vouch; color = "#2E8B57"; }
+    else { verdict = "PASSES AUTO-SCREEN — human review still required"; color = "#2E8B57"; }
+    return { verdict, color, flags, vouch };
+  }
+
+  function renderApply(el) {
+    if (!state.apply) state.apply = { mode: "form", draft: {}, confirm: null };
+    const S = state.apply;
+    if (S.mode === "queue") { renderApplyQueue(el); return; }
+    const d = S.draft;
+    const val = k => (d[k] || "").replace(/"/g, "&quot;");
+    const radio = (name, opts) => opts.map(o => `<label style="display:inline-flex;gap:5px;align-items:center;margin-right:16px;font-weight:400"><input type="radio" name="${name}" value="${o.v}" ${d[name] === o.v ? "checked" : ""} style="width:15px;height:15px;margin:0">${o.t}</label>`).join("");
+    const pendingCount = loadApps().filter(a => a.status === "pending").length;
+    let confirmHtml = "";
+    if (S.confirm) {
+      confirmHtml = `<div style="margin-bottom:18px;padding:14px 16px;border-radius:10px;background:${S.confirm.color}1a;border:1px solid ${S.confirm.color}">
+        <div style="font-weight:700;color:${S.confirm.color}">Application received — ${S.confirm.verdict}</div>
+        <div style="font-size:13px;margin-top:6px;line-height:1.5">Thank you, ${escXml(S.confirm.name)}. Your application is in the queue for a human reviewer. Nobody is added to the network by software alone — a real person on the team makes the final call.</div>
+      </div>`;
+    }
+    el.innerHTML = `<div style="max-width:660px;margin:0 auto">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+        <div style="font-size:19px;font-weight:700">&#129309; Join the grassroots network</div>
+        <button class="btn btn-ghost" id="applyReviewerBtn" style="font-size:12px">Reviewer queue${pendingCount ? ` <span style="background:#C0392B;color:#fff;border-radius:9px;padding:0 6px;margin-left:3px">${pendingCount}</span>` : ""}</button>
+      </div>
+      <div style="font-size:13px;opacity:.75;margin:6px 0 16px;line-height:1.55">We grow the grassroots business/tech and political networks by referral — <b>especially non-Jews who stand with the Jewish people and Israel</b>. Because this is a sensitive coalition, every applicant is screened and then reviewed by a person before being added. Nothing here is public.</div>
+      ${confirmHtml}
+      <div style="display:flex;flex-direction:column;gap:13px;font-size:13px">
+        <label>Full name *<input id="ap_name" value="${val("name")}" placeholder="Your name" style="width:100%;padding:8px;box-sizing:border-box"></label>
+        <label>City / State<input id="ap_city" value="${val("city")}" placeholder="e.g. Dallas, TX" style="width:100%;padding:8px;box-sizing:border-box"></label>
+        <div>Which network do you fit best? *<div style="margin-top:6px">${radio("network_kind", [{ v: "grassroots_business", t: "Business / Tech professional" }, { v: "grassroots_politics", t: "Political / community grassroots" }])}</div></div>
+        <label>Faith / community <span style="opacity:.6">(optional — Christians &amp; all allies welcome)</span><input id="ap_faith" value="${val("faith")}" placeholder="e.g. Evangelical Christian, Catholic, Noahide, etc." style="width:100%;padding:8px;box-sizing:border-box"></label>
+        <label>Who referred / vouches for you? <span style="opacity:.6">(a current member — strengthens your application)</span><input id="ap_referrer" value="${val("referrer")}" placeholder="Name of the member who invited you" style="width:100%;padding:8px;box-sizing:border-box"></label>
+        <label>Your public handles / links <span style="opacity:.6">(X, Instagram, LinkedIn, etc.)</span><textarea id="ap_handles" rows="2" placeholder="@handle, linkedin.com/in/…" style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.handles || "")}</textarea></label>
+        <label>In a sentence or two, why do you support Israel and the Jewish people? *<textarea id="ap_statement" rows="3" placeholder="Your own words." style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.statement || "")}</textarea></label>
+        <label>Optional: paste your professional network to speed vetting <span style="opacity:.6">(names / handles you’re connected to — helps us map the coalition and check for red flags)</span><textarea id="ap_network" rows="3" placeholder="Paste a list of names or handles — e.g. an export from your LinkedIn connections. Optional." style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.network || "")}</textarea></label>
+        <div style="border-top:1px solid rgba(128,128,128,.2);padding-top:12px">
+          <div style="font-weight:700;margin-bottom:8px">Screening (required)</div>
+          <div style="margin-bottom:10px">Do you support Israel’s right to exist as a Jewish state? *<div style="margin-top:5px">${radio("q_exist", [{ v: "yes", t: "Yes" }, { v: "no", t: "No" }])}</div></div>
+          <div style="margin-bottom:10px">Have you ever publicly called Israel an “apartheid state,” or the war in Gaza a “genocide,” without later retracting it? *<div style="margin-top:5px">${radio("q_apartheid", [{ v: "no", t: "No" }, { v: "yes", t: "Yes" }])}</div></div>
+          <label style="display:flex;gap:8px;align-items:flex-start;font-weight:400"><input type="checkbox" id="ap_conduct" ${d.q_conduct === "yes" ? "checked" : ""} style="width:16px;height:16px;margin:2px 0 0"><span>I agree to a code of conduct: no antisemitism, no bigotry, and I understand this is a private, security-conscious coalition.</span></label>
+        </div>
+        <button class="btn btn-primary" id="ap_submit" style="margin-top:6px;align-self:flex-start">Submit application</button>
+        <div style="font-size:11px;opacity:.6">Stored privately in this browser’s review queue. A human reviews every application before anyone is added — the auto-screen only assists.</div>
+      </div>
+    </div>`;
+
+    el.querySelectorAll("input[type=radio]").forEach(r => r.addEventListener("change", () => { d[r.name] = r.value; }));
+    document.getElementById("applyReviewerBtn").addEventListener("click", () => { S.mode = "queue"; renderGrid(); });
+    document.getElementById("ap_submit").addEventListener("click", async () => {
+      ["name", "city", "faith", "referrer"].forEach(k => d[k] = (document.getElementById("ap_" + k).value || "").trim());
+      d.handles = document.getElementById("ap_handles").value.trim();
+      d.statement = document.getElementById("ap_statement").value.trim();
+      d.network = document.getElementById("ap_network").value.trim();
+      d.q_conduct = document.getElementById("ap_conduct").checked ? "yes" : "no";
+      if (!d.name) { alert("Please enter your name."); return; }
+      if (!d.network_kind) { alert("Please pick which network fits you best."); return; }
+      if (!d.statement) { alert("Please tell us, in your own words, why you support Israel and the Jewish people."); return; }
+      if (!d.q_exist || !d.q_apartheid) { alert("Please answer the two screening questions."); return; }
+      const screen = screenApplication(d);
+      const apps = loadApps();
+      apps.unshift({
+        id: uid(), submittedAt: new Date().toISOString(), status: "pending",
+        name: d.name, city: d.city, faith: d.faith, referrer: d.referrer, handles: d.handles,
+        statement: d.statement, network: d.network, network_kind: d.network_kind,
+        q_exist: d.q_exist, q_apartheid: d.q_apartheid, q_conduct: d.q_conduct,
+        screen: { verdict: screen.verdict, color: screen.color, flags: screen.flags, vouch: screen.vouch }
+      });
+      saveApps(apps);
+      state.apply = { mode: "form", draft: {}, confirm: { name: d.name, verdict: screen.verdict, color: screen.color } };
+      renderGrid();
+    });
+  }
+
+  function renderApplyQueue(el) {
+    const apps = loadApps();
+    const pending = apps.filter(a => a.status === "pending");
+    const decided = apps.filter(a => a.status !== "pending");
+    const card = a => {
+      const s = a.screen || { verdict: "—", color: "#6b7a8f", flags: [] };
+      const flagsHtml = (s.flags || []).map(f => `<div style="font-size:12px;margin:3px 0;color:${f.level === "reject" ? "#C0392B" : "#B8860B"}">&#9888; ${escXml(f.msg)}</div>`).join("");
+      const kindLabel = a.network_kind === "grassroots_business" ? "Business / Tech" : "Political / grassroots";
+      const decidedBadge = a.status === "approved" ? `<span style="color:#2E8B57;font-weight:700">✓ Approved</span>` : a.status === "rejected" ? `<span style="color:#C0392B;font-weight:700">✕ Rejected</span>` : "";
+      return `<div style="border:1px solid rgba(128,128,128,.25);border-radius:10px;padding:14px;margin-bottom:12px">
+        <div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline">
+          <div style="font-weight:700;font-size:15px">${escXml(a.name)} ${a.city ? `<span style="font-weight:400;opacity:.6;font-size:12px">— ${escXml(a.city)}</span>` : ""}</div>
+          <div style="font-size:11px;opacity:.55">${(a.submittedAt || "").slice(0, 10)}</div>
+        </div>
+        <div style="display:inline-block;margin:8px 0;padding:4px 11px;border-radius:7px;background:${s.color};color:#fff;font-size:12px;font-weight:700">${escXml(s.verdict)}</div>
+        ${decidedBadge ? `<div style="margin:4px 0">${decidedBadge}</div>` : ""}
+        <div style="font-size:12px;margin:4px 0"><b>Fits:</b> ${kindLabel}${a.faith ? ` &middot; <b>Community:</b> ${escXml(a.faith)}` : ""}${a.referrer ? ` &middot; <b>Vouched by:</b> ${escXml(a.referrer)}` : ""}</div>
+        ${a.handles ? `<div style="font-size:12px;margin:4px 0;word-break:break-all"><b>Handles:</b> ${escXml(a.handles)}</div>` : ""}
+        <div style="font-size:13px;margin:6px 0;padding:8px;background:rgba(128,128,128,.08);border-radius:6px"><i>“${escXml(a.statement)}”</i></div>
+        ${a.network ? `<details style="font-size:12px;margin:4px 0"><summary style="cursor:pointer;opacity:.7">Submitted network (${(a.network.match(/[,;\n]/g) || []).length + 1} entries)</summary><div style="white-space:pre-wrap;margin-top:5px;max-height:120px;overflow:auto;padding:6px;background:rgba(128,128,128,.08);border-radius:5px">${escXml(a.network)}</div></details>` : ""}
+        ${flagsHtml ? `<div style="margin:8px 0">${flagsHtml}</div>` : ""}
+        ${a.status === "pending" ? `<div style="display:flex;gap:8px;margin-top:10px">
+          <button class="btn btn-primary" data-approve="${a.id}">Approve &amp; add to network</button>
+          <button class="btn btn-ghost" data-reject="${a.id}" style="color:#C0392B">Reject</button>
+        </div>` : ""}
+      </div>`;
+    };
+    el.innerHTML = `<div style="max-width:680px;margin:0 auto">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+        <div style="font-size:19px;font-weight:700">&#128737; Applicant review queue</div>
+        <button class="btn btn-ghost" id="applyBackBtn" style="font-size:12px">&larr; Back to application form</button>
+      </div>
+      <div style="font-size:13px;opacity:.7;margin:6px 0 16px;line-height:1.5">Every applicant is auto-screened (red-line tests + hostile-connection overlap), but <b>a human makes the call</b>. Approving adds them to the chosen grassroots network, tagged as human-verified via application.</div>
+      <div style="font-weight:700;margin:10px 0 8px">Pending (${pending.length})</div>
+      ${pending.length ? pending.map(card).join("") : `<div style="opacity:.55;font-size:13px">No pending applications. Share the Join / Apply tab to start collecting them.</div>`}
+      ${decided.length ? `<div style="font-weight:700;margin:20px 0 8px">Decided (${decided.length})</div>${decided.map(card).join("")}` : ""}
+    </div>`;
+    document.getElementById("applyBackBtn").addEventListener("click", () => { state.apply.mode = "form"; renderGrid(); });
+    el.querySelectorAll("[data-reject]").forEach(b => b.addEventListener("click", () => {
+      const all = loadApps(); const a = all.find(x => x.id === b.dataset.reject); if (a) { a.status = "rejected"; saveApps(all); renderGrid(); }
+    }));
+    el.querySelectorAll("[data-approve]").forEach(b => b.addEventListener("click", async () => {
+      const all = loadApps(); const a = all.find(x => x.id === b.dataset.approve); if (!a) return;
+      const cat = a.network_kind === "grassroots_business" ? "grassroots_business" : "grassroots_politics";
+      const prefix = cat === "grassroots_business" ? "gb-" : "gp-";
+      const rec = {
+        id: uid(), bftId: prefix + Math.random().toString(16).slice(2, 10), name: a.name,
+        stance: "pro", allianceScore: 60, needsVerification: "no", verifiedBy: "human",
+        addedBy: "applicant self-submission", network: "Grassroots",
+        platform: a.handles || "", audience: cat === "grassroots_business" ? "Business/Professional" : "Grassroots/community",
+        related: a.referrer || "", nationality: a.city || "",
+        evidence: "Applied via the Join form and was reviewed and approved by a human vetter. Self-described support: “" + a.statement + "”" + (a.referrer ? " Vouched by " + a.referrer + "." : "") + (a.faith ? " Community: " + a.faith + "." : ""),
+        researchNotes: "Auto-screen verdict at application: " + ((a.screen && a.screen.verdict) || "n/a") + ". Approved by reviewer " + new Date().toISOString().slice(0, 10) + ".",
+        source: "grassroots application"
+      };
+      (state.data[cat] = state.data[cat] || []).push(rec);
+      a.status = "approved"; saveApps(all);
+      await saveData();
+      networkGraphData = null; allyLinkCounts = null;
+      renderGrid();
+    }));
   }
 
   function renderStanceMap(el) {
