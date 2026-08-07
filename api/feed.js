@@ -11,6 +11,14 @@ const DEFAULT_QUERIES = [
   "campus antisemitism",
 ];
 
+// Monitored YouTube channels — live uploads via each channel's RSS (no API key).
+// Add more by resolving a channel's id (youtube.com/@handle -> "externalId") and appending here.
+const CHANNELS = [
+  { id: "UCaGCg20T6NcBs0NMU1D4-Rg", name: "Stand Tall Israel" },
+  { id: "UCF9LFWX5cdGHBg_FDm6tFrQ", name: "Breezy Politics" },
+  { id: "UC3M7l8ved_rYQ45AVzS0RGA", name: "The Jimmy Dore Show" },
+];
+
 function decode(s) {
   return String(s || "")
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -41,6 +49,20 @@ function parseItems(xml, query) {
   return out;
 }
 
+// YouTube channel RSS is Atom (<entry>/<published>/<link href>), not RSS (<item>/<pubDate>).
+function parseYouTube(xml, channelName) {
+  const out = [];
+  const re = /<entry>([\s\S]*?)<\/entry>/g;
+  let m;
+  while ((m = re.exec(xml))) {
+    const b = m[1];
+    const linkM = b.match(/<link[^>]*href="([^"]+)"/);
+    const pub = (b.match(/<published>([^<]+)<\/published>/) || [])[1] || "";
+    out.push({ title: tag(b, "title"), link: linkM ? linkM[1] : "", date: pub, source: channelName, query: "YouTube" });
+  }
+  return out;
+}
+
 module.exports = async (req, res) => {
   try {
     const queries = (process.env.FEED_QUERIES ? process.env.FEED_QUERIES.split(",").map(s => s.trim()).filter(Boolean) : DEFAULT_QUERIES);
@@ -51,6 +73,12 @@ module.exports = async (req, res) => {
         const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (compatible; BFTFeed/1.0)" } });
         if (r.ok) all = all.concat(parseItems(await r.text(), q));
       } catch (e) { /* skip a failing query */ }
+    }));
+    await Promise.all(CHANNELS.map(async (ch) => {
+      try {
+        const r = await fetch("https://www.youtube.com/feeds/videos.xml?channel_id=" + ch.id, { headers: { "User-Agent": "Mozilla/5.0 (compatible; BFTFeed/1.0)" } });
+        if (r.ok) all = all.concat(parseYouTube(await r.text(), ch.name).slice(0, 5));
+      } catch (e) { /* skip a failing channel */ }
     }));
     // Dedupe by title, sort newest first, cap.
     const seen = new Set(), uniq = [];
