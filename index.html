@@ -337,15 +337,23 @@
     document.getElementById("app").style.display = "";
   }
 
-  async function attemptUnlock(code) {
+  async function attemptUnlock(code, fromLink) {
     if (!code) { showGate("Enter a passcode."); return; }
     document.getElementById("gateSubmit").disabled = true;
     document.getElementById("gateError").textContent = "Checking...";
     const result = await checkPasscode(code).catch((e) => ({ ok: false, serverError: "Could not reach the server: " + e.message }));
     document.getElementById("gateSubmit").disabled = false;
     if (result.ok) {
+      // Safety: a full-access (editor) passcode must never travel in a link. If one is
+      // used via ?k=, refuse to auto-open and don't persist it -- only read-only viewer
+      // passcodes are allowed to ride in a shareable URL.
+      if (fromLink && !result.readOnly) {
+        try { history.replaceState(null, "", location.pathname); } catch (e) {}
+        showGate("For safety, a full-access passcode can't open from a link. Enter it manually here, and use your read-only viewer passcode for shareable links.");
+        return;
+      }
       PASSCODE = code;
-      localStorage.setItem("bft_passcode", code);
+      if (!fromLink) localStorage.setItem("bft_passcode", code);
       if (result.readOnly) READ_ONLY = true;
       hideGate();
       applyReadOnlyChrome();
@@ -360,8 +368,12 @@
   function initGate() {
     document.getElementById("gateSubmit").addEventListener("click", () => attemptUnlock(document.getElementById("gatePasscode").value.trim()));
     document.getElementById("gatePasscode").addEventListener("keydown", (e) => { if (e.key === "Enter") attemptUnlock(e.target.value.trim()); });
+    // ?k=<passcode> in the link auto-unlocks (meant for the read-only viewer passcode, so a
+    // shared link opens with one click). Takes priority over a remembered passcode.
+    const linkKey = new URLSearchParams(location.search).get("k");
     const remembered = localStorage.getItem("bft_passcode");
-    if (remembered) attemptUnlock(remembered);
+    if (linkKey) attemptUnlock(linkKey, true);
+    else if (remembered) attemptUnlock(remembered, false);
     else showGate();
   }
 
