@@ -414,6 +414,8 @@
     { id: "amplify", label: "Amplify", icon: "&#128227" },
     { id: "vet", label: "Vetting", icon: "&#128737" },
     { id: "apply", label: "Join / Apply", icon: "&#129309" },
+    { id: "spreadsheet", label: "Spreadsheet", icon: "&#128202" },
+    { id: "notion", label: "Notion", icon: "&#128211" },
     { id: "docs", label: "Docs", icon: "&#128214" },
     { id: "stance_map", label: "Stance Map", icon: "&#9737" },
     { id: "network", label: "Ecosystem Network", icon: "&#8982" },
@@ -12163,6 +12165,8 @@
     if (state.activeTab === "amplify") { renderAmplify(el); return; }
     if (state.activeTab === "vet") { renderVet(el); return; }
     if (state.activeTab === "apply") { renderApply(el); return; }
+    if (state.activeTab === "spreadsheet") { el.innerHTML = `<div style="max-width:1100px;margin:0 auto;font-size:14px">${sheetDocHtml()}</div>`; return; }
+    if (state.activeTab === "notion") { el.innerHTML = `<div style="max-width:1100px;margin:0 auto;font-size:14px">${notionDocHtml()}</div>`; return; }
     if (state.activeTab === "docs") { renderDocs(el); return; }
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
     if (state.activeTab === "network") { renderNetworkGraph(el); return; }
@@ -12408,9 +12412,9 @@
   }
 
   function renderDocs(el) {
-    const docList = [{ id: "notion", title: "&#128214; Notion Workspace" }, { id: "sheet", title: "&#128202; Full Dataset (Sheet)" }].concat(DOCS.map(d => ({ id: d.id, title: d.title })));
+    const docList = DOCS.map(d => ({ id: d.id, title: d.title }));
     if (!state.docId || !docList.find(d => d.id === state.docId)) state.docId = docList[0].id;
-    const bodyHtml = state.docId === "notion" ? notionDocHtml() : state.docId === "sheet" ? sheetDocHtml() : (DOCS.find(d => d.id === state.docId) || DOCS[0]).html;
+    const bodyHtml = (DOCS.find(d => d.id === state.docId) || DOCS[0]).html;
     el.innerHTML = `<div style="display:flex;gap:22px;max-width:1100px;margin:0 auto;align-items:flex-start">
       <aside style="flex:0 0 190px;position:sticky;top:8px">
         <div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin-bottom:8px">Project docs</div>
