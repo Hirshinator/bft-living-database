@@ -12166,7 +12166,7 @@
     if (state.activeTab === "vet") { renderVet(el); return; }
     if (state.activeTab === "apply") { renderApply(el); return; }
     if (state.activeTab === "spreadsheet") { renderSpreadsheet(el); return; }
-    if (state.activeTab === "notion") { el.innerHTML = `<div style="max-width:1100px;margin:0 auto;font-size:14px">${notionDocHtml()}</div>`; return; }
+    if (state.activeTab === "notion") { renderNotionTab(el); return; }
     if (state.activeTab === "docs") { renderDocs(el); return; }
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
     if (state.activeTab === "network") { renderNetworkGraph(el); return; }
@@ -12369,24 +12369,33 @@
 
   // Andy's live Notion workspace (private). Embedding requires a published (public) notion.site URL,
   // set in ⚙ Customize. Until then we deep-link to the private page.
-  const NOTION_PRIVATE_URL = "https://app.notion.com/p/BFT-3a369e5a893f80c0a7e1eaaf4a94ba95";
-  function notionDocHtml() {
-    const pub = (APP_CONFIG.notionUrl || "").trim();
-    if (pub) {
-      return `<h2 style="margin:8px 0 10px;font-size:20px">&#128214; BFT Notion Workspace</h2>
-        <div style="font-size:12px;opacity:.6;margin-bottom:10px">Live embed of the published Notion workspace. Edit it in Notion; changes appear here on refresh. <a href="${escXml(pub)}" target="_blank" rel="noopener" style="color:var(--accent)">Open in Notion &#8599;</a></div>
-        <iframe src="${escXml(pub)}" style="width:100%;height:78vh;border:1px solid rgba(128,128,128,.25);border-radius:10px;background:#fff" loading="lazy"></iframe>`;
-    }
-    return `<h2 style="margin:8px 0 10px;font-size:20px">&#128214; BFT Notion Workspace</h2>
-      <div style="padding:16px;border:1px dashed rgba(128,128,128,.4);border-radius:10px;font-size:14px;line-height:1.6">
-        <p style="margin:0 0 10px"><b>Your Notion doc is private</b>, so it can't be embedded yet — Notion only allows embedding a page that's been <b>Published to web</b> (which makes a public <code>notion.site</code> link). Two ways to connect it:</p>
-        <ol style="margin:0 0 10px 18px">
-          <li style="margin:4px 0">In Notion, open your BFT page &rarr; <b>Share</b> (top-right) &rarr; <b>Publish</b> &rarr; copy the <code>*.notion.site</code> link.</li>
-          <li style="margin:4px 0">Here in the app: <b>&#9881; Customize</b> &rarr; paste it into <b>“Notion published URL”</b> &rarr; Save. It embeds live, right on this page.</li>
-        </ol>
-        <p style="margin:0 0 12px;opacity:.75">Prefer to keep it fully private? Skip publishing — the button below opens your private workspace in Notion (you'll need to be logged in). The five project docs in this tab already mirror your workspace's key pages.</p>
-        <a class="btn btn-primary" href="${escXml(NOTION_PRIVATE_URL)}" target="_blank" rel="noopener">Open my private Notion workspace &#8599;</a>
-      </div>`;
+  // Notion blocks inline iframes (X-Frame-Options: SAMEORIGIN on notion.site), so we pull the page's
+  // content through the Notion API (api/notion.js) and render it natively. Falls back to a launch
+  // link when the API isn't reachable (e.g. the local file, or before the integration token is set).
+  const NOTION_PUBLIC_URL_DEFAULT = "https://faint-rosehip-cc5.notion.site/BFT-3a369e5a893f80c0a7e1eaaf4a94ba95";
+  function notionUrl() { return (APP_CONFIG.notionUrl || "").trim() || NOTION_PUBLIC_URL_DEFAULT; }
+  function notionFallbackHtml(url) {
+    return `<div style="padding:16px;border:1px dashed rgba(128,128,128,.4);border-radius:10px;font-size:14px;line-height:1.6">
+      <p style="margin:0 0 10px">Native Notion rendering isn't available in this view yet. Notion refuses to be shown in an inline frame, so the app reads your page through the <b>Notion API</b> — which runs on the deployed site once the integration is connected.</p>
+      <p style="margin:0 0 12px;opacity:.75">In the meantime, open your live workspace directly:</p>
+      <a class="btn btn-primary" href="${escXml(url)}" target="_blank" rel="noopener">Open the BFT Notion workspace &#8599;</a>
+    </div>`;
+  }
+  function renderNotionTab(el) {
+    const url = notionUrl();
+    el.innerHTML = `<style>.notion-render h1{font-size:22px;margin:16px 0 8px}.notion-render h2{font-size:18px;margin:14px 0 6px}.notion-render h3{font-size:15px;margin:12px 0 5px}.notion-render p{margin:7px 0;line-height:1.6}.notion-render ul,.notion-render ol{margin:6px 0 6px 22px}.notion-render li{margin:3px 0}.notion-render blockquote{border-left:3px solid var(--gold,#B8860B);margin:8px 0;padding:2px 0 2px 12px;opacity:.9}.notion-render .callout{background:rgba(128,128,128,.1);border-radius:8px;padding:10px 12px;margin:8px 0}.notion-render pre{background:rgba(128,128,128,.12);padding:10px;border-radius:6px;overflow:auto;font-size:12px}.notion-render img{max-width:100%;border-radius:8px;margin:8px 0}.notion-render table{border-collapse:collapse;margin:8px 0}.notion-render td{border:1px solid rgba(128,128,128,.3);padding:5px 9px}.notion-render hr{border:none;border-top:1px solid rgba(128,128,128,.25);margin:14px 0}.notion-render a{color:var(--gold,#B8860B)}</style>
+      <div style="max-width:900px;margin:0 auto">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px">
+        <div style="font-size:18px;font-weight:700">&#128211; Notion Workspace</div>
+        <a href="${escXml(url)}" target="_blank" rel="noopener" class="btn btn-ghost" style="font-size:12px">Open in Notion &#8599;</a>
+      </div>
+      <div id="notionBody" style="font-size:14px"><div style="opacity:.6;padding:24px 0">Loading your live Notion workspace…</div></div>
+    </div>`;
+    fetch("/api/notion").then(r => r.ok ? r.json() : Promise.reject(r.status)).then(j => {
+      const body = document.getElementById("notionBody");
+      if (!body) return;
+      body.innerHTML = (j && j.html) ? `<div class="notion-render">${j.html}</div>` : notionFallbackHtml(url);
+    }).catch(() => { const body = document.getElementById("notionBody"); if (body) body.innerHTML = notionFallbackHtml(url); });
   }
 
   // Live Google Sheet mirror of the full dataset (Airtable replacement). Configurable published/shared URL.
