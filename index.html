@@ -12397,9 +12397,9 @@
     const subsOfCur = (nodes.find(n => n.id === cur.id) && notionTree ? cur.childCount : 0);
     el.innerHTML = `${NOTION_CSS}<div style="display:flex;gap:22px;max-width:1100px;margin:0 auto;align-items:flex-start">
       <aside style="flex:0 0 210px;position:sticky;top:8px;max-height:86vh;overflow:auto">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:6px">
           <div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.55">Notion sections</div>
-          <a href="${escXml(url)}" target="_blank" rel="noopener" style="font-size:11px;color:var(--gold,#B8860B)">Open &#8599;</a>
+          <span style="display:flex;gap:8px"><button id="notionRefresh" title="Pull the latest from Notion" style="background:none;border:none;cursor:pointer;font-size:12px;color:var(--gold,#B8860B);padding:0">&#8635;</button><a href="${escXml(url)}" target="_blank" rel="noopener" style="font-size:11px;color:var(--gold,#B8860B)">Open &#8599;</a></span>
         </div>
         ${nodes.map(n => `<button class="btn ${n.id === cur.id ? "btn-primary" : "btn-ghost"}" data-nsec="${n.id}" style="display:block;width:100%;text-align:left;margin-bottom:4px;padding-left:${8 + n.depth * 12}px;font-size:${n.depth === 0 ? 13 : 12}px">${n.depth > 0 ? "&#8226; " : ""}${escXml(n.title)}</button>`).join("")}
       </aside>
@@ -12409,6 +12409,16 @@
       </div>
     </div>`;
     el.querySelectorAll("[data-nsec]").forEach(b => b.addEventListener("click", () => { state.notionSection = b.dataset.nsec; renderGrid(); }));
+    const rb = document.getElementById("notionRefresh");
+    if (rb) rb.addEventListener("click", () => { notionTree = null; rb.textContent = "…"; fetchNotion(el, url, true); });
+  }
+
+  function fetchNotion(el, url, force) {
+    // force adds a cache-busting param so it skips both the session cache and Vercel's 5-min edge cache.
+    fetch("/api/notion" + (force ? "?fresh=" + Date.now() : "")).then(r => r.ok ? r.json() : Promise.reject(r.status)).then(j => {
+      if (j && j.tree) { notionTree = j.tree; paintNotionTree(el, url); }
+      else { const body = document.getElementById("notionBody"); if (body) body.innerHTML = notionFallbackHtml(url); }
+    }).catch(() => { const body = document.getElementById("notionBody"); if (body) body.innerHTML = notionFallbackHtml(url); });
   }
 
   function renderNotionTab(el) {
@@ -12421,10 +12431,7 @@
       </div>
       <div id="notionBody" style="font-size:14px"><div style="opacity:.6;padding:24px 0">Loading your live Notion workspace…</div></div>
     </div>`;
-    fetch("/api/notion").then(r => r.ok ? r.json() : Promise.reject(r.status)).then(j => {
-      if (j && j.tree) { notionTree = j.tree; paintNotionTree(el, url); }
-      else { const body = document.getElementById("notionBody"); if (body) body.innerHTML = notionFallbackHtml(url); }
-    }).catch(() => { const body = document.getElementById("notionBody"); if (body) body.innerHTML = notionFallbackHtml(url); });
+    fetchNotion(el, url, false);
   }
 
   // Live Google Sheet mirror of the full dataset (Airtable replacement). Configurable published/shared URL.
@@ -12851,83 +12858,72 @@
     if (!state.stanceMapFilters) {
       state.stanceMapFilters = { pro: true, hostile: true, neutral: true, yellowflag: true, redflag: true };
     }
-    if (!state.stanceMapYMode) state.stanceMapYMode = "reach";
     const filters = state.stanceMapFilters;
-    const yMode = state.stanceMapYMode; // "reach" | "score"
     const all = (state.data.influencer || []);
     const items = all.filter(i => filters[i.stance || "neutral"] !== false);
     const q = (state.search || "").toLowerCase();
 
-    const W = 960, H = 560, ML = 66, MR = 24, MT = 46, MB = 20;
+    const W = 960, H = 560, ML = 66, MR = 24, MT = 46, MB = 54;
     const plotW = W - ML - MR, plotH = H - MT - MB;
     const minLog = Math.log10(5000), maxLog = Math.log10(400e6);
+    const UNKNOWN_Y = MT + plotH + 26; // labeled band for entries with no measured reach yet
 
-    function px(stance, name) {
-      const jitter = hashJitter(name) * 0.36;
-      const xv = Math.max(-1.08, Math.min(1.08, stanceX(stance) + jitter));
-      return ML + ((xv + 1.08) / 2.16) * plotW;
+    // X = Alliance Score (0-100): the composite of loyalty, talent, reach, organic-vs-paid, nationality, etc.
+    const xScore = item => Math.max(0, Math.min(100, Number(item.allianceScore) || defaultAllianceScore(item.stance)));
+    const px = item => ML + (Math.max(0, Math.min(100, xScore(item) + hashJitter(item.name) * 3.4)) / 100) * plotW;
+    // Real follower counts live in baselineAudience / audienceSize (NOT the "audience" field, which
+    // holds demographics). Returns 0 when there's no actual number — those go to the honest bottom band.
+    function reachOf(item) {
+      const s = (item.baselineAudience || "") + " " + (item.audienceSize || "");
+      let max = 0, m; const re = /([\d.]+)\s*([kmb])\b/gi;
+      while ((m = re.exec(s))) { let n = parseFloat(m[1]); const u = m[2].toLowerCase(); n *= u === "k" ? 1e3 : u === "m" ? 1e6 : u === "b" ? 1e9 : 1; if (n > max) max = n; }
+      if (max === 0) { const bare = s.match(/[\d,]{5,}/); if (bare) max = parseInt(bare[0].replace(/,/g, ""), 10); }
+      return max;
     }
-    // yMode "reach": log scale over parsed audience reach. yMode "score": linear 0-100 Alliance Score.
-    function yValue(item) {
-      return yMode === "score" ? Number(item.allianceScore) || defaultAllianceScore(item.stance) : parseReach(item.audience);
+    // Y = audience reach (log). Unknown reach -> honest bottom band, not squished onto the axis.
+    function py(item) {
+      const rv = reachOf(item);
+      if (rv >= 5000) { const t = Math.max(0, Math.min(1, (Math.log10(rv) - minLog) / (maxLog - minLog))); return { y: MT + (1 - t) * plotH, t: t, known: true }; }
+      return { y: UNKNOWN_Y + (hashJitter(item.name + "y") - 0.5) * 24, t: 0.12, known: false };
     }
-    function py(value) {
-      const t = yMode === "score"
-        ? Math.max(0, Math.min(1, value / 100))
-        : Math.max(0, Math.min(1, (Math.log10(Math.max(value, 1)) - minLog) / (maxLog - minLog)));
-      return { y: MT + (1 - t) * plotH, t };
-    }
+    const zoneX = v => ML + (v / 100) * plotW;
 
-    const zoneX = (v) => ML + ((v + 1.08) / 2.16) * plotW;
-
-    let dotsSvg = "";
+    let knownCount = 0, dotsSvg = "";
     items.forEach(item => {
-      const val = yValue(item);
-      const { y, t } = py(val);
-      const x = px(item.stance, item.name);
-      const r = 6 + t * 16;
+      const { y, t, known } = py(item); if (known) knownCount++;
+      const x = px(item), r = 6 + t * 15;
       const matches = !q || JSON.stringify(item).toLowerCase().includes(q);
       const color = stanceBarColor(item.stance);
       const flagged = item.stance === "yellowflag" || item.stance === "redflag";
       const ringColor = item.stance === "redflag" ? "#7F1D1D" : item.stance === "yellowflag" ? "#CA8A04" : "none";
-      dotsSvg += `<g class="stance-dot" data-id="${item.id}" opacity="${matches ? 1 : 0.12}" style="cursor:pointer">
+      dotsSvg += `<g class="stance-dot" data-id="${item.id}" opacity="${matches ? (known ? 1 : 0.82) : 0.12}" style="cursor:pointer">
         <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(1)}" style="fill:${color};stroke:${matches && q ? '#B8860B' : '#fff'}" stroke-width="${matches && q ? 2.5 : 1.5}"></circle>
         ${flagged ? `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(r+3).toFixed(1)}" fill="none" style="stroke:${ringColor}" stroke-width="2" stroke-dasharray="3,2"></circle>` : ""}
         <text x="${x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="${Math.max(7, r*0.62).toFixed(1)}" font-weight="700" fill="#fff" pointer-events="none">${escXml(initials(item.name))}</text>
-        <title>${escXml(item.name)} &#8212; ${STANCE_LABELS[item.stance] || item.stance || "Unclassified"}${item.audience ? " &#8212" + escXml(item.audience) : ""}${item.allianceScore ? " &#8212; Alliance " + item.allianceScore + "/100" : ""}${flagged ? " &#8212; SEE EVIDENCE FOR FLAG DETAIL" : ""}</title>
+        <title>${escXml(item.name)} &#8212; ${STANCE_LABELS[item.stance] || item.stance || "Unclassified"} &#8212; Alliance ${xScore(item)}/100${known ? " &#8212; reach " + escXml(item.audience || "") : " &#8212; reach not yet measured"}${flagged ? " &#8212; SEE EVIDENCE FOR FLAG" : ""}</title>
       </g>`;
     });
 
-    // Zone bands
-    const zones = [
-      { from: -1.08, to: -0.28, fill: "var(--red-bg)" },
-      { from: -0.28, to: 0.28, fill: "var(--gray-bg)" },
-      { from: 0.28, to: 1.08, fill: "var(--green-bg)" },
-    ];
-    const zonesSvg = zones.map(z => `<rect x="${zoneX(z.from).toFixed(1)}" y="${MT}" width="${(zoneX(z.to)-zoneX(z.from)).toFixed(1)}" height="${plotH}" style="fill:${z.fill}" opacity="0.55"></rect>`).join("");
+    // Score bands: weak / building / strong ally
+    const zones = [{ from: 0, to: 40, fill: "var(--red-bg)" }, { from: 40, to: 70, fill: "var(--gray-bg)" }, { from: 70, to: 100, fill: "var(--green-bg)" }];
+    const zonesSvg = zones.map(z => `<rect x="${zoneX(z.from).toFixed(1)}" y="${MT}" width="${(zoneX(z.to)-zoneX(z.from)).toFixed(1)}" height="${plotH}" style="fill:${z.fill}" opacity="0.5"></rect>`).join("");
 
-    // Y gridlines
-    const yTicks = yMode === "score" ? [0, 25, 50, 75, 100] : [10000, 100000, 1000000, 10000000, 100000000];
-    const yTickLabels = yMode === "score"
-      ? { 0: "0", 25: "25", 50: "50", 75: "75", 100: "100" }
-      : { 10000: "10K", 100000: "100K", 1000000: "1M", 10000000: "10M", 100000000: "100M" };
-    const gridSvg = yTicks.map(v => {
-      const { y } = py(v);
-      return `<line x1="${ML}" y1="${y.toFixed(1)}" x2="${W-MR}" y2="${y.toFixed(1)}" style="stroke:var(--border)" stroke-dasharray="2,3"></line>
-        <text x="${ML-8}" y="${y.toFixed(1)}" text-anchor="end" dominant-baseline="central" font-size="10" style="fill:var(--text-muted)">${yTickLabels[v]}</text>`;
-    }).join("");
-
-    const yAxisLabel = yMode === "score" ? "ALLIANCE SCORE (0-100)" : "AUDIENCE REACH (log scale)";
+    const yTicks = [10000, 100000, 1000000, 10000000, 100000000];
+    const yTickLabels = { 10000: "10K", 100000: "100K", 1000000: "1M", 10000000: "10M", 100000000: "100M" };
+    const gridSvg = yTicks.map(v => { const t = Math.max(0, Math.min(1, (Math.log10(v) - minLog) / (maxLog - minLog))); const y = MT + (1 - t) * plotH; return `<line x1="${ML}" y1="${y.toFixed(1)}" x2="${W-MR}" y2="${y.toFixed(1)}" style="stroke:var(--border)" stroke-dasharray="2,3"></line><text x="${ML-8}" y="${y.toFixed(1)}" text-anchor="end" dominant-baseline="central" font-size="10" style="fill:var(--text-muted)">${yTickLabels[v]}</text>`; }).join("");
+    const xGrid = [0, 25, 50, 75, 100].map(v => `<text x="${zoneX(v).toFixed(1)}" y="${MT+plotH+14}" text-anchor="middle" font-size="10" style="fill:var(--text-muted)">${v}</text>`).join("");
 
     const svg = `<svg viewBox="0 0 ${W} ${H}" class="stance-chart-svg">
-      ${zonesSvg}
-      ${gridSvg}
+      ${zonesSvg}${gridSvg}
       <line x1="${ML}" y1="${MT}" x2="${ML}" y2="${MT+plotH}" style="stroke:var(--text-muted)"></line>
       <line x1="${ML}" y1="${MT+plotH}" x2="${W-MR}" y2="${MT+plotH}" style="stroke:var(--text-muted)"></line>
-      <text x="${(ML+zoneX(-0.28))/2}" y="24" text-anchor="middle" font-size="11" font-weight="700" style="fill:var(--red)">&#8592; HOSTILE</text>
-      <text x="${W/2}" y="24" text-anchor="middle" font-size="11" font-weight="700" style="fill:var(--text-muted)">NEUTRAL</text>
-      <text x="${(zoneX(0.28)+W-MR)/2}" y="24" text-anchor="middle" font-size="11" font-weight="700" style="fill:var(--green)">PRO-ISRAEL &#8594;</text>
-      <text x="14" y="${MT+plotH/2}" text-anchor="middle" font-size="11" font-weight="700" style="fill:var(--text-muted)" transform="rotate(-90 14 ${MT+plotH/2})">${yAxisLabel}</text>
+      <text x="${zoneX(20)}" y="24" text-anchor="middle" font-size="11" font-weight="700" style="fill:var(--red)">&#8592; WEAKER ALLY</text>
+      <text x="${zoneX(85)}" y="24" text-anchor="middle" font-size="11" font-weight="700" style="fill:var(--green)">STRONGER ALLY &#8594;</text>
+      ${xGrid}
+      <text x="${W/2}" y="${MT+plotH+30}" text-anchor="middle" font-size="10" font-weight="700" style="fill:var(--text-muted)">ALLIANCE SCORE (composite)</text>
+      <text x="14" y="${MT+plotH/2}" text-anchor="middle" font-size="11" font-weight="700" style="fill:var(--text-muted)" transform="rotate(-90 14 ${MT+plotH/2})">AUDIENCE REACH (log)</text>
+      <line x1="${ML}" y1="${UNKNOWN_Y-15}" x2="${W-MR}" y2="${UNKNOWN_Y-15}" style="stroke:var(--border)" stroke-dasharray="1,3"></line>
+      <text x="${W-MR}" y="${UNKNOWN_Y-5}" text-anchor="end" font-size="9" style="fill:var(--text-muted)">&#8595; reach not measured yet</text>
       ${dotsSvg}
     </svg>`;
 
@@ -12938,28 +12934,16 @@
     el.innerHTML = `<div class="stance-map-wrap">
       <aside class="view-controls">
         <div class="view-controls-title">Controls</div>
-        <div class="view-controls-hint">X: stance (hostile &#8592; pro). Dashed rings = yellow/red flag (conduct caution, not stance).</div>
-        <div class="view-controls-group-label">Y-Axis</div>
-        <label class="stance-check"><input type="radio" name="yMode" data-ymode="reach" ${yMode === "reach" ? "checked" : ""}> Audience Reach (log scale)</label>
-        <label class="stance-check"><input type="radio" name="yMode" data-ymode="score" ${yMode === "score" ? "checked" : ""}> Alliance Score (0-100)</label>
-        <div class="view-controls-group-label" style="margin-top:10px">Stance</div>
+        <div class="view-controls-hint"><b>X = Alliance Score</b> — the composite of loyalty, talent, reach, organic-vs-paid, nationality, etc. <b>Dot color = stance.</b> <b>Y = audience reach.</b> Dashed rings = yellow/red flag (conduct caution).</div>
+        <div class="view-controls-group-label" style="margin-top:10px">Stance (color)</div>
         ${stanceChecks}
-        <div class="view-controls-count">${items.length} of ${all.length} influencers shown</div>
+        <div class="view-controls-count">${items.length} of ${all.length} shown &middot; ${knownCount} have measured reach, ${items.length - knownCount} awaiting data (bottom band)</div>
       </aside>
       <div class="stance-chart-holder">${svg}</div>
     </div>`;
 
     el.querySelectorAll("[data-stance-check]").forEach(cb => {
-      cb.addEventListener("change", () => {
-        state.stanceMapFilters[cb.dataset.stanceCheck] = cb.checked;
-        renderStanceMap(el);
-      });
-    });
-    el.querySelectorAll("[data-ymode]").forEach(radio => {
-      radio.addEventListener("change", () => {
-        state.stanceMapYMode = radio.dataset.ymode;
-        renderStanceMap(el);
-      });
+      cb.addEventListener("change", () => { state.stanceMapFilters[cb.dataset.stanceCheck] = cb.checked; renderStanceMap(el); });
     });
     el.querySelectorAll(".stance-dot").forEach(dot => {
       dot.addEventListener("click", () => openModal(dot.dataset.id, "influencer"));
@@ -13895,7 +13879,7 @@
     root.innerHTML = `<div class="modal-overlay" id="modalOverlay">
       <div class="modal">
         <h3>${READ_ONLY ? "View" : (state.isNew ? "Add" : "Edit")} ${CATEGORIES[cat].label.slice(0,-1)}</h3>
-        ${fields.map(f => `
+        ${fields.filter(f => f.key !== "bftId").map(f => `
           <div class="field">
             <label>${f.label}${f.required ? " *" : ""}</label>
             ${f.type === "textarea"
@@ -13925,9 +13909,11 @@
     const cat = state.editingCat;
     const fields = FIELD_DEFS[cat];
     const item = { id: state.editingEntry.id };
+    if (state.editingEntry.bftId) item.bftId = state.editingEntry.bftId; // preserve internal join key (hidden from the form)
     let valid = true;
     fields.forEach(f => {
       const input = document.querySelector(`[data-field="${f.key}"]`);
+      if (!input) return; // field not rendered (e.g. hidden bftId) — leave as preserved above
       const val = input.value.trim();
       if (f.required && !val) valid = false;
       item[f.key] = val;
