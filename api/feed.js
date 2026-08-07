@@ -19,6 +19,13 @@ const CHANNELS = [
   { id: "UC3M7l8ved_rYQ45AVzS0RGA", name: "The Jimmy Dore Show" },
 ];
 
+// Allied-media + Substack newsletter feeds (standard RSS). Add any outlet/newsletter with an RSS URL.
+const FEEDS = [
+  { name: "The Free Press", url: "https://www.thefp.com/feed" },
+  { name: "JNS", url: "https://www.jns.org/feed/" },
+  { name: "Seth Mandel (Substack)", url: "https://sethmandel.substack.com/feed" },
+];
+
 function decode(s) {
   return String(s || "")
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -79,6 +86,16 @@ module.exports = async (req, res) => {
         const r = await fetch("https://www.youtube.com/feeds/videos.xml?channel_id=" + ch.id, { headers: { "User-Agent": "Mozilla/5.0 (compatible; BFTFeed/1.0)" } });
         if (r.ok) all = all.concat(parseYouTube(await r.text(), ch.name).slice(0, 5));
       } catch (e) { /* skip a failing channel */ }
+    }));
+    await Promise.all(FEEDS.map(async (f) => {
+      try {
+        const r = await fetch(f.url, { headers: { "User-Agent": "Mozilla/5.0 (compatible; BFTFeed/1.0)" } });
+        if (r.ok) {
+          const xml = await r.text(), out = []; const re = /<item>([\s\S]*?)<\/item>/g; let m;
+          while ((m = re.exec(xml))) { const b = m[1]; out.push({ title: tag(b, "title"), link: tag(b, "link"), date: tag(b, "pubDate") || tag(b, "date") || tag(b, "published"), source: f.name, query: "Allied media" }); }
+          all = all.concat(out.slice(0, 5));
+        }
+      } catch (e) { /* skip a failing feed */ }
     }));
     // Dedupe by title, sort newest first, cap.
     const seen = new Set(), uniq = [];
