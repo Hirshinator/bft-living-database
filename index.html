@@ -12395,20 +12395,70 @@
   // ---- Crowdsourced grassroots growth: apply -> screen -> human vet -> add ----
   const APPLY_HOSTILE_KW = /\b(fuentes|groyper|nick fuentes|from the river to the sea|apartheid state|genocide in gaza|zionist (occupied|control|lobby|entity)|khazar|christ-?killer|synagogue of satan|blood libel|holohoax|kanye is right|joel webbon|great replacement|jews (control|did|run)|globalist cabal)\b/i;
 
+  // Member Agreement — DRAFT, pending attorney review. Bracketed items must be set by counsel.
+  const MEMBER_AGREEMENT_VERSION = "v0.1-draft-2026-08";
+  const MEMBER_AGREEMENT_HTML = `
+    <p style="margin:0 0 8px"><b>Builders for Tomorrow — Member &amp; Contributor Agreement</b> <span style="opacity:.6;font-size:11px">(${MEMBER_AGREEMENT_VERSION})</span></p>
+    <ol style="margin:0 0 4px 16px;padding:0;line-height:1.5">
+      <li style="margin:5px 0"><b>Confidentiality.</b> The platform, its data, methodology, and member lists are confidential. You will not disclose, publish, screenshot, export, scrape, or share any part of them with anyone outside the platform, during or after your membership.</li>
+      <li style="margin:5px 0"><b>Permitted use.</b> Access is granted solely for the coalition's lawful advocacy. You will not use it to harass, dox, or harm any person, or for any commercial resale.</li>
+      <li style="margin:5px 0"><b>Conduct.</b> No antisemitism, racism, or bigotry; no unlawful activity. You understand this is a private, security-conscious coalition.</li>
+      <li style="margin:5px 0"><b>Truthful representations.</b> Everything you submit — your identity, affiliations, and screening answers — is true and complete. A material misrepresentation is a breach of this agreement.</li>
+      <li style="margin:5px 0"><b>License to contributed data.</b> You grant Builders for Tomorrow a perpetual, worldwide, royalty-free, irrevocable license to store and use the network and contact information you voluntarily provide, for coalition mapping and warm introductions. You represent you have the right to share it. You may request deletion of your raw uploads; the license continues for aggregated coalition insights derived from it.</li>
+      <li style="margin:5px 0"><b>Security.</b> You will keep your access private and report any suspected breach, leak, or infiltration attempt immediately.</li>
+      <li style="margin:5px 0"><b>Remedies.</b> You acknowledge a breach of confidentiality would cause harm that is hard to quantify. You agree Builders for Tomorrow may seek immediate injunctive relief without bond, plus liquidated damages of $[AMOUNT to be set by counsel] per breach and reasonable attorneys' fees.</li>
+      <li style="margin:5px 0"><b>Indemnification.</b> You will indemnify Builders for Tomorrow against losses arising from your breach or misuse.</li>
+      <li style="margin:5px 0"><b>Termination &amp; survival.</b> Builders for Tomorrow may suspend or revoke your access at any time. Confidentiality, the data license, and remedies survive termination.</li>
+      <li style="margin:5px 0"><b>Governing law.</b> [State / jurisdiction to be set by counsel].</li>
+    </ol>
+    <p style="margin:8px 0 0;font-size:11px;opacity:.6;font-style:italic">Draft template — bracketed items must be completed and the whole reviewed by a licensed attorney in the relevant jurisdiction before it is relied upon as enforceable.</p>`;
+
+  // Parse a member's own exported network file (LinkedIn Connections.csv / vCard .vcf) — consented, first-party.
+  function parseNetworkFile(text, filename) {
+    const out = [];
+    const name = (filename || "").toLowerCase();
+    if (name.endsWith(".vcf") || /\bBEGIN:VCARD\b/i.test(text)) {
+      text.split(/\r?\n/).forEach(l => { const m = l.match(/^FN[;:](.+)/i); if (m) out.push(m[1].trim()); });
+      return out;
+    }
+    // CSV (LinkedIn: skip preamble, header row has First Name / Last Name / Company / Position)
+    const lines = text.split(/\r?\n/).filter(l => l.trim());
+    const parseRow = row => { const f = []; let cur = "", q = false; for (let i = 0; i < row.length; i++) { const c = row[i]; if (c === '"') { if (q && row[i + 1] === '"') { cur += '"'; i++; } else q = !q; } else if (c === "," && !q) { f.push(cur); cur = ""; } else cur += c; } f.push(cur); return f; };
+    let hdr = -1;
+    for (let i = 0; i < Math.min(lines.length, 6); i++) { if (/first name/i.test(lines[i]) && /last name/i.test(lines[i])) { hdr = i; break; } }
+    if (hdr < 0) { return lines.filter(l => !/^first name/i.test(l)).map(l => parseRow(l)[0]).filter(Boolean); }
+    const cols = parseRow(lines[hdr]).map(c => c.trim().toLowerCase());
+    const ix = n => cols.indexOf(n);
+    const fi = ix("first name"), li = ix("last name"), ci = ix("company"), pi = ix("position");
+    for (let i = hdr + 1; i < lines.length; i++) {
+      const r = parseRow(lines[i]);
+      const nm = [(r[fi] || "").trim(), (r[li] || "").trim()].filter(Boolean).join(" ").trim();
+      if (!nm) continue;
+      const role = [(r[pi] || "").trim(), (r[ci] || "").trim()].filter(Boolean).join(" at ");
+      out.push(role ? `${nm} — ${role}` : nm);
+    }
+    return out;
+  }
+
   function screenApplication(a) {
     const flags = [];
     // Hard red lines (auto-reject) — mirror the database's genocide/apartheid + right-to-exist tests.
     if (a.q_apartheid === "yes") flags.push({ level: "reject", msg: "Self-reported calling Israel an “apartheid state” / Gaza a “genocide” without retraction — crosses the database red line." });
     if (a.q_exist === "no") flags.push({ level: "reject", msg: "Does not affirm Israel’s right to exist as a Jewish state." });
-    if (a.q_conduct !== "yes") flags.push({ level: "review", msg: "Did not agree to the code of conduct." });
-    // Content scan of their own words + handles.
-    const blob = ((a.statement || "") + " " + (a.handles || "") + " " + (a.network || "")).toLowerCase();
-    if (APPLY_HOSTILE_KW.test(blob)) flags.push({ level: "reject", msg: "Application text trips hostile-cluster language (groyper / anti-Israel terms). Screen manually before any approval." });
-    // Connection-overlap: does anything they submitted name a mapped hostile?
+    if (a.q_conduct !== "yes") flags.push({ level: "review", msg: "Did not agree to the Member Agreement." });
+    // Reject scan runs ONLY over the applicant's OWN expression (statement + their own handles) —
+    // hostile language THEY use is a red line. Their contact list is scored separately (below).
+    const ownBlob = ((a.statement || "") + " " + (a.handles || "")).toLowerCase();
+    if (APPLY_HOSTILE_KW.test(ownBlob)) flags.push({ level: "reject", msg: "The applicant's own words / handles trip hostile-cluster language (groyper / anti-Israel terms). Screen manually before any approval." });
+    // Their submitted network (typed + uploaded) is a REVIEW signal, never an auto-reject:
+    // being connected to a hostile is not the same as being one — confirm the tie is oppositional.
+    const uploadedText = Array.isArray(a.networkParsed) ? a.networkParsed.join(" ") : "";
+    const netBlob = ((a.network || "") + " " + uploadedText).toLowerCase();
     const g = networkGraphData || buildNetworkGraphData();
     const hostileNodes = g.nodes.filter(n => n.raw && (n.raw.stance === "hostile" || n.raw.stance === "redflag"));
-    const hostileHits = hostileNodes.filter(n => n.name.length >= 5 && blob.includes(n.name.toLowerCase())).map(n => n.name);
-    if (hostileHits.length) flags.push({ level: "review", msg: "Names / follows mapped hostiles: " + hostileHits.slice(0, 6).join(", ") + ". Confirm the tie is oppositional, not affiliative." });
+    const hostileHits = hostileNodes.filter(n => n.name.length >= 5 && netBlob.includes(n.name.toLowerCase())).map(n => n.name);
+    if (hostileHits.length) flags.push({ level: "review", msg: "Their network includes mapped hostiles: " + hostileHits.slice(0, 6).join(", ") + ". Confirm the tie is oppositional, not affiliative." });
+    if (APPLY_HOSTILE_KW.test(netBlob) && !hostileHits.length) flags.push({ level: "review", msg: "Their submitted network mentions hostile-cluster figures/terms. Review the contacts before approving." });
     // Trust signal: a vouching referrer who is already a mapped ally.
     let vouch = null;
     if (a.referrer && a.referrer.trim()) {
@@ -12448,44 +12498,76 @@
       <div style="font-size:13px;opacity:.75;margin:6px 0 16px;line-height:1.55">We grow the grassroots business/tech and political networks by referral — <b>especially non-Jews who stand with the Jewish people and Israel</b>. Because this is a sensitive coalition, every applicant is screened and then reviewed by a person before being added. Nothing here is public.</div>
       ${confirmHtml}
       <div style="display:flex;flex-direction:column;gap:13px;font-size:13px">
-        <label>Full name *<input id="ap_name" value="${val("name")}" placeholder="Your name" style="width:100%;padding:8px;box-sizing:border-box"></label>
+        <div style="padding:10px 12px;border-radius:8px;background:rgba(184,134,11,.1);border:1px solid rgba(184,134,11,.35);font-size:12px;line-height:1.5"><b>Membership is invite-only.</b> You need the name of a current member who invited you (and, if you were given one, their invite code). Applications without a valid inviter are not reviewed.</div>
+        <label>Who invited you? * <span style="opacity:.6">(current member's name)</span><input id="ap_referrer" value="${val("referrer")}" placeholder="The member who invited you" style="width:100%;padding:8px;box-sizing:border-box"></label>
+        <label>Invite code <span style="opacity:.6">(if you were given one)</span><input id="ap_invite" value="${val("invite")}" placeholder="e.g. BFT-XXXX" style="width:100%;padding:8px;box-sizing:border-box"></label>
+        <label>Full name *<input id="ap_name" value="${val("name")}" placeholder="Your full name" style="width:100%;padding:8px;box-sizing:border-box"></label>
         <label>City / State<input id="ap_city" value="${val("city")}" placeholder="e.g. Dallas, TX" style="width:100%;padding:8px;box-sizing:border-box"></label>
         <div>Which network do you fit best? *<div style="margin-top:6px">${radio("network_kind", [{ v: "grassroots_business", t: "Business / Tech professional" }, { v: "grassroots_politics", t: "Political / community grassroots" }])}</div></div>
         <label>Faith / community <span style="opacity:.6">(optional — Christians &amp; all allies welcome)</span><input id="ap_faith" value="${val("faith")}" placeholder="e.g. Evangelical Christian, Catholic, Noahide, etc." style="width:100%;padding:8px;box-sizing:border-box"></label>
-        <label>Who referred / vouches for you? <span style="opacity:.6">(a current member — strengthens your application)</span><input id="ap_referrer" value="${val("referrer")}" placeholder="Name of the member who invited you" style="width:100%;padding:8px;box-sizing:border-box"></label>
-        <label>Your public handles / links <span style="opacity:.6">(X, Instagram, LinkedIn, etc.)</span><textarea id="ap_handles" rows="2" placeholder="@handle, linkedin.com/in/…" style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.handles || "")}</textarea></label>
+        <label>Your own social handles / profiles * <span style="opacity:.6">(the accounts that are <i>you</i> — X, Instagram, LinkedIn, Facebook, etc.)</span><textarea id="ap_handles" rows="2" placeholder="@yourhandle, linkedin.com/in/you, facebook.com/you …" style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.handles || "")}</textarea></label>
         <label>In a sentence or two, why do you support Israel and the Jewish people? *<textarea id="ap_statement" rows="3" placeholder="Your own words." style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.statement || "")}</textarea></label>
-        <label>Optional: paste your professional network to speed vetting <span style="opacity:.6">(names / handles you’re connected to — helps us map the coalition and check for red flags)</span><textarea id="ap_network" rows="3" placeholder="Paste a list of names or handles — e.g. an export from your LinkedIn connections. Optional." style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.network || "")}</textarea></label>
+        <div style="border-top:1px solid rgba(128,128,128,.2);padding-top:12px">
+          <div style="font-weight:700;margin-bottom:4px">Share your network (optional, but powerful)</div>
+          <div style="font-size:12px;opacity:.75;margin-bottom:8px;line-height:1.5">This is <b>who you know</b> — not your own accounts. It powers <b>warm introductions</b>: the system finds the shortest, warmest path from a member to a leader they need to reach. The cleanest way is to upload your <b>LinkedIn connections export</b> (LinkedIn &rarr; Settings &rarr; Data privacy &rarr; Get a copy of your data &rarr; Connections). Processed in your browser; covered by the Member Agreement below.</div>
+          <input type="file" id="ap_netfile" accept=".csv,.vcf,text/csv,text/vcard" style="font-size:12px;margin-bottom:6px">
+          <div id="ap_netfile_status" style="font-size:12px;opacity:.7;margin-bottom:8px">${Array.isArray(d.networkParsed) && d.networkParsed.length ? `&#10003; ${d.networkParsed.length} connections loaded from ${escXml(d.networkFileName || "file")}` : ""}</div>
+          <textarea id="ap_network" rows="2" placeholder="…or type a few people you know who could open doors (names / handles)." style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.network || "")}</textarea>
+        </div>
         <div style="border-top:1px solid rgba(128,128,128,.2);padding-top:12px">
           <div style="font-weight:700;margin-bottom:8px">Screening (required)</div>
           <div style="margin-bottom:10px">Do you support Israel’s right to exist as a Jewish state? *<div style="margin-top:5px">${radio("q_exist", [{ v: "yes", t: "Yes" }, { v: "no", t: "No" }])}</div></div>
           <div style="margin-bottom:10px">Have you ever publicly called Israel an “apartheid state,” or the war in Gaza a “genocide,” without later retracting it? *<div style="margin-top:5px">${radio("q_apartheid", [{ v: "no", t: "No" }, { v: "yes", t: "Yes" }])}</div></div>
-          <label style="display:flex;gap:8px;align-items:flex-start;font-weight:400"><input type="checkbox" id="ap_conduct" ${d.q_conduct === "yes" ? "checked" : ""} style="width:16px;height:16px;margin:2px 0 0"><span>I agree to a code of conduct: no antisemitism, no bigotry, and I understand this is a private, security-conscious coalition.</span></label>
         </div>
-        <button class="btn btn-primary" id="ap_submit" style="margin-top:6px;align-self:flex-start">Submit application</button>
-        <div style="font-size:11px;opacity:.6">Stored privately in this browser’s review queue. A human reviews every application before anyone is added — the auto-screen only assists.</div>
+        <div style="border-top:1px solid rgba(128,128,128,.2);padding-top:12px">
+          <div style="font-weight:700;margin-bottom:6px">Member Agreement (required)</div>
+          <div style="max-height:170px;overflow:auto;border:1px solid rgba(128,128,128,.3);border-radius:8px;padding:12px;font-size:12px;background:rgba(128,128,128,.05)">${MEMBER_AGREEMENT_HTML}</div>
+          <label style="display:flex;gap:8px;align-items:flex-start;font-weight:400;margin-top:10px"><input type="checkbox" id="ap_conduct" ${d.q_conduct === "yes" ? "checked" : ""} style="width:16px;height:16px;margin:2px 0 0;flex:0 0 auto"><span>I have read and agree to the Member Agreement above. I understand my typed name and the date below serve as my signature.</span></label>
+        </div>
+        <button class="btn btn-primary" id="ap_submit" style="margin-top:6px;align-self:flex-start">Submit application &amp; sign</button>
+        <div style="font-size:11px;opacity:.6">Your agreement is recorded with your name, the date, and the agreement version. A human reviews every application before anyone is added — the auto-screen only assists.</div>
       </div>
     </div>`;
 
     el.querySelectorAll("input[type=radio]").forEach(r => r.addEventListener("change", () => { d[r.name] = r.value; }));
     document.getElementById("applyReviewerBtn").addEventListener("click", () => { S.mode = "queue"; renderGrid(); });
+    const netfile = document.getElementById("ap_netfile");
+    if (netfile) netfile.addEventListener("change", () => {
+      const f = netfile.files && netfile.files[0]; if (!f) return;
+      const status = document.getElementById("ap_netfile_status");
+      status.textContent = "Reading " + f.name + "…";
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const parsed = parseNetworkFile(String(reader.result || ""), f.name);
+          d.networkParsed = parsed; d.networkFileName = f.name;
+          status.innerHTML = "&#10003; " + parsed.length + " connections loaded from " + f.name + " — used for warm-intro pathfinding, covered by the Member Agreement.";
+        } catch (e) { status.textContent = "Couldn't read that file — paste names below instead."; }
+      };
+      reader.readAsText(f);
+    });
     document.getElementById("ap_submit").addEventListener("click", async () => {
-      ["name", "city", "faith", "referrer"].forEach(k => d[k] = (document.getElementById("ap_" + k).value || "").trim());
+      ["name", "city", "faith", "referrer", "invite"].forEach(k => d[k] = (document.getElementById("ap_" + k).value || "").trim());
       d.handles = document.getElementById("ap_handles").value.trim();
       d.statement = document.getElementById("ap_statement").value.trim();
       d.network = document.getElementById("ap_network").value.trim();
       d.q_conduct = document.getElementById("ap_conduct").checked ? "yes" : "no";
-      if (!d.name) { alert("Please enter your name."); return; }
+      if (!d.referrer) { alert("Membership is invite-only — please enter the name of the member who invited you."); return; }
+      if (!d.name) { alert("Please enter your full name (it serves as your signature on the Member Agreement)."); return; }
       if (!d.network_kind) { alert("Please pick which network fits you best."); return; }
+      if (!d.handles) { alert("Please list at least one of your own social handles / profiles — it's required so we can confirm who you are."); return; }
       if (!d.statement) { alert("Please tell us, in your own words, why you support Israel and the Jewish people."); return; }
       if (!d.q_exist || !d.q_apartheid) { alert("Please answer the two screening questions."); return; }
+      if (d.q_conduct !== "yes") { alert("Please read and agree to the Member Agreement — your name and today's date serve as your signature."); return; }
       const screen = screenApplication(d);
       const apps = loadApps();
+      const nowIso = new Date().toISOString();
       apps.unshift({
-        id: uid(), submittedAt: new Date().toISOString(), status: "pending",
-        name: d.name, city: d.city, faith: d.faith, referrer: d.referrer, handles: d.handles,
-        statement: d.statement, network: d.network, network_kind: d.network_kind,
-        q_exist: d.q_exist, q_apartheid: d.q_apartheid, q_conduct: d.q_conduct,
+        id: uid(), submittedAt: nowIso, status: "pending",
+        name: d.name, city: d.city, faith: d.faith, referrer: d.referrer, invite: d.invite, handles: d.handles,
+        statement: d.statement, network: d.network, networkParsed: d.networkParsed || [], networkFileName: d.networkFileName || "",
+        network_kind: d.network_kind, q_exist: d.q_exist, q_apartheid: d.q_apartheid, q_conduct: d.q_conduct,
+        agreement: { version: MEMBER_AGREEMENT_VERSION, signedName: d.name, signedAt: nowIso },
         screen: { verdict: screen.verdict, color: screen.color, flags: screen.flags, vouch: screen.vouch }
       });
       saveApps(apps);
@@ -12512,8 +12594,10 @@
         ${decidedBadge ? `<div style="margin:4px 0">${decidedBadge}</div>` : ""}
         <div style="font-size:12px;margin:4px 0"><b>Fits:</b> ${kindLabel}${a.faith ? ` &middot; <b>Community:</b> ${escXml(a.faith)}` : ""}${a.referrer ? ` &middot; <b>Vouched by:</b> ${escXml(a.referrer)}` : ""}</div>
         ${a.handles ? `<div style="font-size:12px;margin:4px 0;word-break:break-all"><b>Handles:</b> ${escXml(a.handles)}</div>` : ""}
+        ${a.invite ? `<div style="font-size:12px;margin:4px 0"><b>Invite code:</b> ${escXml(a.invite)}</div>` : ""}
         <div style="font-size:13px;margin:6px 0;padding:8px;background:rgba(128,128,128,.08);border-radius:6px"><i>“${escXml(a.statement)}”</i></div>
-        ${a.network ? `<details style="font-size:12px;margin:4px 0"><summary style="cursor:pointer;opacity:.7">Submitted network (${(a.network.match(/[,;\n]/g) || []).length + 1} entries)</summary><div style="white-space:pre-wrap;margin-top:5px;max-height:120px;overflow:auto;padding:6px;background:rgba(128,128,128,.08);border-radius:5px">${escXml(a.network)}</div></details>` : ""}
+        ${(() => { const up = Array.isArray(a.networkParsed) ? a.networkParsed : []; const typed = (a.network || "").trim(); const total = up.length + (typed ? (typed.match(/[,;\n]/g) || []).length + 1 : 0); if (!total) return ""; const body = (up.length ? up.join("\n") + (typed ? "\n" : "") : "") + typed; return `<details style="font-size:12px;margin:4px 0"><summary style="cursor:pointer;opacity:.7">Shared network — ${total} contacts${a.networkFileName ? ` (uploaded ${escXml(a.networkFileName)})` : ""}</summary><div style="white-space:pre-wrap;margin-top:5px;max-height:140px;overflow:auto;padding:6px;background:rgba(128,128,128,.08);border-radius:5px">${escXml(body)}</div></details>`; })()}
+        ${a.agreement ? `<div style="font-size:11px;margin:6px 0;opacity:.7">&#9998; Member Agreement ${escXml(a.agreement.version)} signed by <b>${escXml(a.agreement.signedName)}</b> on ${(a.agreement.signedAt || "").slice(0, 10)}</div>` : `<div style="font-size:11px;margin:6px 0;color:#B8860B">&#9888; No signed agreement on file</div>`}
         ${flagsHtml ? `<div style="margin:8px 0">${flagsHtml}</div>` : ""}
         ${a.status === "pending" ? `<div style="display:flex;gap:8px;margin-top:10px">
           <button class="btn btn-primary" data-approve="${a.id}">Approve &amp; add to network</button>
@@ -12545,8 +12629,12 @@
         addedBy: "applicant self-submission", network: "Grassroots",
         platform: a.handles || "", audience: cat === "grassroots_business" ? "Business/Professional" : "Grassroots/community",
         related: a.referrer || "", nationality: a.city || "",
-        evidence: "Applied via the Join form and was reviewed and approved by a human vetter. Self-described support: “" + a.statement + "”" + (a.referrer ? " Vouched by " + a.referrer + "." : "") + (a.faith ? " Community: " + a.faith + "." : ""),
-        researchNotes: "Auto-screen verdict at application: " + ((a.screen && a.screen.verdict) || "n/a") + ". Approved by reviewer " + new Date().toISOString().slice(0, 10) + ".",
+        evidence: "Applied via the Join form and was reviewed and approved by a human vetter. Self-described support: “" + a.statement + "”" + (a.referrer ? " Invited/vouched by " + a.referrer + "." : "") + (a.faith ? " Community: " + a.faith + "." : ""),
+        researchNotes: "Auto-screen verdict at application: " + ((a.screen && a.screen.verdict) || "n/a") + ". Approved by reviewer " + new Date().toISOString().slice(0, 10) + "."
+          + (a.agreement ? " Member Agreement " + a.agreement.version + " signed by " + a.agreement.signedName + " on " + (a.agreement.signedAt || "").slice(0, 10) + "." : " NO signed agreement on file.")
+          + ((Array.isArray(a.networkParsed) && a.networkParsed.length) ? " Shared a " + a.networkParsed.length + "-contact network export (" + (a.networkFileName || "upload") + ") for warm-intro pathfinding." : ""),
+        sharedNetwork: (Array.isArray(a.networkParsed) ? a.networkParsed : []).concat((a.network || "").split(/[\n,;]+/).map(s => s.trim()).filter(Boolean)),
+        agreement: a.agreement || null,
         source: "grassroots application"
       };
       (state.data[cat] = state.data[cat] || []).push(rec);
