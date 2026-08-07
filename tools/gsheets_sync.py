@@ -16,7 +16,8 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 JSC = "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc"
-HTML = "/Users/andy/Downloads/BFT_Living_Database_6.html"
+# Data source: local master by default; in CI set BFT_HTML_PATH=index.html (the deployed build).
+HTML = os.environ.get("BFT_HTML_PATH", "/Users/andy/Downloads/BFT_Living_Database_6.html")
 CELL_MAX = 45000
 PREF = ["name", "bftId", "stance", "allianceScore", "needsVerification", "verifiedBy", "addedBy", "affiliation",
         "audience", "audienceSize", "industry", "profession", "expertise", "platform", "links", "sourceUrl", "website",
@@ -25,17 +26,27 @@ PREF = ["name", "bftId", "stance", "allianceScore", "needsVerification", "verifi
         "evidence", "researchNotes", "audienceDemographics", "source", "photo", "logo"]
 
 def secret(k, required=True):
-    for l in open(os.path.expanduser("~/.bft_secrets")):
-        if l.startswith(k + "="):
-            return l.split("=", 1)[1].strip()
-    if required: sys.exit(f"{k} not in ~/.bft_secrets — see setup in the docstring.")
+    v = os.environ.get(k)                       # env first (CI / GitHub Actions secrets)
+    if v: return v.strip()
+    path = os.path.expanduser("~/.bft_secrets")  # then the local secrets file
+    if os.path.exists(path):
+        for l in open(path):
+            if l.startswith(k + "="):
+                return l.split("=", 1)[1].strip()
+    if required: sys.exit(f"{k} not set (env var or ~/.bft_secrets).")
     return None
 
 def load():
     s = re.search(r"<script>\n(.*?)\n</script>", open(HTML, encoding="utf-8").read(), re.S).group(1)
     a = s.find("const SEED_DATA"); b = s.find("\n  };", a) + 4
-    open("/tmp/_gs.js", "w").write(s[a:b].replace("const SEED_DATA", "var SEED_DATA", 1) + "\nprint(JSON.stringify(SEED_DATA));")
-    return json.loads(subprocess.run([JSC, "/tmp/_gs.js"], capture_output=True, text=True).stdout)
+    js = s[a:b].replace("const SEED_DATA", "var SEED_DATA", 1)
+    if os.path.exists(JSC):                       # macOS: JavaScriptCore
+        open("/tmp/_gs.js", "w").write(js + "\nprint(JSON.stringify(SEED_DATA));")
+        out = subprocess.run([JSC, "/tmp/_gs.js"], capture_output=True, text=True).stdout
+    else:                                          # Linux/CI: Node (preinstalled on GitHub runners)
+        open("/tmp/_gs.js", "w").write(js + "\nprocess.stdout.write(JSON.stringify(SEED_DATA));")
+        out = subprocess.run(["node", "/tmp/_gs.js"], capture_output=True, text=True).stdout
+    return json.loads(out)
 
 def cellval(v):
     if v is None: return ""
@@ -45,11 +56,19 @@ def cellval(v):
 
 def main():
     sid = secret("GOOGLE_SHEET_ID")
-    creds = Credentials.from_service_account_file(secret("GOOGLE_SA_KEY_PATH"),
-        scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"])
+    scopes = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
+    key_json = secret("GOOGLE_SA_KEY_JSON", required=False)   # CI: raw JSON in a secret
+    if key_json:
+        creds = Credentials.from_service_account_info(json.loads(key_json), scopes=scopes)
+    else:                                                       # local: path to the key file
+        creds = Credentials.from_service_account_file(secret("GOOGLE_SA_KEY_PATH"), scopes=scopes)
     gc = gspread.authorize(creds)
     sh = gc.open_by_url(sid) if sid.startswith("http") else gc.open_by_key(sid)
     d = load()
+    total = sum(len(v) for v in d.values())
+    if total < 100:   # safety: never overwrite the Sheet with an empty/broken parse
+        sys.exit(f"Refusing to sync: only {total} records parsed — looks empty/broken. Sheet left untouched.")
+    print(f"Loaded {total} records from {HTML}")
     ok = True
     for cat, rows in d.items():
         keys = ([k for k in PREF if any(k in r for r in rows)] + sorted({k for r in rows for k in r} - set(PREF))) if rows else ["(empty)"]
