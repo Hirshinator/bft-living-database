@@ -263,6 +263,27 @@
 
 <script>
 (function() {
+  // Read-only / shared-view mode: append ?view=1 to the link to share a look-but-don't-touch copy.
+  // The passcode gate still applies; this only removes editing/export and adds copy-friction.
+  const READ_ONLY = new URLSearchParams(location.search).get("view") === "1";
+  function applyReadOnlyChrome() {
+    if (!READ_ONLY) return;
+    const st = document.createElement("style");
+    st.textContent = ".readonly{-webkit-user-select:none;-moz-user-select:none;user-select:none}"
+      + ".readonly #addBtn,.readonly #exportBtn,.readonly #adminBtn,.readonly .ro-hide,"
+      + ".readonly .card-actions,.readonly #networkAddConnBtn,.readonly #applyReviewerBtn,"
+      + ".readonly #gsAddBtn,.readonly [data-approve],.readonly [data-reject],.readonly [data-edit],.readonly [data-delete]"
+      + "{display:none!important}"
+      + ".ro-badge{display:inline-block;margin-left:10px;padding:2px 9px;border-radius:20px;background:var(--gold,#B8860B);color:#1C2530;font-size:10px;font-weight:700;letter-spacing:.06em;vertical-align:middle}";
+    document.head.appendChild(st);
+    document.body.classList.add("readonly");
+    document.addEventListener("contextmenu", e => e.preventDefault());
+    document.addEventListener("copy", e => e.preventDefault());
+    document.addEventListener("dragstart", e => e.preventDefault());
+    const h1 = document.querySelector(".title") || document.querySelector("h1");
+    if (h1 && !h1.querySelector(".ro-badge")) { const b = document.createElement("span"); b.className = "ro-badge"; b.textContent = "VIEW-ONLY"; h1.appendChild(b); }
+  }
+
   // Shared backend storage: everyone with the passcode reads/writes the same
   // data via /api/data (see api/data.js). No offline/local fallback here --
   // this deployment is meant to be shared, so a failed request should surface
@@ -11730,6 +11751,7 @@
   }
 
   async function saveData() {
+    if (READ_ONLY) return; // shared view-only copy never writes back
     setSaveStatus(true);
     try {
       await storage.set("bft_database", JSON.stringify(state.data), true);
@@ -12133,6 +12155,7 @@
     if (state.activeTab === "ecosystem") wireUsTileMap(items);
     el.querySelectorAll("[data-edit]").forEach(btn => btn.addEventListener("click", () => openModal(btn.dataset.edit)));
     el.querySelectorAll("[data-delete]").forEach(btn => btn.addEventListener("click", () => deleteEntry(btn.dataset.delete)));
+    if (READ_ONLY) el.querySelectorAll(".card[data-id]").forEach(card => { card.style.cursor = "pointer"; card.addEventListener("click", () => openModal(card.dataset.id, state.activeTab)); });
   }
 
   function renderToolbarButtons() {
@@ -13716,28 +13739,29 @@
     const fields = FIELD_DEFS[cat];
     const item = state.editingEntry;
     const root = document.getElementById("modalRoot");
+    const dis = READ_ONLY ? " disabled" : "";
     root.innerHTML = `<div class="modal-overlay" id="modalOverlay">
       <div class="modal">
-        <h3>${state.isNew ? "Add" : "Edit"} ${CATEGORIES[cat].label.slice(0,-1)}</h3>
+        <h3>${READ_ONLY ? "View" : (state.isNew ? "Add" : "Edit")} ${CATEGORIES[cat].label.slice(0,-1)}</h3>
         ${fields.map(f => `
           <div class="field">
             <label>${f.label}${f.required ? " *" : ""}</label>
             ${f.type === "textarea"
-              ? `<textarea data-field="${f.key}">${item[f.key] || ""}</textarea>`
+              ? `<textarea data-field="${f.key}"${dis}>${item[f.key] || ""}</textarea>`
               : f.type === "select"
-              ? `<select data-field="${f.key}"><option value="">&mdash;</option>${f.options.map(o => `<option value="${o}" ${item[f.key]===o?"selected":""}>${o}</option>`).join("")}</select>`
-              : `<input type="text" data-field="${f.key}" value="${(item[f.key]||"").toString().replace(/"/g,'&quot;')}">`
+              ? `<select data-field="${f.key}"${dis}><option value="">&mdash;</option>${f.options.map(o => `<option value="${o}" ${item[f.key]===o?"selected":""}>${o}</option>`).join("")}</select>`
+              : `<input type="text" data-field="${f.key}" value="${(item[f.key]||"").toString().replace(/"/g,'&quot;')}"${dis}>`
             }
           </div>`).join("")}
         <div class="modal-actions">
-          <button class="btn btn-ghost" id="cancelModal">Cancel</button>
-          <button class="btn btn-primary" id="saveModal">Save entry</button>
+          <button class="btn btn-ghost" id="cancelModal">${READ_ONLY ? "Close" : "Cancel"}</button>
+          ${READ_ONLY ? "" : `<button class="btn btn-primary" id="saveModal">Save entry</button>`}
         </div>
       </div>
     </div>`;
     document.getElementById("cancelModal").addEventListener("click", closeModal);
     document.getElementById("modalOverlay").addEventListener("click", (e) => { if (e.target.id === "modalOverlay") closeModal(); });
-    document.getElementById("saveModal").addEventListener("click", saveModalEntry);
+    if (!READ_ONLY) document.getElementById("saveModal").addEventListener("click", saveModalEntry);
   }
 
   function closeModal() {
@@ -13803,6 +13827,7 @@
   }
 
   document.getElementById("searchInput").addEventListener("input", (e) => { state.search = e.target.value; renderGlobalSearch(); renderGrid(); });
+  applyReadOnlyChrome();
   document.getElementById("addBtn").addEventListener("click", () => openModal(null));
   document.getElementById("exportBtn").addEventListener("click", exportCSV);
 
