@@ -12381,10 +12381,40 @@
       <a class="btn btn-primary" href="${escXml(url)}" target="_blank" rel="noopener">Open the BFT Notion workspace &#8599;</a>
     </div>`;
   }
+  let notionTree = null;
+  const NOTION_CSS = `<style>.notion-render h1{font-size:22px;margin:16px 0 8px}.notion-render h2{font-size:18px;margin:14px 0 6px}.notion-render h3{font-size:15px;margin:12px 0 5px}.notion-render p{margin:7px 0;line-height:1.6}.notion-render ul,.notion-render ol{margin:6px 0 6px 22px}.notion-render li{margin:3px 0}.notion-render blockquote{border-left:3px solid var(--gold,#B8860B);margin:8px 0;padding:2px 0 2px 12px;opacity:.9}.notion-render .callout{background:rgba(128,128,128,.1);border-radius:8px;padding:10px 12px;margin:8px 0}.notion-render pre{background:rgba(128,128,128,.12);padding:10px;border-radius:6px;overflow:auto;font-size:12px}.notion-render img{max-width:100%;border-radius:8px;margin:8px 0}.notion-render table{border-collapse:collapse;margin:8px 0}.notion-render td{border:1px solid rgba(128,128,128,.3);padding:5px 9px}.notion-render hr{border:none;border-top:1px solid rgba(128,128,128,.25);margin:14px 0}.notion-render a{color:var(--gold,#B8860B)}</style>`;
+
+  function flattenNotion(node, depth, out) {
+    out.push({ id: node.id || "root", title: node.title || "Overview", depth: depth, html: node.html || "", childCount: (node.sections || []).length });
+    (node.sections || []).forEach(s => flattenNotion(s, depth + 1, out));
+    return out;
+  }
+
+  function paintNotionTree(el, url) {
+    const nodes = flattenNotion(notionTree, 0, []);
+    if (!state.notionSection || !nodes.find(n => n.id === state.notionSection)) state.notionSection = nodes[0].id;
+    const cur = nodes.find(n => n.id === state.notionSection) || nodes[0];
+    const subsOfCur = (nodes.find(n => n.id === cur.id) && notionTree ? cur.childCount : 0);
+    el.innerHTML = `${NOTION_CSS}<div style="display:flex;gap:22px;max-width:1100px;margin:0 auto;align-items:flex-start">
+      <aside style="flex:0 0 210px;position:sticky;top:8px;max-height:86vh;overflow:auto">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.55">Notion sections</div>
+          <a href="${escXml(url)}" target="_blank" rel="noopener" style="font-size:11px;color:var(--gold,#B8860B)">Open &#8599;</a>
+        </div>
+        ${nodes.map(n => `<button class="btn ${n.id === cur.id ? "btn-primary" : "btn-ghost"}" data-nsec="${n.id}" style="display:block;width:100%;text-align:left;margin-bottom:4px;padding-left:${8 + n.depth * 12}px;font-size:${n.depth === 0 ? 13 : 12}px">${n.depth > 0 ? "&#8226; " : ""}${escXml(n.title)}</button>`).join("")}
+      </aside>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:20px;font-weight:700;margin-bottom:10px">${escXml(cur.title)}</div>
+        <div class="notion-render" style="font-size:14px">${cur.html || `<div style="opacity:.5">This section has no text of its own${cur.childCount ? " — pick a sub-section on the left." : "."}</div>`}</div>
+      </div>
+    </div>`;
+    el.querySelectorAll("[data-nsec]").forEach(b => b.addEventListener("click", () => { state.notionSection = b.dataset.nsec; renderGrid(); }));
+  }
+
   function renderNotionTab(el) {
     const url = notionUrl();
-    el.innerHTML = `<style>.notion-render h1{font-size:22px;margin:16px 0 8px}.notion-render h2{font-size:18px;margin:14px 0 6px}.notion-render h3{font-size:15px;margin:12px 0 5px}.notion-render p{margin:7px 0;line-height:1.6}.notion-render ul,.notion-render ol{margin:6px 0 6px 22px}.notion-render li{margin:3px 0}.notion-render blockquote{border-left:3px solid var(--gold,#B8860B);margin:8px 0;padding:2px 0 2px 12px;opacity:.9}.notion-render .callout{background:rgba(128,128,128,.1);border-radius:8px;padding:10px 12px;margin:8px 0}.notion-render pre{background:rgba(128,128,128,.12);padding:10px;border-radius:6px;overflow:auto;font-size:12px}.notion-render img{max-width:100%;border-radius:8px;margin:8px 0}.notion-render table{border-collapse:collapse;margin:8px 0}.notion-render td{border:1px solid rgba(128,128,128,.3);padding:5px 9px}.notion-render hr{border:none;border-top:1px solid rgba(128,128,128,.25);margin:14px 0}.notion-render a{color:var(--gold,#B8860B)}</style>
-      <div style="max-width:900px;margin:0 auto">
+    if (notionTree) { paintNotionTree(el, url); return; }
+    el.innerHTML = `<div style="max-width:900px;margin:0 auto">
       <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px">
         <div style="font-size:18px;font-weight:700">&#128211; Notion Workspace</div>
         <a href="${escXml(url)}" target="_blank" rel="noopener" class="btn btn-ghost" style="font-size:12px">Open in Notion &#8599;</a>
@@ -12392,9 +12422,8 @@
       <div id="notionBody" style="font-size:14px"><div style="opacity:.6;padding:24px 0">Loading your live Notion workspace…</div></div>
     </div>`;
     fetch("/api/notion").then(r => r.ok ? r.json() : Promise.reject(r.status)).then(j => {
-      const body = document.getElementById("notionBody");
-      if (!body) return;
-      body.innerHTML = (j && j.html) ? `<div class="notion-render">${j.html}</div>` : notionFallbackHtml(url);
+      if (j && j.tree) { notionTree = j.tree; paintNotionTree(el, url); }
+      else { const body = document.getElementById("notionBody"); if (body) body.innerHTML = notionFallbackHtml(url); }
     }).catch(() => { const body = document.getElementById("notionBody"); if (body) body.innerHTML = notionFallbackHtml(url); });
   }
 

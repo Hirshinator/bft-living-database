@@ -86,13 +86,38 @@ function render(blocks) {
   return html;
 }
 
+// Build a navigable tree: each Notion sub-page becomes its own section instead of being
+// flattened inline, so the app can mirror the workspace's real organization.
+function buildTree(blocks) {
+  const own = (blocks || []).filter((b) => b.type !== "child_page");
+  const subs = (blocks || []).filter((b) => b.type === "child_page");
+  return {
+    html: render(own),
+    sections: subs.map((s) => Object.assign(
+      { id: s.id, title: (s.child_page || {}).title || "Untitled" },
+      buildTree(s._children || [])
+    )),
+  };
+}
+
+async function pageTitle(id) {
+  try {
+    const p = await napi(`/pages/${id}`);
+    const props = p.properties || {};
+    for (const k in props) {
+      if (props[k].type === "title") return (props[k].title || []).map((t) => t.plain_text).join("") || "Overview";
+    }
+  } catch (e) { /* ignore */ }
+  return "Overview";
+}
+
 module.exports = async (req, res) => {
   if (!TOKEN) { res.status(500).json({ error: "NOTION_TOKEN not set. Add it in Vercel env vars and share the page with the integration." }); return; }
   try {
     const blocks = await getBlocks(PAGE_ID, 0);
-    const html = render(blocks);
+    const tree = Object.assign({ id: "root", title: await pageTitle(PAGE_ID) }, buildTree(blocks));
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate=600"); // 5-min edge cache
-    res.status(200).json({ html, blocks: blocks.length });
+    res.status(200).json({ tree });
   } catch (e) {
     res.status(500).json({ error: String((e && e.message) || e) });
   }
