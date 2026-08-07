@@ -12165,7 +12165,7 @@
     if (state.activeTab === "amplify") { renderAmplify(el); return; }
     if (state.activeTab === "vet") { renderVet(el); return; }
     if (state.activeTab === "apply") { renderApply(el); return; }
-    if (state.activeTab === "spreadsheet") { el.innerHTML = `<div style="max-width:1100px;margin:0 auto;font-size:14px">${sheetDocHtml()}</div>`; return; }
+    if (state.activeTab === "spreadsheet") { renderSpreadsheet(el); return; }
     if (state.activeTab === "notion") { el.innerHTML = `<div style="max-width:1100px;margin:0 auto;font-size:14px">${notionDocHtml()}</div>`; return; }
     if (state.activeTab === "docs") { renderDocs(el); return; }
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
@@ -12409,6 +12409,86 @@
         </ol>
         <p style="margin:0;opacity:.7;font-size:12px">Note: the no-copy toggle disables the download/print/copy menu for viewers, but nothing on the web can stop a screenshot or manual retyping — treat it as friction, not a lock.</p>
       </div>`;
+  }
+
+  // Real, live spreadsheet of the app's own data — a scrollable/sortable grid, one category at a
+  // time, always current because it reads state.data directly. No Google dependency.
+  function renderSpreadsheet(el) {
+    const SHEET_SKIP = new Set(["id", "_id", "photo", "logo"]);
+    const SHEET_PREF = ["name", "bftId", "stance", "allianceScore", "needsVerification", "verifiedBy", "addedBy",
+      "platform", "audience", "audienceSize", "industry", "profession", "expertise", "affiliation", "network",
+      "party", "office", "level", "sector", "type", "nationality", "religion", "related", "links", "website",
+      "sourceUrl", "source", "evidence", "researchNotes"];
+    const cats = VISIBLE_CATEGORIES.filter(k => (state.data[k] || []).length);
+    if (!cats.length) { el.innerHTML = `<div style="opacity:.6;padding:20px">No data loaded.</div>`; return; }
+    if (!state.sheetCat || !cats.includes(state.sheetCat)) state.sheetCat = cats[0];
+    if (!state.sheetView) state.sheetView = "grid";
+    const cat = state.sheetCat;
+    const sheetUrl = (APP_CONFIG.sheetUrl || "").trim();
+
+    // Optional: the external Google Sheet embed, if the user configured one.
+    if (state.sheetView === "embed" && sheetUrl) {
+      el.innerHTML = `<div style="max-width:1200px;margin:0 auto">
+        <div style="display:flex;gap:10px;align-items:center;margin-bottom:10px">
+          <div style="font-size:18px;font-weight:700">&#128202; Spreadsheet</div>
+          <button class="btn btn-ghost" id="sheetToGrid" style="font-size:12px">&larr; In-app grid</button>
+          <a href="${escXml(sheetUrl)}" target="_blank" rel="noopener" class="btn btn-ghost" style="font-size:12px;margin-left:auto">Open in Google Sheets &#8599;</a>
+        </div>${sheetDocHtml()}</div>`;
+      const b = document.getElementById("sheetToGrid"); if (b) b.addEventListener("click", () => { state.sheetView = "grid"; renderGrid(); });
+      return;
+    }
+
+    const rows0 = state.data[cat] || [];
+    const q = (state.search || "").toLowerCase();
+    const rows = q ? rows0.filter(r => [r.name, r.evidence, r.researchNotes, r.platform, r.affiliation, r.related].join(" ").toLowerCase().includes(q)) : rows0;
+    const present = new Set();
+    rows.forEach(r => Object.keys(r).forEach(k => { if (!SHEET_SKIP.has(k)) present.add(k); }));
+    const cols = [...SHEET_PREF.filter(k => present.has(k)), ...[...present].filter(k => !SHEET_PREF.includes(k)).sort()];
+    const s = state.sheetSort;
+    let display = rows;
+    if (s && s.key) {
+      display = [...rows].sort((a, b) => {
+        const av = (a[s.key] == null ? "" : Array.isArray(a[s.key]) ? a[s.key].join(" ") : String(a[s.key])).toLowerCase();
+        const bv = (b[s.key] == null ? "" : Array.isArray(b[s.key]) ? b[s.key].join(" ") : String(b[s.key])).toLowerCase();
+        const na = parseFloat(av), nb = parseFloat(bv), bothNum = !isNaN(na) && !isNaN(nb) && av !== "" && bv !== "";
+        const cmp = bothNum ? na - nb : (av < bv ? -1 : av > bv ? 1 : 0);
+        return cmp * (s.dir === "desc" ? -1 : 1);
+      });
+    }
+    const cell = v => {
+      let t = Array.isArray(v) ? v.join("; ") : (v == null ? "" : String(v));
+      const full = t; if (t.length > 140) t = t.slice(0, 140) + "…";
+      return `<td title="${escXml(full).slice(0, 600)}" style="padding:5px 9px;border-right:1px solid rgba(128,128,128,.12);max-width:340px;overflow:hidden;text-overflow:ellipsis">${escXml(t)}</td>`;
+    };
+    const catOpts = cats.map(k => `<option value="${k}" ${k === cat ? "selected" : ""}>${escXml(catLabel(k))} (${(state.data[k] || []).length})</option>`).join("");
+    const embedBtn = sheetUrl ? `<button class="btn btn-ghost" id="sheetToEmbed" style="font-size:12px">View Google Sheet embed</button>` : "";
+
+    el.innerHTML = `<style>.sheet-table tbody tr:nth-child(even){background:rgba(128,128,128,.05)}.sheet-table tbody tr:hover{background:rgba(184,134,11,.13)}</style>
+      <div style="max-width:100%;margin:0 auto">
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px">
+        <div style="font-size:18px;font-weight:700">&#128202; Spreadsheet</div>
+        <select id="sheetCatSel" style="padding:6px 9px;font-size:13px">${catOpts}</select>
+        <span style="font-size:12px;opacity:.6">${display.length} row${display.length === 1 ? "" : "s"}${q ? " (filtered by search)" : ""} &middot; live from the app</span>
+        <span style="margin-left:auto;display:flex;gap:8px">${embedBtn}</span>
+      </div>
+      <div style="overflow:auto;max-height:72vh;border:1px solid rgba(128,128,128,.25);border-radius:8px">
+        <table class="sheet-table" style="border-collapse:collapse;font-size:12px;white-space:nowrap;min-width:100%">
+          <thead><tr>${cols.map(c => `<th data-sortk="${escXml(c)}" style="position:sticky;top:0;background:#1B3A5C;color:#fff;padding:6px 10px;cursor:pointer;text-align:left;border-right:1px solid rgba(255,255,255,.12);z-index:1">${escXml(c)}${s && s.key === c ? (s.dir === "desc" ? " ▼" : " ▲") : ""}</th>`).join("")}</tr></thead>
+          <tbody>${display.map(r => `<tr data-rowid="${escXml(r.id || "")}" style="cursor:pointer;border-top:1px solid rgba(128,128,128,.15)">${cols.map(c => cell(r[c])).join("")}</tr>`).join("")}</tbody>
+        </table>
+      </div>
+      <div style="font-size:11px;opacity:.55;margin-top:6px">Click any row to open the full record. Click a column header to sort. This reads the app's live data, so it is always current${sheetUrl ? "" : " — no external setup needed"}. Use the global search box to filter.</div>
+    </div>`;
+
+    const sel = document.getElementById("sheetCatSel");
+    if (sel) sel.addEventListener("change", e => { state.sheetCat = e.target.value; state.sheetSort = null; renderGrid(); });
+    el.querySelectorAll("[data-sortk]").forEach(th => th.addEventListener("click", () => {
+      const k = th.dataset.sortk;
+      state.sheetSort = (state.sheetSort && state.sheetSort.key === k) ? { key: k, dir: state.sheetSort.dir === "asc" ? "desc" : "asc" } : { key: k, dir: "asc" };
+      renderGrid();
+    }));
+    el.querySelectorAll("[data-rowid]").forEach(tr => tr.addEventListener("click", () => { if (tr.dataset.rowid) openModal(tr.dataset.rowid, cat); }));
+    const eb = document.getElementById("sheetToEmbed"); if (eb) eb.addEventListener("click", () => { state.sheetView = "embed"; renderGrid(); });
   }
 
   function renderDocs(el) {

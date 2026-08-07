@@ -8,3 +8,4 @@ node_modules
 .bft_secrets
 *.secrets
 notion/_raw/
+.github/workflows/sheet-sync.yml
