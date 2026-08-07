@@ -403,7 +403,9 @@
   // Categories shown as clickable tabs in the UI. network_* categories stay loaded,
   // merged, and saved in the background (backend data layer) but are not exposed
   // as visible frontend tabs, per instruction: LinkedIn network data is backend-only.
-  const VISIBLE_CATEGORIES = ["influencer", "business_leader", "organization", "media", "business", "ecosystem", "political", "sponsor", "events", "israeli_tech", "nurture", "rising_stars", "swing", "grassroots_business", "grassroots_politics", "criteria", "backlog"];
+  // "criteria" (Criteria & Methodology) intentionally omitted from the app tabs — that content lives
+  // in the embedded/synced Notion workspace now, so it isn't duplicated here.
+  const VISIBLE_CATEGORIES = ["influencer", "business_leader", "organization", "media", "business", "ecosystem", "political", "sponsor", "events", "israeli_tech", "nurture", "rising_stars", "swing", "grassroots_business", "grassroots_politics", "backlog"];
 
   // Visualization views. These render alongside the data-category tabs but are not
   // data categories themselves -- they read from state.data and render custom
@@ -416,7 +418,6 @@
     { id: "apply", label: "Join / Apply", icon: "&#129309" },
     { id: "spreadsheet", label: "Spreadsheet", icon: "&#128202" },
     { id: "notion", label: "Notion", icon: "&#128211" },
-    { id: "docs", label: "Docs", icon: "&#128214" },
     { id: "stance_map", label: "Stance Map", icon: "&#9737" },
     { id: "network", label: "Ecosystem Network", icon: "&#8982" },
   ];
@@ -12167,7 +12168,6 @@
     if (state.activeTab === "apply") { renderApply(el); return; }
     if (state.activeTab === "spreadsheet") { renderSpreadsheet(el); return; }
     if (state.activeTab === "notion") { renderNotionTab(el); return; }
-    if (state.activeTab === "docs") { renderDocs(el); return; }
     if (state.activeTab === "stance_map") { renderStanceMap(el); return; }
     if (state.activeTab === "network") { renderNetworkGraph(el); return; }
 
@@ -12452,7 +12452,7 @@
   // Real, live spreadsheet of the app's own data — a scrollable/sortable grid, one category at a
   // time, always current because it reads state.data directly. No Google dependency.
   function renderSpreadsheet(el) {
-    const SHEET_SKIP = new Set(["id", "_id", "photo", "logo"]);
+    const SHEET_SKIP = new Set(["id", "_id", "photo", "logo", "bftId"]); // bftId is an internal join key — hidden from the user-facing grid, kept in the data
     const SHEET_PREF = ["name", "bftId", "stance", "allianceScore", "needsVerification", "verifiedBy", "addedBy",
       "platform", "audience", "audienceSize", "industry", "profession", "expertise", "affiliation", "network",
       "party", "office", "level", "sector", "type", "nationality", "religion", "related", "links", "website",
@@ -12635,9 +12635,6 @@
 
   function screenApplication(a) {
     const flags = [];
-    // Hard red lines (auto-reject) — mirror the database's genocide/apartheid + right-to-exist tests.
-    if (a.q_apartheid === "yes") flags.push({ level: "reject", msg: "Self-reported calling Israel an “apartheid state” / Gaza a “genocide” without retraction — crosses the database red line." });
-    if (a.q_exist === "no") flags.push({ level: "reject", msg: "Does not affirm Israel’s right to exist as a Jewish state." });
     if (a.q_conduct !== "yes") flags.push({ level: "review", msg: "Did not agree to the Member Agreement." });
     // Reject scan runs ONLY over the applicant's OWN expression (statement + their own handles) —
     // hostile language THEY use is a red line. Their contact list is scored separately (below).
@@ -12702,15 +12699,17 @@
         <label>In a sentence or two, why do you support Israel and the Jewish people? *<textarea id="ap_statement" rows="3" placeholder="Your own words." style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.statement || "")}</textarea></label>
         <div style="border-top:1px solid rgba(128,128,128,.2);padding-top:12px">
           <div style="font-weight:700;margin-bottom:4px">Share your network (optional, but powerful)</div>
-          <div style="font-size:12px;opacity:.75;margin-bottom:8px;line-height:1.5">This is <b>who you know</b> — not your own accounts. It powers <b>warm introductions</b>: the system finds the shortest, warmest path from a member to a leader they need to reach. The cleanest way is to upload your <b>LinkedIn connections export</b> (LinkedIn &rarr; Settings &rarr; Data privacy &rarr; Get a copy of your data &rarr; Connections). Processed in your browser; covered by the Member Agreement below.</div>
-          <input type="file" id="ap_netfile" accept=".csv,.vcf,text/csv,text/vcard" style="font-size:12px;margin-bottom:6px">
-          <div id="ap_netfile_status" style="font-size:12px;opacity:.7;margin-bottom:8px">${Array.isArray(d.networkParsed) && d.networkParsed.length ? `&#10003; ${d.networkParsed.length} connections loaded from ${escXml(d.networkFileName || "file")}` : ""}</div>
-          <textarea id="ap_network" rows="2" placeholder="…or type a few people you know who could open doors (names / handles)." style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.network || "")}</textarea>
-        </div>
-        <div style="border-top:1px solid rgba(128,128,128,.2);padding-top:12px">
-          <div style="font-weight:700;margin-bottom:8px">Screening (required)</div>
-          <div style="margin-bottom:10px">Do you support Israel’s right to exist as a Jewish state? *<div style="margin-top:5px">${radio("q_exist", [{ v: "yes", t: "Yes" }, { v: "no", t: "No" }])}</div></div>
-          <div style="margin-bottom:10px">Have you ever publicly called Israel an “apartheid state,” or the war in Gaza a “genocide,” without later retracting it? *<div style="margin-top:5px">${radio("q_apartheid", [{ v: "no", t: "No" }, { v: "yes", t: "Yes" }])}</div></div>
+          <div style="font-size:12px;opacity:.75;margin-bottom:8px;line-height:1.5">This is <b>who you know</b> — not your own accounts. It powers <b>warm introductions</b>: the system finds the shortest, warmest path from a member to a leader they need to reach. Upload any of your contact/connection exports — the more the better:
+            <ul style="margin:6px 0 0 18px">
+              <li><b>Phone contacts</b> — export as <code>.vcf</code> (vCard) from your phone/Contacts app</li>
+              <li><b>Email contacts</b> — export as <code>.csv</code> from Gmail / Outlook</li>
+              <li><b>LinkedIn connections</b> — Settings &rarr; Data privacy &rarr; Get a copy of your data &rarr; Connections (<code>.csv</code>)</li>
+              <li><b>Other social connections</b> — any <code>.csv</code> of names/handles you follow or are connected to across platforms</li>
+            </ul>
+            Everything is processed in your browser and covered by the Member Agreement below.</div>
+          <input type="file" id="ap_netfile" accept=".csv,.vcf,text/csv,text/vcard" multiple style="font-size:12px;margin-bottom:6px">
+          <div id="ap_netfile_status" style="font-size:12px;opacity:.7;margin-bottom:8px">${Array.isArray(d.networkParsed) && d.networkParsed.length ? `&#10003; ${d.networkParsed.length} contacts loaded${d.networkFileName ? " from " + escXml(d.networkFileName) : ""}` : ""}</div>
+          <textarea id="ap_network" rows="2" placeholder="…or type a few people you know who could open doors (names / handles across any platform)." style="width:100%;padding:8px;box-sizing:border-box">${escXml(d.network || "")}</textarea>
         </div>
         <div style="border-top:1px solid rgba(128,128,128,.2);padding-top:12px">
           <div style="font-weight:700;margin-bottom:6px">Member Agreement (required)</div>
@@ -12726,18 +12725,29 @@
     document.getElementById("applyReviewerBtn").addEventListener("click", () => { S.mode = "queue"; renderGrid(); });
     const netfile = document.getElementById("ap_netfile");
     if (netfile) netfile.addEventListener("change", () => {
-      const f = netfile.files && netfile.files[0]; if (!f) return;
+      const files = [...(netfile.files || [])]; if (!files.length) return;
       const status = document.getElementById("ap_netfile_status");
-      status.textContent = "Reading " + f.name + "…";
-      const reader = new FileReader();
-      reader.onload = () => {
-        try {
-          const parsed = parseNetworkFile(String(reader.result || ""), f.name);
-          d.networkParsed = parsed; d.networkFileName = f.name;
-          status.innerHTML = "&#10003; " + parsed.length + " connections loaded from " + f.name + " — used for warm-intro pathfinding, covered by the Member Agreement.";
-        } catch (e) { status.textContent = "Couldn't read that file — paste names below instead."; }
-      };
-      reader.readAsText(f);
+      status.textContent = "Reading " + files.length + " file" + (files.length === 1 ? "" : "s") + "…";
+      d.networkParsed = d.networkParsed || [];
+      const names = [];
+      let done = 0;
+      files.forEach(f => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          try {
+            const parsed = parseNetworkFile(String(reader.result || ""), f.name);
+            d.networkParsed = d.networkParsed.concat(parsed);
+            names.push(f.name);
+          } catch (e) { /* skip unreadable file */ }
+          if (++done === files.length) {
+            // de-dupe
+            d.networkParsed = [...new Set(d.networkParsed)];
+            d.networkFileName = names.join(", ");
+            status.innerHTML = "&#10003; " + d.networkParsed.length + " contacts loaded from " + (names.join(", ") || "your files") + " (phone / email / social) — used for warm-intro pathfinding, covered by the Member Agreement.";
+          }
+        };
+        reader.readAsText(f);
+      });
     });
     document.getElementById("ap_submit").addEventListener("click", async () => {
       ["name", "city", "faith", "referrer", "invite"].forEach(k => d[k] = (document.getElementById("ap_" + k).value || "").trim());
@@ -12750,7 +12760,6 @@
       if (!d.network_kind) { alert("Please pick which network fits you best."); return; }
       if (!d.handles) { alert("Please list at least one of your own social handles / profiles — it's required so we can confirm who you are."); return; }
       if (!d.statement) { alert("Please tell us, in your own words, why you support Israel and the Jewish people."); return; }
-      if (!d.q_exist || !d.q_apartheid) { alert("Please answer the two screening questions."); return; }
       if (d.q_conduct !== "yes") { alert("Please read and agree to the Member Agreement — your name and today's date serve as your signature."); return; }
       const screen = screenApplication(d);
       const apps = loadApps();
@@ -12759,7 +12768,7 @@
         id: uid(), submittedAt: nowIso, status: "pending",
         name: d.name, city: d.city, faith: d.faith, referrer: d.referrer, invite: d.invite, handles: d.handles,
         statement: d.statement, network: d.network, networkParsed: d.networkParsed || [], networkFileName: d.networkFileName || "",
-        network_kind: d.network_kind, q_exist: d.q_exist, q_apartheid: d.q_apartheid, q_conduct: d.q_conduct,
+        network_kind: d.network_kind, q_conduct: d.q_conduct,
         agreement: { version: MEMBER_AGREEMENT_VERSION, signedName: d.name, signedAt: nowIso },
         screen: { verdict: screen.verdict, color: screen.color, flags: screen.flags, vouch: screen.vouch }
       });
