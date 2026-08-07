@@ -385,6 +385,7 @@
   APP_CONFIG.hiddenCats = APP_CONFIG.hiddenCats || [];
   APP_CONFIG.labels = APP_CONFIG.labels || {};
   APP_CONFIG.notionUrl = APP_CONFIG.notionUrl || "";
+  APP_CONFIG.sheetUrl = APP_CONFIG.sheetUrl || "";
   function saveConfig() { try { localStorage.setItem(_CFG_KEY, JSON.stringify(APP_CONFIG)); } catch (e) {} }
   // ---- Grassroots membership applications (crowdsourced growth + vetting queue) ----
   const _APPS_KEY = "bft_applications";
@@ -11801,6 +11802,9 @@
       <div class="field"><label>Notion published URL <span style="font-weight:400;opacity:.6">(embeds live in the Docs tab)</span></label>
         <input type="text" data-cfg="notionUrl" value="${(APP_CONFIG.notionUrl || "").replace(/"/g, "&quot;")}" placeholder="https://your-page.notion.site/…" style="width:100%;font-size:13px;padding:7px 9px;color:#1C2530;background:#fff;border:1px solid rgba(0,0,0,.25);border-radius:4px;box-sizing:border-box">
         <div style="font-size:11px;opacity:.6;margin-top:5px">In Notion: Share &rarr; Publish &rarr; copy the <code>notion.site</code> link. Leave blank to keep Notion private (Docs tab links out instead).</div></div>
+      <div class="field"><label>Google Sheet URL <span style="font-weight:400;opacity:.6">(embeds the full dataset in the Docs tab)</span></label>
+        <input type="text" data-cfg="sheetUrl" value="${(APP_CONFIG.sheetUrl || "").replace(/"/g, "&quot;")}" placeholder="https://docs.google.com/spreadsheets/d/…" style="width:100%;font-size:13px;padding:7px 9px;color:#1C2530;background:#fff;border:1px solid rgba(0,0,0,.25);border-radius:4px;box-sizing:border-box">
+        <div style="font-size:11px;opacity:.6;margin-top:5px">Share &rarr; Anyone with the link (Viewer), and uncheck download/print/copy for viewers. Paste the link here to embed it view-only.</div></div>
       <div class="modal-actions"><button class="btn btn-ghost" id="cancelModal">Cancel</button><button class="btn btn-ghost" id="adminReset">Reset all</button><button class="btn btn-primary" id="adminSave">Save</button></div>
     </div></div>`;
     document.getElementById("cancelModal").addEventListener("click", closeModal);
@@ -11809,6 +11813,7 @@
     document.getElementById("adminSave").addEventListener("click", () => {
       APP_CONFIG.defaultView = document.querySelector('[data-cfg="defaultView"]').value;
       APP_CONFIG.notionUrl = (document.querySelector('[data-cfg="notionUrl"]').value || "").trim();
+      APP_CONFIG.sheetUrl = (document.querySelector('[data-cfg="sheetUrl"]').value || "").trim();
       APP_CONFIG.hiddenCats = [...document.querySelectorAll("[data-showcat]")].filter(c => !c.checked).map(c => c.dataset.showcat);
       APP_CONFIG.labels = {};
       document.querySelectorAll("[data-label]").forEach(i => { const v = i.value.trim(); if (v && v !== CATEGORIES[i.dataset.label].label) APP_CONFIG.labels[i.dataset.label] = v; });
@@ -12336,10 +12341,32 @@
       </div>`;
   }
 
+  // Live Google Sheet mirror of the full dataset (Airtable replacement). Configurable published/shared URL.
+  function sheetDocHtml() {
+    let url = (APP_CONFIG.sheetUrl || "").trim();
+    if (url) {
+      // Normalize a normal Sheet link to an embeddable preview (strip /edit and trailing params, add ?widget=true&headers=false)
+      const embed = url.replace(/\/edit.*$/, "/preview").replace(/\/view.*$/, "/preview");
+      return `<h2 style="margin:8px 0 10px;font-size:20px">&#128202; Full Dataset — Google Sheet</h2>
+        <div style="font-size:12px;opacity:.6;margin-bottom:10px">Live, read-only mirror of every record (the Airtable replacement). <a href="${escXml(url)}" target="_blank" rel="noopener" style="color:var(--accent)">Open in Google Sheets &#8599;</a></div>
+        <iframe src="${escXml(embed)}" style="width:100%;height:78vh;border:1px solid rgba(128,128,128,.25);border-radius:10px;background:#fff" loading="lazy"></iframe>`;
+    }
+    return `<h2 style="margin:8px 0 10px;font-size:20px">&#128202; Full Dataset — Google Sheet</h2>
+      <div style="padding:16px;border:1px dashed rgba(128,128,128,.4);border-radius:10px;font-size:14px;line-height:1.6">
+        <p style="margin:0 0 10px">Embed the Google Sheet that holds all the transferred Airtable data so it lives behind this one link too. To connect it as <b>view-only, no-copy</b>:</p>
+        <ol style="margin:0 0 10px 18px">
+          <li style="margin:4px 0">In Google Sheets: <b>Share</b> &rarr; <b>General access</b> &rarr; <b>Anyone with the link</b> &rarr; role <b>Viewer</b>.</li>
+          <li style="margin:4px 0">Share dialog &rarr; gear icon &rarr; <b>uncheck</b> “Viewers and commenters can see the option to download, print, and copy.”</li>
+          <li style="margin:4px 0">Copy the link, then here: <b>&#9881; Customize</b> &rarr; paste into <b>“Google Sheet URL”</b> &rarr; Save.</li>
+        </ol>
+        <p style="margin:0;opacity:.7;font-size:12px">Note: the no-copy toggle disables the download/print/copy menu for viewers, but nothing on the web can stop a screenshot or manual retyping — treat it as friction, not a lock.</p>
+      </div>`;
+  }
+
   function renderDocs(el) {
-    const docList = [{ id: "notion", title: "&#128214; Notion Workspace" }].concat(DOCS.map(d => ({ id: d.id, title: d.title })));
+    const docList = [{ id: "notion", title: "&#128214; Notion Workspace" }, { id: "sheet", title: "&#128202; Full Dataset (Sheet)" }].concat(DOCS.map(d => ({ id: d.id, title: d.title })));
     if (!state.docId || !docList.find(d => d.id === state.docId)) state.docId = docList[0].id;
-    const bodyHtml = state.docId === "notion" ? notionDocHtml() : (DOCS.find(d => d.id === state.docId) || DOCS[0]).html;
+    const bodyHtml = state.docId === "notion" ? notionDocHtml() : state.docId === "sheet" ? sheetDocHtml() : (DOCS.find(d => d.id === state.docId) || DOCS[0]).html;
     el.innerHTML = `<div style="display:flex;gap:22px;max-width:1100px;margin:0 auto;align-items:flex-start">
       <aside style="flex:0 0 190px;position:sticky;top:8px">
         <div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin-bottom:8px">Project docs</div>
