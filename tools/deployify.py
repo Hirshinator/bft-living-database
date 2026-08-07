@@ -95,7 +95,9 @@ rep('''  const storage = (window.storage && typeof window.storage.get === "funct
       const body = await res.json().catch(() => ({}));
       return { ok: false, serverError: body.error || "Server is not configured yet." };
     }
-    return { ok: res.status !== 401 };
+    if (res.status === 401) return { ok: false };
+    const body = await res.json().catch(() => ({}));
+    return { ok: true, readOnly: !!body.readOnly };
   }
 
   function showGate(errorMsg) {
@@ -120,7 +122,9 @@ rep('''  const storage = (window.storage && typeof window.storage.get === "funct
     if (result.ok) {
       PASSCODE = code;
       localStorage.setItem("bft_passcode", code);
+      if (result.readOnly) READ_ONLY = true;
       hideGate();
+      applyReadOnlyChrome();
       loadData().then(renderAll);
     } else if (result.serverError) {
       showGate("Setup issue, not a wrong passcode: " + result.serverError);

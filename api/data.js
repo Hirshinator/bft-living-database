@@ -198,27 +198,37 @@ module.exports = async (req, res) => {
     return;
   }
 
+  // Two credentials: the editor passcode (full read/write) and an optional viewer
+  // passcode (read-only, server-enforced). A viewer's writes are refused here, so a
+  // shared read-only link cannot be flipped to edit by tampering with the client.
   const passcode = req.headers["x-passcode"];
-  if (!passcode || passcode !== process.env.BFT_PASSCODE) {
+  const isEditor = passcode && passcode === process.env.BFT_PASSCODE;
+  const isViewer = process.env.BFT_VIEWER_PASSCODE && passcode && passcode === process.env.BFT_VIEWER_PASSCODE;
+  if (!isEditor && !isViewer) {
     res.status(401).json({ error: "Invalid or missing passcode." });
     return;
   }
+  const readOnly = isViewer && !isEditor;
 
   try {
+    if (req.method === "POST" && readOnly) {
+      res.status(403).json({ error: "This passcode is read-only (viewer access)." });
+      return;
+    }
     if (req.method === "GET") {
       if (!AIRTABLE_MODE) {
         const value = await redisGet(DATA_KEY);
-        res.status(200).json({ value: value || null, mode: "blob" });
+        res.status(200).json({ value: value || null, mode: "blob", readOnly });
         return;
       }
       const cached = await redisGet(CACHE_KEY).catch(() => null);
       if (cached) {
-        res.status(200).json({ value: cached, mode: "airtable", cached: true });
+        res.status(200).json({ value: cached, mode: "airtable", cached: true, readOnly });
         return;
       }
       const value = JSON.stringify(await readAll());
       await redisSet(CACHE_KEY, value, CACHE_TTL).catch(() => {});
-      res.status(200).json({ value, mode: "airtable", cached: false });
+      res.status(200).json({ value, mode: "airtable", cached: false, readOnly });
       return;
     }
 
