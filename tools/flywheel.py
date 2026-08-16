@@ -21,14 +21,22 @@ OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "flywheel")
 # (boosted subjects = candidate hostiles). Extend as more channels are resolved.
 CHANNELS = [
     {"id": "UCaGCg20T6NcBs0NMU1D4-Rg", "name": "Stand Tall Israel", "orientation": "ally"},
+    {"id": "UCfmSignFWkk1lw4015hCyyQ", "name": "StandWithUs", "orientation": "ally"},
+    {"id": "UCU63EiU7Y-8xcRntPIRVrzA", "name": "Unpacked", "orientation": "ally"},
+    {"id": "UCKtFXuOLGSS4YPQkVAivDOg", "name": "IsraelFriends", "orientation": "ally"},
     {"id": "UCF9LFWX5cdGHBg_FDm6tFrQ", "name": "Breezy Politics", "orientation": "hostile"},
     {"id": "UC3M7l8ved_rYQ45AVzS0RGA", "name": "The Jimmy Dore Show", "orientation": "hostile"},
+    {"id": "UCSYCo8uRGF39qDCxF870K5Q", "name": "Owen Jones", "orientation": "hostile"},
+    {"id": "UCOzMAa6IhV6uwYQATYG_2kg", "name": "Novara Media", "orientation": "hostile"},
+    {"id": "UCG29FnXZm4F5U8xpqs1cs1Q", "name": "Empire Files", "orientation": "hostile"},
 ]
 
 NAME_RE = re.compile(r"^[A-Z][a-zA-Z'.-]+(?:\s+[A-Z][a-zA-Z'.-]+){1,2}$")
 # noise phrases that pass the capitalization test but aren't people
 STOP = {"October", "Word for Word", "New York", "United Nations", "Gaza Must", "The West",
-        "The Regime", "The Tide", "The GOP", "Middle East", "October 7"}
+        "The Regime", "The Tide", "The GOP", "Middle East", "October 7",
+        # show/segment names that pass the name regex but aren't people
+        "Novara Live", "Empire Files", "Double Down", "Politics Live", "The View", "Breaking Points"}
 
 
 def fetch(url):

@@ -9,3 +9,4 @@ node_modules
 *.secrets
 notion/_raw/
 .github/workflows/sheet-sync.yml
+.env*
