@@ -12280,8 +12280,8 @@
     const connections = g.edges.length, nodes = g.nodes.length;
     const catCount = MC.filter(k => (state.data[k] || []).length).length;
 
-    const stat = (num, label, color) => `<div style="flex:1;min-width:118px;text-align:center;padding:15px 10px;background:rgba(255,255,255,.035);border:1px solid var(--border,rgba(128,128,128,.22));border-radius:12px">
-      <div style="font-size:34px;font-weight:800;font-family:Georgia,serif;color:${color || "var(--gold,#B8860B)"};line-height:1">${num.toLocaleString()}</div>
+    const stat = (num, label, color, id) => `<div style="flex:1;min-width:118px;text-align:center;padding:15px 10px;background:rgba(255,255,255,.035);border:1px solid var(--border,rgba(128,128,128,.22));border-radius:12px">
+      <div style="font-size:34px;font-weight:800;font-family:Georgia,serif;color:${color || "var(--gold,#B8860B)"};line-height:1"${id ? ` id="${id}"` : ""}>${num.toLocaleString()}</div>
       <div style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;opacity:.6;margin-top:6px">${label}</div></div>`;
     const cap = (icon, title, desc, view) => `<button data-goview="${view}" class="ov-cap" style="text-align:left;background:rgba(255,255,255,.035);border:1px solid var(--border,rgba(128,128,128,.22));border-radius:12px;padding:16px;cursor:pointer;display:flex;flex-direction:column;gap:6px">
       <div style="font-size:22px">${icon}</div>
@@ -12301,7 +12301,7 @@
         ${stat(allies, "Confirmed allies", "#2E8B57")}
         ${stat(hostiles + flags, "Hostiles / red flags", "#C0392B")}
         ${stat(connections, "Mapped connections")}
-        ${stat(9, "Live feed sources")}
+        ${stat(22, "Live feed sources", null, "ovFeedSources")}
       </div>
       <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin:8px 0 10px">Explore the intelligence</div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px">
@@ -12313,6 +12313,8 @@
       <div style="text-align:center;font-size:12px;opacity:.5;margin:22px 0 6px">${nodes.toLocaleString()} nodes across ${catCount} categories &middot; Built by Andy Hirsh</div>
     </div>`;
     el.querySelectorAll("[data-goview]").forEach(b => b.addEventListener("click", () => { state.activeTab = b.dataset.goview; renderAll(); }));
+    // Live, accurate source count from the feed API (news topics + channels + outlets).
+    fetch("/api/feed").then(r => r.ok ? r.json() : Promise.reject()).then(j => { const e = document.getElementById("ovFeedSources"); if (e && j && j.sourceCount) e.textContent = j.sourceCount; }).catch(() => {});
   }
 
   function renderFeed(el) {

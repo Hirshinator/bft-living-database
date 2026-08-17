@@ -15,8 +15,14 @@ const DEFAULT_QUERIES = [
 // Add more by resolving a channel's id (youtube.com/@handle -> "externalId") and appending here.
 const CHANNELS = [
   { id: "UCaGCg20T6NcBs0NMU1D4-Rg", name: "Stand Tall Israel" },
+  { id: "UCfmSignFWkk1lw4015hCyyQ", name: "StandWithUs" },
+  { id: "UCU63EiU7Y-8xcRntPIRVrzA", name: "Unpacked" },
+  { id: "UCKtFXuOLGSS4YPQkVAivDOg", name: "IsraelFriends" },
   { id: "UCF9LFWX5cdGHBg_FDm6tFrQ", name: "Breezy Politics" },
   { id: "UC3M7l8ved_rYQ45AVzS0RGA", name: "The Jimmy Dore Show" },
+  { id: "UCSYCo8uRGF39qDCxF870K5Q", name: "Owen Jones" },
+  { id: "UCOzMAa6IhV6uwYQATYG_2kg", name: "Novara Media" },
+  { id: "UCG29FnXZm4F5U8xpqs1cs1Q", name: "Empire Files" },
 ];
 
 // Allied-media + Substack newsletter feeds (standard RSS). Add any outlet/newsletter with an RSS URL.
@@ -24,6 +30,10 @@ const FEEDS = [
   { name: "The Free Press", url: "https://www.thefp.com/feed" },
   { name: "JNS", url: "https://www.jns.org/feed/" },
   { name: "Seth Mandel (Substack)", url: "https://sethmandel.substack.com/feed" },
+  { name: "Times of Israel", url: "https://www.timesofisrael.com/feed/" },
+  { name: "Algemeiner", url: "https://www.algemeiner.com/feed/" },
+  { name: "Jerusalem Post", url: "https://www.jpost.com/rss/rssfeedsheadlines.aspx" },
+  { name: "Washington Free Beacon", url: "https://freebeacon.com/feed/" },
 ];
 
 function decode(s) {
@@ -102,7 +112,7 @@ module.exports = async (req, res) => {
     all.sort((a, b) => new Date(b.date) - new Date(a.date));
     for (const it of all) { const k = it.title.toLowerCase(); if (it.title && !seen.has(k)) { seen.add(k); uniq.push(it); } }
     res.setHeader("Cache-Control", "s-maxage=600, stale-while-revalidate=1800");
-    res.status(200).json({ items: uniq.slice(0, 40), queries });
+    res.status(200).json({ items: uniq.slice(0, 40), queries, sourceCount: queries.length + CHANNELS.length + FEEDS.length, channels: CHANNELS.length, feeds: FEEDS.length });
   } catch (e) {
     res.status(500).json({ error: String((e && e.message) || e) });
   }
