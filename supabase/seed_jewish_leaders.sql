@@ -1,0 +1,13 @@
+-- ============================================================================
+-- Jewish project — business_leaders seed (TEMPLATE, intentionally empty)
+-- Same rule as grassroots: no inference from names/nationality. Populate from a
+-- sourced/self-identified list and record the basis in `jewish_basis`.
+-- Run in the JEWISH project SQL editor.
+-- ============================================================================
+
+-- insert into public.business_leaders
+--   (name, affiliation, company, industry, links, stance, alliance_score, jewish_basis, source, added_by, needs_verification)
+-- values
+--   ('Example Founder', 'Example Ventures', 'Example Ventures', 'Finance & Investment',
+--    'linkedin.com/in/example', 'pro', 60, 'self-identified / sourced from <where>', '<source>', 'Andy', 'yes')
+-- on conflict (bft_id) do nothing;

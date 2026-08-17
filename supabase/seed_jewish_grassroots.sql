@@ -1,0 +1,13 @@
+-- ============================================================================
+-- Jewish project — grassroots_business seed (TEMPLATE, intentionally empty)
+-- Religion is not inferred from a name or nationality. Fill this only from a
+-- sourced list (self-identified, a directory, your own knowledge) and record
+-- HOW you know in `jewish_basis`. Then run in the JEWISH project SQL editor.
+-- ============================================================================
+
+-- insert into public.grassroots_business
+--   (name, company, industry, links, stance, alliance_score, jewish_basis, source, added_by, needs_verification)
+-- values
+--   ('Example Owner', 'Example LLC', 'Retail', 'linkedin.com/in/example', 'pro', 55,
+--    'self-identified / sourced from <where>', '<source>', 'Andy', 'yes')
+-- on conflict (bft_id) do nothing;
