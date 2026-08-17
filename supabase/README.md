@@ -24,6 +24,18 @@ so a business that belongs to both is reconcilable across the projects.
 
 Once those env vars exist, I wire the two BFT tabs + the standalone Jewish viewer and deploy.
 
+## Format lineage — Aleph's "The Spreadsheet"
+
+The investor/operator columns (`investor_kind`, `activity_level`, `notable_investments`,
+`when_to_approach`, `follow_on`, `self_guidelines`, `min/max_investment`, `primary_interest`)
+are **design ideas** adapted from Eden Shochat's "The Spreadsheet" (Aleph VC). Its smart moves:
+activity-level to separate the active from the titled; proof-of-activity over self-description;
+a self-authored guidelines column only the subject edits; contact/criteria pushed right to cut spam.
+
+**We did NOT import its data.** That sheet carries an explicit restriction against being copied or
+aggregated by any organization, and its investor tab is full of personal emails. Israeli investors
+we track are added from public/first-party sources with public contact channels only.
+
 ## Re-generating the BFT seed
 
 `seed_bft_*.sql` is generated from the master HTML — re-run after data changes:

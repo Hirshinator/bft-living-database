@@ -30,6 +30,18 @@ create table if not exists public.grassroots_business (
   source             text,
   added_by           text,
   needs_verification text,
+  -- investor/operator profile — format adapted from Aleph's "The Spreadsheet" (design only)
+  investor_kind       text,     -- Angel / VC / Micro VC / Corp VC / Angel fund / Operator-Angel
+  primary_interest    text,     -- main sector focus
+  other_interests     text,     -- freeform secondary interests
+  min_investment      numeric,  -- typical check size floor
+  max_investment      numeric,  -- typical check size ceiling
+  activity_level      text,     -- '1. High' | '2. Medium' | '3. Low' | '4. None'
+  notable_investments text,     -- proof-of-activity ("investments of note")
+  when_to_approach    text,     -- stage/criteria to engage
+  follow_on           boolean,  -- does follow-on rounds?
+  self_guidelines     text,     -- ONLY the subject edits: how they want to be approached
+  contact_via         text,     -- preferred PUBLIC channel (LinkedIn / firm form)
   jewish_basis       text,   -- HOW we know it's Jewish-owned (sourced, self-identified, etc.)
   is_jewish          boolean default true,
   is_bft             boolean default false,
@@ -58,6 +70,18 @@ create table if not exists public.business_leaders (
   source             text,
   added_by           text,
   needs_verification text,
+  -- investor/operator profile — format adapted from Aleph's "The Spreadsheet" (design only)
+  investor_kind       text,     -- Angel / VC / Micro VC / Corp VC / Angel fund / Operator-Angel
+  primary_interest    text,     -- main sector focus
+  other_interests     text,     -- freeform secondary interests
+  min_investment      numeric,  -- typical check size floor
+  max_investment      numeric,  -- typical check size ceiling
+  activity_level      text,     -- '1. High' | '2. Medium' | '3. Low' | '4. None'
+  notable_investments text,     -- proof-of-activity ("investments of note")
+  when_to_approach    text,     -- stage/criteria to engage
+  follow_on           boolean,  -- does follow-on rounds?
+  self_guidelines     text,     -- ONLY the subject edits: how they want to be approached
+  contact_via         text,     -- preferred PUBLIC channel (LinkedIn / firm form)
   jewish_basis       text,
   is_jewish          boolean default true,
   is_bft             boolean default false,
