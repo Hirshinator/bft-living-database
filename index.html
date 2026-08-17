@@ -12358,6 +12358,7 @@
       <div id="flywheelWrap"></div>
       <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin:4px 0 8px">Live headlines</div>
       <div id="liveFeedItems"><div style="opacity:.6;padding:10px 0;font-size:13px">Loading live headlines…</div></div>
+      <div id="mentionsWrap"></div>
       <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin:18px 0 8px">Tracked moves (${events.length})</div>
       ${rows || `<div class="empty-state"><div class="big">&mdash;</div>No tracked events match.</div>`}
     </div>`;
@@ -12395,6 +12396,27 @@
           </div></div>`;
       };
       w.innerHTML = `<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin:4px 0 8px">&#9881; Flywheel candidates (${j.candidates.length}) — auto-discovered, not yet in the database</div>${j.candidates.map(card).join("")}<div style="font-size:11px;opacity:.5;margin:2px 0 14px">Swept ${escXml(j.generated || "")} from monitored channels. Verify each, then add.</div>`;
+    }).catch(() => {});
+    // Web mentions of tracked entities — rotating monitor sweeps all ~1,127 curated entities (flywheel/mentions.json).
+    fetch("/flywheel/mentions.json").then(r => r.ok ? r.json() : Promise.reject()).then(j => {
+      const w = document.getElementById("mentionsWrap"); if (!w || !j.mentions || !j.mentions.length) return;
+      const nameIdx = {};
+      Object.keys(CATEGORIES).forEach(cat => (state.data[cat] || []).forEach(it => { if (it.name && !nameIdx[it.name]) nameIdx[it.name] = { id: it.id, cat }; }));
+      const row = m => {
+        const d = m.date ? new Date(m.date) : null;
+        const when = d && !isNaN(d) ? d.toLocaleDateString(undefined, { month: "short", day: "numeric" }) : "";
+        const who = nameIdx[m.entity]
+          ? `<a href="#" data-goperson="${nameIdx[m.entity].id}" data-gocat="${nameIdx[m.entity].cat}" style="color:var(--gold,#B8860B);font-weight:700;text-decoration:none">${escXml(m.entity)}</a>`
+          : `<b>${escXml(m.entity)}</b>`;
+        const col = m.stance === "pro" ? "#2E8B57" : (m.stance === "hostile" || m.stance === "redflag") ? "#C0392B" : "#6b7a8f";
+        return `<div style="display:flex;gap:11px;border-left:3px solid ${col};padding:9px 12px;margin:0 0 9px;background:rgba(128,128,128,.05);border-radius:0 8px 8px 0">
+          <div style="min-width:0;flex:1">
+            <div style="font-size:11px;opacity:.6;margin-bottom:2px">${when} &middot; ${escXml(m.source || "")} &middot; mention of ${who}</div>
+            <div style="font-weight:600;font-size:14px;line-height:1.3"><a href="${escXml(m.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${escXml(m.title)}</a></div>
+          </div></div>`;
+      };
+      w.innerHTML = `<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin:18px 0 8px">&#128270; Mentions of tracked entities (${j.mentions.length})</div>${j.mentions.slice(0, 30).map(row).join("")}<div style="font-size:11px;opacity:.5;margin:2px 0 4px">Monitoring all ${(j.monitored_total || 0).toLocaleString()} tracked entities across the web, ~${j.swept_this_run || 0}/day on rotation. Updated ${escXml(j.generated || "")}.</div>`;
+      w.querySelectorAll("[data-goperson]").forEach(a => a.addEventListener("click", ev => { ev.preventDefault(); openModal(a.dataset.goperson, a.dataset.gocat); }));
     }).catch(() => {});
   }
 
