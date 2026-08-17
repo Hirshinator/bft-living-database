@@ -12317,6 +12317,21 @@
     fetch("/api/feed").then(r => r.ok ? r.json() : Promise.reject()).then(j => { const e = document.getElementById("ovFeedSources"); if (e && j && j.sourceCount) e.textContent = j.sourceCount; }).catch(() => {});
   }
 
+  // Significance detector — flags stance-relevant EVENTS (not just mentions) so they can be bumped:
+  // political alignments ("Rubio 2028", endorsements), new alliances/coalitions, defections/stance
+  // shifts, hostility flares, and major appointments.
+  const SIGNAL_RULES = [
+    { cat: "Political alignment", icon: "&#127463;", re: /\b(20(2[6-9]|3\d))\b|\bfor president\b|\bendorse[sd]?\b|\bendorsement\b|\bthrows? .{0,20}\bbehind\b|\bcomes out (for|against|in support)\b|\bbacks? .{0,25}\b(campaign|candidacy|bid|president|senate|governor)\b/i },
+    { cat: "New alliance / coalition", icon: "&#129309;", re: /\b(coalition|alliance|joins forces|join(s|ed)? .{0,20}\b(with|forces)|partner(s|ed|ship)? with|teams? up|unite[sd]?|launch(es|ed)? .{0,25}(coalition|initiative|movement|campaign|group)|forms? .{0,15}(coalition|alliance|group|bloc))\b/i },
+    { cat: "Defection / stance shift", icon: "&#128260;", re: /\b(reverses?|flip(s|ped)?|breaks? with|turn(s|ed)? (on|against)|no longer|distanc(es|ed) .{0,15}from|walk(s|ed)? back|disavow(s|ed)?|renounce[sd]?|abandon(s|ed)?|switch(es|ed)? sides)\b/i },
+    { cat: "Hostility flare", icon: "&#9888;", re: /\b(antisemit|blood libel|holocaust denial|praise[sd]? hitler|nazi salute|from the river to the sea|call(s|ed)? .{0,20}genocide|apartheid state|jew[- ]?hat)/i },
+    { cat: "Appointment / role change", icon: "&#128188;", re: /\b(appointed|named .{0,20}(director|chair|editor|ceo|head|president|host)|takes? over|steps? down|resign(s|ed)?|\bfired\b|hired as|joins? .{0,15}\bas\b)\b/i },
+  ];
+  function detectSignal(text) {
+    for (const r of SIGNAL_RULES) if (r.re.test(text || "")) return r;
+    return null;
+  }
+
   function renderFeed(el) {
     const events = (state.data.feed || []).slice().sort((a,b) => (b.date||"").localeCompare(a.date||""));
     const q = (state.search || "").toLowerCase();
@@ -12355,6 +12370,7 @@
         </div>
         <span style="display:flex;gap:8px"><button class="btn btn-ghost" id="feedRefreshBtn" title="Refresh live headlines" style="white-space:nowrap">&#8635;</button><button class="btn btn-primary" id="flagEventBtn" style="white-space:nowrap">&#128225; Flag event</button></span>
       </div>
+      <div id="signalsWrap"></div>
       <div id="flywheelWrap"></div>
       <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin:4px 0 8px">Live headlines</div>
       <div id="liveFeedItems"><div style="opacity:.6;padding:10px 0;font-size:13px">Loading live headlines…</div></div>
@@ -12364,6 +12380,23 @@
     </div>`;
     el.querySelectorAll("[data-goperson]").forEach(a => a.addEventListener("click", ev => { ev.preventDefault(); openModal(a.dataset.goperson, a.dataset.gocat); }));
     const feb = document.getElementById("flagEventBtn"); if (feb) feb.addEventListener("click", openFlagEvent);
+    const feedSignals = [];
+    const paintSignals = () => {
+      const w = document.getElementById("signalsWrap"); if (!w) return;
+      const seen = new Set();
+      const uniq = feedSignals.filter(s => { const k = (s.title || "").toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+      if (!uniq.length) { w.innerHTML = ""; return; }
+      w.innerHTML = `<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#B8860B;margin:4px 0 8px">&#128680; Significant signals (${uniq.length}) — flagged as mission-relevant events</div>`
+        + uniq.slice(0, 12).map(s => {
+          const sc = s.stance === "pro" ? "#2E8B57" : (s.stance === "hostile" || s.stance === "redflag") ? "#C0392B" : "#B8860B";
+          return `<div style="display:flex;gap:11px;border-left:3px solid ${sc};padding:10px 12px;margin:0 0 9px;background:rgba(184,134,11,.09);border-radius:0 8px 8px 0">
+            <div style="font-size:18px">${s.icon}</div>
+            <div style="min-width:0;flex:1">
+              <div style="font-size:11px;font-weight:700;color:${sc};margin-bottom:2px">${s.cat}${s.entity ? " &middot; " + escXml(s.entity) : ""}${s.source ? ` <span style="opacity:.55;font-weight:400">&middot; ${escXml(s.source)}</span>` : ""}</div>
+              <div style="font-weight:600;font-size:14px;line-height:1.3"><a href="${escXml(s.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${escXml(s.title)}</a></div>
+            </div></div>`;
+        }).join("");
+    };
     const loadLive = (force) => {
       const c = document.getElementById("liveFeedItems"); if (!c) return;
       fetch("/api/feed" + (force ? "?fresh=" + Date.now() : "")).then(r => r.ok ? r.json() : Promise.reject(r.status)).then(j => {
@@ -12377,6 +12410,8 @@
               <div style="font-weight:600;font-size:14px;line-height:1.3"><a href="${escXml(it.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${escXml(it.title)}</a></div>
             </div></div>`;
         }).join("");
+        j.items.forEach(it => { const sig = detectSignal(it.title); if (sig) feedSignals.push({ cat: sig.cat, icon: sig.icon, title: it.title, link: it.link, source: it.source, stance: "" }); });
+        paintSignals();
       }).catch(() => { c.innerHTML = `<div style="opacity:.55;font-size:12px;padding:8px 0">Live headlines load on the deployed site (they need the server). Your tracked moves are below.</div>`; });
     };
     const frb = document.getElementById("feedRefreshBtn"); if (frb) frb.addEventListener("click", () => { document.getElementById("liveFeedItems").innerHTML = `<div style="opacity:.6;padding:10px 0;font-size:13px">Refreshing…</div>`; loadLive(true); });
@@ -12417,6 +12452,12 @@
       };
       w.innerHTML = `<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin:18px 0 8px">&#128270; Mentions of tracked entities (${j.mentions.length})</div>${j.mentions.slice(0, 30).map(row).join("")}<div style="font-size:11px;opacity:.5;margin:2px 0 4px">Monitoring all ${(j.monitored_total || 0).toLocaleString()} tracked entities across the web, ~${j.swept_this_run || 0}/day on rotation. Updated ${escXml(j.generated || "")}.</div>`;
       w.querySelectorAll("[data-goperson]").forEach(a => a.addEventListener("click", ev => { ev.preventDefault(); openModal(a.dataset.goperson, a.dataset.gocat); }));
+      j.mentions.forEach(m => {
+        const sig = detectSignal(m.title); if (!sig) return;
+        const hostile = m.stance === "hostile" || m.stance === "redflag";
+        feedSignals.push({ cat: sig.cat + (sig.cat === "New alliance / coalition" && hostile ? " among hostiles" : ""), icon: sig.icon, title: m.title, link: m.link, source: m.source, entity: m.entity, stance: m.stance });
+      });
+      paintSignals();
     }).catch(() => {});
   }
 
