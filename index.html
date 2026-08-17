@@ -57,7 +57,10 @@
     background: white; padding: 14px 28px; display: flex; gap: 10px; align-items: center;
     border-bottom: 1px solid var(--border); flex-wrap: wrap;
   }
-  .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+  .tabs { display: flex; gap: 4px; flex-wrap: nowrap; overflow-x: auto; flex: 1; min-width: 0; scrollbar-width: thin; -ms-overflow-style: none; }
+  .tabs::-webkit-scrollbar { height: 5px; }
+  .tabs::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+  .tab-btn { white-space: nowrap; flex: 0 0 auto; }
   .tab-btn {
     font-size: 12.5px; font-weight: 600; padding: 8px 14px; border-radius: 7px; border: none;
     background: transparent; color: var(--text-muted); cursor: pointer; transition: all .12s;
@@ -412,6 +415,7 @@
   // charts/graphs instead of a card grid. Scoped to the curated watchlist categories
   // only; LinkedIn network_* data stays backend-only per the instruction above.
   const VIEWS = [
+    { id: "overview", label: "Overview", icon: "&#127760;" },
     { id: "feed", label: "Live Feed", icon: "&#128225" },
     { id: "amplify", label: "Amplify", icon: "&#128227" },
     { id: "vet", label: "Vetting", icon: "&#128737" },
@@ -11582,7 +11586,7 @@
     ]
   };
 
-  let state = { data: null, activeTab: (APP_CONFIG.defaultView || "network"), search: "", activeFilters: {}, editingEntry: null, editingCat: null, isNew: false, mergedCount: 0, stanceMapFilters: null };
+  let state = { data: null, activeTab: (APP_CONFIG.defaultView || "overview"), search: "", activeFilters: {}, editingEntry: null, editingCat: null, isNew: false, mergedCount: 0, stanceMapFilters: null };
 
   // Ecosystem Network view: layout is cached/frozen across re-renders (e.g. search
   // keystrokes) so nodes don't jump around; only rebuilt on data change or explicit reset.
@@ -11812,6 +11816,7 @@
 
   function renderStats() {
     const el = document.getElementById("statsRow");
+    if (state.activeTab === "overview") { el.innerHTML = ""; return; } // Overview has its own metrics band
     const counts = VISIBLE_CATEGORIES.map(k => {
       const items = state.data[k] || [];
       return { label: CATEGORIES[k].label, count: items.length };
@@ -11827,11 +11832,11 @@
 
   function renderTabs() {
     const el = document.getElementById("tabs");
-    el.innerHTML = visibleCats().map(k =>
-      `<button class="tab-btn ${state.activeTab === k ? 'active' : ''}" data-tab="${k}">${catLabel(k)} (${(state.data[k]||[]).length})</button>`
-    ).join("") + `<span class="tab-divider"></span>` + VIEWS.map(v =>
+    el.innerHTML = VIEWS.map(v =>
       `<button class="tab-btn tab-btn-view ${state.activeTab === v.id ? 'active' : ''}" data-tab="${v.id}">${v.icon} ${v.label}</button>`
-    ).join("") + `<button class="tab-btn" id="adminBtn" style="margin-left:auto;opacity:.7" title="Customize this app — no code needed">&#9881; Customize</button>`;
+    ).join("") + `<span class="tab-divider"></span>` + visibleCats().map(k =>
+      `<button class="tab-btn ${state.activeTab === k ? 'active' : ''}" data-tab="${k}">${catLabel(k)} (${(state.data[k]||[]).length})</button>`
+    ).join("") + `<button class="tab-btn" id="adminBtn" style="opacity:.7" title="Customize this app — no code needed">&#9881; Customize</button>`;
     el.querySelectorAll(".tab-btn").forEach(btn => {
       if (btn.id === "adminBtn") { btn.addEventListener("click", openAdmin); return; }
       btn.addEventListener("click", () => { state.activeTab = btn.dataset.tab; state.activeFilters = {}; state.search = ""; document.getElementById("searchInput").value = ""; renderAll(); });
@@ -11845,7 +11850,7 @@
       <h3>&#9881; Customize this app</h3>
       <div style="font-size:12px;opacity:.7;margin-bottom:12px">Changes save in this browser &mdash; no code needed.</div>
       <div class="field"><label>Default view when the app opens</label>
-        <select data-cfg="defaultView">${allTabs.map(t => `<option value="${t.id}" ${(APP_CONFIG.defaultView || "network") === t.id ? "selected" : ""}>${t.label}</option>`).join("")}</select></div>
+        <select data-cfg="defaultView">${allTabs.map(t => `<option value="${t.id}" ${(APP_CONFIG.defaultView || "overview") === t.id ? "selected" : ""}>${t.label}</option>`).join("")}</select></div>
       <div class="field"><label>Show / hide &amp; rename category tabs</label>
         <div style="max-height:240px;overflow:auto;border:1px solid rgba(128,128,128,.25);border-radius:8px;padding:8px">
         ${VISIBLE_CATEGORIES.map(k => `<label style="display:flex;gap:8px;align-items:center;margin:4px 0"><input type="checkbox" data-showcat="${k}" ${APP_CONFIG.hiddenCats.includes(k) ? "" : "checked"} style="flex:0 0 auto;width:16px;height:16px;margin:0"><input type="text" data-label="${k}" value="${(APP_CONFIG.labels[k] || CATEGORIES[k].label || k).replace(/"/g, "&quot;")}" style="flex:1;font-size:13px;padding:5px 8px;color:#1C2530;background:#fff;border:1px solid rgba(0,0,0,.25);border-radius:4px"></label>`).join("")}
@@ -11869,7 +11874,7 @@
       APP_CONFIG.labels = {};
       document.querySelectorAll("[data-label]").forEach(i => { const v = i.value.trim(); if (v && v !== CATEGORIES[i.dataset.label].label) APP_CONFIG.labels[i.dataset.label] = v; });
       saveConfig();
-      if (APP_CONFIG.hiddenCats.includes(state.activeTab)) state.activeTab = APP_CONFIG.defaultView || "network";
+      if (APP_CONFIG.hiddenCats.includes(state.activeTab)) state.activeTab = APP_CONFIG.defaultView || "overview";
       closeModal(); renderAll();
     });
   }
@@ -12167,6 +12172,7 @@
     if (!allyLinkCounts) allyLinkCounts = computeAllyLinkCounts();
     document.getElementById("entryCount").textContent = Object.entries(state.data).reduce((a,[k,v]) => a + (k === "feed" ? 0 : (v.length || 0)), 0);
 
+    if (state.activeTab === "overview") { renderOverview(el); return; }
     if (state.activeTab === "feed") { renderFeed(el); return; }
     if (state.activeTab === "amplify") { renderAmplify(el); return; }
     if (state.activeTab === "vet") { renderVet(el); return; }
@@ -12259,6 +12265,54 @@
   function stanceX(stance) {
     const map = { hostile: -1, neutral: 0, yellowflag: 0.55, redflag: 0.55, pro: 1 };
     return map[stance] !== undefined ? map[stance] : 0;
+  }
+
+  function renderOverview(el) {
+    const MC = ["influencer", "business_leader", "organization", "media", "business", "ecosystem", "political", "sponsor", "events", "israeli_tech", "nurture", "rising_stars", "swing", "grassroots_business", "grassroots_politics"];
+    let tracked = 0, allies = 0, hostiles = 0, flags = 0;
+    MC.forEach(k => (state.data[k] || []).forEach(r => {
+      tracked++;
+      if (r.stance === "pro") allies++;
+      else if (r.stance === "hostile") hostiles++;
+      else if (r.stance === "redflag" || r.stance === "yellowflag") flags++;
+    }));
+    const g = networkGraphData || buildNetworkGraphData();
+    const connections = g.edges.length, nodes = g.nodes.length;
+    const catCount = MC.filter(k => (state.data[k] || []).length).length;
+
+    const stat = (num, label, color) => `<div style="flex:1;min-width:118px;text-align:center;padding:15px 10px;background:rgba(255,255,255,.035);border:1px solid var(--border,rgba(128,128,128,.22));border-radius:12px">
+      <div style="font-size:34px;font-weight:800;font-family:Georgia,serif;color:${color || "var(--gold,#B8860B)"};line-height:1">${num.toLocaleString()}</div>
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;opacity:.6;margin-top:6px">${label}</div></div>`;
+    const cap = (icon, title, desc, view) => `<button data-goview="${view}" class="ov-cap" style="text-align:left;background:rgba(255,255,255,.035);border:1px solid var(--border,rgba(128,128,128,.22));border-radius:12px;padding:16px;cursor:pointer;display:flex;flex-direction:column;gap:6px">
+      <div style="font-size:22px">${icon}</div>
+      <div style="font-weight:700;font-size:15px">${title}</div>
+      <div style="font-size:12.5px;opacity:.72;line-height:1.45;flex:1">${desc}</div>
+      <div style="font-size:12px;color:var(--gold,#B8860B);font-weight:600;margin-top:2px">Open &rarr;</div></button>`;
+
+    el.innerHTML = `<style>.ov-cap{transition:border-color .15s,transform .15s}.ov-cap:hover{border-color:var(--gold,#B8860B)!important;transform:translateY(-2px)}</style>
+      <div style="max-width:1000px;margin:0 auto">
+      <div style="text-align:center;padding:4px 0">
+        <div style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold,#B8860B);font-weight:700">Builders for Tomorrow &middot; Evangelicals Program</div>
+        <div style="font-family:Georgia,serif;font-size:30px;font-weight:800;margin:6px 0 6px">Living Intelligence Database</div>
+        <div style="font-size:15px;opacity:.75;max-width:660px;margin:0 auto;line-height:1.55">A living map of the pro-Israel / evangelical-Zionist alliance — every ally, adversary, institution, and the connections between them — built to make the whole coalition legible and activatable.</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin:22px 0">
+        ${stat(tracked, "Tracked entities")}
+        ${stat(allies, "Confirmed allies", "#2E8B57")}
+        ${stat(hostiles + flags, "Hostiles / red flags", "#C0392B")}
+        ${stat(connections, "Mapped connections")}
+        ${stat(9, "Live feed sources")}
+      </div>
+      <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;opacity:.55;margin:8px 0 10px">Explore the intelligence</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px">
+        ${cap("&#8982;", "Ecosystem Network", "See who's connected to whom — the relationship graph no spreadsheet can show. Click anyone to trace warm-intro paths.", "network")}
+        ${cap("&#9737;", "Stance &times; Reach Map", "Every influencer plotted by alliance strength and audience reach — spot the high-leverage allies at a glance.", "stance_map")}
+        ${cap("&#128225;", "Live Discovery Feed", "Real-time headlines plus a self-running flywheel that surfaces new allies and hostiles from monitored channels daily.", "feed")}
+        ${cap("&#128202;", "Full Database", "Every record, sortable and searchable — influencers, officials, organizations, business leaders, and more.", "spreadsheet")}
+      </div>
+      <div style="text-align:center;font-size:12px;opacity:.5;margin:22px 0 6px">${nodes.toLocaleString()} nodes across ${catCount} categories &middot; Built by Andy Hirsh</div>
+    </div>`;
+    el.querySelectorAll("[data-goview]").forEach(b => b.addEventListener("click", () => { state.activeTab = b.dataset.goview; renderAll(); }));
   }
 
   function renderFeed(el) {
