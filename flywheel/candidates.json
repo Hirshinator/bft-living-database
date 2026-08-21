@@ -1,38 +1,5 @@
 {
-  "generated": "2026-08-20 13:45 UTC",
-  "count": 2,
-  "candidates": [
-    {
-      "name": "Edmund Fitton-Brown",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Former British Ambassador: Iran’s Regime Is on the Brink... | Edmund Fitton-Brown",
-          "date": "2026-08-17",
-          "link": "https://www.youtube.com/watch?v=YTTpM-WqWOo"
-        }
-      ]
-    },
-    {
-      "name": "Kamyar Fayaz",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "The World Doesn’t Care Because It’s Not Israel | Kamyar Fayaz",
-          "date": "2026-08-17",
-          "link": "https://www.youtube.com/shorts/McaINNiU9K4"
-        },
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Iran’s Regime Taught Me to HATE Israel — Then I Learned the TRUTH | Kamyar Fayaz",
-          "date": "2026-08-17",
-          "link": "https://www.youtube.com/watch?v=MNyvceDgPkc"
-        }
-      ]
-    }
-  ]
+  "generated": "2026-08-21 13:43 UTC",
+  "count": 0,
+  "candidates": []
 }
