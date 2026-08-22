@@ -1,5 +1,32 @@
 {
-  "generated": "2026-08-21 13:43 UTC",
-  "count": 0,
-  "candidates": []
+  "generated": "2026-08-22 13:30 UTC",
+  "count": 2,
+  "candidates": [
+    {
+      "name": "It Was Reborn",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Israel Was NOT Created in 1947 — It Was Reborn | Loay Alshareef",
+          "date": "2026-08-21",
+          "link": "https://www.youtube.com/shorts/12tLuP4QTF0"
+        }
+      ]
+    },
+    {
+      "name": "Samuel Ben Ur",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Why Are Christians Safer in Israel Than Across the Middle East? | Samuel Ben Ur",
+          "date": "2026-08-21",
+          "link": "https://www.youtube.com/watch?v=ujPmxE-lO6A"
+        }
+      ]
+    }
+  ]
 }

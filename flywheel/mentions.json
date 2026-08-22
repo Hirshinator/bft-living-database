@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-21 13:47 UTC",
+  "generated": "2026-08-22 13:34 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 155,
+  "cursor": 405,
   "count": 120,
   "mentions": [
     {
@@ -78,6 +78,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Anti-Defamation League (ADL)",
+      "stance": "",
+      "title": "A Crisis of Representation: Antisemitism and Inclusion in Higher Education Unions - Anti-Defamation League",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNC14cWVGcktaeS0taDI0SmlHTVpNb3F5OG9FREtNRnp1UTF6Tk5NdlJnN1ZDS051Um9BSXc3Z1lQWHJuY3dscnk3UGtiOGhBbTNLYm9Lb3F1MTJ5RDgzRzNVbllTZU5wZllIOVMwb0ZZVHZQdXRQTUpGZnRSSmV3cUw3V2k5aDIxZHp2Q3Z1V2dhWTQ5aXJhY05JSXk0OHR5MDhpRGxCLVNOTHFBeEE?oc=5",
+      "date": "Wed, 19 Aug 2026 17:18:41 GMT",
+      "source": "Anti-Defamation League",
+      "confidence": "high"
+    },
+    {
       "entity": "Newsmax",
       "stance": "",
       "title": "Sen. Rick Scott: Trump May Need More Strikes on Iran - Newsmax",
@@ -93,6 +102,15 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUU5KaTJXWUxaZ3NPZDBYdHRubEZKS3o5bzlmMHZncVUxUHRMcXpTM1FhRFkzZy1nT3lxNXltNURPTFh0RE1TVGtYRlZDaXdOLW83ZzBYV0RySk10a2xYejJWLWxxWG1ydXY5eTVjOGFkdlk5djJGbG1ZTWlRRWZFbUlKU1FjeWdzemhJS3U5dlZkNzBWQllQUXJ0MUhaWnRxUmpOalZtcG9oTVhjOGRxX3ln0gG3AUFVX3lxTE8xMlB1VDJwU0VwSEcySk5QS21ta3h5MkR3bkdHODYxb3NQb09sQ1pwRWE4YlhqYy1LSmxhTWhPS0xQcEN1VTZDeHEyODZwYk85SFV1NW1xcGpqMlZENmdXTE1LUnNFRENER3laLW1rVjhGZTliSy1Idjhid192d09DUnZsOVNid3JqbnhLVFQtQ3l1dTA2QnlFSE52VVJBRTlxa3FPazBZY2dpWWRZNGhvcGRINFhXYw?oc=5",
       "date": "Wed, 19 Aug 2026 15:50:50 GMT",
       "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "Allot",
+      "stance": "",
+      "title": "Allot Leads Founding Industry and Academic Consortium to Launch Israeli Post-Quantum Communications Initiative - Quantum Computing Report",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOU9KWnhOSENKS05XQ2w5d2c3dGNVOUNGYXFJX2QzR3daNzBmOWlJdEFBbEhfZ1d5R2h2MUNyQmhkWUxJR1BuRDdLX2NiZG1aeGdiWDR6YlJRbEk3T3kyMmxobmk4elM4d3lnakNpT3F2Ri1OY1pKcnRyLVZ3anRVWjIzOEhtRHh0RjJwZVNpRDhJelJud2tWY01XVmhqR1lCcDVCNldwRkxkY3lTYUhpS29xWnhCYnV6ZndCOFl2VkF5QmNOYUVESXJyWEplOWJWekNJMmQzOVpsU0JadThn0gHkAUFVX3lxTE1PeGtyVWxxTGIwNktSV0xyakYzQk1fNnhvSHEtOU9aV1pyS2Zvbl9rX3dGZGE3YnhISlEwSFFFNG5lUEVCeEh3bzI0T0pGbVh4NHY0b0lEbUZ6SnNGTkJaQTc5RXQ0QU1ybzJtSXVCOWREQUlMNi1LQ3hoR2VTZHZUaWg1OEg2N2FXRjRZTmZGSmJJS1BmQzdPX09RT0ZQVW91dHdrc3hjNkp2NTZYQnJ4YVlIbWlGQVFVNElUYTRfbE9JTVVfeVpLNHlfalhjaUEzSGs3YjlER3ZtOXNTZnREaFFfbg?oc=5",
+      "date": "Wed, 19 Aug 2026 15:05:10 GMT",
+      "source": "Quantum Computing Report",
       "confidence": "high"
     },
     {
@@ -177,15 +195,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Brian Kilmeade",
-      "stance": "",
-      "title": "Kilmeade predicts ‘kinetic war’ with Iran before Labor Day - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zMlVGMXJQY05YSlUwRFZEbTY2OEJCQ0hVMG9sTDBGMmRJc0h4SXZwSUxqN0lVN0JEdlBQSG5Id3hIVVpxelBIWWx1cDFZOVp3dDZGN2g4a3R0Sk9oY1hTd3libUFoa1J5VXJxZGVEdUpFV0ZwOXpUZjRR0gF_QVVfeXFMTTFiNnVELVRhNG81RTFKMTBFTm0wdzZEODk4cnd2SlBoRzdabWljVkktWm1RUVBCVXhsN3JCRENXNkFaMVR5cERMbkdQSUZwYm40UDlYOU1lV3NyM2gxSDJxZC1BdWJ0X05hNGdtcFVydW5IOVlQUWFoQnlfOFJUMA?oc=5",
-      "date": "Wed, 12 Aug 2026 17:54:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
       "entity": "Jake Lang",
       "stance": "",
       "title": "Iran Vs New Zealand | | EFootball PES 21 Gameplay - Simulation Jake Lang (4NI1dIXUiS) - Mshale",
@@ -222,6 +231,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Amy Klobuchar",
+      "stance": "",
+      "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "source": "The Times of India",
+      "confidence": "high"
+    },
+    {
+      "entity": "Brian Kilmeade",
+      "stance": "",
+      "title": "Kilmeade predicts ‘kinetic war’ with Iran before Labor Day - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zMlVGMXJQY05YSlUwRFZEbTY2OEJCQ0hVMG9sTDBGMmRJc0h4SXZwSUxqN0lVN0JEdlBQSG5Id3hIVVpxelBIWWx1cDFZOVp3dDZGN2g4a3R0Sk9oY1hTd3libUFoa1J5VXJxZGVEdUpFV0ZwOXpUZjRR0gF_QVVfeXFMTTFiNnVELVRhNG81RTFKMTBFTm0wdzZEODk4cnd2SlBoRzdabWljVkktWm1RUVBCVXhsN3JCRENXNkFaMVR5cERMbkdQSUZwYm40UDlYOU1lV3NyM2gxSDJxZC1BdWJ0X05hNGdtcFVydW5IOVlQUWFoQnlfOFJUMA?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
       "entity": "Tim Scott",
       "stance": "",
       "title": "Tim Scott goes scorched earth on El-Sayed: 'He's for Hamas, but he's against America' - Fox News",
@@ -249,12 +276,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Noah Rothman",
+      "stance": "pro",
+      "title": "Watch Noah Rothman: Abdul El-Sayed's anti-Israel stance alienates moderate Democrats - The Story - FOX One",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONlRlVTFEbW5pLWZKcVVvNVpBS2lhUjFOajRlSTc4ajVMT3VUbjlmck1uQ3BkbnNwUF81NTQ5TEN4Xy1ZVkVma0RTQWc1eVBjNVYySHhsVjBvOVFKc3VpbnhjVDJzNDNQSmxKWWxzUXUtdXhvb0xTRjE4em5jMl9OMHlLZ0VvUkV5NS00bk5rcTctSW0zWW10ZThrQmVMbFZlYkxlaU8zeXZtOWIyUzZwZW1aTVNKS2w0SWRMMk5LRzAzcS1iMUtRZw?oc=5",
+      "date": "Wed, 05 Aug 2026 19:40:18 GMT",
+      "source": "FOX One",
+      "confidence": "high"
+    },
+    {
       "entity": "Joni Ernst",
       "stance": "",
       "title": "U.S. Senator Joni Ernst of Iowa on Iran, defense funding and military readiness - CNBC",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnJLa0FuTGd3bV9SaUE5ZDhtSHNReXhXTlFtZE05RU9RMjBEc0Z4S1lkVF95cWJhWUtad0xqb2puQmlQQUtWc0dmNXluWEI4bW8yNThsUV8wamNlNmZtcWJWdnI1TEs4eHVlMU9rUUQ1RklQSV92U3dNRDVXWTN0TS1aaEp1Vm5LR0tyN0lSTml5bWxBLTZFRXZTNmlXY0FTWlNNczVmZkw5QTNsMFNHSXFCWl8yN0g3SUVF?oc=5",
       "date": "Wed, 05 Aug 2026 10:39:00 GMT",
       "source": "CNBC",
+      "confidence": "high"
+    },
+    {
+      "entity": "Rabbi Elchanan Poupko",
+      "stance": "pro",
+      "title": "The Blogs: When Israel can't recognize its own: Fallacies in making aliyah | Elchanan Poupko - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lN3lrZjdTeGNfNHVpaGhnLTNDUjY5MExlUFl5cEg0bDJHZFFLSzJmSUxvZ29odHJncjA1MUlNNkNTWDY0NnZzZ0lIdW1XS2lXbmprZDk0Y3AwMUtTa0QweGdEMmhUa0NWR2JkYXdHLXBmeEZXanc?oc=5",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -327,15 +372,6 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZENGbkJpei1JcWxlSFhhVkJtdXZicVFiWDZKZmZqR1pRemxGMnNzUjlvSjIyazdUWktzajBIcG9FNEYxWDB1UVlXSGpqMTB5dF9Ud2dHcHk4TEp1c2pDTkNzaXFpN2E0czROdGdiRUN5SFdNRUdIalUyaUE3UG96OTlxS2IzTzRGUWc4RTVNNFkxMmJLSFlQdU1UcXdseG12Y1JKSFFReWpzekpvQ0s2N2JvZw?oc=5",
       "date": "Wed, 05 Aug 2026 07:00:00 GMT",
       "source": "cbn.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rabbi Elchanan Poupko",
-      "stance": "pro",
-      "title": "The Blogs: When Israel can't recognize its own: Fallacies in making aliyah | Elchanan Poupko - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lN3lrZjdTeGNfNHVpaGhnLTNDUjY5MExlUFl5cEg0bDJHZFFLSzJmSUxvZ29odHJncjA1MUlNNkNTWDY0NnZzZ0lIdW1XS2lXbmprZDk0Y3AwMUtTa0QweGdEMmhUa0NWR2JkYXdHLXBmeEZXanc?oc=5",
-      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -429,6 +465,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Buck Sexton",
+      "stance": "",
+      "title": "Hour 3 - Is North Korea the Next Iran? | Newsradio WOOD 1300 and 106.9 FM | The Clay Travis and Buck Sexton Show - Newsradio WOOD 1300 and 106.9 FM",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUms0eW1CTkZ0VWZLZnhhd0JDMC1CWldVSjhsUFJyVTJ4NG12b2I1MVlkUlluSVZpT3ZWdWU4MnZaOXpZRVBIR1VCamdiRU1aMU5mSW9nNHEyYzhOdnNheXd2UTU0eXhKZGtSeDVzSjQzMXNwYlFtMlUwekFWQ3BSZzR5RmpKLTlGeGdkX3dFbnZYaE5aWHE0ZVE2U3dZU3F4UXB3WURUbWlQN282MENRYi00VlFkS2VtNFBlZVBIQXYxVm55UUhhTjB2M0k5ZExpX3lGXzdyZjVEMEE0c244bjZmMFNucFFvOFNHa19GS3p2Zw?oc=5",
+      "date": "Tue, 18 Aug 2026 15:05:00 GMT",
+      "source": "Newsradio WOOD 1300 and 106.9 FM",
+      "confidence": "high"
+    },
+    {
       "entity": "Tommy Tuberville",
       "stance": "",
       "title": "7 Things: Tuberville and Strong say 2026 midterm battle lines are clear, Trump says Iran in 'big trouble', and more ... - Yellowhammer News",
@@ -444,6 +489,15 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzQkVYaDBpZG5Id2Y3bnlZUVBaeVhQWnNxUVlxR1FlaVRQQjlMWF9Pcklwa2hCTmtsdEhPdWlVYUZ5cVlnVmVBenctYUhPUWZHeTRuT1FwRXp4anJmMldVNzRHb2V5VkdobC1pSVdKcGNHUTBDVlBqYw?oc=5",
       "date": "Tue, 18 Aug 2026 12:04:43 GMT",
       "source": "Israel from the Inside with Daniel Gordis",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "As 60-day MOU expires, Trump threatens to bomb Oman if it 'gets in the way' of Iran negotiations - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOXRmeUdEM3dld19LRDUwX20zSDNFMnJOcGs4T291RU9VMHF5X2I1VW9ueDFPWGhGRGEzd1kwWWhfTmtWYWppZjYwazEyOENRZnFxMG10QjRYSzRpOU9pVjQ3dGhQOXlQam5veHJmOVkxSmlVRWVJN19vcXRUTml6cVN2VWdNeU9lbV9NdnpyTWhMSjNsY3pnRUVQSnFtVF92Y3JneGRDM0J2TlRRbnRtSVVhb1c2X3RyTlFz?oc=5",
+      "date": "Tue, 18 Aug 2026 11:31:40 GMT",
+      "source": "All Israel News",
       "confidence": "high"
     },
     {
@@ -471,15 +525,6 @@
       "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPYUg5dThxdzlKWU80M3FpNHVGb0Zxc19JenZfZTBrTjliMWxsLXAwM04zeTVnWnFRNWJiU1M1WUltbmI2Q050a1VISXg5cDdDSC15VTRyTjc0NVIwUnZKOWNCUG9JSFdYemlITW1saEp0N0thamtSTVBwUXJmWll1VE5uTlB1LUphZi1CaEdRRDlHMUJrQWVKXzNKWXdqME5ZSmNSTEZoX2l0cUJ4RkJXUVhFdzMwWkJES25LalJIS2lLY3E3Y3c4eFZvY1hrcDlreVMxQ1AwdkZlUm5Xd1B1TDNicHJVM2Zybnp4b0FPd2dza3RSRUNaNHRqM3VyNDlIOHR5VmdhTWk1eF8wV3VBYU1FbDJFbFJ3?oc=5",
       "date": "Tue, 18 Aug 2026 10:17:52 GMT",
       "source": "Stocktwits",
-      "confidence": "high"
-    },
-    {
-      "entity": "Benchmark",
-      "stance": "",
-      "title": "S&P 500: Wall Street Benchmark Slips 0.32% to 7,728.20 as Iran Standoff Intensifies Ahead of CPI - BBN Times",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeW5idHA1VnlVQnNVUjNrMHFHcWdlMWRCRXVDQ21rQzFyRkJ5NmhId0FHcEQyaHl0Y0VsaGJuOUNoU1VfeW8zU3A2NWJOMnVoeFZSeHZxd0FYZHdhX3BudzBHbUM1aGlSMXEwVHBlYTVRTTFuWW5TcGFrT2lzN3hSY2VqRWhFV3FxOEh1eEFOVGRmakI2cDNBYTR2ZHh1TWVVMUU0V1o2OHdOMER6eTRIRjhRdl80a1hydVkyQnVYaS1rVUg1R3MtTA?oc=5",
-      "date": "Tue, 18 Aug 2026 10:01:53 GMT",
-      "source": "BBN Times",
       "confidence": "high"
     },
     {
@@ -600,6 +645,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Tomi Lahren",
+      "stance": "pro",
+      "title": "Jewish Author Pushed to Her Limit Following Bookstore Cancellation Controversy | Tomi Lahren Is Fearless - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMLVE0VDNSMTdWbHVqTzlyeEowX3FickRnWk1wM25NQXFuS1dmYXQwQXlYc3Fmb2dNVC1vRTVRdTQxejJyUUdqYjNNT2tlQndweTIwaDJ3?oc=5",
+      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Chevron",
+      "stance": "",
+      "title": "Trump says Exxon and Chevron are 'making too much money' on high oil prices amid Iran war - ABC News - Breaking News, Latest News and Videos",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdFRUVjl5ajd4OVl6VUNwa0tuZXdfeWR0R0tEVmVSbDI5TlRFMG1KNjRTaTdBTm9HOFg1QzNTSUdvMFFQWi1RcjNQRnM4Tk5ZZXhRak1XSXZSdmw1ZlRWUFdxajZfWXBBRjAxOGR4dllQZU0tODBUa2JMTDFmaWNLQXd1cVp2WGw2cFdVMTJVUHJtTE1nbjFSbnJlZVrSAaIBQVVfeXFMTXZ0NTR1MjlwZGtGblRIdi1HaHpyenlhRUszNFJPS2xuN2pyVWNuc2ZCSkpRb3RBd0h4cFRONGlwd0UtMDdqUGZLNzNlSWdnNnZZZ0hGXzVlNmIwUjhLVXlXbnFQakp3WnN0Tll3MjFNX2M3UTl1UV9hd2hLeTR3c0N1aEpMMVh3QUNtTU1sRWNfbXd1WmRhaXhyTkwzNkhRbFp3?oc=5",
+      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "confidence": "high"
+    },
+    {
       "entity": "Tim Sheehy",
       "stance": "",
       "title": "‘Every war is unpopular’: Sen. Tim Sheehy on Iran - NewsNation",
@@ -672,15 +735,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Tomi Lahren",
-      "stance": "pro",
-      "title": "Jewish Author Pushed to Her Limit Following Bookstore Cancellation Controversy | Tomi Lahren Is Fearless - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMLVE0VDNSMTdWbHVqTzlyeEowX3FickRnWk1wM25NQXFuS1dmYXQwQXlYc3Fmb2dNVC1vRTVRdTQxejJyUUdqYjNNT2tlQndweTIwaDJ3?oc=5",
-      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
       "entity": "Zach Bauer",
       "stance": "pro",
       "title": "Zach Bauer - Israel & Jewish News - JNS.org",
@@ -735,6 +789,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Benchmark",
+      "stance": "",
+      "title": "S&P 500: Wall Street Benchmark Falls 0.87% to 7,641 as Iran Tensions Reignite Risk-Off Trade - BBN Times",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMTBoVDZydHg1LTdrMExvMXNyTHlCZWd6LVliR3Njd2tzWFlxWWhuMGR3aGY5NDY0cTZoMzh5S2huUnhHcHZRdVp0MDJ6VzJrdFJESElkWmRCMzFJQjZTREowZy1hYzJHVHVfTWxZQXUtbDVSd25acC1mT2MyVnp3dkFFWkVHRFhpZ1ZpUGpRUjFlUWxpcG83TGJKN21KVl8zSHExYVNlUHhabTlDWk9ER09qV0EybU5xczcydWRrQ2lVTC1VbGRzcTBn?oc=5",
+      "date": "Thu, 20 Aug 2026 21:54:42 GMT",
+      "source": "BBN Times",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bill Ackman",
+      "stance": "",
+      "title": "Billionaire Bill Ackman puts £300m into neurology charity after daughter survives brain haemorrhage - The Jewish Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcG5kQkltNWF2V20wMWQ0V3p6SzZiR2RNOXM2YUFrOG12MVBuUVJfelV0RlBvSUtNNm9XbjNZSlhnZnR2eGctb1VPOW1lek5RNWdPb2lLZkRpclpiaFc4NWlObThuUzhNUy03eWN0RktUdnI4b0tmS1R3bGpiM1ktU2xkZ2dyWllvcU9aMC1ERUVKNlloS0NjX1NVNGhvWEpxLVlHQVl4V3lzcHVKUHUwYUVkLWdZdHA3c2hCaGxUZ0hFa19DQk1vNmR0ZE41T0k0dk4yZg?oc=5",
+      "date": "Thu, 20 Aug 2026 15:30:36 GMT",
+      "source": "The Jewish Chronicle",
+      "confidence": "high"
+    },
+    {
       "entity": "Newsmax",
       "stance": "",
       "title": "Rep. Rich McCormick to Newsmax: Sanctions Won't End Iran War - Newsmax",
@@ -750,6 +822,15 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1peGRHVDFwaFhHY1NfS1ZfYWhJeFlSeThETmYxMFNSS1lMODJfbkt2d0UwUnJhTU5URnAzekVqTzEzbHBCUTFJaU5JYmp0X0dvSi15dmpQd2EzNmoy?oc=5",
       "date": "Thu, 20 Aug 2026 12:24:27 GMT",
       "source": "The Jerusalem Post",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "Trump declares 'economic D-Day' on Iran, threatens 'tremendous consequences' for nations trading with Islamic Republic - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSzh5c29kYmE0R3RhdjJEaTQ3WGc1eXdnWERSb0dBSzkzUHhOTndxcGFVUWdOLVBuOTBtUlRwTWRsUVFPUUpnRXdhdElWQmUzdEszQ0hkVXlhbWpoU0NwMjVMcHNRdGp1T2dCU3hCVGc3SGNiV0xUbVVEZnQyWnFmZ25zZ3UxSUhuMDcycXpLbmVEVEFqM1RBZ1VBUHA3cE1iN01ybDdZZl9WOThCLUFnWHhVRFVFZmhMVHNYY3o0QVRIMGswaThNSVM0aUVqcXBiMEtUTg?oc=5",
+      "date": "Thu, 20 Aug 2026 11:29:19 GMT",
+      "source": "All Israel News",
       "confidence": "high"
     },
     {
@@ -897,15 +978,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Amy Klobuchar",
-      "stance": "",
-      "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
-      "date": "Thu, 13 Aug 2026 01:00:00 GMT",
-      "source": "The Times of India",
-      "confidence": "high"
-    },
-    {
       "entity": "Playtika",
       "stance": "",
       "title": "Israel's Playtika Q2 revenue beats on Disney Solitaire growth - TradingView",
@@ -921,6 +993,15 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQUTI5QmVGMEQ5TUV1Yk85NmxSQlNrUVZxVjhkQ0ZjRlY2c2JyRHhRZkdFdm5OV2Vzb2ZKTENSQU8yeVBQNXZjMmVORll3aEFkb2lTSV9HdVpmUDFXQ3BJZGJn?oc=5",
       "date": "Thu, 06 Aug 2026 10:19:37 GMT",
       "source": "ButlerRadio.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Chevron",
+      "stance": "",
+      "title": "Chevron Turned $3.1 Billion Loss Into A Gain In One Quarter Amid ‘Heightened Volatility’ During Iran War - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORkFVZHAwNTgtWnJFLVd3cXR1MkFaU0lWYmlneXBseDBNMTJuZmZJRTU2NW1OMERWYzNqOFFCZ20yVTFZWGg2dHVQQ2hUdDVhb29nUElDdUlhU2UzNlFpeGV1U2NvUTJ4UEZNc3BWeUJnem5WTFNqNWFoYW12V09BRnUyQkVELUt1OG4taWpHSVplYW9MZG14TEZoQ0tBUVVvbFBwVERWTFoydVkzRDE0OFFjYURMcGxOYTRjWnY2NEpGbDBZaERZSV90N09NenZzNW5INDJDdEcxbFNpVzVZVU5PMVhFSm84YmZFNThzMA?oc=5",
+      "date": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "source": "Forbes",
       "confidence": "high"
     },
     {
@@ -948,15 +1029,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd0JCNmVldUQzTXZKMWhxLTBkU3hmWHB0b1d3UUVyWHZ3d3BveF9QbkVnYjRUTGMtODNPXzBGNl9yZGJaMnROV3hhWldTV3RDMFZNU1c1MUxxeU5iNkJpQUxIT3lOclFaT2pXWl9wZHRuV1lqcDlOYk1hVEN3S0tvZDJZakpwdmRpZWY3ZzZWVjBTdVJJZDExbEsycHV5WWxvci0yaEl2M1dxWlQtVlcwb0tQZTM?oc=5",
       "date": "Thu, 06 Aug 2026 07:00:00 GMT",
       "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Chevron",
-      "stance": "",
-      "title": "Chevron Turned $3.1 Billion Loss Into A Gain In One Quarter Amid ‘Heightened Volatility’ During Iran War - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORkFVZHAwNTgtWnJFLVd3cXR1MkFaU0lWYmlneXBseDBNMTJuZmZJRTU2NW1OMERWYzNqOFFCZ20yVTFZWGg2dHVQQ2hUdDVhb29nUElDdUlhU2UzNlFpeGV1U2NvUTJ4UEZNc3BWeUJnem5WTFNqNWFoYW12V09BRnUyQkVELUt1OG4taWpHSVplYW9MZG14TEZoQ0tBUVVvbFBwVERWTFoydVkzRDE0OFFjYURMcGxOYTRjWnY2NEpGbDBZaERZSV90N09NenZzNW5INDJDdEcxbFNpVzVZVU5PMVhFSm84YmZFNThzMA?oc=5",
-      "date": "Thu, 06 Aug 2026 07:00:00 GMT",
-      "source": "Forbes",
       "confidence": "high"
     },
     {
@@ -1011,78 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNanFQU1NUeTY4WXIxQTM3QzVkZWZETWh0WUNNWXFSNlFJRktJQk1KTjJNR0dYLUNOV0c5RWQ2WU1BOFVHRi1vZ3c1cmxUX2Q5cXRuNU9iSlczWndieW1aRmp4ZzM2a1hTMURkVW9IRmRuUXU5bWpwMzZtUnZGbVNRZlN1WkF2OGlWc2R0VF9McmsyV1lhdERiMkhLb2VlbGVQaUFCY2ozeVpUTWQtMU9POEQ1UVZ5Mm1jWkRPeA?oc=5",
       "date": "Sun, 16 Aug 2026 14:50:00 GMT",
       "source": "CBS News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bill Maher",
-      "stance": "",
-      "title": "Bill Maher Mocks Donald Trump Fleeing Iran Assassination Threat With Decoy Air Force One - IMDb",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLSndiYTdURm1DZmdXXy1jSHBjTmRFM1RWY2RfT1k3NFhaalhHLXBoVTNaMWJVVmlZX1pTVjRxLVVZR0ptLVoyaFcxUWE3QUVRdWtWSUJRdTJSOE9lVmJpejVfMThnZw?oc=5",
-      "date": "Sun, 16 Aug 2026 12:41:13 GMT",
-      "source": "IMDb",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bill Maher",
-      "stance": "",
-      "title": "Bill Maher Mocks Donald Trump Fleeing Iran Assassination Threat With Decoy Air Force One - TV Insider",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVkNJS3lXUk5VeHA4WlR0dERqd2VjUWlaT1NrdFVRY29GTGRUaWZtQTQ0R0JENDFlckFWSFpzemEyemF5aVpqcERkTUdFcmJ0Vkh4bzZBTndZS1pHSU94c3dFdDd4T1h3UEs5eGRtYlcxZW5sOFdEMzQzT2dDanFhRTVBYUlSWW9ISHB1QkNncXdFUEs4LVBnUVlsYXNDMzBJQk9LS0NCNldIUEh5YmxuMFVmRWd5ejVBYlE?oc=5",
-      "date": "Sun, 16 Aug 2026 12:36:25 GMT",
-      "source": "TV Insider",
-      "confidence": "high"
-    },
-    {
-      "entity": "All Israel News",
-      "stance": "",
-      "title": "IAA uncovers sophisticated industrial site from the Middle Ages in central Israel - All Israel News",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON0NmTWNoSVhlYjNsWnhVTTVQOUFiME9YMG5vNHY5ZllqeXBEQnlBekFGS0U1c2MxQ0RzRFp1Vy1lZVF4N3VuZWpKWjFzN3hBWTNRdFFSRzc3d0pxR2J4dGE1TUhrN3pyR3VVZmFnVWJScl9PUF9NamVoRWJWbUlEOHMydEYzS1ozUW5TYlhycUYzNzBkd2NIZm1MRk9lUVBIUERXeGNCaVF5NDA?oc=5",
-      "date": "Sun, 16 Aug 2026 11:42:10 GMT",
-      "source": "All Israel News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ro Khanna",
-      "stance": "",
-      "title": "'Zero Aid to Israel,' Ro Khanna Declares at Democratic National Committee Meeting - Common Dreams",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52bThtcXlSNzlSZndNSWNTVFdsbnJDczdka1VOYzI2blBQS2Z2TEVma2J3aWlILVk0VGQ3UWdCNF9TTVZiS3B2cl8yblRISUNNMUh5U2JrODRhWFYyZFQ2bGl2LUJycG5rSmc?oc=5",
-      "date": "Sun, 16 Aug 2026 09:59:41 GMT",
-      "source": "Common Dreams",
-      "confidence": "high"
-    },
-    {
-      "entity": "All Israel News",
-      "stance": "",
-      "title": "Nearly 40% of young Jewish Americans report scaling back Jewish engagement – survey - All Israel News",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMzRHZ2J4dVY4U1V5bzREbHVSR0pkWW5oWFc1VC1Hb3BNcnFhTXpWS25aOFhQUGhaVWZvZ1k5d3lSLVRFcFg3NXdscjYxTGphQ0lyUlR1VUU2dERtRXk5emkwR09lV25SZUswWkxhSkc1U3NXSGl0cGZvTk1QZG5yTGJLVTdKZHluS08xLUgxWndQdVk3VW95c19lblpjdTF6a0hLUjRxSXZEUQ?oc=5",
-      "date": "Sun, 16 Aug 2026 06:22:52 GMT",
-      "source": "All Israel News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Michael Jackson",
-      "stance": "neutral",
-      "title": "Sporting Unveils Socceroos Star Nestory Irankunda With a Wild Michael Jackson Dance Video - MJVibe",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbHU1MnVxYlBpemhPMzRhbXFob2tjZXFiTV9HODU5T2dFbF93OFVoTmpwNzBSei1uQ0ZrV0RDU29CN1NKYnE4Q3VMNE81MTF0eWJkUDQxalA1WVVVLTl4b3otd1dMVlFkclI2RlhiT0tMeHdNV2ZaQm5hUzlSeGo5bWZpT1ZhRHk5TDRoS3FsUDRzOU96c05kYkVQMFhaanVhWGFwMzNKc0llLUhITTNvU3l3MA?oc=5",
-      "date": "Sun, 16 Aug 2026 04:44:11 GMT",
-      "source": "MJVibe",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Pompeo",
-      "stance": "",
-      "title": "Mike Pompeo: It's time to win in Iran - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Uc3BmVWUtanhkWHNMUFlxY3lFaFp0VlpoeWhkdmJWa1ZCdDlkTXZ5X3hFM0hLUHlvemFHUW1ENkZFYWowZlRoSnhoQmJrZUticmJnM1BR?oc=5",
-      "date": "Sun, 16 Aug 2026 01:22:05 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "James Lankford",
-      "stance": "",
-      "title": "Lankford says Trump ‘has no desire’ to bomb Iran - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5GUnR4c2RqZGdGSzlxN0ZpUk1OZXVrRWNnVEpRRXh0alFnVE80QmpVRHJhLUV4MzF4QWNTMm1sNjR4VGI5aVJmRm5PeWlmX3BMOC1rWHpLaG9QUWN1dnNqT0UxZXZxdmp3aXBZSzN2d0hPYmFVbG5JbNIBfkFVX3lxTE9nbnRTajNoaWhaSlp6MTB6dng0SkpPZ3J0NkZIeFUzZnVKX3o3MnZLeEFQQlc3MEE4NTVCUVQ3NTV2SWZuZE9DU2YyTVdBcjM3dk5GbWNXRzVyckhqYk53TFIyRS0tMDUzSFZxWkNWb1FBYzdpcUNrdC1DX0xBUQ?oc=5",
-      "date": "Sun, 02 Aug 2026 07:00:00 GMT",
-      "source": "The Hill",
       "confidence": "high"
     }
   ]
