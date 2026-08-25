@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-08-24 13:50 UTC
+# Flywheel candidates — 2026-08-25 13:49 UTC
 
-4 new candidate(s) surfaced from monitored channels, not yet in the database.
+5 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Elias Maron — candidate ALLY (platformed by an ally channel)
@@ -14,3 +14,6 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### Samuel Ben Ur — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Why Are Christians Safer in Israel Than Across the Middle East? | Samuel Ben Ur* (2026-08-21) — https://www.youtube.com/watch?v=ujPmxE-lO6A
+
+### Sinan Ciddi — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Is Israel Heading Toward War With Turkey? | Sinan Ciddi* (2026-08-24) — https://www.youtube.com/watch?v=65S14qEVsY8

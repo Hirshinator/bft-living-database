@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24 13:50 UTC",
-  "count": 4,
+  "generated": "2026-08-25 13:49 UTC",
+  "count": 5,
   "candidates": [
     {
       "name": "Elias Maron",
@@ -51,6 +51,19 @@
           "title": "Why Are Christians Safer in Israel Than Across the Middle East? | Samuel Ben Ur",
           "date": "2026-08-21",
           "link": "https://www.youtube.com/watch?v=ujPmxE-lO6A"
+        }
+      ]
+    },
+    {
+      "name": "Sinan Ciddi",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Is Israel Heading Toward War With Turkey? | Sinan Ciddi",
+          "date": "2026-08-24",
+          "link": "https://www.youtube.com/watch?v=65S14qEVsY8"
         }
       ]
     }
