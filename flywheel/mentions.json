@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-25 13:53 UTC",
+  "generated": "2026-08-26 13:57 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 0,
+  "cursor": 250,
   "count": 120,
   "mentions": [
     {
@@ -330,21 +330,39 @@
       "confidence": "high"
     },
     {
-      "entity": "Samuel Rodriguez",
-      "stance": "pro",
-      "title": "Israel Rodriguez-Hernandez Obituary (1951 - 2026) - Hartford, CT - WFSB - Legacy obituary",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSjV6TjFaaGx2SjhPUzl4VzR3SGNkWmc5ZGJjdEctbUd3VWdvalFnRWpxU2RtZl9DS21TNkQ3MjBLd1F6Z2VFU3JLcnhrNzRDQVFQT3J4bGJMUFpvcVhucFRYcFpReEFrOHhKaTV3ZTYzMmMwVGtTZ0s4T3ZvRTM2S3lZS0tUOVNlaVFpMWZER0xqaURESERHVll3?oc=5",
-      "date": "Wed, 05 Aug 2026 19:43:24 GMT",
-      "source": "Legacy obituary",
-      "confidence": "high"
-    },
-    {
       "entity": "Noah Rothman",
       "stance": "pro",
       "title": "Watch Noah Rothman: Abdul El-Sayed's anti-Israel stance alienates moderate Democrats - The Story - FOX One",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONlRlVTFEbW5pLWZKcVVvNVpBS2lhUjFOajRlSTc4ajVMT3VUbjlmck1uQ3BkbnNwUF81NTQ5TEN4Xy1ZVkVma0RTQWc1eVBjNVYySHhsVjBvOVFKc3VpbnhjVDJzNDNQSmxKWWxzUXUtdXhvb0xTRjE4em5jMl9OMHlLZ0VvUkV5NS00bk5rcTctSW0zWW10ZThrQmVMbFZlYkxlaU8zeXZtOWIyUzZwZW1aTVNKS2w0SWRMMk5LRzAzcS1iMUtRZw?oc=5",
       "date": "Wed, 05 Aug 2026 19:40:18 GMT",
       "source": "FOX One",
+      "confidence": "high"
+    },
+    {
+      "entity": "Goldie Ghamari",
+      "stance": "pro",
+      "title": "‘Iranians are happy Trump is Bombing Iran’: Debate with Ghamari, Prashad & Tobias Ellwood - Al Arabiya English",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORm01aHd6Z2ZZVzZORU5taEp0MHlLenp6MktjVzhYcVBjYXFxR2hLQmJuNmNKOU05cHE2ZEVPamowbGxqRDJ2dDFRSmNMMFlsS0xtY3lpNEgtSVZsLUFabGxzbG5UT2g0eThhS1RvMnBib2lyN1l1dFdnUTAtaml2VlFmdTMwZHIzdi0xOE9rbXI4TTFSdDIwU1hSUDBmWGJJUGpqd0F6dVJWNVJiTHlneF8zMTA2UVI4OGRVX2wwanZoRThRa3F6QlliSUFVTUpNek5oeGF0SWZMTXJjdE1VNXRzc1Q5Rk9kVXfSAe8BQVVfeXFMT0xfNlpBR1FtZVBLQVVGdHNaaEZBSU54SkIwbGxWWElDUG5xRHF5dXQ1WGRUenhTdjYwZzg5YlJsUHhnTnIxcjhCX0ZnODZFRGVFRnViM1ozYUZCTEZKWXQ1R2djMl9vZkdqWklyaWIwYVNZai16dC1GdGE3WWFneDQtTl9YWng5cDNsOWswVm1HemJ5Uy1GalliZ0lUbkJONExQQWNSVlQwRG9RektBSUF2MjRJS0NUTmVGMTJkZEY4ajZHMkUwSnJkSEpaTnJYTU1ueUZWTnNqV2NQMVJHT2Q1dWhENHVkQ2xIV1JuWkk?oc=5",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "source": "Al Arabiya English",
+      "confidence": "high"
+    },
+    {
+      "entity": "Rabbi Elchanan Poupko",
+      "stance": "pro",
+      "title": "The Blogs: When Israel can't recognize its own: Fallacies in making aliyah | Elchanan Poupko - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lN3lrZjdTeGNfNHVpaGhnLTNDUjY5MExlUFl5cEg0bDJHZFFLSzJmSUxvZ29odHJncjA1MUlNNkNTWDY0NnZzZ0lIdW1XS2lXbmprZDk0Y3AwMUtTa0QweGdEMmhUa0NWR2JkYXdHLXBmeEZXanc?oc=5",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "Samuel Rodriguez",
+      "stance": "pro",
+      "title": "Israel Rodriguez-Hernandez Obituary (1951 - 2026) - Hartford, CT - WFSB - Legacy obituary",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSjV6TjFaaGx2SjhPUzl4VzR3SGNkWmc5ZGJjdEctbUd3VWdvalFnRWpxU2RtZl9DS21TNkQ3MjBLd1F6Z2VFU3JLcnhrNzRDQVFQT3J4bGJMUFpvcVhucFRYcFpReEFrOHhKaTV3ZTYzMmMwVGtTZ0s4T3ZvRTM2S3lZS0tUOVNlaVFpMWZER0xqaURESERHVll3?oc=5",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "source": "Legacy obituary",
       "confidence": "high"
     },
     {
@@ -420,30 +438,12 @@
       "confidence": "high"
     },
     {
-      "entity": "Rabbi Elchanan Poupko",
-      "stance": "pro",
-      "title": "The Blogs: When Israel can't recognize its own: Fallacies in making aliyah | Elchanan Poupko - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lN3lrZjdTeGNfNHVpaGhnLTNDUjY5MExlUFl5cEg0bDJHZFFLSzJmSUxvZ29odHJncjA1MUlNNkNTWDY0NnZzZ0lIdW1XS2lXbmprZDk0Y3AwMUtTa0QweGdEMmhUa0NWR2JkYXdHLXBmeEZXanc?oc=5",
-      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
       "entity": "Van Jones",
       "stance": "",
       "title": "Van Jones: El-Sayed Has A \"Tremendous Opportunity\" To Back Off His More Extreme Policies, Reassure Jewish Voters - Yahoo",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRXlVR0pYNmI2U0VGREtoa1pkUkszSDMxaWpQMEFRY0NyVk42cFlKejRNcE1LNG81SC1STm04aTdVb0lFS3NQREp3M3FKd2JGRnAtQnVrUnFncjJpR1U2SDVWWE1OaG82cldZVmJpYTF0TWtRMWFBanpELWllLTgwdC1oWFpGWGh5NTNiSzg0cExYb2c?oc=5",
       "date": "Wed, 05 Aug 2026 07:00:00 GMT",
       "source": "Yahoo",
-      "confidence": "high"
-    },
-    {
-      "entity": "Goldie Ghamari",
-      "stance": "pro",
-      "title": "‘Iranians are happy Trump is Bombing Iran’: Debate with Ghamari, Prashad & Tobias Ellwood - Al Arabiya English",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORm01aHd6Z2ZZVzZORU5taEp0MHlLenp6MktjVzhYcVBjYXFxR2hLQmJuNmNKOU05cHE2ZEVPamowbGxqRDJ2dDFRSmNMMFlsS0xtY3lpNEgtSVZsLUFabGxzbG5UT2g0eThhS1RvMnBib2lyN1l1dFdnUTAtaml2VlFmdTMwZHIzdi0xOE9rbXI4TTFSdDIwU1hSUDBmWGJJUGpqd0F6dVJWNVJiTHlneF8zMTA2UVI4OGRVX2wwanZoRThRa3F6QlliSUFVTUpNek5oeGF0SWZMTXJjdE1VNXRzc1Q5Rk9kVXfSAe8BQVVfeXFMT0xfNlpBR1FtZVBLQVVGdHNaaEZBSU54SkIwbGxWWElDUG5xRHF5dXQ1WGRUenhTdjYwZzg5YlJsUHhnTnIxcjhCX0ZnODZFRGVFRnViM1ozYUZCTEZKWXQ1R2djMl9vZkdqWklyaWIwYVNZai16dC1GdGE3WWFneDQtTl9YWng5cDNsOWswVm1HemJ5Uy1GalliZ0lUbkJONExQQWNSVlQwRG9RektBSUF2MjRJS0NUTmVGMTJkZEY4ajZHMkUwSnJkSEpaTnJYTU1ueUZWTnNqV2NQMVJHT2Q1dWhENHVkQ2xIV1JuWkk?oc=5",
-      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "Al Arabiya English",
       "confidence": "high"
     },
     {
@@ -471,6 +471,33 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uYVlpcnJ6RUp5VmlqbmZyU0JxeHRWRDU0aFlyaTJjV1JjcDcwNXFOZDRWMGw5ZngyY2pOaTdPdnk0ZGVjbndsUDhPUHNlam9ra29uZzdn?oc=5",
       "date": "Tue, 28 Jul 2026 07:00:00 GMT",
       "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Gilad Levy",
+      "stance": "pro",
+      "title": "LSU men’s basketball gains commitment from Israeli Center Gilad Levy - lsureveille.com",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMzRVQ0ZRMFg5WkUtZi12LWZ5bHcyUTVCMkNHZXFRckhYVUlzMld0OE10OHB6NllHVmNhaDNfMllvTGdlQXhISDdfVjRnVUxOWUJRaE5objJpbk9iT21EVGdLNFVDQkZmVXVzWGQtR0hIM0lKLUlkSUdiOXBmenh3Rw?oc=5",
+      "date": "Tue, 25 Aug 2026 16:10:46 GMT",
+      "source": "lsureveille.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Gilad Levy",
+      "stance": "pro",
+      "title": "LSU adds massive Israeli center Gilad Levy to basketball roster - TigerBait.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZHdrYkhYd2VTTkZJMjhYVE5CZE41SFNwcjY1Ny1NN1RRaHVzZ2Y4VUpWcUpDNV8xc2ZmMFpHUjhNb2RxeTRZVEFHVmVnLW1QNUswYWtoX1R6a0p5Q1FMNFVNaThYZEJZLU50YjkxSWhSNFhsRUQ4TTRwRTlZZEpUdzhINi1XWVNOb2gwd0ZlcXQ2RUt0TGdr?oc=5",
+      "date": "Tue, 25 Aug 2026 15:25:51 GMT",
+      "source": "TigerBait.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Gilad Levy",
+      "stance": "pro",
+      "title": "LSU adds commitment from Israeli C Gilad Levy - Louisiana Sports",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZnbi1McGg3Slc5YUZoajJ5cVJhcGNoMDQ0V1JVeno5Q2lwNUt6bjJHUk9fdElxMnVhaXlDWGgwTDFLcjI3UjZ4dG5PYUQydFRoVW1XZG5PeDVSSTkwUExhaGVIc25DbFl5VmRuczhpZWFpWk85TkVGQlpyNDhtU0tWWDVvSS12eXlSVU03MHZXLUg2R3ppN2dua1Z6OWhsd3c?oc=5",
+      "date": "Tue, 25 Aug 2026 14:23:29 GMT",
+      "source": "Louisiana Sports",
       "confidence": "high"
     },
     {
@@ -735,6 +762,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Ariel Or",
+      "stance": "pro",
+      "title": "Actress Swell Ariel Or takes advocacy for Israeli women further in new film ‘Tankistas’ - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGd5NUNhM3hwRVBBckJQRVN0YjVCUTNiTjJ6TklOLURWYV9ocjZ2Z1RmTGY5VTBsWC1aM1pGN3dGR1A4dl94Rmx2eFRyTG1leUFPODNxZGxMVV9INFZHYUFIVDExSVY4LWVKV0RWeWF1V0RlSUdzR0M3N1VTTDVCZTlqTVJaa2VFd3VUTDdMY29ERzZQMDRvLUZqckozMElvaXVwUDR2cXPSAa4BQVVfeXFMTmthTG9ZaHJMTU5DZFFaOUxUSjZMTzB2ZUQtWEpqTXV2MkI4WTFiZEhVbHY3RW43VW9MeU84SklqUWJRWndnZXhtMG8xOUVCNTJKSmUyWlFHS1N1WnNZYW5VOHREYkNPY1BmZ0hrYnh1Ukd6bWFQeF8zRGdBaldtQ0Ewa2xhRFdieWl1dVlhVnFCenlrdmswbDVTdUVCbE5TSEdSY1RMZi1SRnB3ZzFn?oc=5",
+      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
       "entity": "Ron Wyden",
       "stance": "",
       "title": "Sen. Ron Wyden visits our studio, answers questions on fires, Iran war and Epstein - KMTR",
@@ -750,15 +786,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0hIQVdISFl1azNFXy0yU191RVdvMFVHVllwcVRpWGpEc0JZRzFjSVdMMmtHS253cVd0MXAwNkstUGpndFoxMk9NVGlpVVU1cmM4WEF2SnprRHRZX0VGbHIzbEhWZ2FzVXNBMDV2MGZycWYxU2VwQV9kM1U3bWFBLWZ2d3Z0VU5oZUUySTE1UQ?oc=5",
       "date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "source": "Semafor",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ariel Or",
-      "stance": "pro",
-      "title": "Actress Swell Ariel Or takes advocacy for Israeli women further in new film ‘Tankistas’ - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGd5NUNhM3hwRVBBckJQRVN0YjVCUTNiTjJ6TklOLURWYV9ocjZ2Z1RmTGY5VTBsWC1aM1pGN3dGR1A4dl94Rmx2eFRyTG1leUFPODNxZGxMVV9INFZHYUFIVDExSVY4LWVKV0RWeWF1V0RlSUdzR0M3N1VTTDVCZTlqTVJaa2VFd3VUTDdMY29ERzZQMDRvLUZqckozMElvaXVwUDR2cXPSAa4BQVVfeXFMTmthTG9ZaHJMTU5DZFFaOUxUSjZMTzB2ZUQtWEpqTXV2MkI4WTFiZEhVbHY3RW43VW9MeU84SklqUWJRWndnZXhtMG8xOUVCNTJKSmUyWlFHS1N1WnNZYW5VOHREYkNPY1BmZ0hrYnh1Ukd6bWFQeF8zRGdBaldtQ0Ewa2xhRFdieWl1dVlhVnFCenlrdmswbDVTdUVCbE5TSEdSY1RMZi1SRnB3ZzFn?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Fox News",
       "confidence": "high"
     },
     {
@@ -1056,33 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZmRJd19TelVBUVBiN0s3SjlmUFdnNTdEMmVsS3NCeUZ1MldCSWFNc19TTzI0amgxdDZJVGFJaFFVVEh0V0lhd0E5LTE0eExOb1ZGbnRra0NGRDhxRmYzOUgyY2VtTk9iMWwwN0lhblVIT09lNlNQcTRadUs5N3RsbFE2bWhqeWhXRERERUZ3?oc=5",
       "date": "Thu, 20 Aug 2026 10:44:00 GMT",
       "source": "CBS News",
-      "confidence": "high"
-    },
-    {
-      "entity": "NewsNation",
-      "stance": "",
-      "title": "‘Economic D-Day’: Trump warns nations against providing support to Iran - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb1RvWnphRDl0Y3pjZkRpTTRTc1ZoclVzUG5ZQUJSMGhVLVVnSGF0cGZaVExRTnNXMjJfTjh6ck9YRGpSS1RLQnhxZERKTGE5ZTVnSzVxcUVmUDZuczFuakJmMnV5VUNBbWlYcms2ODFhLWtlQ0xtZHA4clB0RjlKSlVWTTdUS0N1UnfSAY8BQVVfeXFMTVdseHRiSmxMeGJOZmZCenZBak9aeXRCdWh6ZGJBenN1UFNoVnVMZzBhcWpnNThNUXFsQkRhTEVTQXJWQ3NrY2xrYzRBSWk5SGlTREsxaHBjN1c4OTF1QWZtZDdTSjBTd1pfSERLR2U3S05qa1h0S0pCQVVPRFo2ZHpuTzY4cUtlc2VRSWt5eVk?oc=5",
-      "date": "Thu, 20 Aug 2026 10:07:32 GMT",
-      "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Johnson",
-      "stance": "",
-      "title": "‘Wonder how that happened’: Mike Johnson mocked as he blames Iran conflict for hit to economy - Indy100",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KaURXQ0s5c2lwMk5BNk9vcW1XM1NRbERZbUR6dTZtMU9OZWVTY0dVUHRFcElIekd6T3RTaHJWUlVRb1c1YmtVemtmYUhsN0hkZ2JGRjJZWlY3SWtSVnQ1TWtDc2FXQ1UyYzNYdGVJWktGWGZJWEpVMnZHRFljdw?oc=5",
-      "date": "Thu, 20 Aug 2026 07:33:09 GMT",
-      "source": "Indy100",
-      "confidence": "high"
-    },
-    {
-      "entity": "Josh Hammer",
-      "stance": "",
-      "title": "JOSH HAMMER: The electoral integrity issue isn't Israel — it's Islam - Goshen News",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYTFJN0N3eGw2YlgwQjdhMjBXdmlydEtLNmx5TzVWOTNZeGRGZGU1cjB0STd6U2FQdEtJT0FYX2t3MGxuZzlrUHh1aUpucmFPdzJORWdSZUlrVWloZFZTQzdSeEU2NVFMUVlOZlJaQTA3SDF0aFlIOWFCV1dvSnAxSU9PWS11cXltbExPekVzSGhMQ3I5WVdrYkpxMDJwZTlDdmY5ZENReVVaM3p1YWpZeUJudVNZaXZ3WklKcjJLanpSZUdjVWVJbTM1dmdJX3hYLV9ickFOQjJUTlNIZEk5SnRB?oc=5",
-      "date": "Thu, 20 Aug 2026 04:15:00 GMT",
-      "source": "Goshen News",
       "confidence": "high"
     }
   ]

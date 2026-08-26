@@ -1,7 +1,20 @@
 {
-  "generated": "2026-08-25 13:49 UTC",
-  "count": 5,
+  "generated": "2026-08-26 13:53 UTC",
+  "count": 6,
   "candidates": [
+    {
+      "name": "Arif Theruvath",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "I Was Taught to Hate Jews — Then I Went to Israel | Arif Theruvath",
+          "date": "2026-08-25",
+          "link": "https://www.youtube.com/watch?v=4WejKPQ9wg0"
+        }
+      ]
+    },
     {
       "name": "Elias Maron",
       "orientation": "ally",
@@ -42,15 +55,15 @@
       ]
     },
     {
-      "name": "Samuel Ben Ur",
+      "name": "Nikhil Chandwani",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Why Are Christians Safer in Israel Than Across the Middle East? | Samuel Ben Ur",
-          "date": "2026-08-21",
-          "link": "https://www.youtube.com/watch?v=ujPmxE-lO6A"
+          "title": "“If America Abandons Israel, India Will Be There” | Nikhil Chandwani",
+          "date": "2026-08-25",
+          "link": "https://www.youtube.com/watch?v=cusgyjrtXpE"
         }
       ]
     },
