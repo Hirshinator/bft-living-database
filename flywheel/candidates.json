@@ -1,7 +1,20 @@
 {
-  "generated": "2026-08-26 13:53 UTC",
-  "count": 6,
+  "generated": "2026-08-27 22:49 UTC",
+  "count": 5,
   "candidates": [
+    {
+      "name": "Ali Beikzadeh",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "October 7 BACKFIRED on Iran’s Regime | Ali Beikzadeh",
+          "date": "2026-08-27",
+          "link": "https://www.youtube.com/watch?v=2Xq9cXVGBeU"
+        }
+      ]
+    },
     {
       "name": "Arif Theruvath",
       "orientation": "ally",
@@ -16,41 +29,28 @@
       ]
     },
     {
-      "name": "Elias Maron",
+      "name": "Dan Schueftan",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "When a Palestinian Muslim Discovered He Was Jewish… | Elias Maron",
-          "date": "2026-08-23",
-          "link": "https://www.youtube.com/watch?v=1Xiy-JyqAo0"
+          "title": "Has Turkey Become Israel’s Most Dangerous Enemy? | Dan Schueftan",
+          "date": "2026-08-26",
+          "link": "https://www.youtube.com/watch?v=J3on1Zamtyc"
         }
       ]
     },
     {
-      "name": "It Was Reborn",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Israel Was NOT Created in 1947 — It Was Reborn | Loay Alshareef",
-          "date": "2026-08-21",
-          "link": "https://www.youtube.com/shorts/12tLuP4QTF0"
-        }
-      ]
-    },
-    {
-      "name": "James Corbett",
+      "name": "Jeffrey Sachs",
       "orientation": "hostile",
       "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
       "sources": [
         {
           "channel": "The Jimmy Dore Show",
-          "title": "Japan’s ZOMBIE Economy Is About To Crash! – James Corbett",
-          "date": "2026-08-23",
-          "link": "https://www.youtube.com/watch?v=uYipxxr3hoI"
+          "title": "Trump’s Iran Sanctions Screw Over Americans | Jeffrey Sachs",
+          "date": "2026-08-27",
+          "link": "https://www.youtube.com/watch?v=yCmko6gMtWQ"
         }
       ]
     },
@@ -64,19 +64,6 @@
           "title": "“If America Abandons Israel, India Will Be There” | Nikhil Chandwani",
           "date": "2026-08-25",
           "link": "https://www.youtube.com/watch?v=cusgyjrtXpE"
-        }
-      ]
-    },
-    {
-      "name": "Sinan Ciddi",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Is Israel Heading Toward War With Turkey? | Sinan Ciddi",
-          "date": "2026-08-24",
-          "link": "https://www.youtube.com/watch?v=65S14qEVsY8"
         }
       ]
     }

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-26 13:57 UTC",
+  "generated": "2026-08-27 22:52 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 250,
+  "cursor": 500,
   "count": 120,
   "mentions": [
     {
@@ -51,6 +51,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Brian Kilmeade",
+      "stance": "",
+      "title": "“Need To Change Their Behavior”: U.S. Escalates Strikes On Iran | Brian Kilmeade Show Legends Netflix (dgxZiYHFil) - Mshale",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Nb3ZRR0NKcV82bWVKcFBaU0FFdXczZktaekE0VVhyTWdGRnB2enoxYWdMVE5semVHYXBCY2lHM0xRX0h5clZERU0xczVISmFzUl91VjhXRHhOX1YwU0tzRw?oc=5",
+      "date": "Wed, 26 Aug 2026 05:28:08 GMT",
+      "source": "Mshale",
+      "confidence": "high"
+    },
+    {
       "entity": "Newsmax",
       "stance": "",
       "title": "Trump: Iran Will Face 'Most Crushing Economic Operation' Ever - Newsmax",
@@ -66,15 +75,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CRk9PMkpGc1NJMjBmRERWUGdwem9kOENkWEpkZlFYYklwZng5VGhLanNaejdNRnp3bnZ5bHBJV1hJN3JvSkFoUmtLbmxwd0FDMndzajBiVVV4SXVT?oc=5",
       "date": "Wed, 19 Aug 2026 22:24:34 GMT",
       "source": "YouTube",
-      "confidence": "high"
-    },
-    {
-      "entity": "David Hogg",
-      "stance": "",
-      "title": "SCOOP: Georgia Dems to remove anti-Israel former DNC vice chair David Hogg as featured speaker at upcoming gala - JNS.org",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVlVyTkI2bkd1U1lsR2E0bkdCTWJ4TDFuLW1sd2RqSDlrcklWV21BaGh0Z2RxNVFYUW9YVTNSekhqLS1kT3hGbG5Sc1B4NTd5eV83OWR4MzlFd2JZWDZlcjNNN2lDN1JxRmEtMFBpZmpLSkZFWTU3TW9YWVRpUkFIdTdMN0Q2bzY5ZXVxVlZ4T21MWUl6SjJqVXhPUDVrcW1WMVNDSWc0YUIxMXBCdnhCRVNtQmYxazFrTS01ZFpMazFtTlRsZ2lJRmIwZGRGcnY0c1diSnQ4MXBUM0dR?oc=5",
-      "date": "Wed, 19 Aug 2026 21:19:24 GMT",
-      "source": "JNS.org",
       "confidence": "high"
     },
     {
@@ -120,15 +120,6 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX1dvVUEtQmM2aFpCWm5mZ1pGVDc2UEQ3VUE1MkRHb1lhUFF6cjRiRlVPSmxWTGNfR01uWFkxUWpmOTdDSGdjQnpfcF9uRHF5TzJEMkt2T21lcDgwNnlKbkFFb1M4WHdySnVlOVZ3MFRZZGFZeEpSc0FBd3JvU2hSLXRiMGRXXy03ZVU3Xzk2VFlteVZkWkxJRU9oaw?oc=5",
       "date": "Wed, 19 Aug 2026 16:59:39 GMT",
       "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "Don Bacon",
-      "stance": "",
-      "title": "Bacon urges Trump to ‘say less’ after ‘contradictory’ Iran messages - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RXdGszU1g5ZUdJdHZXRUJlMEp1b3VjWWtvTVNpWHNQZjU3R0V6VTBJWlppNkprY0VqckpydHYtclNxb256bHU0cGV0UFp5azBwZ2ZiVHZqSmpUVlNpTjNVaVRFbFlISnB2ZFF6aVV4Rkc4b2FoTmdZMzhkNVlpZEZxVdIBiAFBVV95cUxPYjFzaVRBMV81YVZ0Yi05M1lWN1dFcWZrYU54WGJvY3hWWUJkd0I4bldPYl84RHZoNDNLa0R2LTdaYWJfdTNfWVdLUm5heEVxNkNKVXIyLUphXy1uYTNVU3EyTFNsa1VuTkFndVNheHAyM3NGRzIzQl82dTNkUS1XcHFvbUJBMWtz?oc=5",
-      "date": "Wed, 19 Aug 2026 16:47:00 GMT",
-      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -192,6 +183,15 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLUJGVmV2UWV2UnpyMnFRX1RrV1JXLWhyMG5xQlFEREJENThoUGdzSFdXUzhEQTJOWUs2dE5rODFyMEM1amlPVUVtcmxTVWNYVkplWnZWeTBtNWxHUDh3SVVEelFGcUE0TXlLd0Q4dTJFU1FlRldCNGFMNEVvQ3hZdldJaUg1NWIycEI5NXpMNA?oc=5",
       "date": "Wed, 19 Aug 2026 10:00:00 GMT",
       "source": "Washington Examiner",
+      "confidence": "high"
+    },
+    {
+      "entity": "Don Bacon",
+      "stance": "",
+      "title": "Bacon urges Trump to ‘say less’ after ‘contradictory’ Iran messages - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RXdGszU1g5ZUdJdHZXRUJlMEp1b3VjWWtvTVNpWHNQZjU3R0V6VTBJWlppNkprY0VqckpydHYtclNxb256bHU0cGV0UFp5azBwZ2ZiVHZqSmpUVlNpTjNVaVRFbFlISnB2ZFF6aVV4Rkc4b2FoTmdZMzhkNVlpZEZxVdIBiAFBVV95cUxPYjFzaVRBMV81YVZ0Yi05M1lWN1dFcWZrYU54WGJvY3hWWUJkd0I4bldPYl84RHZoNDNLa0R2LTdaYWJfdTNfWVdLUm5heEVxNkNKVXIyLUphXy1uYTNVU3EyTFNsa1VuTkFndVNheHAyM3NGRzIzQl82dTNkUS1XcHFvbUJBMWtz?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -285,24 +285,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Tim Scott",
-      "stance": "",
-      "title": "Tim Scott goes scorched earth on El-Sayed: 'He's for Hamas, but he's against America' - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ1NhdTU3RDh4V0VCc3BETmNoeVZoS3l6ek1kckFsdjhMb1pOMzFQRlB2a1pRd0hnalBUQTJTckExT1VVM2tjR0Z0V0JmMjRUemphU2swTXhhZ3ZIQWR6T3FqSG1WZzlYUXY0dS00ZFdwR2dDemRPcWdiZWRON05tRHRyVWZIQWRhM1RrQUFMRlhmTkl0V21mZDN4bk56UUpxLWFn0gGoAUFVX3lxTE1lMFpnSE53UEdjU0FFR2ltQ2d1NEhnSFhFam9oaEU5alhIc2ZNRTNyU0E5UUhYZ1V3bHJyX2Y5TEdmMVk1SmcxR0xzX25jNXViXzJTdUY5VEdSMzhtd3ZpMTFGU1JtcU90dG9wYVV4bEJXWDJKX3UtODNKemRhbEVsSUdpQzZnWUZlZDJKYXdUVFZ1M1FvcHAzX1BfRTdXWjRuV3RnamVYdQ?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Lindell",
-      "stance": "",
-      "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "The Times of India",
-      "confidence": "high"
-    },
-    {
       "entity": "Amy Klobuchar",
       "stance": "",
       "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
@@ -318,6 +300,24 @@
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zMlVGMXJQY05YSlUwRFZEbTY2OEJCQ0hVMG9sTDBGMmRJc0h4SXZwSUxqN0lVN0JEdlBQSG5Id3hIVVpxelBIWWx1cDFZOVp3dDZGN2g4a3R0Sk9oY1hTd3libUFoa1J5VXJxZGVEdUpFV0ZwOXpUZjRR0gF_QVVfeXFMTTFiNnVELVRhNG81RTFKMTBFTm0wdzZEODk4cnd2SlBoRzdabWljVkktWm1RUVBCVXhsN3JCRENXNkFaMVR5cERMbkdQSUZwYm40UDlYOU1lV3NyM2gxSDJxZC1BdWJ0X05hNGdtcFVydW5IOVlQUWFoQnlfOFJUMA?oc=5",
       "date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tim Scott",
+      "stance": "",
+      "title": "Tim Scott goes scorched earth on El-Sayed: 'He's for Hamas, but he's against America' - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ1NhdTU3RDh4V0VCc3BETmNoeVZoS3l6ek1kckFsdjhMb1pOMzFQRlB2a1pRd0hnalBUQTJTckExT1VVM2tjR0Z0V0JmMjRUemphU2swTXhhZ3ZIQWR6T3FqSG1WZzlYUXY0dS00ZFdwR2dDemRPcWdiZWRON05tRHRyVWZIQWRhM1RrQUFMRlhmTkl0V21mZDN4bk56UUpxLWFn0gGoAUFVX3lxTE1lMFpnSE53UEdjU0FFR2ltQ2d1NEhnSFhFam9oaEU5alhIc2ZNRTNyU0E5UUhYZ1V3bHJyX2Y5TEdmMVk1SmcxR0xzX25jNXViXzJTdUY5VEdSMzhtd3ZpMTFGU1JtcU90dG9wYVV4bEJXWDJKX3UtODNKemRhbEVsSUdpQzZnWUZlZDJKYXdUVFZ1M1FvcHAzX1BfRTdXWjRuV3RnamVYdQ?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Lindell",
+      "stance": "",
+      "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "source": "The Times of India",
       "confidence": "high"
     },
     {
@@ -474,6 +474,33 @@
       "confidence": "high"
     },
     {
+      "entity": "Brian Kilmeade",
+      "stance": "",
+      "title": "Trump Launches Operation Economic Outcast On Iran | Brian Kilmeade Show - FOX News Radio",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPanB3N0VEQ2Z2MG5Ja3JHSGxmWUUyWVJtb2gtYlhsaVh6NkViV1VpdERaVVNqNmZhSVZ3bWhrWDQ2bjRzSUJXbl9SQVRDUzhRZW1Hem9rUlgzNk1IMWNGVEJlWEhCT29LZ0F4Q2N2ajdNTm1wQ3FWaGNFRF9rQ2dqVGdqWmxKQ0ktbUNJQUFJZ1I?oc=5",
+      "date": "Tue, 25 Aug 2026 21:22:51 GMT",
+      "source": "FOX News Radio",
+      "confidence": "high"
+    },
+    {
+      "entity": "Chevron",
+      "stance": "",
+      "title": "Chevron Falls as Oil Surrenders the Iran Premium - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSnhMNTcyVFFRTG1mV051MVpOZE1HdjZDRUU1enRjV2ZwWmhJbDdyZHN4VkEzM2hzbVFrbmRLMFNIWldacFFXWkppMzhrNFc3TFJBZDlrZUFMSUNza29HZ1VvSzZwYk14U1Q2X1k0Q2lOeXdzZHROT2l0VG16VmEtRkV0czh6WUNQa1VjY2hkMTBXVUE0?oc=5",
+      "date": "Tue, 25 Aug 2026 19:42:23 GMT",
+      "source": "Yahoo Finance",
+      "confidence": "high"
+    },
+    {
+      "entity": "Douglas Murray",
+      "stance": "",
+      "title": "Douglas Murray: The Death Penalty Is Cruel. Hamas Terrorists Deserve It. - The Free Press",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yemVZS3RJbmhzQXZ6Ukh6NWNQUElhaGVFVjItbFR5SF9sUmNJWGYzVlpDa3laZW55SUNtMU9jSWEwVzJOUWU1dnFwY1hzRXVOakFSZjhWcTRocU03Y3ZkcTZCTmZmNFU?oc=5",
+      "date": "Tue, 25 Aug 2026 17:50:37 GMT",
+      "source": "The Free Press",
+      "confidence": "high"
+    },
+    {
       "entity": "Gilad Levy",
       "stance": "pro",
       "title": "LSU men’s basketball gains commitment from Israeli Center Gilad Levy - lsureveille.com",
@@ -516,6 +543,24 @@
       "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPS2o5QlNQMUR1ejItNWo4ZnVodENtRVVXbllnLVpCVk1oSGN4ekpoVzBzaFpXYVJZTmtPMDRPcTNkWENxR0dTdHNFT1JBdFF5VjBmd0YySEFOTTVyOTIycDJ2ckpTcW50U0c3bDBWMXpxcjFOcGhtb1BOb1VuUnJ3cjhISzhVMVlkNldCeENCS3JqdWpaV2tiZ0U0NXJ5NTU3a3RCRjgtYzhpRkdTMklFdXN5b0xfcmRKczVnWl9VdU1fSE5UQmstQ1luVXBVR2VOLXd2RXhJcko1dTZvWEpKcTE2MVU1SXYtYkJaV0Nib1lRYTVPUXMzNVRXdFZjX1NabzZxaExsVWh2ZUN2RWMwTG1n?oc=5",
       "date": "Tue, 25 Aug 2026 12:00:37 GMT",
       "source": "Mankato Free Press",
+      "confidence": "high"
+    },
+    {
+      "entity": "Chevron",
+      "stance": "",
+      "title": "Exxon, Chevron Warn of Continued High Fuel Prices From Iran War - EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWRkNGNYcEtjRnBjUHJIcVRvSVVpcGw4enJlYXNSVUtOOGdRejJyRko4YTlxYmdfcFExcC1WUmJnOTk3SW10VUlncUl6dmRNbmRTc0xRbWVzY1M3aV9yd3FNLXA0eW9JdTBsODJxbmx5SDh6N19aOWVPRmU3eTZVVmFJdEhBMHdjQlVvWlFLQkI0aFI0MGJyTQ?oc=5",
+      "date": "Tue, 25 Aug 2026 02:22:14 GMT",
+      "source": "EnergyNow.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Dana Bash",
+      "stance": "",
+      "title": "Bill Maher & Dana Bash Spew Ugly Smears About Critics Of Israel - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JOVkwd0NVYkh2dWxCX1UzM0wzc0Y2MEhoN3gwZWN0V0tDbVNjdnVyelFKMXY0cThTTmJTNDE2cXJTS1pUbkhCLXJIUC05blY3N3JnVHhYLWt6My1k?oc=5",
+      "date": "Tue, 25 Aug 2026 02:00:01 GMT",
+      "source": "YouTube",
       "confidence": "high"
     },
     {
@@ -762,6 +807,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Bruce Blakeman",
+      "stance": "",
+      "title": "Meet NY Gubernatorial Republican Candidate Bruce Blakeman, a defender of Israel - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQkdHUmFleWUxMUFMRzVWOXJ3R25jVWNDanNSc29SRzVOUDlBbHlrWHFCTGVDaGtXUTZkYVZqM1E2emxNaWtiZHhXMFRTX193R0I1bzFwSENESmFsQjRIU3p0bzBDUERnYkItZ1NveGZRU0lVN0I5eGg2TE5PUnliWVYxeWduRThCV1ZxSkNYbElwS2pBVS1pOElYMi1ySkdaekwtSF9RMDN6S1A4N3RpVQ?oc=5",
+      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "Dan Sullivan",
+      "stance": "",
+      "title": "Exclusive / VoteVets goes after Sullivan for Iran votes - Semafor",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0hIQVdISFl1azNFXy0yU191RVdvMFVHVllwcVRpWGpEc0JZRzFjSVdMMmtHS253cVd0MXAwNkstUGpndFoxMk9NVGlpVVU1cmM4WEF2SnprRHRZX0VGbHIzbEhWZ2FzVXNBMDV2MGZycWYxU2VwQV9kM1U3bWFBLWZ2d3Z0VU5oZUUySTE1UQ?oc=5",
+      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "source": "Semafor",
+      "confidence": "high"
+    },
+    {
       "entity": "Ariel Or",
       "stance": "pro",
       "title": "Actress Swell Ariel Or takes advocacy for Israeli women further in new film ‘Tankistas’ - Fox News",
@@ -777,15 +840,6 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdkx5RkMxdUlwZEpiUmMwMmFtYWw4ZDJUZExtUk1hYlpZZDhUQVBiMXZzVHplOEVEcEM4ckxvVUdpNkhxSUJJTDYzNGRHcnNzVUF5VWJQc2FiYlJ1QzB3VE05ekQ5LUw4MHJQeGc1cEhPeElOOXVWeHN6aV9qcGQ4NVhabzdjYjl5VmF2OTQtM2JwXzI5MDdGWmJfVkZES1I2Y2xjbXZDN3VuRHlG?oc=5",
       "date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "source": "KMTR",
-      "confidence": "high"
-    },
-    {
-      "entity": "Dan Sullivan",
-      "stance": "",
-      "title": "Exclusive / VoteVets goes after Sullivan for Iran votes - Semafor",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0hIQVdISFl1azNFXy0yU191RVdvMFVHVllwcVRpWGpEc0JZRzFjSVdMMmtHS253cVd0MXAwNkstUGpndFoxMk9NVGlpVVU1cmM4WEF2SnprRHRZX0VGbHIzbEhWZ2FzVXNBMDV2MGZycWYxU2VwQV9kM1U3bWFBLWZ2d3Z0VU5oZUUySTE1UQ?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Semafor",
       "confidence": "high"
     },
     {
@@ -960,129 +1014,75 @@
       "confidence": "high"
     },
     {
-      "entity": "Van Jones",
+      "entity": "Daily Wire",
       "stance": "",
-      "title": "Van Jones Ripped for 'Absolutely Sickening' Remarks About Gaza Baby Starved by Israel - Common Dreams",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rZHBsN29aWWx6LTQxbEN0UmhZaWNSYXJ6V0tSQ082MERTT0tXX1J1OFJaRlY4ZTVyR3RTdm1wYWdJRzVvOGNUU2NQRHFFQ1NEZnVOOEJsRUF0aFhmS3pmV0NDc1NudmxFM0RnNjVFMHQ3MEE?oc=5",
-      "date": "Thu, 20 Aug 2026 23:27:57 GMT",
-      "source": "Common Dreams",
+      "title": "Inside The Federal Crackdown On Palestinian Terror Networks Threatening America - The Daily Wire",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlY4MFBLbWliYVNWZmNUTEJVdW1SaklRY2lfZEZYbldBMGs4d2dwOTEzZU1FblFqYmppQnpSQTB0R0Z6WmEyN25ILTZEQmp2MzRrN3R3YnF2aDZrRkJQbUNuSkJHdU5RUHVhaHlpWjdMaWhlMmNfYmhkaEVWb0dJcmdLWjlLSnBHMUhEcWxZRjJMRDRiakxHeXgwUk5XMVRQd01TNnlfQ3FrQTlpaGpz?oc=5",
+      "date": "Thu, 27 Aug 2026 20:28:59 GMT",
+      "source": "The Daily Wire",
       "confidence": "high"
     },
     {
-      "entity": "Nick Fuentes",
+      "entity": "City Journal",
       "stance": "",
-      "title": "Nick Fuentes on the Iran war: “This is the worst loss of the 21st century and it isn’t even close” - Media Matters for America",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeWtycHZtMzcxLWNGTnVlRERCV2Y2eTVSQnJ4enYtQzhiVGIwcXNkYTMxaF90YmNRWUx0VVd0QUN1MDQtY05oR0psb0ViQzQwWmY5dVFxTm5CY0hJU1RFN2xaYmV5cmhybk9DSktaOUVaUmtOenktT2ZaRGdsc2VmSWVNU0ZRQk9feE54TDBRZjlPTFFzRXZoNS1vYnNXektWOU1PcnBvbW1xNmY4Z3k4?oc=5",
-      "date": "Thu, 20 Aug 2026 23:08:01 GMT",
-      "source": "Media Matters for America",
-      "confidence": "high"
-    },
-    {
-      "entity": "Patty Murray",
-      "stance": "",
-      "title": "‘Trump Made Billions…’: Patty Murray Exposes Hegseth’s Iran Secret; USS Lincoln Crisis Blows Up - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWWc4MlMwWktUT0dsUWx3c25PTXBKVlphMXhZTmcwMDBKNHVmMUd3b1liaV94Ni14UkpWREgyWnFPel8zWUw5aUtsUFIyUW92dHhPdGYzbldqVGtZSzdYRHl3UmVMcVRFMjBDZE1mYmk0bWFKVXM0VC15U1U1bDJmdElSRS1ZT00tUWpOdUxEY3FpVFRlZXpaTlljc18xX0JoNnlZZWJTQkVubkpVc0ljUmF4Z3hJOE55Tk1qWTRGNThuZ3RuamhfYnFWSldzTVlCamFya0NWd0ZUa3JEZEVIandNSmN0TGlENnh2QTlRU3EtQnIxa2ZsaEFRc1k1bGPSAYQCQVVfeXFMTTFuTnBZd3NTY0wxTmdHbFc1bmRtazRxVzFKN1V2OVRSSmd2ZEFoNzE0QklLU0Jwa0Z3bVdTcWYzd2dxQ0dabGstY1VtZGRlZVVGbFhGa3VWRVdQYUtYUlZqNGg2dlI4MGpaZ19LOUxNM2VJTnB1S3BlTVczSi1reDdObUg4b1I0eU5XZjRrUU9iaUVxdzhpTmFxcFJFdnhiWGgxSmo0LS1UbEw4Y0hIMkw5SURfVG9INlR5RngxbVdTZThQZERZTHhENmdwZldNa0drSXpPN01KY2Y0dVo2REJsR203RDVBM3l5LXFuODBVR184emJBZnl6Q0c2V3ExTDJEbFY?oc=5",
-      "date": "Thu, 20 Aug 2026 22:16:07 GMT",
-      "source": "The Times of India",
-      "confidence": "high"
-    },
-    {
-      "entity": "Benchmark",
-      "stance": "",
-      "title": "S&P 500: Wall Street Benchmark Falls 0.87% to 7,641 as Iran Tensions Reignite Risk-Off Trade - BBN Times",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMTBoVDZydHg1LTdrMExvMXNyTHlCZWd6LVliR3Njd2tzWFlxWWhuMGR3aGY5NDY0cTZoMzh5S2huUnhHcHZRdVp0MDJ6VzJrdFJESElkWmRCMzFJQjZTREowZy1hYzJHVHVfTWxZQXUtbDVSd25acC1mT2MyVnp3dkFFWkVHRFhpZ1ZpUGpRUjFlUWxpcG83TGJKN21KVl8zSHExYVNlUHhabTlDWk9ER09qV0EybU5xczcydWRrQ2lVTC1VbGRzcTBn?oc=5",
-      "date": "Thu, 20 Aug 2026 21:54:42 GMT",
-      "source": "BBN Times",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Huckabee",
-      "stance": "",
-      "title": "US envoy Huckabee tells Israeli settlers not to take Palestinian Americans' land - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNk15eGo2WTQ2MFVpa1ViTEt2aFhNMUd5OU0ybFNGanlqbFhPVzhOTlhOTU94MXM5MTc5M2lVRk1yYmhYYzMxR3NiZGdaS1NVWTlXTTFEaWZVRFF6TUozRUdTTnl4WUxxVGhjelJ0QTVIc0pRQnlPSUlncGRROWs4d3J1a0hCdmNTeHdwRWNNS0ZoYzJLeUQ0OW1vLWhEclZtVS1sYTl0bEoyaWN5a2tDQ2xGWnk2dGpPV3ZTSGU0UXZRSW9uNm5hd05n?oc=5",
-      "date": "Thu, 20 Aug 2026 19:28:34 GMT",
-      "source": "Reuters",
-      "confidence": "high"
-    },
-    {
-      "entity": "Sean Hannity",
-      "stance": "",
-      "title": "Sean Hannity covers Iran war for the first time in weeks, complains Trump isn’t getting “credit” for it - Media Matters for America",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORkswMWFGUUFvUnJEVVQzdDdqVFJiak84eDJfWVJZY1YxSHptdmxmY3IzR19sSWIta0ZRZmVXS2RFVjI2c2lSWi1SdERZX0hPaTZuVHo5UjJwY0pJVWpKSlQ4SDdFeEZham15dlBrRm1DcGRQVC1QQW1qdVJ4d1hIQ01aTzZvVEVUMDFJYlRCb1N5Nk84Zl9QX2JobGhXU0o0LUlNQUwyZ1FobC1ra2ozc25KSGZVUmFkTEJjLXpLUQ?oc=5",
-      "date": "Thu, 20 Aug 2026 15:41:31 GMT",
-      "source": "Media Matters for America",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bill Ackman",
-      "stance": "",
-      "title": "Billionaire Bill Ackman puts £300m into neurology charity after daughter survives brain haemorrhage - The Jewish Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcG5kQkltNWF2V20wMWQ0V3p6SzZiR2RNOXM2YUFrOG12MVBuUVJfelV0RlBvSUtNNm9XbjNZSlhnZnR2eGctb1VPOW1lek5RNWdPb2lLZkRpclpiaFc4NWlObThuUzhNUy03eWN0RktUdnI4b0tmS1R3bGpiM1ktU2xkZ2dyWllvcU9aMC1ERUVKNlloS0NjX1NVNGhvWEpxLVlHQVl4V3lzcHVKUHUwYUVkLWdZdHA3c2hCaGxUZ0hFa19DQk1vNmR0ZE41T0k0dk4yZg?oc=5",
-      "date": "Thu, 20 Aug 2026 15:30:36 GMT",
-      "source": "The Jewish Chronicle",
-      "confidence": "high"
-    },
-    {
-      "entity": "Commentary Magazine",
-      "stance": "",
-      "title": "A Swedish Palestinian Lawmaker Sets an Example for the West - Commentary Magazine",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ21uMXE2cDNCaXVpYndLWVp3U255Y1hmQUJNLVUwN3dLbmZnbF9RN1FfRE9PcXRaeXVxa2pzeW1xYUUwelR2WFQ2QlBnX0xHTXdYQk80WFVWbEN4bVJTcEVWMzdHdXlTNFhvU3FtSHRENkxxWnF0X2ZFNnoxUU1vZ0xyY0NERlowdzlzMDRQSGF6dG9BU0Y3bU5EcU91NFZF?oc=5",
-      "date": "Thu, 20 Aug 2026 15:28:20 GMT",
-      "source": "Commentary Magazine",
-      "confidence": "high"
-    },
-    {
-      "entity": "Steve Scalise",
-      "stance": "",
-      "title": "Steve Scalise on Trump launching 'Economic D-Day' sanctions against Iran - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uRU50bTB0SmhpT1FpcjA0YnA1bjNBU1RMbk0zVDhHeHBUdE9XSElidE9FMzQzblFXS3YtMnZNYkFtLTFyRXJIa2tRYmNPaEFaZjVHYUN3?oc=5",
-      "date": "Thu, 20 Aug 2026 13:44:07 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Newsmax",
-      "stance": "",
-      "title": "Rep. Rich McCormick to Newsmax: Sanctions Won't End Iran War - Newsmax",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeklaUlJQWUdqR1U1WUVlOWhiMjhVS3BmT0llLVNneXdmQXRwd1FWWklXN1p0QUwxa21JQkRKU3hGYmlLeXdIYldScFA1YWFpeGRGZmFwVU1nY2dmcElDR1oycUY3ZF9fbGVCdWh2UDQ0RWMxZ3pDd3hZaFUxZndIODdBZ2phNVJBcm9VV3hLZVM?oc=5",
-      "date": "Thu, 20 Aug 2026 12:58:34 GMT",
-      "source": "Newsmax",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Huckabee",
-      "stance": "",
-      "title": "US envoy Mike Huckabee tells Israeli settlers not to take Palestinian Americans' land - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1peGRHVDFwaFhHY1NfS1ZfYWhJeFlSeThETmYxMFNSS1lMODJfbkt2d0UwUnJhTU5URnAzekVqTzEzbHBCUTFJaU5JYmp0X0dvSi15dmpQd2EzNmoy?oc=5",
-      "date": "Thu, 20 Aug 2026 12:24:27 GMT",
-      "source": "The Jerusalem Post",
+      "title": "Qatar’s foreign minister visits Tehran as efforts to ease Iran-U.S. crisis continue - Rapid City Journal",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMFM5ZU5fR3JkMlhZMmNMNFRQT2UyNWFMakxPMUMyZXQzSHBWS0N0anQzX0p1amRqeVFzNXoycnEtUWNtQjdST1R5TVdxRkphcGR6Nk9rS3I0bUQ0VTdPSm5PSHBBOTRxeHlwMkk2bFlsbzlIMkt6RXFvOElZRnFGRXFGYnk2N2xXMWdMSHhQTG01VXBXYkM1azRiaUpCVFhJQW50R1BFQzM?oc=5",
+      "date": "Thu, 27 Aug 2026 17:09:25 GMT",
+      "source": "Rapid City Journal",
       "confidence": "high"
     },
     {
       "entity": "All Israel News",
       "stance": "",
-      "title": "Trump declares 'economic D-Day' on Iran, threatens 'tremendous consequences' for nations trading with Islamic Republic - All Israel News",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSzh5c29kYmE0R3RhdjJEaTQ3WGc1eXdnWERSb0dBSzkzUHhOTndxcGFVUWdOLVBuOTBtUlRwTWRsUVFPUUpnRXdhdElWQmUzdEszQ0hkVXlhbWpoU0NwMjVMcHNRdGp1T2dCU3hCVGc3SGNiV0xUbVVEZnQyWnFmZ25zZ3UxSUhuMDcycXpLbmVEVEFqM1RBZ1VBUHA3cE1iN01ybDdZZl9WOThCLUFnWHhVRFVFZmhMVHNYY3o0QVRIMGswaThNSVM0aUVqcXBiMEtUTg?oc=5",
-      "date": "Thu, 20 Aug 2026 11:29:19 GMT",
+      "title": "Iranian Assassination Plot Forced Yair Netanyahu to Flee Miami for Israel | KAN 11 - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNakNib1RrYjF4NVpoeDd5NWlMYjI5T1Z1Y1JYTDNZSGpmQjJrRHJUalZPMC0xZng2STllLXB1VjBlQVExZWpmRmZSc0lvcDFreDh6aEVjcGJMRUVycWhsdElyMl9zS0ZJNThwN0szZGRuUFAyMTVkNXdIZExNdF9WYzFfb204dTJvYmpLbzNTbEhTMVdjWlB4QnV5alNzalBFcmVENFg4WjVEOXFYejBReTlTbw?oc=5",
+      "date": "Thu, 27 Aug 2026 15:38:56 GMT",
       "source": "All Israel News",
       "confidence": "high"
     },
     {
-      "entity": "Patrick Bet-David",
+      "entity": "All Israel News",
       "stance": "",
-      "title": "Patrick Bet-David STRIKES BACK At Angel Reese Stat-Padding Debate As WNBA Buzzes Over Caitlin Clark! Netanyahu (7dbIXubxAB) - Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82aHp2UDVFOGt5MktNWVBYa2Nua2dtdHQwY08xajh5UFU2Q2tNWDFRRlVJcTVDSjBlbkhqTVpUemx6ckRnekhQTmlZcUZRZThtakF5N0FiTF9vOGlnd3MxMg?oc=5",
-      "date": "Thu, 20 Aug 2026 10:45:44 GMT",
+      "title": "Israel considers expelling British officials from Gaza coordination center over 'anti-Israel measures - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcFUyUGtJaGkycmFOMVVfd1c1OVhBS0tpb0dsZGJFYXlfRGxTQlpKZE0tUHA5LWJhc0JQZzItVEhkejEtNm1qeG1PRnkwalZFSmxzb09oRXhOYkhYUjBHTnp3UTZ4MEJnTktLemtRWkdQbXJYMFpLal84QU5CSWVZM3VsX3hxdlY2OTBRakt0Q3hDVWJ6eGFaSm1ua0l0ZEVlQUx4RDBHbV8zZVFKMW9kcl9idE9iUUhHSUxmcnZnYWlDSVFD?oc=5",
+      "date": "Thu, 27 Aug 2026 15:38:51 GMT",
+      "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "Anti-Israel genocide claims on US campuses linked to preexisting BDS activism, study says - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY3dhWVVrcFk3WFlIaDczU2hpdVBIS0M4NGZmcnF3Nll6eFh5a21LdDN0ZU9ScTZfNEFUbkdYamtJTFU0dVgzN1Z6QmJNVGNYeGgxYXRYRjZkbXZfM3lyclNJRmdJdDJuOGxlcml5OTZmcnkzczVSaHp0QzJ5ZUZFM1VhanBhTW9QVmtNOVpSczlPcE93T2hLd19TM0p4VmZjbndHbzZYUV9ENjNNYVJmOTlQQjg?oc=5",
+      "date": "Thu, 27 Aug 2026 13:51:12 GMT",
+      "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Dave Ramsey",
+      "stance": "",
+      "title": "Elijah Just Goal | IR Iran 2-2 New Zealand | FIFA World Cup 2026TM Dave Ramsey (ljwCxYLw8c) - Mshale",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zVkJYWlhpb1VIcXhERmdyUVp3RWxSV3BlZ3B5bGhpUDVsRjZTQzNFdzhPcE9BbDRaTHc1TTA0WkpBaFlEazFHenlGZ1pVOTNMX1AyQmZVemJNejQ?oc=5",
+      "date": "Thu, 27 Aug 2026 05:08:53 GMT",
       "source": "Mshale",
       "confidence": "high"
     },
     {
-      "entity": "JD Vance",
+      "entity": "Ashley Hinson",
       "stance": "",
-      "title": "Vance says war in \"new phase\" of economic pressure as Iran dismisses Trump threat - CBS News",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZmRJd19TelVBUVBiN0s3SjlmUFdnNTdEMmVsS3NCeUZ1MldCSWFNc19TTzI0amgxdDZJVGFJaFFVVEh0V0lhd0E5LTE0eExOb1ZGbnRra0NGRDhxRmYzOUgyY2VtTk9iMWwwN0lhblVIT09lNlNQcTRadUs5N3RsbFE2bWhqeWhXRERERUZ3?oc=5",
-      "date": "Thu, 20 Aug 2026 10:44:00 GMT",
-      "source": "CBS News",
+      "title": "Ashley Hinson Calls War On Iran \"Political Liability\" For Republicans [ABC News, 6/2/26] Cerignola (2uQRODf8Lc) - Mshale",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwOW1wOFJrX2FuRGpwUE5HSGtFcU05QXRNMzJBdHZhNVlxWlM3UWpteTZHNDRWRU5VcFVDZ1BQeTI2ZXFfaFpwXzhFV3A3bHVMUkhzV296X0xzTGN1ZFRhUQ?oc=5",
+      "date": "Thu, 27 Aug 2026 01:57:00 GMT",
+      "source": "Mshale",
+      "confidence": "high"
+    },
+    {
+      "entity": "Buck Sexton",
+      "stance": "",
+      "title": "Hour 1 - Will Jewish Voters Flip? - The Clay Travis and Buck Sexton Show - iHeart",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN3h4a1pULWlLdlB3SWo2MmdXdXRNQjRKaFdQTUNQZ1BDeFVtM0xpdkh0SmpKTGlIeDZqMzlTVzVlZ0RPWHh3VzhnMnJjR3VQY19HaU5WbTdjRXpNdlZKT0ptM2wwRDh2Q2lneEwtUjZxbGZHSFQ4Nk1sMzNzS0lURU4zOFA1U05GUHpwYUt1WkNCRFJ4c1dhMjlJaFc3UFNnZXVlckw1YVdmSi1JUGc?oc=5",
+      "date": "Thu, 27 Aug 2026 01:18:07 GMT",
+      "source": "iHeart",
       "confidence": "high"
     }
   ]
