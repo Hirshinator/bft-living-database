@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27 22:49 UTC",
-  "count": 5,
+  "generated": "2026-08-28 22:53 UTC",
+  "count": 7,
   "candidates": [
     {
       "name": "Ali Beikzadeh",
@@ -42,6 +42,19 @@
       ]
     },
     {
+      "name": "James Corbett",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "How a U.S. Loss to Iran Starts the Next World War – James Corbett",
+          "date": "2026-08-28",
+          "link": "https://www.youtube.com/watch?v=cNOPIWheWIk"
+        }
+      ]
+    },
+    {
       "name": "Jeffrey Sachs",
       "orientation": "hostile",
       "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
@@ -64,6 +77,19 @@
           "title": "“If America Abandons Israel, India Will Be There” | Nikhil Chandwani",
           "date": "2026-08-25",
           "link": "https://www.youtube.com/watch?v=cusgyjrtXpE"
+        }
+      ]
+    },
+    {
+      "name": "William Mehrvarz",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Raised to Hate Israel — Then He Became an Orthodox Jew | William Mehrvarz",
+          "date": "2026-08-28",
+          "link": "https://www.youtube.com/watch?v=Bq_lohxj7T0"
         }
       ]
     }

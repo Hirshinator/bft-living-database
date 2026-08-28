@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-08-27 22:49 UTC
+# Flywheel candidates — 2026-08-28 22:53 UTC
 
-5 new candidate(s) surfaced from monitored channels, not yet in the database.
+7 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Ali Beikzadeh — candidate ALLY (platformed by an ally channel)
@@ -12,8 +12,14 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Dan Schueftan — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Has Turkey Become Israel’s Most Dangerous Enemy? | Dan Schueftan* (2026-08-26) — https://www.youtube.com/watch?v=J3on1Zamtyc
 
+### James Corbett — candidate HOSTILE / check orientation (boosted by a hostile channel)
+- [The Jimmy Dore Show] *How a U.S. Loss to Iran Starts the Next World War – James Corbett* (2026-08-28) — https://www.youtube.com/watch?v=cNOPIWheWIk
+
 ### Jeffrey Sachs — candidate HOSTILE / check orientation (boosted by a hostile channel)
 - [The Jimmy Dore Show] *Trump’s Iran Sanctions Screw Over Americans | Jeffrey Sachs* (2026-08-27) — https://www.youtube.com/watch?v=yCmko6gMtWQ
 
 ### Nikhil Chandwani — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *“If America Abandons Israel, India Will Be There” | Nikhil Chandwani* (2026-08-25) — https://www.youtube.com/watch?v=cusgyjrtXpE
+
+### William Mehrvarz — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Raised to Hate Israel — Then He Became an Orthodox Jew | William Mehrvarz* (2026-08-28) — https://www.youtube.com/watch?v=Bq_lohxj7T0
