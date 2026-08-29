@@ -1,4 +1,4 @@
-# Flywheel candidates — 2026-08-28 22:53 UTC
+# Flywheel candidates — 2026-08-29 16:58 UTC
 
 7 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
@@ -22,4 +22,4 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 - [Stand Tall Israel] *“If America Abandons Israel, India Will Be There” | Nikhil Chandwani* (2026-08-25) — https://www.youtube.com/watch?v=cusgyjrtXpE
 
 ### William Mehrvarz — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *Raised to Hate Israel — Then He Became an Orthodox Jew | William Mehrvarz* (2026-08-28) — https://www.youtube.com/watch?v=Bq_lohxj7T0
+- [Stand Tall Israel] *He Was Raised Muslim in Iran — Then Became an Orthodox Jew | William Mehrvarz* (2026-08-28) — https://www.youtube.com/watch?v=Bq_lohxj7T0
