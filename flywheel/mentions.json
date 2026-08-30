@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-29 17:02 UTC",
+  "generated": "2026-08-30 17:16 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 1000,
+  "cursor": 95,
   "count": 120,
   "mentions": [
     {
@@ -57,6 +57,15 @@
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpWG9nMUJtblM3MGR6UGZwZjF6bEtvMGZhdTNQSkp1ek9LRUFZbXZNODk5N0Jncm9NX2xYNVFCN000VDVPOHV6QnkxdktpWHoxT2doRUVuNA?oc=5",
       "date": "Wed, 26 Aug 2026 20:04:16 GMT",
       "source": "The Jerusalem Post",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tyler Oliveira",
+      "stance": "",
+      "title": "Antisemitic YouTuber Tyler Oliveira Arrives In New Square After Visits To Lakewood And Brooklyn - Monsey Scoop",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dKODh4QS02dEJpMEZuSkFUSS1GZlZMTWtEcW11OXNmN2VLMHV2V2lJOU9aZFJkYnZiMUhtcUVsaTRwUDItekhWODFBMmhPZzdGYm1Ea1AtM1JhcTNkLVljak5XYlF2R20xVWNfa2xhZ3hxTW4xb3p2cjl6SGxWWWtyV2J5V2dReC1PcFhNWE5hZzJ6eHpqY1FVVGlOQjQwRWZHTkYteEEyenZIY2RuUS1xMHZMLTczTmZRVVZvRGludWhPMXdLTl9ONTI?oc=5",
+      "date": "Wed, 26 Aug 2026 19:13:34 GMT",
+      "source": "Monsey Scoop",
       "confidence": "high"
     },
     {
@@ -156,6 +165,15 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CRk9PMkpGc1NJMjBmRERWUGdwem9kOENkWEpkZlFYYklwZng5VGhLanNaejdNRnp3bnZ5bHBJV1hJN3JvSkFoUmtLbmxwd0FDMndzajBiVVV4SXVT?oc=5",
       "date": "Wed, 19 Aug 2026 22:24:34 GMT",
       "source": "YouTube",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tim Pool",
+      "stance": "yellowflag",
+      "title": "[Live] Alex Jones Says Tim Pool Could Be An ISRAELI ASSET - TYT.com",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9CQ2ZvU3puVHpDOF96UnYwYlZycFg4RlVfSFBZX04wV0tzcGIwVDNkcTFITjZOMTJEZk5JS0VvUWt5TU1DNWNkS2FB?oc=5",
+      "date": "Wed, 19 Aug 2026 22:03:23 GMT",
+      "source": "TYT.com",
       "confidence": "high"
     },
     {
@@ -294,6 +312,15 @@
       "confidence": "high"
     },
     {
+      "entity": "The Free Press",
+      "stance": "",
+      "title": "How My Generation Became Antisemitic - by Leo Lewis - The Free Press",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JeC1rUThRbGVhVEM4RzhiSXp6WWd3VXpycGlSYnBmSEpnbmRoeUI4MFNWSmVzREZUY3VEZ01DbUxsOHc2UThvNTJvVFhVZ3ZrU2lMNWtVR1diWlJNVEE?oc=5",
+      "date": "Wed, 12 Aug 2026 23:30:46 GMT",
+      "source": "The Free Press",
+      "confidence": "high"
+    },
+    {
       "entity": "Ayanna Pressley",
       "stance": "",
       "title": "Pressley, activists call for end to Iran war, defiance to ‘dictator’ Trump - Dorchester Reporter",
@@ -357,6 +384,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Tim Scott",
+      "stance": "",
+      "title": "Tim Scott goes scorched earth on El-Sayed: 'He's for Hamas, but he's against America' - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ1NhdTU3RDh4V0VCc3BETmNoeVZoS3l6ek1kckFsdjhMb1pOMzFQRlB2a1pRd0hnalBUQTJTckExT1VVM2tjR0Z0V0JmMjRUemphU2swTXhhZ3ZIQWR6T3FqSG1WZzlYUXY0dS00ZFdwR2dDemRPcWdiZWRON05tRHRyVWZIQWRhM1RrQUFMRlhmTkl0V21mZDN4bk56UUpxLWFn0gGoAUFVX3lxTE1lMFpnSE53UEdjU0FFR2ltQ2d1NEhnSFhFam9oaEU5alhIc2ZNRTNyU0E5UUhYZ1V3bHJyX2Y5TEdmMVk1SmcxR0xzX25jNXViXzJTdUY5VEdSMzhtd3ZpMTFGU1JtcU90dG9wYVV4bEJXWDJKX3UtODNKemRhbEVsSUdpQzZnWUZlZDJKYXdUVFZ1M1FvcHAzX1BfRTdXWjRuV3RnamVYdQ?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
       "entity": "Mike Lindell",
       "stance": "",
       "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
@@ -381,15 +417,6 @@
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zMlVGMXJQY05YSlUwRFZEbTY2OEJCQ0hVMG9sTDBGMmRJc0h4SXZwSUxqN0lVN0JEdlBQSG5Id3hIVVpxelBIWWx1cDFZOVp3dDZGN2g4a3R0Sk9oY1hTd3libUFoa1J5VXJxZGVEdUpFV0ZwOXpUZjRR0gF_QVVfeXFMTTFiNnVELVRhNG81RTFKMTBFTm0wdzZEODk4cnd2SlBoRzdabWljVkktWm1RUVBCVXhsN3JCRENXNkFaMVR5cERMbkdQSUZwYm40UDlYOU1lV3NyM2gxSDJxZC1BdWJ0X05hNGdtcFVydW5IOVlQUWFoQnlfOFJUMA?oc=5",
       "date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tim Scott",
-      "stance": "",
-      "title": "Tim Scott goes scorched earth on El-Sayed: 'He's for Hamas, but he's against America' - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ1NhdTU3RDh4V0VCc3BETmNoeVZoS3l6ek1kckFsdjhMb1pOMzFQRlB2a1pRd0hnalBUQTJTckExT1VVM2tjR0Z0V0JmMjRUemphU2swTXhhZ3ZIQWR6T3FqSG1WZzlYUXY0dS00ZFdwR2dDemRPcWdiZWRON05tRHRyVWZIQWRhM1RrQUFMRlhmTkl0V21mZDN4bk56UUpxLWFn0gGoAUFVX3lxTE1lMFpnSE53UEdjU0FFR2ltQ2d1NEhnSFhFam9oaEU5alhIc2ZNRTNyU0E5UUhYZ1V3bHJyX2Y5TEdmMVk1SmcxR0xzX25jNXViXzJTdUY5VEdSMzhtd3ZpMTFGU1JtcU90dG9wYVV4bEJXWDJKX3UtODNKemRhbEVsSUdpQzZnWUZlZDJKYXdUVFZ1M1FvcHAzX1BfRTdXWjRuV3RnamVYdQ?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "Fox News",
       "confidence": "high"
     },
     {
@@ -591,6 +618,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Yoseph Haddad",
+      "stance": "",
+      "title": "Amcha Israel: Ofer Winter Launches A New Right-wing Party With Yoseph - i24NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWVVUWFTYlBQWU0tb2Jqblg5YjJUam05R3pybGFZbk9CeEhNcVNwYmc5ekxtbWRxdEx0MDhiUi02ZEgtU0NfWHk5SDJXSGJhZ3h5YTFJRnNrTUJRcFVCWVQ4TmMxcC1MbHN3R01MYjVXRWRGQUdZMF8zMFVBdENjZU5nUFhGb3hDT1FtZnF6TGdVVUxIWmV0MzhRblI4MURDTkFzb1k0R01OZnJWaGFKZ2tKNWE2cjdPOXBNczZRZE8wdFNnZFE?oc=5",
+      "date": "Tue, 25 Aug 2026 17:52:14 GMT",
+      "source": "i24NEWS",
+      "confidence": "high"
+    },
+    {
       "entity": "Douglas Murray",
       "stance": "",
       "title": "Douglas Murray: The Death Penalty Is Cruel. Hamas Terrorists Deserve It. - The Free Press",
@@ -615,6 +651,15 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdkxBeUE5SGlLMUFSbUQzbUh5amFCaG1BaGhiNTBiNUs3cU41cGVEdnNwN1c3THFnalh1em5sZklRSk5rVWE1R3J1b3VnOHU3c3pTckJ6TGUxWG8yQm93NXpHNzFLcVB0YWNmZS1qUDVpd2RBR3Y0Y2VtOG9xOXVObnhmRU5Qejk4N3VDa01idw?oc=5",
       "date": "Tue, 25 Aug 2026 16:57:57 GMT",
       "source": "Newsmax",
+      "confidence": "high"
+    },
+    {
+      "entity": "Yoseph Haddad",
+      "stance": "",
+      "title": "Arab Israeli activist Yoseph Haddad joins Winter's People of Israel, aims to be hasbara minister - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TV3UxNU9WVjBWUkZ1QzNnVmFwX0kwaWp5alY4QnpWMWhuM0ZOTlkwdndoS1lEek9sb3hKYzZOZHpZc1VCRG9sSTlFOU9EYzNjRkVGQ2NuTjFmSEM1YUc5LUxrel9QRXE2?oc=5",
+      "date": "Tue, 25 Aug 2026 16:46:31 GMT",
+      "source": "The Jerusalem Post",
       "confidence": "high"
     },
     {
@@ -687,6 +732,15 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVHhoNlhMNXJVODJoWm5fVkw4cVF3T2JmSkF4V0ZWRjlsdm9YOWJpWGV2WjlfVGFOWlZNdEtaa3F0Y2tYYXF4c1F0ai1CTTQ5Nm1rSElQYVA5QTFldXVaMG1YZklzcjdXTXZ3NVN6SjZYN3RmTHR2b3p4ODdJZGtueXItTTVId2J6YjdjYkF1dkZ5cTZnQkZObUJOWDlweWJveS0tcTdLZTR4bHlaMFE?oc=5",
       "date": "Tue, 25 Aug 2026 06:41:45 GMT",
       "source": "iHeart",
+      "confidence": "high"
+    },
+    {
+      "entity": "Sean Hannity",
+      "stance": "",
+      "title": "Sean Hannity And Ainsley Earhardt Are Engaged After Long-Distance Relationship Iran Missiles (fvyfzKdgpV) - Mshale",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xX280dmV0VjNpUmQ3VGFLSkJMQmFDcFY4VkhVc3l0WGF3U1V2eEEtaUpZLTVLblA0WWExaDcxRVBkcXpSMk50Nk01QnpIaG1ma3BoR1VXSE5IM2d1Mld4MA?oc=5",
+      "date": "Tue, 25 Aug 2026 06:34:24 GMT",
+      "source": "Mshale",
       "confidence": "high"
     },
     {
@@ -987,6 +1041,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Ariel Or",
+      "stance": "pro",
+      "title": "Actress Swell Ariel Or takes advocacy for Israeli women further in new film ‘Tankistas’ - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGd5NUNhM3hwRVBBckJQRVN0YjVCUTNiTjJ6TklOLURWYV9ocjZ2Z1RmTGY5VTBsWC1aM1pGN3dGR1A4dl94Rmx2eFRyTG1leUFPODNxZGxMVV9INFZHYUFIVDExSVY4LWVKV0RWeWF1V0RlSUdzR0M3N1VTTDVCZTlqTVJaa2VFd3VUTDdMY29ERzZQMDRvLUZqckozMElvaXVwUDR2cXPSAa4BQVVfeXFMTmthTG9ZaHJMTU5DZFFaOUxUSjZMTzB2ZUQtWEpqTXV2MkI4WTFiZEhVbHY3RW43VW9MeU84SklqUWJRWndnZXhtMG8xOUVCNTJKSmUyWlFHS1N1WnNZYW5VOHREYkNPY1BmZ0hrYnh1Ukd6bWFQeF8zRGdBaldtQ0Ewa2xhRFdieWl1dVlhVnFCenlrdmswbDVTdUVCbE5TSEdSY1RMZi1SRnB3ZzFn?oc=5",
+      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
       "entity": "Palantir",
       "stance": "",
       "title": "Palantir (PLTR) AI Drives US Targeting In Iran As Missile Bottleneck Emerges - Yahoo Finance",
@@ -1020,69 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0hIQVdISFl1azNFXy0yU191RVdvMFVHVllwcVRpWGpEc0JZRzFjSVdMMmtHS253cVd0MXAwNkstUGpndFoxMk9NVGlpVVU1cmM4WEF2SnprRHRZX0VGbHIzbEhWZ2FzVXNBMDV2MGZycWYxU2VwQV9kM1U3bWFBLWZ2d3Z0VU5oZUUySTE1UQ?oc=5",
       "date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "source": "Semafor",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ariel Or",
-      "stance": "pro",
-      "title": "Actress Swell Ariel Or takes advocacy for Israeli women further in new film ‘Tankistas’ - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGd5NUNhM3hwRVBBckJQRVN0YjVCUTNiTjJ6TklOLURWYV9ocjZ2Z1RmTGY5VTBsWC1aM1pGN3dGR1A4dl94Rmx2eFRyTG1leUFPODNxZGxMVV9INFZHYUFIVDExSVY4LWVKV0RWeWF1V0RlSUdzR0M3N1VTTDVCZTlqTVJaa2VFd3VUTDdMY29ERzZQMDRvLUZqckozMElvaXVwUDR2cXPSAa4BQVVfeXFMTmthTG9ZaHJMTU5DZFFaOUxUSjZMTzB2ZUQtWEpqTXV2MkI4WTFiZEhVbHY3RW43VW9MeU84SklqUWJRWndnZXhtMG8xOUVCNTJKSmUyWlFHS1N1WnNZYW5VOHREYkNPY1BmZ0hrYnh1Ukd6bWFQeF8zRGdBaldtQ0Ewa2xhRFdieWl1dVlhVnFCenlrdmswbDVTdUVCbE5TSEdSY1RMZi1SRnB3ZzFn?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Sean Hannity",
-      "stance": "",
-      "title": "Has Sean Hannity given up on the Iran war? - Media Matters for America",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16VWJDNWlycE5CN2hYUGNxQ3ExWWJXc3dmUlJjNnhOWVZjT2puczFLckVsTGhpdXpiUGQ3ZEc1Vnl1ZXg4b1puME91XzhQRHN3ci1wREUtd1hBZTlDaXZRZl9XeEhJM2h3eE95dXpHQzlqc2RhdjFocQ?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Media Matters for America",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rand Paul",
-      "stance": "",
-      "title": "Sen. Rand Paul slams Trump’s Iran war, ‘militarization’ of Strait of Hormuz - MS NOW",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRXJRZFJEQk1iZ29MWjNiWkl5eV9FbzREay1HdVA3bXBNWjQzaGptakM1OUt3N0dNM0ZkQ0pBNktHdHFiQWVsaFE3dGtTQ2Fzd2dMZ0paWXFralp4NFR4UFR5V3BpYWc3QlE0NER0aWEwRXlNdWQ3YzBlYnFhb1pjUHRESE90RkNoU0FfNFlhNHF1OXdFeFBJQ0FWUmVWcFlwNkdVYk1KdW5EZFJDakRKaVFEOFg4MDdHcTVTZnBtcw?oc=5",
-      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
-      "source": "MS NOW",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rand Paul",
-      "stance": "",
-      "title": "Rand Paul Slams Trump Over Iran War: 'We Are Worse Off Now Than We Were Before' - HuffPost",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZlFUdldDeUM0LUl0LWd0OW1kTDhvN250QkZOZHBUVlhVWXRUU19jalk3bXRzVURYMkFFNFhjNVBGMUdkRzlyemVva1lvQVM5T0FtZDEzSWJuRnp0UnVMQzhadXItMklBUDNvalctOUdfbk9VSF9oMzlVVnc1MGNtZjhnTFROTHhtbVAzclJyMHdhMTdXaTFwSmVteUlpSHBWSlQ5c3RUejloa2ZKeGfSAbMBQVVfeXFMUEloUU1xR3B3TnN6UlBOUjhSM3diczlwaVNwV2xMNmc1SU5LMUpxekJ3Y1lsV0lEM1R5RXpncjlYT3BITHZWWVcwenZxV21vVFJPVGNqQjNYV0tQMDFkbzc5Unk3RjM5elpfaW9OMV9BMlJHNDVKZGgyV3haVVFZWEQtQkQ4NUtzNEFYVGNzb2ZqOGhPZXljd2RDZTVRb1N4OWt0STlVd3dzSWpCOTUwQmpkVjA?oc=5",
-      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
-      "source": "HuffPost",
-      "confidence": "high"
-    },
-    {
-      "entity": "The Dispatch",
-      "stance": "",
-      "title": "Hamas Agreed to Disarm. That Doesn’t Mean It Will. - The Dispatch",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02YkFhVUdsdzlVaGZ1Tk1XSGNpeXhBck14OG1kQVM4MDJmZVhBVURwaEJIbkV1OFZtQzlQOTZPaXU2My0xbnUxelVodFFGc1J3OGp0YVJDTldwWlJKMF8zM3hrTzh3ZllhbFhuQWZTSEZEM09Jd3c?oc=5",
-      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
-      "source": "The Dispatch",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tim Sheehy",
-      "stance": "",
-      "title": "‘Every war is unpopular’: Sen. Tim Sheehy on Iran - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcjFVSmJvRWpJZ3lQNHEtS0k4S2Y0cHBXN2FENi1OQTNJSjB1NmswWl84cGlvQzk4emdESWJoQkJKZ2o2R2FxSG5IMFlBRWZQVFJjMlEzaXlMS0NEaTBzOXpkc05nblQ5aXhXNy13ME9EUHh6amRmSlBZV1pfcVVnbHM0R2ZZZVNwY21V0gGQAUFVX3lxTE9ZM2tzc0JIWHR2Q1FObmVFaVBIOUpzdW8tMDJqYXJXXzZhV2hrZGJYZDV1aU0tOWU4NE1vemttR3A0N3pjVXZEOHAzZ1VJR3VBNm9Hc1JkTW1RNEdobkowZWprYzl1dDk0MmRMZ2N2QktiVjVlemM5eTQybnJNZ2dlRW13elBMdUJaLXlOdnJpZA?oc=5",
-      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
-      "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jesse Watters",
-      "stance": "",
-      "title": "Jesse Watters: Iran had a chance for peace — and they blew it - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjQlo3Uk8zd2ZnWkgyRzVIR1NvQ09YVlRGa3VTblZ3d0k3OUpMckxGYnZVSlJqeU1GRWVIeHJFcFVTVzFQUXF3NkRydUt3cjdzQnc0dHl3?oc=5",
-      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
-      "source": "Fox News",
       "confidence": "high"
     }
   ]

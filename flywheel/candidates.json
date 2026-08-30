@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-29 16:58 UTC",
-  "count": 7,
+  "generated": "2026-08-30 17:12 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Ali Beikzadeh",
@@ -16,19 +16,6 @@
       ]
     },
     {
-      "name": "Arif Theruvath",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "I Was Taught to Hate Jews — Then I Went to Israel | Arif Theruvath",
-          "date": "2026-08-25",
-          "link": "https://www.youtube.com/watch?v=4WejKPQ9wg0"
-        }
-      ]
-    },
-    {
       "name": "Dan Schueftan",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -38,6 +25,19 @@
           "title": "Has Turkey Become Israel’s Most Dangerous Enemy? | Dan Schueftan",
           "date": "2026-08-26",
           "link": "https://www.youtube.com/watch?v=J3on1Zamtyc"
+        }
+      ]
+    },
+    {
+      "name": "Flock Cameras",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "Jeff Bridges: “The Surveillance State Is Not Cool, Man” — Flock Cameras",
+          "date": "2026-08-29",
+          "link": "https://www.youtube.com/watch?v=0mfhv-YSrSw"
         }
       ]
     },
@@ -61,6 +61,12 @@
       "sources": [
         {
           "channel": "The Jimmy Dore Show",
+          "title": "The Dollar Is Losing the World — Jeffrey Sachs",
+          "date": "2026-08-30",
+          "link": "https://www.youtube.com/watch?v=b86hgJZmcts"
+        },
+        {
+          "channel": "The Jimmy Dore Show",
           "title": "Trump’s Iran Sanctions Screw Over Americans | Jeffrey Sachs",
           "date": "2026-08-27",
           "link": "https://www.youtube.com/watch?v=yCmko6gMtWQ"
@@ -77,6 +83,19 @@
           "title": "“If America Abandons Israel, India Will Be There” | Nikhil Chandwani",
           "date": "2026-08-25",
           "link": "https://www.youtube.com/watch?v=cusgyjrtXpE"
+        }
+      ]
+    },
+    {
+      "name": "Tal Oran",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "They Call Me a \"White Colonizer\" — My Family Was Driven Out of Iraq! | Tal Oran",
+          "date": "2026-08-30",
+          "link": "https://www.youtube.com/watch?v=bi1QUkIzuaU"
         }
       ]
     },
