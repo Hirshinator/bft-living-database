@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-30 17:16 UTC",
+  "generated": "2026-08-31 19:27 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 95,
+  "cursor": 345,
   "count": 120,
   "mentions": [
     {
@@ -96,6 +96,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Warner Todd Huston",
+      "stance": "pro",
+      "title": "Auschwitz Jewish Center Foundation, 1,000 Hollywood Heavyweights Slam Mark Ruffalo's Antisemitic Paramount-Warner Bros. Condemnation - breitbart.com",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNNVFwakl2bjZZMER1dmszWHdvRjRXWEYtdzU3Q0tKWS1rTU1SWlAxOXc1QlYwVW54c3BsYndUaExWbFU5TnFNdU95T2drMHQ2bG45aVlLTGJROFRRYkpJZFo1eUp6VlVPdVRyVUdCVDFUOV9qZWw3c1Jla0JCd2pWNUdId2JHLTBsbXVxMm5qT0FxaDRLZTM0YmVCUVFxQVBNVFJ2TVdRUUhsTUF1N0cxYnAwUF9zSmZTMW5GR0h3WVVEMFBEb0RMOEJWMWJQY0JaXzJNUVhPcjY3d1FVYWdLcXR3UTd2c0ZrODlOdFFnRXpNWmVFWUljenByMGtXYjEwN0h2ZFZ3SjVZbDNJ?oc=5",
+      "date": "Wed, 26 Aug 2026 14:54:28 GMT",
+      "source": "breitbart.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Jillian Michaels",
       "stance": "",
       "title": "Joy Schools Fitness MAGA Jillian Michaels On Defunding Israel | The Joy Reid Show Pizza Salvatoré (3XXeh1Rxuw) - Mshale",
@@ -111,6 +120,15 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Pa0NoaWNUSkJCczRGRXQ0X0xaeGtXd1BVWVBpSG1QT0VfX2tNTW9SZ3hNRVBlYVhQbnJrZmtGQ3FGZmhiQXprYmg2aHBjT01PUEE?oc=5",
       "date": "Wed, 26 Aug 2026 10:24:15 GMT",
       "source": "Iran International",
+      "confidence": "high"
+    },
+    {
+      "entity": "Benny Johnson",
+      "stance": "",
+      "title": "Benny Johnson Iran admitting defeat 8/26/26 - Media Matters for America",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nSUxnU3lTeW9GMy0yUXhTQXU1X05MaTNqUGlQZGJQWTRsQUNWUm9nSjVFSC01ZjJoRzVQUU1IUzliNHlwdTJQNjRXeVVOWE92STM2aQ?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "Media Matters for America",
       "confidence": "high"
     },
     {
@@ -204,15 +222,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Anti-Defamation League (ADL)",
-      "stance": "",
-      "title": "A Crisis of Representation: Antisemitism and Inclusion in Higher Education Unions - Anti-Defamation League",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNC14cWVGcktaeS0taDI0SmlHTVpNb3F5OG9FREtNRnp1UTF6Tk5NdlJnN1ZDS051Um9BSXc3Z1lQWHJuY3dscnk3UGtiOGhBbTNLYm9Lb3F1MTJ5RDgzRzNVbllTZU5wZllIOVMwb0ZZVHZQdXRQTUpGZnRSSmV3cUw3V2k5aDIxZHp2Q3Z1V2dhWTQ5aXJhY05JSXk0OHR5MDhpRGxCLVNOTHFBeEE?oc=5",
-      "date": "Wed, 19 Aug 2026 17:18:41 GMT",
-      "source": "Anti-Defamation League",
-      "confidence": "high"
-    },
-    {
       "entity": "Hudson Institute",
       "stance": "",
       "title": "Why Trump Needs to Finish the War with Iran - Hudson Institute",
@@ -273,6 +282,15 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLUJGVmV2UWV2UnpyMnFRX1RrV1JXLWhyMG5xQlFEREJENThoUGdzSFdXUzhEQTJOWUs2dE5rODFyMEM1amlPVUVtcmxTVWNYVkplWnZWeTBtNWxHUDh3SVVEelFGcUE0TXlLd0Q4dTJFU1FlRldCNGFMNEVvQ3hZdldJaUg1NWIycEI5NXpMNA?oc=5",
       "date": "Wed, 19 Aug 2026 10:00:00 GMT",
       "source": "Washington Examiner",
+      "confidence": "high"
+    },
+    {
+      "entity": "Anti-Defamation League (ADL)",
+      "stance": "",
+      "title": "A Crisis of Representation: Antisemitism and Inclusion in Higher Education Unions - Anti-Defamation League",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNC14cWVGcktaeS0taDI0SmlHTVpNb3F5OG9FREtNRnp1UTF6Tk5NdlJnN1ZDS051Um9BSXc3Z1lQWHJuY3dscnk3UGtiOGhBbTNLYm9Lb3F1MTJ5RDgzRzNVbllTZU5wZllIOVMwb0ZZVHZQdXRQTUpGZnRSSmV3cUw3V2k5aDIxZHp2Q3Z1V2dhWTQ5aXJhY05JSXk0OHR5MDhpRGxCLVNOTHFBeEE?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "Anti-Defamation League",
       "confidence": "high"
     },
     {
@@ -384,6 +402,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Amy Klobuchar",
+      "stance": "",
+      "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "source": "The Times of India",
+      "confidence": "high"
+    },
+    {
       "entity": "Tim Scott",
       "stance": "",
       "title": "Tim Scott goes scorched earth on El-Sayed: 'He's for Hamas, but he's against America' - Fox News",
@@ -394,15 +421,6 @@
     },
     {
       "entity": "Mike Lindell",
-      "stance": "",
-      "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "The Times of India",
-      "confidence": "high"
-    },
-    {
-      "entity": "Amy Klobuchar",
       "stance": "",
       "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
@@ -1036,8 +1054,17 @@
       "stance": "",
       "title": "Ashley Hinson talks war in Iran, healthcare, U.S. Senate campaign - Sioux City Journal",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYTl6eXRmUnN4M3JOSUp6aVRuWV9qVGVkYVVPenZhZXhDR3dFb2Q0ZEFEaVEtWGd1MnJUWVRJX1VCUlRqUUtRYU40RnJnVkdPR2JYeTNRbV9mSllFWUZvekhveURWQUd4UkVLWDI5RGJ5T3BkMnA2bDU3RGFma254QTdkYS1pRE1Dc0tJZjNNZEI5Ym96X1hfa3FSZDRhWlRKZ1BKSElQQWNLbmxYa0RJZ1pmbHh2YkQwdjdBWW0zNjB0bXN0UDRV?oc=5",
-      "date": "Tue, 11 Aug 2026 14:20:39 GMT",
+      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "source": "Sioux City Journal",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ayanna Pressley",
+      "stance": "",
+      "title": "Pressley Demands Israel Release US Citizen Sama Safi, Abducted by IDF More Than Two Months Ago - commondreams.org",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03cDdLeTZ5anAtZmR5TjdMd1dhR0dqVHhjVS1HMEUzN3lRTFd0ekxxYnY1RU1peU1qcFV5d3VwSVB3WjNIbXpTS3pvQ0I5ZkRNZlUwd1ljQ2puNVo3Q0RQY3RfRGctQQ?oc=5",
+      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "source": "commondreams.org",
       "confidence": "high"
     },
     {
@@ -1056,33 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdEJIbW51bHNvX2xpYmhqdmt0OTVpUHFaUE94SlBfN1ZxMkZNbTBTdkpWTzB6WmVlWWVhOC0tWjZsSFJhaVc1NHpYSlRZbzFQMW1NYl96R3EwSUYwMmRFaE0zeE5KWkhoVXREdTJja0dfNXhMWFpER3VLdnV3TXNIMEFjYVl0cGt4UVpxWW1HRkhhUlhD?oc=5",
       "date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "source": "Yahoo Finance",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ron Wyden",
-      "stance": "",
-      "title": "Sen. Ron Wyden visits our studio, answers questions on fires, Iran war and Epstein - KMTR",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdkx5RkMxdUlwZEpiUmMwMmFtYWw4ZDJUZExtUk1hYlpZZDhUQVBiMXZzVHplOEVEcEM4ckxvVUdpNkhxSUJJTDYzNGRHcnNzVUF5VWJQc2FiYlJ1QzB3VE05ekQ5LUw4MHJQeGc1cEhPeElOOXVWeHN6aV9qcGQ4NVhabzdjYjl5VmF2OTQtM2JwXzI5MDdGWmJfVkZES1I2Y2xjbXZDN3VuRHlG?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "KMTR",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bruce Blakeman",
-      "stance": "",
-      "title": "Meet NY Gubernatorial Republican Candidate Bruce Blakeman, a defender of Israel - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQkdHUmFleWUxMUFMRzVWOXJ3R25jVWNDanNSc29SRzVOUDlBbHlrWHFCTGVDaGtXUTZkYVZqM1E2emxNaWtiZHhXMFRTX193R0I1bzFwSENESmFsQjRIU3p0bzBDUERnYkItZ1NveGZRU0lVN0I5eGg2TE5PUnliWVYxeWduRThCV1ZxSkNYbElwS2pBVS1pOElYMi1ySkdaekwtSF9RMDN6S1A4N3RpVQ?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
-      "entity": "Dan Sullivan",
-      "stance": "",
-      "title": "Exclusive / VoteVets goes after Sullivan for Iran votes - Semafor",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0hIQVdISFl1azNFXy0yU191RVdvMFVHVllwcVRpWGpEc0JZRzFjSVdMMmtHS253cVd0MXAwNkstUGpndFoxMk9NVGlpVVU1cmM4WEF2SnprRHRZX0VGbHIzbEhWZ2FzVXNBMDV2MGZycWYxU2VwQV9kM1U3bWFBLWZ2d3Z0VU5oZUUySTE1UQ?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Semafor",
       "confidence": "high"
     }
   ]
