@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-31 19:27 UTC",
+  "generated": "2026-09-01 17:13 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 345,
+  "cursor": 595,
   "count": 120,
   "mentions": [
     {
@@ -51,6 +51,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Hakeem Jeffries",
+      "stance": "",
+      "title": "Hakeem Jeffries Under Fire as Pro-Israel Democrat Tapped for Top Post - Newsweek",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUQ2ZHFJMXlQRDl1YU5XRU8yRXhNQmVxemVwV2RFRFN6QW4tREszSFJPb2pFaUNzZDRtQllyTjFUcEZpMnJjbWloQUFPQnh2c05Gcm5HVFVXZ29nN21RUDN0U1NNdEtsMDZHd3phVTZQYWRMWm04dHROZk8zMWJjSWk5RldlSUc1Q1d0VjQwV0thWTdiZEtiMWtiSE02dDlJRFZMeTNn?oc=5",
+      "date": "Wed, 26 Aug 2026 22:08:00 GMT",
+      "source": "Newsweek",
+      "confidence": "high"
+    },
+    {
       "entity": "Gal Gadot",
       "stance": "",
       "title": "Gal Gadot's new thriller, 'Fauda' season 5 and the future of Israeli TV explored - The Jerusalem Post",
@@ -75,6 +84,15 @@
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEN0JKYV9ISnZQRzY1VGdzczhhN3FHSFpkMDhLWEFHd3ZRTG1QUm5GcmNPXzJYTTJJbEVjSlRqMmlXWGhwTHZqTkJvNnA?oc=5",
       "date": "Wed, 26 Aug 2026 19:12:05 GMT",
       "source": "ABC News - Breaking News, Latest News and Videos",
+      "confidence": "high"
+    },
+    {
+      "entity": "Elissa Slotkin",
+      "stance": "",
+      "title": "Slotkin, Schiff, 45 Senators Press Netanyahu to Protect U.S. Citizens, Stop Settler Violence in West Bank - U.S. Senate Website (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcXUzNjZwTlFYSXB4cWdITElwa1Nld1hGb0NLVDBGa2NWbmpGLWhWSWNFM2VXMi1qWkt4RzhYRzd5N3ctTGJvYXNpVVdiNkJCMzFYRXRSRThubHdZQ2F1X1lQUEUxVUdLZUlLMERIdkFCSzAxN1Vub29za2loaFJZM1JlRF9vUW9PeWh6OWNOc2VIUkdYZURocGdWTnIzeVpzRHFvSURONlJwS1Q1eEtuYXItNEVsWkR4b1otc3pYUThwb3BvNFg1d2M2MmUtaks3amdQYXA3ZW96Rm5Q?oc=5",
+      "date": "Wed, 26 Aug 2026 16:28:27 GMT",
+      "source": "U.S. Senate Website (.gov)",
       "confidence": "high"
     },
     {
@@ -285,6 +303,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Don Bacon",
+      "stance": "",
+      "title": "Bacon urges Trump to ‘say less’ after ‘contradictory’ Iran messages - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RXdGszU1g5ZUdJdHZXRUJlMEp1b3VjWWtvTVNpWHNQZjU3R0V6VTBJWlppNkprY0VqckpydHYtclNxb256bHU0cGV0UFp5azBwZ2ZiVHZqSmpUVlNpTjNVaVRFbFlISnB2ZFF6aVV4Rkc4b2FoTmdZMzhkNVlpZEZxVdIBiAFBVV95cUxPYjFzaVRBMV81YVZ0Yi05M1lWN1dFcWZrYU54WGJvY3hWWUJkd0I4bldPYl84RHZoNDNLa0R2LTdaYWJfdTNfWVdLUm5heEVxNkNKVXIyLUphXy1uYTNVU3EyTFNsa1VuTkFndVNheHAyM3NGRzIzQl82dTNkUS1XcHFvbUJBMWtz?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
       "entity": "Anti-Defamation League (ADL)",
       "stance": "",
       "title": "A Crisis of Representation: Antisemitism and Inclusion in Higher Education Unions - Anti-Defamation League",
@@ -298,15 +325,6 @@
       "stance": "",
       "title": "Rick Scott: Trump will have to resume full war with Iran - The Hill",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWHpHZjFsTHJMZUlYYS1xak1NYnN5OWpmX0I5clNrUXJZSWIwbzdDdld2bnFuazl2M2hXemFTdjBDenk3dHgyT2RXenpRQS1UZXhOekpaRExYc29UVWxjdEdLaDNMUnZCQi1ZLU1xUGh6Rm1GMTctWF9PbUVWYm5pN2J5eWl6MWFDVjRHQTNxQVZhTHg5T3NOWNIBngFBVV95cUxQOXg2dVEwN3VQYjJod2pxbHdGZVlJeWYwWDBScnhDbkJGZzlrbkEwTWJ2ZklFOW9vVWk5YkU1eVVzZE1UWVBReUlIYzB1d21Pc3RXRVFtS2VDYTcyVW1SSU9wZFZPbUxVTm91NzB1TzczS19WOTFaSDNIOEZPWjE5T1ZXZTVCdWZ3bnJHN2dJR2c1TTZ3bGYxTGN3S2REUQ?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Don Bacon",
-      "stance": "",
-      "title": "Bacon urges Trump to ‘say less’ after ‘contradictory’ Iran messages - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RXdGszU1g5ZUdJdHZXRUJlMEp1b3VjWWtvTVNpWHNQZjU3R0V6VTBJWlppNkprY0VqckpydHYtclNxb256bHU0cGV0UFp5azBwZ2ZiVHZqSmpUVlNpTjNVaVRFbFlISnB2ZFF6aVV4Rkc4b2FoTmdZMzhkNVlpZEZxVdIBiAFBVV95cUxPYjFzaVRBMV81YVZ0Yi05M1lWN1dFcWZrYU54WGJvY3hWWUJkd0I4bldPYl84RHZoNDNLa0R2LTdaYWJfdTNfWVdLUm5heEVxNkNKVXIyLUphXy1uYTNVU3EyTFNsa1VuTkFndVNheHAyM3NGRzIzQl82dTNkUS1XcHFvbUJBMWtz?oc=5",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "The Hill",
       "confidence": "high"
@@ -402,6 +420,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Brian Kilmeade",
+      "stance": "",
+      "title": "Kilmeade predicts ‘kinetic war’ with Iran before Labor Day - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zMlVGMXJQY05YSlUwRFZEbTY2OEJCQ0hVMG9sTDBGMmRJc0h4SXZwSUxqN0lVN0JEdlBQSG5Id3hIVVpxelBIWWx1cDFZOVp3dDZGN2g4a3R0Sk9oY1hTd3libUFoa1J5VXJxZGVEdUpFV0ZwOXpUZjRR0gF_QVVfeXFMTTFiNnVELVRhNG81RTFKMTBFTm0wdzZEODk4cnd2SlBoRzdabWljVkktWm1RUVBCVXhsN3JCRENXNkFaMVR5cERMbkdQSUZwYm40UDlYOU1lV3NyM2gxSDJxZC1BdWJ0X05hNGdtcFVydW5IOVlQUWFoQnlfOFJUMA?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
       "entity": "Amy Klobuchar",
       "stance": "",
       "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
@@ -426,24 +453,6 @@
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
       "date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "source": "The Times of India",
-      "confidence": "high"
-    },
-    {
-      "entity": "Brian Kilmeade",
-      "stance": "",
-      "title": "Kilmeade predicts ‘kinetic war’ with Iran before Labor Day - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zMlVGMXJQY05YSlUwRFZEbTY2OEJCQ0hVMG9sTDBGMmRJc0h4SXZwSUxqN0lVN0JEdlBQSG5Id3hIVVpxelBIWWx1cDFZOVp3dDZGN2g4a3R0Sk9oY1hTd3libUFoa1J5VXJxZGVEdUpFV0ZwOXpUZjRR0gF_QVVfeXFMTTFiNnVELVRhNG81RTFKMTBFTm0wdzZEODk4cnd2SlBoRzdabWljVkktWm1RUVBCVXhsN3JCRENXNkFaMVR5cERMbkdQSUZwYm40UDlYOU1lV3NyM2gxSDJxZC1BdWJ0X05hNGdtcFVydW5IOVlQUWFoQnlfOFJUMA?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Cliff May",
-      "stance": "",
-      "title": "The Arab Case For Israel (Cliff May Feat. Hussain Abdul Hussain) Siemens (HmQE5V5cUw) - Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51WFlCU3pyUjBPbktjNm03d2pkbkFNU3V3eDJBRUVONUVvS1BiYVRLTlB4Z0ptN2oxZWk3Z1p4c0tEUEVvd0xHWXFqRnRNdDFDQVhkWFJFNEhlaXc?oc=5",
-      "date": "Wed, 12 Aug 2026 06:05:37 GMT",
-      "source": "Mshale",
       "confidence": "high"
     },
     {
@@ -681,6 +690,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Gad Saad",
+      "stance": "",
+      "title": "The UN’s Israel Bias EXPOSED | Gad Saad - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xSV9JbDlONHpfOW9TU00zdk8tUkR5OW54aGhWbmtXaUpiM1ZiNUVIS0stcGtDYzBhSW9wZTNILUY1NTB1dTRnc2Q5RFZDcktYLWJ6d2Yzb1J6U0RP?oc=5",
+      "date": "Tue, 25 Aug 2026 16:15:02 GMT",
+      "source": "YouTube",
+      "confidence": "high"
+    },
+    {
       "entity": "Gilad Levy",
       "stance": "pro",
       "title": "LSU men’s basketball gains commitment from Israeli Center Gilad Levy - lsureveille.com",
@@ -741,6 +759,15 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Jdm5pSEF5cW5YYU5OMU9ZUldPbmYyYWItcVc2dFBWVDRDSFJrTWtFUFdUSUgtUTl0dlVyaUpwLTk1NUtzZzJmZFJTa0d3dElKMjE0M1BB?oc=5",
       "date": "Tue, 25 Aug 2026 07:08:23 GMT",
       "source": "Ynetnews",
+      "confidence": "high"
+    },
+    {
+      "entity": "Douglas Murray",
+      "stance": "",
+      "title": "Douglas Murray: The Death Penalty Is Cruel. Hamas Terrorists Deserve It. - Manhattan Institute",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHZNX1JnQ0VaaFk0bndocDlYT1Jtai11T1YtRkV6dTFneElMSmlENzlRaVUwUHU0TVBPdGVSLTRzRUREM25leGxaYXFwZUdwdUpkeUs3SzNVTlU0WURtS2JYZU1RaFFfXzB5MVE2TURpMzh2bElPWEZJVWRzRUxxUkpWTm9xRklTMkk1d0l0MnVkaV9CVGhlNHdZOGdOS2NZMUlkaFlrM3g?oc=5",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "source": "Manhattan Institute",
       "confidence": "high"
     },
     {
@@ -942,6 +969,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Darline Graham",
+      "stance": "",
+      "title": "Darline Graham met with Netanyahu during his US visit, vowed to continue standing with Israel - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zTDZTOUk3Uk4tbU1DU2ZHcXRsOHU5MDdnRW5kS3BIeDdGZ1A5dnlsSWhQd3RsYlpjTy1uY0VtajVPX2M4UDNKdlZ0UFNIRUU5aTJGM3hQSm9GVmRTVjdn?oc=5",
+      "date": "Tue, 18 Aug 2026 07:00:00 GMT",
+      "source": "The Jerusalem Post",
+      "confidence": "high"
+    },
+    {
       "entity": "Rick Scott",
       "stance": "",
       "title": "Trump likely hits Iran in next 30 days: Sen. Rick Scott - NewsNation",
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51ZFY2SFViLXNnMUF2bUJwb2hWcHNEZ19XSGZ2dDRWTFBiQU0zaDFGN3dsNlpUWk45U2ROWFBEVjRWb1Z0T1BjTkdOdGx5S3BCdFpDaUpULUJNay1WMjZpZw?oc=5",
       "date": "Tue, 11 Aug 2026 18:18:02 GMT",
       "source": "Mshale",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ashley Hinson",
-      "stance": "",
-      "title": "Ashley Hinson talks war in Iran, healthcare, U.S. Senate campaign - Sioux City Journal",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYTl6eXRmUnN4M3JOSUp6aVRuWV9qVGVkYVVPenZhZXhDR3dFb2Q0ZEFEaVEtWGd1MnJUWVRJX1VCUlRqUUtRYU40RnJnVkdPR2JYeTNRbV9mSllFWUZvekhveURWQUd4UkVLWDI5RGJ5T3BkMnA2bDU3RGFma254QTdkYS1pRE1Dc0tJZjNNZEI5Ym96X1hfa3FSZDRhWlRKZ1BKSElQQWNLbmxYa0RJZ1pmbHh2YkQwdjdBWW0zNjB0bXN0UDRV?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Sioux City Journal",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ayanna Pressley",
-      "stance": "",
-      "title": "Pressley Demands Israel Release US Citizen Sama Safi, Abducted by IDF More Than Two Months Ago - commondreams.org",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03cDdLeTZ5anAtZmR5TjdMd1dhR0dqVHhjVS1HMEUzN3lRTFd0ekxxYnY1RU1peU1qcFV5d3VwSVB3WjNIbXpTS3pvQ0I5ZkRNZlUwd1ljQ2puNVo3Q0RQY3RfRGctQQ?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "commondreams.org",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ariel Or",
-      "stance": "pro",
-      "title": "Actress Swell Ariel Or takes advocacy for Israeli women further in new film ‘Tankistas’ - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGd5NUNhM3hwRVBBckJQRVN0YjVCUTNiTjJ6TklOLURWYV9ocjZ2Z1RmTGY5VTBsWC1aM1pGN3dGR1A4dl94Rmx2eFRyTG1leUFPODNxZGxMVV9INFZHYUFIVDExSVY4LWVKV0RWeWF1V0RlSUdzR0M3N1VTTDVCZTlqTVJaa2VFd3VUTDdMY29ERzZQMDRvLUZqckozMElvaXVwUDR2cXPSAa4BQVVfeXFMTmthTG9ZaHJMTU5DZFFaOUxUSjZMTzB2ZUQtWEpqTXV2MkI4WTFiZEhVbHY3RW43VW9MeU84SklqUWJRWndnZXhtMG8xOUVCNTJKSmUyWlFHS1N1WnNZYW5VOHREYkNPY1BmZ0hrYnh1Ukd6bWFQeF8zRGdBaldtQ0Ewa2xhRFdieWl1dVlhVnFCenlrdmswbDVTdUVCbE5TSEdSY1RMZi1SRnB3ZzFn?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Palantir",
-      "stance": "",
-      "title": "Palantir (PLTR) AI Drives US Targeting In Iran As Missile Bottleneck Emerges - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdEJIbW51bHNvX2xpYmhqdmt0OTVpUHFaUE94SlBfN1ZxMkZNbTBTdkpWTzB6WmVlWWVhOC0tWjZsSFJhaVc1NHpYSlRZbzFQMW1NYl96R3EwSUYwMmRFaE0zeE5KWkhoVXREdTJja0dfNXhMWFpER3VLdnV3TXNIMEFjYVl0cGt4UVpxWW1HRkhhUlhD?oc=5",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Yahoo Finance",
       "confidence": "high"
     }
   ]

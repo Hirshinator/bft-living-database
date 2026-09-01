@@ -1,20 +1,7 @@
 {
-  "generated": "2026-08-31 19:23 UTC",
-  "count": 10,
+  "generated": "2026-09-01 17:09 UTC",
+  "count": 8,
   "candidates": [
-    {
-      "name": "Ali Beikzadeh",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "October 7 BACKFIRED on Iran’s Regime | Ali Beikzadeh",
-          "date": "2026-08-27",
-          "link": "https://www.youtube.com/watch?v=2Xq9cXVGBeU"
-        }
-      ]
-    },
     {
       "name": "Dan Schueftan",
       "orientation": "ally",
@@ -38,19 +25,6 @@
           "title": "Jeff Bridges: “The Surveillance State Is Not Cool, Man” — Flock Cameras",
           "date": "2026-08-29",
           "link": "https://www.youtube.com/watch?v=0mfhv-YSrSw"
-        }
-      ]
-    },
-    {
-      "name": "James Corbett",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "How a U.S. Loss to Iran Starts the Next World War – James Corbett",
-          "date": "2026-08-28",
-          "link": "https://www.youtube.com/watch?v=cNOPIWheWIk"
         }
       ]
     },
