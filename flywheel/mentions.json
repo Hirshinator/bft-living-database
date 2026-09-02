@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-01 17:13 UTC",
+  "generated": "2026-09-02 17:04 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 595,
+  "cursor": 845,
   "count": 120,
   "mentions": [
     {
@@ -298,7 +298,7 @@
       "stance": "",
       "title": "Mark Levin’s strategic folly on Iran - Washington Examiner",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLUJGVmV2UWV2UnpyMnFRX1RrV1JXLWhyMG5xQlFEREJENThoUGdzSFdXUzhEQTJOWUs2dE5rODFyMEM1amlPVUVtcmxTVWNYVkplWnZWeTBtNWxHUDh3SVVEelFGcUE0TXlLd0Q4dTJFU1FlRldCNGFMNEVvQ3hZdldJaUg1NWIycEI5NXpMNA?oc=5",
-      "date": "Wed, 19 Aug 2026 10:00:00 GMT",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "Washington Examiner",
       "confidence": "high"
     },
@@ -417,6 +417,15 @@
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNXlXS01rSHBYMUduNlJPSzVZdEdERWFCWWpFelBNN0VQQ1doTk1mS3JzVlB4Yk82c3V5c01qVXhWOVJYdi1GVGhVcmJuYTVwSEhybEJFV0J0X25EZlprSFFwRHNhZHE5TEl5TTZrSHFhLUQ5R1BLRjhBVF9Tb3NiaWVHUFpCWjE3S2doX3BzR292UkxDd3FWNUtQV3dhR3F5YW1XN2JnTFRpQnpOSVNpdlBKbWh2V1hVZEx3UzNiTUt4Z0R3WF8yQWpzWlZwUHpnaGhEOWZ6bFk2Z0tSM0FJN044bTl6eE85cVE?oc=5",
       "date": "Wed, 12 Aug 2026 10:12:05 GMT",
       "source": "TradingView",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jon Ossoff",
+      "stance": "",
+      "title": "An Open Letter to Senator Jon Ossoff - Atlanta Jewish Times",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NVy03aGRFb3lFUWkxM2ZzanN3NWJCTi1YUlpZX3hiRHdaX2Vkam1pUG1VdGg5eTU2TUFZaWhYWlRrbFRTTFI5TEZna0dXQjZTVW9yVG11dS1LWDZnclJRZUViMlVxbU5nTUdqcldSWUNPYks3TzlHS2dKUErSAYIBQVVfeXFMTmtDaHFtQnY1U2t0N3B6N0tUbFY4bDJyeUpQZTFNTkNaQVh4V2dJYlJERTRhMXd1c1BrcVh6Ukh6MHNfTjhkOEpteVZSWVN5MzZFaUVMYmpCaXNCdlZvZG9uTXNUYUdRN25uZzBoR1F0QWRIUnNybXRBb1NIbGN4ZTI0QQ?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "source": "Atlanta Jewish Times",
       "confidence": "high"
     },
     {
@@ -591,6 +600,51 @@
       "confidence": "high"
     },
     {
+      "entity": "Jon Ossoff",
+      "stance": "",
+      "title": "Opinion: As Israeli Americans, we support Jon Ossoff’s approach to the Middle East - AJC.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SVXJPcGRzczg3MF9BMndadWxOOFBKTlg4Q0pZT2s0bXZlNFhxb1BQdFJnczFyOXVJc05kaElMNDJ5MEVsQlJ6bWlWV2VnVm12WjBnakxPRjczR3laVFQzRlMwMzhIemFQUWhTb1l5d3p1TDFQeDdn?oc=5",
+      "date": "Wed, 02 Sep 2026 11:11:57 GMT",
+      "source": "AJC.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "JD Vance",
+      "stance": "",
+      "title": "JD Vance delivers convoluted speech to US Republican Jewish organization - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcW0tS21UQVlRLThDT1hCcmNVLUFIUlJKVUUxbXliM0pPX3VrOWI4TTljQ3VOcWFGSlVETTYtS2J5SERrV1ZsWFpERDE1UHhHRW1YUTJGVUlpY2NKQk4zckNCTGYxMktkMjFTOUdJN1ZueVp4eEl3bUN2Q3pRVnlqZHBqblN2c2NQNnlEYkc4VE55bUJqVzNVdXFkMGx1anMyNmNLX2Y4VHYtQlFwYmVOeE5lSmUwRndQSWJldE96WEZYRTV4Nl9YbzlMQkh5ZDIwRXNMNk05YlNiY0ozekVr?oc=5",
+      "date": "Wed, 02 Sep 2026 10:34:05 GMT",
+      "source": "Le Monde.fr",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Johnson",
+      "stance": "",
+      "title": "House Speaker Mike Johnson snaps at reporter over an Iran war question - KGW",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOLVF4ay1RSzZEeldVdjlXYWFiUGR4LXJ0Z2NqODJaeDhjTkJxVGQzc1JvNmd1MnJXRGZRV3BCSlhJeUM3RmU0UFdGeW02MHF5a2xla0ZZM3lhdnpxczFpamVialh6SWZseFc1NUMzU1l6ZHJGNWRVRmhSNDlweTM4NGxXUzVnNEZnTlhvUUYzUzk2TUVfYWxKVFd0NUNYTHowMV9rT1NhYjZXeFo5V2ZqazdMeXgwU2ZRRHd1VnA0Uy03U2Z1cU1WdFBwQ3RubmdGUnpXX1ZvVGhza3VyU3dTUjhkdzlUdHpuWmpPZTZRcFhOeXRCc0E?oc=5",
+      "date": "Wed, 02 Sep 2026 04:11:00 GMT",
+      "source": "KGW",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Johnson",
+      "stance": "",
+      "title": "House Speaker Mike Johnson snaps at reporter over an Iran war question - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbW9QWW5ocGJrN0lrS2tMZlVlS244OEJNUnEzZTlUTlJrSXk2Z0k1S1RGZUVQQ3BPdlRpaXBHcktsOG84S1RrMFl2bmpwWFR6dGk4bWs1emlGUW5nLWplRUt4OXBhbkdOOU5oelR5TUFtdzlPRVZmc1BUUXVSTHRpd19iMm5WOFll?oc=5",
+      "date": "Wed, 02 Sep 2026 04:11:00 GMT",
+      "source": "Yahoo",
+      "confidence": "high"
+    },
+    {
+      "entity": "JD Vance",
+      "stance": "",
+      "title": "Haley tells Vance to ‘choose a side’: Israel or Tucker Carlson - thehill.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWHljOXczZE9ua0xhQjB4b01lRFZ1dTZuSXFoOUMxdWxQNm5VVlZITGFGdlZoLW5uUmJrVnhmMm1tbXp6YlROUDBkWDBDY3pQanlkQTA4UzdieGg3Tno4bDJmTnc3WU1YNlY3dHdvckx1QklSbmNveDBhTDczM095Q2c4SWNxdGtiRloxTS1INDZDSmF1M0FnUNIBngFBVV95cUxQLWVYMDEzM3ExcWlCQ3MyN0YxM3Zpb2xuekxOVlBFQ0tZNGhsZUtlM3RUZHVNN1gyeFdmVjRkakoyNmVoejBZbnZtMXJJV1d5XzloTDBURDEzSm80UjRnX1BlOE1ZU3BIVVZIbllxT0VGbXFQMjVsNW9MRkk0bmF4SkxyUENpbXVYcUxMSnFoUEdyOElhODdOOW1Yd1oxQQ?oc=5",
+      "date": "Wed, 02 Sep 2026 00:20:00 GMT",
+      "source": "thehill.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Cliff May",
       "stance": "",
       "title": "Trump does not want the Iranian regime to have nuclear weapons: Cliff May - Fox News",
@@ -627,7 +681,7 @@
       "confidence": "high"
     },
     {
-      "entity": "John Fetterman",
+      "entity": "Josh Shapiro",
       "stance": "",
       "title": "Pennsylvania Voters Approve of Shapiro, Fetterman Pro-Israel Stances, Poll Shows - Algemeiner.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjZkM1BqczgtT1FxN2kxWS02WDhYeU1QN2xyUm1JV1JCM2dGeEx2NW5ZdWtHS043UzE4blNCVXJleGdsX1BXYVZNV3lScjJIbVQwOEEzSkJDMHZESEZ6Y1VkbXpsdDZvMHprZll1djFVS0VzNklxS0lzY3R0SURYVWJTcWc0cm8xakZNdF9FNG91Mko4ZXRvekhfMTlHalpiMG1PSFNlRnRDS0tySWs0VnFhd1A?oc=5",
@@ -636,7 +690,7 @@
       "confidence": "high"
     },
     {
-      "entity": "Josh Shapiro",
+      "entity": "John Fetterman",
       "stance": "",
       "title": "Pennsylvania Voters Approve of Shapiro, Fetterman Pro-Israel Stances, Poll Shows - Algemeiner.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjZkM1BqczgtT1FxN2kxWS02WDhYeU1QN2xyUm1JV1JCM2dGeEx2NW5ZdWtHS043UzE4blNCVXJleGdsX1BXYVZNV3lScjJIbVQwOEEzSkJDMHZESEZ6Y1VkbXpsdDZvMHprZll1djFVS0VzNklxS0lzY3R0SURYVWJTcWc0cm8xakZNdF9FNG91Mko4ZXRvekhfMTlHalpiMG1PSFNlRnRDS0tySWs0VnFhd1A?oc=5",
@@ -1029,60 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZTBuTlh1eEZjZlBQanROUnA4N2FNdEVnNVVmUkhJSU9zZXozc0htazZURXA0NHo1TmJMdVdZWE1vd3BLU3YtQnNmTVkxVFBBYXVNRXhNMG1OSWxGTVVtWFI2eFU5RDljVGhDUG5HYjY1UHF5OUVDNXoxazRlY0VPdUNfM3BDWUk1RF96UTJYOVdkWkxzRkHSAZsBQVVfeXFMTldRVnMyY0ZBamNjOC1CTGl2ZFBNYVZzSnhuZlBCX1VBRFFOQ3R3RFk1YjRZNHdBbnJZdmlCOTVQTWFzUDlzdGxCeWRibTNIalpRMnJ6XzJaMDQ3NkwtRW1JMjJZR1ppTGpmcWRpNXN0akk3QUtnUVdZRlNkMEFqZXhhMkQ0STlteXNFaUFOZmZjOUNVSDh6RUFzLTQ?oc=5",
       "date": "Tue, 18 Aug 2026 02:00:00 GMT",
       "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "City Journal",
-      "stance": "",
-      "title": "Palestinian-American Loui Ridi gains access to his besieged West Bank home, in Qusra - Sioux City Journal",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM1hsOVpLVWk3VnZnbXZPU3Y5aHhYeUNZSENCOXpGRE1faXJNSGEwWE43RzhnRk1Pblk2UlNISzh2R1RkUUFRdVREWlNuLUEzODREYmJBc3Q0UVBaQ2gxcGlqc0J4SjBmVWI2XzBiajJpTDZWc0FGTHpGUDM2bmYwS2dwRXNXX0dIZE1VblNGRncxc08zUjZTQXNSTThrLUVCUHc?oc=5",
-      "date": "Tue, 18 Aug 2026 01:13:05 GMT",
-      "source": "Sioux City Journal",
-      "confidence": "high"
-    },
-    {
-      "entity": "Daily Wire",
-      "stance": "",
-      "title": "Kushner Reveals What Hamas Told Him In Rare Face-To-Face Meeting - The Daily Wire",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSm9mVngteXpTSmNfZFdTelQ3SWI3U0NfeWtxbFloMFNVeVRmUTh5emk1UTFEMU0xR3hmek5XQ1JPT3pTODBwQUZDU05sTzM1a0ZuWTBWd2c5RDRiMmg2UEN0cldCTWRIWTA2MEdlSWdsSklGaDlfUFZVbXBYcHE4ajVmR0I5QlJNSmhEUDgtYm9zRjByNWFSdC03bnAwcEJGb1VZai03akJmcWJYMWs1QQ?oc=5",
-      "date": "Tue, 18 Aug 2026 01:13:01 GMT",
-      "source": "The Daily Wire",
-      "confidence": "high"
-    },
-    {
-      "entity": "Dr. James Lindsay",
-      "stance": "",
-      "title": "The Woke Right, Iran War, Trump, Israel, & Social Media Psyops With Dr. James Lindsay Dennys (JjJEnqiljO) - Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KdjVGeDIxRUlUbjRDSzRMSFZuOHJfenVzemUxYVlOWThfcXdFRFl1Y0ozWWdQeWlaNFptQmoyS3JhLVZWbGJYbHA2T3VGc0RFSW92cVZJNUlIUGs?oc=5",
-      "date": "Tue, 11 Aug 2026 22:18:09 GMT",
-      "source": "Mshale",
-      "confidence": "high"
-    },
-    {
-      "entity": "Dan Sullivan",
-      "stance": "",
-      "title": "VoteVets Action Fund Launches $225,000 Ad Campaign Holding Sen. Dan Sullivan Accountable for the Cost of the Iran War - VoteVets",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNa1lncWhFdUFRN0ZDOEljTDYtdWJXLTBKclZWX2s4d0xPbjdPUVVCQ053OXNtcXFhNFJKTHJiZjEyNmU4VFZaNnBYMGVQel9kVzlGbVdMYzVuSE1RSVRKWHRVTUhUUXJzcFZnelU4RmMxeHBscTlkR1ZiWnljSnIyQTRFbGZiMERNQ2czR1dwMkc0aWU5ZkUteE1feWZFdmlSRl9XeGxfVGVMUnJGZEtXQWFIQm03Z2FULWZNVWNMampQbE43S1FRV2ZkYWVyMVJWSVEzc29xVVZJQXdwanVqOGl6aWc?oc=5",
-      "date": "Tue, 11 Aug 2026 22:17:27 GMT",
-      "source": "VoteVets",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elon Musk",
-      "stance": "",
-      "title": "Elon Musk’s SpaceX considering a multi-billion-dollar buyout of Israeli AI startup - The Jewish Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMWhJODUtTXZ0T1lLUTVHc29BbGRGZkpzOGwycGNDWEtuOVdtR3ZqMFNTTWxQbDJBSmRKRmxNVlBmVmhxclUwd2J2WjVUTk9HQ0dVTkF3NHl4UWtuME0tN3hkQXNhNngyNmQ4WGUza3pDOUR5QTFERkVfdTBHLUlfd3RYYVU?oc=5",
-      "date": "Tue, 11 Aug 2026 19:53:21 GMT",
-      "source": "The Jewish Chronicle",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ami Kozak",
-      "stance": "",
-      "title": "Trump's Iran Deal - Laugh Or Cry? With Ami Kozak Vitamin K Deficiency (VriNJGKcxW) - Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51ZFY2SFViLXNnMUF2bUJwb2hWcHNEZ19XSGZ2dDRWTFBiQU0zaDFGN3dsNlpUWk45U2ROWFBEVjRWb1Z0T1BjTkdOdGx5S3BCdFpDaUpULUJNay1WMjZpZw?oc=5",
-      "date": "Tue, 11 Aug 2026 18:18:02 GMT",
-      "source": "Mshale",
       "confidence": "high"
     }
   ]

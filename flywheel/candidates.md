@@ -1,16 +1,10 @@
-# Flywheel candidates — 2026-09-01 17:09 UTC
+# Flywheel candidates — 2026-09-02 17:00 UTC
 
-8 new candidate(s) surfaced from monitored channels, not yet in the database.
+5 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Dan Schueftan — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *“There Is No Such Thing as a DISARMED Gaza” | Dan Schueftan* (2026-08-30) — https://www.youtube.com/watch?v=WAIhy_0LsYc
-
-### Flock Cameras — candidate HOSTILE / check orientation (boosted by a hostile channel)
-- [The Jimmy Dore Show] *Jeff Bridges: “The Surveillance State Is Not Cool, Man” — Flock Cameras* (2026-08-29) — https://www.youtube.com/watch?v=0mfhv-YSrSw
-
-### Jeffrey Sachs — candidate HOSTILE / check orientation (boosted by a hostile channel)
-- [The Jimmy Dore Show] *The Dollar Is Losing the World — Jeffrey Sachs* (2026-08-30) — https://www.youtube.com/watch?v=b86hgJZmcts
 
 ### Kosha Dillz — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *My Israel Film Was CANCELED — Before They Even Saw It! | Kosha Dillz* (2026-08-31) — https://www.youtube.com/watch?v=qd5zFoY6xk8
@@ -23,6 +17,3 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### Two Years Later — candidate ALLY (platformed by an ally channel)
 - [StandWithUs] *DISTURBING CONTENT: The Hamas Tunnel Where Six Hostages Were Murdered | Two Years Later* (2026-08-31) — https://www.youtube.com/watch?v=F91Y86RBVpc
-
-### William Mehrvarz — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *He Was Raised Muslim in Iran — Then Became an Orthodox Jew | William Mehrvarz* (2026-08-28) — https://www.youtube.com/watch?v=Bq_lohxj7T0

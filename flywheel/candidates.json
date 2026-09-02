@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-01 17:09 UTC",
-  "count": 8,
+  "generated": "2026-09-02 17:00 UTC",
+  "count": 5,
   "candidates": [
     {
       "name": "Dan Schueftan",
@@ -12,32 +12,6 @@
           "title": "“There Is No Such Thing as a DISARMED Gaza” | Dan Schueftan",
           "date": "2026-08-30",
           "link": "https://www.youtube.com/watch?v=WAIhy_0LsYc"
-        }
-      ]
-    },
-    {
-      "name": "Flock Cameras",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "Jeff Bridges: “The Surveillance State Is Not Cool, Man” — Flock Cameras",
-          "date": "2026-08-29",
-          "link": "https://www.youtube.com/watch?v=0mfhv-YSrSw"
-        }
-      ]
-    },
-    {
-      "name": "Jeffrey Sachs",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "The Dollar Is Losing the World — Jeffrey Sachs",
-          "date": "2026-08-30",
-          "link": "https://www.youtube.com/watch?v=b86hgJZmcts"
         }
       ]
     },
@@ -90,19 +64,6 @@
           "title": "DISTURBING CONTENT: The Hamas Tunnel Where Six Hostages Were Murdered | Two Years Later",
           "date": "2026-08-31",
           "link": "https://www.youtube.com/watch?v=F91Y86RBVpc"
-        }
-      ]
-    },
-    {
-      "name": "William Mehrvarz",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Was Raised Muslim in Iran — Then Became an Orthodox Jew | William Mehrvarz",
-          "date": "2026-08-28",
-          "link": "https://www.youtube.com/watch?v=Bq_lohxj7T0"
         }
       ]
     }
