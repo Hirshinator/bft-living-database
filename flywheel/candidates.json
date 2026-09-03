@@ -1,20 +1,7 @@
 {
-  "generated": "2026-09-02 17:00 UTC",
-  "count": 5,
+  "generated": "2026-09-03 16:56 UTC",
+  "count": 4,
   "candidates": [
-    {
-      "name": "Dan Schueftan",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "“There Is No Such Thing as a DISARMED Gaza” | Dan Schueftan",
-          "date": "2026-08-30",
-          "link": "https://www.youtube.com/watch?v=WAIhy_0LsYc"
-        }
-      ]
-    },
     {
       "name": "Kosha Dillz",
       "orientation": "ally",
@@ -42,19 +29,6 @@
       ]
     },
     {
-      "name": "Tal Oran",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "They Call Me a \"White Colonizer\" — My Family Was Driven Out of Iraq! | Tal Oran",
-          "date": "2026-08-30",
-          "link": "https://www.youtube.com/watch?v=bi1QUkIzuaU"
-        }
-      ]
-    },
-    {
       "name": "Two Years Later",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -64,6 +38,19 @@
           "title": "DISTURBING CONTENT: The Hamas Tunnel Where Six Hostages Were Murdered | Two Years Later",
           "date": "2026-08-31",
           "link": "https://www.youtube.com/watch?v=F91Y86RBVpc"
+        }
+      ]
+    },
+    {
+      "name": "Yoni Ben Menachem",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Iran Is Preparing a Major Attack — Senior Israeli Analyst Sounds the Alarm | Yoni Ben Menachem",
+          "date": "2026-09-03",
+          "link": "https://www.youtube.com/watch?v=_D6vFFrBgIU"
         }
       ]
     }

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-02 17:04 UTC",
+  "generated": "2026-09-03 16:59 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 845,
+  "cursor": 1095,
   "count": 120,
   "mentions": [
     {
@@ -294,6 +294,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Rick Scott",
+      "stance": "",
+      "title": "Rick Scott: Trump will have to resume full war with Iran - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWHpHZjFsTHJMZUlYYS1xak1NYnN5OWpmX0I5clNrUXJZSWIwbzdDdld2bnFuazl2M2hXemFTdjBDenk3dHgyT2RXenpRQS1UZXhOekpaRExYc29UVWxjdEdLaDNMUnZCQi1ZLU1xUGh6Rm1GMTctWF9PbUVWYm5pN2J5eWl6MWFDVjRHQTNxQVZhTHg5T3NOWNIBngFBVV95cUxQOXg2dVEwN3VQYjJod2pxbHdGZVlJeWYwWDBScnhDbkJGZzlrbkEwTWJ2ZklFOW9vVWk5YkU1eVVzZE1UWVBReUlIYzB1d21Pc3RXRVFtS2VDYTcyVW1SSU9wZFZPbUxVTm91NzB1TzczS19WOTFaSDNIOEZPWjE5T1ZXZTVCdWZ3bnJHN2dJR2c1TTZ3bGYxTGN3S2REUQ?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Rick Scott",
+      "stance": "",
+      "title": "Trump ‘is going to have to’ escalate Iran war: Rick Scott - Washington Examiner",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZUbG95SGNrZjZkR3huRVNQU1gyUmwwd250djM3b3RaODVtbElQdnlTN1BxT3ZiTjhKUi1IVy03eDhjT2VSbU9yQmlKcG1HQ1JKN0hlS2l6WDlBbXZhRzJ3bktGVWJ1YUp4Nkg5MGUxaFNWVHhoTzJob2VIXzFIWDJtTVNZUFVraU02U2twcDJLckMwZmtBV3phdlVDMHNXRVE?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "Washington Examiner",
+      "confidence": "high"
+    },
+    {
       "entity": "Mark Levin",
       "stance": "",
       "title": "Mark Levin’s strategic folly on Iran - Washington Examiner",
@@ -318,15 +336,6 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNC14cWVGcktaeS0taDI0SmlHTVpNb3F5OG9FREtNRnp1UTF6Tk5NdlJnN1ZDS051Um9BSXc3Z1lQWHJuY3dscnk3UGtiOGhBbTNLYm9Lb3F1MTJ5RDgzRzNVbllTZU5wZllIOVMwb0ZZVHZQdXRQTUpGZnRSSmV3cUw3V2k5aDIxZHp2Q3Z1V2dhWTQ5aXJhY05JSXk0OHR5MDhpRGxCLVNOTHFBeEE?oc=5",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "Anti-Defamation League",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rick Scott",
-      "stance": "",
-      "title": "Rick Scott: Trump will have to resume full war with Iran - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWHpHZjFsTHJMZUlYYS1xak1NYnN5OWpmX0I5clNrUXJZSWIwbzdDdld2bnFuazl2M2hXemFTdjBDenk3dHgyT2RXenpRQS1UZXhOekpaRExYc29UVWxjdEdLaDNMUnZCQi1ZLU1xUGh6Rm1GMTctWF9PbUVWYm5pN2J5eWl6MWFDVjRHQTNxQVZhTHg5T3NOWNIBngFBVV95cUxQOXg2dVEwN3VQYjJod2pxbHdGZVlJeWYwWDBScnhDbkJGZzlrbkEwTWJ2ZklFOW9vVWk5YkU1eVVzZE1UWVBReUlIYzB1d21Pc3RXRVFtS2VDYTcyVW1SSU9wZFZPbUxVTm91NzB1TzczS19WOTFaSDNIOEZPWjE5T1ZXZTVCdWZ3bnJHN2dJR2c1TTZ3bGYxTGN3S2REUQ?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -600,6 +609,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Pete Ricketts",
+      "stance": "",
+      "title": "Ricketts, Osborn Clash Over Tariffs, Iran and Party Loyalty in State Fair Debate - klin.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDhXRGI4Z1JYSW92UTZZV2lQNURoaUpJaGg1SVFmLXFwSG1Pb2VwVGZTQU8zU0F4b2Y5VkZ1N0NIS0RPR1RrUHpiX09CUkVYQVp3VUpVWDRvdGdkM2I4TUpQRDQxZXA3NFl1NFR1TkhCWDZWOUczckU2WkpmWXRHbmtUajEwUWlpTFZXRE14NXhLdV9DdExMMXZtLVBrTXVReGYwb2NMcDJJdTA?oc=5",
+      "date": "Wed, 02 Sep 2026 14:00:25 GMT",
+      "source": "klin.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Jon Ossoff",
       "stance": "",
       "title": "Opinion: As Israeli Americans, we support Jon Ossoff’s approach to the Middle East - AJC.com",
@@ -633,6 +651,15 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbW9QWW5ocGJrN0lrS2tMZlVlS244OEJNUnEzZTlUTlJrSXk2Z0k1S1RGZUVQQ3BPdlRpaXBHcktsOG84S1RrMFl2bmpwWFR6dGk4bWs1emlGUW5nLWplRUt4OXBhbkdOOU5oelR5TUFtdzlPRVZmc1BUUXVSTHRpd19iMm5WOFll?oc=5",
       "date": "Wed, 02 Sep 2026 04:11:00 GMT",
       "source": "Yahoo",
+      "confidence": "high"
+    },
+    {
+      "entity": "Pete Ricketts",
+      "stance": "",
+      "title": "Ricketts, Osborn talk tariffs, Iran war during Nebraska State Fair debate - Nebraska Examiner",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY1NZbnV5Z2ZRTThycS1sN3V4ZWtMbnNfUGJ1dTkydjJmQ05Fci1uUERtVXhPUl9NME12S0Izdk9wUl85alExcHNHZ3JNTHNCRkFYMzVRUmdkVEhNRV9pUldWaU1rWkFpX0VUZXJzejEtbE82Wk0zc0lWVE1lcEhSNVNiZkh5WGhKTGhEZl9kQ0ROc3pzR05ybDNSbnk1YkRPaE9yZmhXMkFuekNWVDNsLWtn?oc=5",
+      "date": "Wed, 02 Sep 2026 02:22:57 GMT",
+      "source": "Nebraska Examiner",
       "confidence": "high"
     },
     {
@@ -777,6 +804,15 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZnbi1McGg3Slc5YUZoajJ5cVJhcGNoMDQ0V1JVeno5Q2lwNUt6bjJHUk9fdElxMnVhaXlDWGgwTDFLcjI3UjZ4dG5PYUQydFRoVW1XZG5PeDVSSTkwUExhaGVIc25DbFl5VmRuczhpZWFpWk85TkVGQlpyNDhtU0tWWDVvSS12eXlSVU03MHZXLUg2R3ppN2dua1Z6OWhsd3c?oc=5",
       "date": "Tue, 25 Aug 2026 14:23:29 GMT",
       "source": "Louisiana Sports",
+      "confidence": "high"
+    },
+    {
+      "entity": "Scott Jennings",
+      "stance": "",
+      "title": "CNN’s Scott Jennings Makes Bold Statement About Trump’s Iran War - tvinsider.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzAwQzFLbUhITWNHaGhTenlmUElGXzJXcldzU1lxYUkycGpzYTdBZEk5T2Fod20zdF9nT2VhdUFNRGg5eGFoRzF0X3FYX0xFSzhTWjEwUklmaXJ1LS01UFRJbjBJdkNxcUt2elBvT3VwRFJ1QnZQZGdDVlFXWGNteFExVElSSmQ0bHVKVW9jd0ZSVmF0S0Zuc3Y4YW5jdw?oc=5",
+      "date": "Tue, 25 Aug 2026 14:18:00 GMT",
+      "source": "tvinsider.com",
       "confidence": "high"
     },
     {
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTGxNZTV0RE1yakUyX0xCVUpNZHlJTTR1S3d6N1VFZFNySDM0T2dibzk5b1lOaUcwQ2hZTTQwQmNoZGQ2ZkwxZTg1UHBoT0dGSG11cGFYcGliaWRtRDM4Y3VWU0lERjgzYkxueGFDVFIxQ3lMTjU4LXRISWRKTVNOWEpnZWpzenNid0wzRkRyT3VnMThPWXJDaGZ1c1FWNVlRUHg4RUNvQXplaXd3U0hFM25HdWFRY0Z2VVE1ZC15MDJyNzM0TGY5aA?oc=5",
       "date": "Tue, 18 Aug 2026 07:00:00 GMT",
       "source": "Algemeiner.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "The Dispatch",
-      "stance": "",
-      "title": "No, America Does Not Write Israel a ‘Blank Check’ - The Dispatch",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1CMXJncFlCbl9sZFZxd0pPaG1vWnQ1LW1nNk8yLUgzSVZjaW1XaTdmUmFxUEEyenJ6ODB6N2NFUDhuWmtjWV9qZGtQUTBTZnpHazFiLUJ2UUFrbnRjSjVUOVNqXy1sdk0zSm9OWnNKc1F2aGV6V1RWN2hn?oc=5",
-      "date": "Tue, 18 Aug 2026 05:33:22 GMT",
-      "source": "The Dispatch",
-      "confidence": "high"
-    },
-    {
-      "entity": "NewsNation",
-      "stance": "",
-      "title": "Iran memorandum of understanding 60-day deadline expires without a peace deal - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOGNXYnQxWlJiTk1lNmtTQ1FfQVJ0dFhvN1hzb01aTVFveWFCekY1S1Z6WmE2MHJxcEdOUVN4OXBncG1feHlGU0FBV0lOQlVaS2tMLUptOWFtUWJsQWhvazVUX21tYWttQndBS3VPeXVTTDVURDZpQzNlOXFMS2tEa0d30gGHAUFVX3lxTFBtUDRrSndTSDVWZUpLRjB3QnZRY1V1TWRFdlhkWG5vN3BuaVczemQ2T2R0dWJzUzk0eEtaUmZFUXJPVmlETWktcDRESGxBXzlyM3ZGbGFvdmd0T0N4dDVkZ1l3b2prZ3ZpOWM1bi1wcndNV3pfdVAzYkVhSVh4NjlvcC1XZXh4UQ?oc=5",
-      "date": "Tue, 18 Aug 2026 04:08:47 GMT",
-      "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Daily Wire",
-      "stance": "",
-      "title": "Trump absolutely has a ‘viable way’ out of the Iran war: ‘Daily Wire’ opinion writer - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tODJFemhTUWlzd0gtdFdNV3ZCMFhFcGpaYTNURERpTHJTdEU0dThSZ3hHNUMxRkNwZGtFQWxuaGpKSWZxcWJQMTV4OEhYbVl4REdPQ19B?oc=5",
-      "date": "Tue, 18 Aug 2026 03:46:41 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hakeem Jeffries",
-      "stance": "",
-      "title": "Jeffries: Trump administration must protect Palestinians from ‘lawbreaking settlers’ - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZTBuTlh1eEZjZlBQanROUnA4N2FNdEVnNVVmUkhJSU9zZXozc0htazZURXA0NHo1TmJMdVdZWE1vd3BLU3YtQnNmTVkxVFBBYXVNRXhNMG1OSWxGTVVtWFI2eFU5RDljVGhDUG5HYjY1UHF5OUVDNXoxazRlY0VPdUNfM3BDWUk1RF96UTJYOVdkWkxzRkHSAZsBQVVfeXFMTldRVnMyY0ZBamNjOC1CTGl2ZFBNYVZzSnhuZlBCX1VBRFFOQ3R3RFk1YjRZNHdBbnJZdmlCOTVQTWFzUDlzdGxCeWRibTNIalpRMnJ6XzJaMDQ3NkwtRW1JMjJZR1ppTGpmcWRpNXN0akk3QUtnUVdZRlNkMEFqZXhhMkQ0STlteXNFaUFOZmZjOUNVSDh6RUFzLTQ?oc=5",
-      "date": "Tue, 18 Aug 2026 02:00:00 GMT",
-      "source": "The Hill",
       "confidence": "high"
     }
   ]
