@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03 16:59 UTC",
+  "generated": "2026-09-04 16:48 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 1095,
+  "cursor": 190,
   "count": 120,
   "mentions": [
     {
@@ -276,21 +276,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Ariel Or",
-      "stance": "pro",
-      "title": "Swell Ariel Or: Hollywood antisemitism drove me to pro-Israel activism - The Jewish Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPako2NVo5dFIyeVd0U01wbVBWUnpkczZYWlhmU05IVUMxQlYwcGllQlJ4LVBkOGk2OTVRU09wLTBPNFhMbTZ0LU5XNE1vSDhMN2ZlRDBOMEFZUmZjODRiZzkyUTl3ejRvV3BDNFpKS0Z3X2N2a1IxXzBvYmJKRWRFSTBydHp5UU10bkQ1dzZBQnQ2TlA3QXptdzBna2hKUQ?oc=5",
-      "date": "Wed, 19 Aug 2026 14:46:36 GMT",
-      "source": "The Jewish Chronicle",
-      "confidence": "high"
-    },
-    {
       "entity": "Joe Kent",
       "stance": "",
       "title": "Former National Counterterrorism chief Joe Kent sat with Tucker Carlson, claiming key dissenting voices were silenced before the Iran war. - The Daily News | Texas' Oldest Newspaper",
       "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNbUZuTGJBNFJZTXhubEdmLUtHREUxWFdpcDJjR3hYWmtqUFBfcU5rbDVIYkJzenA0S1hxRUd6OFNtcnFhVUF6RFJjUVFYaWhVUmFxX1gwYjctckZNTEJYMG9BTHJxM0MyY2h4allqdkVhQTZZY3VKa1poXzJQVzUtQ0hTdE9IUnlJeDNSYW1SbDVIS0tFWTI3TDhZTnZKVW9Pa1QzTFlfTVRJNHpyOFNVM056MXZSdm9hZnJoS0hycjFHWldYSlcyUEx5Z3VSWTlXU2lIZXZ6RFRaeVVYV2pvTmp5Z2FwUERzNXZWRTJMSkJ0aTB0V0F5Tlk3b0ltWWY1NGZHanBOMHlBMW94aUg2V3pOSngwZ2dYdW1Zd09RREVyLU91eUpz?oc=5",
       "date": "Wed, 19 Aug 2026 11:34:52 GMT",
       "source": "The Daily News | Texas' Oldest Newspaper",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ariel Or",
+      "stance": "pro",
+      "title": "Swell Ariel Or: Hollywood antisemitism drove me to pro-Israel activism - The Jewish Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPako2NVo5dFIyeVd0U01wbVBWUnpkczZYWlhmU05IVUMxQlYwcGllQlJ4LVBkOGk2OTVRU09wLTBPNFhMbTZ0LU5XNE1vSDhMN2ZlRDBOMEFZUmZjODRiZzkyUTl3ejRvV3BDNFpKS0Z3X2N2a1IxXzBvYmJKRWRFSTBydHp5UU10bkQ1dzZBQnQ2TlA3QXptdzBna2hKUQ?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "The Jewish Chronicle",
       "confidence": "high"
     },
     {
@@ -609,12 +609,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Tom Cotton",
+      "stance": "",
+      "title": "Sen. Tom Cotton Talks Arkansas Defense, Lithium, Immigration, Iran And Venezuela On Open Mic - Arkansas Radio",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYzVqOUxwTnR2OGNNZHgySDliUVZER25NdjVBZmxWQ0pXb1poWUtSbkpmN2RwMVA1WU5HWV84SU1vaFFhUFJGOFQzb2hXRlYyT3ZGX01hdDlKdzNDVE9oRE93WDNSRlppMHc4WlhmYVJmVVIybFhnOVhhc2ZRMmlEMVgzS1JvVWRGam53X1F0S0VCaG8?oc=5",
+      "date": "Wed, 02 Sep 2026 23:38:57 GMT",
+      "source": "Arkansas Radio",
+      "confidence": "high"
+    },
+    {
       "entity": "Pete Ricketts",
       "stance": "",
       "title": "Ricketts, Osborn Clash Over Tariffs, Iran and Party Loyalty in State Fair Debate - klin.com",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDhXRGI4Z1JYSW92UTZZV2lQNURoaUpJaGg1SVFmLXFwSG1Pb2VwVGZTQU8zU0F4b2Y5VkZ1N0NIS0RPR1RrUHpiX09CUkVYQVp3VUpVWDRvdGdkM2I4TUpQRDQxZXA3NFl1NFR1TkhCWDZWOUczckU2WkpmWXRHbmtUajEwUWlpTFZXRE14NXhLdV9DdExMMXZtLVBrTXVReGYwb2NMcDJJdTA?oc=5",
       "date": "Wed, 02 Sep 2026 14:00:25 GMT",
       "source": "klin.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Yoseph Haddad",
+      "stance": "",
+      "title": "“Jewish\" or “Israeli\"? Yoseph Haddad responds to controversy over singing Hatikva - Israel National News",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3ZHU2aFJGbFZ3LTJtYVROZ1BSOXAwclFrMHk0NGNFcm4yWW1laTRHMUJiS2dHYzNNcThNZDZvVXhFN1hQdVdFVVBxZWk0RVdYYWZnRG1UNnNHZw?oc=5",
+      "date": "Wed, 02 Sep 2026 12:27:34 GMT",
+      "source": "Israel National News",
       "confidence": "high"
     },
     {
@@ -660,6 +678,15 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY1NZbnV5Z2ZRTThycS1sN3V4ZWtMbnNfUGJ1dTkydjJmQ05Fci1uUERtVXhPUl9NME12S0Izdk9wUl85alExcHNHZ3JNTHNCRkFYMzVRUmdkVEhNRV9pUldWaU1rWkFpX0VUZXJzejEtbE82Wk0zc0lWVE1lcEhSNVNiZkh5WGhKTGhEZl9kQ0ROc3pzR05ybDNSbnk1YkRPaE9yZmhXMkFuekNWVDNsLWtn?oc=5",
       "date": "Wed, 02 Sep 2026 02:22:57 GMT",
       "source": "Nebraska Examiner",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tucker Carlson",
+      "stance": "",
+      "title": "Haley tells Vance to ‘choose a side’: Israel or Tucker Carlson - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWHljOXczZE9ua0xhQjB4b01lRFZ1dTZuSXFoOUMxdWxQNm5VVlZITGFGdlZoLW5uUmJrVnhmMm1tbXp6YlROUDBkWDBDY3pQanlkQTA4UzdieGg3Tno4bDJmTnc3WU1YNlY3dHdvckx1QklSbmNveDBhTDczM095Q2c4SWNxdGtiRloxTS1INDZDSmF1M0FnUNIBngFBVV95cUxQLWVYMDEzM3ExcWlCQ3MyN0YxM3Zpb2xuekxOVlBFQ0tZNGhsZUtlM3RUZHVNN1gyeFdmVjRkakoyNmVoejBZbnZtMXJJV1d5XzloTDBURDEzSm80UjRnX1BlOE1ZU3BIVVZIbllxT0VGbXFQMjVsNW9MRkk0bmF4SkxyUENpbXVYcUxMSnFoUEdyOElhODdOOW1Yd1oxQQ?oc=5",
+      "date": "Wed, 02 Sep 2026 00:20:00 GMT",
+      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -723,15 +750,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjZkM1BqczgtT1FxN2kxWS02WDhYeU1QN2xyUm1JV1JCM2dGeEx2NW5ZdWtHS043UzE4blNCVXJleGdsX1BXYVZNV3lScjJIbVQwOEEzSkJDMHZESEZ6Y1VkbXpsdDZvMHprZll1djFVS0VzNklxS0lzY3R0SURYVWJTcWc0cm8xakZNdF9FNG91Mko4ZXRvekhfMTlHalpiMG1PSFNlRnRDS0tySWs0VnFhd1A?oc=5",
       "date": "Tue, 25 Aug 2026 19:31:00 GMT",
       "source": "Algemeiner.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Yoseph Haddad",
-      "stance": "",
-      "title": "Amcha Israel: Ofer Winter Launches A New Right-wing Party With Yoseph - i24NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWVVUWFTYlBQWU0tb2Jqblg5YjJUam05R3pybGFZbk9CeEhNcVNwYmc5ekxtbWRxdEx0MDhiUi02ZEgtU0NfWHk5SDJXSGJhZ3h5YTFJRnNrTUJRcFVCWVQ4TmMxcC1MbHN3R01MYjVXRWRGQUdZMF8zMFVBdENjZU5nUFhGb3hDT1FtZnF6TGdVVUxIWmV0MzhRblI4MURDTkFzb1k0R01OZnJWaGFKZ2tKNWE2cjdPOXBNczZRZE8wdFNnZFE?oc=5",
-      "date": "Tue, 25 Aug 2026 17:52:14 GMT",
-      "source": "i24NEWS",
       "confidence": "high"
     },
     {
@@ -849,6 +867,15 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Jdm5pSEF5cW5YYU5OMU9ZUldPbmYyYWItcVc2dFBWVDRDSFJrTWtFUFdUSUgtUTl0dlVyaUpwLTk1NUtzZzJmZFJTa0d3dElKMjE0M1BB?oc=5",
       "date": "Tue, 25 Aug 2026 07:08:23 GMT",
       "source": "Ynetnews",
+      "confidence": "high"
+    },
+    {
+      "entity": "Yoseph Haddad",
+      "stance": "",
+      "title": "Amcha Israel: Ofer Winter Launches A New Right-wing Party With Yoseph - i24NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWVVUWFTYlBQWU0tb2Jqblg5YjJUam05R3pybGFZbk9CeEhNcVNwYmc5ekxtbWRxdEx0MDhiUi02ZEgtU0NfWHk5SDJXSGJhZ3h5YTFJRnNrTUJRcFVCWVQ4TmMxcC1MbHN3R01MYjVXRWRGQUdZMF8zMFVBdENjZU5nUFhGb3hDT1FtZnF6TGdVVUxIWmV0MzhRblI4MURDTkFzb1k0R01OZnJWaGFKZ2tKNWE2cjdPOXBNczZRZE8wdFNnZFE?oc=5",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "source": "i24NEWS",
       "confidence": "high"
     },
     {
@@ -1056,33 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XMkMtcFVzeHMycTdrSTZtLUFQalBxNTJrT1Noa0JZVWJIWlM5aUNGWE5uZnlzSC11aV8yM2pUeHQ4dzRJX1Q1S19CRXJxZUdBaW1jRk9fWkM0eUx1X3drbGJtWXJZczA?oc=5",
       "date": "Tue, 18 Aug 2026 08:25:07 GMT",
       "source": "IMDb",
-      "confidence": "high"
-    },
-    {
-      "entity": "Darline Graham",
-      "stance": "",
-      "title": "Darline Graham met with Netanyahu during his US visit, vowed to continue standing with Israel - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zTDZTOUk3Uk4tbU1DU2ZHcXRsOHU5MDdnRW5kS3BIeDdGZ1A5dnlsSWhQd3RsYlpjTy1uY0VtajVPX2M4UDNKdlZ0UFNIRUU5aTJGM3hQSm9GVmRTVjdn?oc=5",
-      "date": "Tue, 18 Aug 2026 07:00:00 GMT",
-      "source": "The Jerusalem Post",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rick Scott",
-      "stance": "",
-      "title": "Trump likely hits Iran in next 30 days: Sen. Rick Scott - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zLXdBN3hoREJ5MENtZmpRRFVYdjBBVHFQZE5fWjlOZDdYMV8wZlZVZExwMFpLc09CVk5wMUNvMmVRZmItVjRDU2txLWhnaDBKZXNzRWNxUXZudlhMQlNzNEpZTnBXcy1oS2lQNmJ1alYtS0NMVm9BddIBfkFVX3lxTE5aM2lMMFFmLUxGbkktRU5JTlB3RHUyaExoeGtiR3EyY2k4X3IxZERjc21lcElZNlJpNHp4UGcwWEFGUkhqVFVkb2lfUzNzSWIyazZOeVdDbmplMUJ6cEhDTllwLVBhV2t4VWJJSy1kUkJqbnQ5NDZOZjBqYWswUQ?oc=5",
-      "date": "Tue, 18 Aug 2026 07:00:00 GMT",
-      "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rob Schneider",
-      "stance": "",
-      "title": "Rob Schneider Calls Out Hollywood ‘Ignorance,’ ‘Selective Outrage’ Regarding Hamas’s Oct. 7 Attack - Algemeiner.com",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTGxNZTV0RE1yakUyX0xCVUpNZHlJTTR1S3d6N1VFZFNySDM0T2dibzk5b1lOaUcwQ2hZTTQwQmNoZGQ2ZkwxZTg1UHBoT0dGSG11cGFYcGliaWRtRDM4Y3VWU0lERjgzYkxueGFDVFIxQ3lMTjU4LXRISWRKTVNOWEpnZWpzenNid0wzRkRyT3VnMThPWXJDaGZ1c1FWNVlRUHg4RUNvQXplaXd3U0hFM25HdWFRY0Z2VVE1ZC15MDJyNzM0TGY5aA?oc=5",
-      "date": "Tue, 18 Aug 2026 07:00:00 GMT",
-      "source": "Algemeiner.com",
       "confidence": "high"
     }
   ]
