@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04 16:48 UTC",
+  "generated": "2026-09-05 15:51 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 190,
+  "cursor": 440,
   "count": 120,
   "mentions": [
     {
@@ -114,15 +114,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Warner Todd Huston",
-      "stance": "pro",
-      "title": "Auschwitz Jewish Center Foundation, 1,000 Hollywood Heavyweights Slam Mark Ruffalo's Antisemitic Paramount-Warner Bros. Condemnation - breitbart.com",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNNVFwakl2bjZZMER1dmszWHdvRjRXWEYtdzU3Q0tKWS1rTU1SWlAxOXc1QlYwVW54c3BsYndUaExWbFU5TnFNdU95T2drMHQ2bG45aVlLTGJROFRRYkpJZFo1eUp6VlVPdVRyVUdCVDFUOV9qZWw3c1Jla0JCd2pWNUdId2JHLTBsbXVxMm5qT0FxaDRLZTM0YmVCUVFxQVBNVFJ2TVdRUUhsTUF1N0cxYnAwUF9zSmZTMW5GR0h3WVVEMFBEb0RMOEJWMWJQY0JaXzJNUVhPcjY3d1FVYWdLcXR3UTd2c0ZrODlOdFFnRXpNWmVFWUljenByMGtXYjEwN0h2ZFZ3SjVZbDNJ?oc=5",
-      "date": "Wed, 26 Aug 2026 14:54:28 GMT",
-      "source": "breitbart.com",
-      "confidence": "high"
-    },
-    {
       "entity": "Jillian Michaels",
       "stance": "",
       "title": "Joy Schools Fitness MAGA Jillian Michaels On Defunding Israel | The Joy Reid Show Pizza Salvatoré (3XXeh1Rxuw) - Mshale",
@@ -138,6 +129,24 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Pa0NoaWNUSkJCczRGRXQ0X0xaeGtXd1BVWVBpSG1QT0VfX2tNTW9SZ3hNRVBlYVhQbnJrZmtGQ3FGZmhiQXprYmg2aHBjT01PUEE?oc=5",
       "date": "Wed, 26 Aug 2026 10:24:15 GMT",
       "source": "Iran International",
+      "confidence": "high"
+    },
+    {
+      "entity": "Warner Todd Huston",
+      "stance": "pro",
+      "title": "Auschwitz Jewish Center Foundation, 1,000 Hollywood Heavyweights Slam Mark Ruffalo's Antisemitic Paramount-Warner Bros. Condemnation - breitbart.com",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNNVFwakl2bjZZMER1dmszWHdvRjRXWEYtdzU3Q0tKWS1rTU1SWlAxOXc1QlYwVW54c3BsYndUaExWbFU5TnFNdU95T2drMHQ2bG45aVlLTGJROFRRYkpJZFo1eUp6VlVPdVRyVUdCVDFUOV9qZWw3c1Jla0JCd2pWNUdId2JHLTBsbXVxMm5qT0FxaDRLZTM0YmVCUVFxQVBNVFJ2TVdRUUhsTUF1N0cxYnAwUF9zSmZTMW5GR0h3WVVEMFBEb0RMOEJWMWJQY0JaXzJNUVhPcjY3d1FVYWdLcXR3UTd2c0ZrODlOdFFnRXpNWmVFWUljenByMGtXYjEwN0h2ZFZ3SjVZbDNJ?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "breitbart.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Benny Johnson",
+      "stance": "",
+      "title": "Benny Johnson Iran admitting defeat 8/26/26 - mediamatters.org",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nSUxnU3lTeW9GMy0yUXhTQXU1X05MaTNqUGlQZGJQWTRsQUNWUm9nSjVFSC01ZjJoRzVQUU1IUzliNHlwdTJQNjRXeVVOWE92STM2aQ?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "mediamatters.org",
       "confidence": "high"
     },
     {
@@ -618,12 +627,48 @@
       "confidence": "high"
     },
     {
+      "entity": "Candace Owens",
+      "stance": "",
+      "title": "US voters overwhelmingly reject anti-Israel figures Hasan Piker, Candace Owens — poll - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdEpJNGI0SWU4SzlINmJ0YVNDQmZzdWZkMVFaYWJmVFFCTkpaWWJRRk9oaGw5TmlsRU5CbWpxTElmOEdrY3dFVzdiel9QcXFuSmxDSVVlT2F4TGh0R0MzSDhDb1ZLa2FOZmszMXZfam10Y1AyXzhNSlpKVHZRbHVkM0NMZUMzbWgzTUxRUHFCSHVKTU8xRFg3aTViOFJrdEwwTHEzZlFXT2ZVaUg3WG9SQTlsRnpnRERKUF9DcUFCaUxYdnEzamhB?oc=5",
+      "date": "Wed, 02 Sep 2026 23:19:07 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "Commentary Magazine",
+      "stance": "",
+      "title": "The Capture of Hamas’s Security Chief - Commentary Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRHVpNEhRS0RHUnl6LUw0MmthMC1yQmpUZXhCM2NkbHJqNHNRN2FIVEVFVWRhb1NQS2N4XzVLMU1tR1ItLXBsbzlsQTZMNVV1eHU5V2NRWTlLemZnZGxJemlxNndDWjBuX2xlS25ZUk9SZEd5akhLYnRfSTI4ZjdxV1B3?oc=5",
+      "date": "Wed, 02 Sep 2026 22:31:13 GMT",
+      "source": "Commentary Magazine",
+      "confidence": "high"
+    },
+    {
+      "entity": "Brian Kilmeade",
+      "stance": "",
+      "title": "U.S. Bombs IRGC Targets in Iran | Brian Kilmeade Show - FOX News Radio",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41RmdLVDgzTnpHQWQ4UGMzaVVXQ2l6ZEcySmJiOWpNU1RlQlRFQm8zVHM0RU5vVnkwRFV3aS1DOVVTdnlOZ3Q3MUdsOUd3c1VMdW1ZUENwVUdXTVhQRmVvZlZqeXlUOENIM09mc0RWUUJmME11RFJ3?oc=5",
+      "date": "Wed, 02 Sep 2026 21:29:05 GMT",
+      "source": "FOX News Radio",
+      "confidence": "high"
+    },
+    {
       "entity": "Pete Ricketts",
       "stance": "",
       "title": "Ricketts, Osborn Clash Over Tariffs, Iran and Party Loyalty in State Fair Debate - klin.com",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDhXRGI4Z1JYSW92UTZZV2lQNURoaUpJaGg1SVFmLXFwSG1Pb2VwVGZTQU8zU0F4b2Y5VkZ1N0NIS0RPR1RrUHpiX09CUkVYQVp3VUpVWDRvdGdkM2I4TUpQRDQxZXA3NFl1NFR1TkhCWDZWOUczckU2WkpmWXRHbmtUajEwUWlpTFZXRE14NXhLdV9DdExMMXZtLVBrTXVReGYwb2NMcDJJdTA?oc=5",
       "date": "Wed, 02 Sep 2026 14:00:25 GMT",
       "source": "klin.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Carolina Journal",
+      "stance": "",
+      "title": "Bessent ends G20 Asheville meeting with Iran message - Carolina Journal",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVpzUUxuX2JfV25pME9jS3ZKdEF6eTdsTmVsTHFEUTRFa0gyc3ZzY0hqMUxFMUo4T3NXakxnZFUwU0JYMk53MjJqcjRpSmxfM256MzJiZzFaLXNxWFZGSnRvUnpRVmNXTjd2ZHhnS2dLckZUUzJ5bzBvVGJoQlpxU0h6Q0dmeDk2VE5YeFRB?oc=5",
+      "date": "Wed, 02 Sep 2026 13:35:51 GMT",
+      "source": "Carolina Journal",
       "confidence": "high"
     },
     {
@@ -1038,51 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzQkVYaDBpZG5Id2Y3bnlZUVBaeVhQWnNxUVlxR1FlaVRQQjlMWF9Pcklwa2hCTmtsdEhPdWlVYUZ5cVlnVmVBenctYUhPUWZHeTRuT1FwRXp4anJmMldVNzRHb2V5VkdobC1pSVdKcGNHUTBDVlBqYw?oc=5",
       "date": "Tue, 18 Aug 2026 12:04:43 GMT",
       "source": "Israel from the Inside with Daniel Gordis",
-      "confidence": "high"
-    },
-    {
-      "entity": "All Israel News",
-      "stance": "",
-      "title": "As 60-day MOU expires, Trump threatens to bomb Oman if it 'gets in the way' of Iran negotiations - All Israel News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOXRmeUdEM3dld19LRDUwX20zSDNFMnJOcGs4T291RU9VMHF5X2I1VW9ueDFPWGhGRGEzd1kwWWhfTmtWYWppZjYwazEyOENRZnFxMG10QjRYSzRpOU9pVjQ3dGhQOXlQam5veHJmOVkxSmlVRWVJN19vcXRUTml6cVN2VWdNeU9lbV9NdnpyTWhMSjNsY3pnRUVQSnFtVF92Y3JneGRDM0J2TlRRbnRtSVVhb1c2X3RyTlFz?oc=5",
-      "date": "Tue, 18 Aug 2026 11:31:40 GMT",
-      "source": "All Israel News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Don Bacon",
-      "stance": "",
-      "title": "GOP Rep. Don Bacon Says Trump Set ‘False Expectations’ on Iran War, Cites Gas Prices and Weapons Shortage - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPMlFrSGdIanJ4LXpHVWN0akpfNjdVTVRpd0tHWnloNGlramRJTVpGcEhLNUgxaW5jXzZFNzZCSG9wU242YVpWcERwLUtzcjB5Tmh5d2tmWWJPQWdERnNtYlROc245dFZpaVFLUHR1aHNYUThaUEVUM1JiSE1jcThQb1ZSQWtSWFc5ZFV0czdpdXdGOVRUSWlZRjVXZE9qTEhGZU5uZzFUQWNmLUVvWDZRcERQQnE5MVN6ckdvdmtIcGgxeGRPLWVad2FMeFJqMHNIbkszWFp5S1AwOU1zWV9DY2lFS0VPbjFFZU5WNDUteXRXOGZ1czhpQW9fcENaUnFWQnRiSEx3?oc=5",
-      "date": "Tue, 18 Aug 2026 10:47:06 GMT",
-      "source": "Benzinga",
-      "confidence": "high"
-    },
-    {
-      "entity": "National Review",
-      "stance": "",
-      "title": "Kushner Legitimizes Hamas - National Review",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mSUctUHFrelhnT01neXYyZUFJSlJGdHpmYkRFVHQ3bGh1bFBnMW45czQyQzgtX3BMYm4yWkMyNThJTENjTTFROEtHRU1FSWJ4bm5iOTIxeTBacG8zWnZNWjVIcFJSdHUzaExkekRNamVGNVXSAXhBVV95cUxNby1TVjlCUnp0emZQZjhydEE4SkpSem53Q3dTNG5iUkFTd0xXMlg4X3ZkeXBmZHB5MzlrZFBwOTNUSTRkR0ZXOXJjTHBwUnU0VktvMlVxNi1wdFhhYzRUQzVnWnJDbFFIRGdxc0pEaDFwVEZPSW1fakU?oc=5",
-      "date": "Tue, 18 Aug 2026 10:30:38 GMT",
-      "source": "National Review",
-      "confidence": "high"
-    },
-    {
-      "entity": "Oracle",
-      "stance": "",
-      "title": "Iran Reportedly Identifies Google, Amazon, Microsoft, Nvidia, IBM, Oracle And Palantir Offices In Middle East As Potential Targets - Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPYUg5dThxdzlKWU80M3FpNHVGb0Zxc19JenZfZTBrTjliMWxsLXAwM04zeTVnWnFRNWJiU1M1WUltbmI2Q050a1VISXg5cDdDSC15VTRyTjc0NVIwUnZKOWNCUG9JSFdYemlITW1saEp0N0thamtSTVBwUXJmWll1VE5uTlB1LUphZi1CaEdRRDlHMUJrQWVKXzNKWXdqME5ZSmNSTEZoX2l0cUJ4RkJXUVhFdzMwWkJES25LalJIS2lLY3E3Y3c4eFZvY1hrcDlreVMxQ1AwdkZlUm5Xd1B1TDNicHJVM2Zybnp4b0FPd2dza3RSRUNaNHRqM3VyNDlIOHR5VmdhTWk1eF8wV3VBYU1FbDJFbFJ3?oc=5",
-      "date": "Tue, 18 Aug 2026 10:17:52 GMT",
-      "source": "Stocktwits",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gal Gadot",
-      "stance": "",
-      "title": "Gal Gadot to Produce Adaptation of Israeli Series ‘Queens’ for Endemol Shine - IMDb",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XMkMtcFVzeHMycTdrSTZtLUFQalBxNTJrT1Noa0JZVWJIWlM5aUNGWE5uZnlzSC11aV8yM2pUeHQ4dzRJX1Q1S19CRXJxZUdBaW1jRk9fWkM0eUx1X3drbGJtWXJZczA?oc=5",
-      "date": "Tue, 18 Aug 2026 08:25:07 GMT",
-      "source": "IMDb",
       "confidence": "high"
     }
   ]
