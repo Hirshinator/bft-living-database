@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-05 15:51 UTC",
+  "generated": "2026-09-06 16:03 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 440,
+  "cursor": 690,
   "count": 120,
   "mentions": [
     {
@@ -129,6 +129,15 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Pa0NoaWNUSkJCczRGRXQ0X0xaeGtXd1BVWVBpSG1QT0VfX2tNTW9SZ3hNRVBlYVhQbnJrZmtGQ3FGZmhiQXprYmg2aHBjT01PUEE?oc=5",
       "date": "Wed, 26 Aug 2026 10:24:15 GMT",
       "source": "Iran International",
+      "confidence": "high"
+    },
+    {
+      "entity": "Elizabeth Warren",
+      "stance": "",
+      "title": "Elizabeth Warren Slams Trump for ‘Holding Millions’ in Oil and Gas Stocks as Iran War Sends XOM, COP, OXY Higher - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUjRaWWo4TjRLbEU1dGVZcDJfX1plWC1VYVlFbXA1NWNxRm92M0dRQU5rWXVGNF9sNkdkT2ZqNFRYbmFJRUdES2dHS1Y1YWlUNEU2TVFfN1BGN1JiVFpJNXRMcGplWjBtT3B5QVprZDN0TkJ2Q3dYaXJqc28yeFEyMll0eFJuUXRlWmpfdzhYUUtiQnFYZGNDWXV0bWZIaElsTFhkS2ttek1HbVJrSEFOMnhGa2gyWUM4NEo2SjZzTXRrTlhseTJremFtTnZ5WjlORHdqU3ZEczNvRy1ZMUFBMm1GY2Rvc05nV0xwZXdiT0xiVkdq?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "Benzinga",
       "confidence": "high"
     },
     {
@@ -291,6 +300,15 @@
       "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNbUZuTGJBNFJZTXhubEdmLUtHREUxWFdpcDJjR3hYWmtqUFBfcU5rbDVIYkJzenA0S1hxRUd6OFNtcnFhVUF6RFJjUVFYaWhVUmFxX1gwYjctckZNTEJYMG9BTHJxM0MyY2h4allqdkVhQTZZY3VKa1poXzJQVzUtQ0hTdE9IUnlJeDNSYW1SbDVIS0tFWTI3TDhZTnZKVW9Pa1QzTFlfTVRJNHpyOFNVM056MXZSdm9hZnJoS0hycjFHWldYSlcyUEx5Z3VSWTlXU2lIZXZ6RFRaeVVYV2pvTmp5Z2FwUERzNXZWRTJMSkJ0aTB0V0F5Tlk3b0ltWWY1NGZHanBOMHlBMW94aUg2V3pOSngwZ2dYdW1Zd09RREVyLU91eUpz?oc=5",
       "date": "Wed, 19 Aug 2026 11:34:52 GMT",
       "source": "The Daily News | Texas' Oldest Newspaper",
+      "confidence": "high"
+    },
+    {
+      "entity": "Don Bacon",
+      "stance": "",
+      "title": "Bacon urges Trump to ‘say less’ after ‘contradictory’ Iran messages - thehill.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RXdGszU1g5ZUdJdHZXRUJlMEp1b3VjWWtvTVNpWHNQZjU3R0V6VTBJWlppNkprY0VqckpydHYtclNxb256bHU0cGV0UFp5azBwZ2ZiVHZqSmpUVlNpTjNVaVRFbFlISnB2ZFF6aVV4Rkc4b2FoTmdZMzhkNVlpZEZxVdIBiAFBVV95cUxPYjFzaVRBMV81YVZ0Yi05M1lWN1dFcWZrYU54WGJvY3hWWUJkd0I4bldPYl84RHZoNDNLa0R2LTdaYWJfdTNfWVdLUm5heEVxNkNKVXIyLUphXy1uYTNVU3EyTFNsa1VuTkFndVNheHAyM3NGRzIzQl82dTNkUS1XcHFvbUJBMWtz?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "thehill.com",
       "confidence": "high"
     },
     {
@@ -654,6 +672,33 @@
       "confidence": "high"
     },
     {
+      "entity": "Hudson Institute",
+      "stance": "",
+      "title": "Standoff in the Strait of Hormuz and Iran’s Economic Collapse - Hudson Institute",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbHdEQVZjc2otbEhxRXREb0o0MWo5OW9IUjhHRFYyVU8zMXNUNHBhVFlVMjZuS016MHNOODcwUDlvenJPY1JwZk1WZ05LZ0NUclZuUGhmLVRHXzRJVU1XRU1QbUpWOG5Bbi03WFpxTlJ1dFN2NUNfUUYyNkNKaEYwY3J6S1pUWXA2bGUxQ2Z6bXhPQzh2WUl2SzVyYXk5NmlfTHEyUjhR?oc=5",
+      "date": "Wed, 02 Sep 2026 19:58:31 GMT",
+      "source": "Hudson Institute",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hillel Fuld",
+      "stance": "",
+      "title": "#4: Hillel Fuld On The USA, Israel, and the Future Of The Jewish People - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mTkxBa2E2NDFCTjBYS2lkQlEwWklUdkhlM0lsOXV0WTg2T2JaQnozLXNXeHVmSmFHaWRHcXMtUk9DdUxmaE9KenJZMmFtdXg2TmlQMko0UGJkSVBE?oc=5",
+      "date": "Wed, 02 Sep 2026 18:25:46 GMT",
+      "source": "YouTube",
+      "confidence": "high"
+    },
+    {
+      "entity": "Joe Rogan",
+      "stance": "",
+      "title": "Joe Rogan says Trump renamed Lake Ontario to distract from Iran war - MS NOW",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcXU5dDRJSV8xc3dqZ19PaURQTHJobWpHQ0M1cm5rRE00bG9CcGpzSk51MUdxOVp1YXpXVnd6TjhIWmZvdlNUcFJuYjNfNi0tamJSVkpHRlNJcnJxYTR0Y1RJZDFuUGJ0S1d5U0ozSEFLYXk5NVY5dm44T1pGOFRYNDlUQVV2ZW9kTGUw?oc=5",
+      "date": "Wed, 02 Sep 2026 16:58:03 GMT",
+      "source": "MS NOW",
+      "confidence": "high"
+    },
+    {
       "entity": "Pete Ricketts",
       "stance": "",
       "title": "Ricketts, Osborn Clash Over Tariffs, Iran and Party Loyalty in State Fair Debate - klin.com",
@@ -753,15 +798,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Elissa Slotkin",
-      "stance": "",
-      "title": "Elissa Slotkin calls out Hasan Piker for blaming Jewish Americans targeted over their Israel views - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM0FmbzBiS0hFcmhoQThWZnVJSUViUmVuZG1yUmRBRHU3WmwxcHJGUGtIdmRXZ2pNeU5qSjFkeS11NVNBM1hvdzlpNWIwalM3VUFpOEN6cEdQTnNkZGxCY2JPVjY3Zk1kakJPdDFTVTZVRTBLOXhIb0NQOW1La0RRV2pwQ0xsSzFUMTF2TVBqLXUxclJfSE5n?oc=5",
-      "date": "Tue, 25 Aug 2026 23:46:56 GMT",
-      "source": "Yahoo",
-      "confidence": "high"
-    },
-    {
       "entity": "Brian Kilmeade",
       "stance": "",
       "title": "Trump Launches Operation Economic Outcast On Iran | Brian Kilmeade Show - FOX News Radio",
@@ -795,15 +831,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjZkM1BqczgtT1FxN2kxWS02WDhYeU1QN2xyUm1JV1JCM2dGeEx2NW5ZdWtHS043UzE4blNCVXJleGdsX1BXYVZNV3lScjJIbVQwOEEzSkJDMHZESEZ6Y1VkbXpsdDZvMHprZll1djFVS0VzNklxS0lzY3R0SURYVWJTcWc0cm8xakZNdF9FNG91Mko4ZXRvekhfMTlHalpiMG1PSFNlRnRDS0tySWs0VnFhd1A?oc=5",
       "date": "Tue, 25 Aug 2026 19:31:00 GMT",
       "source": "Algemeiner.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Douglas Murray",
-      "stance": "",
-      "title": "Douglas Murray: The Death Penalty Is Cruel. Hamas Terrorists Deserve It. - The Free Press",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yemVZS3RJbmhzQXZ6Ukh6NWNQUElhaGVFVjItbFR5SF9sUmNJWGYzVlpDa3laZW55SUNtMU9jSWEwVzJOUWU1dnFwY1hzRXVOakFSZjhWcTRocU03Y3ZkcTZCTmZmNFU?oc=5",
-      "date": "Tue, 25 Aug 2026 17:50:37 GMT",
-      "source": "The Free Press",
       "confidence": "high"
     },
     {
@@ -915,21 +942,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Douglas Murray",
+      "stance": "",
+      "title": "Douglas Murray: The Death Penalty Is Cruel. Hamas Terrorists Deserve It. - The Free Press",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yemVZS3RJbmhzQXZ6Ukh6NWNQUElhaGVFVjItbFR5SF9sUmNJWGYzVlpDa3laZW55SUNtMU9jSWEwVzJOUWU1dnFwY1hzRXVOakFSZjhWcTRocU03Y3ZkcTZCTmZmNFU?oc=5",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "source": "The Free Press",
+      "confidence": "high"
+    },
+    {
+      "entity": "Elissa Slotkin",
+      "stance": "",
+      "title": "Elissa Slotkin calls out Hasan Piker for blaming Jewish Americans targeted over their Israel views - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM0FmbzBiS0hFcmhoQThWZnVJSUViUmVuZG1yUmRBRHU3WmwxcHJGUGtIdmRXZ2pNeU5qSjFkeS11NVNBM1hvdzlpNWIwalM3VUFpOEN6cEdQTnNkZGxCY2JPVjY3Zk1kakJPdDFTVTZVRTBLOXhIb0NQOW1La0RRV2pwQ0xsSzFUMTF2TVBqLXUxclJfSE5n?oc=5",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "source": "Yahoo",
+      "confidence": "high"
+    },
+    {
       "entity": "Yoseph Haddad",
       "stance": "",
       "title": "Amcha Israel: Ofer Winter Launches A New Right-wing Party With Yoseph - i24NEWS",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWVVUWFTYlBQWU0tb2Jqblg5YjJUam05R3pybGFZbk9CeEhNcVNwYmc5ekxtbWRxdEx0MDhiUi02ZEgtU0NfWHk5SDJXSGJhZ3h5YTFJRnNrTUJRcFVCWVQ4TmMxcC1MbHN3R01MYjVXRWRGQUdZMF8zMFVBdENjZU5nUFhGb3hDT1FtZnF6TGdVVUxIWmV0MzhRblI4MURDTkFzb1k0R01OZnJWaGFKZ2tKNWE2cjdPOXBNczZRZE8wdFNnZFE?oc=5",
       "date": "Tue, 25 Aug 2026 07:00:00 GMT",
       "source": "i24NEWS",
-      "confidence": "high"
-    },
-    {
-      "entity": "Douglas Murray",
-      "stance": "",
-      "title": "Douglas Murray: The Death Penalty Is Cruel. Hamas Terrorists Deserve It. - Manhattan Institute",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHZNX1JnQ0VaaFk0bndocDlYT1Jtai11T1YtRkV6dTFneElMSmlENzlRaVUwUHU0TVBPdGVSLTRzRUREM25leGxaYXFwZUdwdUpkeUs3SzNVTlU0WURtS2JYZU1RaFFfXzB5MVE2TURpMzh2bElPWEZJVWRzRUxxUkpWTm9xRklTMkk1d0l0MnVkaV9CVGhlNHdZOGdOS2NZMUlkaFlrM3g?oc=5",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "Manhattan Institute",
       "confidence": "high"
     },
     {
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WZzBROG5mbGo3ODBucU9lZERqZEF4eEpsaWhvY1pZRFp1X0FzaE9kTWlJUWgwX2lqSzNOUDlRdnNFQ3BJc1BqS3A4ZFM?oc=5",
       "date": "Tue, 18 Aug 2026 15:41:24 GMT",
       "source": "The Mighty 790 KFGO",
-      "confidence": "high"
-    },
-    {
-      "entity": "Theo Von",
-      "stance": "",
-      "title": "Trump Switches Podcast Appearance to Theo von, Leaving Joe Rogan Vulnerable to Iran Attack - The Hard Times",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONlNObzNESFZnUHprcFIxcU1qMk81ZWpNTDFYOUFWQXVRLUQydUd1b0V6SlJjaXVkbUtKMUdvVngzRkxRTDZUeWlCUm42RFZvU1kxdzFNWEVXcmZlQXRrenhCTHN1WEctY2RVei1PeXZTWE40MFY0X2tXOURfY21seDBRYm56OGxMN29aN2lmejlacG1GYlpLNVFQY3ZyclliVXg5Z2JUc2xqVzlGUlNwbW03NWczWDJiZmFYbA?oc=5",
-      "date": "Tue, 18 Aug 2026 15:40:41 GMT",
-      "source": "The Hard Times",
-      "confidence": "high"
-    },
-    {
-      "entity": "Buck Sexton",
-      "stance": "",
-      "title": "Hour 3 - Is North Korea the Next Iran? | Newsradio WOOD 1300 and 106.9 FM | The Clay Travis and Buck Sexton Show - Newsradio WOOD 1300 and 106.9 FM",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUms0eW1CTkZ0VWZLZnhhd0JDMC1CWldVSjhsUFJyVTJ4NG12b2I1MVlkUlluSVZpT3ZWdWU4MnZaOXpZRVBIR1VCamdiRU1aMU5mSW9nNHEyYzhOdnNheXd2UTU0eXhKZGtSeDVzSjQzMXNwYlFtMlUwekFWQ3BSZzR5RmpKLTlGeGdkX3dFbnZYaE5aWHE0ZVE2U3dZU3F4UXB3WURUbWlQN282MENRYi00VlFkS2VtNFBlZVBIQXYxVm55UUhhTjB2M0k5ZExpX3lGXzdyZjVEMEE0c244bjZmMFNucFFvOFNHa19GS3p2Zw?oc=5",
-      "date": "Tue, 18 Aug 2026 15:05:00 GMT",
-      "source": "Newsradio WOOD 1300 and 106.9 FM",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tommy Tuberville",
-      "stance": "",
-      "title": "7 Things: Tuberville and Strong say 2026 midterm battle lines are clear, Trump says Iran in 'big trouble', and more ... - Yellowhammer News",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTW5xMXJfRHNHWlZSallxTGZsZ2RaQjFEV0JHS2FnV3hBZk9MendDbFdkV0ktN0JtTHZnNlhhZGdKTkxuLW82RTdJZmdRa3FKckF0QnFtVTZzYXAxelVJemxBWGJWc1hqbkZldHg0NXl3cXdEMjZneDZsa0JIMlZaMWpoOXJqTFBEdUZ0VUxJS0VCNEdTQ3VzUG1zb3ROM2tscEJFaUl3ek5YYTdBS1ZMN3ozdXlWclVFOE5LTzYtTWVmRHNNN2k2QWJueERVcU9Kc0NDRGY1MA?oc=5",
-      "date": "Tue, 18 Aug 2026 13:00:22 GMT",
-      "source": "Yellowhammer News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Daniel Gordis",
-      "stance": "",
-      "title": "A ONE WAY FLIGHT is the name that Channel 11 gave to its video profile of a prominent Israeli couple who are leaving, for good. - Israel from the Inside with Daniel Gordis",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzQkVYaDBpZG5Id2Y3bnlZUVBaeVhQWnNxUVlxR1FlaVRQQjlMWF9Pcklwa2hCTmtsdEhPdWlVYUZ5cVlnVmVBenctYUhPUWZHeTRuT1FwRXp4anJmMldVNzRHb2V5VkdobC1pSVdKcGNHUTBDVlBqYw?oc=5",
-      "date": "Tue, 18 Aug 2026 12:04:43 GMT",
-      "source": "Israel from the Inside with Daniel Gordis",
       "confidence": "high"
     }
   ]

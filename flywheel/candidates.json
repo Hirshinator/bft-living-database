@@ -1,7 +1,20 @@
 {
-  "generated": "2026-09-05 15:47 UTC",
-  "count": 3,
+  "generated": "2026-09-06 15:59 UTC",
+  "count": 4,
   "candidates": [
+    {
+      "name": "Ex-Muslim Sahil",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Left Islam — Then They Came for Him | Ex-Muslim Sahil",
+          "date": "2026-09-06",
+          "link": "https://www.youtube.com/watch?v=4ODYnJarjA0"
+        }
+      ]
+    },
     {
       "name": "Shah Ahmadi",
       "orientation": "ally",
