@@ -1,7 +1,20 @@
 {
-  "generated": "2026-09-06 15:59 UTC",
-  "count": 4,
+  "generated": "2026-09-07 18:06 UTC",
+  "count": 6,
   "candidates": [
+    {
+      "name": "Dr. Michael Stevens",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Candace & Tucker Are DANGEROUSLY Wrong About Israel | Dr. Michael Stevens",
+          "date": "2026-09-07",
+          "link": "https://www.youtube.com/watch?v=4SpyXR3YTOY"
+        }
+      ]
+    },
     {
       "name": "Ex-Muslim Sahil",
       "orientation": "ally",
@@ -12,6 +25,19 @@
           "title": "He Left Islam — Then They Came for Him | Ex-Muslim Sahil",
           "date": "2026-09-06",
           "link": "https://www.youtube.com/watch?v=4ODYnJarjA0"
+        }
+      ]
+    },
+    {
+      "name": "Imam Tawhidi",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "“You’re Being USED by Hamas” | Imam Tawhidi",
+          "date": "2026-09-06",
+          "link": "https://www.youtube.com/shorts/e-Pj7k55RB4"
         }
       ]
     },

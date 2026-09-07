@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-06 16:03 UTC",
+  "generated": "2026-09-07 18:10 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 690,
+  "cursor": 940,
   "count": 120,
   "mentions": [
     {
@@ -69,21 +69,21 @@
       "confidence": "high"
     },
     {
+      "entity": "Mark Kelly",
+      "stance": "",
+      "title": "Video Sen. Mark Kelly on Iran war, Navy conditions and what’s next for Democrats - ABC News - Breaking News, Latest News and Videos",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEN0JKYV9ISnZQRzY1VGdzczhhN3FHSFpkMDhLWEFHd3ZRTG1QUm5GcmNPXzJYTTJJbEVjSlRqMmlXWGhwTHZqTkJvNnA?oc=5",
+      "date": "Wed, 26 Aug 2026 19:15:06 GMT",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "confidence": "high"
+    },
+    {
       "entity": "Tyler Oliveira",
       "stance": "",
       "title": "Antisemitic YouTuber Tyler Oliveira Arrives In New Square After Visits To Lakewood And Brooklyn - Monsey Scoop",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dKODh4QS02dEJpMEZuSkFUSS1GZlZMTWtEcW11OXNmN2VLMHV2V2lJOU9aZFJkYnZiMUhtcUVsaTRwUDItekhWODFBMmhPZzdGYm1Ea1AtM1JhcTNkLVljak5XYlF2R20xVWNfa2xhZ3hxTW4xb3p2cjl6SGxWWWtyV2J5V2dReC1PcFhNWE5hZzJ6eHpqY1FVVGlOQjQwRWZHTkYteEEyenZIY2RuUS1xMHZMLTczTmZRVVZvRGludWhPMXdLTl9ONTI?oc=5",
       "date": "Wed, 26 Aug 2026 19:13:34 GMT",
       "source": "Monsey Scoop",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mark Kelly",
-      "stance": "",
-      "title": "Video Sen. Mark Kelly on Iran war, Navy conditions and what’s next for Democrats - ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEN0JKYV9ISnZQRzY1VGdzczhhN3FHSFpkMDhLWEFHd3ZRTG1QUm5GcmNPXzJYTTJJbEVjSlRqMmlXWGhwTHZqTkJvNnA?oc=5",
-      "date": "Wed, 26 Aug 2026 19:12:05 GMT",
-      "source": "ABC News - Breaking News, Latest News and Videos",
       "confidence": "high"
     },
     {
@@ -129,6 +129,15 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Pa0NoaWNUSkJCczRGRXQ0X0xaeGtXd1BVWVBpSG1QT0VfX2tNTW9SZ3hNRVBlYVhQbnJrZmtGQ3FGZmhiQXprYmg2aHBjT01PUEE?oc=5",
       "date": "Wed, 26 Aug 2026 10:24:15 GMT",
       "source": "Iran International",
+      "confidence": "high"
+    },
+    {
+      "entity": "Lionel Messi",
+      "stance": "",
+      "title": "From Lionel Messi, Kanye West to Taylor Swift: Celebrities Are ‘Protected’ by Israeli Security Teams - Orinoco Tribune",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcUZ0NUtrN0E5X3BzeFBDUlo3YlBHOGlYbzEzWmtsVl9fYk1sam04LUN6RE5sU0duU0hIdUNnTTlvWGpNVmhEMjdwSGFuVWYyemUtclBlOXBVZHVhbnE0azltczBWb3owMWdyM3ItOGZCU21TMWVvTEM5ckZaNUE2V21mVmpIMjBxMnYyaWRCeEJqN3BWbmVRUktiZUcyQkRqWTJsUXJpVWUzcmVyX1RGam53QjdaQkFPLUY0ZFRyTmlLUQ?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "Orinoco Tribune",
       "confidence": "high"
     },
     {
@@ -303,6 +312,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Mark Levin",
+      "stance": "",
+      "title": "Mark Levin’s strategic folly on Iran - Washington Examiner",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLUJGVmV2UWV2UnpyMnFRX1RrV1JXLWhyMG5xQlFEREJENThoUGdzSFdXUzhEQTJOWUs2dE5rODFyMEM1amlPVUVtcmxTVWNYVkplWnZWeTBtNWxHUDh3SVVEelFGcUE0TXlLd0Q4dTJFU1FlRldCNGFMNEVvQ3hZdldJaUg1NWIycEI5NXpMNA?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "Washington Examiner",
+      "confidence": "high"
+    },
+    {
       "entity": "Don Bacon",
       "stance": "",
       "title": "Bacon urges Trump to ‘say less’ after ‘contradictory’ Iran messages - thehill.com",
@@ -334,15 +352,6 @@
       "stance": "",
       "title": "Trump ‘is going to have to’ escalate Iran war: Rick Scott - Washington Examiner",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZUbG95SGNrZjZkR3huRVNQU1gyUmwwd250djM3b3RaODVtbElQdnlTN1BxT3ZiTjhKUi1IVy03eDhjT2VSbU9yQmlKcG1HQ1JKN0hlS2l6WDlBbXZhRzJ3bktGVWJ1YUp4Nkg5MGUxaFNWVHhoTzJob2VIXzFIWDJtTVNZUFVraU02U2twcDJLckMwZmtBV3phdlVDMHNXRVE?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "Washington Examiner",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mark Levin",
-      "stance": "",
-      "title": "Mark Levin’s strategic folly on Iran - Washington Examiner",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLUJGVmV2UWV2UnpyMnFRX1RrV1JXLWhyMG5xQlFEREJENThoUGdzSFdXUzhEQTJOWUs2dE5rODFyMEM1amlPVUVtcmxTVWNYVkplWnZWeTBtNWxHUDh3SVVEelFGcUE0TXlLd0Q4dTJFU1FlRldCNGFMNEVvQ3hZdldJaUg1NWIycEI5NXpMNA?oc=5",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "Washington Examiner",
       "confidence": "high"
@@ -681,6 +690,15 @@
       "confidence": "high"
     },
     {
+      "entity": "National Review",
+      "stance": "",
+      "title": "Victory in Iran and the Midterms - National Review",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54aEttVjRaaGNjTWoxN0ZkSEdfcV94Y0JQTmgtcE1hVEY5cW1NTTc1Z1dBM0huNGJoSHlVTUFQYWpEVU80Q0t2cTFQZDQ0OGhjM1MwTzk0Sk0xb21wcWJ1N3dFOGdyejdCOUpvRk9JLTZVYVZqbW94RkRsMNIBgAFBVV95cUxQeGNYV1QxUU1JMVRPU25WTTNaWnBmbGlxaVZ1QTc5WXJGc3NZRXo0R0JYZk5kbzFCOXBuemwxY3B4NW1xalA0dmRScHRMQnlaUWdVODZyMDVEdU9rdnZvdVRyN2RGX05RcGFNdlJXNkFWMnNlMTcwMWxMX3hPbGhhVQ?oc=5",
+      "date": "Wed, 02 Sep 2026 19:21:14 GMT",
+      "source": "National Review",
+      "confidence": "high"
+    },
+    {
       "entity": "Hillel Fuld",
       "stance": "",
       "title": "#4: Hillel Fuld On The USA, Israel, and the Future Of The Jewish People - YouTube",
@@ -730,7 +748,7 @@
       "stance": "",
       "title": "Opinion: As Israeli Americans, we support Jon Ossoff’s approach to the Middle East - AJC.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SVXJPcGRzczg3MF9BMndadWxOOFBKTlg4Q0pZT2s0bXZlNFhxb1BQdFJnczFyOXVJc05kaElMNDJ5MEVsQlJ6bWlWV2VnVm12WjBnakxPRjczR3laVFQzRlMwMzhIemFQUWhTb1l5d3p1TDFQeDdn?oc=5",
-      "date": "Wed, 02 Sep 2026 11:11:57 GMT",
+      "date": "Wed, 02 Sep 2026 10:43:19 GMT",
       "source": "AJC.com",
       "confidence": "high"
     },
@@ -759,6 +777,15 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbW9QWW5ocGJrN0lrS2tMZlVlS244OEJNUnEzZTlUTlJrSXk2Z0k1S1RGZUVQQ3BPdlRpaXBHcktsOG84S1RrMFl2bmpwWFR6dGk4bWs1emlGUW5nLWplRUt4OXBhbkdOOU5oelR5TUFtdzlPRVZmc1BUUXVSTHRpd19iMm5WOFll?oc=5",
       "date": "Wed, 02 Sep 2026 04:11:00 GMT",
       "source": "Yahoo",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Johnson",
+      "stance": "",
+      "title": "Top US lawmaker Mike Johnson says lying is part of some Iranians’ religion - aljazeera.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUliTGtPdk1falRwWjE5SEVCOEZaQUEtQUx0NWFHNi1ZVWxndEJCTXNpQzFFRDZXeW1FdlBhVHU2cUNiRWl4bWZ4eUlDZXBCLWpKckdyT1h2WTVmeF9lbmwybUloZWxBZV90bldjRlQ3c3NaV1psa29sS19zTFRVUjlHNkhIVGgwUnRxT1BFSmRlZHJoZTdBb21tcENMbVJURjJQbnVuaGxUcTJZNDE3OXZHY9IBuAFBVV95cUxOdm5icmRtcllRVTRBVXdyb1pRLUZrY0NtOE1zTjVJbzYtVFFCSXpjbDdnd1laQ1cwTmY1VDJtOTZYTFM3ajZ0NGhIeEdITEJyMFVvWDYzcW1zU092aHpWSG1DSDc3Y2J3TnlSakVmeHdiOXV2dGdNZDctY3BET0FpVXVXZFdicmxGS3laZ2s0Qlh5TzlodGoybGRTU0o4UXQ5MW85RDFVVFZScE96NnhYYWhzWU5VdDBx?oc=5",
+      "date": "Wed, 02 Sep 2026 02:24:28 GMT",
+      "source": "aljazeera.com",
       "confidence": "high"
     },
     {
@@ -1056,33 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLWhFSjlkTGZNS01hMmE1WHNPLVdVNVZtdFFDRWJwT1ZTQjAxVklxYV9Pd0F3R1dETl9ISll5RTdCM2NvMEVyR09fZjZ0VEI1aWdqbC1sb2dLM1IzdUxTMzlJMXJackRSQV9CR0NwUktCcF9JRXBwQzczbkpXaGZ5OEdGQndpdkttYVZNNWtMTi1UdDFYTVJFQkJkZXYyQ0UwTHEzU2g1MXVETlFWcWdmX3B6TzN2VzM1SW5ockluX2FjOTN0Q3NPY0pSRVRpeU9nTldac0hWbjJWdHdWWlpwZ1NweThxUQ?oc=5",
       "date": "Tue, 18 Aug 2026 18:39:00 GMT",
       "source": "Washington Examiner",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "Trump’s Iran War Gordian Knot - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeElyd2RIUTRXRS04a2RVZFR5UjRUR1FnQWNUWVRSSDVGNHY2Vlp4OTk0a2R3MVpMYUtiR1JjX0djZE5aSUk5WFBlbzZOYjlnLVVDMmNUMTB0Tld1TTRkaFJVbncwVmM2bkc1V3BDMFhzVzlpalFqaFctQTM2MFR3RllSUlk0dw?oc=5",
-      "date": "Tue, 18 Aug 2026 17:24:34 GMT",
-      "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "JD Vance",
-      "stance": "",
-      "title": "Analysis | The divide between Trump and Vance on Iran - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdElPTjJkOFNKemN2QVVuS1B1SzlIRlFWWm9mVDJtNzZsTDhQSnRMQkhuQWVFcHJJX0VqRllTcTFtOGl5eWdmY3dqZXgya0FCOERsYkdIdURVN2gtMmtFcTU3NlBadXBmSlJKS21aUVhkSlg0NUNkZUVRTTFmRWdnQVFNcGFYUjZlNEI0?oc=5",
-      "date": "Tue, 18 Aug 2026 16:32:04 GMT",
-      "source": "The Washington Post",
-      "confidence": "high"
-    },
-    {
-      "entity": "John Hoeven",
-      "stance": "",
-      "title": "Senator Hoeven says Iran’s weapons are concerning; war should end at time that benefits U.S. - The Mighty 790 KFGO",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WZzBROG5mbGo3ODBucU9lZERqZEF4eEpsaWhvY1pZRFp1X0FzaE9kTWlJUWgwX2lqSzNOUDlRdnNFQ3BJc1BqS3A4ZFM?oc=5",
-      "date": "Tue, 18 Aug 2026 15:41:24 GMT",
-      "source": "The Mighty 790 KFGO",
       "confidence": "high"
     }
   ]
