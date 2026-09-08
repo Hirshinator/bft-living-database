@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-07 18:10 UTC",
+  "generated": "2026-09-08 17:08 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 940,
+  "cursor": 35,
   "count": 120,
   "mentions": [
     {
@@ -312,6 +312,33 @@
       "confidence": "high"
     },
     {
+      "entity": "Rick Scott",
+      "stance": "",
+      "title": "Rick Scott: Trump will have to resume full war with Iran - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWHpHZjFsTHJMZUlYYS1xak1NYnN5OWpmX0I5clNrUXJZSWIwbzdDdld2bnFuazl2M2hXemFTdjBDenk3dHgyT2RXenpRQS1UZXhOekpaRExYc29UVWxjdEdLaDNMUnZCQi1ZLU1xUGh6Rm1GMTctWF9PbUVWYm5pN2J5eWl6MWFDVjRHQTNxQVZhTHg5T3NOWNIBngFBVV95cUxQOXg2dVEwN3VQYjJod2pxbHdGZVlJeWYwWDBScnhDbkJGZzlrbkEwTWJ2ZklFOW9vVWk5YkU1eVVzZE1UWVBReUlIYzB1d21Pc3RXRVFtS2VDYTcyVW1SSU9wZFZPbUxVTm91NzB1TzczS19WOTFaSDNIOEZPWjE5T1ZXZTVCdWZ3bnJHN2dJR2c1TTZ3bGYxTGN3S2REUQ?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ron DeSantis",
+      "stance": "",
+      "title": "Two pro-Israel candidates will vie to succeed Florida Governor Ron DeSantis - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONjdrbzFaOHRPVmg0enVvTHJZZ2VHaEQtYk1iN3g0RDRoZ01KSWhVT2ZkUkUyM1lfai1FSm10Wk4tTHVHTDVULUVkQzlWRHhtMExzLWNyMkl1OTdud3kzaUpiV0VEUUV5dldPem0yYkZfcnJqYTg4bVUybHVLNWNyZm1Wd2lnZG5RNzRlSEJtVjIwY3RmM3o1bW1xX3B4VUVUM3plTFloendOUdIBrwFBVV95cUxQSEU0dDRLODVNN1FtaUxBTDlBMlczSzRJVGNseHlZekJKeG5XQm4yVUNxdkMwM0ZmVFJmc0gtVEV0RWNaWFE2Mk1FcUh5V0NhTjRkbGlYZ3hKLV9MQklKS0lXR1N3d0JiVFFCM2VJZENaQ2NhMzd1VUJOVHFDX2FZLXVKR1NPQnZodFp6MU5XS3JhZllEVFduM05HbVVxRGdqVUp1QlpZZEJOUEtra0hJ?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ariel Or",
+      "stance": "pro",
+      "title": "Swell Ariel Or: Hollywood antisemitism drove me to pro-Israel activism - thejc.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPako2NVo5dFIyeVd0U01wbVBWUnpkczZYWlhmU05IVUMxQlYwcGllQlJ4LVBkOGk2OTVRU09wLTBPNFhMbTZ0LU5XNE1vSDhMN2ZlRDBOMEFZUmZjODRiZzkyUTl3ejRvV3BDNFpKS0Z3X2N2a1IxXzBvYmJKRWRFSTBydHp5UU10bkQ1dzZBQnQ2TlA3QXptdzBna2hKUQ?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "thejc.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Mark Levin",
       "stance": "",
       "title": "Mark Levin’s strategic folly on Iran - Washington Examiner",
@@ -336,15 +363,6 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPako2NVo5dFIyeVd0U01wbVBWUnpkczZYWlhmU05IVUMxQlYwcGllQlJ4LVBkOGk2OTVRU09wLTBPNFhMbTZ0LU5XNE1vSDhMN2ZlRDBOMEFZUmZjODRiZzkyUTl3ejRvV3BDNFpKS0Z3X2N2a1IxXzBvYmJKRWRFSTBydHp5UU10bkQ1dzZBQnQ2TlA3QXptdzBna2hKUQ?oc=5",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "The Jewish Chronicle",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rick Scott",
-      "stance": "",
-      "title": "Rick Scott: Trump will have to resume full war with Iran - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWHpHZjFsTHJMZUlYYS1xak1NYnN5OWpmX0I5clNrUXJZSWIwbzdDdld2bnFuazl2M2hXemFTdjBDenk3dHgyT2RXenpRQS1UZXhOekpaRExYc29UVWxjdEdLaDNMUnZCQi1ZLU1xUGh6Rm1GMTctWF9PbUVWYm5pN2J5eWl6MWFDVjRHQTNxQVZhTHg5T3NOWNIBngFBVV95cUxQOXg2dVEwN3VQYjJod2pxbHdGZVlJeWYwWDBScnhDbkJGZzlrbkEwTWJ2ZklFOW9vVWk5YkU1eVVzZE1UWVBReUlIYzB1d21Pc3RXRVFtS2VDYTcyVW1SSU9wZFZPbUxVTm91NzB1TzczS19WOTFaSDNIOEZPWjE5T1ZXZTVCdWZ3bnJHN2dJR2c1TTZ3bGYxTGN3S2REUQ?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -672,12 +690,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Tammy Baldwin",
+      "stance": "",
+      "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ2J1Y051Szljd0JuLW9tNUtoNm5WdDlzYUluNlZQdGZzZm1PX21mbWxUMEJRNjg4S1MzSzFpZEEtZi0xU0NFMGx6NjNhTm9zTy1fUDEwRkE1YXowdEQ4YjBvSnFpdDhUZVZZTHplZzNtcTl0dlZEQlNvWUdsa0JkOEFMd1NMV0ZvcXhmM2JncXRadFl5?oc=5",
+      "date": "Wed, 02 Sep 2026 21:32:48 GMT",
+      "source": "Yahoo",
+      "confidence": "high"
+    },
+    {
       "entity": "Brian Kilmeade",
       "stance": "",
       "title": "U.S. Bombs IRGC Targets in Iran | Brian Kilmeade Show - FOX News Radio",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41RmdLVDgzTnpHQWQ4UGMzaVVXQ2l6ZEcySmJiOWpNU1RlQlRFQm8zVHM0RU5vVnkwRFV3aS1DOVVTdnlOZ3Q3MUdsOUd3c1VMdW1ZUENwVUdXTVhQRmVvZlZqeXlUOENIM09mc0RWUUJmME11RFJ3?oc=5",
       "date": "Wed, 02 Sep 2026 21:29:05 GMT",
       "source": "FOX News Radio",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tammy Baldwin",
+      "stance": "",
+      "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War | Blake Borths - WFRV Local 5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUxOSFZ5N0hsc3Yxa21FYXh1a0tsdGhjZjAtWUZxWHpST2k5VGlGeE82Q2x3Q1pleTlsVnZrZE1adkUwT09lWTRZOEIzb3pvaWFieGxrcEYzeW9tTS05LVFwZ0U2R2xtamJTdGNkNURkZUFHdVVUaVpHRG9vZ0NBU1J6ZEVBN08yWXlIYVNDM3BuNEF6Q1VpR3lwU2doMWhrYktUb1dldmNrSjdsU0ROcFlwUFhZTGp2ZVlVbExHdmY?oc=5",
+      "date": "Wed, 02 Sep 2026 21:19:39 GMT",
+      "source": "WFRV Local 5",
       "confidence": "high"
     },
     {
@@ -969,6 +1005,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Yoseph Haddad",
+      "stance": "",
+      "title": "Amcha Israel: Ofer Winter Launches A New Right-wing Party With Yoseph - i24news.tv",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWVVUWFTYlBQWU0tb2Jqblg5YjJUam05R3pybGFZbk9CeEhNcVNwYmc5ekxtbWRxdEx0MDhiUi02ZEgtU0NfWHk5SDJXSGJhZ3h5YTFJRnNrTUJRcFVCWVQ4TmMxcC1MbHN3R01MYjVXRWRGQUdZMF8zMFVBdENjZU5nUFhGb3hDT1FtZnF6TGdVVUxIWmV0MzhRblI4MURDTkFzb1k0R01OZnJWaGFKZ2tKNWE2cjdPOXBNczZRZE8wdFNnZFE?oc=5",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "source": "i24news.tv",
+      "confidence": "high"
+    },
+    {
       "entity": "Douglas Murray",
       "stance": "",
       "title": "Douglas Murray: The Death Penalty Is Cruel. Hamas Terrorists Deserve It. - The Free Press",
@@ -1038,51 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWRkNGNYcEtjRnBjUHJIcVRvSVVpcGw4enJlYXNSVUtOOGdRejJyRko4YTlxYmdfcFExcC1WUmJnOTk3SW10VUlncUl6dmRNbmRTc0xRbWVzY1M3aV9yd3FNLXA0eW9JdTBsODJxbmx5SDh6N19aOWVPRmU3eTZVVmFJdEhBMHdjQlVvWlFLQkI0aFI0MGJyTQ?oc=5",
       "date": "Tue, 25 Aug 2026 02:22:14 GMT",
       "source": "EnergyNow.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Dana Bash",
-      "stance": "",
-      "title": "Bill Maher & Dana Bash Spew Ugly Smears About Critics Of Israel - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JOVkwd0NVYkh2dWxCX1UzM0wzc0Y2MEhoN3gwZWN0V0tDbVNjdnVyelFKMXY0cThTTmJTNDE2cXJTS1pUbkhCLXJIUC05blY3N3JnVHhYLWt6My1k?oc=5",
-      "date": "Tue, 25 Aug 2026 02:00:01 GMT",
-      "source": "YouTube",
-      "confidence": "high"
-    },
-    {
-      "entity": "Newsmax",
-      "stance": "",
-      "title": "KT McFarland to Newsmax: Bessent Upping Economic Ante on Iran - Newsmax",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdmRnekpXVjF3NHUza2Z2ZTJzcVBPQjJjanBseHBkN3V5dWQ1VkFhM29YcUEwRzdsSktSWkdNTTJuOXh2RHhYVjVZaEhFSGY0WDBYaUtucjJmQ09KbkxNMkZDSGE4XzQzWFpyU2ZfdzIwSUg2NDBJeHRVeDRGS1h3UTRIenV5SWpPb1F1blJVTFJGVy10cGVVRkhB?oc=5",
-      "date": "Tue, 25 Aug 2026 00:26:53 GMT",
-      "source": "Newsmax",
-      "confidence": "high"
-    },
-    {
-      "entity": "Clay Travis",
-      "stance": "",
-      "title": "Hour 3 - Is North Korea the Next Iran? - The Clay Travis and Buck Sexton Show - iHeart",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbzZ0TVJwV0NHMFE2TnpUTngtdGlIQW1CNjBUanBELXkxNjhlalpKYkY2RVR3d0cyeVRqd2xoV2taeVA3alIxSHltU0YyeHpfM2dnaFNwRlBrOTZvTmZwSnhfUzloTl82alFxWk1hcXZrdjdUbndjUTRObkFialJqZjdxbW1vZ0tUTGQ3dDkxQVlCV2FZMVRvR2luUHhMOVBGaFI0ZW9BM29vaHAyTWc?oc=5",
-      "date": "Tue, 18 Aug 2026 23:02:37 GMT",
-      "source": "iHeart",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ilhan Omar",
-      "stance": "",
-      "title": "Video Rep. Ilhan Omar discusses Christian references connected to Iran war - ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBCMWhmSjZhRE5Rc2tFbFJDbEJXUFpveUdSV3Q0OXVDWDU3Mlk1dTNIczYxQVo1OGNMZWJ5c2pGY1RGQXF3NDkxRnAwdHo?oc=5",
-      "date": "Tue, 18 Aug 2026 22:27:46 GMT",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hakeem Jeffries",
-      "stance": "",
-      "title": "Jeffries faces progressive backlash for condemning antisemitic attacks on Randy Fine - Washington Examiner",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLWhFSjlkTGZNS01hMmE1WHNPLVdVNVZtdFFDRWJwT1ZTQjAxVklxYV9Pd0F3R1dETl9ISll5RTdCM2NvMEVyR09fZjZ0VEI1aWdqbC1sb2dLM1IzdUxTMzlJMXJackRSQV9CR0NwUktCcF9JRXBwQzczbkpXaGZ5OEdGQndpdkttYVZNNWtMTi1UdDFYTVJFQkJkZXYyQ0UwTHEzU2g1MXVETlFWcWdmX3B6TzN2VzM1SW5ockluX2FjOTN0Q3NPY0pSRVRpeU9nTldac0hWbjJWdHdWWlpwZ1NweThxUQ?oc=5",
-      "date": "Tue, 18 Aug 2026 18:39:00 GMT",
-      "source": "Washington Examiner",
       "confidence": "high"
     }
   ]
