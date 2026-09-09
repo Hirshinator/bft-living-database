@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-08 17:08 UTC",
+  "generated": "2026-09-09 17:06 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 35,
+  "cursor": 285,
   "count": 120,
   "mentions": [
     {
@@ -294,21 +294,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Allot",
-      "stance": "",
-      "title": "Allot Leads Founding Industry and Academic Consortium to Launch Israeli Post-Quantum Communications Initiative - Quantum Computing Report",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOU9KWnhOSENKS05XQ2w5d2c3dGNVOUNGYXFJX2QzR3daNzBmOWlJdEFBbEhfZ1d5R2h2MUNyQmhkWUxJR1BuRDdLX2NiZG1aeGdiWDR6YlJRbEk3T3kyMmxobmk4elM4d3lnakNpT3F2Ri1OY1pKcnRyLVZ3anRVWjIzOEhtRHh0RjJwZVNpRDhJelJud2tWY01XVmhqR1lCcDVCNldwRkxkY3lTYUhpS29xWnhCYnV6ZndCOFl2VkF5QmNOYUVESXJyWEplOWJWekNJMmQzOVpsU0JadThn0gHkAUFVX3lxTE1PeGtyVWxxTGIwNktSV0xyakYzQk1fNnhvSHEtOU9aV1pyS2Zvbl9rX3dGZGE3YnhISlEwSFFFNG5lUEVCeEh3bzI0T0pGbVh4NHY0b0lEbUZ6SnNGTkJaQTc5RXQ0QU1ybzJtSXVCOWREQUlMNi1LQ3hoR2VTZHZUaWg1OEg2N2FXRjRZTmZGSmJJS1BmQzdPX09RT0ZQVW91dHdrc3hjNkp2NTZYQnJ4YVlIbWlGQVFVNElUYTRfbE9JTVVfeVpLNHlfalhjaUEzSGs3YjlER3ZtOXNTZnREaFFfbg?oc=5",
-      "date": "Wed, 19 Aug 2026 15:05:10 GMT",
-      "source": "Quantum Computing Report",
-      "confidence": "high"
-    },
-    {
       "entity": "Joe Kent",
       "stance": "",
       "title": "Former National Counterterrorism chief Joe Kent sat with Tucker Carlson, claiming key dissenting voices were silenced before the Iran war. - The Daily News | Texas' Oldest Newspaper",
       "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNbUZuTGJBNFJZTXhubEdmLUtHREUxWFdpcDJjR3hYWmtqUFBfcU5rbDVIYkJzenA0S1hxRUd6OFNtcnFhVUF6RFJjUVFYaWhVUmFxX1gwYjctckZNTEJYMG9BTHJxM0MyY2h4allqdkVhQTZZY3VKa1poXzJQVzUtQ0hTdE9IUnlJeDNSYW1SbDVIS0tFWTI3TDhZTnZKVW9Pa1QzTFlfTVRJNHpyOFNVM056MXZSdm9hZnJoS0hycjFHWldYSlcyUEx5Z3VSWTlXU2lIZXZ6RFRaeVVYV2pvTmp5Z2FwUERzNXZWRTJMSkJ0aTB0V0F5Tlk3b0ltWWY1NGZHanBOMHlBMW94aUg2V3pOSngwZ2dYdW1Zd09RREVyLU91eUpz?oc=5",
       "date": "Wed, 19 Aug 2026 11:34:52 GMT",
       "source": "The Daily News | Texas' Oldest Newspaper",
+      "confidence": "high"
+    },
+    {
+      "entity": "Allot",
+      "stance": "",
+      "title": "Allot Leads Founding Industry and Academic Consortium to Launch Israeli Post-Quantum Communications Initiative - Quantum Computing Report",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOU9KWnhOSENKS05XQ2w5d2c3dGNVOUNGYXFJX2QzR3daNzBmOWlJdEFBbEhfZ1d5R2h2MUNyQmhkWUxJR1BuRDdLX2NiZG1aeGdiWDR6YlJRbEk3T3kyMmxobmk4elM4d3lnakNpT3F2Ri1OY1pKcnRyLVZ3anRVWjIzOEhtRHh0RjJwZVNpRDhJelJud2tWY01XVmhqR1lCcDVCNldwRkxkY3lTYUhpS29xWnhCYnV6ZndCOFl2VkF5QmNOYUVESXJyWEplOWJWekNJMmQzOVpsU0JadThn?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "Quantum Computing Report",
       "confidence": "high"
     },
     {
@@ -525,6 +525,24 @@
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
       "date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "source": "The Times of India",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "Will a major war take place during the upcoming Jewish holidays? - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb2k5bGRsMnI3UjFYMFpxS0RsUW45bUdkc3FIYlBLV1dLMkMtTTBuN2l4UDBiU1haRjBpakdaa2hSX0wzcnB4UDlzWE9BaHNZdW81cFR2VzFlaFhvZUYzU1NRSVU5Q3ZBT0wwQkFmc1NsZ1dOMmFiN1pBbzhtSDBpMmFua0FTR2lndFd2WDdlMVo4dkNsSHMxdzJ3?oc=5",
+      "date": "Wed, 09 Sep 2026 07:23:03 GMT",
+      "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "A disguised Shimon Peres sneaked into King Hussein's palace, paving a path to peace with Jordan - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXRGOHhXVDZaRjBRQm5HeklQZ2xzVWRtQWw4akFxZExmaktKYmxiNXk1cHl5R01qNEM4ZmlFT05VZjZBMmd1MUctd2dYTkZ4OVBWTzVSSUktM1Q3TVZDY3ZFclRQMnY2YmdLNHM4ZllVSXljc0JFckpLYTQzdnpQRkhMRnhoLVdrTWxnb25WdlVVbXBHZUNsaVo1NVQtY1RyM0JGN0pVWlluMmg5ekp2NTlGVERyNzhP?oc=5",
+      "date": "Wed, 09 Sep 2026 06:26:10 GMT",
+      "source": "All Israel News",
       "confidence": "high"
     },
     {
@@ -951,15 +969,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Gilad Levy",
-      "stance": "pro",
-      "title": "LSU adds commitment from Israeli C Gilad Levy - Louisiana Sports",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZnbi1McGg3Slc5YUZoajJ5cVJhcGNoMDQ0V1JVeno5Q2lwNUt6bjJHUk9fdElxMnVhaXlDWGgwTDFLcjI3UjZ4dG5PYUQydFRoVW1XZG5PeDVSSTkwUExhaGVIc25DbFl5VmRuczhpZWFpWk85TkVGQlpyNDhtU0tWWDVvSS12eXlSVU03MHZXLUg2R3ppN2dua1Z6OWhsd3c?oc=5",
-      "date": "Tue, 25 Aug 2026 14:23:29 GMT",
-      "source": "Louisiana Sports",
-      "confidence": "high"
-    },
-    {
       "entity": "Scott Jennings",
       "stance": "",
       "title": "CNN’s Scott Jennings Makes Bold Statement About Trump’s Iran War - tvinsider.com",
@@ -1002,6 +1011,15 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Jdm5pSEF5cW5YYU5OMU9ZUldPbmYyYWItcVc2dFBWVDRDSFJrTWtFUFdUSUgtUTl0dlVyaUpwLTk1NUtzZzJmZFJTa0d3dElKMjE0M1BB?oc=5",
       "date": "Tue, 25 Aug 2026 07:08:23 GMT",
       "source": "Ynetnews",
+      "confidence": "high"
+    },
+    {
+      "entity": "Gilad Levy",
+      "stance": "pro",
+      "title": "LSU adds commitment from Israeli C Gilad Levy - Louisiana Sports",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZnbi1McGg3Slc5YUZoajJ5cVJhcGNoMDQ0V1JVeno5Q2lwNUt6bjJHUk9fdElxMnVhaXlDWGgwTDFLcjI3UjZ4dG5PYUQydFRoVW1XZG5PeDVSSTkwUExhaGVIc25DbFl5VmRuczhpZWFpWk85TkVGQlpyNDhtU0tWWDVvSS12eXlSVU03MHZXLUg2R3ppN2dua1Z6OWhsd3c?oc=5",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "source": "Louisiana Sports",
       "confidence": "high"
     },
     {
@@ -1065,24 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaVVmSktJZGZOSHJaaUROV0tFbU00cFA3amZPS01seG5SVGRoQVZtOFRleTVlaTJrTURlRjlGWDhwSm5VWTUxdThpdnJXdl9wbmxMaGdVaXljemxwYWo5TW5NeFFVb0lDamtPeFdHX3ZJQlQxSk85cUM4YVRVRHdZUVBYNXBwT2Vja1ExRNIBkgFBVV95cUxPem5VZDZkaGNCdG0yQkkwVDVMVXdOZWh6RmZSUl85TmpTbVlfTnhkeVRqOFJRUk9QaUdtNTdPV2x1OGRjVnFjUmhNbVE0azVjSkluNlFZYTNqUm85LTMtd3F0VFBTaXp6NUpEemMzMi1ySmpjNXlrZlcxWVZfWktxR3BRSUMyUEg0OWlnTTBUbHdzQQ?oc=5",
       "date": "Tue, 25 Aug 2026 02:47:56 GMT",
       "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jesse Watters",
-      "stance": "",
-      "title": "El-Sayed spars with Jesse Watters on Fox News on immigration, Iran war: ‘Let me just answer the question’ - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOek9kcG5Sbng4azBWNGNpSFNsTHFGTDNqUlBjUzNpdjlTQkJPcnlnTTRxdlFPUF9YbVFGRG9PTlZvTTNDVldCWXAyajgtbndvUHpicElleHVYR3FzZTd0TWlqa2pqWnA4RGN4LXpoekhYS0pLZ0JOdkxxR3RFak5SU0xfMmdZSWPSAYwBQVVfeXFMTktCTG5BZERHZkFBZ3ZGd1FJOFdPRXFQSVdXcXhNUTNoakJHSXJuQVJZMDNaaUVYX01TVVh2eE5LS1RETzl5eXdNRTJNZmVhSFBPa0duSkdFVEg3SzdKSTEwdmpJODFMYk5jU2tocmxGY0M0a2tTcGtwb1VESzBMZWxEQ2RjWlVsZDNzUGw?oc=5",
-      "date": "Tue, 25 Aug 2026 02:37:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Chevron",
-      "stance": "",
-      "title": "Exxon, Chevron Warn of Continued High Fuel Prices From Iran War - EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWRkNGNYcEtjRnBjUHJIcVRvSVVpcGw4enJlYXNSVUtOOGdRejJyRko4YTlxYmdfcFExcC1WUmJnOTk3SW10VUlncUl6dmRNbmRTc0xRbWVzY1M3aV9yd3FNLXA0eW9JdTBsODJxbmx5SDh6N19aOWVPRmU3eTZVVmFJdEhBMHdjQlVvWlFLQkI0aFI0MGJyTQ?oc=5",
-      "date": "Tue, 25 Aug 2026 02:22:14 GMT",
-      "source": "EnergyNow.com",
       "confidence": "high"
     }
   ]

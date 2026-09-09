@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08 17:04 UTC",
+  "generated": "2026-09-09 17:02 UTC",
   "count": 6,
   "candidates": [
     {
@@ -12,6 +12,19 @@
           "title": "Candace & Tucker Are DANGEROUSLY Wrong About Israel | Dr. Michael Stevens",
           "date": "2026-09-07",
           "link": "https://www.youtube.com/watch?v=4SpyXR3YTOY"
+        }
+      ]
+    },
+    {
+      "name": "Ex-Fox Journalist Warns",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Is Antisemitism Spreading Inside MAGA? — Ex-Fox Journalist Warns",
+          "date": "2026-09-08",
+          "link": "https://www.youtube.com/watch?v=ngRiwe0ujV0"
         }
       ]
     },
@@ -42,6 +55,19 @@
       ]
     },
     {
+      "name": "Jonathan Schanzer",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Erdogan Wants to Dominate the Middle East — Israel Stands in His Way | Jonathan Schanzer",
+          "date": "2026-09-09",
+          "link": "https://www.youtube.com/watch?v=tc7nEcizJec"
+        }
+      ]
+    },
+    {
       "name": "Shah Ahmadi",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -51,32 +77,6 @@
           "title": "What Iranians REALLY Think About Israel | Shah Ahmadi",
           "date": "2026-09-04",
           "link": "https://www.youtube.com/watch?v=9CPyY3YN-3A"
-        }
-      ]
-    },
-    {
-      "name": "Two Years Later",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "StandWithUs",
-          "title": "DISTURBING CONTENT: The Hamas Tunnel Where Six Hostages Were Murdered | Two Years Later",
-          "date": "2026-08-31",
-          "link": "https://www.youtube.com/watch?v=F91Y86RBVpc"
-        }
-      ]
-    },
-    {
-      "name": "Yoni Ben Menachem",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Iran Is Preparing a Major Attack — Senior Israeli Analyst Sounds the Alarm | Yoni Ben Menachem",
-          "date": "2026-09-03",
-          "link": "https://www.youtube.com/watch?v=_D6vFFrBgIU"
         }
       ]
     }
