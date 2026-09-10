@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09 17:02 UTC",
-  "count": 6,
+  "generated": "2026-09-10 16:53 UTC",
+  "count": 5,
   "candidates": [
     {
       "name": "Dr. Michael Stevens",
@@ -29,15 +29,15 @@
       ]
     },
     {
-      "name": "Ex-Muslim Sahil",
+      "name": "Hillel Kornwasser",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
-          "channel": "Stand Tall Israel",
-          "title": "He Left Islam — Then They Came for Him | Ex-Muslim Sahil",
-          "date": "2026-09-06",
-          "link": "https://www.youtube.com/watch?v=4ODYnJarjA0"
+          "channel": "StandWithUs",
+          "title": "One Hospital Visit That Made Him Realize He Had to Tell Israel's Story | Hillel Kornwasser",
+          "date": "2026-09-10",
+          "link": "https://www.youtube.com/shorts/BSODQTtsf1w"
         }
       ]
     },
@@ -64,19 +64,6 @@
           "title": "Erdogan Wants to Dominate the Middle East — Israel Stands in His Way | Jonathan Schanzer",
           "date": "2026-09-09",
           "link": "https://www.youtube.com/watch?v=tc7nEcizJec"
-        }
-      ]
-    },
-    {
-      "name": "Shah Ahmadi",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "What Iranians REALLY Think About Israel | Shah Ahmadi",
-          "date": "2026-09-04",
-          "link": "https://www.youtube.com/watch?v=9CPyY3YN-3A"
         }
       ]
     }

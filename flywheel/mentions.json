@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09 17:06 UTC",
+  "generated": "2026-09-10 16:57 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 285,
+  "cursor": 535,
   "count": 120,
   "mentions": [
     {
@@ -69,6 +69,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Babylon Bee",
+      "stance": "",
+      "title": "Hasan Piker Says Anyone Trying To Twist His Words As Antisemitic Is A Dirty Lying Jew - babylonbee.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONmxUY1FCOHdGQXZ4dGpXMUQ3WWtKbmVNbDN3MTdEVEEzMG5ubnlkMjhPaEN2bFBJeW5TNUw3dHNnNldXOWhsc2ltTF9FbFBxZ1lDN0tSUmhmSUkxNnYyS1Rhb0pwUG5xeU1BMUx2bW4tTVMySVctTjhBVTFydld4Q003NlQyWE5JNUVZSDZPNzBfTkFYRXdsOVVPTlFlM2ZyTncwR1Fxb3pja2dYUGZBSk44TQ?oc=5",
+      "date": "Wed, 26 Aug 2026 19:36:32 GMT",
+      "source": "babylonbee.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Mark Kelly",
       "stance": "",
       "title": "Video Sen. Mark Kelly on Iran war, Navy conditions and what’s next for Democrats - ABC News - Breaking News, Latest News and Videos",
@@ -93,15 +102,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcXUzNjZwTlFYSXB4cWdITElwa1Nld1hGb0NLVDBGa2NWbmpGLWhWSWNFM2VXMi1qWkt4RzhYRzd5N3ctTGJvYXNpVVdiNkJCMzFYRXRSRThubHdZQ2F1X1lQUEUxVUdLZUlLMERIdkFCSzAxN1Vub29za2loaFJZM1JlRF9vUW9PeWh6OWNOc2VIUkdYZURocGdWTnIzeVpzRHFvSURONlJwS1Q1eEtuYXItNEVsWkR4b1otc3pYUThwb3BvNFg1d2M2MmUtaks3amdQYXA3ZW96Rm5Q?oc=5",
       "date": "Wed, 26 Aug 2026 16:28:27 GMT",
       "source": "U.S. Senate Website (.gov)",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elissa Slotkin",
-      "stance": "",
-      "title": "Slotkin, Schiff, 45 Senators Press Netanyahu to Protect U.S. Citizens, Stop Settler Violence in West Bank - U.S. Senate (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcXUzNjZwTlFYSXB4cWdITElwa1Nld1hGb0NLVDBGa2NWbmpGLWhWSWNFM2VXMi1qWkt4RzhYRzd5N3ctTGJvYXNpVVdiNkJCMzFYRXRSRThubHdZQ2F1X1lQUEUxVUdLZUlLMERIdkFCSzAxN1Vub29za2loaFJZM1JlRF9vUW9PeWh6OWNOc2VIUkdYZURocGdWTnIzeVpzRHFvSURONlJwS1Q1eEtuYXItNEVsWkR4b1otc3pYUThwb3BvNFg1d2M2MmUtaks3amdQYXA3ZW96Rm5Q?oc=5",
-      "date": "Wed, 26 Aug 2026 16:28:27 GMT",
-      "source": "U.S. Senate (.gov)",
       "confidence": "high"
     },
     {
@@ -132,12 +132,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Lionel Messi",
+      "entity": "Benny Johnson",
       "stance": "",
-      "title": "From Lionel Messi, Kanye West to Taylor Swift: Celebrities Are ‘Protected’ by Israeli Security Teams - Orinoco Tribune",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcUZ0NUtrN0E5X3BzeFBDUlo3YlBHOGlYbzEzWmtsVl9fYk1sam04LUN6RE5sU0duU0hIdUNnTTlvWGpNVmhEMjdwSGFuVWYyemUtclBlOXBVZHVhbnE0azltczBWb3owMWdyM3ItOGZCU21TMWVvTEM5ckZaNUE2V21mVmpIMjBxMnYyaWRCeEJqN3BWbmVRUktiZUcyQkRqWTJsUXJpVWUzcmVyX1RGam53QjdaQkFPLUY0ZFRyTmlLUQ?oc=5",
+      "title": "Benny Johnson Iran admitting defeat 8/26/26 - Media Matters for America",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nSUxnU3lTeW9GMy0yUXhTQXU1X05MaTNqUGlQZGJQWTRsQUNWUm9nSjVFSC01ZjJoRzVQUU1IUzliNHlwdTJQNjRXeVVOWE92STM2aQ?oc=5",
       "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-      "source": "Orinoco Tribune",
+      "source": "Media Matters for America",
+      "confidence": "high"
+    },
+    {
+      "entity": "Elissa Slotkin",
+      "stance": "",
+      "title": "Slotkin, Schiff, 45 Senators Press Netanyahu to Protect U.S. Citizens, Stop Settler Violence in West Bank - U.S. Senate (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcXUzNjZwTlFYSXB4cWdITElwa1Nld1hGb0NLVDBGa2NWbmpGLWhWSWNFM2VXMi1qWkt4RzhYRzd5N3ctTGJvYXNpVVdiNkJCMzFYRXRSRThubHdZQ2F1X1lQUEUxVUdLZUlLMERIdkFCSzAxN1Vub29za2loaFJZM1JlRF9vUW9PeWh6OWNOc2VIUkdYZURocGdWTnIzeVpzRHFvSURONlJwS1Q1eEtuYXItNEVsWkR4b1otc3pYUThwb3BvNFg1d2M2MmUtaks3amdQYXA3ZW96Rm5Q?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "U.S. Senate (.gov)",
       "confidence": "high"
     },
     {
@@ -147,6 +156,15 @@
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUjRaWWo4TjRLbEU1dGVZcDJfX1plWC1VYVlFbXA1NWNxRm92M0dRQU5rWXVGNF9sNkdkT2ZqNFRYbmFJRUdES2dHS1Y1YWlUNEU2TVFfN1BGN1JiVFpJNXRMcGplWjBtT3B5QVprZDN0TkJ2Q3dYaXJqc28yeFEyMll0eFJuUXRlWmpfdzhYUUtiQnFYZGNDWXV0bWZIaElsTFhkS2ttek1HbVJrSEFOMnhGa2gyWUM4NEo2SjZzTXRrTlhseTJremFtTnZ5WjlORHdqU3ZEczNvRy1ZMUFBMm1GY2Rvc05nV0xwZXdiT0xiVkdq?oc=5",
       "date": "Wed, 26 Aug 2026 07:00:00 GMT",
       "source": "Benzinga",
+      "confidence": "high"
+    },
+    {
+      "entity": "Lionel Messi",
+      "stance": "",
+      "title": "From Lionel Messi, Kanye West to Taylor Swift: Celebrities Are ‘Protected’ by Israeli Security Teams - Orinoco Tribune",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcUZ0NUtrN0E5X3BzeFBDUlo3YlBHOGlYbzEzWmtsVl9fYk1sam04LUN6RE5sU0duU0hIdUNnTTlvWGpNVmhEMjdwSGFuVWYyemUtclBlOXBVZHVhbnE0azltczBWb3owMWdyM3ItOGZCU21TMWVvTEM5ckZaNUE2V21mVmpIMjBxMnYyaWRCeEJqN3BWbmVRUktiZUcyQkRqWTJsUXJpVWUzcmVyX1RGam53QjdaQkFPLUY0ZFRyTmlLUQ?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "Orinoco Tribune",
       "confidence": "high"
     },
     {
@@ -165,15 +183,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nSUxnU3lTeW9GMy0yUXhTQXU1X05MaTNqUGlQZGJQWTRsQUNWUm9nSjVFSC01ZjJoRzVQUU1IUzliNHlwdTJQNjRXeVVOWE92STM2aQ?oc=5",
       "date": "Wed, 26 Aug 2026 07:00:00 GMT",
       "source": "mediamatters.org",
-      "confidence": "high"
-    },
-    {
-      "entity": "Benny Johnson",
-      "stance": "",
-      "title": "Benny Johnson Iran admitting defeat 8/26/26 - Media Matters for America",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nSUxnU3lTeW9GMy0yUXhTQXU1X05MaTNqUGlQZGJQWTRsQUNWUm9nSjVFSC01ZjJoRzVQUU1IUzliNHlwdTJQNjRXeVVOWE92STM2aQ?oc=5",
-      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-      "source": "Media Matters for America",
       "confidence": "high"
     },
     {
@@ -528,6 +537,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Claudia Tenney",
+      "stance": "",
+      "title": "Press Release: Claudia Tenney Urges Treasury Review of UK Israel Trade Restrictions - Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNVhlaE0zYkVNQXhvZXE0SzJHc2Y0TU5NRERKWmgxeEtScFJKMjNJbWxRQVZfRm91eWhmbDJ4NnZXYnRuajctZ1liWTNaUWdIWHd3YnF1OTdySUo5N0NwOU1WWHd3a0w1TGtMekFxUE4zTDk3Y3pTbjJGWUpWQklCeTRPRWZnUU5nNFNOWWVUR3ZQR2UxcWkxNlJGN2JCcVlIa2E0SVpwcFFmRjhidWRVbnY3UDFseDdBX2c?oc=5",
+      "date": "Wed, 09 Sep 2026 20:21:00 GMT",
+      "source": "Quiver Quantitative",
+      "confidence": "high"
+    },
+    {
       "entity": "All Israel News",
       "stance": "",
       "title": "Will a major war take place during the upcoming Jewish holidays? - All Israel News",
@@ -543,6 +561,24 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXRGOHhXVDZaRjBRQm5HeklQZ2xzVWRtQWw4akFxZExmaktKYmxiNXk1cHl5R01qNEM4ZmlFT05VZjZBMmd1MUctd2dYTkZ4OVBWTzVSSUktM1Q3TVZDY3ZFclRQMnY2YmdLNHM4ZllVSXljc0JFckpLYTQzdnpQRkhMRnhoLVdrTWxnb25WdlVVbXBHZUNsaVo1NVQtY1RyM0JGN0pVWlluMmg5ekp2NTlGVERyNzhP?oc=5",
       "date": "Wed, 09 Sep 2026 06:26:10 GMT",
       "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Creative Community for Peace",
+      "stance": "",
+      "title": "More Than 5,000 Leaders Across Entertainment, Academia and Public Life Unite to Reject “Genocide” Accusation Against Israel - Creative Community for Peace",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByZkg2WlV5SzI5dlVSUnRpQTN6SkJJZ2R4VmdheFk3Sk5pYl8wLTQ2T1I3Z2EzN0VvcU1wdDBRbXN6VWFzN0VRV0hCYlZnbGxtNV9lSlFCODhleFc3Rms2NXBOSncyOGZUMTZCbW9zMTdxMWtIY2RV?oc=5",
+      "date": "Wed, 09 Sep 2026 03:25:57 GMT",
+      "source": "Creative Community for Peace",
+      "confidence": "high"
+    },
+    {
+      "entity": "Decart AI",
+      "stance": "",
+      "title": "Anthropic cancels $6B acquisition of Israeli AI start-up Decart following due diligence - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObGpPRGpJaGZpaWg5QWdwaUdXSGcwbzZiT2doZ1JQYUJyMXNLMTNlWXRtV1Bqc1FkSVlYT0FDTmNrOWp0allsQlNaeEY0cGg2Skw0MkJPbW8tWWxpREtiVmNIWlppZVBsOEFrU1BTbDRpMzlCNE83T1RMTlkwZlFUcnJEQmxWSVk?oc=5",
+      "date": "Wed, 09 Sep 2026 03:24:12 GMT",
+      "source": "The Jerusalem Post",
       "confidence": "high"
     },
     {
@@ -717,15 +753,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Brian Kilmeade",
-      "stance": "",
-      "title": "U.S. Bombs IRGC Targets in Iran | Brian Kilmeade Show - FOX News Radio",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41RmdLVDgzTnpHQWQ4UGMzaVVXQ2l6ZEcySmJiOWpNU1RlQlRFQm8zVHM0RU5vVnkwRFV3aS1DOVVTdnlOZ3Q3MUdsOUd3c1VMdW1ZUENwVUdXTVhQRmVvZlZqeXlUOENIM09mc0RWUUJmME11RFJ3?oc=5",
-      "date": "Wed, 02 Sep 2026 21:29:05 GMT",
-      "source": "FOX News Radio",
-      "confidence": "high"
-    },
-    {
       "entity": "Tammy Baldwin",
       "stance": "",
       "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War | Blake Borths - WFRV Local 5",
@@ -750,6 +777,15 @@
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54aEttVjRaaGNjTWoxN0ZkSEdfcV94Y0JQTmgtcE1hVEY5cW1NTTc1Z1dBM0huNGJoSHlVTUFQYWpEVU80Q0t2cTFQZDQ0OGhjM1MwTzk0Sk0xb21wcWJ1N3dFOGdyejdCOUpvRk9JLTZVYVZqbW94RkRsMNIBgAFBVV95cUxQeGNYV1QxUU1JMVRPU25WTTNaWnBmbGlxaVZ1QTc5WXJGc3NZRXo0R0JYZk5kbzFCOXBuemwxY3B4NW1xalA0dmRScHRMQnlaUWdVODZyMDVEdU9rdnZvdVRyN2RGX05RcGFNdlJXNkFWMnNlMTcwMWxMX3hPbGhhVQ?oc=5",
       "date": "Wed, 02 Sep 2026 19:21:14 GMT",
       "source": "National Review",
+      "confidence": "high"
+    },
+    {
+      "entity": "Commentary Magazine",
+      "stance": "",
+      "title": "Maureen Lipman’s Appropriate Response to an Anti-Zionist Quitter - Commentary Magazine",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbGxEa09nNzNGXzBUdVFjajRyaFdJMmpnZUxSMXNKRGdRZFgtc1d0THdGUVJ2VnpBUVdiWTVmdGZBWmMweGNNbzRhSTdHOFBKN2V2N0NNMUpPS29XNzNHSko4V3JLRW84aUpzN0M5cEdTWnk4Q0x0YlBMcGhrODRDUDhjdmtxLWFENlFCMTRvZjVyWVZEWFhYWUZNT1ZiQVIzaXhMYjdR?oc=5",
+      "date": "Wed, 02 Sep 2026 18:43:11 GMT",
+      "source": "Commentary Magazine",
       "confidence": "high"
     },
     {
@@ -780,15 +816,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Carolina Journal",
-      "stance": "",
-      "title": "Bessent ends G20 Asheville meeting with Iran message - Carolina Journal",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVpzUUxuX2JfV25pME9jS3ZKdEF6eTdsTmVsTHFEUTRFa0gyc3ZzY0hqMUxFMUo4T3NXakxnZFUwU0JYMk53MjJqcjRpSmxfM256MzJiZzFaLXNxWFZGSnRvUnpRVmNXTjd2ZHhnS2dLckZUUzJ5bzBvVGJoQlpxU0h6Q0dmeDk2VE5YeFRB?oc=5",
-      "date": "Wed, 02 Sep 2026 13:35:51 GMT",
-      "source": "Carolina Journal",
-      "confidence": "high"
-    },
-    {
       "entity": "Yoseph Haddad",
       "stance": "",
       "title": "“Jewish\" or “Israeli\"? Yoseph Haddad responds to controversy over singing Hatikva - Israel National News",
@@ -813,6 +840,24 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcW0tS21UQVlRLThDT1hCcmNVLUFIUlJKVUUxbXliM0pPX3VrOWI4TTljQ3VOcWFGSlVETTYtS2J5SERrV1ZsWFpERDE1UHhHRW1YUTJGVUlpY2NKQk4zckNCTGYxMktkMjFTOUdJN1ZueVp4eEl3bUN2Q3pRVnlqZHBqblN2c2NQNnlEYkc4VE55bUJqVzNVdXFkMGx1anMyNmNLX2Y4VHYtQlFwYmVOeE5lSmUwRndQSWJldE96WEZYRTV4Nl9YbzlMQkh5ZDIwRXNMNk05YlNiY0ozekVr?oc=5",
       "date": "Wed, 02 Sep 2026 10:34:05 GMT",
       "source": "Le Monde.fr",
+      "confidence": "high"
+    },
+    {
+      "entity": "Brian Kilmeade",
+      "stance": "",
+      "title": "U.S. Bombs IRGC Targets in Iran | Brian Kilmeade Show - FOX News Radio",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41RmdLVDgzTnpHQWQ4UGMzaVVXQ2l6ZEcySmJiOWpNU1RlQlRFQm8zVHM0RU5vVnkwRFV3aS1DOVVTdnlOZ3Q3MUdsOUd3c1VMdW1ZUENwVUdXTVhQRmVvZlZqeXlUOENIM09mc0RWUUJmME11RFJ3?oc=5",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "FOX News Radio",
+      "confidence": "high"
+    },
+    {
+      "entity": "Carolina Journal",
+      "stance": "",
+      "title": "Bessent ends G20 Asheville meeting with Iran message - Carolina Journal",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVpzUUxuX2JfV25pME9jS3ZKdEF6eTdsTmVsTHFEUTRFa0gyc3ZzY0hqMUxFMUo4T3NXakxnZFUwU0JYMk53MjJqcjRpSmxfM256MzJiZzFaLXNxWFZGSnRvUnpRVmNXTjd2ZHhnS2dLckZUUzJ5bzBvVGJoQlpxU0h6Q0dmeDk2VE5YeFRB?oc=5",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "Carolina Journal",
       "confidence": "high"
     },
     {
@@ -885,15 +930,6 @@
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPanB3N0VEQ2Z2MG5Ja3JHSGxmWUUyWVJtb2gtYlhsaVh6NkViV1VpdERaVVNqNmZhSVZ3bWhrWDQ2bjRzSUJXbl9SQVRDUzhRZW1Hem9rUlgzNk1IMWNGVEJlWEhCT29LZ0F4Q2N2ajdNTm1wQ3FWaGNFRF9rQ2dqVGdqWmxKQ0ktbUNJQUFJZ1I?oc=5",
       "date": "Tue, 25 Aug 2026 21:22:51 GMT",
       "source": "FOX News Radio",
-      "confidence": "high"
-    },
-    {
-      "entity": "Chevron",
-      "stance": "",
-      "title": "Chevron Falls as Oil Surrenders the Iran Premium - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSnhMNTcyVFFRTG1mV051MVpOZE1HdjZDRUU1enRjV2ZwWmhJbDdyZHN4VkEzM2hzbVFrbmRLMFNIWldacFFXWkppMzhrNFc3TFJBZDlrZUFMSUNza29HZ1VvSzZwYk14U1Q2X1k0Q2lOeXdzZHROT2l0VG16VmEtRkV0czh6WUNQa1VjY2hkMTBXVUE0?oc=5",
-      "date": "Tue, 25 Aug 2026 19:42:23 GMT",
-      "source": "Yahoo Finance",
       "confidence": "high"
     },
     {
@@ -1005,30 +1041,12 @@
       "confidence": "high"
     },
     {
-      "entity": "Elon Musk",
+      "entity": "Chevron",
       "stance": "",
-      "title": "Francesca Albanese cries defamation to Elon Musk on X over UN Watch chief’s ‘Hamas spox’ label - Ynetnews",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Jdm5pSEF5cW5YYU5OMU9ZUldPbmYyYWItcVc2dFBWVDRDSFJrTWtFUFdUSUgtUTl0dlVyaUpwLTk1NUtzZzJmZFJTa0d3dElKMjE0M1BB?oc=5",
-      "date": "Tue, 25 Aug 2026 07:08:23 GMT",
-      "source": "Ynetnews",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gilad Levy",
-      "stance": "pro",
-      "title": "LSU adds commitment from Israeli C Gilad Levy - Louisiana Sports",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZnbi1McGg3Slc5YUZoajJ5cVJhcGNoMDQ0V1JVeno5Q2lwNUt6bjJHUk9fdElxMnVhaXlDWGgwTDFLcjI3UjZ4dG5PYUQydFRoVW1XZG5PeDVSSTkwUExhaGVIc25DbFl5VmRuczhpZWFpWk85TkVGQlpyNDhtU0tWWDVvSS12eXlSVU03MHZXLUg2R3ppN2dua1Z6OWhsd3c?oc=5",
+      "title": "Chevron Falls as Oil Surrenders the Iran Premium - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSnhMNTcyVFFRTG1mV051MVpOZE1HdjZDRUU1enRjV2ZwWmhJbDdyZHN4VkEzM2hzbVFrbmRLMFNIWldacFFXWkppMzhrNFc3TFJBZDlrZUFMSUNza29HZ1VvSzZwYk14U1Q2X1k0Q2lOeXdzZHROT2l0VG16VmEtRkV0czh6WUNQa1VjY2hkMTBXVUE0?oc=5",
       "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "Louisiana Sports",
-      "confidence": "high"
-    },
-    {
-      "entity": "Yoseph Haddad",
-      "stance": "",
-      "title": "Amcha Israel: Ofer Winter Launches A New Right-wing Party With Yoseph - i24news.tv",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWVVUWFTYlBQWU0tb2Jqblg5YjJUam05R3pybGFZbk9CeEhNcVNwYmc5ekxtbWRxdEx0MDhiUi02ZEgtU0NfWHk5SDJXSGJhZ3h5YTFJRnNrTUJRcFVCWVQ4TmMxcC1MbHN3R01MYjVXRWRGQUdZMF8zMFVBdENjZU5nUFhGb3hDT1FtZnF6TGdVVUxIWmV0MzhRblI4MURDTkFzb1k0R01OZnJWaGFKZ2tKNWE2cjdPOXBNczZRZE8wdFNnZFE?oc=5",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "i24news.tv",
+      "source": "Yahoo Finance",
       "confidence": "high"
     },
     {
@@ -1050,39 +1068,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Yoseph Haddad",
+      "entity": "Elon Musk",
       "stance": "",
-      "title": "Amcha Israel: Ofer Winter Launches A New Right-wing Party With Yoseph - i24NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWVVUWFTYlBQWU0tb2Jqblg5YjJUam05R3pybGFZbk9CeEhNcVNwYmc5ekxtbWRxdEx0MDhiUi02ZEgtU0NfWHk5SDJXSGJhZ3h5YTFJRnNrTUJRcFVCWVQ4TmMxcC1MbHN3R01MYjVXRWRGQUdZMF8zMFVBdENjZU5nUFhGb3hDT1FtZnF6TGdVVUxIWmV0MzhRblI4MURDTkFzb1k0R01OZnJWaGFKZ2tKNWE2cjdPOXBNczZRZE8wdFNnZFE?oc=5",
+      "title": "Francesca Albanese cries defamation to Elon Musk on X over UN Watch chief’s ‘Hamas spox’ label - Ynetnews",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Jdm5pSEF5cW5YYU5OMU9ZUldPbmYyYWItcVc2dFBWVDRDSFJrTWtFUFdUSUgtUTl0dlVyaUpwLTk1NUtzZzJmZFJTa0d3dElKMjE0M1BB?oc=5",
       "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "i24NEWS",
+      "source": "Ynetnews",
       "confidence": "high"
     },
     {
-      "entity": "Erick Erickson",
-      "stance": "",
-      "title": "S15 EP150: Hour 1 - Scott Bessent's Economic D-Day on Iran - The Erick Erickson Show - iHeart",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVHhoNlhMNXJVODJoWm5fVkw4cVF3T2JmSkF4V0ZWRjlsdm9YOWJpWGV2WjlfVGFOWlZNdEtaa3F0Y2tYYXF4c1F0ai1CTTQ5Nm1rSElQYVA5QTFldXVaMG1YZklzcjdXTXZ3NVN6SjZYN3RmTHR2b3p4ODdJZGtueXItTTVId2J6YjdjYkF1dkZ5cTZnQkZObUJOWDlweWJveS0tcTdLZTR4bHlaMFE?oc=5",
-      "date": "Tue, 25 Aug 2026 06:41:45 GMT",
-      "source": "iHeart",
-      "confidence": "high"
-    },
-    {
-      "entity": "Sean Hannity",
-      "stance": "",
-      "title": "Sean Hannity And Ainsley Earhardt Are Engaged After Long-Distance Relationship Iran Missiles (fvyfzKdgpV) - Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xX280dmV0VjNpUmQ3VGFLSkJMQmFDcFY4VkhVc3l0WGF3U1V2eEEtaUpZLTVLblA0WWExaDcxRVBkcXpSMk50Nk01QnpIaG1ma3BoR1VXSE5IM2d1Mld4MA?oc=5",
-      "date": "Tue, 25 Aug 2026 06:34:24 GMT",
-      "source": "Mshale",
-      "confidence": "high"
-    },
-    {
-      "entity": "NewsNation",
-      "stance": "",
-      "title": "Iran mocks US sanctions push, calls it an ‘admission of failure’ - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaVVmSktJZGZOSHJaaUROV0tFbU00cFA3amZPS01seG5SVGRoQVZtOFRleTVlaTJrTURlRjlGWDhwSm5VWTUxdThpdnJXdl9wbmxMaGdVaXljemxwYWo5TW5NeFFVb0lDamtPeFdHX3ZJQlQxSk85cUM4YVRVRHdZUVBYNXBwT2Vja1ExRNIBkgFBVV95cUxPem5VZDZkaGNCdG0yQkkwVDVMVXdOZWh6RmZSUl85TmpTbVlfTnhkeVRqOFJRUk9QaUdtNTdPV2x1OGRjVnFjUmhNbVE0azVjSkluNlFZYTNqUm85LTMtd3F0VFBTaXp6NUpEemMzMi1ySmpjNXlrZlcxWVZfWktxR3BRSUMyUEg0OWlnTTBUbHdzQQ?oc=5",
-      "date": "Tue, 25 Aug 2026 02:47:56 GMT",
-      "source": "NewsNation",
+      "entity": "Gilad Levy",
+      "stance": "pro",
+      "title": "LSU adds commitment from Israeli C Gilad Levy - Louisiana Sports",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZnbi1McGg3Slc5YUZoajJ5cVJhcGNoMDQ0V1JVeno5Q2lwNUt6bjJHUk9fdElxMnVhaXlDWGgwTDFLcjI3UjZ4dG5PYUQydFRoVW1XZG5PeDVSSTkwUExhaGVIc25DbFl5VmRuczhpZWFpWk85TkVGQlpyNDhtU0tWWDVvSS12eXlSVU03MHZXLUg2R3ppN2dua1Z6OWhsd3c?oc=5",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "source": "Louisiana Sports",
       "confidence": "high"
     }
   ]
