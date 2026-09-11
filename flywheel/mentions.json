@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-10 16:57 UTC",
+  "generated": "2026-09-11 16:59 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 535,
+  "cursor": 785,
   "count": 120,
   "mentions": [
     {
@@ -546,6 +546,42 @@
       "confidence": "high"
     },
     {
+      "entity": "Jerry Seinfeld",
+      "stance": "",
+      "title": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’ - Combat Antisemitism Movement",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1FsTFp5Y0lCbmdKZmFyVXpBS25xcnlWWVpsOHMtcXZweVZkbEtVOXZCUDM2WEhYUWRuQkdpMXUzNHk4bDlIdmR1NE5ZekVNcG5zWnFOWWhOcW1wUk4zQ04wTDMteC1fWlVjX2d4QWZkanRnZ3cyWU9OWHJhaHphSmFXTzYzSDNEbDZkRVI3QUdpcEFCbHhIMXJDT2liandJRExwYXpGWWUtSmNtT2hITUdBenZ3YlRFdkV6T05uN3pYRVVGMkE?oc=5",
+      "date": "Wed, 09 Sep 2026 20:12:19 GMT",
+      "source": "Combat Antisemitism Movement",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hudson Institute",
+      "stance": "",
+      "title": "Trump’s Pressure Campaign Has Iran Reeling. America Can’t Hesitate Now - Hudson Institute",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbEtxQzlJaFVsX1c1azYtRUl1d3RkM0tuS1lPUGtCcHRyNzVzU1NNbnVxbUYzQXdaaTlSbjBJbHJUaW03bGM5ZmFXbU5Vakd5WEh5Y2l6LVZVbDBRNWpoUVA5c3ExRFQwcUNzZDBCLUpDUG1yaFdab3pESFRERnNQY0d6M19RVVZ4UnhuUHlRNUVkRzRwaV9ZY25hTkc2VWpYZk9rWFhCVEpHZmtUS2NXRXI2SnV0aXNhUVdtU215RWRhZw?oc=5",
+      "date": "Wed, 09 Sep 2026 12:00:00 GMT",
+      "source": "Hudson Institute",
+      "confidence": "high"
+    },
+    {
+      "entity": "Israel Englander",
+      "stance": "neutral",
+      "title": "Billionaire Israel Englander Is Doubling Down on These 2 Outstanding Dividend Stocks. Should You? - Currently.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVjhqNlhXVElqNHMyVy11b19jTGhRWGlqbGVMMUVBSy16Q054OHd5d1hocDc2aHFuZHN3STZxVDJSdWhBNmhaMFpKMk4taUFMbUtWZHE3NVVub19jZ25vZzdZR1BWSGQtTDhzZ3Y3V1pYY3QydVN4U2ZaUWdRbmx3a1lwbjA2T0NfT01LSjBsNlZXTVc2ZlNqcg?oc=5",
+      "date": "Wed, 09 Sep 2026 10:20:02 GMT",
+      "source": "Currently.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jerry Seinfeld",
+      "stance": "",
+      "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24news.tv",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZktwUG04VDVUU2NhckxJMHVfM29JSG5MbG01Q1RMSUJydUpySEF6SDRiaEFQSHdMWXlURGNuaXdhcTkwRGV0UTRtdks2OW9na0FWWV9kZHJnUzB6R3p6QkdHX0xPWmlnYkx1blhQY2lvVHQtNjhzQzViTWRmeVFZcDFuRjVrdy1BRU9vcEY2WWZuT0F5dEZwYVRValRsOGtqVlFJZDNhT2dyajdVcVhEMWwzSno0ekdOelZJWGtTcnhrc1A4eDdN?oc=5",
+      "date": "Wed, 09 Sep 2026 09:26:00 GMT",
+      "source": "i24news.tv",
+      "confidence": "high"
+    },
+    {
       "entity": "All Israel News",
       "stance": "",
       "title": "Will a major war take place during the upcoming Jewish holidays? - All Israel News",
@@ -564,6 +600,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Hudson Institute",
+      "stance": "",
+      "title": "Contested Lebanon: Israel, Iran, and US Strategy in a Fractured State - Hudson Institute",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOUNCYndFaF81WDF6NnIxSmlhSm1FNTJKaVpvQm9OTmJ5OHAzZlFpVnpId1diVHY4Ukx2Wkx2V3NUUFVKcFJNemFNRXNYcG9KbTFaV0ozcU1DczZSTVhaeDJEUzVvdmc1RGdiY291Zjc1Q0sxVlA2cjFEcGIwSzRHaVpTMm1vSmxHQ0FuV3laT1U?oc=5",
+      "date": "Wed, 09 Sep 2026 04:36:54 GMT",
+      "source": "Hudson Institute",
+      "confidence": "high"
+    },
+    {
       "entity": "Creative Community for Peace",
       "stance": "",
       "title": "More Than 5,000 Leaders Across Entertainment, Academia and Public Life Unite to Reject “Genocide” Accusation Against Israel - Creative Community for Peace",
@@ -579,6 +624,24 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObGpPRGpJaGZpaWg5QWdwaUdXSGcwbzZiT2doZ1JQYUJyMXNLMTNlWXRtV1Bqc1FkSVlYT0FDTmNrOWp0allsQlNaeEY0cGg2Skw0MkJPbW8tWWxpREtiVmNIWlppZVBsOEFrU1BTbDRpMzlCNE83T1RMTlkwZlFUcnJEQmxWSVk?oc=5",
       "date": "Wed, 09 Sep 2026 03:24:12 GMT",
       "source": "The Jerusalem Post",
+      "confidence": "high"
+    },
+    {
+      "entity": "Gal Gadot",
+      "stance": "",
+      "title": "Ralph Lauren faces boycott threats over Gal Gadot backlash - www.israelhayom.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSGljRGpDRmNUNTdzMVpHSFk2RVF0aUJfR2J1Tjd3dV8zM0FpZDRubkgyUEp2dS1LU3JPalpMbkJJWkJOTVNCSG0zRU02Z1dBRmluemNtbUNGeFBXdERiUk9QWUF4QUVob1JwQzJtMVdTMlpwS3hDNWxkdHByc240VTNWZ0thZlF3c3ZLdGtDT0UzWUkyYm1LWjhBbEJ3dTQ?oc=5",
+      "date": "Wed, 09 Sep 2026 02:40:25 GMT",
+      "source": "www.israelhayom.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hugh Hewitt",
+      "stance": "",
+      "title": "Iran hasn’t had to deal with a president who hits back ‘this hard, this fast’: Hugh Hewitt - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PRTVNck1TT1BMbU9Hc1ZhNnpDNzlHQ01Ba1M5RFA4UzBPNGZ2M1g3R09lNHZfV193LXZvcWNkNGRqSHRPX3dNdGpobHk4U0hNa0MxQmpn?oc=5",
+      "date": "Wed, 09 Sep 2026 00:10:09 GMT",
+      "source": "Fox News",
       "confidence": "high"
     },
     {
@@ -762,6 +825,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Jon Husted",
+      "stance": "",
+      "title": "Brown attacks Sen. Husted on Iran war, Medicaid cuts in Dayton visit - Dayton Daily News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU095T0lIS0xHbzJnRUIwRWh3X3NZY3FOMmtaaUo5Q1E1eG44Tk5RZ3BQSThfNVRZWUdsX1dyVHMtUXJpYk1zY1EzdXJoUXNqU2xzT19IMUQ4UW9Kb2RrU2tyQUkwNW9haTNnalA5NnRvTXptdEhyeUw4QU5QQVQ3dzlhWUZWWW03a1piTHhXVXE0Z2V1?oc=5",
+      "date": "Wed, 02 Sep 2026 20:16:10 GMT",
+      "source": "Dayton Daily News",
+      "confidence": "high"
+    },
+    {
       "entity": "Hudson Institute",
       "stance": "",
       "title": "Standoff in the Strait of Hormuz and Iran’s Economic Collapse - Hudson Institute",
@@ -798,15 +870,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Joe Rogan",
-      "stance": "",
-      "title": "Joe Rogan says Trump renamed Lake Ontario to distract from Iran war - MS NOW",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcXU5dDRJSV8xc3dqZ19PaURQTHJobWpHQ0M1cm5rRE00bG9CcGpzSk51MUdxOVp1YXpXVnd6TjhIWmZvdlNUcFJuYjNfNi0tamJSVkpHRlNJcnJxYTR0Y1RJZDFuUGJ0S1d5U0ozSEFLYXk5NVY5dm44T1pGOFRYNDlUQVV2ZW9kTGUw?oc=5",
-      "date": "Wed, 02 Sep 2026 16:58:03 GMT",
-      "source": "MS NOW",
-      "confidence": "high"
-    },
-    {
       "entity": "Pete Ricketts",
       "stance": "",
       "title": "Ricketts, Osborn Clash Over Tariffs, Iran and Party Loyalty in State Fair Debate - klin.com",
@@ -840,6 +903,15 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcW0tS21UQVlRLThDT1hCcmNVLUFIUlJKVUUxbXliM0pPX3VrOWI4TTljQ3VOcWFGSlVETTYtS2J5SERrV1ZsWFpERDE1UHhHRW1YUTJGVUlpY2NKQk4zckNCTGYxMktkMjFTOUdJN1ZueVp4eEl3bUN2Q3pRVnlqZHBqblN2c2NQNnlEYkc4VE55bUJqVzNVdXFkMGx1anMyNmNLX2Y4VHYtQlFwYmVOeE5lSmUwRndQSWJldE96WEZYRTV4Nl9YbzlMQkh5ZDIwRXNMNk05YlNiY0ozekVr?oc=5",
       "date": "Wed, 02 Sep 2026 10:34:05 GMT",
       "source": "Le Monde.fr",
+      "confidence": "high"
+    },
+    {
+      "entity": "Joe Rogan",
+      "stance": "",
+      "title": "Joe Rogan says Trump renamed Lake Ontario to distract from Iran war - MS NOW",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcXU5dDRJSV8xc3dqZ19PaURQTHJobWpHQ0M1cm5rRE00bG9CcGpzSk51MUdxOVp1YXpXVnd6TjhIWmZvdlNUcFJuYjNfNi0tamJSVkpHRlNJcnJxYTR0Y1RJZDFuUGJ0S1d5U0ozSEFLYXk5NVY5dm44T1pGOFRYNDlUQVV2ZW9kTGUw?oc=5",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "MS NOW",
       "confidence": "high"
     },
     {
@@ -1011,78 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzAwQzFLbUhITWNHaGhTenlmUElGXzJXcldzU1lxYUkycGpzYTdBZEk5T2Fod20zdF9nT2VhdUFNRGg5eGFoRzF0X3FYX0xFSzhTWjEwUklmaXJ1LS01UFRJbjBJdkNxcUt2elBvT3VwRFJ1QnZQZGdDVlFXWGNteFExVElSSmQ0bHVKVW9jd0ZSVmF0S0Zuc3Y4YW5jdw?oc=5",
       "date": "Tue, 25 Aug 2026 14:18:00 GMT",
       "source": "tvinsider.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Pete Hegseth",
-      "stance": "",
-      "title": "Pete Hegseth Says Trump’s Economic Pressure Hurts Iran’s Regime Most, Threatens Kinetic Strikes - NewsCord",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaFRITXBxeXM2TDJWeGVlZkpSMUhJWE5Kd1kxSmVSeHNGYnRpbFdJQVpKY0lPcHNpSmtDM3ozOU8zRzJhLXU3dzd6VFlZTHA4U242WjNtLVB5aWg1ZUx1dEQ2UXhhQmRWZ1R5c2ZBTlpESXl2ZDJWRTlIbHVWUEMwUHRqZHFsSlp4dEtOUExFcmVNbUFwRG8ybElzZVlBdl8xVzc3SFQ1LWc2bzFpdE03X0s0bVp3MVBXWUxHTS1zb3VXdUFqOTBVWU5qMUtmVk5FaE9oT19HLXBnRWhQcE1oS0RMMkRTTmQ0U2c?oc=5",
-      "date": "Tue, 25 Aug 2026 12:00:46 GMT",
-      "source": "NewsCord",
-      "confidence": "high"
-    },
-    {
-      "entity": "The Free Press",
-      "stance": "",
-      "title": "Wall Street points to gains as US raises pressure on Iran and trade war with Canada intensifies - Mankato Free Press",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPS2o5QlNQMUR1ejItNWo4ZnVodENtRVVXbllnLVpCVk1oSGN4ekpoVzBzaFpXYVJZTmtPMDRPcTNkWENxR0dTdHNFT1JBdFF5VjBmd0YySEFOTTVyOTIycDJ2ckpTcW50U0c3bDBWMXpxcjFOcGhtb1BOb1VuUnJ3cjhISzhVMVlkNldCeENCS3JqdWpaV2tiZ0U0NXJ5NTU3a3RCRjgtYzhpRkdTMklFdXN5b0xfcmRKczVnWl9VdU1fSE5UQmstQ1luVXBVR2VOLXd2RXhJcko1dTZvWEpKcTE2MVU1SXYtYkJaV0Nib1lRYTVPUXMzNVRXdFZjX1NabzZxaExsVWh2ZUN2RWMwTG1n?oc=5",
-      "date": "Tue, 25 Aug 2026 12:00:37 GMT",
-      "source": "Mankato Free Press",
-      "confidence": "high"
-    },
-    {
-      "entity": "Lionel Messi",
-      "stance": "",
-      "title": "From Lionel Messi, Kanye West to Taylor Swift: Celebrities are \"protected\" by Israeli security teams - mronline.org",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGRMUDZJNnV1TWlvRy1QYXZzd0NXcDViZTN3RFFwRnY1bXdqNWR4eTRCZ1NYNWhMVElSeTJkaFB0U0hjTWpTcjkzOXBpeWV4dHBkSzJSRHN4VGpBVnl2c3NVYTdpenpQVEtUOWtEYnFsNXNGdEI1RW5lX1NFQWJBdmhSaWdZRUo0NDI1TmhXODQ1TEJpYml5UTBmZWRueUxvRlBiTDItbHpKTGlOXzlic0hKTUFOV0FvbC1JSUVLTXEycnEtalFfbA?oc=5",
-      "date": "Tue, 25 Aug 2026 11:14:22 GMT",
-      "source": "mronline.org",
-      "confidence": "high"
-    },
-    {
-      "entity": "Chevron",
-      "stance": "",
-      "title": "Chevron Falls as Oil Surrenders the Iran Premium - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSnhMNTcyVFFRTG1mV051MVpOZE1HdjZDRUU1enRjV2ZwWmhJbDdyZHN4VkEzM2hzbVFrbmRLMFNIWldacFFXWkppMzhrNFc3TFJBZDlrZUFMSUNza29HZ1VvSzZwYk14U1Q2X1k0Q2lOeXdzZHROT2l0VG16VmEtRkV0czh6WUNQa1VjY2hkMTBXVUE0?oc=5",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "Yahoo Finance",
-      "confidence": "high"
-    },
-    {
-      "entity": "Douglas Murray",
-      "stance": "",
-      "title": "Douglas Murray: The Death Penalty Is Cruel. Hamas Terrorists Deserve It. - The Free Press",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yemVZS3RJbmhzQXZ6Ukh6NWNQUElhaGVFVjItbFR5SF9sUmNJWGYzVlpDa3laZW55SUNtMU9jSWEwVzJOUWU1dnFwY1hzRXVOakFSZjhWcTRocU03Y3ZkcTZCTmZmNFU?oc=5",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "The Free Press",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elissa Slotkin",
-      "stance": "",
-      "title": "Elissa Slotkin calls out Hasan Piker for blaming Jewish Americans targeted over their Israel views - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM0FmbzBiS0hFcmhoQThWZnVJSUViUmVuZG1yUmRBRHU3WmwxcHJGUGtIdmRXZ2pNeU5qSjFkeS11NVNBM1hvdzlpNWIwalM3VUFpOEN6cEdQTnNkZGxCY2JPVjY3Zk1kakJPdDFTVTZVRTBLOXhIb0NQOW1La0RRV2pwQ0xsSzFUMTF2TVBqLXUxclJfSE5n?oc=5",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "Yahoo",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elon Musk",
-      "stance": "",
-      "title": "Francesca Albanese cries defamation to Elon Musk on X over UN Watch chief’s ‘Hamas spox’ label - Ynetnews",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Jdm5pSEF5cW5YYU5OMU9ZUldPbmYyYWItcVc2dFBWVDRDSFJrTWtFUFdUSUgtUTl0dlVyaUpwLTk1NUtzZzJmZFJTa0d3dElKMjE0M1BB?oc=5",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "Ynetnews",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gilad Levy",
-      "stance": "pro",
-      "title": "LSU adds commitment from Israeli C Gilad Levy - Louisiana Sports",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZnbi1McGg3Slc5YUZoajJ5cVJhcGNoMDQ0V1JVeno5Q2lwNUt6bjJHUk9fdElxMnVhaXlDWGgwTDFLcjI3UjZ4dG5PYUQydFRoVW1XZG5PeDVSSTkwUExhaGVIc25DbFl5VmRuczhpZWFpWk85TkVGQlpyNDhtU0tWWDVvSS12eXlSVU03MHZXLUg2R3ppN2dua1Z6OWhsd3c?oc=5",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "Louisiana Sports",
       "confidence": "high"
     }
   ]

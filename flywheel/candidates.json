@@ -1,20 +1,7 @@
 {
-  "generated": "2026-09-10 16:53 UTC",
-  "count": 5,
+  "generated": "2026-09-11 16:55 UTC",
+  "count": 3,
   "candidates": [
-    {
-      "name": "Dr. Michael Stevens",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Candace & Tucker Are DANGEROUSLY Wrong About Israel | Dr. Michael Stevens",
-          "date": "2026-09-07",
-          "link": "https://www.youtube.com/watch?v=4SpyXR3YTOY"
-        }
-      ]
-    },
     {
       "name": "Ex-Fox Journalist Warns",
       "orientation": "ally",
@@ -38,19 +25,6 @@
           "title": "One Hospital Visit That Made Him Realize He Had to Tell Israel's Story | Hillel Kornwasser",
           "date": "2026-09-10",
           "link": "https://www.youtube.com/shorts/BSODQTtsf1w"
-        }
-      ]
-    },
-    {
-      "name": "Imam Tawhidi",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "“You’re Being USED by Hamas” | Imam Tawhidi",
-          "date": "2026-09-06",
-          "link": "https://www.youtube.com/shorts/e-Pj7k55RB4"
         }
       ]
     },
