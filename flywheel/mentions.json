@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11 16:59 UTC",
+  "generated": "2026-09-12 16:04 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 785,
+  "cursor": 1035,
   "count": 120,
   "mentions": [
     {
@@ -78,15 +78,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Mark Kelly",
-      "stance": "",
-      "title": "Video Sen. Mark Kelly on Iran war, Navy conditions and what’s next for Democrats - ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEN0JKYV9ISnZQRzY1VGdzczhhN3FHSFpkMDhLWEFHd3ZRTG1QUm5GcmNPXzJYTTJJbEVjSlRqMmlXWGhwTHZqTkJvNnA?oc=5",
-      "date": "Wed, 26 Aug 2026 19:15:06 GMT",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "confidence": "high"
-    },
-    {
       "entity": "Tyler Oliveira",
       "stance": "",
       "title": "Antisemitic YouTuber Tyler Oliveira Arrives In New Square After Visits To Lakewood And Brooklyn - Monsey Scoop",
@@ -129,6 +120,15 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Pa0NoaWNUSkJCczRGRXQ0X0xaeGtXd1BVWVBpSG1QT0VfX2tNTW9SZ3hNRVBlYVhQbnJrZmtGQ3FGZmhiQXprYmg2aHBjT01PUEE?oc=5",
       "date": "Wed, 26 Aug 2026 10:24:15 GMT",
       "source": "Iran International",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mark Kelly",
+      "stance": "",
+      "title": "Video Sen. Mark Kelly on Iran war, Navy conditions and what’s next for Democrats - ABC News - Breaking News, Latest News and Videos",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEN0JKYV9ISnZQRzY1VGdzczhhN3FHSFpkMDhLWEFHd3ZRTG1QUm5GcmNPXzJYTTJJbEVjSlRqMmlXWGhwTHZqTkJvNnA?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "ABC News - Breaking News, Latest News and Videos",
       "confidence": "high"
     },
     {
@@ -573,6 +573,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Michael Rapaport",
+      "stance": "",
+      "title": "Michael Rapaport tells Craig Carton that his support for Israel has cost him work in Hollywood - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVmtpNTE2blhGNF9EaTJNMk9Qak4wLWJHYVhkUEN0TUNiZ2stQm9aUVRRelV0ZjR0U0RYRGFkNVZwd3RRUGRYd3BBb3BaRTd1c2czNS1wcEFiNkZCR3hjdEdGY0xleE1qaWlsSHprZ0NIUk1idTBJUEFUd2dtSjUwTlpzZ2VkTVdkWld6UUJYN1dxQW15bG5BS3FhZVhhNFZ0V3M4NzhFWWtQSVo2SEpLS04yaGQ?oc=5",
+      "date": "Wed, 09 Sep 2026 10:17:33 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Sarah Huckabee Sanders",
+      "stance": "",
+      "title": "Sarah Huckabee Sanders: 'Boycotting Israel is antisemitism' - Israel National News",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0c1JXLUt1UHM0djIzX1JSSHYtSDlrZ0MzaHIzVG9HbFl6Qk5UMTFwNXV6dUViWUQtNFQ1UXNpQmdqNWNWcDF5SEd2YjYwMGdYWExrMVRlTWk2Zw?oc=5",
+      "date": "Wed, 09 Sep 2026 10:10:00 GMT",
+      "source": "Israel National News",
+      "confidence": "high"
+    },
+    {
       "entity": "Jerry Seinfeld",
       "stance": "",
       "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24news.tv",
@@ -906,6 +924,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Mike Johnson",
+      "stance": "",
+      "title": "Top US lawmaker Mike Johnson says lying is part of some Iranians’ religion - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUliTGtPdk1falRwWjE5SEVCOEZaQUEtQUx0NWFHNi1ZVWxndEJCTXNpQzFFRDZXeW1FdlBhVHU2cUNiRWl4bWZ4eUlDZXBCLWpKckdyT1h2WTVmeF9lbmwybUloZWxBZV90bldjRlQ3c3NaV1psa29sS19zTFRVUjlHNkhIVGgwUnRxT1BFSmRlZHJoZTdBb21tcENMbVJURjJQbnVuaGxUcTJZNDE3OXZHY9IBuAFBVV95cUxOdm5icmRtcllRVTRBVXdyb1pRLUZrY0NtOE1zTjVJbzYtVFFCSXpjbDdnd1laQ1cwTmY1VDJtOTZYTFM3ajZ0NGhIeEdITEJyMFVvWDYzcW1zU092aHpWSG1DSDc3Y2J3TnlSakVmeHdiOXV2dGdNZDctY3BET0FpVXVXZFdicmxGS3laZ2s0Qlh5TzlodGoybGRTU0o4UXQ5MW85RDFVVFZScE96NnhYYWhzWU5VdDBx?oc=5",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "Al Jazeera",
+      "confidence": "high"
+    },
+    {
       "entity": "Joe Rogan",
       "stance": "",
       "title": "Joe Rogan says Trump renamed Lake Ontario to distract from Iran war - MS NOW",
@@ -957,15 +984,6 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUliTGtPdk1falRwWjE5SEVCOEZaQUEtQUx0NWFHNi1ZVWxndEJCTXNpQzFFRDZXeW1FdlBhVHU2cUNiRWl4bWZ4eUlDZXBCLWpKckdyT1h2WTVmeF9lbmwybUloZWxBZV90bldjRlQ3c3NaV1psa29sS19zTFRVUjlHNkhIVGgwUnRxT1BFSmRlZHJoZTdBb21tcENMbVJURjJQbnVuaGxUcTJZNDE3OXZHY9IBuAFBVV95cUxOdm5icmRtcllRVTRBVXdyb1pRLUZrY0NtOE1zTjVJbzYtVFFCSXpjbDdnd1laQ1cwTmY1VDJtOTZYTFM3ajZ0NGhIeEdITEJyMFVvWDYzcW1zU092aHpWSG1DSDc3Y2J3TnlSakVmeHdiOXV2dGdNZDctY3BET0FpVXVXZFdicmxGS3laZ2s0Qlh5TzlodGoybGRTU0o4UXQ5MW85RDFVVFZScE96NnhYYWhzWU5VdDBx?oc=5",
       "date": "Wed, 02 Sep 2026 02:24:28 GMT",
       "source": "aljazeera.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Pete Ricketts",
-      "stance": "",
-      "title": "Ricketts, Osborn talk tariffs, Iran war during Nebraska State Fair debate - Nebraska Examiner",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY1NZbnV5Z2ZRTThycS1sN3V4ZWtMbnNfUGJ1dTkydjJmQ05Fci1uUERtVXhPUl9NME12S0Izdk9wUl85alExcHNHZ3JNTHNCRkFYMzVRUmdkVEhNRV9pUldWaU1rWkFpX0VUZXJzejEtbE82Wk0zc0lWVE1lcEhSNVNiZkh5WGhKTGhEZl9kQ0ROc3pzR05ybDNSbnk1YkRPaE9yZmhXMkFuekNWVDNsLWtn?oc=5",
-      "date": "Wed, 02 Sep 2026 02:22:57 GMT",
-      "source": "Nebraska Examiner",
       "confidence": "high"
     },
     {
@@ -1065,24 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMzRVQ0ZRMFg5WkUtZi12LWZ5bHcyUTVCMkNHZXFRckhYVUlzMld0OE10OHB6NllHVmNhaDNfMllvTGdlQXhISDdfVjRnVUxOWUJRaE5objJpbk9iT21EVGdLNFVDQkZmVXVzWGQtR0hIM0lKLUlkSUdiOXBmenh3Rw?oc=5",
       "date": "Tue, 25 Aug 2026 16:10:46 GMT",
       "source": "lsureveille.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gilad Levy",
-      "stance": "pro",
-      "title": "LSU adds massive Israeli center Gilad Levy to basketball roster - TigerBait.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZHdrYkhYd2VTTkZJMjhYVE5CZE41SFNwcjY1Ny1NN1RRaHVzZ2Y4VUpWcUpDNV8xc2ZmMFpHUjhNb2RxeTRZVEFHVmVnLW1QNUswYWtoX1R6a0p5Q1FMNFVNaThYZEJZLU50YjkxSWhSNFhsRUQ4TTRwRTlZZEpUdzhINi1XWVNOb2gwd0ZlcXQ2RUt0TGdr?oc=5",
-      "date": "Tue, 25 Aug 2026 15:25:51 GMT",
-      "source": "TigerBait.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Scott Jennings",
-      "stance": "",
-      "title": "CNN’s Scott Jennings Makes Bold Statement About Trump’s Iran War - tvinsider.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzAwQzFLbUhITWNHaGhTenlmUElGXzJXcldzU1lxYUkycGpzYTdBZEk5T2Fod20zdF9nT2VhdUFNRGg5eGFoRzF0X3FYX0xFSzhTWjEwUklmaXJ1LS01UFRJbjBJdkNxcUt2elBvT3VwRFJ1QnZQZGdDVlFXWGNteFExVElSSmQ0bHVKVW9jd0ZSVmF0S0Zuc3Y4YW5jdw?oc=5",
-      "date": "Tue, 25 Aug 2026 14:18:00 GMT",
-      "source": "tvinsider.com",
       "confidence": "high"
     }
   ]
