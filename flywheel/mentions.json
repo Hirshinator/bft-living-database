@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-12 16:04 UTC",
+  "generated": "2026-09-13 16:56 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 1035,
+  "cursor": 130,
   "count": 120,
   "mentions": [
     {
@@ -555,6 +555,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Ted Cruz",
+      "stance": "",
+      "title": "Sen. Ted Cruz on 'military conflict' with Iran - kcentv.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRVJKbjZmNXZzV1NqU29PeVBPUExUV3U2b1h3dFlKVHg2TXc0U0lqaVI0bGVaeE5UdlBDaTV1bk1BRUhJWU1Ta2RXRF9nMWxEaUhiLVBCUXYzVUVmZmF6d2FENzNtRDZkQ0tJeThmX1BXcWlCSDctZ3dRcndLczExaUJHSVVHajVudWZkZjhWTDg1RnVJZGxtS3c5OFZrSGVReFpmSlgzQnV2X0lKWWZmZHpCdV84elBycGlv?oc=5",
+      "date": "Wed, 09 Sep 2026 14:15:00 GMT",
+      "source": "kcentv.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Hudson Institute",
       "stance": "",
       "title": "Trump’s Pressure Campaign Has Iran Reeling. America Can’t Hesitate Now - Hudson Institute",
@@ -597,6 +606,15 @@
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZktwUG04VDVUU2NhckxJMHVfM29JSG5MbG01Q1RMSUJydUpySEF6SDRiaEFQSHdMWXlURGNuaXdhcTkwRGV0UTRtdks2OW9na0FWWV9kZHJnUzB6R3p6QkdHX0xPWmlnYkx1blhQY2lvVHQtNjhzQzViTWRmeVFZcDFuRjVrdy1BRU9vcEY2WWZuT0F5dEZwYVRValRsOGtqVlFJZDNhT2dyajdVcVhEMWwzSno0ekdOelZJWGtTcnhrc1A4eDdN?oc=5",
       "date": "Wed, 09 Sep 2026 09:26:00 GMT",
       "source": "i24news.tv",
+      "confidence": "high"
+    },
+    {
+      "entity": "The Dispatch",
+      "stance": "",
+      "title": "Iran's Judiciary Head Cancels Visit Amid Troop Dispatch Review - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUZscVFTODlDZWZRZ1cwc2piUVo2U0hEZlRnblI4VHNDMl9WMHBRQ3pkT0J3TUtjV3RkWWNXUzd4R2FuVkh2enRuQnhLQUlXWmRuOWFWS3FfVEdTTTN6NVNXdnZIaS1NdzJqWlh1YVF0UEpmTHBETDBsWElMTHM2eWprNDlYcFdp?oc=5",
+      "date": "Wed, 09 Sep 2026 08:35:01 GMT",
+      "source": "조선일보",
       "confidence": "high"
     },
     {
@@ -651,6 +669,15 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSGljRGpDRmNUNTdzMVpHSFk2RVF0aUJfR2J1Tjd3dV8zM0FpZDRubkgyUEp2dS1LU3JPalpMbkJJWkJOTVNCSG0zRU02Z1dBRmluemNtbUNGeFBXdERiUk9QWUF4QUVob1JwQzJtMVdTMlpwS3hDNWxkdHByc240VTNWZ0thZlF3c3ZLdGtDT0UzWUkyYm1LWjhBbEJ3dTQ?oc=5",
       "date": "Wed, 09 Sep 2026 02:40:25 GMT",
       "source": "www.israelhayom.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ted Cruz",
+      "stance": "",
+      "title": "Ted Cruz says US in ‘military conflict’ with Iran, not at war | CNN Politics - CNN",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMW5MSkw3MU9tWFdxcWYxc0l5dEdkQUNBRWlLQ0JrZDdDbDZQWnplbmJiR0tNa0gtRkNtMVZneHpJUmZPSDY2LVhDRi1UdGI5VHFZS3BnWVp6OFljVXJGRjFvNy1iNm9VVVRPdkhGSkowYk04dm9CRFlHMm1tUXFrWXhHVW8zUHU0eEtLcg?oc=5",
+      "date": "Wed, 09 Sep 2026 02:09:00 GMT",
+      "source": "CNN",
       "confidence": "high"
     },
     {
@@ -924,6 +951,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Tammy Baldwin",
+      "stance": "",
+      "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War - WFRV Local 5",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNGxadEhUVFdYUFlkWGFZU1VUbFVEeGwzdHY2NnpmRGZDb1BPdjZuMVc0bkNtYkpFTkVEWnctSjhZQXBIdHlaRTVELXVPLWUtLVNkeDBvNWNtR0o1YlFpOHhXT2tfbjljUzZOYlBXa0ZuR1BWc2dUQWp2UmtURm5NN1FZc1VqOWvSAYwBQVVfeXFMTWVTdzlDdWJTdDJ2cW5nUER0cnl2TlA5dWlyNEp5YTV6eFBnMmNzX0FGWHJ4b0Q3cy1JWVBIT1ktbmhCaGhhNzVVRzQtR0ZoYk1qVXkzZ3Jja1VJRmpRZzdualZya3lmZ2tBUkFGd3pWcmpZMWs4SW9vZ0c4R3RxZGpCa3dEUzBDRzVhYzM?oc=5",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "WFRV Local 5",
+      "confidence": "high"
+    },
+    {
       "entity": "Mike Johnson",
       "stance": "",
       "title": "Top US lawmaker Mike Johnson says lying is part of some Iranians’ religion - Al Jazeera",
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb1lWRVJwdy1GYUpTT0pvRkZzVFZWS2hLTXItSEJ5ZkJFWWt5S3k3T3ZtTzNpMmYyQ3FscS1RaHdHRXZlZW9YdGZFdWgtamtJVEMtdjNVWGQ4TlNhVGlSOFd2QXZ3UWk0aGRmZGNJRzZzTWVNcTRrU0dlaVczSkNoOHd0a05wS1N5Wkg1V0xwSDc5M3UtM0s4MEpkX1hjQXdfeGNZbHNySE1HaGRCSS15aVl2bGYzbTQ?oc=5",
       "date": "Tue, 25 Aug 2026 16:59:43 GMT",
       "source": "djc.com.ua",
-      "confidence": "high"
-    },
-    {
-      "entity": "Newsmax",
-      "stance": "",
-      "title": "Netanyahu Son Yair Was Target of Iran Assassination Plot - Newsmax",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdkxBeUE5SGlLMUFSbUQzbUh5amFCaG1BaGhiNTBiNUs3cU41cGVEdnNwN1c3THFnalh1em5sZklRSk5rVWE1R3J1b3VnOHU3c3pTckJ6TGUxWG8yQm93NXpHNzFLcVB0YWNmZS1qUDVpd2RBR3Y0Y2VtOG9xOXVObnhmRU5Qejk4N3VDa01idw?oc=5",
-      "date": "Tue, 25 Aug 2026 16:57:57 GMT",
-      "source": "Newsmax",
-      "confidence": "high"
-    },
-    {
-      "entity": "Yoseph Haddad",
-      "stance": "",
-      "title": "Arab Israeli activist Yoseph Haddad joins Winter's People of Israel, aims to be hasbara minister - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TV3UxNU9WVjBWUkZ1QzNnVmFwX0kwaWp5alY4QnpWMWhuM0ZOTlkwdndoS1lEek9sb3hKYzZOZHpZc1VCRG9sSTlFOU9EYzNjRkVGQ2NuTjFmSEM1YUc5LUxrel9QRXE2?oc=5",
-      "date": "Tue, 25 Aug 2026 16:46:31 GMT",
-      "source": "The Jerusalem Post",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gad Saad",
-      "stance": "",
-      "title": "The UN’s Israel Bias EXPOSED | Gad Saad - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xSV9JbDlONHpfOW9TU00zdk8tUkR5OW54aGhWbmtXaUpiM1ZiNUVIS0stcGtDYzBhSW9wZTNILUY1NTB1dTRnc2Q5RFZDcktYLWJ6d2Yzb1J6U0RP?oc=5",
-      "date": "Tue, 25 Aug 2026 16:15:02 GMT",
-      "source": "YouTube",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gilad Levy",
-      "stance": "pro",
-      "title": "LSU men’s basketball gains commitment from Israeli Center Gilad Levy - lsureveille.com",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMzRVQ0ZRMFg5WkUtZi12LWZ5bHcyUTVCMkNHZXFRckhYVUlzMld0OE10OHB6NllHVmNhaDNfMllvTGdlQXhISDdfVjRnVUxOWUJRaE5objJpbk9iT21EVGdLNFVDQkZmVXVzWGQtR0hIM0lKLUlkSUdiOXBmenh3Rw?oc=5",
-      "date": "Tue, 25 Aug 2026 16:10:46 GMT",
-      "source": "lsureveille.com",
       "confidence": "high"
     }
   ]
