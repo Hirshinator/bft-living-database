@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-13 16:56 UTC",
+  "generated": "2026-09-14 18:25 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 130,
+  "cursor": 380,
   "count": 120,
   "mentions": [
     {
@@ -123,21 +123,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Mark Kelly",
-      "stance": "",
-      "title": "Video Sen. Mark Kelly on Iran war, Navy conditions and what’s next for Democrats - ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEN0JKYV9ISnZQRzY1VGdzczhhN3FHSFpkMDhLWEFHd3ZRTG1QUm5GcmNPXzJYTTJJbEVjSlRqMmlXWGhwTHZqTkJvNnA?oc=5",
-      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "confidence": "high"
-    },
-    {
       "entity": "Benny Johnson",
       "stance": "",
       "title": "Benny Johnson Iran admitting defeat 8/26/26 - Media Matters for America",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nSUxnU3lTeW9GMy0yUXhTQXU1X05MaTNqUGlQZGJQWTRsQUNWUm9nSjVFSC01ZjJoRzVQUU1IUzliNHlwdTJQNjRXeVVOWE92STM2aQ?oc=5",
       "date": "Wed, 26 Aug 2026 07:00:00 GMT",
       "source": "Media Matters for America",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mark Kelly",
+      "stance": "",
+      "title": "Video Sen. Mark Kelly on Iran war, Navy conditions and what’s next for Democrats - ABC News - Breaking News, Latest News and Videos",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEN0JKYV9ISnZQRzY1VGdzczhhN3FHSFpkMDhLWEFHd3ZRTG1QUm5GcmNPXzJYTTJJbEVjSlRqMmlXWGhwTHZqTkJvNnA?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "ABC News - Breaking News, Latest News and Videos",
       "confidence": "high"
     },
     {
@@ -534,6 +534,15 @@
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
       "date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "source": "The Times of India",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bill Hagerty",
+      "stance": "",
+      "title": "Watch Senator Bill Hagerty slams European allies over trade restrictions on Israel - Varney & Company - FOX One",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUk9lczZLVElkaHA2NndXWXY5cFBhQ2pFdm50aGNHcmhtSXBTbk9Rd1MtRDk1ZVRnak9LR2xwTnh5S0RQQ3BDVVN0d2tBZU5NR3JIOXg3ZE5qOUxzcEd6NTVNNmFEUEtXMVhBV0RkcWM5ekxyTzFFMExkTm9zMmQ0NHZLamZ5TExlQzBGOGhHSXZFRzNxSkdiZm42eHdBcDdsQzlNdDZqZk1vdWQzOXN3eEtGVVdhTFJXUmprNVpGM3o0YmVWbUNn?oc=5",
+      "date": "Wed, 09 Sep 2026 22:29:47 GMT",
+      "source": "FOX One",
       "confidence": "high"
     },
     {
@@ -951,6 +960,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Brian Kilmeade",
+      "stance": "",
+      "title": "U.S. Bombs IRGC Targets in Iran | Brian Kilmeade Show - FOX News Radio",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41RmdLVDgzTnpHQWQ4UGMzaVVXQ2l6ZEcySmJiOWpNU1RlQlRFQm8zVHM0RU5vVnkwRFV3aS1DOVVTdnlOZ3Q3MUdsOUd3c1VMdW1ZUENwVUdXTVhQRmVvZlZqeXlUOENIM09mc0RWUUJmME11RFJ3?oc=5",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "FOX News Radio",
+      "confidence": "high"
+    },
+    {
       "entity": "Tammy Baldwin",
       "stance": "",
       "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War - WFRV Local 5",
@@ -975,15 +993,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcXU5dDRJSV8xc3dqZ19PaURQTHJobWpHQ0M1cm5rRE00bG9CcGpzSk51MUdxOVp1YXpXVnd6TjhIWmZvdlNUcFJuYjNfNi0tamJSVkpHRlNJcnJxYTR0Y1RJZDFuUGJ0S1d5U0ozSEFLYXk5NVY5dm44T1pGOFRYNDlUQVV2ZW9kTGUw?oc=5",
       "date": "Wed, 02 Sep 2026 07:00:00 GMT",
       "source": "MS NOW",
-      "confidence": "high"
-    },
-    {
-      "entity": "Brian Kilmeade",
-      "stance": "",
-      "title": "U.S. Bombs IRGC Targets in Iran | Brian Kilmeade Show - FOX News Radio",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41RmdLVDgzTnpHQWQ4UGMzaVVXQ2l6ZEcySmJiOWpNU1RlQlRFQm8zVHM0RU5vVnkwRFV3aS1DOVVTdnlOZ3Q3MUdsOUd3c1VMdW1ZUENwVUdXTVhQRmVvZlZqeXlUOENIM09mc0RWUUJmME11RFJ3?oc=5",
-      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
-      "source": "FOX News Radio",
       "confidence": "high"
     },
     {
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjZkM1BqczgtT1FxN2kxWS02WDhYeU1QN2xyUm1JV1JCM2dGeEx2NW5ZdWtHS043UzE4blNCVXJleGdsX1BXYVZNV3lScjJIbVQwOEEzSkJDMHZESEZ6Y1VkbXpsdDZvMHprZll1djFVS0VzNklxS0lzY3R0SURYVWJTcWc0cm8xakZNdF9FNG91Mko4ZXRvekhfMTlHalpiMG1PSFNlRnRDS0tySWs0VnFhd1A?oc=5",
       "date": "Tue, 25 Aug 2026 19:31:00 GMT",
       "source": "Algemeiner.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Richard Blumenthal",
-      "stance": "",
-      "title": "Great Friend of Ukraine, U.S. Senator Richard Blumenthal Visits the Dnipro Jewish Community - djc.com.ua",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb1lWRVJwdy1GYUpTT0pvRkZzVFZWS2hLTXItSEJ5ZkJFWWt5S3k3T3ZtTzNpMmYyQ3FscS1RaHdHRXZlZW9YdGZFdWgtamtJVEMtdjNVWGQ4TlNhVGlSOFd2QXZ3UWk0aGRmZGNJRzZzTWVNcTRrU0dlaVczSkNoOHd0a05wS1N5Wkg1V0xwSDc5M3UtM0s4MEpkX1hjQXdfeGNZbHNySE1HaGRCSS15aVl2bGYzbTQ?oc=5",
-      "date": "Tue, 25 Aug 2026 16:59:43 GMT",
-      "source": "djc.com.ua",
       "confidence": "high"
     }
   ]

@@ -1,7 +1,33 @@
 {
-  "generated": "2026-09-13 16:51 UTC",
-  "count": 1,
+  "generated": "2026-09-14 18:21 UTC",
+  "count": 3,
   "candidates": [
+    {
+      "name": "Abanoub Samaan",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "“I HATED Israel — Then I Learned the Truth...” | Abanoub Samaan",
+          "date": "2026-09-14",
+          "link": "https://www.youtube.com/watch?v=FtyLuBH3RnQ"
+        }
+      ]
+    },
+    {
+      "name": "Fmr Biden Advisor",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "U.S. Will Do Israel’s Bidding NO MATTER WHAT Americans Want! – Fmr Biden Advisor",
+          "date": "2026-09-14",
+          "link": "https://www.youtube.com/watch?v=qhq34pM83r0"
+        }
+      ]
+    },
     {
       "name": "Hillel Kornwasser",
       "orientation": "ally",
