@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-14 18:25 UTC",
+  "generated": "2026-09-15 17:33 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 380,
+  "cursor": 630,
   "count": 120,
   "mentions": [
     {
@@ -123,6 +123,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Elissa Slotkin",
+      "stance": "",
+      "title": "Slotkin, Schiff, 45 Senators Press Netanyahu to Protect U.S. Citizens, Stop Settler Violence in West Bank - U.S. Senate (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcXUzNjZwTlFYSXB4cWdITElwa1Nld1hGb0NLVDBGa2NWbmpGLWhWSWNFM2VXMi1qWkt4RzhYRzd5N3ctTGJvYXNpVVdiNkJCMzFYRXRSRThubHdZQ2F1X1lQUEUxVUdLZUlLMERIdkFCSzAxN1Vub29za2loaFJZM1JlRF9vUW9PeWh6OWNOc2VIUkdYZURocGdWTnIzeVpzRHFvSURONlJwS1Q1eEtuYXItNEVsWkR4b1otc3pYUThwb3BvNFg1d2M2MmUtaks3amdQYXA3ZW96Rm5Q?oc=5",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "U.S. Senate (.gov)",
+      "confidence": "high"
+    },
+    {
       "entity": "Benny Johnson",
       "stance": "",
       "title": "Benny Johnson Iran admitting defeat 8/26/26 - Media Matters for America",
@@ -138,15 +147,6 @@
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEN0JKYV9ISnZQRzY1VGdzczhhN3FHSFpkMDhLWEFHd3ZRTG1QUm5GcmNPXzJYTTJJbEVjSlRqMmlXWGhwTHZqTkJvNnA?oc=5",
       "date": "Wed, 26 Aug 2026 07:00:00 GMT",
       "source": "ABC News - Breaking News, Latest News and Videos",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elissa Slotkin",
-      "stance": "",
-      "title": "Slotkin, Schiff, 45 Senators Press Netanyahu to Protect U.S. Citizens, Stop Settler Violence in West Bank - U.S. Senate (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcXUzNjZwTlFYSXB4cWdITElwa1Nld1hGb0NLVDBGa2NWbmpGLWhWSWNFM2VXMi1qWkt4RzhYRzd5N3ctTGJvYXNpVVdiNkJCMzFYRXRSRThubHdZQ2F1X1lQUEUxVUdLZUlLMERIdkFCSzAxN1Vub29za2loaFJZM1JlRF9vUW9PeWh6OWNOc2VIUkdYZURocGdWTnIzeVpzRHFvSURONlJwS1Q1eEtuYXItNEVsWkR4b1otc3pYUThwb3BvNFg1d2M2MmUtaks3amdQYXA3ZW96Rm5Q?oc=5",
-      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-      "source": "U.S. Senate (.gov)",
       "confidence": "high"
     },
     {
@@ -564,6 +564,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Decart AI",
+      "stance": "",
+      "title": "Israeli Sources Explain What Went Wrong With the $6 Billion Anthropic-Decart Deal? - Haaretz",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd3QxQS05YlRHQkg5Z24zOXMxZFRTZlZueUVKb2J1RlRWMVdZWGxNZ1hyR1VCNGgzcWFtWkhsT3RSOUNfR3pYZjYyWmxOLW10VWdyVUtpNmJtZFZpYW14bUJVSzhHQjFuV3ZqeHlybWk4aWdsR1QtR25HOHgtbl9pUEhEZXZxTWJUQmtfb2RHVmJCZVhjeXFOYWdfZDFBb1dfX1RuenVPN2MxNTBlQlpJM3lDaEtPOGk5d0NPcTNSTzlUSHJoU1pZV2s2S2lTai1RbjNSUjdwSUNlUGo1VDlPMzRmbzRlTVd4VnlxQThvU1AyUQ?oc=5",
+      "date": "Wed, 09 Sep 2026 15:20:00 GMT",
+      "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
       "entity": "Ted Cruz",
       "stance": "",
       "title": "Sen. Ted Cruz on 'military conflict' with Iran - kcentv.com",
@@ -645,12 +654,12 @@
       "confidence": "high"
     },
     {
-      "entity": "Hudson Institute",
+      "entity": "Creative Community for Peace",
       "stance": "",
-      "title": "Contested Lebanon: Israel, Iran, and US Strategy in a Fractured State - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOUNCYndFaF81WDF6NnIxSmlhSm1FNTJKaVpvQm9OTmJ5OHAzZlFpVnpId1diVHY4Ukx2Wkx2V3NUUFVKcFJNemFNRXNYcG9KbTFaV0ozcU1DczZSTVhaeDJEUzVvdmc1RGdiY291Zjc1Q0sxVlA2cjFEcGIwSzRHaVpTMm1vSmxHQ0FuV3laT1U?oc=5",
-      "date": "Wed, 09 Sep 2026 04:36:54 GMT",
-      "source": "Hudson Institute",
+      "title": "More Than 6,000 Leaders Across Entertainment, Academia and Public Life Unite to Reject “Genocide” Accusation Against Israel - Creative Community for Peace",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByZkg2WlV5SzI5dlVSUnRpQTN6SkJJZ2R4VmdheFk3Sk5pYl8wLTQ2T1I3Z2EzN0VvcU1wdDBRbXN6VWFzN0VRV0hCYlZnbGxtNV9lSlFCODhleFc3Rms2NXBOSncyOGZUMTZCbW9zMTdxMWtIY2RV?oc=5",
+      "date": "Wed, 09 Sep 2026 03:26:26 GMT",
+      "source": "Creative Community for Peace",
       "confidence": "high"
     },
     {
@@ -843,15 +852,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Candace Owens",
-      "stance": "",
-      "title": "US voters overwhelmingly reject anti-Israel figures Hasan Piker, Candace Owens — poll - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdEpJNGI0SWU4SzlINmJ0YVNDQmZzdWZkMVFaYWJmVFFCTkpaWWJRRk9oaGw5TmlsRU5CbWpxTElmOEdrY3dFVzdiel9QcXFuSmxDSVVlT2F4TGh0R0MzSDhDb1ZLa2FOZmszMXZfam10Y1AyXzhNSlpKVHZRbHVkM0NMZUMzbWgzTUxRUHFCSHVKTU8xRFg3aTViOFJrdEwwTHEzZlFXT2ZVaUg3WG9SQTlsRnpnRERKUF9DcUFCaUxYdnEzamhB?oc=5",
-      "date": "Wed, 02 Sep 2026 23:19:07 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
       "entity": "Commentary Magazine",
       "stance": "",
       "title": "The Capture of Hamas’s Security Chief - Commentary Magazine",
@@ -960,6 +960,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Carolina Journal",
+      "stance": "",
+      "title": "Bessent ends G20 Asheville meeting with Iran message - Carolina Journal",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVpzUUxuX2JfV25pME9jS3ZKdEF6eTdsTmVsTHFEUTRFa0gyc3ZzY0hqMUxFMUo4T3NXakxnZFUwU0JYMk53MjJqcjRpSmxfM256MzJiZzFaLXNxWFZGSnRvUnpRVmNXTjd2ZHhnS2dLckZUUzJ5bzBvVGJoQlpxU0h6Q0dmeDk2VE5YeFRB?oc=5",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "Carolina Journal",
+      "confidence": "high"
+    },
+    {
       "entity": "Brian Kilmeade",
       "stance": "",
       "title": "U.S. Bombs IRGC Targets in Iran | Brian Kilmeade Show - FOX News Radio",
@@ -993,15 +1002,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcXU5dDRJSV8xc3dqZ19PaURQTHJobWpHQ0M1cm5rRE00bG9CcGpzSk51MUdxOVp1YXpXVnd6TjhIWmZvdlNUcFJuYjNfNi0tamJSVkpHRlNJcnJxYTR0Y1RJZDFuUGJ0S1d5U0ozSEFLYXk5NVY5dm44T1pGOFRYNDlUQVV2ZW9kTGUw?oc=5",
       "date": "Wed, 02 Sep 2026 07:00:00 GMT",
       "source": "MS NOW",
-      "confidence": "high"
-    },
-    {
-      "entity": "Carolina Journal",
-      "stance": "",
-      "title": "Bessent ends G20 Asheville meeting with Iran message - Carolina Journal",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVpzUUxuX2JfV25pME9jS3ZKdEF6eTdsTmVsTHFEUTRFa0gyc3ZzY0hqMUxFMUo4T3NXakxnZFUwU0JYMk53MjJqcjRpSmxfM256MzJiZzFaLXNxWFZGSnRvUnpRVmNXTjd2ZHhnS2dLckZUUzJ5bzBvVGJoQlpxU0h6Q0dmeDk2VE5YeFRB?oc=5",
-      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
-      "source": "Carolina Journal",
       "confidence": "high"
     },
     {
