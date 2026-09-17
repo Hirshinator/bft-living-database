@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16 17:33 UTC",
+  "generated": "2026-09-17 17:32 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 880,
+  "cursor": 1130,
   "count": 120,
   "mentions": [
     {
@@ -429,6 +429,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Tim Kaine",
+      "stance": "",
+      "title": "Kaine renews push for congressional action over Iran war - cbs19news.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFVUVHZSYzBxVk0zSTE3SVF3OTd1eDh0UkV0QnhOMlNGTkh2aVFtQ2dfQWRmdXNBNUxjVlR6eXM3ODZUR0pvN1ZFeUtuSDFFdDFrM3paZnhuZHJibkE0dVY4eFV5ZmxiSldXTE5LakZDVXFrcGhpaGpNeHE2TFR5TXdlekdlWmVVLWd6TU8zSXdDTm03aW1aLVBfamNEdDVxeEhXQ3dpdTQzWXpyb0dWUXNFVHBSa0ZMN2ZsemJ4SFZvSlgycXN4OXZFSmJNS1VMY1dj?oc=5",
+      "date": "Wed, 16 Sep 2026 21:56:00 GMT",
+      "source": "cbs19news.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tim Kaine",
+      "stance": "",
+      "title": "Iran war is costing Americans millions, Sen. Tim Kaine says - 13newsnow.com",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPcVd4dGlWX2RyQUtTaVBzY1llZ3o5QmZCN1F6d3k1NkdhU0ZsUHJVZ1pZN0VMNG5jeVhLbjM5b1ZwMy13Uy1PRzNEWWtfLUh1bFptc2pPTXpRM3FWaWExV29vdmdxVE9fQTdZRVQ1SVZibDFWMUk4NTB0dkhSY21ndGFYeEc5U0ZKYzhZTmpNQU1MWG9oNnlzRkFTd0d0ZFB5TzlZOVM5ZUlIUVlTTHFKRkt5QXNsa1h0WWp6ZDJPN2p0VVljdUFqaGRRcDJZM1NPNVJFZkI3NGZrZVBtX3o3Y0NVY2gxRlVnVXNzcVA2M1o4UHg3Wmc?oc=5",
+      "date": "Wed, 16 Sep 2026 20:47:00 GMT",
+      "source": "13newsnow.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Marjorie Taylor Greene",
       "stance": "",
       "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
@@ -444,6 +462,24 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FRXV0UUZ4QUlPdmNXSG5FTEp2SnFDNllSQnJZQjM5X19zbVlJTE1xTVZrcU9KNmNPRkdaTmp0RWQ1R1NYbUxYVU5WdU5mWGJrN1F4cDNTUGxNSWhNMWlpYVYtb0Zyai1ZNEdrMzdHdl95dDdXOVBQVA?oc=5",
       "date": "Wed, 16 Sep 2026 14:42:18 GMT",
       "source": "Newsmax",
+      "confidence": "high"
+    },
+    {
+      "entity": "Steve Daines",
+      "stance": "",
+      "title": "Steve Daines weighs in on U.S.-Iran war and China's AI tech - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wcXh2eW5NQ214R0tDTEVzQ2RGSVdlLWxQR2lLaGtNQmFWaktvczVuc3NkZmVtWkdxVkNyV01iQkxBNVE3cVpfRlRFdjgzYktnVW5PdDJn?oc=5",
+      "date": "Wed, 16 Sep 2026 14:40:38 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tucker Carlson",
+      "stance": "",
+      "title": "‘No precedent’: Tucker Carlson blasts proposed $2.8 billion arms sale to Israel | RISING - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXZSTnk5X0l5M0xLLVZwUE9TZ2JnUXNaVEo2dnBCWTRHQ2tGWFd1al9XbTBxaHo5bWJrN2c0ZFNodzFIQTEzZFRteDNHX3dQZXI4VGZ4Q3I2WFV4LTNpZVpCX1J2ZXV0dUo0RzNvWDdaQWp3WVZjU2dMOHNCTTJaUDlUaUQzX2tkeXFsdGVVNkdVTy1MSEJUWGlydXR0VWRmOVFWRW1JbU04bV9adUtQV3JUN0sza1Q5X1E?oc=5",
+      "date": "Wed, 16 Sep 2026 13:43:00 GMT",
+      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -471,6 +507,15 @@
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pOFMtalBnd3pqSDFzamlJYV84c1JUZncyS0JIOHdZRENWaVlRU1BZY05tbmFTV1lWSkIyTjRsZ2JMTHRzUFJMMVNQbmhfRm1jNWxJMEtzVWc4YjNsc1hOSEVDcFQ2bGJYak9BVmxWLTFNaEI5NWRWZzlB?oc=5",
       "date": "Wed, 16 Sep 2026 11:05:00 GMT",
       "source": "politico.eu",
+      "confidence": "high"
+    },
+    {
+      "entity": "Noa Tishby",
+      "stance": "",
+      "title": "Fatema Al Harbi on joining Noa Tishby’s campus tour to combat extremism in the Middle East - Jewish Insider",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWUydlVvN0cwZ2FLLUdpaW9BaENjamFTR3JmMTdvRXlicWZIRF9aY2NQcjZOa0xWZFdEaDVKUlVmZjdhOHRkSWVKTy00S3RGVi1Sa0lqM3ZyQ05yemoyVlpTR1NMTHZLVFQwNDRxaDZKOTQwVDJ3VnpiblNNTmdxQ1ZQNExiRXljOXJIa2M5M1pXUGt6STBjN3pKQjYwMnU5UG1ubk1B?oc=5",
+      "date": "Wed, 16 Sep 2026 08:37:58 GMT",
+      "source": "Jewish Insider",
       "confidence": "high"
     },
     {
@@ -690,15 +735,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Sarah Huckabee Sanders",
-      "stance": "",
-      "title": "Sarah Huckabee Sanders: 'Boycotting Israel is antisemitism' - Israel National News",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0c1JXLUt1UHM0djIzX1JSSHYtSDlrZ0MzaHIzVG9HbFl6Qk5UMTFwNXV6dUViWUQtNFQ1UXNpQmdqNWNWcDF5SEd2YjYwMGdYWExrMVRlTWk2Zw?oc=5",
-      "date": "Wed, 09 Sep 2026 10:10:00 GMT",
-      "source": "Israel National News",
-      "confidence": "high"
-    },
-    {
       "entity": "Jerry Seinfeld",
       "stance": "",
       "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24NEWS",
@@ -732,6 +768,15 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb2k5bGRsMnI3UjFYMFpxS0RsUW45bUdkc3FIYlBLV1dLMkMtTTBuN2l4UDBiU1haRjBpakdaa2hSX0wzcnB4UDlzWE9BaHNZdW81cFR2VzFlaFhvZUYzU1NRSVU5Q3ZBT0wwQkFmc1NsZ1dOMmFiN1pBbzhtSDBpMmFua0FTR2lndFd2WDdlMVo4dkNsSHMxdzJ3?oc=5",
       "date": "Wed, 09 Sep 2026 07:23:03 GMT",
       "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Sarah Huckabee Sanders",
+      "stance": "",
+      "title": "Sarah Huckabee Sanders: 'Boycotting Israel is antisemitism' - Israel National News",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0c1JXLUt1UHM0djIzX1JSSHYtSDlrZ0MzaHIzVG9HbFl6Qk5UMTFwNXV6dUViWUQtNFQ1UXNpQmdqNWNWcDF5SEd2YjYwMGdYWExrMVRlTWk2Zw?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "Israel National News",
       "confidence": "high"
     },
     {
@@ -777,15 +822,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSGljRGpDRmNUNTdzMVpHSFk2RVF0aUJfR2J1Tjd3dV8zM0FpZDRubkgyUEp2dS1LU3JPalpMbkJJWkJOTVNCSG0zRU02Z1dBRmluemNtbUNGeFBXdERiUk9QWUF4QUVob1JwQzJtMVdTMlpwS3hDNWxkdHByc240VTNWZ0thZlF3c3ZLdGtDT0UzWUkyYm1LWjhBbEJ3dTQ?oc=5",
       "date": "Wed, 09 Sep 2026 02:40:25 GMT",
       "source": "www.israelhayom.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ted Cruz",
-      "stance": "",
-      "title": "Ted Cruz says US in ‘military conflict’ with Iran, not at war | CNN Politics - CNN",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMW5MSkw3MU9tWFdxcWYxc0l5dEdkQUNBRWlLQ0JrZDdDbDZQWnplbmJiR0tNa0gtRkNtMVZneHpJUmZPSDY2LVhDRi1UdGI5VHFZS3BnWVp6OFljVXJGRjFvNy1iNm9VVVRPdkhGSkowYk04dm9CRFlHMm1tUXFrWXhHVW8zUHU0eEtLcg?oc=5",
-      "date": "Wed, 09 Sep 2026 02:09:00 GMT",
-      "source": "CNN",
       "confidence": "high"
     },
     {
@@ -1041,48 +1077,12 @@
       "confidence": "high"
     },
     {
-      "entity": "Mike Johnson",
-      "stance": "",
-      "title": "Top US lawmaker Mike Johnson says lying is part of some Iranians’ religion - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUliTGtPdk1falRwWjE5SEVCOEZaQUEtQUx0NWFHNi1ZVWxndEJCTXNpQzFFRDZXeW1FdlBhVHU2cUNiRWl4bWZ4eUlDZXBCLWpKckdyT1h2WTVmeF9lbmwybUloZWxBZV90bldjRlQ3c3NaV1psa29sS19zTFRVUjlHNkhIVGgwUnRxT1BFSmRlZHJoZTdBb21tcENMbVJURjJQbnVuaGxUcTJZNDE3OXZHY9IBuAFBVV95cUxOdm5icmRtcllRVTRBVXdyb1pRLUZrY0NtOE1zTjVJbzYtVFFCSXpjbDdnd1laQ1cwTmY1VDJtOTZYTFM3ajZ0NGhIeEdITEJyMFVvWDYzcW1zU092aHpWSG1DSDc3Y2J3TnlSakVmeHdiOXV2dGdNZDctY3BET0FpVXVXZFdicmxGS3laZ2s0Qlh5TzlodGoybGRTU0o4UXQ5MW85RDFVVFZScE96NnhYYWhzWU5VdDBx?oc=5",
-      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
-      "source": "Al Jazeera",
-      "confidence": "high"
-    },
-    {
-      "entity": "Carolina Journal",
-      "stance": "",
-      "title": "Bessent ends G20 Asheville meeting with Iran message - Carolina Journal",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVpzUUxuX2JfV25pME9jS3ZKdEF6eTdsTmVsTHFEUTRFa0gyc3ZzY0hqMUxFMUo4T3NXakxnZFUwU0JYMk53MjJqcjRpSmxfM256MzJiZzFaLXNxWFZGSnRvUnpRVmNXTjd2ZHhnS2dLckZUUzJ5bzBvVGJoQlpxU0h6Q0dmeDk2VE5YeFRB?oc=5",
-      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
-      "source": "Carolina Journal",
-      "confidence": "high"
-    },
-    {
-      "entity": "Brian Kilmeade",
-      "stance": "",
-      "title": "U.S. Bombs IRGC Targets in Iran | Brian Kilmeade Show - FOX News Radio",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41RmdLVDgzTnpHQWQ4UGMzaVVXQ2l6ZEcySmJiOWpNU1RlQlRFQm8zVHM0RU5vVnkwRFV3aS1DOVVTdnlOZ3Q3MUdsOUd3c1VMdW1ZUENwVUdXTVhQRmVvZlZqeXlUOENIM09mc0RWUUJmME11RFJ3?oc=5",
-      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
-      "source": "FOX News Radio",
-      "confidence": "high"
-    },
-    {
       "entity": "Tammy Baldwin",
       "stance": "",
       "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War - WFRV Local 5",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNGxadEhUVFdYUFlkWGFZU1VUbFVEeGwzdHY2NnpmRGZDb1BPdjZuMVc0bkNtYkpFTkVEWnctSjhZQXBIdHlaRTVELXVPLWUtLVNkeDBvNWNtR0o1YlFpOHhXT2tfbjljUzZOYlBXa0ZuR1BWc2dUQWp2UmtURm5NN1FZc1VqOWvSAYwBQVVfeXFMTWVTdzlDdWJTdDJ2cW5nUER0cnl2TlA5dWlyNEp5YTV6eFBnMmNzX0FGWHJ4b0Q3cy1JWVBIT1ktbmhCaGhhNzVVRzQtR0ZoYk1qVXkzZ3Jja1VJRmpRZzdualZya3lmZ2tBUkFGd3pWcmpZMWs4SW9vZ0c4R3RxZGpCa3dEUzBDRzVhYzM?oc=5",
       "date": "Wed, 02 Sep 2026 07:00:00 GMT",
       "source": "WFRV Local 5",
-      "confidence": "high"
-    },
-    {
-      "entity": "Joe Rogan",
-      "stance": "",
-      "title": "Joe Rogan says Trump renamed Lake Ontario to distract from Iran war - MS NOW",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcXU5dDRJSV8xc3dqZ19PaURQTHJobWpHQ0M1cm5rRE00bG9CcGpzSk51MUdxOVp1YXpXVnd6TjhIWmZvdlNUcFJuYjNfNi0tamJSVkpHRlNJcnJxYTR0Y1RJZDFuUGJ0S1d5U0ozSEFLYXk5NVY5dm44T1pGOFRYNDlUQVV2ZW9kTGUw?oc=5",
-      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
-      "source": "MS NOW",
       "confidence": "high"
     }
   ]

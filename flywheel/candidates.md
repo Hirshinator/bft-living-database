@@ -1,4 +1,4 @@
-# Flywheel candidates — 2026-09-16 17:28 UTC
+# Flywheel candidates — 2026-09-17 17:28 UTC
 
 3 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
@@ -9,5 +9,5 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Chico Muya — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Instead of THANKING Israel, They CONDEMN It?! | Chico Muya* (2026-09-15) — https://www.youtube.com/watch?v=tLT7Q1wNAxc
 
-### Fmr Biden Advisor — candidate HOSTILE / check orientation (boosted by a hostile channel)
-- [The Jimmy Dore Show] *U.S. Will Do Israel’s Bidding NO MATTER WHAT Americans Want! – Fmr Biden Advisor* (2026-09-14) — https://www.youtube.com/watch?v=qhq34pM83r0
+### Hillel Kornwasser — candidate ALLY (platformed by an ally channel)
+- [StandWithUs] *Standing Proud Even Under Threat for Defending the Jewish People | Hillel Kornwasser* (2026-09-16) — https://www.youtube.com/shorts/_BQblgPsoso

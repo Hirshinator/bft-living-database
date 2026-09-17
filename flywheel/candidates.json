@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16 17:28 UTC",
+  "generated": "2026-09-17 17:28 UTC",
   "count": 3,
   "candidates": [
     {
@@ -29,15 +29,15 @@
       ]
     },
     {
-      "name": "Fmr Biden Advisor",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "name": "Hillel Kornwasser",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
-          "channel": "The Jimmy Dore Show",
-          "title": "U.S. Will Do Israel’s Bidding NO MATTER WHAT Americans Want! – Fmr Biden Advisor",
-          "date": "2026-09-14",
-          "link": "https://www.youtube.com/watch?v=qhq34pM83r0"
+          "channel": "StandWithUs",
+          "title": "Standing Proud Even Under Threat for Defending the Jewish People | Hillel Kornwasser",
+          "date": "2026-09-16",
+          "link": "https://www.youtube.com/shorts/_BQblgPsoso"
         }
       ]
     }
