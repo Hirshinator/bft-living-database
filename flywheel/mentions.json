@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17 17:32 UTC",
+  "generated": "2026-09-18 17:01 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 1130,
+  "cursor": 225,
   "count": 120,
   "mentions": [
     {
@@ -471,6 +471,15 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wcXh2eW5NQ214R0tDTEVzQ2RGSVdlLWxQR2lLaGtNQmFWaktvczVuc3NkZmVtWkdxVkNyV01iQkxBNVE3cVpfRlRFdjgzYktnVW5PdDJn?oc=5",
       "date": "Wed, 16 Sep 2026 14:40:38 GMT",
       "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Wesley Hunt",
+      "stance": "",
+      "title": "Trump picks anti-Islam, pro-Israel Republican Wesley Hunt as next ambassador to Saudi Arabia - Middle East Eye",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNXdEWXc5b3cyOV9qenNoUEpjZGdnWkM3TE1qTmlQVWF1UjhHNi1INVFZYkticHNRWlF2b1VDQk5jOU11SGVkYjRBNEUxVGJpRmVWUmlXYnctcnowUnJ3WFI0R3hJR3NDN05UekR3M2E1djR1U2ZHajdZTVVBbU9yanB1U1lJMmd3dGRHRGc0SmdXMEhBbVZtV1dpWXlQR21qMDItMGhGV080SE5vZjFCSVZQVTVWNU9xaVRSVw?oc=5",
+      "date": "Wed, 16 Sep 2026 14:30:05 GMT",
+      "source": "Middle East Eye",
       "confidence": "high"
     },
     {
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcW0tS21UQVlRLThDT1hCcmNVLUFIUlJKVUUxbXliM0pPX3VrOWI4TTljQ3VOcWFGSlVETTYtS2J5SERrV1ZsWFpERDE1UHhHRW1YUTJGVUlpY2NKQk4zckNCTGYxMktkMjFTOUdJN1ZueVp4eEl3bUN2Q3pRVnlqZHBqblN2c2NQNnlEYkc4VE55bUJqVzNVdXFkMGx1anMyNmNLX2Y4VHYtQlFwYmVOeE5lSmUwRndQSWJldE96WEZYRTV4Nl9YbzlMQkh5ZDIwRXNMNk05YlNiY0ozekVr?oc=5",
       "date": "Wed, 02 Sep 2026 10:34:05 GMT",
       "source": "Le Monde.fr",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tammy Baldwin",
-      "stance": "",
-      "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War - WFRV Local 5",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNGxadEhUVFdYUFlkWGFZU1VUbFVEeGwzdHY2NnpmRGZDb1BPdjZuMVc0bkNtYkpFTkVEWnctSjhZQXBIdHlaRTVELXVPLWUtLVNkeDBvNWNtR0o1YlFpOHhXT2tfbjljUzZOYlBXa0ZuR1BWc2dUQWp2UmtURm5NN1FZc1VqOWvSAYwBQVVfeXFMTWVTdzlDdWJTdDJ2cW5nUER0cnl2TlA5dWlyNEp5YTV6eFBnMmNzX0FGWHJ4b0Q3cy1JWVBIT1ktbmhCaGhhNzVVRzQtR0ZoYk1qVXkzZ3Jja1VJRmpRZzdualZya3lmZ2tBUkFGd3pWcmpZMWs4SW9vZ0c4R3RxZGpCa3dEUzBDRzVhYzM?oc=5",
-      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
-      "source": "WFRV Local 5",
       "confidence": "high"
     }
   ]

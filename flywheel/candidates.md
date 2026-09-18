@@ -1,4 +1,4 @@
-# Flywheel candidates — 2026-09-17 17:28 UTC
+# Flywheel candidates — 2026-09-18 16:57 UTC
 
 3 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
