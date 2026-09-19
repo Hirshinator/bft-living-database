@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18 17:01 UTC",
+  "generated": "2026-09-19 16:18 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 225,
+  "cursor": 475,
   "count": 120,
   "mentions": [
     {
@@ -447,6 +447,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Caroline Shinkle",
+      "stance": "neutral",
+      "title": "Why NYC needs Caroline Shinkle now more than ever for Congressional District 12 - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV0FpNEY5MlNGVGo0Uk0tWWVDQkRweHl2dXNyU0JnSmdhME0yQlBuQm56a1dlckVVa3B5RDUyNmpLbGpfSE1HSHFNbmo1N3dNTkxaUXVVOVJSamJlTFQyNk9Mcjk0R2R2alZKTktRSEZlazY0a1ctUHoyY19rOUZhY0otLVZNNmhXX3BlMnN2S0tnc1BGTFR2azdZWHBCajkwdlNMUGdzVUMwbEhGQ1R4TndR?oc=5",
+      "date": "Wed, 16 Sep 2026 19:24:00 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
       "entity": "Marjorie Taylor Greene",
       "stance": "",
       "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
@@ -519,12 +528,39 @@
       "confidence": "high"
     },
     {
+      "entity": "Bill Maher",
+      "stance": "",
+      "title": "Ed Sheeran, Bill Maher, and the People Who Know Everything Except the History - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm1LOGxjTm9Xa3ZXYXlhV05NNDN1V0dGVnJyZm1XMDFtcmplWFZyUnI3TXlrRWZ5THc0YWhFdkd1SUpGT1ZjRWxGdjRPX0FBSDFRaW5hRFI0MklLU0J2ME5LVGFpSndkYUpDWFpNSllTNmFKaWhZcU1LU1RtZ0FLZEF3YTNvODJtZWRDd3pFQlhWdGJjSVVySmxwUV85eV9RMFhIOUw3OWpTSDVO?oc=5",
+      "date": "Wed, 16 Sep 2026 08:46:00 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
       "entity": "Noa Tishby",
       "stance": "",
       "title": "Fatema Al Harbi on joining Noa Tishby’s campus tour to combat extremism in the Middle East - Jewish Insider",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWUydlVvN0cwZ2FLLUdpaW9BaENjamFTR3JmMTdvRXlicWZIRF9aY2NQcjZOa0xWZFdEaDVKUlVmZjdhOHRkSWVKTy00S3RGVi1Sa0lqM3ZyQ05yemoyVlpTR1NMTHZLVFQwNDRxaDZKOTQwVDJ3VnpiblNNTmdxQ1ZQNExiRXljOXJIa2M5M1pXUGt6STBjN3pKQjYwMnU5UG1ubk1B?oc=5",
       "date": "Wed, 16 Sep 2026 08:37:58 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bill Ackman",
+      "stance": "",
+      "title": "Bill Ackman doubles down on Trump Iran war praise and Mamdani criticism: NYC mayor ‘scared away productive New Yorkers’ - Fast Company",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbE1xLVdCS0VoRVBlTVVTMVlvakNMSTlPQVBHSG1hNXJqWEl4cHIzVHF2Q2l0M29tdmx1WnNUOHNLYlBmWllmUEpWTVRGSzRhX3NqQ2tRUUpfQl95S05xcjBSXzBqZm5rcGhKSFJCSi1iZklkU0NYOTFQcTFXZXJSQzgzNndacmJOLUZ4c1BDZFFzNVVxUGxLS3haV0YxMkZGTTEycXJTN2Y2NmwxNXVseUNJT0tncENPeko0eGlVTlJ2NDB5YUFRS2VkVktZdkpIOGlxSVJfcGZVdnI4eTE5a0VlN1dkNUEt?oc=5",
+      "date": "Wed, 16 Sep 2026 07:05:30 GMT",
+      "source": "Fast Company",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bill Maher",
+      "stance": "",
+      "title": "Bill Maher rips Macklemore's Gaza stance, says celebrity 'moral confusion' is fueling antisemitism - New York Post",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVEJDVzIxckNFcC1LRDVTQU9qZjhnQ2JsWDNETl9MamZCQzI3cXVpRzBZRDV2dS10ZzA4MHZ1LXVTTVJVV3RHRmM0YlJTajNTQXFUX1doMUFMaWdCMmxXUV91Wk1DaWNVWC1SOUVfMS11R0hFbF9Fem5tT3hCeG9fSktoY3JkWDBRd3hXTl9RMVlHY0VIRXUxcTlubWFYbVk3QXF3R25mcGNxVjNfakhhOHZmelpNdGwxMm9FMTQ0d21aN0hvNEx5cGpHUQ?oc=5",
+      "date": "Wed, 16 Sep 2026 06:54:00 GMT",
+      "source": "New York Post",
       "confidence": "high"
     },
     {
@@ -681,15 +717,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Claudia Tenney",
-      "stance": "",
-      "title": "Press Release: Claudia Tenney Urges Treasury Review of UK Israel Trade Restrictions - Quiver Quantitative",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNVhlaE0zYkVNQXhvZXE0SzJHc2Y0TU5NRERKWmgxeEtScFJKMjNJbWxRQVZfRm91eWhmbDJ4NnZXYnRuajctZ1liWTNaUWdIWHd3YnF1OTdySUo5N0NwOU1WWHd3a0w1TGtMekFxUE4zTDk3Y3pTbjJGWUpWQklCeTRPRWZnUU5nNFNOWWVUR3ZQR2UxcWkxNlJGN2JCcVlIa2E0SVpwcFFmRjhidWRVbnY3UDFseDdBX2c?oc=5",
-      "date": "Wed, 09 Sep 2026 20:21:00 GMT",
-      "source": "Quiver Quantitative",
-      "confidence": "high"
-    },
-    {
       "entity": "Jerry Seinfeld",
       "stance": "",
       "title": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’ - Combat Antisemitism Movement",
@@ -780,6 +807,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Claudia Tenney",
+      "stance": "",
+      "title": "Press Release: Claudia Tenney Urges Treasury Review of UK Israel Trade Restrictions - Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNVhlaE0zYkVNQXhvZXE0SzJHc2Y0TU5NRERKWmgxeEtScFJKMjNJbWxRQVZfRm91eWhmbDJ4NnZXYnRuajctZ1liWTNaUWdIWHd3YnF1OTdySUo5N0NwOU1WWHd3a0w1TGtMekFxUE4zTDk3Y3pTbjJGWUpWQklCeTRPRWZnUU5nNFNOWWVUR3ZQR2UxcWkxNlJGN2JCcVlIa2E0SVpwcFFmRjhidWRVbnY3UDFseDdBX2c?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "Quiver Quantitative",
+      "confidence": "high"
+    },
+    {
+      "entity": "Creative Community for Peace",
+      "stance": "",
+      "title": "More Than 6,000 Leaders Across Entertainment, Academia and Public Life Unite to Reject “Genocide” Accusation Against Israel - Creative Community for Peace",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByZkg2WlV5SzI5dlVSUnRpQTN6SkJJZ2R4VmdheFk3Sk5pYl8wLTQ2T1I3Z2EzN0VvcU1wdDBRbXN6VWFzN0VRV0hCYlZnbGxtNV9lSlFCODhleFc3Rms2NXBOSncyOGZUMTZCbW9zMTdxMWtIY2RV?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "Creative Community for Peace",
+      "confidence": "high"
+    },
+    {
       "entity": "Sarah Huckabee Sanders",
       "stance": "",
       "title": "Sarah Huckabee Sanders: 'Boycotting Israel is antisemitism' - Israel National News",
@@ -795,15 +840,6 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXRGOHhXVDZaRjBRQm5HeklQZ2xzVWRtQWw4akFxZExmaktKYmxiNXk1cHl5R01qNEM4ZmlFT05VZjZBMmd1MUctd2dYTkZ4OVBWTzVSSUktM1Q3TVZDY3ZFclRQMnY2YmdLNHM4ZllVSXljc0JFckpLYTQzdnpQRkhMRnhoLVdrTWxnb25WdlVVbXBHZUNsaVo1NVQtY1RyM0JGN0pVWlluMmg5ekp2NTlGVERyNzhP?oc=5",
       "date": "Wed, 09 Sep 2026 06:26:10 GMT",
       "source": "All Israel News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Creative Community for Peace",
-      "stance": "",
-      "title": "More Than 6,000 Leaders Across Entertainment, Academia and Public Life Unite to Reject “Genocide” Accusation Against Israel - Creative Community for Peace",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByZkg2WlV5SzI5dlVSUnRpQTN6SkJJZ2R4VmdheFk3Sk5pYl8wLTQ2T1I3Z2EzN0VvcU1wdDBRbXN6VWFzN0VRV0hCYlZnbGxtNV9lSlFCODhleFc3Rms2NXBOSncyOGZUMTZCbW9zMTdxMWtIY2RV?oc=5",
-      "date": "Wed, 09 Sep 2026 03:26:26 GMT",
-      "source": "Creative Community for Peace",
       "confidence": "high"
     },
     {
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mTkxBa2E2NDFCTjBYS2lkQlEwWklUdkhlM0lsOXV0WTg2T2JaQnozLXNXeHVmSmFHaWRHcXMtUk9DdUxmaE9KenJZMmFtdXg2TmlQMko0UGJkSVBE?oc=5",
       "date": "Wed, 02 Sep 2026 18:25:46 GMT",
       "source": "YouTube",
-      "confidence": "high"
-    },
-    {
-      "entity": "Pete Ricketts",
-      "stance": "",
-      "title": "Ricketts, Osborn Clash Over Tariffs, Iran and Party Loyalty in State Fair Debate - klin.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDhXRGI4Z1JYSW92UTZZV2lQNURoaUpJaGg1SVFmLXFwSG1Pb2VwVGZTQU8zU0F4b2Y5VkZ1N0NIS0RPR1RrUHpiX09CUkVYQVp3VUpVWDRvdGdkM2I4TUpQRDQxZXA3NFl1NFR1TkhCWDZWOUczckU2WkpmWXRHbmtUajEwUWlpTFZXRE14NXhLdV9DdExMMXZtLVBrTXVReGYwb2NMcDJJdTA?oc=5",
-      "date": "Wed, 02 Sep 2026 14:00:25 GMT",
-      "source": "klin.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Yoseph Haddad",
-      "stance": "",
-      "title": "“Jewish\" or “Israeli\"? Yoseph Haddad responds to controversy over singing Hatikva - Israel National News",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3ZHU2aFJGbFZ3LTJtYVROZ1BSOXAwclFrMHk0NGNFcm4yWW1laTRHMUJiS2dHYzNNcThNZDZvVXhFN1hQdVdFVVBxZWk0RVdYYWZnRG1UNnNHZw?oc=5",
-      "date": "Wed, 02 Sep 2026 12:27:34 GMT",
-      "source": "Israel National News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jon Ossoff",
-      "stance": "",
-      "title": "Opinion: As Israeli Americans, we support Jon Ossoff’s approach to the Middle East - AJC.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SVXJPcGRzczg3MF9BMndadWxOOFBKTlg4Q0pZT2s0bXZlNFhxb1BQdFJnczFyOXVJc05kaElMNDJ5MEVsQlJ6bWlWV2VnVm12WjBnakxPRjczR3laVFQzRlMwMzhIemFQUWhTb1l5d3p1TDFQeDdn?oc=5",
-      "date": "Wed, 02 Sep 2026 10:43:19 GMT",
-      "source": "AJC.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "JD Vance",
-      "stance": "",
-      "title": "JD Vance delivers convoluted speech to US Republican Jewish organization - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcW0tS21UQVlRLThDT1hCcmNVLUFIUlJKVUUxbXliM0pPX3VrOWI4TTljQ3VOcWFGSlVETTYtS2J5SERrV1ZsWFpERDE1UHhHRW1YUTJGVUlpY2NKQk4zckNCTGYxMktkMjFTOUdJN1ZueVp4eEl3bUN2Q3pRVnlqZHBqblN2c2NQNnlEYkc4VE55bUJqVzNVdXFkMGx1anMyNmNLX2Y4VHYtQlFwYmVOeE5lSmUwRndQSWJldE96WEZYRTV4Nl9YbzlMQkh5ZDIwRXNMNk05YlNiY0ozekVr?oc=5",
-      "date": "Wed, 02 Sep 2026 10:34:05 GMT",
-      "source": "Le Monde.fr",
       "confidence": "high"
     }
   ]
