@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-19 16:18 UTC",
+  "generated": "2026-09-20 16:45 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 475,
+  "cursor": 725,
   "count": 120,
   "mentions": [
     {
@@ -456,12 +456,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Greta Thunberg",
+      "stance": "",
+      "title": "Greta Thunberg leads pro-Palestinian backlash against Ed Sheeran - The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E1LWxUR2RpUmF2YURBNkN3V3FKcVE0Tng3bVZVSURQWVdGb0FEbHh1eUZCQ2pQUmhPTElfYk9GLWtxbXE4b3VXcWlycUx3WnNYWU51c2s5S3VFaGcxOGRHOElkQ3EtM25iZzFfdVBhVDV6eGN3LWIxbGllX1FMREE2VDJ1X2JSZUoxdG5DSERkSWRIMnpZeTBfMkpFYldCYkVWVEFYY0J2UQ?oc=5",
+      "date": "Wed, 16 Sep 2026 16:42:00 GMT",
+      "source": "The Telegraph",
+      "confidence": "high"
+    },
+    {
       "entity": "Marjorie Taylor Greene",
       "stance": "",
       "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjJqNkY2czVDN2NNRmlrYy1JMVp0c0JHSWhzb2xHMGZiU0ZXbC1hWXA5RDAwVDlKdnAwTGx4Q3pGWEFYZUVONmZ1aUpvOUtjM2dva09sQkdKeG9QOXEwZnV5QWRESjNfOWRoOG9wY0pkWTlHdlVrSEM2S2tHaVRNZk9LQ3N4QTZFTzZYbmNsS2xZY05TY1FZa2IyVzJjN3BiVTBDd2E4bU5sVUhPUVHSAbMBQVVfeXFMT053UDB6bGZoOU1IUndxQ3NraGZEM0JJNkxQejlNUnRDZTFoRnNla3l3Y1BSTThQVkU4R09jN2FJSTB3YnRVMGloV096dnRpMmpfc2tHaGMyOU55UlVJWUhHM0pZcVBnNUkxYkRWWGNDbFZxQkJ6WkpIRzI4RW1RMm96Uk9wZXhmTGRwb1ZCODhzdlRnX0JCSUxIcVBHQ3pjQ3JzbU5KbXJxS0p4X2Z3cklES3c?oc=5",
       "date": "Wed, 16 Sep 2026 15:37:31 GMT",
       "source": "Al Jazeera",
+      "confidence": "high"
+    },
+    {
+      "entity": "Greta Thunberg",
+      "stance": "",
+      "title": "Greta Thunberg tells Ed Sheeran the Palestinian people are the 'one victim here' - KEYE",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUFNLWUUxMmVOcWNrM2toSlJqV0VEeTRDOE0yZnl6aUd6MDFPRzZwMnlWbkJKZFI5SHJ5ek9SRDJCaGMxY1pENm9GZ0ZlZEgyNkpqSnQ0RXZmLXpqdGlaR0tQamF0WWVQS1FtV2JMbENEZG1KNVc5bkJZMy04bFVTRnpCTkhPU3NSMzZIb25SSE9QRkttRWRGXzdZSlIwR3lTY1NRd2U1VWxpWDBoWGwxSC1QZFgtVVJXVzlFWC1tX0s4NTZIbVZfeFVNWkNOQUN2THo1QnhsQ2JKa19hdHNpVUV6QUNGVnNkbG5VQUhB?oc=5",
+      "date": "Wed, 16 Sep 2026 15:33:38 GMT",
+      "source": "KEYE",
       "confidence": "high"
     },
     {
@@ -492,6 +510,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Hakeem Jeffries",
+      "stance": "",
+      "title": "Watch: Jeffries gives remarks amid Iran war, midterm pressure - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUlMaHlVMHdidGZjQmRkOURxRWtieFNsNjYzWTZteGxTa3FVcTE2c1VFWVVuVzFWM2Y5Q2ZMSUdZdzRMbkJ6T3kyZENfUXNjNmVVNVBKLXhNWVQ0R25tSzAzSl80OWJBWElCQ2o5RVFQNEg5UkowNUZmaEprcUVQUzMzUnY3dFozcVBxS1BiNGdYYVRtNWd0aDJSSVR0YTlyMTJZR2ZXRU1vN0tMZkJoWktRVFJkTGVoeTVUTU9n0gHDAUFVX3lxTE9teGZYZ3ZEN3JQVElzUFExYUNHYVhpX1dlcHU2NGtBVHNudTIxTDZmTEVuV1VyMUVUaTlsQ216OFU4RDd3bTZDX1FFRndqZGlTTFdLRVpwS1BpZTU2M1dtREMtYnFvWTNiV1FzdEJyTFVCM3NmU2xGWWpVcnZQSUtBVGVhRkQ1NU45czdXRTZsOEwxV2lsaWt2REtZY1dqdVdtQkZ0OGFUNWpXWlpKSDd5NXFnUFFKT3lEcTJscHJkb2NSSQ?oc=5",
+      "date": "Wed, 16 Sep 2026 14:00:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
       "entity": "Tucker Carlson",
       "stance": "",
       "title": "‘No precedent’: Tucker Carlson blasts proposed $2.8 billion arms sale to Israel | RISING - The Hill",
@@ -507,6 +534,15 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeTB5a0FIWE43Z21GZUw4Z0VUa3h3cjMyUVMtUk1qUVpCV2F5eGpDZVdfWnkxWTRlMmN6NFVZSjVHVHJkc3h4aEFTUGpQRzVfempmRWg3YzE3RlZQbk1SdmxLSXpuYk0wZ3JldEhJN2lmOUxfbnJGUXlxRHcwRVlEd1V1TjJROWxtUWc?oc=5",
       "date": "Wed, 16 Sep 2026 12:55:41 GMT",
       "source": "Newsmax",
+      "confidence": "high"
+    },
+    {
+      "entity": "Elizabeth Warren",
+      "stance": "",
+      "title": "U.S. Senator Elizabeth Warren Says Trump’s War in Iran Cost Department of Defense (DoD) Nearly $40 Billion and Drove Nearly Half of Inflation, According to Congressional Budget Office (CBO) Report - goldrushcam.com",
+      "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOZHYwbEE2bjVlUmNRcVkyZnhVZmdXN0VRbTlLSzJadENnc2xaaDBzRDRxQ1U2UlB3dko1aV9QVVdQM0lGbTQ4blVLbnFlbWIxWWhkam0yRUlxdWU0Tk9XVmxXUktGR040M081WmJGMmJwTlg2ZlhrNk5fbkFJejRrMDRGR0pWV190eko5bXlrTi1vNzlEUmRyRG5sOERyWTBtQUdKYURqbU1NZHZKM0lQZlZsa2lWV0VPNGJnLWUyX1U5cTFSOXpHWlUwUF91QkFhRWJId1lvaUd1Y09seEJIMm91UUUzWG42UDljRzRQY25TaEU5N0plb2s4MXdSY0k2cmJhTHNzMVdvQWxwQUFzcktNdlBNeVB1cGI3ZDJJWlJXVXFLU2oxUHZGc0lYRTIxU0tOeVhfUy1nZFZ4bUNGTjVVYWl2dGhMYUQ5eTdKcmJ4eGxLaFU2eGhuMWZWak8xNXMzWFZKUW1QYmphcUJ5a2t4UFlWaFU?oc=5",
+      "date": "Wed, 16 Sep 2026 12:01:28 GMT",
+      "source": "goldrushcam.com",
       "confidence": "high"
     },
     {
@@ -579,6 +615,15 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFNlS0NyRTNJSmlNMXI4N2RZdHExbVJUZG9Fc0RPV3lHNjQyTDl4NERQWVNoTkxTczhXNGxLRDZ1RnNFcXRNWURQLS1sbnRrQ2pzN3FmQThLcWI4Tk56RkkyaXU2WjRYa0lwNTdQSFhzMzVOWjNRRHhaQm9UWlVZcm5sVHBKa0RfdlBudHVQSEwteW1kY0p4TXp5U1BQT2ludlV4T0RXaXd2M3JqSGZWLWt5VlA5SGpUQ2c?oc=5",
       "date": "Wed, 16 Sep 2026 04:18:51 GMT",
       "source": "THEJ.CA",
+      "confidence": "high"
+    },
+    {
+      "entity": "Eli Crane",
+      "stance": "",
+      "title": "Eli Crane Votes to Prolong Deeply Unpopular and Expensive Iran War - Daily Kos",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOblEtTGJUdkZkY3NuUTZOblVKUVdOZ3d1am1VZ3dvT1A1S0F3czBqcERERjBOY0VibmNtTkFMa3EtX3RMZzFiRUtkQlQxaTFyZzZGUGlSTnlOTE5Zblc1TndIYnEtSVBxcGJ4VjhsYmNqZ3hsZUJzSWZFY09vVVBpUUc5VlQ5UGdwVU1GYTZEcldvSWNidTRlRmdPNUM2Rl9qYzVtRC1wUnlLemxUZm1GMG1CT3JvdGZpX1JLMjNJeXRsRHB1TXRIbmlR?oc=5",
+      "date": "Wed, 16 Sep 2026 04:01:06 GMT",
+      "source": "Daily Kos",
       "confidence": "high"
     },
     {
@@ -726,15 +771,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Decart AI",
-      "stance": "",
-      "title": "Israeli Sources Explain What Went Wrong With the $6 Billion Anthropic-Decart Deal? - Haaretz",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd3QxQS05YlRHQkg5Z24zOXMxZFRTZlZueUVKb2J1RlRWMVdZWGxNZ1hyR1VCNGgzcWFtWkhsT3RSOUNfR3pYZjYyWmxOLW10VWdyVUtpNmJtZFZpYW14bUJVSzhHQjFuV3ZqeHlybWk4aWdsR1QtR25HOHgtbl9pUEhEZXZxTWJUQmtfb2RHVmJCZVhjeXFOYWdfZDFBb1dfX1RuenVPN2MxNTBlQlpJM3lDaEtPOGk5d0NPcTNSTzlUSHJoU1pZV2s2S2lTai1RbjNSUjdwSUNlUGo1VDlPMzRmbzRlTVd4VnlxQThvU1AyUQ?oc=5",
-      "date": "Wed, 09 Sep 2026 15:20:00 GMT",
-      "source": "Haaretz",
-      "confidence": "high"
-    },
-    {
       "entity": "Ted Cruz",
       "stance": "",
       "title": "Sen. Ted Cruz on 'military conflict' with Iran - kcentv.com",
@@ -807,6 +843,33 @@
       "confidence": "high"
     },
     {
+      "entity": "Decart AI",
+      "stance": "",
+      "title": "Anthropic cancels $6B acquisition of Israeli AI start-up Decart following due diligence - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObGpPRGpJaGZpaWg5QWdwaUdXSGcwbzZiT2doZ1JQYUJyMXNLMTNlWXRtV1Bqc1FkSVlYT0FDTmNrOWp0allsQlNaeEY0cGg2Skw0MkJPbW8tWWxpREtiVmNIWlppZVBsOEFrU1BTbDRpMzlCNE83T1RMTlkwZlFUcnJEQmxWSVk?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "The Jerusalem Post",
+      "confidence": "high"
+    },
+    {
+      "entity": "Decart AI",
+      "stance": "",
+      "title": "Israeli Sources Explain What Went Wrong With the $6 Billion Anthropic-Decart Deal? - Haaretz",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd3QxQS05YlRHQkg5Z24zOXMxZFRTZlZueUVKb2J1RlRWMVdZWGxNZ1hyR1VCNGgzcWFtWkhsT3RSOUNfR3pYZjYyWmxOLW10VWdyVUtpNmJtZFZpYW14bUJVSzhHQjFuV3ZqeHlybWk4aWdsR1QtR25HOHgtbl9pUEhEZXZxTWJUQmtfb2RHVmJCZVhjeXFOYWdfZDFBb1dfX1RuenVPN2MxNTBlQlpJM3lDaEtPOGk5d0NPcTNSTzlUSHJoU1pZV2s2S2lTai1RbjNSUjdwSUNlUGo1VDlPMzRmbzRlTVd4VnlxQThvU1AyUQ?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hudson Institute",
+      "stance": "",
+      "title": "US Sinks Iranian Oil Tankers as Iran Strikes Back - Hudson Institute",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeWZHRF84WjZlVlZQbFpUcHZiMXZNQk16eUF6MW1jOHU0WVZ4RmFrY1VROG5ZanZ3bTFrR0pUUEI0ZGhnb2lFc1lVQ0NGQmhkYktXSkJjODhQVS0yYS1SLU93M21rLU1LQ05GdkpLU1JsMHVwS0FicjFfYzZoWHZDSXhsaTJ0d3c3eXdoX1ZtaFdJbTFLc0RYdEtCZDl1NWVVSEo3UFRoZzZJVUtFOXdSeWN3ZWg?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "Hudson Institute",
+      "confidence": "high"
+    },
+    {
       "entity": "Claudia Tenney",
       "stance": "",
       "title": "Press Release: Claudia Tenney Urges Treasury Review of UK Israel Trade Restrictions - Quiver Quantitative",
@@ -852,30 +915,12 @@
       "confidence": "high"
     },
     {
-      "entity": "Decart AI",
-      "stance": "",
-      "title": "Anthropic cancels $6B acquisition of Israeli AI start-up Decart following due diligence - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObGpPRGpJaGZpaWg5QWdwaUdXSGcwbzZiT2doZ1JQYUJyMXNLMTNlWXRtV1Bqc1FkSVlYT0FDTmNrOWp0allsQlNaeEY0cGg2Skw0MkJPbW8tWWxpREtiVmNIWlppZVBsOEFrU1BTbDRpMzlCNE83T1RMTlkwZlFUcnJEQmxWSVk?oc=5",
-      "date": "Wed, 09 Sep 2026 03:24:12 GMT",
-      "source": "The Jerusalem Post",
-      "confidence": "high"
-    },
-    {
       "entity": "Gal Gadot",
       "stance": "",
       "title": "Ralph Lauren faces boycott threats over Gal Gadot backlash - www.israelhayom.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSGljRGpDRmNUNTdzMVpHSFk2RVF0aUJfR2J1Tjd3dV8zM0FpZDRubkgyUEp2dS1LU3JPalpMbkJJWkJOTVNCSG0zRU02Z1dBRmluemNtbUNGeFBXdERiUk9QWUF4QUVob1JwQzJtMVdTMlpwS3hDNWxkdHByc240VTNWZ0thZlF3c3ZLdGtDT0UzWUkyYm1LWjhBbEJ3dTQ?oc=5",
       "date": "Wed, 09 Sep 2026 02:40:25 GMT",
       "source": "www.israelhayom.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hugh Hewitt",
-      "stance": "",
-      "title": "Iran hasn’t had to deal with a president who hits back ‘this hard, this fast’: Hugh Hewitt - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PRTVNck1TT1BMbU9Hc1ZhNnpDNzlHQ01Ba1M5RFA4UzBPNGZ2M1g3R09lNHZfV193LXZvcWNkNGRqSHRPX3dNdGpobHk4U0hNa0MxQmpn?oc=5",
-      "date": "Wed, 09 Sep 2026 00:10:09 GMT",
-      "source": "Fox News",
       "confidence": "high"
     },
     {
@@ -1038,51 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ2J1Y051Szljd0JuLW9tNUtoNm5WdDlzYUluNlZQdGZzZm1PX21mbWxUMEJRNjg4S1MzSzFpZEEtZi0xU0NFMGx6NjNhTm9zTy1fUDEwRkE1YXowdEQ4YjBvSnFpdDhUZVZZTHplZzNtcTl0dlZEQlNvWUdsa0JkOEFMd1NMV0ZvcXhmM2JncXRadFl5?oc=5",
       "date": "Wed, 02 Sep 2026 21:32:48 GMT",
       "source": "Yahoo",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tammy Baldwin",
-      "stance": "",
-      "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War | Blake Borths - WFRV Local 5",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUxOSFZ5N0hsc3Yxa21FYXh1a0tsdGhjZjAtWUZxWHpST2k5VGlGeE82Q2x3Q1pleTlsVnZrZE1adkUwT09lWTRZOEIzb3pvaWFieGxrcEYzeW9tTS05LVFwZ0U2R2xtamJTdGNkNURkZUFHdVVUaVpHRG9vZ0NBU1J6ZEVBN08yWXlIYVNDM3BuNEF6Q1VpR3lwU2doMWhrYktUb1dldmNrSjdsU0ROcFlwUFhZTGp2ZVlVbExHdmY?oc=5",
-      "date": "Wed, 02 Sep 2026 21:19:39 GMT",
-      "source": "WFRV Local 5",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "Standoff in the Strait of Hormuz and Iran’s Economic Collapse - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbHdEQVZjc2otbEhxRXREb0o0MWo5OW9IUjhHRFYyVU8zMXNUNHBhVFlVMjZuS016MHNOODcwUDlvenJPY1JwZk1WZ05LZ0NUclZuUGhmLVRHXzRJVU1XRU1QbUpWOG5Bbi03WFpxTlJ1dFN2NUNfUUYyNkNKaEYwY3J6S1pUWXA2bGUxQ2Z6bXhPQzh2WUl2SzVyYXk5NmlfTHEyUjhR?oc=5",
-      "date": "Wed, 02 Sep 2026 19:58:31 GMT",
-      "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "National Review",
-      "stance": "",
-      "title": "Victory in Iran and the Midterms - National Review",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54aEttVjRaaGNjTWoxN0ZkSEdfcV94Y0JQTmgtcE1hVEY5cW1NTTc1Z1dBM0huNGJoSHlVTUFQYWpEVU80Q0t2cTFQZDQ0OGhjM1MwTzk0Sk0xb21wcWJ1N3dFOGdyejdCOUpvRk9JLTZVYVZqbW94RkRsMNIBgAFBVV95cUxQeGNYV1QxUU1JMVRPU25WTTNaWnBmbGlxaVZ1QTc5WXJGc3NZRXo0R0JYZk5kbzFCOXBuemwxY3B4NW1xalA0dmRScHRMQnlaUWdVODZyMDVEdU9rdnZvdVRyN2RGX05RcGFNdlJXNkFWMnNlMTcwMWxMX3hPbGhhVQ?oc=5",
-      "date": "Wed, 02 Sep 2026 19:21:14 GMT",
-      "source": "National Review",
-      "confidence": "high"
-    },
-    {
-      "entity": "Commentary Magazine",
-      "stance": "",
-      "title": "Maureen Lipman’s Appropriate Response to an Anti-Zionist Quitter - Commentary Magazine",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbGxEa09nNzNGXzBUdVFjajRyaFdJMmpnZUxSMXNKRGdRZFgtc1d0THdGUVJ2VnpBUVdiWTVmdGZBWmMweGNNbzRhSTdHOFBKN2V2N0NNMUpPS29XNzNHSko4V3JLRW84aUpzN0M5cEdTWnk4Q0x0YlBMcGhrODRDUDhjdmtxLWFENlFCMTRvZjVyWVZEWFhYWUZNT1ZiQVIzaXhMYjdR?oc=5",
-      "date": "Wed, 02 Sep 2026 18:43:11 GMT",
-      "source": "Commentary Magazine",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hillel Fuld",
-      "stance": "",
-      "title": "#4: Hillel Fuld On The USA, Israel, and the Future Of The Jewish People - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mTkxBa2E2NDFCTjBYS2lkQlEwWklUdkhlM0lsOXV0WTg2T2JaQnozLXNXeHVmSmFHaWRHcXMtUk9DdUxmaE9KenJZMmFtdXg2TmlQMko0UGJkSVBE?oc=5",
-      "date": "Wed, 02 Sep 2026 18:25:46 GMT",
-      "source": "YouTube",
       "confidence": "high"
     }
   ]
