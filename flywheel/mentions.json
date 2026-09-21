@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-20 16:45 UTC",
+  "generated": "2026-09-21 18:33 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 725,
+  "cursor": 975,
   "count": 120,
   "mentions": [
     {
@@ -469,7 +469,7 @@
       "stance": "",
       "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjJqNkY2czVDN2NNRmlrYy1JMVp0c0JHSWhzb2xHMGZiU0ZXbC1hWXA5RDAwVDlKdnAwTGx4Q3pGWEFYZUVONmZ1aUpvOUtjM2dva09sQkdKeG9QOXEwZnV5QWRESjNfOWRoOG9wY0pkWTlHdlVrSEM2S2tHaVRNZk9LQ3N4QTZFTzZYbmNsS2xZY05TY1FZa2IyVzJjN3BiVTBDd2E4bU5sVUhPUVHSAbMBQVVfeXFMT053UDB6bGZoOU1IUndxQ3NraGZEM0JJNkxQejlNUnRDZTFoRnNla3l3Y1BSTThQVkU4R09jN2FJSTB3YnRVMGloV096dnRpMmpfc2tHaGMyOU55UlVJWUhHM0pZcVBnNUkxYkRWWGNDbFZxQkJ6WkpIRzI4RW1RMm96Uk9wZXhmTGRwb1ZCODhzdlRnX0JCSUxIcVBHQ3pjQ3JzbU5KbXJxS0p4X2Z3cklES3c?oc=5",
-      "date": "Wed, 16 Sep 2026 15:37:31 GMT",
+      "date": "Wed, 16 Sep 2026 16:02:31 GMT",
       "source": "Al Jazeera",
       "confidence": "high"
     },
@@ -480,6 +480,15 @@
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUFNLWUUxMmVOcWNrM2toSlJqV0VEeTRDOE0yZnl6aUd6MDFPRzZwMnlWbkJKZFI5SHJ5ek9SRDJCaGMxY1pENm9GZ0ZlZEgyNkpqSnQ0RXZmLXpqdGlaR0tQamF0WWVQS1FtV2JMbENEZG1KNVc5bkJZMy04bFVTRnpCTkhPU3NSMzZIb25SSE9QRkttRWRGXzdZSlIwR3lTY1NRd2U1VWxpWDBoWGwxSC1QZFgtVVJXVzlFWC1tX0s4NTZIbVZfeFVNWkNOQUN2THo1QnhsQ2JKa19hdHNpVUV6QUNGVnNkbG5VQUhB?oc=5",
       "date": "Wed, 16 Sep 2026 15:33:38 GMT",
       "source": "KEYE",
+      "confidence": "high"
+    },
+    {
+      "entity": "Pete Hegseth",
+      "stance": "",
+      "title": "Rep. Thomas Massie moves to impeach Defense Secretary Pete Hegseth over the Iran war : Trump's Terms - NPR",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaFl4bjNCd3paZGUzb0xwUFVHdWNyVmNsejkxY3I1dnhrSzNzWUlUTmMxb1RpYVoxVUtfeEhrYjdfcHdObkl6ZkpDTFBCRExVQkh5REFXU09Hd2cwSF9rQnNvU0RCNzFuckppS3ZDbUlySHNsYk1mcHR2M0JPMEJLYWNRS0ZOa09fUHRvQVZkQUFmT0lTOXQ4M2hhb1g1M1huanV2TkpNb0dueERLNDUxNFhhNFVETWxUWU5wN21DanJaNGdPc2tB?oc=5",
+      "date": "Wed, 16 Sep 2026 15:03:38 GMT",
+      "source": "NPR",
       "confidence": "high"
     },
     {
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRHVpNEhRS0RHUnl6LUw0MmthMC1yQmpUZXhCM2NkbHJqNHNRN2FIVEVFVWRhb1NQS2N4XzVLMU1tR1ItLXBsbzlsQTZMNVV1eHU5V2NRWTlLemZnZGxJemlxNndDWjBuX2xlS25ZUk9SZEd5akhLYnRfSTI4ZjdxV1B3?oc=5",
       "date": "Wed, 02 Sep 2026 22:31:13 GMT",
       "source": "Commentary Magazine",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tammy Baldwin",
-      "stance": "",
-      "title": "Tammy Baldwin makes stop at local business amid tariffs, Iran War - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ2J1Y051Szljd0JuLW9tNUtoNm5WdDlzYUluNlZQdGZzZm1PX21mbWxUMEJRNjg4S1MzSzFpZEEtZi0xU0NFMGx6NjNhTm9zTy1fUDEwRkE1YXowdEQ4YjBvSnFpdDhUZVZZTHplZzNtcTl0dlZEQlNvWUdsa0JkOEFMd1NMV0ZvcXhmM2JncXRadFl5?oc=5",
-      "date": "Wed, 02 Sep 2026 21:32:48 GMT",
-      "source": "Yahoo",
       "confidence": "high"
     }
   ]
