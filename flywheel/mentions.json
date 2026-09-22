@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-21 18:33 UTC",
+  "generated": "2026-09-22 17:35 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 975,
+  "cursor": 70,
   "count": 120,
   "mentions": [
     {
@@ -431,19 +431,28 @@
     {
       "entity": "Tim Kaine",
       "stance": "",
-      "title": "Kaine renews push for congressional action over Iran war - cbs19news.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFVUVHZSYzBxVk0zSTE3SVF3OTd1eDh0UkV0QnhOMlNGTkh2aVFtQ2dfQWRmdXNBNUxjVlR6eXM3ODZUR0pvN1ZFeUtuSDFFdDFrM3paZnhuZHJibkE0dVY4eFV5ZmxiSldXTE5LakZDVXFrcGhpaGpNeHE2TFR5TXdlekdlWmVVLWd6TU8zSXdDTm03aW1aLVBfamNEdDVxeEhXQ3dpdTQzWXpyb0dWUXNFVHBSa0ZMN2ZsemJ4SFZvSlgycXN4OXZFSmJNS1VMY1dj?oc=5",
-      "date": "Wed, 16 Sep 2026 21:56:00 GMT",
-      "source": "cbs19news.com",
+      "title": "Iran war is costing Americans millions, Sen. Tim Kaine says - 13newsnow.com",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPV0QxeUo2OW5tTm5jaElKdjVCZlBULXpheEdrSHNQQVFETFcwSVB4a05nVjJDSERKTkZrcGxfQTJweWlneWxwc3Zvdm9mMXhQcWFUN1dnV1hZM05tNU9hSzFWY0JUT3NhblVLdFdvLVR4Q29hUlVVZ3JEZEs5TXBHQkc2YlJSV2VqWnVEcGc3OHBNS1dETkhnVUlGUGV4X19US3R6ckJOUDljNWNBazc1TmpwSjlyZlZ0WmdfNVZHMXY0dTFDU3RYTEUwdngwNHZiZGY3ZGhZa0pid0ZCN2pUOHZKSEVJSU5kc21DM1BBUlFuTmlYR2c?oc=5",
+      "date": "Wed, 16 Sep 2026 23:31:00 GMT",
+      "source": "13newsnow.com",
       "confidence": "high"
     },
     {
       "entity": "Tim Kaine",
       "stance": "",
-      "title": "Iran war is costing Americans millions, Sen. Tim Kaine says - 13newsnow.com",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPcVd4dGlWX2RyQUtTaVBzY1llZ3o5QmZCN1F6d3k1NkdhU0ZsUHJVZ1pZN0VMNG5jeVhLbjM5b1ZwMy13Uy1PRzNEWWtfLUh1bFptc2pPTXpRM3FWaWExV29vdmdxVE9fQTdZRVQ1SVZibDFWMUk4NTB0dkhSY21ndGFYeEc5U0ZKYzhZTmpNQU1MWG9oNnlzRkFTd0d0ZFB5TzlZOVM5ZUlIUVlTTHFKRkt5QXNsa1h0WWp6ZDJPN2p0VVljdUFqaGRRcDJZM1NPNVJFZkI3NGZrZVBtX3o3Y0NVY2gxRlVnVXNzcVA2M1o4UHg3Wmc?oc=5",
-      "date": "Wed, 16 Sep 2026 20:47:00 GMT",
-      "source": "13newsnow.com",
+      "title": "Kaine renews push for congressional action over Iran war - CBS 19 News",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFVUVHZSYzBxVk0zSTE3SVF3OTd1eDh0UkV0QnhOMlNGTkh2aVFtQ2dfQWRmdXNBNUxjVlR6eXM3ODZUR0pvN1ZFeUtuSDFFdDFrM3paZnhuZHJibkE0dVY4eFV5ZmxiSldXTE5LakZDVXFrcGhpaGpNeHE2TFR5TXdlekdlWmVVLWd6TU8zSXdDTm03aW1aLVBfamNEdDVxeEhXQ3dpdTQzWXpyb0dWUXNFVHBSa0ZMN2ZsemJ4SFZvSlgycXN4OXZFSmJNS1VMY1dj?oc=5",
+      "date": "Wed, 16 Sep 2026 21:56:00 GMT",
+      "source": "CBS 19 News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tim Kaine",
+      "stance": "",
+      "title": "Kaine renews push for congressional action over Iran war - cbs19news.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFVUVHZSYzBxVk0zSTE3SVF3OTd1eDh0UkV0QnhOMlNGTkh2aVFtQ2dfQWRmdXNBNUxjVlR6eXM3ODZUR0pvN1ZFeUtuSDFFdDFrM3paZnhuZHJibkE0dVY4eFV5ZmxiSldXTE5LakZDVXFrcGhpaGpNeHE2TFR5TXdlekdlWmVVLWd6TU8zSXdDTm03aW1aLVBfamNEdDVxeEhXQ3dpdTQzWXpyb0dWUXNFVHBSa0ZMN2ZsemJ4SFZvSlgycXN4OXZFSmJNS1VMY1dj?oc=5",
+      "date": "Wed, 16 Sep 2026 21:56:00 GMT",
+      "source": "cbs19news.com",
       "confidence": "high"
     },
     {
@@ -480,6 +489,15 @@
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUFNLWUUxMmVOcWNrM2toSlJqV0VEeTRDOE0yZnl6aUd6MDFPRzZwMnlWbkJKZFI5SHJ5ek9SRDJCaGMxY1pENm9GZ0ZlZEgyNkpqSnQ0RXZmLXpqdGlaR0tQamF0WWVQS1FtV2JMbENEZG1KNVc5bkJZMy04bFVTRnpCTkhPU3NSMzZIb25SSE9QRkttRWRGXzdZSlIwR3lTY1NRd2U1VWxpWDBoWGwxSC1QZFgtVVJXVzlFWC1tX0s4NTZIbVZfeFVNWkNOQUN2THo1QnhsQ2JKa19hdHNpVUV6QUNGVnNkbG5VQUhB?oc=5",
       "date": "Wed, 16 Sep 2026 15:33:38 GMT",
       "source": "KEYE",
+      "confidence": "high"
+    },
+    {
+      "entity": "Thomas Massie",
+      "stance": "",
+      "title": "Rep. Thomas Massie moves to impeach Defense Secretary Pete Hegseth over the Iran war : Trump's Terms - NPR",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaFl4bjNCd3paZGUzb0xwUFVHdWNyVmNsejkxY3I1dnhrSzNzWUlUTmMxb1RpYVoxVUtfeEhrYjdfcHdObkl6ZkpDTFBCRExVQkh5REFXU09Hd2cwSF9rQnNvU0RCNzFuckppS3ZDbUlySHNsYk1mcHR2M0JPMEJLYWNRS0ZOa09fUHRvQVZkQUFmT0lTOXQ4M2hhb1g1M1huanV2TkpNb0dueERLNDUxNFhhNFVETWxUWU5wN21DanJaNGdPc2tB?oc=5",
+      "date": "Wed, 16 Sep 2026 15:03:38 GMT",
+      "source": "NPR",
       "confidence": "high"
     },
     {
@@ -782,10 +800,10 @@
     {
       "entity": "Ted Cruz",
       "stance": "",
-      "title": "Sen. Ted Cruz on 'military conflict' with Iran - kcentv.com",
+      "title": "Sen. Ted Cruz on 'military conflict' with Iran - KCENTV.com",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRVJKbjZmNXZzV1NqU29PeVBPUExUV3U2b1h3dFlKVHg2TXc0U0lqaVI0bGVaeE5UdlBDaTV1bk1BRUhJWU1Ta2RXRF9nMWxEaUhiLVBCUXYzVUVmZmF6d2FENzNtRDZkQ0tJeThmX1BXcWlCSDctZ3dRcndLczExaUJHSVVHajVudWZkZjhWTDg1RnVJZGxtS3c5OFZrSGVReFpmSlgzQnV2X0lKWWZmZHpCdV84elBycGlv?oc=5",
       "date": "Wed, 09 Sep 2026 14:15:00 GMT",
-      "source": "kcentv.com",
+      "source": "KCENTV.com",
       "confidence": "high"
     },
     {
@@ -1065,24 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZENGbkJpei1JcWxlSFhhVkJtdXZicVFiWDZKZmZqR1pRemxGMnNzUjlvSjIyazdUWktzajBIcG9FNEYxWDB1UVlXSGpqMTB5dF9Ud2dHcHk4TEp1c2pDTkNzaXFpN2E0czROdGdiRUN5SFdNRUdIalUyaUE3UG96OTlxS2IzTzRGUWc4RTVNNFkxMmJLSFlQdU1UcXdseG12Y1JKSFFReWpzekpvQ0s2N2JvZw?oc=5",
       "date": "Wed, 05 Aug 2026 07:00:00 GMT",
       "source": "cbn.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tom Cotton",
-      "stance": "",
-      "title": "Sen. Tom Cotton Talks Arkansas Defense, Lithium, Immigration, Iran And Venezuela On Open Mic - Arkansas Radio",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYzVqOUxwTnR2OGNNZHgySDliUVZER25NdjVBZmxWQ0pXb1poWUtSbkpmN2RwMVA1WU5HWV84SU1vaFFhUFJGOFQzb2hXRlYyT3ZGX01hdDlKdzNDVE9oRE93WDNSRlppMHc4WlhmYVJmVVIybFhnOVhhc2ZRMmlEMVgzS1JvVWRGam53X1F0S0VCaG8?oc=5",
-      "date": "Wed, 02 Sep 2026 23:38:57 GMT",
-      "source": "Arkansas Radio",
-      "confidence": "high"
-    },
-    {
-      "entity": "Commentary Magazine",
-      "stance": "",
-      "title": "The Capture of Hamas’s Security Chief - Commentary Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRHVpNEhRS0RHUnl6LUw0MmthMC1yQmpUZXhCM2NkbHJqNHNRN2FIVEVFVWRhb1NQS2N4XzVLMU1tR1ItLXBsbzlsQTZMNVV1eHU5V2NRWTlLemZnZGxJemlxNndDWjBuX2xlS25ZUk9SZEd5akhLYnRfSTI4ZjdxV1B3?oc=5",
-      "date": "Wed, 02 Sep 2026 22:31:13 GMT",
-      "source": "Commentary Magazine",
       "confidence": "high"
     }
   ]

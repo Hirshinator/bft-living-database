@@ -1,7 +1,20 @@
 {
-  "generated": "2026-09-21 18:29 UTC",
-  "count": 1,
+  "generated": "2026-09-22 17:31 UTC",
+  "count": 3,
   "candidates": [
+    {
+      "name": "Chico Muya",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "They LIED To Me About Palestine | Chico Muya",
+          "date": "2026-09-22",
+          "link": "https://www.youtube.com/shorts/qoOyiVr_xp4"
+        }
+      ]
+    },
     {
       "name": "Hillel Kornwasser",
       "orientation": "ally",
@@ -12,6 +25,19 @@
           "title": "Standing Proud Even Under Threat for Defending the Jewish People | Hillel Kornwasser",
           "date": "2026-09-16",
           "link": "https://www.youtube.com/shorts/_BQblgPsoso"
+        }
+      ]
+    },
+    {
+      "name": "Yuval David",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Who PROFITS From Anti-Israel Hate? | Yuval David",
+          "date": "2026-09-22",
+          "link": "https://www.youtube.com/watch?v=YLxMucGGVew"
         }
       ]
     }
