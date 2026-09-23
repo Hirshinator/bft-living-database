@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-22 17:35 UTC",
+  "generated": "2026-09-23 17:46 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 70,
+  "cursor": 320,
   "count": 120,
   "mentions": [
     {
@@ -219,6 +219,42 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Nb3ZRR0NKcV82bWVKcFBaU0FFdXczZktaekE0VVhyTWdGRnB2enoxYWdMVE5semVHYXBCY2lHM0xRX0h5clZERU0xczVISmFzUl91VjhXRHhOX1YwU0tzRw?oc=5",
       "date": "Wed, 26 Aug 2026 05:28:08 GMT",
       "source": "Mshale",
+      "confidence": "high"
+    },
+    {
+      "entity": "Babylon Bee",
+      "stance": "",
+      "title": "Ms. Rachel Announces Herbie The Puppet Has Joined Hamas As A Child Soldier - babylonbee.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcTlQM0d2bzlXZmpobnBucGV6dXlxOGpVSzZtTVpZZnlSWG5XNHNQbmtUUlEyNnJDUzZSMlNKU1RGaHJFTDdhc1VMaURJeWVtOTl6dXI1LU5weUJNOTlGWTBIRkJkaEZHSWcwc0RkNjNyb0U4V3Mwb2c1bmRXTVhuaS03V1ZlT0FTZk5uT0lMdTFPeHUyckE3ZjRKTEtFalZIZlBN?oc=5",
+      "date": "Wed, 23 Sep 2026 17:02:05 GMT",
+      "source": "babylonbee.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "Jewish life in Germany is ‘no longer safe,’ chancellor warns as far-left takes power in Berlin after ‘election intifada’ - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYWlIQW1oczZYME9FTG9YRkZkeHJUMjVFLVVzR3FpTGdqaGYyeWstanlJWEEyUU90alF2aDlsQ09acm43SDZ3Q1BTV29lOGxpMDJBU2FicU5YUEsxY1IzZE1tYmcxQUlSV2pGdVRoSVhiM2Z3OGhzNlc0WENIZnlMYzc3NTV5dExrVHBsRFhRLWlPbnNkWHBJNmg0MWpXWE5aM3M1aE4yZk1qN1djaDBiZmE0VE94X3Q1Z2c2TERwYk1INHR6RnBBMndaRzUyWEEyV3Q0dTR3djI?oc=5",
+      "date": "Wed, 23 Sep 2026 10:49:11 GMT",
+      "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "Trump sidesteps Israel at UN while Jordan, Turkey go on the attack - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamNxVGxoRGQxMDRPbUFlU2tTQ0JvbnRrZUtmZFdsemhfb3BFX1hsbEtyODRpb1lLeTJfZmIzM2xSSjJyTjV1LXJfVDN0eWwxaS1rRnRvZDZ0ZHAtM0hSMnhwY2Q4RFVqM3BiLWhjZG5xakM4SVd6ei1lT0RTYjh2bkpmWTFKZy0ySGJ0M3c5VWRpR2xWUHc?oc=5",
+      "date": "Wed, 23 Sep 2026 09:26:53 GMT",
+      "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "In solidarity with Israel - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wcnBVaHVDWk1tZGQxaGtfMFJfaVEyTmlHYmtEWEVqQVB5SUVqa29OU2E1MjFVYllnWTJreTQ4eFhXNFNoMHhkUXQ4dWdEUFFDWHMzRDk2azhJRkgzajBfOTI5SFViblE?oc=5",
+      "date": "Wed, 23 Sep 2026 06:54:51 GMT",
+      "source": "All Israel News",
       "confidence": "high"
     },
     {
@@ -462,6 +498,15 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV0FpNEY5MlNGVGo0Uk0tWWVDQkRweHl2dXNyU0JnSmdhME0yQlBuQm56a1dlckVVa3B5RDUyNmpLbGpfSE1HSHFNbmo1N3dNTkxaUXVVOVJSamJlTFQyNk9Mcjk0R2R2alZKTktRSEZlazY0a1ctUHoyY19rOUZhY0otLVZNNmhXX3BlMnN2S0tnc1BGTFR2azdZWHBCajkwdlNMUGdzVUMwbEhGQ1R4TndR?oc=5",
       "date": "Wed, 16 Sep 2026 19:24:00 GMT",
       "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "Babylon Bee",
+      "stance": "",
+      "title": "Macklemore Performs Concert In Gaza And Oh No! They've Thrown Him Off A Roof - babylonbee.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNblV2NFBTdGVlbnpKTU9SdXZBcEE0ek83SWRqZW1BUXRpUS1NTkJRSUZXWE4wajBqTndDQUxpWFJCeGJNNWhqazJmNGk5cFVCVVNYUkNTSXE4QW1mLXNDNWVQZjVxYjJTYVpEVzdPaF9xZGtfQzhnNXByNHlEcmx0alg0bWJ0bGg1RUxhLVdUc3ZfRERMSXlma2dTSGhuUk8zS0VYbA?oc=5",
+      "date": "Wed, 16 Sep 2026 16:57:39 GMT",
+      "source": "babylonbee.com",
       "confidence": "high"
     },
     {
@@ -1038,51 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNME5iblVndzlpQ1Y4RkVPcDdqMkktMW9uWmxiZTVXd1FVX1JxSElnMVc1Tl9zSGdndTQ2SzVPWW4zc3lkMmozTi1oMndRNEdJRm5QLWJoXzRhcEVSQ0FBWHhQWXJ1bG9lTjFjbVNWR0lJXzZJOW9XX3Jzby1jSEFNUENQNzkwVER4VHduZUxXaWoyQzgwYlFqUzVfeTVJU1AwenBuejMyNnlPWTRySk5KQ1AzODlHUkhoNUJLYkJwTHA3YTlEUkZMSnVWZ1FCQnY1Z0E?oc=5",
       "date": "Wed, 05 Aug 2026 07:00:00 GMT",
       "source": "rocketcitynow.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "National Jewish Advocacy Center (NJAC)",
-      "stance": "",
-      "title": "‘Turning a Blind Eye to Muslim Brotherhood Emboldens Extremists and Undermines US National Security’ - Combat Antisemitism Movement",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMEx4anBDTFphd1ZCVFVoaHhKRVpuYVo5bjFLNmwzRWFiR3hibkJwdHNTYlpfS1JvcnU4RjBFS25xZlp1WHJaeURDYWF0OFFHbGJrbEhrZG84ejBERGUzYXMta0tIS1V1X1ppWC1yaDN0UFFnRkFXZVRkbmp4d19xQV9jR3NDdXZfVE5OWnlTbVk5TDl5R2Q4ZkxTNmRMeWJ6VEhlRGJ2UEtYdXd4dXhjU0NVY1hnaTEyRzlKMWtwWEJqVWxJRHJ6NHZ5cW1FWlNvVTFJQ29GOGFMeklVV2pEbkRibG02RjQ?oc=5",
-      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "Combat Antisemitism Movement",
-      "confidence": "high"
-    },
-    {
-      "entity": "Cori Bush",
-      "stance": "",
-      "title": "AIPAC-backed Wesley Bell defeats Israel critic Cori Bush in Missouri primary rematch - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeGczQjlMM2JGdThNMkVZaTNUMWxtNHNNY1EzZnFWa0poRzQyeDJjM1hXN3gtT3otNHozYjRrcEI3RWJEc3BobU1lRW1GQlN5RFd2eWxERXF3WnYxNDJNZF9Rd0hIckhjZUdrNnFlVHZxYU9GS2VyLThEdF9tX0hndVRxR01hWDB3Q01OMGVjZWVsYVo4aGprVV9pTFNObDZ0RVVPM0JuZkpMNEc4Y19yMzJJNEhhZ9IBuwFBVV95cUxNNXdUbkVOcUJVTG5URkxSMUhvbDBXUUgyZ2puNkxobFpHRzRrdDh6YWtqREN6OUpnOExrZWlab3VNVlJRQzhQTUxaWVg2cm9oOTN1cjVYQkJucDhMRVFPWmlHSUpaaVlfZUJTQUZIVFJTWXJKTTNmY2tKUWJvX1p5NHhRZEZvRjZoQ1R2cExodEtoenNIcEstM011ZkVXdC1JREZNWXRxejZiVGFzRWxweGJtUFduaGRMX1g4?oc=5",
-      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
-      "entity": "Van Jones",
-      "stance": "",
-      "title": "Van Jones: El-Sayed Has A \"Tremendous Opportunity\" To Back Off His More Extreme Policies, Reassure Jewish Voters - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRXlVR0pYNmI2U0VGREtoa1pkUkszSDMxaWpQMEFRY0NyVk42cFlKejRNcE1LNG81SC1STm04aTdVb0lFS3NQREp3M3FKd2JGRnAtQnVrUnFncjJpR1U2SDVWWE1OaG82cldZVmJpYTF0TWtRMWFBanpELWllLTgwdC1oWFpGWGh5NTNiSzg0cExYb2c?oc=5",
-      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "Yahoo",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Pompeo",
-      "stance": "",
-      "title": "Mike Pompeo warns against trusting Iran on potential peace deal - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdEhXVC1MaTA0M1lqbWNoTDRmOVNmeC1fREtqa2VwcHNlS1Q3RHZQeWQ1Yy0tNG1tSGJ3RlBlR1p6WlpuaF9XX01QMW5WRS1SY1VIYkRBcHgyZWo3UVdtWXVDelU2RXpiS0IxcjZFMy1ZMjhSNllyQnEydi1IRGsxOWxnand3bkFQUUo0?oc=5",
-      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "Yahoo",
-      "confidence": "high"
-    },
-    {
-      "entity": "CBN News",
-      "stance": "",
-      "title": "Oil Prices Fall on News of Potential Deal to Open Hormuz, Hamas Avows 'Holy Mission' to Fight Israel - cbn.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZENGbkJpei1JcWxlSFhhVkJtdXZicVFiWDZKZmZqR1pRemxGMnNzUjlvSjIyazdUWktzajBIcG9FNEYxWDB1UVlXSGpqMTB5dF9Ud2dHcHk4TEp1c2pDTkNzaXFpN2E0czROdGdiRUN5SFdNRUdIalUyaUE3UG96OTlxS2IzTzRGUWc4RTVNNFkxMmJLSFlQdU1UcXdseG12Y1JKSFFReWpzekpvQ0s2N2JvZw?oc=5",
-      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "cbn.com",
       "confidence": "high"
     }
   ]
