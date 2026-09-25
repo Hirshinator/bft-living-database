@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-24 17:49 UTC",
+  "generated": "2026-09-25 17:50 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 570,
+  "cursor": 820,
   "count": 120,
   "mentions": [
     {
@@ -240,6 +240,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Hakeem Jeffries",
+      "stance": "",
+      "title": "House Minority Leader Jeffries Says High Diesel Costs Due to Iran War - C-SPAN",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNGNvZ3JzR0lSSWU0dEpHX1FlclIwbU1zTkg0RzE0b1ZhZV9FRVc5aGk4dVhHX3pVY3VPTmJaeXcwQ2hwTXVpN3c3VW9hM3YtdzFTSlAxWjNMbDJmUGllWk82eHg1WVVJc2NXa0pmeTBqS1JsZWx3Ql9OdGU3elI0UXlSWUNuVlRBdkNIRWpVWWszMFZTTWdxaDdEWG1rRDB4VmYxRzFJTTBHSGN3QVdLOVd6Nm1MR1pfTGdmemV3?oc=5",
+      "date": "Wed, 23 Sep 2026 20:35:49 GMT",
+      "source": "C-SPAN",
+      "confidence": "high"
+    },
+    {
       "entity": "Chevron",
       "stance": "",
       "title": "Exxon, Chevron Warn of Continued High Fuel Prices From Iran War - EnergyNow.com",
@@ -276,12 +285,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Mark Kelly",
+      "stance": "",
+      "title": "Arizona Senator Mark Kelly weighs in on war in Iran and rising fuel costs here at home - ABC15 Arizona",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd3hwV01RQW5IekFvcWNyd0JQUEEyOW44bVNuRk54WFFJTWtsUVpSd3p4TC04UldZWkw0V21Xa0RJdmRxQk5sRVpJdGl3b2xxbmU2Z29EUkZ3Q2ZXVDBJZHlDLV9TckxWaHBMLTljc2ZtRlAxVHNfTGNtaU9nTFdEVHRuMTU0MWpZZTc2WlRaSkhldWJNeE45QjgtcWxyZWo3RlVoLURUdkszeWRoOGJZVkZyVjNfbkFGTzhRQkpGYw?oc=5",
+      "date": "Wed, 23 Sep 2026 14:40:00 GMT",
+      "source": "ABC15 Arizona",
+      "confidence": "high"
+    },
+    {
       "entity": "Brian Kilmeade",
       "stance": "",
       "title": "Trump UN Showdown: Can Sanctions Stop Iran? | Brian Kilmeade Show - FOX News Radio",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRjRaT1dBU1MtTzBzQjN3MnVzN3NwRVY4Sk1PY3JuTEdMR2hGUDM5MWlSdEs4ajJtVkN4bDNNM0xiMVNlOUx3MzYwYmlNWjdjeThyeGZNZkQ1UWotT2RIZkRiMlVNb1d0dzZrWlFVMk56VXVQcEE1UDhVRjlLVXctTWR0LXY5aGFxZmZNQ1BPalRJMHZaSzRBaGRmQWtvOVpY?oc=5",
       "date": "Wed, 23 Sep 2026 14:15:28 GMT",
       "source": "FOX News Radio",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mark Kelly",
+      "stance": "",
+      "title": "Sen. Mark Kelly talks fuel prices, War in Iran - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBna0tsSGNydGlwaC1rRzBfYXlnUjhoZDh2MDRWUVF1M3FmaFVEZ1RfdEo1NlJjSkFnT3pjemw3TEN3SkxFZ2w4RFR5Y3FPemFCRS1BSWQxeVdTOWVrUDJCZHI1eERzMEN0SXNSaWJqLWY0VTBCUHI1NzJRdzh3LTA?oc=5",
+      "date": "Wed, 23 Sep 2026 14:14:19 GMT",
+      "source": "Yahoo",
       "confidence": "high"
     },
     {
@@ -299,6 +326,15 @@
       "title": "Sen. Eric Schmitt (R-MO) Speaks to Reporters on Iran War - C-SPAN",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQell1dW5nWmIxZGpTNTZSZEhDTlhaYUg5eGx1LWV1bGJIUlJnQVIxY2tzR3pDVDN3SlF1SkZja3J3TFNzeUNTeUxUaktMT2dNSlUwMEI0VG1qVzF6ZGFhb0t6MkowMUxtLU1oNlRRM3habTJnYzR5X05DTWd5U2h4QnFSQ3NPOFRlNF9BT0J6dlVacUpLdldkSko4NmxNNmhmLWc2WXB1b1JZczA?oc=5",
       "date": "Wed, 23 Sep 2026 13:44:44 GMT",
+      "source": "C-SPAN",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mark Kelly",
+      "stance": "",
+      "title": "Sen. Mark Kelly (D-AZ) Speaks to Reporters on Iran War - C-SPAN",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTlQ4TDQ4VlBXeTFKMjIwazdodC03YzhrOFlBdFVyQmZjTFRLV2JvckdLMXVCblRvb2E4a2UycWdnOUZWWlllcTFmY0xFOVJ2RWNiNG1yaUVYWGcyaDNDd2w3a01WVFdzU1lObE45RFhFS29yd3lod2JoaEZBbUFheFpPNUdTM0ZyQWthbXdRdmxmTGlGUVVLYnpXVENaYlRZYUtnMWhXbGY?oc=5",
+      "date": "Wed, 23 Sep 2026 13:25:14 GMT",
       "source": "C-SPAN",
       "confidence": "high"
     },
@@ -345,6 +381,15 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZVpuNkd6RWstN2FFMkJOVDhWWWd2Z0RydTc2UXJTcWtxMndxaTRQZTlIQ01nVjAzMnFUcXBRblVVNDc4aDA1dmN3b2ltZ1FjM1pGdktoZl9lZVE5SFVMSnM5SklVU2o2bzJuTGZhZWZPSGZHbkNvN2p3dE1vczB4S05rSnNXSlBDLVJoRENsRGNZektnLURzaDlEZ3pHYzJiUjJiSGxyM2d6dWRhN3hDQXYyTGRFUThZVmZORw?oc=5",
       "date": "Wed, 23 Sep 2026 01:37:00 GMT",
       "source": "The Statehouse News Bureau",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jacky Rosen",
+      "stance": "",
+      "title": "Jacky Rosen visits Poland to discuss antisemitism, Holocaust issues - Jewish Insider",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelVxM0FnUzBYNWt1bjRUeFhrS084RGR6bmtKQ0ZQUjhQV1NGcng4Uzl1b2VFclZ2bnJ6MFRRakNUNWJKMnFxS3pYVVVTTUUzM0F4Y0UzZDVkT2xqcEFtUEx3V1RwbnVpWUJmLU1zdlRVTzVIRERpVHJ4SFRqM0VXSGlXZEJSbUNYN0E?oc=5",
+      "date": "Wed, 23 Sep 2026 01:04:14 GMT",
+      "source": "Jewish Insider",
       "confidence": "high"
     },
     {
@@ -618,21 +663,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Marjorie Taylor Greene",
-      "stance": "",
-      "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjJqNkY2czVDN2NNRmlrYy1JMVp0c0JHSWhzb2xHMGZiU0ZXbC1hWXA5RDAwVDlKdnAwTGx4Q3pGWEFYZUVONmZ1aUpvOUtjM2dva09sQkdKeG9QOXEwZnV5QWRESjNfOWRoOG9wY0pkWTlHdlVrSEM2S2tHaVRNZk9LQ3N4QTZFTzZYbmNsS2xZY05TY1FZa2IyVzJjN3BiVTBDd2E4bU5sVUhPUVHSAbMBQVVfeXFMT053UDB6bGZoOU1IUndxQ3NraGZEM0JJNkxQejlNUnRDZTFoRnNla3l3Y1BSTThQVkU4R09jN2FJSTB3YnRVMGloV096dnRpMmpfc2tHaGMyOU55UlVJWUhHM0pZcVBnNUkxYkRWWGNDbFZxQkJ6WkpIRzI4RW1RMm96Uk9wZXhmTGRwb1ZCODhzdlRnX0JCSUxIcVBHQ3pjQ3JzbU5KbXJxS0p4X2Z3cklES3c?oc=5",
-      "date": "Wed, 16 Sep 2026 16:02:31 GMT",
-      "source": "Al Jazeera",
-      "confidence": "high"
-    },
-    {
       "entity": "Greta Thunberg",
       "stance": "",
       "title": "Greta Thunberg tells Ed Sheeran the Palestinian people are the 'one victim here' - KEYE",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUFNLWUUxMmVOcWNrM2toSlJqV0VEeTRDOE0yZnl6aUd6MDFPRzZwMnlWbkJKZFI5SHJ5ek9SRDJCaGMxY1pENm9GZ0ZlZEgyNkpqSnQ0RXZmLXpqdGlaR0tQamF0WWVQS1FtV2JMbENEZG1KNVc5bkJZMy04bFVTRnpCTkhPU3NSMzZIb25SSE9QRkttRWRGXzdZSlIwR3lTY1NRd2U1VWxpWDBoWGwxSC1QZFgtVVJXVzlFWC1tX0s4NTZIbVZfeFVNWkNOQUN2THo1QnhsQ2JKa19hdHNpVUV6QUNGVnNkbG5VQUhB?oc=5",
       "date": "Wed, 16 Sep 2026 15:33:38 GMT",
       "source": "KEYE",
+      "confidence": "high"
+    },
+    {
+      "entity": "Greta Thunberg",
+      "stance": "",
+      "title": "Greta Thunberg tells Ed Sheeran the Palestinian people are the 'one victim here' - The National Desk",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQLW9SZWNwdGhfelpaRGxxWWlrdHZ1MTFFRU82NWZONGR4d1BDd0JaT3ZjWTN2aExPd1FLRDdPU0xVbEZ6dks1VmJ5SWhVLXIwdTNsamoxU2ZNWkJ5dzFxcnFnOERYeE16bE8yOUNTQTF5LWhsd05ncEhaemVGRURzOEZ0STF0WFZmaGhvcmd0TTNNYWJia0FoNFUyNjJvR1BEOENqRUZUR3J3a0xPUldoV3VNaHVDbGZldkd2dHgyOUl2LXBZSjExTEFWQkdyMjFnczNGWFRKRHoyWjFKYmI5c3JEbnJkb2lSdjVhclh1VTl0WWw5SmZhNVNYUGg?oc=5",
+      "date": "Wed, 16 Sep 2026 15:32:14 GMT",
+      "source": "The National Desk",
       "confidence": "high"
     },
     {
@@ -750,6 +795,15 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWUydlVvN0cwZ2FLLUdpaW9BaENjamFTR3JmMTdvRXlicWZIRF9aY2NQcjZOa0xWZFdEaDVKUlVmZjdhOHRkSWVKTy00S3RGVi1Sa0lqM3ZyQ05yemoyVlpTR1NMTHZLVFQwNDRxaDZKOTQwVDJ3VnpiblNNTmdxQ1ZQNExiRXljOXJIa2M5M1pXUGt6STBjN3pKQjYwMnU5UG1ubk1B?oc=5",
       "date": "Wed, 16 Sep 2026 08:37:58 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Marjorie Taylor Greene",
+      "stance": "",
+      "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjJqNkY2czVDN2NNRmlrYy1JMVp0c0JHSWhzb2xHMGZiU0ZXbC1hWXA5RDAwVDlKdnAwTGx4Q3pGWEFYZUVONmZ1aUpvOUtjM2dva09sQkdKeG9QOXEwZnV5QWRESjNfOWRoOG9wY0pkWTlHdlVrSEM2S2tHaVRNZk9LQ3N4QTZFTzZYbmNsS2xZY05TY1FZa2IyVzJjN3BiVTBDd2E4bU5sVUhPUVHSAbMBQVVfeXFMT053UDB6bGZoOU1IUndxQ3NraGZEM0JJNkxQejlNUnRDZTFoRnNla3l3Y1BSTThQVkU4R09jN2FJSTB3YnRVMGloV096dnRpMmpfc2tHaGMyOU55UlVJWUhHM0pZcVBnNUkxYkRWWGNDbFZxQkJ6WkpIRzI4RW1RMm96Uk9wZXhmTGRwb1ZCODhzdlRnX0JCSUxIcVBHQ3pjQ3JzbU5KbXJxS0p4X2Z3cklES3c?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "Al Jazeera",
       "confidence": "high"
     },
     {
@@ -924,15 +978,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Jerry Seinfeld",
-      "stance": "",
-      "title": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’ - Combat Antisemitism Movement",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1FsTFp5Y0lCbmdKZmFyVXpBS25xcnlWWVpsOHMtcXZweVZkbEtVOXZCUDM2WEhYUWRuQkdpMXUzNHk4bDlIdmR1NE5ZekVNcG5zWnFOWWhOcW1wUk4zQ04wTDMteC1fWlVjX2d4QWZkanRnZ3cyWU9OWHJhaHphSmFXTzYzSDNEbDZkRVI3QUdpcEFCbHhIMXJDT2liandJRExwYXpGWWUtSmNtT2hITUdBenZ3YlRFdkV6T05uN3pYRVVGMkE?oc=5",
-      "date": "Wed, 09 Sep 2026 20:12:19 GMT",
-      "source": "Combat Antisemitism Movement",
-      "confidence": "high"
-    },
-    {
       "entity": "Ted Cruz",
       "stance": "",
       "title": "Sen. Ted Cruz on 'military conflict' with Iran - KCENTV.com",
@@ -971,15 +1016,6 @@
     {
       "entity": "Jerry Seinfeld",
       "stance": "",
-      "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZktwUG04VDVUU2NhckxJMHVfM29JSG5MbG01Q1RMSUJydUpySEF6SDRiaEFQSHdMWXlURGNuaXdhcTkwRGV0UTRtdks2OW9na0FWWV9kZHJnUzB6R3p6QkdHX0xPWmlnYkx1blhQY2lvVHQtNjhzQzViTWRmeVFZcDFuRjVrdy1BRU9vcEY2WWZuT0F5dEZwYVRValRsOGtqVlFJZDNhT2dyajdVcVhEMWwzSno0ekdOelZJWGtTcnhrc1A4eDdN?oc=5",
-      "date": "Wed, 09 Sep 2026 09:26:00 GMT",
-      "source": "i24NEWS",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jerry Seinfeld",
-      "stance": "",
       "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24news.tv",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZktwUG04VDVUU2NhckxJMHVfM29JSG5MbG01Q1RMSUJydUpySEF6SDRiaEFQSHdMWXlURGNuaXdhcTkwRGV0UTRtdks2OW9na0FWWV9kZHJnUzB6R3p6QkdHX0xPWmlnYkx1blhQY2lvVHQtNjhzQzViTWRmeVFZcDFuRjVrdy1BRU9vcEY2WWZuT0F5dEZwYVRValRsOGtqVlFJZDNhT2dyajdVcVhEMWwzSno0ekdOelZJWGtTcnhrc1A4eDdN?oc=5",
       "date": "Wed, 09 Sep 2026 09:26:00 GMT",
@@ -1005,6 +1041,33 @@
       "confidence": "high"
     },
     {
+      "entity": "Israel Englander",
+      "stance": "neutral",
+      "title": "Billionaire Israel Englander Is Doubling Down on These 2 Outstanding Dividend Stocks. Should You? - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYVZNNmc3TWREeFZLTktfRzhyWVdFR0huSFhxR2kwT0tfdGJfcGk0MVBvM24xd2QyZTl0WTFJUHFEYUpaa0JWNlRvV1JyckUxOEJqb1duYWM3WjBFeXNtdDVtZmN2M0tvckFnZUhkRkoyOW9TOGU1MXliMExxeUxFMm5pMEFmQXNZa2o0bUpER29yZDNVRjUxZFdIbjFaSWNZQW5mSGRMd1NkbmRxUmtGR3VSd3UzaF9iTzFlX2pYT3lDVVctZWhMZ3NaRFFPT2U2eWd3bg?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "The Motley Fool",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jerry Seinfeld",
+      "stance": "",
+      "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZktwUG04VDVUU2NhckxJMHVfM29JSG5MbG01Q1RMSUJydUpySEF6SDRiaEFQSHdMWXlURGNuaXdhcTkwRGV0UTRtdks2OW9na0FWWV9kZHJnUzB6R3p6QkdHX0xPWmlnYkx1blhQY2lvVHQtNjhzQzViTWRmeVFZcDFuRjVrdy1BRU9vcEY2WWZuT0F5dEZwYVRValRsOGtqVlFJZDNhT2dyajdVcVhEMWwzSno0ekdOelZJWGtTcnhrc1A4eDdN?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "i24NEWS",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jerry Seinfeld",
+      "stance": "",
+      "title": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’ - Combat Antisemitism Movement",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1FsTFp5Y0lCbmdKZmFyVXpBS25xcnlWWVpsOHMtcXZweVZkbEtVOXZCUDM2WEhYUWRuQkdpMXUzNHk4bDlIdmR1NE5ZekVNcG5zWnFOWWhOcW1wUk4zQ04wTDMteC1fWlVjX2d4QWZkanRnZ3cyWU9OWHJhaHphSmFXTzYzSDNEbDZkRVI3QUdpcEFCbHhIMXJDT2liandJRExwYXpGWWUtSmNtT2hITUdBenZ3YlRFdkV6T05uN3pYRVVGMkE?oc=5",
+      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "Combat Antisemitism Movement",
+      "confidence": "high"
+    },
+    {
       "entity": "Claudia Tenney",
       "stance": "",
       "title": "Press Release: Claudia Tenney Urges Treasury Review of UK Israel Trade Restrictions - Quiver Quantitative",
@@ -1020,69 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByZkg2WlV5SzI5dlVSUnRpQTN6SkJJZ2R4VmdheFk3Sk5pYl8wLTQ2T1I3Z2EzN0VvcU1wdDBRbXN6VWFzN0VRV0hCYlZnbGxtNV9lSlFCODhleFc3Rms2NXBOSncyOGZUMTZCbW9zMTdxMWtIY2RV?oc=5",
       "date": "Wed, 09 Sep 2026 07:00:00 GMT",
       "source": "creativecommunityforpeace.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Decart AI",
-      "stance": "",
-      "title": "Anthropic cancels $6B acquisition of Israeli AI start-up Decart following due diligence - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObGpPRGpJaGZpaWg5QWdwaUdXSGcwbzZiT2doZ1JQYUJyMXNLMTNlWXRtV1Bqc1FkSVlYT0FDTmNrOWp0allsQlNaeEY0cGg2Skw0MkJPbW8tWWxpREtiVmNIWlppZVBsOEFrU1BTbDRpMzlCNE83T1RMTlkwZlFUcnJEQmxWSVk?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "The Jerusalem Post",
-      "confidence": "high"
-    },
-    {
-      "entity": "Decart AI",
-      "stance": "",
-      "title": "Israeli Sources Explain What Went Wrong With the $6 Billion Anthropic-Decart Deal? - Haaretz",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd3QxQS05YlRHQkg5Z24zOXMxZFRTZlZueUVKb2J1RlRWMVdZWGxNZ1hyR1VCNGgzcWFtWkhsT3RSOUNfR3pYZjYyWmxOLW10VWdyVUtpNmJtZFZpYW14bUJVSzhHQjFuV3ZqeHlybWk4aWdsR1QtR25HOHgtbl9pUEhEZXZxTWJUQmtfb2RHVmJCZVhjeXFOYWdfZDFBb1dfX1RuenVPN2MxNTBlQlpJM3lDaEtPOGk5d0NPcTNSTzlUSHJoU1pZV2s2S2lTai1RbjNSUjdwSUNlUGo1VDlPMzRmbzRlTVd4VnlxQThvU1AyUQ?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "Haaretz",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "US Sinks Iranian Oil Tankers as Iran Strikes Back - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeWZHRF84WjZlVlZQbFpUcHZiMXZNQk16eUF6MW1jOHU0WVZ4RmFrY1VROG5ZanZ3bTFrR0pUUEI0ZGhnb2lFc1lVQ0NGQmhkYktXSkJjODhQVS0yYS1SLU93M21rLU1LQ05GdkpLU1JsMHVwS0FicjFfYzZoWHZDSXhsaTJ0d3c3eXdoX1ZtaFdJbTFLc0RYdEtCZDl1NWVVSEo3UFRoZzZJVUtFOXdSeWN3ZWg?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "Creative Community for Peace",
-      "stance": "",
-      "title": "More Than 6,000 Leaders Across Entertainment, Academia and Public Life Unite to Reject “Genocide” Accusation Against Israel - Creative Community for Peace",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByZkg2WlV5SzI5dlVSUnRpQTN6SkJJZ2R4VmdheFk3Sk5pYl8wLTQ2T1I3Z2EzN0VvcU1wdDBRbXN6VWFzN0VRV0hCYlZnbGxtNV9lSlFCODhleFc3Rms2NXBOSncyOGZUMTZCbW9zMTdxMWtIY2RV?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "Creative Community for Peace",
-      "confidence": "high"
-    },
-    {
-      "entity": "Sarah Huckabee Sanders",
-      "stance": "",
-      "title": "Sarah Huckabee Sanders: 'Boycotting Israel is antisemitism' - Israel National News",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0c1JXLUt1UHM0djIzX1JSSHYtSDlrZ0MzaHIzVG9HbFl6Qk5UMTFwNXV6dUViWUQtNFQ1UXNpQmdqNWNWcDF5SEd2YjYwMGdYWExrMVRlTWk2Zw?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "Israel National News",
-      "confidence": "high"
-    },
-    {
-      "entity": "All Israel News",
-      "stance": "",
-      "title": "A disguised Shimon Peres sneaked into King Hussein's palace, paving a path to peace with Jordan - All Israel News",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXRGOHhXVDZaRjBRQm5HeklQZ2xzVWRtQWw4akFxZExmaktKYmxiNXk1cHl5R01qNEM4ZmlFT05VZjZBMmd1MUctd2dYTkZ4OVBWTzVSSUktM1Q3TVZDY3ZFclRQMnY2YmdLNHM4ZllVSXljc0JFckpLYTQzdnpQRkhMRnhoLVdrTWxnb25WdlVVbXBHZUNsaVo1NVQtY1RyM0JGN0pVWlluMmg5ekp2NTlGVERyNzhP?oc=5",
-      "date": "Wed, 09 Sep 2026 06:26:10 GMT",
-      "source": "All Israel News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Creative Community for Peace",
-      "stance": "",
-      "title": "More Than 5,000 Leaders Across Entertainment, Academia and Public Life Unite to Reject “Genocide” Accusation Against Israel - Creative Community for Peace",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByZkg2WlV5SzI5dlVSUnRpQTN6SkJJZ2R4VmdheFk3Sk5pYl8wLTQ2T1I3Z2EzN0VvcU1wdDBRbXN6VWFzN0VRV0hCYlZnbGxtNV9lSlFCODhleFc3Rms2NXBOSncyOGZUMTZCbW9zMTdxMWtIY2RV?oc=5",
-      "date": "Wed, 09 Sep 2026 03:25:57 GMT",
-      "source": "Creative Community for Peace",
       "confidence": "high"
     }
   ]
