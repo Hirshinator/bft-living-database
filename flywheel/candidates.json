@@ -1,20 +1,7 @@
 {
-  "generated": "2026-09-25 17:46 UTC",
-  "count": 7,
+  "generated": "2026-09-26 16:52 UTC",
+  "count": 6,
   "candidates": [
-    {
-      "name": "Chico Muya",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "They LIED To Me About Palestine | Chico Muya",
-          "date": "2026-09-22",
-          "link": "https://www.youtube.com/shorts/qoOyiVr_xp4"
-        }
-      ]
-    },
     {
       "name": "Col. Macgregor",
       "orientation": "hostile",
@@ -25,6 +12,19 @@
           "title": "US Armed Forces Preparing For LAND INVASION Of Iran! – Col. Macgregor",
           "date": "2026-09-25",
           "link": "https://www.youtube.com/watch?v=ZDp5Iupu0UQ"
+        }
+      ]
+    },
+    {
+      "name": "Elica Lebon",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "They Walked OUT on Israel. NOT on Iran? | Elica Lebon",
+          "date": "2026-09-25",
+          "link": "https://www.youtube.com/shorts/bDY0UyvWOs8"
         }
       ]
     },
@@ -77,19 +77,6 @@
           "title": "“Trump’s UN Nuclear Threat Should Be Taken Seriously!” – Says Col. Macgregor",
           "date": "2026-09-24",
           "link": "https://www.youtube.com/watch?v=A7jB1eDwPSA"
-        }
-      ]
-    },
-    {
-      "name": "Yuval David",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Who PROFITS From Anti-Israel Hate? | Yuval David",
-          "date": "2026-09-22",
-          "link": "https://www.youtube.com/watch?v=YLxMucGGVew"
         }
       ]
     }

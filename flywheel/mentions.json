@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-25 17:50 UTC",
+  "generated": "2026-09-26 16:56 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 820,
+  "cursor": 1070,
   "count": 120,
   "mentions": [
     {
@@ -222,6 +222,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Mike Johnson",
+      "stance": "",
+      "title": "Mike Johnson on Elections, Fuel Prices & Iran Policy - KTALnews.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdm05cW8zNk1lemQtaXNrc1J4WVhLWGl6UjFDTzZiS2JITWJ5NHgxaVZ1MERoSnZiMzRSMHRheF9remZJR2gtMEd2UWxfMG1yX3J2bDJLeHJ5Zk9oazRwTXNRa2hMemppeGtkV3dFLW1GU0ZOekFIY3REcUtOeDVITDJ6REdOXzN6LUd0b1JubG9Nb21R?oc=5",
+      "date": "Wed, 23 Sep 2026 23:18:27 GMT",
+      "source": "KTALnews.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Daily Wire",
       "stance": "",
       "title": "Israeli Ambassador’s Son ‘Fighting For His Life’ After Palestinian Terrorist Ramming - The Daily Wire",
@@ -237,6 +246,15 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2NaZ2xvWlBISU1BTDh5MlJzZlJDaTNfNG1FbEJGWjZfMU1fT3hYVm1fSVoxVkVuMGRDSXYzZWdvV3hpRlBLbGJzY0dVU2hPdTFMSXhxMEIwSTBOZkQ2ZzVQSVZrWEkxR0FPVlNxVFNGeVd0UG5HNG1NdTlLU2hqZTdHbUVsT0JPdFBvQXNZdVZSRDVTdGFkamdQc2V5UUdJdVZwOVdseGlTZEZ3RGFSVm9YWUJGeGZYMzVfUEMyc1B6Z1NCcEE?oc=5",
       "date": "Wed, 23 Sep 2026 21:51:27 GMT",
       "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Johnson",
+      "stance": "",
+      "title": "Johnson calls for ‘resolution’ of Iran war - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXZvbHJlMEo3aWpRSjBjeXVQVmFMcm1nanFmV2JTLXp0N2g3bGsybzlIQ0JJeWoyTUtHZEZUbUVKMmFLal9VWGtuYUhrWFJBU2tTMl9NTGpETThxeC1CLWIzSENqRFFELUJ3c2ZiUEl4RkZHT05LSHh5eDFQbTk2a3VB0gGHAUFVX3lxTE1hWng1WWN4TVJLRnp4bHFtLTI0cGxYXzl6Y01waWoyN1NUYnZCTW9LMEVaMEtpNXZoVWxHZFNxcUFXS0ZwUXhZUnJkS3V1SWxZaTBpXzN3Ql9zUXVwU1YzblR5TUxsOWxSZGMtSnFvRlIzNjdyNVNDNXRuRXdaai13V3F5RF9Kbw?oc=5",
+      "date": "Wed, 23 Sep 2026 21:23:00 GMT",
+      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -285,6 +303,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Ruben Gallego",
+      "stance": "",
+      "title": "Sen. Ruben Gallego: Trump needs to ‘humble himself’ on Iran - Modern Ghana",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TOWc4LVFrZVN5Wm05SkFPNS1YOFZ3dGw3SFJIZ2RDSGU0RjZXaGkyQVJXeWxELUh6ZFBwb3pZN2lHbFp0QVMyZkVYd192QWFRV2l4ckE4akN1cHQ2ZC1B0gFcQVVfeXFMT3FWWmJZT3UyVWg5UGtOeVVkZFdobVF3Ni0xWnBPbGlIVEVoeFVrT3lfVDZ3WlFLQlRjUE42RHpkNVhlejJhLUFCYm5mLTM0RDVocDViQnVnM0RZdUw?oc=5",
+      "date": "Wed, 23 Sep 2026 16:13:36 GMT",
+      "source": "Modern Ghana",
+      "confidence": "high"
+    },
+    {
+      "entity": "Scott Galloway",
+      "stance": "",
+      "title": "‘Disqualifying’: Scott Galloway Pushes El-Sayed Hard On Using Gaza ‘Genocide’ Label - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcGZuMkdhaEhpc004b05pdmVwRHFLYjU1QW9YVzYyNWpyQm1ST2wtUUwwUnE5bGFHQldQN3o1a0ZFeGNiOEYtLTNzb0I1LUo0WlFmLTd6UVBqV1VUZWZ4d3prTzBMMVY2YXBWOF9nemFSMVdvRmV5aWVJb0ZfR0Q5SlZhZVhQY0x5aXJSLXJUU0xia0VSb1ZkX1F5b2RJVjg?oc=5",
+      "date": "Wed, 23 Sep 2026 15:55:46 GMT",
+      "source": "Yahoo",
+      "confidence": "high"
+    },
+    {
       "entity": "Mark Kelly",
       "stance": "",
       "title": "Arizona Senator Mark Kelly weighs in on war in Iran and rising fuel costs here at home - ABC15 Arizona",
@@ -330,6 +366,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Rick Scott",
+      "stance": "",
+      "title": "Sen. Rick Scott (R-FL) Speaks to Reporters on Iran War - C-SPAN",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQnBWZDhpcnVCdHJsUUlzX1liMlprNFhGSWppYzNQamtfNTVpSTBoZ01yUnVBeUw3WnNqczhya1JGa2JFanRDelk2akJXczliMkRsZWxoMGRZOUpiaGt2RmIwZ18yVFhGY3M2d2JvQkZ6eTI2cXhLcjZ4WVpxbEtseTBJVFI4TWtuUnlINzJuYmNocFd3STF5NmdHSmhXSEhXYjhoNGJjV1A?oc=5",
+      "date": "Wed, 23 Sep 2026 13:33:56 GMT",
+      "source": "C-SPAN",
+      "confidence": "high"
+    },
+    {
       "entity": "Mark Kelly",
       "stance": "",
       "title": "Sen. Mark Kelly (D-AZ) Speaks to Reporters on Iran War - C-SPAN",
@@ -357,6 +402,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Michael Rapaport",
+      "stance": "",
+      "title": "Koby Mandell Foundation celebrates 25 years with Michael Rapaport - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUUhsSldkNEtVb0FIX2FJQ0w0eUoxcWNrSzdibmkwbWcxbEpZcGFxbUlrc3BSdllxOEQ2Z1FQZ3ZYNld6ZU5HZnlCMnNrdnlLa05TX1FZSEo4bC1IMEFWZHJVTjVrYjVnSllQdjA4MHF2NFZ4TlpQWldEMXJsSEtaWXV2a25ENEhLUjRLeEVpbVZnakF5VklBa2tzUUpUdDdpcXlXUVBHVll1d9IBrwFBVV95cUxQS1FaSWg0RlczdXNEaEpUZGJkTUhJTkdOUTF6YTVSczBseWtXUlRXS0NWVndhbllwc0F6OFBJMWVtNXhOQW51SGMyWWRPeVJBSno5OHJqMUwyd2NsTElfdHRCYks1S0pZbEN3VzVBSkxzeTdobHNUcExaS2xaaDd3cnJyRzdwT2VRTEItV2NkUFZZMGZZb2tBcXpxeU44ODZTRDhBUHdlNGNWVjVkT2U4?oc=5",
+      "date": "Wed, 23 Sep 2026 10:46:13 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
       "entity": "All Israel News",
       "stance": "",
       "title": "Trump sidesteps Israel at UN while Jordan, Turkey go on the attack - All Israel News",
@@ -372,6 +426,15 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wcnBVaHVDWk1tZGQxaGtfMFJfaVEyTmlHYmtEWEVqQVB5SUVqa29OU2E1MjFVYllnWTJreTQ4eFhXNFNoMHhkUXQ4dWdEUFFDWHMzRDk2azhJRkgzajBfOTI5SFViblE?oc=5",
       "date": "Wed, 23 Sep 2026 06:54:51 GMT",
       "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Scott Jennings",
+      "stance": "",
+      "title": "Scott Jennings Admits He’s Had ‘Doubts’ About Trump’s Ability To Make Iran Deal - aol.com",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcjczZ2ZKOUFvek1qbWQxcXdoU2ZnNFlrU05HNFJfT0xjY0pxNmU1elgybEtSSzJXVzR2SkZMc1BrdTZMd09VUTBMWXZJOVdOZHZkeGxDT0N2clZqWExFbHpJb183VlNweDMtRUVqNHoxQ1lFVm9BMUxnb21ibE9YR1FR?oc=5",
+      "date": "Wed, 23 Sep 2026 02:59:00 GMT",
+      "source": "aol.com",
       "confidence": "high"
     },
     {
@@ -708,15 +771,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Steve Daines",
-      "stance": "",
-      "title": "Steve Daines weighs in on U.S.-Iran war and China's AI tech - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wcXh2eW5NQ214R0tDTEVzQ2RGSVdlLWxQR2lLaGtNQmFWaktvczVuc3NkZmVtWkdxVkNyV01iQkxBNVE3cVpfRlRFdjgzYktnVW5PdDJn?oc=5",
-      "date": "Wed, 16 Sep 2026 14:40:38 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
       "entity": "Wesley Hunt",
       "stance": "",
       "title": "Trump picks anti-Islam, pro-Israel Republican Wesley Hunt as next ambassador to Saudi Arabia - Middle East Eye",
@@ -795,6 +849,24 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWUydlVvN0cwZ2FLLUdpaW9BaENjamFTR3JmMTdvRXlicWZIRF9aY2NQcjZOa0xWZFdEaDVKUlVmZjdhOHRkSWVKTy00S3RGVi1Sa0lqM3ZyQ05yemoyVlpTR1NMTHZLVFQwNDRxaDZKOTQwVDJ3VnpiblNNTmdxQ1ZQNExiRXljOXJIa2M5M1pXUGt6STBjN3pKQjYwMnU5UG1ubk1B?oc=5",
       "date": "Wed, 16 Sep 2026 08:37:58 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Michael Waltz",
+      "stance": "",
+      "title": "UN Ambassador Michael Waltz announces deal between Israel and Morocco deepening diplomatic ties - New York Post",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRXA2VWZuTEpQZ2RjV1ExaC1rWWRfUUxibm1weWlpQU9vMlRWVmJ2OVhHeUM2M21RbTItVTBsc2k1Uzd4dF9TVGcxRVN6OXVOVWpYYmpCWE5zU2hqNHpHWGhoWXlDNk1YOENPeDdEaV9QZW00ZWp4R1Jjb3prazFiZVNxUGdrTHpxaVVzdjdMWHk0RFRfcFZ0Tm0zZ2R3Zy0zd1FXdEJUMXcyOXlmYVBqUnM3NERlbGExQks2QWhLV01TdHBkSDdiZjlpR054bjQ?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "New York Post",
+      "confidence": "high"
+    },
+    {
+      "entity": "Steve Daines",
+      "stance": "",
+      "title": "Steve Daines weighs in on U.S.-Iran war and China's AI tech - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wcXh2eW5NQ214R0tDTEVzQ2RGSVdlLWxQR2lLaGtNQmFWaktvczVuc3NkZmVtWkdxVkNyV01iQkxBNVE3cVpfRlRFdjgzYktnVW5PdDJn?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "Fox News",
       "confidence": "high"
     },
     {
@@ -1005,84 +1077,12 @@
       "confidence": "high"
     },
     {
-      "entity": "Michael Rapaport",
-      "stance": "",
-      "title": "Michael Rapaport tells Craig Carton that his support for Israel has cost him work in Hollywood - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVmtpNTE2blhGNF9EaTJNMk9Qak4wLWJHYVhkUEN0TUNiZ2stQm9aUVRRelV0ZjR0U0RYRGFkNVZwd3RRUGRYd3BBb3BaRTd1c2czNS1wcEFiNkZCR3hjdEdGY0xleE1qaWlsSHprZ0NIUk1idTBJUEFUd2dtSjUwTlpzZ2VkTVdkWld6UUJYN1dxQW15bG5BS3FhZVhhNFZ0V3M4NzhFWWtQSVo2SEpLS04yaGQ?oc=5",
-      "date": "Wed, 09 Sep 2026 10:17:33 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
       "entity": "Jerry Seinfeld",
       "stance": "",
       "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24news.tv",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZktwUG04VDVUU2NhckxJMHVfM29JSG5MbG01Q1RMSUJydUpySEF6SDRiaEFQSHdMWXlURGNuaXdhcTkwRGV0UTRtdks2OW9na0FWWV9kZHJnUzB6R3p6QkdHX0xPWmlnYkx1blhQY2lvVHQtNjhzQzViTWRmeVFZcDFuRjVrdy1BRU9vcEY2WWZuT0F5dEZwYVRValRsOGtqVlFJZDNhT2dyajdVcVhEMWwzSno0ekdOelZJWGtTcnhrc1A4eDdN?oc=5",
       "date": "Wed, 09 Sep 2026 09:26:00 GMT",
       "source": "i24news.tv",
-      "confidence": "high"
-    },
-    {
-      "entity": "The Dispatch",
-      "stance": "",
-      "title": "Iran's Judiciary Head Cancels Visit Amid Troop Dispatch Review - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUZscVFTODlDZWZRZ1cwc2piUVo2U0hEZlRnblI4VHNDMl9WMHBRQ3pkT0J3TUtjV3RkWWNXUzd4R2FuVkh2enRuQnhLQUlXWmRuOWFWS3FfVEdTTTN6NVNXdnZIaS1NdzJqWlh1YVF0UEpmTHBETDBsWElMTHM2eWprNDlYcFdp?oc=5",
-      "date": "Wed, 09 Sep 2026 08:35:01 GMT",
-      "source": "조선일보",
-      "confidence": "high"
-    },
-    {
-      "entity": "All Israel News",
-      "stance": "",
-      "title": "Will a major war take place during the upcoming Jewish holidays? - All Israel News",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb2k5bGRsMnI3UjFYMFpxS0RsUW45bUdkc3FIYlBLV1dLMkMtTTBuN2l4UDBiU1haRjBpakdaa2hSX0wzcnB4UDlzWE9BaHNZdW81cFR2VzFlaFhvZUYzU1NRSVU5Q3ZBT0wwQkFmc1NsZ1dOMmFiN1pBbzhtSDBpMmFua0FTR2lndFd2WDdlMVo4dkNsSHMxdzJ3?oc=5",
-      "date": "Wed, 09 Sep 2026 07:23:03 GMT",
-      "source": "All Israel News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Israel Englander",
-      "stance": "neutral",
-      "title": "Billionaire Israel Englander Is Doubling Down on These 2 Outstanding Dividend Stocks. Should You? - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYVZNNmc3TWREeFZLTktfRzhyWVdFR0huSFhxR2kwT0tfdGJfcGk0MVBvM24xd2QyZTl0WTFJUHFEYUpaa0JWNlRvV1JyckUxOEJqb1duYWM3WjBFeXNtdDVtZmN2M0tvckFnZUhkRkoyOW9TOGU1MXliMExxeUxFMm5pMEFmQXNZa2o0bUpER29yZDNVRjUxZFdIbjFaSWNZQW5mSGRMd1NkbmRxUmtGR3VSd3UzaF9iTzFlX2pYT3lDVVctZWhMZ3NaRFFPT2U2eWd3bg?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "The Motley Fool",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jerry Seinfeld",
-      "stance": "",
-      "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZktwUG04VDVUU2NhckxJMHVfM29JSG5MbG01Q1RMSUJydUpySEF6SDRiaEFQSHdMWXlURGNuaXdhcTkwRGV0UTRtdks2OW9na0FWWV9kZHJnUzB6R3p6QkdHX0xPWmlnYkx1blhQY2lvVHQtNjhzQzViTWRmeVFZcDFuRjVrdy1BRU9vcEY2WWZuT0F5dEZwYVRValRsOGtqVlFJZDNhT2dyajdVcVhEMWwzSno0ekdOelZJWGtTcnhrc1A4eDdN?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "i24NEWS",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jerry Seinfeld",
-      "stance": "",
-      "title": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’ - Combat Antisemitism Movement",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1FsTFp5Y0lCbmdKZmFyVXpBS25xcnlWWVpsOHMtcXZweVZkbEtVOXZCUDM2WEhYUWRuQkdpMXUzNHk4bDlIdmR1NE5ZekVNcG5zWnFOWWhOcW1wUk4zQ04wTDMteC1fWlVjX2d4QWZkanRnZ3cyWU9OWHJhaHphSmFXTzYzSDNEbDZkRVI3QUdpcEFCbHhIMXJDT2liandJRExwYXpGWWUtSmNtT2hITUdBenZ3YlRFdkV6T05uN3pYRVVGMkE?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "Combat Antisemitism Movement",
-      "confidence": "high"
-    },
-    {
-      "entity": "Claudia Tenney",
-      "stance": "",
-      "title": "Press Release: Claudia Tenney Urges Treasury Review of UK Israel Trade Restrictions - Quiver Quantitative",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNVhlaE0zYkVNQXhvZXE0SzJHc2Y0TU5NRERKWmgxeEtScFJKMjNJbWxRQVZfRm91eWhmbDJ4NnZXYnRuajctZ1liWTNaUWdIWHd3YnF1OTdySUo5N0NwOU1WWHd3a0w1TGtMekFxUE4zTDk3Y3pTbjJGWUpWQklCeTRPRWZnUU5nNFNOWWVUR3ZQR2UxcWkxNlJGN2JCcVlIa2E0SVpwcFFmRjhidWRVbnY3UDFseDdBX2c?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "Quiver Quantitative",
-      "confidence": "high"
-    },
-    {
-      "entity": "Creative Community for Peace",
-      "stance": "",
-      "title": "More Than 6,000 Leaders Across Entertainment, Academia and Public Life Unite to Reject “Genocide” Accusation Against Israel - creativecommunityforpeace.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByZkg2WlV5SzI5dlVSUnRpQTN6SkJJZ2R4VmdheFk3Sk5pYl8wLTQ2T1I3Z2EzN0VvcU1wdDBRbXN6VWFzN0VRV0hCYlZnbGxtNV9lSlFCODhleFc3Rms2NXBOSncyOGZUMTZCbW9zMTdxMWtIY2RV?oc=5",
-      "date": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "creativecommunityforpeace.com",
       "confidence": "high"
     }
   ]
