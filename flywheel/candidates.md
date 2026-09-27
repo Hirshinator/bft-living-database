@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-09-26 16:52 UTC
+# Flywheel candidates — 2026-09-27 17:31 UTC
 
-6 new candidate(s) surfaced from monitored channels, not yet in the database.
+8 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Col. Macgregor — candidate HOSTILE / check orientation (boosted by a hostile channel)
@@ -15,8 +15,14 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Judd Dunning — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Can You Be America First AND Pro Israel? | Judd Dunning* (2026-09-24) — https://www.youtube.com/watch?v=rkQ2WevWJjo
 
+### Mubin Shaikh — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *He Was a Jihadist. Then EVERYTHING Changed | Mubin Shaikh* (2026-09-27) — https://www.youtube.com/watch?v=VZwH_DSMNqY
+
 ### Pastor Greg Locke — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *“If You’re Silent NOW, You Would’ve Been Silent Then” | Pastor Greg Locke* (2026-09-24) — https://www.youtube.com/shorts/cQUGL9VQziY
 
 ### Says Col. Macgregor — candidate HOSTILE / check orientation (boosted by a hostile channel)
 - [The Jimmy Dore Show] *“Trump’s UN Nuclear Threat Should Be Taken Seriously!” – Says Col. Macgregor* (2026-09-24) — https://www.youtube.com/watch?v=A7jB1eDwPSA
+
+### The Room Empties — candidate HOSTILE / check orientation (boosted by a hostile channel)
+- [The Jimmy Dore Show] *Netanyahu Takes The UN Podium — The Room Empties* (2026-09-26) — https://www.youtube.com/watch?v=Kw8ZpgioX8w

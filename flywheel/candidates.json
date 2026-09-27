@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26 16:52 UTC",
-  "count": 6,
+  "generated": "2026-09-27 17:31 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Col. Macgregor",
@@ -55,6 +55,19 @@
       ]
     },
     {
+      "name": "Mubin Shaikh",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Was a Jihadist. Then EVERYTHING Changed | Mubin Shaikh",
+          "date": "2026-09-27",
+          "link": "https://www.youtube.com/watch?v=VZwH_DSMNqY"
+        }
+      ]
+    },
+    {
       "name": "Pastor Greg Locke",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -77,6 +90,19 @@
           "title": "“Trump’s UN Nuclear Threat Should Be Taken Seriously!” – Says Col. Macgregor",
           "date": "2026-09-24",
           "link": "https://www.youtube.com/watch?v=A7jB1eDwPSA"
+        }
+      ]
+    },
+    {
+      "name": "The Room Empties",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "Netanyahu Takes The UN Podium — The Room Empties",
+          "date": "2026-09-26",
+          "link": "https://www.youtube.com/watch?v=Kw8ZpgioX8w"
         }
       ]
     }

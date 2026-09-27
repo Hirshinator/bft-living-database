@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-26 16:56 UTC",
+  "generated": "2026-09-27 17:35 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 1070,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -231,6 +231,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Yoseph Haddad",
+      "stance": "",
+      "title": "Yoseph Haddad Outlines Plan To Overhaul Israel’s Public Diplomacy - i24NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNelNpSDk1SjNvSnFIOFhCRnpVaXAzVXhoQnB2dlJ6N3U4TnFhQlpacVVNOVNsaHpTWFhFOEdDQ1FScDhfX21rNkZ2YXZjVkYyakFJRXY5eklzZUR1WnMtZ0ZtbGlYekNiTFNrOXVqem5Xc29iZjR6UVlraTduVkI3TE5OVHdOMW9KQkFMMk1LdGFNR05HLVQzZG5fUWUyQmpuQ29DdVVZLXF2ejRBR1Nyd25RWEVXUGFoZXAzX2piWnVPUQ?oc=5",
+      "date": "Wed, 23 Sep 2026 22:31:49 GMT",
+      "source": "i24NEWS",
+      "confidence": "high"
+    },
+    {
       "entity": "Daily Wire",
       "stance": "",
       "title": "Israeli Ambassador’s Son ‘Fighting For His Life’ After Palestinian Terrorist Ramming - The Daily Wire",
@@ -254,6 +263,15 @@
       "title": "Johnson calls for ‘resolution’ of Iran war - The Hill",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXZvbHJlMEo3aWpRSjBjeXVQVmFMcm1nanFmV2JTLXp0N2g3bGsybzlIQ0JJeWoyTUtHZEZUbUVKMmFLal9VWGtuYUhrWFJBU2tTMl9NTGpETThxeC1CLWIzSENqRFFELUJ3c2ZiUEl4RkZHT05LSHh5eDFQbTk2a3VB0gGHAUFVX3lxTE1hWng1WWN4TVJLRnp4bHFtLTI0cGxYXzl6Y01waWoyN1NUYnZCTW9LMEVaMEtpNXZoVWxHZFNxcUFXS0ZwUXhZUnJkS3V1SWxZaTBpXzN3Ql9zUXVwU1YzblR5TUxsOWxSZGMtSnFvRlIzNjdyNVNDNXRuRXdaai13V3F5RF9Kbw?oc=5",
       "date": "Wed, 23 Sep 2026 21:23:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tim Kaine",
+      "stance": "",
+      "title": "Kaine calls Iran war ‘triply illegal,’ says it should ‘end immediately’ - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PUUIwbHR4RzNENjJCV0Q5UEM4elVycFFmamVKcjdhaE96ZDg1V240ZUNBN1J2c2lhZm42c2xKSDlXc1dvWDlqMFRwV3pZVkxFejdsaUgwZWJCdXkwdV9mRWh4dG5oT1BKXzhwWEVpTTBjOW92VjZILdIBfkFVX3lxTFA1TDFNRkNjR050bDE2WXlkc0EwTzU4bElpaWFWWkFSYzJhWVBFV2tQZlljNE5GcUZmWUxHY3hhbzRGR21VSHhiZVloNGVEd1ROZDUwalRQdU02RFlDNWc5NTFBYm83bmVyd3NvOEY2UDBuSDlBUHFJMXhKTWFGZw?oc=5",
+      "date": "Wed, 23 Sep 2026 20:45:00 GMT",
       "source": "The Hill",
       "confidence": "high"
     },
@@ -321,6 +339,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Tim Kaine",
+      "stance": "",
+      "title": "Sen. Tim Kaine (D-VA) Speaks to Reporters on Iran War - C-SPAN",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYUZnenNTdGE4a3QxdG85a3dkMGZCaTNMR1plQVFSRGlCMTFQV0kwUnI1dXhOMTh0R0I3Vi1PTE5mTEp2QkVyMWwwQVFUTVgtbVhFRVFFQy1lNFBJT0N6RFVCSWNlMnlha2dvRkJHbWFnVUhZS2t1OGtLMnBhdjlzaE02V2tqMTlOX0pZeV9SYzdwS0hMV1ZEYXhJOXZ3SGVIQmhNN183QQ?oc=5",
+      "date": "Wed, 23 Sep 2026 15:16:44 GMT",
+      "source": "C-SPAN",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tim Sheehy",
+      "stance": "",
+      "title": "Sen. Tim Sheehy (R-MT) Speaks to Reporters on Iran War - C-SPAN",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdlNLMnpCZFNkbXFHRUdQbnlyd0F5d3BESHlqRmM4d0JWWmNMdkZibDRpUXVoM01xT1lkVFE4ODBxb3cycGFXa0JtR040dnRzLVplQnFPZElwVFpOZy1jVnVKNlMwTlpyQXpULVFGeUk0R0F3ZTliMmVxSkEtMHFZSlJZUWYtSU5ETzE5amFWbWx0b29ZNTVCS1pWdFlWZnJkNV93VU5YcHM?oc=5",
+      "date": "Wed, 23 Sep 2026 14:43:44 GMT",
+      "source": "C-SPAN",
+      "confidence": "high"
+    },
+    {
       "entity": "Mark Kelly",
       "stance": "",
       "title": "Arizona Senator Mark Kelly weighs in on war in Iran and rising fuel costs here at home - ABC15 Arizona",
@@ -384,12 +420,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Tommy Tuberville",
+      "stance": "",
+      "title": "Fuel costs, Iran and shrimp boats: Doug Jones and Tommy Tuberville sharpen campaign contrast - AL.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZHp2LWI2Yk1EUHJMM2pJWXJjU3pyYmlRSkF6VFh4b2ZocnV0X2hUQmVkTXFBVzFVaUpBOXlLaDFGZl9MMnZ4QjdZUmJuX0ZiQTMyMUVrOFI2VWlyQjFONllqTlAyVlAycGVSbkoxcExFUnJSOFVWckcyLWhrWE9HVlB1OTVBb1NkbU14UzBPT18yc3Bhc0dkTkN1Y1NTOEJuNHdiVGh6M2w0b2ZiSkxpNGdFTGJ6dnJqdlJFdzhoSUZ3YVlIR3fSAdoBQVVfeXFMTjRWQVkzSk85NmdZcFB1S1FQNlQtNEF1ZG5PRlJDU0dFV3VSZlZwVFpmdi00ZkZ0VGlzQlNIZThTV1dJdHlBR3FWY0pJcW1WY2RoUERRQ0cyM3M3d3oybmhPX3E5RVhsOTN3Z0dlSHNTRm9xVmNVQWtpWE5BSzBIVUFCa290djRpTXF1OFF0MFZBa0wzd1NkcmtPR2t0RmlKb0VhSTV1Q3NBOHhpTWFWYldCRzNabzd5QlRBcGo4cjNHNkJSdVd2WTN1eEVwcVVIZjlEVlFSd0czMUE?oc=5",
+      "date": "Wed, 23 Sep 2026 12:13:00 GMT",
+      "source": "AL.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Elizabeth Pipko",
       "stance": "",
       "title": "Elizabeth Pipko reacts to President Trump's UN warnings to Iran - Fox Business",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iQWd5Qk5sTlZyQWZwZHNacG1GUkJ4cEZGd19EX1Nyb1ZhRFZfc3dxTnpxNjBucDZOZWlmNnRpN1lHRHJfV2F3dnJaQkxsc2t1WVZQLWVmOFd1MWM?oc=5",
       "date": "Wed, 23 Sep 2026 12:09:02 GMT",
       "source": "Fox Business",
+      "confidence": "high"
+    },
+    {
+      "entity": "Trita Parsi",
+      "stance": "",
+      "title": "“New Low in U.N. History”: Trita Parsi on Trump’s Threat to Annihilate Iran at General Assembly - Democracy Now!",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92bFJGdE15c0o3WmRncjNRV0h3RkNQYWpDamhQM3dnYkxCT0h4alIwWTQyeGVXTERwdFBFYlVQYTEtWnctRWNYQ2d5ZGlHQy1mczZycFJ2aEkwdWlhbWZOS0hKdU5mUWYwOEJGWnFpdGJSZjNxTGxz?oc=5",
+      "date": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "source": "Democracy Now!",
       "confidence": "high"
     },
     {
@@ -426,6 +480,15 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wcnBVaHVDWk1tZGQxaGtfMFJfaVEyTmlHYmtEWEVqQVB5SUVqa29OU2E1MjFVYllnWTJreTQ4eFhXNFNoMHhkUXQ4dWdEUFFDWHMzRDk2azhJRkgzajBfOTI5SFViblE?oc=5",
       "date": "Wed, 23 Sep 2026 06:54:51 GMT",
       "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "The Dispatch",
+      "stance": "",
+      "title": "The Media’s Weird Obsession With Israel - The Dispatch",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRmdxVUIxdXJJNUItdEFUM0RoNmVudTlkeDdnNjB4aUtEQTFDOGNXdTFuazBSa3MxN0x0X1NxVmowck9pNnRyeFhvcnViNkEyVGQ4NC01cVF0MDZwRmhrQnp3OU9MMEg3YlZ4WXNDaG9IbnNFQ3VJNVR4RkVQaThhSg?oc=5",
+      "date": "Wed, 23 Sep 2026 05:08:07 GMT",
+      "source": "The Dispatch",
       "confidence": "high"
     },
     {
@@ -852,6 +915,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Thomas Massie",
+      "stance": "",
+      "title": "Rep. Thomas Massie moves to impeach Defense Secretary Pete Hegseth over the Iran war - NPR",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSG9ZbWhwZ1VZQU1NZmRVQVVtLVpCd2JIdGVFbEZsdUVHZ2k1N29lVm8zT0h0enpPN3lLb2k4eGVGWERRVDdSLU94LVM2VDdFR2tCREt5UWlyNWtseks3YUJNR1pQX2FLTzcwQVJ2blJ3WWNKMDlXMlBwS3BVWnhHc0NzRHFiSnAyLWJUZXFvZE5Oay1qWmVvNXVwODV2VWRLYzI1VGZzRmU2SmJFcTltRWluM24wVkxxbmNLTzJyaVNTRzNQTWZv?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "NPR",
+      "confidence": "high"
+    },
+    {
+      "entity": "Van Jones",
+      "stance": "",
+      "title": "‘Re/Pair’ Review: David Schwimmer, W. Kamau Bell and Van Jones Lead Pragmatic Doc About the Past and Present of Black-Jewish Relations - hollywoodreporter.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdHpxU0lJRFdwV2pkMXdSbHZFdWpyeWprcjk0eXBaTkh4Q1MzWWxQTDViYnJ5VnZ0eE9BWmRDR1B6MDdlUVRCbkJOMm44QV9xZl9Kck9PZEtqYnR1Q3MtTThkRzlkNmVsb3RJRzAtYXN1MlR5dkFVakxpQk5jbXhYSU11VkZHZFJvaU9ZOVl0aVBQcmtia1ZiaWhpX3AwNEFnUHpjV1gxSFc1MmZtOVlYZ2JzOE45dms?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "hollywoodreporter.com",
+      "confidence": "high"
+    },
+    {
       "entity": "Michael Waltz",
       "stance": "",
       "title": "UN Ambassador Michael Waltz announces deal between Israel and Morocco deepening diplomatic ties - New York Post",
@@ -1002,87 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NVy03aGRFb3lFUWkxM2ZzanN3NWJCTi1YUlpZX3hiRHdaX2Vkam1pUG1VdGg5eTU2TUFZaWhYWlRrbFRTTFI5TEZna0dXQjZTVW9yVG11dS1LWDZnclJRZUViMlVxbU5nTUdqcldSWUNPYks3TzlHS2dKUErSAYIBQVVfeXFMTmtDaHFtQnY1U2t0N3B6N0tUbFY4bDJyeUpQZTFNTkNaQVh4V2dJYlJERTRhMXd1c1BrcVh6Ukh6MHNfTjhkOEpteVZSWVN5MzZFaUVMYmpCaXNCdlZvZG9uTXNUYUdRN25uZzBoR1F0QWRIUnNybXRBb1NIbGN4ZTI0QQ?oc=5",
       "date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "source": "Atlanta Jewish Times",
-      "confidence": "high"
-    },
-    {
-      "entity": "Brian Kilmeade",
-      "stance": "",
-      "title": "Kilmeade predicts ‘kinetic war’ with Iran before Labor Day - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zMlVGMXJQY05YSlUwRFZEbTY2OEJCQ0hVMG9sTDBGMmRJc0h4SXZwSUxqN0lVN0JEdlBQSG5Id3hIVVpxelBIWWx1cDFZOVp3dDZGN2g4a3R0Sk9oY1hTd3libUFoa1J5VXJxZGVEdUpFV0ZwOXpUZjRR0gF_QVVfeXFMTTFiNnVELVRhNG81RTFKMTBFTm0wdzZEODk4cnd2SlBoRzdabWljVkktWm1RUVBCVXhsN3JCRENXNkFaMVR5cERMbkdQSUZwYm40UDlYOU1lV3NyM2gxSDJxZC1BdWJ0X05hNGdtcFVydW5IOVlQUWFoQnlfOFJUMA?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Amy Klobuchar",
-      "stance": "",
-      "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "The Times of India",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tim Scott",
-      "stance": "",
-      "title": "Tim Scott goes scorched earth on El-Sayed: 'He's for Hamas, but he's against America' - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ1NhdTU3RDh4V0VCc3BETmNoeVZoS3l6ek1kckFsdjhMb1pOMzFQRlB2a1pRd0hnalBUQTJTckExT1VVM2tjR0Z0V0JmMjRUemphU2swTXhhZ3ZIQWR6T3FqSG1WZzlYUXY0dS00ZFdwR2dDemRPcWdiZWRON05tRHRyVWZIQWRhM1RrQUFMRlhmTkl0V21mZDN4bk56UUpxLWFn0gGoAUFVX3lxTE1lMFpnSE53UEdjU0FFR2ltQ2d1NEhnSFhFam9oaEU5alhIc2ZNRTNyU0E5UUhYZ1V3bHJyX2Y5TEdmMVk1SmcxR0xzX25jNXViXzJTdUY5VEdSMzhtd3ZpMTFGU1JtcU90dG9wYVV4bEJXWDJKX3UtODNKemRhbEVsSUdpQzZnWUZlZDJKYXdUVFZ1M1FvcHAzX1BfRTdXWjRuV3RnamVYdQ?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Lindell",
-      "stance": "",
-      "title": "'LIAR TRUMP...': Amy Klobuchar’s SHOCK Iran Attack After Minnesota Win; Mike Lindell Dragged In - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQUJ6ZHlPOWFfeXBTQVo4S0F5aDhLVDJmZURueDlyc2ZvWnFPbE52bFNKQlE5NWx3dDJ5X09mZ2QzNFNjbHBBcVBRX2l1V3VaSFc2Tjl3bXg2T09Obkc4RG9nMGtndnZzakJaSGFXc0gyb2hPLTYxemJKTXNhTVFIWDY2UjRZY09ucEdIaXUtTGdnanJYNnNHLUQ4bG1kQXZMb0hCLURLb21pMGItRXN2aFFJcUgxbW45Z25rbTlCdVFuT2V3eVVGa1V0d3g0SzBtQ095czZES3p1R2xKOXd1dXNlNUFuM21zOEZrbWphZzUyYk1TV0Q4OUFlSjnSAYICQVVfeXFMUHlFRXlRYXpONG5hWHFnbDJkeUVxYy1tUHZxS29kelBpdk85SGdiNV9wRGc2THE5ZFlOUC1IblN4eF9SenZPT19GYlhka2pyU3k0bUxqTTF4UG5keDBtQkJNSnJpYVVKSTM3Y0l3aTlUMnJhOUNVQ0x1SnJ5NG1TQ3lUSFdfcUh3UGdaejV1V2k1aGUyZVQteTFTaTJoM1ppNHRDY3NIZWZrRmd6MkFOTGt1UjRmdWF3UWpLS1NDTlZBd2g4VjlUejJLZ19weUthNno0Ni1hN3I1MW8wWUJPUE4xM01CTDNpT05mZE4waHNjZnNZdlNtczFrOVoyMDJmNXNn?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "The Times of India",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bill Hagerty",
-      "stance": "",
-      "title": "Watch Senator Bill Hagerty slams European allies over trade restrictions on Israel - Varney & Company - FOX One",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUk9lczZLVElkaHA2NndXWXY5cFBhQ2pFdm50aGNHcmhtSXBTbk9Rd1MtRDk1ZVRnak9LR2xwTnh5S0RQQ3BDVVN0d2tBZU5NR3JIOXg3ZE5qOUxzcEd6NTVNNmFEUEtXMVhBV0RkcWM5ekxyTzFFMExkTm9zMmQ0NHZLamZ5TExlQzBGOGhHSXZFRzNxSkdiZm42eHdBcDdsQzlNdDZqZk1vdWQzOXN3eEtGVVdhTFJXUmprNVpGM3o0YmVWbUNn?oc=5",
-      "date": "Wed, 09 Sep 2026 22:29:47 GMT",
-      "source": "FOX One",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ted Cruz",
-      "stance": "",
-      "title": "Sen. Ted Cruz on 'military conflict' with Iran - KCENTV.com",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRVJKbjZmNXZzV1NqU29PeVBPUExUV3U2b1h3dFlKVHg2TXc0U0lqaVI0bGVaeE5UdlBDaTV1bk1BRUhJWU1Ta2RXRF9nMWxEaUhiLVBCUXYzVUVmZmF6d2FENzNtRDZkQ0tJeThmX1BXcWlCSDctZ3dRcndLczExaUJHSVVHajVudWZkZjhWTDg1RnVJZGxtS3c5OFZrSGVReFpmSlgzQnV2X0lKWWZmZHpCdV84elBycGlv?oc=5",
-      "date": "Wed, 09 Sep 2026 14:15:00 GMT",
-      "source": "KCENTV.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "Trump’s Pressure Campaign Has Iran Reeling. America Can’t Hesitate Now - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbEtxQzlJaFVsX1c1azYtRUl1d3RkM0tuS1lPUGtCcHRyNzVzU1NNbnVxbUYzQXdaaTlSbjBJbHJUaW03bGM5ZmFXbU5Vakd5WEh5Y2l6LVZVbDBRNWpoUVA5c3ExRFQwcUNzZDBCLUpDUG1yaFdab3pESFRERnNQY0d6M19RVVZ4UnhuUHlRNUVkRzRwaV9ZY25hTkc2VWpYZk9rWFhCVEpHZmtUS2NXRXI2SnV0aXNhUVdtU215RWRhZw?oc=5",
-      "date": "Wed, 09 Sep 2026 12:00:00 GMT",
-      "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "Israel Englander",
-      "stance": "neutral",
-      "title": "Billionaire Israel Englander Is Doubling Down on These 2 Outstanding Dividend Stocks. Should You? - Currently.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVjhqNlhXVElqNHMyVy11b19jTGhRWGlqbGVMMUVBSy16Q054OHd5d1hocDc2aHFuZHN3STZxVDJSdWhBNmhaMFpKMk4taUFMbUtWZHE3NVVub19jZ25vZzdZR1BWSGQtTDhzZ3Y3V1pYY3QydVN4U2ZaUWdRbmx3a1lwbjA2T0NfT01LSjBsNlZXTVc2ZlNqcg?oc=5",
-      "date": "Wed, 09 Sep 2026 10:20:02 GMT",
-      "source": "Currently.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jerry Seinfeld",
-      "stance": "",
-      "title": "Comedians Pull Out Of Lisbon Festival Over Jerry Seinfeld’s Support For Israel - i24news.tv",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZktwUG04VDVUU2NhckxJMHVfM29JSG5MbG01Q1RMSUJydUpySEF6SDRiaEFQSHdMWXlURGNuaXdhcTkwRGV0UTRtdks2OW9na0FWWV9kZHJnUzB6R3p6QkdHX0xPWmlnYkx1blhQY2lvVHQtNjhzQzViTWRmeVFZcDFuRjVrdy1BRU9vcEY2WWZuT0F5dEZwYVRValRsOGtqVlFJZDNhT2dyajdVcVhEMWwzSno0ekdOelZJWGtTcnhrc1A4eDdN?oc=5",
-      "date": "Wed, 09 Sep 2026 09:26:00 GMT",
-      "source": "i24news.tv",
       "confidence": "high"
     }
   ]
