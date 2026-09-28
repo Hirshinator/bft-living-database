@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-27 17:35 UTC",
+  "generated": "2026-09-28 20:04 UTC",
   "monitored_total": 1155,
   "swept_this_run": 250,
-  "cursor": 165,
+  "cursor": 415,
   "count": 120,
   "mentions": [
     {
@@ -312,15 +312,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Babylon Bee",
-      "stance": "",
-      "title": "Ms. Rachel Announces Herbie The Puppet Has Joined Hamas As A Child Soldier - babylonbee.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcTlQM0d2bzlXZmpobnBucGV6dXlxOGpVSzZtTVpZZnlSWG5XNHNQbmtUUlEyNnJDUzZSMlNKU1RGaHJFTDdhc1VMaURJeWVtOTl6dXI1LU5weUJNOTlGWTBIRkJkaEZHSWcwc0RkNjNyb0U4V3Mwb2c1bmRXTVhuaS03V1ZlT0FTZk5uT0lMdTFPeHUyckE3ZjRKTEtFalZIZlBN?oc=5",
-      "date": "Wed, 23 Sep 2026 17:02:05 GMT",
-      "source": "babylonbee.com",
-      "confidence": "high"
-    },
-    {
       "entity": "Ruben Gallego",
       "stance": "",
       "title": "Sen. Ruben Gallego: Trump needs to ‘humble himself’ on Iran - Modern Ghana",
@@ -498,6 +489,15 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcjczZ2ZKOUFvek1qbWQxcXdoU2ZnNFlrU05HNFJfT0xjY0pxNmU1elgybEtSSzJXVzR2SkZMc1BrdTZMd09VUTBMWXZJOVdOZHZkeGxDT0N2clZqWExFbHpJb183VlNweDMtRUVqNHoxQ1lFVm9BMUxnb21ibE9YR1FR?oc=5",
       "date": "Wed, 23 Sep 2026 02:59:00 GMT",
       "source": "aol.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bernie Moreno",
+      "stance": "",
+      "title": "Ohio Sen. Bernie Moreno on Iran conflict: ‘We all want this to end’ - WOSU Public Media",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcjFPbFZtY2NjQlVwQS1QSTgxTk1CcWVVM2RqWTVjdzBJdENsWHBzcjZ3OGN2S2hycUUtaFdjV09QUFJQdC1kNUNpQW5fblFfS2xycERWZG8xYW1VSG92Ukh0TkoyZl81T2IzdXpaTDVYUklkZzdjTGFoc003MWlWQjBocXpJck5EU0hEZWRqeGtFdXFPekFPRUlGbw?oc=5",
+      "date": "Wed, 23 Sep 2026 01:37:00 GMT",
+      "source": "WOSU Public Media",
       "confidence": "high"
     },
     {
@@ -773,6 +773,15 @@
     {
       "entity": "Ben Ferguson",
       "stance": "",
+      "title": "Watch Ben Ferguson calls out artists boycotting tour over Macklemore anti-Israel rant - The Faulkner Focus - fox.com",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUWlMN1BCWmtOeUg1bFZrYjBIb1cwM0ZoTGhmSHVjc3VuTDJ4ZU10ZmFQRGY5MjhMaWFDSnF4S01jdXJmc1NZX0dnVndqVC1rNTdGSlNPbU40TVd4bFBPZGRaX0tzUDd5djFkaV9MSjhzNzlOLTVXVE04Q2ZsN1BUQURSdDhnLXBaQkk1cFBjQVEtVmYzQS02aFNMMUJtSDRuZW53NXB0b3Nod255bmU3T0lHbjBRM19XajFreWZ1aUZIdW9zOS1Dc3ptcw?oc=5",
+      "date": "Wed, 16 Sep 2026 16:53:44 GMT",
+      "source": "fox.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ben Ferguson",
+      "stance": "",
       "title": "Watch Ben Ferguson calls out artists boycotting tour over Macklemore anti-Israel rant - The Faulkner Focus - FOX One",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUWlMN1BCWmtOeUg1bFZrYjBIb1cwM0ZoTGhmSHVjc3VuTDJ4ZU10ZmFQRGY5MjhMaWFDSnF4S01jdXJmc1NZX0dnVndqVC1rNTdGSlNPbU40TVd4bFBPZGRaX0tzUDd5djFkaV9MSjhzNzlOLTVXVE04Q2ZsN1BUQURSdDhnLXBaQkk1cFBjQVEtVmYzQS02aFNMMUJtSDRuZW53NXB0b3Nod255bmU3T0lHbjBRM19XajFreWZ1aUZIdW9zOS1Dc3ptcw?oc=5",
       "date": "Wed, 16 Sep 2026 16:53:44 GMT",
@@ -897,21 +906,30 @@
       "confidence": "high"
     },
     {
-      "entity": "Bill Maher",
-      "stance": "",
-      "title": "Ed Sheeran, Bill Maher, and the People Who Know Everything Except the History - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm1LOGxjTm9Xa3ZXYXlhV05NNDN1V0dGVnJyZm1XMDFtcmplWFZyUnI3TXlrRWZ5THc0YWhFdkd1SUpGT1ZjRWxGdjRPX0FBSDFRaW5hRFI0MklLU0J2ME5LVGFpSndkYUpDWFpNSllTNmFKaWhZcU1LU1RtZ0FLZEF3YTNvODJtZWRDd3pFQlhWdGJjSVVySmxwUV85eV9RMFhIOUw3OWpTSDVO?oc=5",
-      "date": "Wed, 16 Sep 2026 08:46:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
       "entity": "Noa Tishby",
       "stance": "",
       "title": "Fatema Al Harbi on joining Noa Tishby’s campus tour to combat extremism in the Middle East - Jewish Insider",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWUydlVvN0cwZ2FLLUdpaW9BaENjamFTR3JmMTdvRXlicWZIRF9aY2NQcjZOa0xWZFdEaDVKUlVmZjdhOHRkSWVKTy00S3RGVi1Sa0lqM3ZyQ05yemoyVlpTR1NMTHZLVFQwNDRxaDZKOTQwVDJ3VnpiblNNTmdxQ1ZQNExiRXljOXJIa2M5M1pXUGt6STBjN3pKQjYwMnU5UG1ubk1B?oc=5",
       "date": "Wed, 16 Sep 2026 08:37:58 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bill Maher",
+      "stance": "",
+      "title": "Ed Sheeran, Bill Maher, and the People Who Know Everything Except the History - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm1LOGxjTm9Xa3ZXYXlhV05NNDN1V0dGVnJyZm1XMDFtcmplWFZyUnI3TXlrRWZ5THc0YWhFdkd1SUpGT1ZjRWxGdjRPX0FBSDFRaW5hRFI0MklLU0J2ME5LVGFpSndkYUpDWFpNSllTNmFKaWhZcU1LU1RtZ0FLZEF3YTNvODJtZWRDd3pFQlhWdGJjSVVySmxwUV85eV9RMFhIOUw3OWpTSDVO?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bill Maher",
+      "stance": "",
+      "title": "Bill Maher rips Macklemore's Gaza stance, says celebrity 'moral confusion' is fueling antisemitism - New York Post",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVEJDVzIxckNFcC1LRDVTQU9qZjhnQ2JsWDNETl9MamZCQzI3cXVpRzBZRDV2dS10ZzA4MHZ1LXVTTVJVV3RHRmM0YlJTajNTQXFUX1doMUFMaWdCMmxXUV91Wk1DaWNVWC1SOUVfMS11R0hFbF9Fem5tT3hCeG9fSktoY3JkWDBRd3hXTl9RMVlHY0VIRXUxcTlubWFYbVk3QXF3R25mcGNxVjNfakhhOHZmelpNdGwxMm9FMTQ0d21aN0hvNEx5cGpHUQ?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "New York Post",
       "confidence": "high"
     },
     {
@@ -957,15 +975,6 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjJqNkY2czVDN2NNRmlrYy1JMVp0c0JHSWhzb2xHMGZiU0ZXbC1hWXA5RDAwVDlKdnAwTGx4Q3pGWEFYZUVONmZ1aUpvOUtjM2dva09sQkdKeG9QOXEwZnV5QWRESjNfOWRoOG9wY0pkWTlHdlVrSEM2S2tHaVRNZk9LQ3N4QTZFTzZYbmNsS2xZY05TY1FZa2IyVzJjN3BiVTBDd2E4bU5sVUhPUVHSAbMBQVVfeXFMT053UDB6bGZoOU1IUndxQ3NraGZEM0JJNkxQejlNUnRDZTFoRnNla3l3Y1BSTThQVkU4R09jN2FJSTB3YnRVMGloV096dnRpMmpfc2tHaGMyOU55UlVJWUhHM0pZcVBnNUkxYkRWWGNDbFZxQkJ6WkpIRzI4RW1RMm96Uk9wZXhmTGRwb1ZCODhzdlRnX0JCSUxIcVBHQ3pjQ3JzbU5KbXJxS0p4X2Z3cklES3c?oc=5",
       "date": "Wed, 16 Sep 2026 07:00:00 GMT",
       "source": "Al Jazeera",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bill Maher",
-      "stance": "",
-      "title": "Bill Maher rips Macklemore's Gaza stance, says celebrity 'moral confusion' is fueling antisemitism - New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVEJDVzIxckNFcC1LRDVTQU9qZjhnQ2JsWDNETl9MamZCQzI3cXVpRzBZRDV2dS10ZzA4MHZ1LXVTTVJVV3RHRmM0YlJTajNTQXFUX1doMUFMaWdCMmxXUV91Wk1DaWNVWC1SOUVfMS11R0hFbF9Fem5tT3hCeG9fSktoY3JkWDBRd3hXTl9RMVlHY0VIRXUxcTlubWFYbVk3QXF3R25mcGNxVjNfakhhOHZmelpNdGwxMm9FMTQ0d21aN0hvNEx5cGpHUQ?oc=5",
-      "date": "Wed, 16 Sep 2026 06:54:00 GMT",
-      "source": "New York Post",
       "confidence": "high"
     },
     {
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNXlXS01rSHBYMUduNlJPSzVZdEdERWFCWWpFelBNN0VQQ1doTk1mS3JzVlB4Yk82c3V5c01qVXhWOVJYdi1GVGhVcmJuYTVwSEhybEJFV0J0X25EZlprSFFwRHNhZHE5TEl5TTZrSHFhLUQ5R1BLRjhBVF9Tb3NiaWVHUFpCWjE3S2doX3BzR292UkxDd3FWNUtQV3dhR3F5YW1XN2JnTFRpQnpOSVNpdlBKbWh2V1hVZEx3UzNiTUt4Z0R3WF8yQWpzWlZwUHpnaGhEOWZ6bFk2Z0tSM0FJN044bTl6eE85cVE?oc=5",
       "date": "Wed, 12 Aug 2026 10:12:05 GMT",
       "source": "TradingView",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jon Ossoff",
-      "stance": "",
-      "title": "An Open Letter to Senator Jon Ossoff - Atlanta Jewish Times",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NVy03aGRFb3lFUWkxM2ZzanN3NWJCTi1YUlpZX3hiRHdaX2Vkam1pUG1VdGg5eTU2TUFZaWhYWlRrbFRTTFI5TEZna0dXQjZTVW9yVG11dS1LWDZnclJRZUViMlVxbU5nTUdqcldSWUNPYks3TzlHS2dKUErSAYIBQVVfeXFMTmtDaHFtQnY1U2t0N3B6N0tUbFY4bDJyeUpQZTFNTkNaQVh4V2dJYlJERTRhMXd1c1BrcVh6Ukh6MHNfTjhkOEpteVZSWVN5MzZFaUVMYmpCaXNCdlZvZG9uTXNUYUdRN25uZzBoR1F0QWRIUnNybXRBb1NIbGN4ZTI0QQ?oc=5",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "Atlanta Jewish Times",
       "confidence": "high"
     }
   ]

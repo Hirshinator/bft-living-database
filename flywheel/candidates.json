@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27 17:31 UTC",
+  "generated": "2026-09-28 20:00 UTC",
   "count": 8,
   "candidates": [
     {
@@ -29,15 +29,15 @@
       ]
     },
     {
-      "name": "Emmet Hirsch",
+      "name": "Jonathan Cahn",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "What Happened to the JEWS of the Arab World? | Emmet Hirsch",
-          "date": "2026-09-23",
-          "link": "https://www.youtube.com/watch?v=etk4SLmL21Q"
+          "title": "Hours Before October 7, HE PREDICTED an Invasion of Israel | Jonathan Cahn",
+          "date": "2026-09-28",
+          "link": "https://www.youtube.com/watch?v=75QjuLV5rs0"
         }
       ]
     },
@@ -68,6 +68,19 @@
       ]
     },
     {
+      "name": "Mustapha Ezzarghani",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "The Story That Changed EVERYTHING I Believed About Israel | Mustapha Ezzarghani",
+          "date": "2026-09-28",
+          "link": "https://www.youtube.com/watch?v=q4Xj3Cnod0A"
+        }
+      ]
+    },
+    {
       "name": "Pastor Greg Locke",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -77,19 +90,6 @@
           "title": "“If You’re Silent NOW, You Would’ve Been Silent Then” | Pastor Greg Locke",
           "date": "2026-09-24",
           "link": "https://www.youtube.com/shorts/cQUGL9VQziY"
-        }
-      ]
-    },
-    {
-      "name": "Says Col. Macgregor",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "“Trump’s UN Nuclear Threat Should Be Taken Seriously!” – Says Col. Macgregor",
-          "date": "2026-09-24",
-          "link": "https://www.youtube.com/watch?v=A7jB1eDwPSA"
         }
       ]
     },
