@@ -1,20 +1,7 @@
 {
-  "generated": "2026-09-28 20:00 UTC",
-  "count": 8,
+  "generated": "2026-09-29 18:27 UTC",
+  "count": 6,
   "candidates": [
-    {
-      "name": "Col. Macgregor",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "US Armed Forces Preparing For LAND INVASION Of Iran! – Col. Macgregor",
-          "date": "2026-09-25",
-          "link": "https://www.youtube.com/watch?v=ZDp5Iupu0UQ"
-        }
-      ]
-    },
     {
       "name": "Elica Lebon",
       "orientation": "ally",
@@ -42,15 +29,15 @@
       ]
     },
     {
-      "name": "Judd Dunning",
+      "name": "Kamal Saleem",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Can You Be America First AND Pro Israel? | Judd Dunning",
-          "date": "2026-09-24",
-          "link": "https://www.youtube.com/watch?v=rkQ2WevWJjo"
+          "title": "He Was Trained to Destroy Israel. Now He Stands With Israel. | Kamal Saleem",
+          "date": "2026-09-29",
+          "link": "https://www.youtube.com/watch?v=uzwpjt9W868"
         }
       ]
     },
@@ -77,19 +64,6 @@
           "title": "The Story That Changed EVERYTHING I Believed About Israel | Mustapha Ezzarghani",
           "date": "2026-09-28",
           "link": "https://www.youtube.com/watch?v=q4Xj3Cnod0A"
-        }
-      ]
-    },
-    {
-      "name": "Pastor Greg Locke",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "“If You’re Silent NOW, You Would’ve Been Silent Then” | Pastor Greg Locke",
-          "date": "2026-09-24",
-          "link": "https://www.youtube.com/shorts/cQUGL9VQziY"
         }
       ]
     },

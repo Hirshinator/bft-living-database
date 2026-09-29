@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-28 20:04 UTC",
-  "monitored_total": 1155,
+  "generated": "2026-09-29 18:32 UTC",
+  "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -285,6 +285,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Erick Erickson",
+      "stance": "",
+      "title": "S15 EP170: Hour 3 - Iran Squeezed as Diesel Hits a Record - The Erick Erickson Show - iHeart",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVzdyTFlUYTRXdEpVRnpMMUMwZHJnZ0dWRFVDdFJHaWpRSGZtWGtRdWZlaEE3Q0wxVjduemtfdG9yeW1DQ2R2ZmpjMmg2bXJUM2hmb1g2WmFtT3FOdEZyV1cySTBEQzBUU2xubFhKVERvSjlvRXdCaWRCd3VfcXZQQzgtM2dFVHdsMzJjbkdJQU1HMFczV0U3bDZENXd3OEczRVJScDlLVUVab054ekE?oc=5",
+      "date": "Wed, 23 Sep 2026 20:22:25 GMT",
+      "source": "iHeart",
+      "confidence": "high"
+    },
+    {
       "entity": "Chevron",
       "stance": "",
       "title": "Exxon, Chevron Warn of Continued High Fuel Prices From Iran War - EnergyNow.com",
@@ -465,6 +474,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Gal Gadot",
+      "stance": "",
+      "title": "Gal Gadot Donates 'Israeli Nobel' Prize Money to 26 Charities Aiding Israelis - Haaretz",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY0FSbzRPZWVWSGV6TTI1eW5UM21pTm9PX3hGWWU5M0ZYMHNBTUJWX2pNUU5hMkxReVJpN0M3alZ2N19manpIa2FqaGlBRk1kVENRX1RheTNZS1Y1dkhTcUI1ZUl4Vnh4cXJ3cHVRck1iZ2p1Y0FZRzhTekNkSnZNaV9CV3NscWdxTVZOU0U3aEU2M0FsbWE3RE05aHMzSjIxRTIxdmVBM0VodDN3dE1keWZ2S2ptZlpHQVh3dS1EcGtJdTRXdkEtSzM4ZkhqSERMeTM0RlZLdHVLc25JMnNGT1N6RUxuZWlndDhiU0Itd0xRR1dkWWhpYkFoWnhIa2xjSGd3dHFIRU5nblE?oc=5",
+      "date": "Wed, 23 Sep 2026 08:19:00 GMT",
+      "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
       "entity": "All Israel News",
       "stance": "",
       "title": "In solidarity with Israel - All Israel News",
@@ -489,6 +507,15 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcjczZ2ZKOUFvek1qbWQxcXdoU2ZnNFlrU05HNFJfT0xjY0pxNmU1elgybEtSSzJXVzR2SkZMc1BrdTZMd09VUTBMWXZJOVdOZHZkeGxDT0N2clZqWExFbHpJb183VlNweDMtRUVqNHoxQ1lFVm9BMUxnb21ibE9YR1FR?oc=5",
       "date": "Wed, 23 Sep 2026 02:59:00 GMT",
       "source": "aol.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bernie Moreno",
+      "stance": "",
+      "title": "Ohio Sen. Bernie Moreno on Iran conflict: ‘We all want this to end’ - wosu.org",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcjFPbFZtY2NjQlVwQS1QSTgxTk1CcWVVM2RqWTVjdzBJdENsWHBzcjZ3OGN2S2hycUUtaFdjV09QUFJQdC1kNUNpQW5fblFfS2xycERWZG8xYW1VSG92Ukh0TkoyZl81T2IzdXpaTDVYUklkZzdjTGFoc003MWlWQjBocXpJck5EU0hEZWRqeGtFdXFPekFPRUlGbw?oc=5",
+      "date": "Wed, 23 Sep 2026 01:37:00 GMT",
+      "source": "wosu.org",
       "confidence": "high"
     },
     {
@@ -773,19 +800,19 @@
     {
       "entity": "Ben Ferguson",
       "stance": "",
-      "title": "Watch Ben Ferguson calls out artists boycotting tour over Macklemore anti-Israel rant - The Faulkner Focus - fox.com",
+      "title": "Watch Ben Ferguson calls out artists boycotting tour over Macklemore anti-Israel rant - The Faulkner Focus - FOX One",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUWlMN1BCWmtOeUg1bFZrYjBIb1cwM0ZoTGhmSHVjc3VuTDJ4ZU10ZmFQRGY5MjhMaWFDSnF4S01jdXJmc1NZX0dnVndqVC1rNTdGSlNPbU40TVd4bFBPZGRaX0tzUDd5djFkaV9MSjhzNzlOLTVXVE04Q2ZsN1BUQURSdDhnLXBaQkk1cFBjQVEtVmYzQS02aFNMMUJtSDRuZW53NXB0b3Nod255bmU3T0lHbjBRM19XajFreWZ1aUZIdW9zOS1Dc3ptcw?oc=5",
       "date": "Wed, 16 Sep 2026 16:53:44 GMT",
-      "source": "fox.com",
+      "source": "FOX One",
       "confidence": "high"
     },
     {
       "entity": "Ben Ferguson",
       "stance": "",
-      "title": "Watch Ben Ferguson calls out artists boycotting tour over Macklemore anti-Israel rant - The Faulkner Focus - FOX One",
+      "title": "Watch Ben Ferguson calls out artists boycotting tour over Macklemore anti-Israel rant - The Faulkner Focus - fox.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUWlMN1BCWmtOeUg1bFZrYjBIb1cwM0ZoTGhmSHVjc3VuTDJ4ZU10ZmFQRGY5MjhMaWFDSnF4S01jdXJmc1NZX0dnVndqVC1rNTdGSlNPbU40TVd4bFBPZGRaX0tzUDd5djFkaV9MSjhzNzlOLTVXVE04Q2ZsN1BUQURSdDhnLXBaQkk1cFBjQVEtVmYzQS02aFNMMUJtSDRuZW53NXB0b3Nod255bmU3T0lHbjBRM19XajFreWZ1aUZIdW9zOS1Dc3ptcw?oc=5",
       "date": "Wed, 16 Sep 2026 16:53:44 GMT",
-      "source": "FOX One",
+      "source": "fox.com",
       "confidence": "high"
     },
     {
@@ -933,6 +960,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Greta Thunberg",
+      "stance": "",
+      "title": "Greta Thunberg tells Ed Sheeran the Palestinian people are the 'one victim here' - National News Desk",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQLW9SZWNwdGhfelpaRGxxWWlrdHZ1MTFFRU82NWZONGR4d1BDd0JaT3ZjWTN2aExPd1FLRDdPU0xVbEZ6dks1VmJ5SWhVLXIwdTNsamoxU2ZNWkJ5dzFxcnFnOERYeE16bE8yOUNTQTF5LWhsd05ncEhaemVGRURzOEZ0STF0WFZmaGhvcmd0TTNNYWJia0FoNFUyNjJvR1BEOENqRUZUR3J3a0xPUldoV3VNaHVDbGZldkd2dHgyOUl2LXBZSjExTEFWQkdyMjFnczNGWFRKRHoyWjFKYmI5c3JEbnJkb2lSdjVhclh1VTl0WWw5SmZhNVNYUGg?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "National News Desk",
+      "confidence": "high"
+    },
+    {
       "entity": "Thomas Massie",
       "stance": "",
       "title": "Rep. Thomas Massie moves to impeach Defense Secretary Pete Hegseth over the Iran war - NPR",
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOXRoTTRQS2tuTDU2cE53am5JSWdWR0dWNmc2SWg3QzZCblZTXzA4azJ4cnJrZUdNc0lNb1hERjZ2enhnWEhKSXViX3NVWXVfTFpJT202UVRVeXRWZnpheWpxX19vRXlQUGVaTjNZWEFpNE1HbS1pbzZ1c05oc3hHOVV5RWZ0T2lBeHJsX2RQQzRJZXpHa3ROUXBaOWEzeGowVUZadXpGV0ZIN1pnOXl0VzRzSS0?oc=5",
       "date": "Wed, 12 Aug 2026 18:54:05 GMT",
       "source": "Creative Community for Peace",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jake Lang",
-      "stance": "",
-      "title": "Iran Vs New Zealand | | EFootball PES 21 Gameplay - Simulation Jake Lang (4NI1dIXUiS) - Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GTXJCLW1yQ3NTUVFpT3R3Q3dpeU5jMm1DLTdMOWRwSEd3T3JQeFNFZndDeEJfNVVRRW9ZeXlmaFdVM1h1UjVHb3lHbWxBdUg4ZDZWT0hKVTZaMkJqZ0Ywaw?oc=5",
-      "date": "Wed, 12 Aug 2026 12:13:06 GMT",
-      "source": "Mshale",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "Iran Has Not Changed Course - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd18tNG9OalRYdkg2ekZPTVotc0NVNVVVNXZkdGNOb3RMVGxGQnVuTV9hRDBEalpydGtGYlpsdF9oSXRCeUhzV3JIMGdZVzZuX1pKTE5FbkdPVVp5VmRaVmVCeXJGNVZPeWNKWUlfaDcyb2FkOTdaVWFWTW5icjZVUkRWNjVmUEJYZ0tZUkJXWWZnVFpBWDdGMGVacw?oc=5",
-      "date": "Wed, 12 Aug 2026 12:00:00 GMT",
-      "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "Allot",
-      "stance": "",
-      "title": "Israel's Allot Q2 revenue tops estimates, raises 2026 outlook - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeHZZcVhuZVNpNmFIWkx5bWo2X2Q2dndNQUxQMFVLMUtFNkRrYl84UHRZQmY1VTNjbTB5M3dkUTdrSWFmeXBkVFl6TnV1U3VGbEtDeS00OU16b2NwaVBoME0tS0F6bEtQOENOcnMxeXpPSkcyaFk3VnR0V2djOXktRDdfZ3JqeHJGWThEckdQWVVSeGNRaEthWFpJUlF0ZF95Rm1PV1NwM29paEktcjVRTnEzUXpBRHg2LTVsUmxSV0I0Rm5MTmNlakFn?oc=5",
-      "date": "Wed, 12 Aug 2026 10:38:31 GMT",
-      "source": "TradingView",
-      "confidence": "high"
-    },
-    {
-      "entity": "Global-e",
-      "stance": "",
-      "title": "Israel's Global-e Online Q2 revenue beats estimates, helped by higher merchant volume - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNXlXS01rSHBYMUduNlJPSzVZdEdERWFCWWpFelBNN0VQQ1doTk1mS3JzVlB4Yk82c3V5c01qVXhWOVJYdi1GVGhVcmJuYTVwSEhybEJFV0J0X25EZlprSFFwRHNhZHE5TEl5TTZrSHFhLUQ5R1BLRjhBVF9Tb3NiaWVHUFpCWjE3S2doX3BzR292UkxDd3FWNUtQV3dhR3F5YW1XN2JnTFRpQnpOSVNpdlBKbWh2V1hVZEx3UzNiTUt4Z0R3WF8yQWpzWlZwUHpnaGhEOWZ6bFk2Z0tSM0FJN044bTl6eE85cVE?oc=5",
-      "date": "Wed, 12 Aug 2026 10:12:05 GMT",
-      "source": "TradingView",
       "confidence": "high"
     }
   ]
