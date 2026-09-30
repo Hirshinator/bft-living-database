@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29 18:27 UTC",
-  "count": 6,
+  "generated": "2026-09-30 18:16 UTC",
+  "count": 7,
   "candidates": [
     {
       "name": "Elica Lebon",
@@ -35,7 +35,7 @@
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "He Was Trained to Destroy Israel. Now He Stands With Israel. | Kamal Saleem",
+          "title": "He Was Trained to Destroy Israel. Then Everything Changed. | Kamal Saleem",
           "date": "2026-09-29",
           "link": "https://www.youtube.com/watch?v=uzwpjt9W868"
         }
@@ -64,6 +64,19 @@
           "title": "The Story That Changed EVERYTHING I Believed About Israel | Mustapha Ezzarghani",
           "date": "2026-09-28",
           "link": "https://www.youtube.com/watch?v=q4Xj3Cnod0A"
+        }
+      ]
+    },
+    {
+      "name": "Paul Smith",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Was a COMMUNIST in Iran. Now He’s an Unapologetic ZIONIST. | Paul Smith",
+          "date": "2026-09-30",
+          "link": "https://www.youtube.com/watch?v=ZLpAADTPFx0"
         }
       ]
     },

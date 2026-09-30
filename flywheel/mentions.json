@@ -1,10 +1,100 @@
 {
-  "generated": "2026-09-29 18:32 UTC",
+  "generated": "2026-09-30 18:20 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 665,
+  "cursor": 915,
   "count": 120,
   "mentions": [
+    {
+      "entity": "Laura Loomer",
+      "stance": "",
+      "title": "Candace Owens ‘affair’ row: Laura Loomer reacts to ‘gay’ allegations as Israel angle fuels dispute | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM0JYUUZDOXRjWnJFTTdobWFKU3VpeGVXcERRSDlYYUdPZ2VJaUY0Q0ctT2d0RE1hVERwWm1pRmg2TGI0YkpMZ09FT2pucTB6M2VpLWJRaWU5RzZnLWdQTUFOQVRYZzFwUmhadWM0TlM0WUMwRGxBUmE2c1dlSURjTlBWMVJybzRKU21nRW1CWFhUbmQ2WFU2SkhqY2Vkdm9NUFZJWlNSMko2bUdpdzZMeWxLMTJmMktFWVh6N1VjdlpSbHNXSl9vNmo1SzZtdFpKa0VmZ3FJZ3BPd3dGbHRTZEZNemJVZ2FOTUd2Yl82SjlVSFdXM2JR0gH8AUFVX3lxTE9kUk14SHlaXzQ2d21HaFZPLXNjemphSXVFU0stcUpXLWxsZEVKWFBzZDJXN1g4VWwyN0VEa0k4ZjI5SGhmbnJ1b1JmTXZxb1FYcTRlMHBrVTlZSko3akdmSlNhaF80cTJHRzM3aWt2V1NmejRETXRIVFprUHRlbkRDR2JZUmh0VlBuYk8zd0J4ZFhOajFpaWNQLWkzMWNUaExjWWNxWTRsbmlvOW16Rzk0Z1JrRXduQkRPZzI2emVwdFZTdFl2eWcwV3JnODVTaUhjMkVSZVZQMFY1Z1hMUnNUNHpQbnlzVEE0SHJBRFV4MTlfWkduLUlhX1RmMw?oc=5",
+      "date": "Wed, 30 Sep 2026 17:35:01 GMT",
+      "source": "Hindustan Times",
+      "confidence": "high"
+    },
+    {
+      "entity": "John Fetterman",
+      "stance": "",
+      "title": "Fetterman Joins GOP to Block Effort to Expose Israeli Abuses in West Bank - Truthout",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenhHM0EyXzNESjF1c24zTlZEXzI2QzlrZGhIMzVFV2dDanN1bFYtclY0LUcyVW1URzV4UEt5UWlNNlRyTnJtQnV5clBpT3Q1My01S2lZY3hiNTYtbzBhd1MzdXpRcU92RXFNUzVDVkxhN2VrNWdRY3RvRERlRDN6X1VTVzlVb19VYjd3WmY4SHM2M252cmlJcTBCN09IT3psUnVVTXJqZw?oc=5",
+      "date": "Wed, 30 Sep 2026 16:07:38 GMT",
+      "source": "Truthout",
+      "confidence": "high"
+    },
+    {
+      "entity": "John Kennedy",
+      "stance": "",
+      "title": "Louisiana U.S. Senator John Kennedy praises Trump administration’s military action against Iran - louisianaradionetwork.com",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SekJqYXlhSVg5WnJSOHFmN1I5d3NXNTdCcXRodUh3WEpXT1dCT0V1d1NmaFk1TEtqby1FMTdmTUhTZHVIclZabUVrYnZPN1lBNFNJSHlBODU4MTV1WGROeQ?oc=5",
+      "date": "Wed, 30 Sep 2026 15:26:57 GMT",
+      "source": "louisianaradionetwork.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hasan Piker",
+      "stance": "",
+      "title": "Nithya Raman talks Gaza, defends her Hasan Piker appearance in LA forum - Rock Hill Herald",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTYXpJa29QT0xFcmp1WHVVR2EwYXdqMmMzLTdNUlBLU2FmMmVvQl9ieVhJd2FnR2xrQldJOE5NdE5KUjdJQXpMNUhoeFIxSkFOZGpudTJ1YUt1azNwakppS2NBVGlKZE1nVzhxb2Z0NmJybnpoYW14eEIwUzhVZE0?oc=5",
+      "date": "Wed, 30 Sep 2026 14:52:00 GMT",
+      "source": "Rock Hill Herald",
+      "confidence": "high"
+    },
+    {
+      "entity": "John Fetterman",
+      "stance": "",
+      "title": "John Fetterman Helps GOP Block Probe Into Israeli Murders of Americans - The New Republic",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeUdLNVRsSnF3dTFqTU5uVjVFVUdUbVJ5SnVUSE9fMzZSS0IyYUQzWlJ6SjFLd2tWSHVkQzY0WVVDMU8xWDVOQUpsR2JjU0FvN3J4eW11NXRvbkk0cENoeVBCS2dBZ0ZPZmJfUEpTc2RaYkpKQXB3YjJHRU1XSUF4SG1BVWN4MkV6YzF0cWhobTh5LTRJWDVhT1lFTQ?oc=5",
+      "date": "Wed, 30 Sep 2026 13:53:06 GMT",
+      "source": "The New Republic",
+      "confidence": "high"
+    },
+    {
+      "entity": "James Fishback",
+      "stance": "",
+      "title": "Far-right Israel critic James Fishback likens abortion to the Holocaust in Ole Miss speech - Jewish Telegraphic Agency",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXNoWEdkeDBTcklQd1hyVUhuMUw4eXJzRi1TMWdQQUFycEhydWxkSzBIRlBUTDh6X2RRd3BVcURDNWFqU3UxTWUxTFRqUTE5eGhaSEFrNDdFeXJLTjFjTFV0dVBYMlJfc0dEejNVcjItNDBobWlCdkt6SWFLTVRNbDVyZTNLc1h3OUFUbFVyV2hqbGdObjAzOUI2Rnc2THFqa3VjckxlOVNfRFdDa0VMM24tQ3pYbzhTUV9Db1B1VGNaNmE3a2doZC1B?oc=5",
+      "date": "Wed, 30 Sep 2026 10:24:36 GMT",
+      "source": "Jewish Telegraphic Agency",
+      "confidence": "high"
+    },
+    {
+      "entity": "Israel Englander",
+      "stance": "neutral",
+      "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWW5oVVh3S0V5clZFb3pBbnZIT0Ixdk1ib1pEbG1rZjk1REYwMzR6UXY0alpYRENySzFqZXVNd2N1NTNLLU91elV0akw3bHlxaV9MQllfYnhUTnd3ZHZPaDU4N1VKczBONnB6SnBSRnN6MGt1UERyUUIxV2lIR3NBdTRhOUkySXRfUTdz?oc=5",
+      "date": "Wed, 30 Sep 2026 09:44:00 GMT",
+      "source": "The Motley Fool",
+      "confidence": "high"
+    },
+    {
+      "entity": "Israel Englander",
+      "stance": "neutral",
+      "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOUEdCZEF2c3E1bDFsNkYycUoybkpMN1VUNmNvSG5UY3lZb21jZHp3Q0dLNER1a0tHR1EtSEE4UVNHZVVLLTlmS2dCby1TNXNyQWdtcmNjbWR4cE13WGM0WDFlT01rV2ZfNURlSVlJV2lhNDdjSGV5YjFXS2tKVU9OLVFxbnM3TDNsdUl3U040Ym5iZC1kbmZTMDBUd1NLQWRRSFY3LVpuQU5IaDc3Z3JCdWtEal9SWEJOWDZlVnVZdi1PQmg5VE1qcUNUdmlQNVB3NjJGbGZad0RFX3ZWbXhaOUpMc0ZKcC1JTDZVaHdrLUFvUHQyaENURzBJWjNqRkFGb0tqVE9hRGNWTkZfYTA0?oc=5",
+      "date": "Wed, 30 Sep 2026 09:04:27 GMT",
+      "source": "The Globe and Mail",
+      "confidence": "high"
+    },
+    {
+      "entity": "Israel Englander",
+      "stance": "neutral",
+      "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdHpZNXVXaV83OXlzOE1wN0F1RTlONFNfcWxZOVRZNkE5V0FqMDVYUy1yMlhDNlBDRGxHLThJM3pRRUV6RXYyaWZjcnN6RklnWjctUWp4Vk82N1FlTU5BcU1QNHNBMmdzRHBTN0JYZDNsNmItRmh5RldEYzBTVjlOTW8yS1BJNDd3M21tUVBNUi1ZSVlOQWRLbGhrZ2VQN19ISlE?oc=5",
+      "date": "Wed, 30 Sep 2026 09:04:02 GMT",
+      "source": "Yahoo Finance",
+      "confidence": "high"
+    },
+    {
+      "entity": "John Fetterman",
+      "stance": "",
+      "title": "Israeli Settlers Killed His Constituent. Fetterman Is Sole Democrat Against Investigating Them. - theintercept.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXzg1S294dTdab2xwMzBINGxZMDlyOF9na2hiSHZTRFNQOW01VDdud3MyeE5EcVFNc2NRSFJnaUI2bjlQZnV3clFOaVAtaGRkVU1aTk5YaXZFWTVJOTRJTjM5WElzZGxjYkJ6bkZqSUJ0YTNtcXI0aTFTMmh1RDhicm43cktVS2VZUm0xVWNxUjZtcTVyRkdhY2Q0dw?oc=5",
+      "date": "Wed, 30 Sep 2026 04:14:52 GMT",
+      "source": "theintercept.com",
+      "confidence": "high"
+    },
     {
       "entity": "Alex Jones",
       "stance": "",
@@ -539,6 +629,15 @@
     {
       "entity": "Jacky Rosen",
       "stance": "",
+      "title": "Jacky Rosen visits Poland to discuss antisemitism, Holocaust issues - jewishinsider.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelVxM0FnUzBYNWt1bjRUeFhrS084RGR6bmtKQ0ZQUjhQV1NGcng4Uzl1b2VFclZ2bnJ6MFRRakNUNWJKMnFxS3pYVVVTTUUzM0F4Y0UzZDVkT2xqcEFtUEx3V1RwbnVpWUJmLU1zdlRVTzVIRERpVHJ4SFRqM0VXSGlXZEJSbUNYN0E?oc=5",
+      "date": "Wed, 23 Sep 2026 01:04:14 GMT",
+      "source": "jewishinsider.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jacky Rosen",
+      "stance": "",
       "title": "Jacky Rosen visits Poland to discuss antisemitism, Holocaust issues - Jewish Insider",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelVxM0FnUzBYNWt1bjRUeFhrS084RGR6bmtKQ0ZQUjhQV1NGcng4Uzl1b2VFclZ2bnJ6MFRRakNUNWJKMnFxS3pYVVVTTUUzM0F4Y0UzZDVkT2xqcEFtUEx3V1RwbnVpWUJmLU1zdlRVTzVIRERpVHJ4SFRqM0VXSGlXZEJSbUNYN0E?oc=5",
       "date": "Wed, 23 Sep 2026 01:04:14 GMT",
@@ -942,6 +1041,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Marjorie Taylor Greene",
+      "stance": "",
+      "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjJqNkY2czVDN2NNRmlrYy1JMVp0c0JHSWhzb2xHMGZiU0ZXbC1hWXA5RDAwVDlKdnAwTGx4Q3pGWEFYZUVONmZ1aUpvOUtjM2dva09sQkdKeG9QOXEwZnV5QWRESjNfOWRoOG9wY0pkWTlHdlVrSEM2S2tHaVRNZk9LQ3N4QTZFTzZYbmNsS2xZY05TY1FZa2IyVzJjN3BiVTBDd2E4bU5sVUhPUVHSAbMBQVVfeXFMT053UDB6bGZoOU1IUndxQ3NraGZEM0JJNkxQejlNUnRDZTFoRnNla3l3Y1BSTThQVkU4R09jN2FJSTB3YnRVMGloV096dnRpMmpfc2tHaGMyOU55UlVJWUhHM0pZcVBnNUkxYkRWWGNDbFZxQkJ6WkpIRzI4RW1RMm96Uk9wZXhmTGRwb1ZCODhzdlRnX0JCSUxIcVBHQ3pjQ3JzbU5KbXJxS0p4X2Z3cklES3c?oc=5",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "Al Jazeera",
+      "confidence": "high"
+    },
+    {
       "entity": "Bill Maher",
       "stance": "",
       "title": "Ed Sheeran, Bill Maher, and the People Who Know Everything Except the History - The Times of Israel",
@@ -975,114 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSG9ZbWhwZ1VZQU1NZmRVQVVtLVpCd2JIdGVFbEZsdUVHZ2k1N29lVm8zT0h0enpPN3lLb2k4eGVGWERRVDdSLU94LVM2VDdFR2tCREt5UWlyNWtseks3YUJNR1pQX2FLTzcwQVJ2blJ3WWNKMDlXMlBwS3BVWnhHc0NzRHFiSnAyLWJUZXFvZE5Oay1qWmVvNXVwODV2VWRLYzI1VGZzRmU2SmJFcTltRWluM24wVkxxbmNLTzJyaVNTRzNQTWZv?oc=5",
       "date": "Wed, 16 Sep 2026 07:00:00 GMT",
       "source": "NPR",
-      "confidence": "high"
-    },
-    {
-      "entity": "Van Jones",
-      "stance": "",
-      "title": "‘Re/Pair’ Review: David Schwimmer, W. Kamau Bell and Van Jones Lead Pragmatic Doc About the Past and Present of Black-Jewish Relations - hollywoodreporter.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdHpxU0lJRFdwV2pkMXdSbHZFdWpyeWprcjk0eXBaTkh4Q1MzWWxQTDViYnJ5VnZ0eE9BWmRDR1B6MDdlUVRCbkJOMm44QV9xZl9Kck9PZEtqYnR1Q3MtTThkRzlkNmVsb3RJRzAtYXN1MlR5dkFVakxpQk5jbXhYSU11VkZHZFJvaU9ZOVl0aVBQcmtia1ZiaWhpX3AwNEFnUHpjV1gxSFc1MmZtOVlYZ2JzOE45dms?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "hollywoodreporter.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Michael Waltz",
-      "stance": "",
-      "title": "UN Ambassador Michael Waltz announces deal between Israel and Morocco deepening diplomatic ties - New York Post",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRXA2VWZuTEpQZ2RjV1ExaC1rWWRfUUxibm1weWlpQU9vMlRWVmJ2OVhHeUM2M21RbTItVTBsc2k1Uzd4dF9TVGcxRVN6OXVOVWpYYmpCWE5zU2hqNHpHWGhoWXlDNk1YOENPeDdEaV9QZW00ZWp4R1Jjb3prazFiZVNxUGdrTHpxaVVzdjdMWHk0RFRfcFZ0Tm0zZ2R3Zy0zd1FXdEJUMXcyOXlmYVBqUnM3NERlbGExQks2QWhLV01TdHBkSDdiZjlpR054bjQ?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "New York Post",
-      "confidence": "high"
-    },
-    {
-      "entity": "Steve Daines",
-      "stance": "",
-      "title": "Steve Daines weighs in on U.S.-Iran war and China's AI tech - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wcXh2eW5NQ214R0tDTEVzQ2RGSVdlLWxQR2lLaGtNQmFWaktvczVuc3NkZmVtWkdxVkNyV01iQkxBNVE3cVpfRlRFdjgzYktnVW5PdDJn?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Marjorie Taylor Greene",
-      "stance": "",
-      "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjJqNkY2czVDN2NNRmlrYy1JMVp0c0JHSWhzb2xHMGZiU0ZXbC1hWXA5RDAwVDlKdnAwTGx4Q3pGWEFYZUVONmZ1aUpvOUtjM2dva09sQkdKeG9QOXEwZnV5QWRESjNfOWRoOG9wY0pkWTlHdlVrSEM2S2tHaVRNZk9LQ3N4QTZFTzZYbmNsS2xZY05TY1FZa2IyVzJjN3BiVTBDd2E4bU5sVUhPUVHSAbMBQVVfeXFMT053UDB6bGZoOU1IUndxQ3NraGZEM0JJNkxQejlNUnRDZTFoRnNla3l3Y1BSTThQVkU4R09jN2FJSTB3YnRVMGloV096dnRpMmpfc2tHaGMyOU55UlVJWUhHM0pZcVBnNUkxYkRWWGNDbFZxQkJ6WkpIRzI4RW1RMm96Uk9wZXhmTGRwb1ZCODhzdlRnX0JCSUxIcVBHQ3pjQ3JzbU5KbXJxS0p4X2Z3cklES3c?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "Al Jazeera",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Huckabee",
-      "stance": "",
-      "title": "Huckabee: America has never defended Israel, only its own interests - Ynetnews",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GRkhfdjRvbWpXanp2RW1KZzE1RE51T2lyWmVDeS1vcTRLcHNxa2ZQSmRxTF9nRnJwcGpWS2hmODJHVUxUZzlGbzVDdzR0akRKcHNGeHRLaw?oc=5",
-      "date": "Wed, 16 Sep 2026 04:33:49 GMT",
-      "source": "Ynetnews",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jerry Seinfeld",
-      "stance": "",
-      "title": "Portuguese Artists Withdraw From Festival Headlined By Jerry Seinfeld Amid Israel Backlash - THEJ.CA",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFNlS0NyRTNJSmlNMXI4N2RZdHExbVJUZG9Fc0RPV3lHNjQyTDl4NERQWVNoTkxTczhXNGxLRDZ1RnNFcXRNWURQLS1sbnRrQ2pzN3FmQThLcWI4Tk56RkkyaXU2WjRYa0lwNTdQSFhzMzVOWjNRRHhaQm9UWlVZcm5sVHBKa0RfdlBudHVQSEwteW1kY0p4TXp5U1BQT2ludlV4T0RXaXd2M3JqSGZWLWt5VlA5SGpUQ2c?oc=5",
-      "date": "Wed, 16 Sep 2026 04:18:51 GMT",
-      "source": "THEJ.CA",
-      "confidence": "high"
-    },
-    {
-      "entity": "Eli Crane",
-      "stance": "",
-      "title": "Eli Crane Votes to Prolong Deeply Unpopular and Expensive Iran War - Daily Kos",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOblEtTGJUdkZkY3NuUTZOblVKUVdOZ3d1am1VZ3dvT1A1S0F3czBqcERERjBOY0VibmNtTkFMa3EtX3RMZzFiRUtkQlQxaTFyZzZGUGlSTnlOTE5Zblc1TndIYnEtSVBxcGJ4VjhsYmNqZ3hsZUJzSWZFY09vVVBpUUc5VlQ5UGdwVU1GYTZEcldvSWNidTRlRmdPNUM2Rl9qYzVtRC1wUnlLemxUZm1GMG1CT3JvdGZpX1JLMjNJeXRsRHB1TXRIbmlR?oc=5",
-      "date": "Wed, 16 Sep 2026 04:01:06 GMT",
-      "source": "Daily Kos",
-      "confidence": "high"
-    },
-    {
-      "entity": "NewsNation",
-      "stance": "",
-      "title": "Hormuz shipping traffic hits new low as Iran standoff deepens - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM0dvNElxS0dYVWlLeGVrMVFNWGRZdVY5THpfeXBoenRNQmF4ZjIwWENGampYOWI5dHBQbXU5N3puNDRvYVg2YkVya3pQaFBjTWpveEhCS1VOMm1YNHJqNl84OWRXaVBpSk9TNWx0Y3QyT2ZCZnlaa2d5TjltU01MMHNRSEVoZndDdGfSAY8BQVVfeXFMTkFvbms0clZsUm91WlVMY1hXbXI1MXNaOTFlMWVtQ2pJd3J0Mkp1Zko3UXhldEs3WmxEd3RmeEdXVU5wVjRIVTBTYVh2aUVMYnlCSkVCc0pEdThKRUF2SEl3RmI1RlYyTUZQZWpRVDlFRnVLbmdHWndsS1dwUEF4YjgxZExSNkZwbm40Tk0zSHM?oc=5",
-      "date": "Wed, 16 Sep 2026 02:03:50 GMT",
-      "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "The Free Press",
-      "stance": "",
-      "title": "How My Generation Became Antisemitic - by Leo Lewis - The Free Press",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JeC1rUThRbGVhVEM4RzhiSXp6WWd3VXpycGlSYnBmSEpnbmRoeUI4MFNWSmVzREZUY3VEZ01DbUxsOHc2UThvNTJvVFhVZ3ZrU2lMNWtVR1diWlJNVEE?oc=5",
-      "date": "Wed, 12 Aug 2026 23:30:46 GMT",
-      "source": "The Free Press",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ayanna Pressley",
-      "stance": "",
-      "title": "Pressley, activists call for end to Iran war, defiance to ‘dictator’ Trump - Dorchester Reporter",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSzktOXpuNE1fbjVzSHRuck9JVHNzcmphRmdlSFlDOE9wZDVwOHBOTmJ5V1JHdFZuZ3ItVld1OThmd3JYWEdBVWRYUGVxajZfTmp1Mk1yZHVCei1TcXRjVTJObnJOOThZYk1nUjhqNnI3WWlRN1M0NDhFaEFDZGloRE1xYkc3NEF6b0VoWkR6blVtRDd6Nll0cjFDNm5tRjhHTlZWd1BnVDNPYXVyWUo3M2Z1WQ?oc=5",
-      "date": "Wed, 12 Aug 2026 22:36:40 GMT",
-      "source": "Dorchester Reporter",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bruce Blakeman",
-      "stance": "",
-      "title": "NY Republican Gubernatorial Nominee Bruce Blakeman Guided by Jewish Principles and Grandfather’s Advice - The Jewish Link",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOU2U4VlpCSktjc3NFT2Z3UkhCbEVKOTd1N3ZmcnZWZGRfNmVwVWY0RU9ldGNhcUwtRUVkU0tiNm9vT3lWOWpxS2ZxVWxtU3pKdVdyY3FIR2JyaWdpV2gzeVlfVVV4TzRvcURVLXkzQWhmMEctTGFHZ1M5OV9TOExXOFNBdWx3aWtZQnNuWFdHa3pGX0FGdTRCeU5pYnhfQWpLaEk0OTFDbU52NG8xWEpwN3Y5STN4bHhfanNuY3VUek1WaW5RX2c?oc=5",
-      "date": "Wed, 12 Aug 2026 19:06:18 GMT",
-      "source": "The Jewish Link",
-      "confidence": "high"
-    },
-    {
-      "entity": "Creative Community for Peace",
-      "stance": "",
-      "title": "NEW YORK MAGAZINE HAS BECOME AN ANTI-JEWISH HATE OUTLET - Creative Community for Peace",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOXRoTTRQS2tuTDU2cE53am5JSWdWR0dWNmc2SWg3QzZCblZTXzA4azJ4cnJrZUdNc0lNb1hERjZ2enhnWEhKSXViX3NVWXVfTFpJT202UVRVeXRWZnpheWpxX19vRXlQUGVaTjNZWEFpNE1HbS1pbzZ1c05oc3hHOVV5RWZ0T2lBeHJsX2RQQzRJZXpHa3ROUXBaOWEzeGowVUZadXpGV0ZIN1pnOXl0VzRzSS0?oc=5",
-      "date": "Wed, 12 Aug 2026 18:54:05 GMT",
-      "source": "Creative Community for Peace",
       "confidence": "high"
     }
   ]
