@@ -1,33 +1,7 @@
 {
-  "generated": "2026-09-30 18:16 UTC",
-  "count": 7,
+  "generated": "2026-10-01 18:41 UTC",
+  "count": 3,
   "candidates": [
-    {
-      "name": "Elica Lebon",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "They Walked OUT on Israel. NOT on Iran? | Elica Lebon",
-          "date": "2026-09-25",
-          "link": "https://www.youtube.com/shorts/bDY0UyvWOs8"
-        }
-      ]
-    },
-    {
-      "name": "Jonathan Cahn",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Hours Before October 7, HE PREDICTED an Invasion of Israel | Jonathan Cahn",
-          "date": "2026-09-28",
-          "link": "https://www.youtube.com/watch?v=75QjuLV5rs0"
-        }
-      ]
-    },
     {
       "name": "Kamal Saleem",
       "orientation": "ally",
@@ -38,19 +12,6 @@
           "title": "He Was Trained to Destroy Israel. Then Everything Changed. | Kamal Saleem",
           "date": "2026-09-29",
           "link": "https://www.youtube.com/watch?v=uzwpjt9W868"
-        }
-      ]
-    },
-    {
-      "name": "Mubin Shaikh",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Was a Jihadist. Then EVERYTHING Changed | Mubin Shaikh",
-          "date": "2026-09-27",
-          "link": "https://www.youtube.com/watch?v=VZwH_DSMNqY"
         }
       ]
     },
@@ -77,19 +38,6 @@
           "title": "He Was a COMMUNIST in Iran. Now He’s an Unapologetic ZIONIST. | Paul Smith",
           "date": "2026-09-30",
           "link": "https://www.youtube.com/watch?v=ZLpAADTPFx0"
-        }
-      ]
-    },
-    {
-      "name": "The Room Empties",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "Netanyahu Takes The UN Podium — The Room Empties",
-          "date": "2026-09-26",
-          "link": "https://www.youtube.com/watch?v=Kw8ZpgioX8w"
         }
       ]
     }

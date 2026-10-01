@@ -1,10 +1,46 @@
 {
-  "generated": "2026-09-30 18:20 UTC",
+  "generated": "2026-10-01 18:46 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
+    {
+      "entity": "NewsNation",
+      "stance": "",
+      "title": "Stabbed pilot opened cockpit door, helping thwart attack on flight to Israel - NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWDBadE14VVB3Um5BSW8zSlpqSUpSOTJ5WmozWjNSWU42clkwNUNQMXc0bXZLUnRkRDVwam5CTndoajd6OUhveVFYSHE1TXdqRHZic281SVpJRHJHSGUxcUZ3dlN4X1BEZW5pSnItVVh6a2lMMzZfUEE0ay1hVk55cWlOMzFIdzlVcTRZ0gGQAUFVX3lxTFAyNHNlZG0ta1V3SmFJNnhZRDRWX3BaVl9YZlgtcHpYYmdSTXFxOWVXM1NEZjBQeFU0bHJIZ0NLY3h3UWJtMFdmVXJMN29MUEQ1QmljRFAybzdlNGhFR0tCRWxWOEFWaVluVkVlbFhiZnBFVGdUeDFlSEtkTlRyczdFZGVhS2ZsRFJ4NG51VkZYQw?oc=5",
+      "date": "Wed, 30 Sep 2026 23:32:51 GMT",
+      "source": "NewsNation",
+      "confidence": "high"
+    },
+    {
+      "entity": "Passages",
+      "stance": "",
+      "title": "Passages summit trains young Christians to stand with Israel and Jewish students - jns.org",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdWtxRXVPRWlMak92V21KR3lFQ2txTmxaNk1FSDlOY252U3Bra3RGMXFXYWxhcVdEMlVZLWVwdEMtSWpoUjlOVkYwd1VCQVNsbGQ2YUxyQXhJaC1sVVJXa2VuR3hNQUlrckJ4UG9OMEFtSGhPSlNWWlZJVHBCaXcwMzZUTEJoVzB2aG53cHNHMmgydU1FcUljQ1JsS0ltN1BJSmZSYnNkVmJ3ZkhmdU5FU1BpalU?oc=5",
+      "date": "Wed, 30 Sep 2026 19:17:51 GMT",
+      "source": "jns.org",
+      "confidence": "high"
+    },
+    {
+      "entity": "Patty Murray",
+      "stance": "",
+      "title": "‘Grow A Spine!’: Patty Murray Erupts At Trump Over Iran War ‘Disaster’; Warns No More ‘Blank Checks’ - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNRGtDQUVpYzZ1V19zNnpnVExRT2tPVnV1cXZGT0p5ekdRMWIzUzJWeW1vQjI2MXdSRnZoS2luczFGUDVhQkFZRmxqM3RFMVNmczZhbGtIZnpsNnVyalE4emU0ZEZObWswS3lIUGpkaXhYU2laRXR0TkNrcXdsdUlNeVh6UEJ5dUZ6MV9GcEY5bVNCa2FUQXFwZExsNDZOWDZjQ2F6cGItSURrb2dQc05YYy0zSmowdVl4RmRhNW13OUE3dThQeXhvdjhHQUp2bndoV1o5RWZyQ2F0a19XOGUxNDNKVG9kMkZYRDRRYVBTcTNmdXVqYnpBa0t5YUY2SUJqUXfSAYcCQVVfeXFMUHVINi1oTmwwcklnbUdnZ3NmQ2NjeUtfYkNaRkUzVmxpSUtUYmxWZV9yRXh0Mzc0VlJOY0VuSUxyeHFPZlYyaHNqbDl1SWtmUnJFZXN1WlBxSjAtZmJCOU1nS3dweWFhZnJqQnVlTk9WU0RjWjh6VFlZUERKQldRQzFvbUtUOWkzUUxWemxtT1I5Unl3aDZGR3hneUNVSVpWYmx0bFNDTE8tN19WSENBNUM3cm9aS2JaLVhIakl2cjN3dXR4TjJ3OEZ5OXVONEpPMWNSQmk1TU9hSGlraEJpblpNcGVaY2VaY0NGTG5sNXQzcElqWjVxMy1FWHdZSmdEc29iLU1odDA?oc=5",
+      "date": "Wed, 30 Sep 2026 18:22:23 GMT",
+      "source": "The Times of India",
+      "confidence": "high"
+    },
+    {
+      "entity": "NewsNation",
+      "stance": "",
+      "title": "Iran claims victory after US ends its mission in Iraq - NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSFhGZG5kcVd0Y05FalBHeTJsM0xHRl9KSU5kb3RCeE4tVnAxSUlGSkt0b2wxRkduUm50NUJERHlUbFJsZEVJQmdlU0Q0ZDg5bWZtMGNSNmdhOTdVYUlacXA2NHR2cjlua010MDVUNEpKX29tN2xFS2pOTkh0aEtFOXk4dW16TXE1bUNr0gGQAUFVX3lxTE1ZVUVOS3ZxRnNmd2xpNmIzdDJnSWJmS2V4MEhsYUpfOFgyT2VfRVRmM2lsYkFtajUzSnRLa0J6NUhhRThqa0pkYkJ0bW1GbDYtT3ZGTUZZYUsxN3o0TDN5Sk1uMlY3RGxSN1k1UjdJeEdGSGxYaUprOXFNY0xTNjlWZFlzTFVBaWNBX1RvS2l6aA?oc=5",
+      "date": "Wed, 30 Sep 2026 17:46:03 GMT",
+      "source": "NewsNation",
+      "confidence": "high"
+    },
     {
       "entity": "Laura Loomer",
       "stance": "",
@@ -21,6 +57,15 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenhHM0EyXzNESjF1c24zTlZEXzI2QzlrZGhIMzVFV2dDanN1bFYtclY0LUcyVW1URzV4UEt5UWlNNlRyTnJtQnV5clBpT3Q1My01S2lZY3hiNTYtbzBhd1MzdXpRcU92RXFNUzVDVkxhN2VrNWdRY3RvRERlRDN6X1VTVzlVb19VYjd3WmY4SHM2M252cmlJcTBCN09IT3psUnVVTXJqZw?oc=5",
       "date": "Wed, 30 Sep 2026 16:07:38 GMT",
       "source": "Truthout",
+      "confidence": "high"
+    },
+    {
+      "entity": "Rand Paul",
+      "stance": "",
+      "title": "Maryland Sen. Van Hollen Blocks Kentucky Sen. Rand Paul’s Push To Freeze Aid In West Bank And Gaza - AOL.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80UFh0MS1rOHQwWUNUQUlnWGc2UGtfb1pfQ0FpTlA2TVhpWk9abXlxbDVmeEFkWlNXMzVoZ3hqU3gzdFRnZzlyTzlldDE4djBZa2Z5bGZXRDEtSnR0eFRrbjBtMVZzeHFFVDFScUU1RTZxNzBlQm9OdkNjZFpHRkE?oc=5",
+      "date": "Wed, 30 Sep 2026 15:33:22 GMT",
+      "source": "AOL.com",
       "confidence": "high"
     },
     {
@@ -48,6 +93,15 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeUdLNVRsSnF3dTFqTU5uVjVFVUdUbVJ5SnVUSE9fMzZSS0IyYUQzWlJ6SjFLd2tWSHVkQzY0WVVDMU8xWDVOQUpsR2JjU0FvN3J4eW11NXRvbkk0cENoeVBCS2dBZ0ZPZmJfUEpTc2RaYkpKQXB3YjJHRU1XSUF4SG1BVWN4MkV6YzF0cWhobTh5LTRJWDVhT1lFTQ?oc=5",
       "date": "Wed, 30 Sep 2026 13:53:06 GMT",
       "source": "The New Republic",
+      "confidence": "high"
+    },
+    {
+      "entity": "Nick Matau",
+      "stance": "",
+      "title": "Pro-Israel debater Nick Matau outlines live strategy against online hate speech - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80TGQ4U0JDUWs0dUFLQ01fTGl1WG9xOWllS3JfMUswZmk2cnNmUnluWEVFN0xFUkczSEV5UXRYekotQmlJendfaVpBM3lsNkVtb3g2OXE5cXRwT2tuOTlzWnktdlBnVUhnYXc?oc=5",
+      "date": "Wed, 30 Sep 2026 13:18:41 GMT",
+      "source": "The Jerusalem Post",
       "confidence": "high"
     },
     {
@@ -93,6 +147,15 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXzg1S294dTdab2xwMzBINGxZMDlyOF9na2hiSHZTRFNQOW01VDdud3MyeE5EcVFNc2NRSFJnaUI2bjlQZnV3clFOaVAtaGRkVU1aTk5YaXZFWTVJOTRJTjM5WElzZGxjYkJ6bkZqSUJ0YTNtcXI0aTFTMmh1RDhicm43cktVS2VZUm0xVWNxUjZtcTVyRkdhY2Q0dw?oc=5",
       "date": "Wed, 30 Sep 2026 04:14:52 GMT",
       "source": "theintercept.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Steve Daines",
+      "stance": "",
+      "title": "Daines Urges Support for Israel on Senate Floor: “Democrats are Distorting Reality for Political Gain” - Senator Steve Daines (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQODFPMDJ5enlVbTc1WFAtT2VKSkhEbGNrTmNxaW9NZnVfaTItcUEzN1o3ZjZNci1GamQ5ckFhdGRVNUtIMkFUZlY5VkY3b3EyQXJpSGJ5ZFZ2cmVsWVBseUxNRWFwTnZDc1dTdjNZems5blNhVXVmc0c0Y1gyc1BaLVF6a2w0R1lDbE9COWlwei1IM2RaUWVLSEVka0VXQnVFVFRmQlJMV3VfMXlhWXpjNVFqZlktLXNGVGFCaE5wZmZzd1hTczZ6MXdhck5vTlJMU0RxR2NEZHk?oc=5",
+      "date": "Wed, 30 Sep 2026 01:40:43 GMT",
+      "source": "Senator Steve Daines (.gov)",
       "confidence": "high"
     },
     {
@@ -543,15 +606,6 @@
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYWlIQW1oczZYME9FTG9YRkZkeHJUMjVFLVVzR3FpTGdqaGYyeWstanlJWEEyUU90alF2aDlsQ09acm43SDZ3Q1BTV29lOGxpMDJBU2FicU5YUEsxY1IzZE1tYmcxQUlSV2pGdVRoSVhiM2Z3OGhzNlc0WENIZnlMYzc3NTV5dExrVHBsRFhRLWlPbnNkWHBJNmg0MWpXWE5aM3M1aE4yZk1qN1djaDBiZmE0VE94X3Q1Z2c2TERwYk1INHR6RnBBMndaRzUyWEEyV3Q0dTR3djI?oc=5",
       "date": "Wed, 23 Sep 2026 10:49:11 GMT",
       "source": "All Israel News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Michael Rapaport",
-      "stance": "",
-      "title": "Koby Mandell Foundation celebrates 25 years with Michael Rapaport - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUUhsSldkNEtVb0FIX2FJQ0w0eUoxcWNrSzdibmkwbWcxbEpZcGFxbUlrc3BSdllxOEQ2Z1FQZ3ZYNld6ZU5HZnlCMnNrdnlLa05TX1FZSEo4bC1IMEFWZHJVTjVrYjVnSllQdjA4MHF2NFZ4TlpQWldEMXJsSEtaWXV2a25ENEhLUjRLeEVpbVZnakF5VklBa2tzUUpUdDdpcXlXUVBHVll1d9IBrwFBVV95cUxQS1FaSWg0RlczdXNEaEpUZGJkTUhJTkdOUTF6YTVSczBseWtXUlRXS0NWVndhbllwc0F6OFBJMWVtNXhOQW51SGMyWWRPeVJBSno5OHJqMUwyd2NsTElfdHRCYks1S0pZbEN3VzVBSkxzeTdobHNUcExaS2xaaDd3cnJyRzdwT2VRTEItV2NkUFZZMGZZb2tBcXpxeU44ODZTRDhBUHdlNGNWVjVkT2U4?oc=5",
-      "date": "Wed, 23 Sep 2026 10:46:13 GMT",
-      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -1029,60 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pOFMtalBnd3pqSDFzamlJYV84c1JUZncyS0JIOHdZRENWaVlRU1BZY05tbmFTV1lWSkIyTjRsZ2JMTHRzUFJMMVNQbmhfRm1jNWxJMEtzVWc4YjNsc1hOSEVDcFQ2bGJYak9BVmxWLTFNaEI5NWRWZzlB?oc=5",
       "date": "Wed, 16 Sep 2026 11:05:00 GMT",
       "source": "politico.eu",
-      "confidence": "high"
-    },
-    {
-      "entity": "Noa Tishby",
-      "stance": "",
-      "title": "Fatema Al Harbi on joining Noa Tishby’s campus tour to combat extremism in the Middle East - Jewish Insider",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWUydlVvN0cwZ2FLLUdpaW9BaENjamFTR3JmMTdvRXlicWZIRF9aY2NQcjZOa0xWZFdEaDVKUlVmZjdhOHRkSWVKTy00S3RGVi1Sa0lqM3ZyQ05yemoyVlpTR1NMTHZLVFQwNDRxaDZKOTQwVDJ3VnpiblNNTmdxQ1ZQNExiRXljOXJIa2M5M1pXUGt6STBjN3pKQjYwMnU5UG1ubk1B?oc=5",
-      "date": "Wed, 16 Sep 2026 08:37:58 GMT",
-      "source": "Jewish Insider",
-      "confidence": "high"
-    },
-    {
-      "entity": "Marjorie Taylor Greene",
-      "stance": "",
-      "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjJqNkY2czVDN2NNRmlrYy1JMVp0c0JHSWhzb2xHMGZiU0ZXbC1hWXA5RDAwVDlKdnAwTGx4Q3pGWEFYZUVONmZ1aUpvOUtjM2dva09sQkdKeG9QOXEwZnV5QWRESjNfOWRoOG9wY0pkWTlHdlVrSEM2S2tHaVRNZk9LQ3N4QTZFTzZYbmNsS2xZY05TY1FZa2IyVzJjN3BiVTBDd2E4bU5sVUhPUVHSAbMBQVVfeXFMT053UDB6bGZoOU1IUndxQ3NraGZEM0JJNkxQejlNUnRDZTFoRnNla3l3Y1BSTThQVkU4R09jN2FJSTB3YnRVMGloV096dnRpMmpfc2tHaGMyOU55UlVJWUhHM0pZcVBnNUkxYkRWWGNDbFZxQkJ6WkpIRzI4RW1RMm96Uk9wZXhmTGRwb1ZCODhzdlRnX0JCSUxIcVBHQ3pjQ3JzbU5KbXJxS0p4X2Z3cklES3c?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "Al Jazeera",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bill Maher",
-      "stance": "",
-      "title": "Ed Sheeran, Bill Maher, and the People Who Know Everything Except the History - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm1LOGxjTm9Xa3ZXYXlhV05NNDN1V0dGVnJyZm1XMDFtcmplWFZyUnI3TXlrRWZ5THc0YWhFdkd1SUpGT1ZjRWxGdjRPX0FBSDFRaW5hRFI0MklLU0J2ME5LVGFpSndkYUpDWFpNSllTNmFKaWhZcU1LU1RtZ0FLZEF3YTNvODJtZWRDd3pFQlhWdGJjSVVySmxwUV85eV9RMFhIOUw3OWpTSDVO?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bill Maher",
-      "stance": "",
-      "title": "Bill Maher rips Macklemore's Gaza stance, says celebrity 'moral confusion' is fueling antisemitism - New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVEJDVzIxckNFcC1LRDVTQU9qZjhnQ2JsWDNETl9MamZCQzI3cXVpRzBZRDV2dS10ZzA4MHZ1LXVTTVJVV3RHRmM0YlJTajNTQXFUX1doMUFMaWdCMmxXUV91Wk1DaWNVWC1SOUVfMS11R0hFbF9Fem5tT3hCeG9fSktoY3JkWDBRd3hXTl9RMVlHY0VIRXUxcTlubWFYbVk3QXF3R25mcGNxVjNfakhhOHZmelpNdGwxMm9FMTQ0d21aN0hvNEx5cGpHUQ?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "New York Post",
-      "confidence": "high"
-    },
-    {
-      "entity": "Greta Thunberg",
-      "stance": "",
-      "title": "Greta Thunberg tells Ed Sheeran the Palestinian people are the 'one victim here' - National News Desk",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQLW9SZWNwdGhfelpaRGxxWWlrdHZ1MTFFRU82NWZONGR4d1BDd0JaT3ZjWTN2aExPd1FLRDdPU0xVbEZ6dks1VmJ5SWhVLXIwdTNsamoxU2ZNWkJ5dzFxcnFnOERYeE16bE8yOUNTQTF5LWhsd05ncEhaemVGRURzOEZ0STF0WFZmaGhvcmd0TTNNYWJia0FoNFUyNjJvR1BEOENqRUZUR3J3a0xPUldoV3VNaHVDbGZldkd2dHgyOUl2LXBZSjExTEFWQkdyMjFnczNGWFRKRHoyWjFKYmI5c3JEbnJkb2lSdjVhclh1VTl0WWw5SmZhNVNYUGg?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "National News Desk",
-      "confidence": "high"
-    },
-    {
-      "entity": "Thomas Massie",
-      "stance": "",
-      "title": "Rep. Thomas Massie moves to impeach Defense Secretary Pete Hegseth over the Iran war - NPR",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSG9ZbWhwZ1VZQU1NZmRVQVVtLVpCd2JIdGVFbEZsdUVHZ2k1N29lVm8zT0h0enpPN3lLb2k4eGVGWERRVDdSLU94LVM2VDdFR2tCREt5UWlyNWtseks3YUJNR1pQX2FLTzcwQVJ2blJ3WWNKMDlXMlBwS3BVWnhHc0NzRHFiSnAyLWJUZXFvZE5Oay1qWmVvNXVwODV2VWRLYzI1VGZzRmU2SmJFcTltRWluM24wVkxxbmNLTzJyaVNTRzNQTWZv?oc=5",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "source": "NPR",
       "confidence": "high"
     }
   ]
