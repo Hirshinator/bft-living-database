@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01 18:46 UTC",
+  "generated": "2026-10-02 18:16 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 1165,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -12,6 +12,15 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWDBadE14VVB3Um5BSW8zSlpqSUpSOTJ5WmozWjNSWU42clkwNUNQMXc0bXZLUnRkRDVwam5CTndoajd6OUhveVFYSHE1TXdqRHZic281SVpJRHJHSGUxcUZ3dlN4X1BEZW5pSnItVVh6a2lMMzZfUEE0ay1hVk55cWlOMzFIdzlVcTRZ0gGQAUFVX3lxTFAyNHNlZG0ta1V3SmFJNnhZRDRWX3BaVl9YZlgtcHpYYmdSTXFxOWVXM1NEZjBQeFU0bHJIZ0NLY3h3UWJtMFdmVXJMN29MUEQ1QmljRFAybzdlNGhFR0tCRWxWOEFWaVluVkVlbFhiZnBFVGdUeDFlSEtkTlRyczdFZGVhS2ZsRFJ4NG51VkZYQw?oc=5",
       "date": "Wed, 30 Sep 2026 23:32:51 GMT",
       "source": "NewsNation",
+      "confidence": "high"
+    },
+    {
+      "entity": "The Free Press",
+      "stance": "",
+      "title": "Douglas Murray: Israel Is Conquering Its Enemies - The Free Press",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
+      "date": "Wed, 30 Sep 2026 20:01:45 GMT",
+      "source": "The Free Press",
       "confidence": "high"
     },
     {
@@ -51,12 +60,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Combat Antisemitism Movement (CAM)",
+      "stance": "pro",
+      "title": "'Global War Against Terrorism Is Not Over': CAM Calls Attempted Hijacking of FlyDubai Tel Aviv Flight a 'Wake-Up Call,' Urges Renewed Security Vigilance - Combat Antisemitism Movement",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOdUJCWnJsWmpfU2lGR2lOdTdCUWZIT2FlZGl6SXp4NUpXLW5BOGJLTUh2SWNhUEctcHpBLXFSUjJWY3Joa0JLVUdENENOd1h3UUxsQklSZms2NkN0Mm5VZ0FEdnVwcWJTcDExcjRiajV6aDYxQS05dW5HS0x0OWd1ZnFsZG1OdmNGYW5ZU0VMVHRTU093ZzhqY0FOb2FudXpfdmt6THVjb0Q5aXVldFpwX3loR1lPYUR5VkF5XzFnT2Y0M1liaURGNjVHT0p5eVhYNEV0d25HcnpTWHJTeVh2YW5sNzNwb0pHNDJYZ0pIME5iRFN3RVBFNE5NT0ZmSVA3Y1NIWlgzUlR2N052b3FEclVsVlNYUQ?oc=5",
+      "date": "Wed, 30 Sep 2026 17:12:35 GMT",
+      "source": "Combat Antisemitism Movement",
+      "confidence": "high"
+    },
+    {
       "entity": "John Fetterman",
       "stance": "",
       "title": "Fetterman Joins GOP to Block Effort to Expose Israeli Abuses in West Bank - Truthout",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenhHM0EyXzNESjF1c24zTlZEXzI2QzlrZGhIMzVFV2dDanN1bFYtclY0LUcyVW1URzV4UEt5UWlNNlRyTnJtQnV5clBpT3Q1My01S2lZY3hiNTYtbzBhd1MzdXpRcU92RXFNUzVDVkxhN2VrNWdRY3RvRERlRDN6X1VTVzlVb19VYjd3WmY4SHM2M252cmlJcTBCN09IT3psUnVVTXJqZw?oc=5",
       "date": "Wed, 30 Sep 2026 16:07:38 GMT",
       "source": "Truthout",
+      "confidence": "high"
+    },
+    {
+      "entity": "David Ellison",
+      "stance": "pro",
+      "title": "Being Clarissa Ward: The CNN Fixture on Gaza, Trump and Her Ellison-Era Future - The Hollywood Reporter",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSEZTWHVJNEY0a0I1VkZ4aXU4QmxHVmI2c2ltUGdvRzJiY2x5ZzBpQkdDTlNGWlZjdUtfeW81YjQ0bk9vTFA5NVF0dmd5VEFlQjctd2pUX0dfWTFPNW5iNU90MnN0VVFXSk0tNlNYLTU5SV9Na0o3bjlwOWVJWklSV01jTXBRcjlaVG44ZEd6eG9RcmZhQU5XQ1RvM0U2QTFTTHdjcERfOWNvXzdNTk00R1JmbzdtQQ?oc=5",
+      "date": "Wed, 30 Sep 2026 16:00:55 GMT",
+      "source": "The Hollywood Reporter",
       "confidence": "high"
     },
     {
@@ -84,6 +111,15 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTYXpJa29QT0xFcmp1WHVVR2EwYXdqMmMzLTdNUlBLU2FmMmVvQl9ieVhJd2FnR2xrQldJOE5NdE5KUjdJQXpMNUhoeFIxSkFOZGpudTJ1YUt1azNwakppS2NBVGlKZE1nVzhxb2Z0NmJybnpoYW14eEIwUzhVZE0?oc=5",
       "date": "Wed, 30 Sep 2026 14:52:00 GMT",
       "source": "Rock Hill Herald",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tucker Carlson",
+      "stance": "",
+      "title": "‘My perspective changes constantly’: Tucker Carlson on trust in media and the Iran war - Monocle",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSzFtcm9sNFJhbWpPczQ4UjBRUWRpTDhfdUxmMVRWX3BQNzBBbks1eDR6VEFrOWFLTlZKZURCVGp6eGtRLVpCc0lMQjE5dVdHdkhjWjN0czZ4VHlHQUE5LTRpTy1TVEI4dlRGVVZNNFJlUTFoajFYZzFzRC1EZklOQ181R0VVbENOMm9kWU1Ec1RpRjQ?oc=5",
+      "date": "Wed, 30 Sep 2026 14:41:12 GMT",
+      "source": "Monocle",
       "confidence": "high"
     },
     {
@@ -420,15 +456,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Tim Kaine",
-      "stance": "",
-      "title": "Kaine calls Iran war ‘triply illegal,’ says it should ‘end immediately’ - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PUUIwbHR4RzNENjJCV0Q5UEM4elVycFFmamVKcjdhaE96ZDg1V240ZUNBN1J2c2lhZm42c2xKSDlXc1dvWDlqMFRwV3pZVkxFejdsaUgwZWJCdXkwdV9mRWh4dG5oT1BKXzhwWEVpTTBjOW92VjZILdIBfkFVX3lxTFA1TDFNRkNjR050bDE2WXlkc0EwTzU4bElpaWFWWkFSYzJhWVBFV2tQZlljNE5GcUZmWUxHY3hhbzRGR21VSHhiZVloNGVEd1ROZDUwalRQdU02RFlDNWc5NTFBYm83bmVyd3NvOEY2UDBuSDlBUHFJMXhKTWFGZw?oc=5",
-      "date": "Wed, 23 Sep 2026 20:45:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
       "entity": "Hakeem Jeffries",
       "stance": "",
       "title": "House Minority Leader Jeffries Says High Diesel Costs Due to Iran War - C-SPAN",
@@ -624,6 +651,24 @@
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY0FSbzRPZWVWSGV6TTI1eW5UM21pTm9PX3hGWWU5M0ZYMHNBTUJWX2pNUU5hMkxReVJpN0M3alZ2N19manpIa2FqaGlBRk1kVENRX1RheTNZS1Y1dkhTcUI1ZUl4Vnh4cXJ3cHVRck1iZ2p1Y0FZRzhTekNkSnZNaV9CV3NscWdxTVZOU0U3aEU2M0FsbWE3RE05aHMzSjIxRTIxdmVBM0VodDN3dE1keWZ2S2ptZlpHQVh3dS1EcGtJdTRXdkEtSzM4ZkhqSERMeTM0RlZLdHVLc25JMnNGT1N6RUxuZWlndDhiU0Itd0xRR1dkWWhpYkFoWnhIa2xjSGd3dHFIRU5nblE?oc=5",
       "date": "Wed, 23 Sep 2026 08:19:00 GMT",
       "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
+      "entity": "Theo Von",
+      "stance": "",
+      "title": "Theo Von Makes His Gaza Stance Clear After Macklemore Fallout - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNnl3dXVKU2k3czJEVVFQdFNrZzN0aHg1RkVhRG5rbEpVR1lhcEN1YjJsaThVOUdWZGdJYWI5YmRMVlA4S3ZqOHhSVFFVR0lWazZ5QnFQYXZmYXV0Y2VocndRUWg2NFItY1VZQ0NQdDlMUXJkUmQyZW0yVWxSR2ZvQ05QVEFVZUh3aExydGNzZHlJLXZHeEFQTGlYMTg?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Yahoo",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tim Kaine",
+      "stance": "",
+      "title": "Kaine calls Iran war ‘triply illegal,’ says it should ‘end immediately’ - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PUUIwbHR4RzNENjJCV0Q5UEM4elVycFFmamVKcjdhaE96ZDg1V240ZUNBN1J2c2lhZm42c2xKSDlXc1dvWDlqMFRwV3pZVkxFejdsaUgwZWJCdXkwdV9mRWh4dG5oT1BKXzhwWEVpTTBjOW92VjZILdIBfkFVX3lxTFA1TDFNRkNjR050bDE2WXlkc0EwTzU4bElpaWFWWkFSYzJhWVBFV2tQZlljNE5GcUZmWUxHY3hhbzRGR21VSHhiZVloNGVEd1ROZDUwalRQdU02RFlDNWc5NTFBYm83bmVyd3NvOEY2UDBuSDlBUHFJMXhKTWFGZw?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -1038,51 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUlMaHlVMHdidGZjQmRkOURxRWtieFNsNjYzWTZteGxTa3FVcTE2c1VFWVVuVzFWM2Y5Q2ZMSUdZdzRMbkJ6T3kyZENfUXNjNmVVNVBKLXhNWVQ0R25tSzAzSl80OWJBWElCQ2o5RVFQNEg5UkowNUZmaEprcUVQUzMzUnY3dFozcVBxS1BiNGdYYVRtNWd0aDJSSVR0YTlyMTJZR2ZXRU1vN0tMZkJoWktRVFJkTGVoeTVUTU9n0gHDAUFVX3lxTE9teGZYZ3ZEN3JQVElzUFExYUNHYVhpX1dlcHU2NGtBVHNudTIxTDZmTEVuV1VyMUVUaTlsQ216OFU4RDd3bTZDX1FFRndqZGlTTFdLRVpwS1BpZTU2M1dtREMtYnFvWTNiV1FzdEJyTFVCM3NmU2xGWWpVcnZQSUtBVGVhRkQ1NU45czdXRTZsOEwxV2lsaWt2REtZY1dqdVdtQkZ0OGFUNWpXWlpKSDd5NXFnUFFKT3lEcTJscHJkb2NSSQ?oc=5",
       "date": "Wed, 16 Sep 2026 14:00:00 GMT",
       "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tucker Carlson",
-      "stance": "",
-      "title": "‘No precedent’: Tucker Carlson blasts proposed $2.8 billion arms sale to Israel | RISING - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXZSTnk5X0l5M0xLLVZwUE9TZ2JnUXNaVEo2dnBCWTRHQ2tGWFd1al9XbTBxaHo5bWJrN2c0ZFNodzFIQTEzZFRteDNHX3dQZXI4VGZ4Q3I2WFV4LTNpZVpCX1J2ZXV0dUo0RzNvWDdaQWp3WVZjU2dMOHNCTTJaUDlUaUQzX2tkeXFsdGVVNkdVTy1MSEJUWGlydXR0VWRmOVFWRW1JbU04bV9adUtQV3JUN0sza1Q5X1E?oc=5",
-      "date": "Wed, 16 Sep 2026 13:43:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Newsmax",
-      "stance": "",
-      "title": "Pope Leo: Mideast Conflict Strains Jewish-Christian Ties - Newsmax",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeTB5a0FIWE43Z21GZUw4Z0VUa3h3cjMyUVMtUk1qUVpCV2F5eGpDZVdfWnkxWTRlMmN6NFVZSjVHVHJkc3h4aEFTUGpQRzVfempmRWg3YzE3RlZQbk1SdmxLSXpuYk0wZ3JldEhJN2lmOUxfbnJGUXlxRHcwRVlEd1V1TjJROWxtUWc?oc=5",
-      "date": "Wed, 16 Sep 2026 12:55:41 GMT",
-      "source": "Newsmax",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elizabeth Warren",
-      "stance": "",
-      "title": "U.S. Senator Elizabeth Warren Says Trump’s War in Iran Cost Department of Defense (DoD) Nearly $40 Billion and Drove Nearly Half of Inflation, According to Congressional Budget Office (CBO) Report - goldrushcam.com",
-      "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOZHYwbEE2bjVlUmNRcVkyZnhVZmdXN0VRbTlLSzJadENnc2xaaDBzRDRxQ1U2UlB3dko1aV9QVVdQM0lGbTQ4blVLbnFlbWIxWWhkam0yRUlxdWU0Tk9XVmxXUktGR040M081WmJGMmJwTlg2ZlhrNk5fbkFJejRrMDRGR0pWV190eko5bXlrTi1vNzlEUmRyRG5sOERyWTBtQUdKYURqbU1NZHZKM0lQZlZsa2lWV0VPNGJnLWUyX1U5cTFSOXpHWlUwUF91QkFhRWJId1lvaUd1Y09seEJIMm91UUUzWG42UDljRzRQY25TaEU5N0plb2s4MXdSY0k2cmJhTHNzMVdvQWxwQUFzcktNdlBNeVB1cGI3ZDJJWlJXVXFLU2oxUHZGc0lYRTIxU0tOeVhfUy1nZFZ4bUNGTjVVYWl2dGhMYUQ5eTdKcmJ4eGxLaFU2eGhuMWZWak8xNXMzWFZKUW1QYmphcUJ5a2t4UFlWaFU?oc=5",
-      "date": "Wed, 16 Sep 2026 12:01:28 GMT",
-      "source": "goldrushcam.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "NewsNation",
-      "stance": "",
-      "title": "Trump set to send nearly $3B worth of bombs to Israel - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBscDVxbHJMVS1sOUZCQlk2YVIxQTMzYk41UFdBRF9EdVhQeGtlRk12VExjMFJ3UWJlcUM1Y2JzNWtyTTJQUEVKMWl3dkd2aFZGOTFQNkRFc3NRWUY4WFJ5aVYzY2l1cXlOYVVoSjEzNWtIVW9Ib0dV0gF8QVVfeXFMTjdNeW5sRTIyNVpzdHFBLTA1UVVmSjVjN3ZCY0tWRlJadGRwSHJlQ3lYRnNKVVVRczlfRktTWnF6dWdqWENyY3VrTjJubU9Bd1ZqbDhwY2xpLWNnNVRhODVhdVl2NzVLcnI4bE9tOUY3R2RNaTdEc0tSRi1kTw?oc=5",
-      "date": "Wed, 16 Sep 2026 11:11:50 GMT",
-      "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "JD Vance",
-      "stance": "",
-      "title": "JD Vance: US cannot be ‘subservient’ to Israel on Middle East policy - politico.eu",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pOFMtalBnd3pqSDFzamlJYV84c1JUZncyS0JIOHdZRENWaVlRU1BZY05tbmFTV1lWSkIyTjRsZ2JMTHRzUFJMMVNQbmhfRm1jNWxJMEtzVWc4YjNsc1hOSEVDcFQ2bGJYak9BVmxWLTFNaEI5NWRWZzlB?oc=5",
-      "date": "Wed, 16 Sep 2026 11:05:00 GMT",
-      "source": "politico.eu",
       "confidence": "high"
     }
   ]
