@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02 18:16 UTC",
+  "generated": "2026-10-03 17:03 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 165,
+  "cursor": 415,
   "count": 120,
   "mentions": [
     {
@@ -138,6 +138,15 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80TGQ4U0JDUWs0dUFLQ01fTGl1WG9xOWllS3JfMUswZmk2cnNmUnluWEVFN0xFUkczSEV5UXRYekotQmlJendfaVpBM3lsNkVtb3g2OXE5cXRwT2tuOTlzWnktdlBnVUhnYXc?oc=5",
       "date": "Wed, 30 Sep 2026 13:18:41 GMT",
       "source": "The Jerusalem Post",
+      "confidence": "high"
+    },
+    {
+      "entity": "All Israel News",
+      "stance": "",
+      "title": "‘Second 9/11 averted’: Pilot tries to hijack Israel-bound flight from Dubai in attempted terror attack - All Israel News",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOF9xMGs1dVA3N050c3RXUV84alhId0tzc3paZGZUcV8yNGVwcTZhQWVYd1JzOUU1bUxHdjJhaDdMNlZldWRQQ3RHdXBvU1pVYWFkQUU5aHpJOWVfd0Y3VnpWUUxMOVo0T3hKTEhfaWN6UlB5TmZSU0R4LXM4NkNzUm44TV91SnlZcFpxcFdEbWlMRGVjX0F1NlZqV3J3RVVIM00tZ29tQS1JM1RzcHExbktnanotS0wzZnlnQWFLb01TS2MxRWhJOU5lS0d1Z01l?oc=5",
+      "date": "Wed, 30 Sep 2026 10:36:52 GMT",
+      "source": "All Israel News",
       "confidence": "high"
     },
     {
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNXdEWXc5b3cyOV9qenNoUEpjZGdnWkM3TE1qTmlQVWF1UjhHNi1INVFZYkticHNRWlF2b1VDQk5jOU11SGVkYjRBNEUxVGJpRmVWUmlXYnctcnowUnJ3WFI0R3hJR3NDN05UekR3M2E1djR1U2ZHajdZTVVBbU9yanB1U1lJMmd3dGRHRGc0SmdXMEhBbVZtV1dpWXlQR21qMDItMGhGV080SE5vZjFCSVZQVTVWNU9xaVRSVw?oc=5",
       "date": "Wed, 16 Sep 2026 14:30:05 GMT",
       "source": "Middle East Eye",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hakeem Jeffries",
-      "stance": "",
-      "title": "Watch: Jeffries gives remarks amid Iran war, midterm pressure - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUlMaHlVMHdidGZjQmRkOURxRWtieFNsNjYzWTZteGxTa3FVcTE2c1VFWVVuVzFWM2Y5Q2ZMSUdZdzRMbkJ6T3kyZENfUXNjNmVVNVBKLXhNWVQ0R25tSzAzSl80OWJBWElCQ2o5RVFQNEg5UkowNUZmaEprcUVQUzMzUnY3dFozcVBxS1BiNGdYYVRtNWd0aDJSSVR0YTlyMTJZR2ZXRU1vN0tMZkJoWktRVFJkTGVoeTVUTU9n0gHDAUFVX3lxTE9teGZYZ3ZEN3JQVElzUFExYUNHYVhpX1dlcHU2NGtBVHNudTIxTDZmTEVuV1VyMUVUaTlsQ216OFU4RDd3bTZDX1FFRndqZGlTTFdLRVpwS1BpZTU2M1dtREMtYnFvWTNiV1FzdEJyTFVCM3NmU2xGWWpVcnZQSUtBVGVhRkQ1NU45czdXRTZsOEwxV2lsaWt2REtZY1dqdVdtQkZ0OGFUNWpXWlpKSDd5NXFnUFFKT3lEcTJscHJkb2NSSQ?oc=5",
-      "date": "Wed, 16 Sep 2026 14:00:00 GMT",
-      "source": "The Hill",
       "confidence": "high"
     }
   ]
