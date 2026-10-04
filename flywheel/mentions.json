@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-03 17:03 UTC",
+  "generated": "2026-10-04 17:22 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -12,6 +12,33 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWDBadE14VVB3Um5BSW8zSlpqSUpSOTJ5WmozWjNSWU42clkwNUNQMXc0bXZLUnRkRDVwam5CTndoajd6OUhveVFYSHE1TXdqRHZic281SVpJRHJHSGUxcUZ3dlN4X1BEZW5pSnItVVh6a2lMMzZfUEE0ay1hVk55cWlOMzFIdzlVcTRZ0gGQAUFVX3lxTFAyNHNlZG0ta1V3SmFJNnhZRDRWX3BaVl9YZlgtcHpYYmdSTXFxOWVXM1NEZjBQeFU0bHJIZ0NLY3h3UWJtMFdmVXJMN29MUEQ1QmljRFAybzdlNGhFR0tCRWxWOEFWaVluVkVlbFhiZnBFVGdUeDFlSEtkTlRyczdFZGVhS2ZsRFJ4NG51VkZYQw?oc=5",
       "date": "Wed, 30 Sep 2026 23:32:51 GMT",
       "source": "NewsNation",
+      "confidence": "high"
+    },
+    {
+      "entity": "Clay Travis",
+      "stance": "",
+      "title": "They Almost Did Another 9/11 — Israel-Bound Plane Attack Foiled Midair! - The Clay Travis & Buck Sexton Show",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbTNOb0poaGNOdEFLcFlUS0RIYk9KbEZieUF2SU80Mk5RUlNTWmxKdnZDRkZJbF9VRFNpMHpjVDl4dmkxelRlcGd0b2FhdmdSZkp5WHVkU0p4X19sZElud3R3Z1JkS2xNT3lEU0JTVEwyaGpHeVlzTGdoaXhXaWlSdkhxWnhPdTQ5NThTZ2JwUm84LTl3dkdnbllfeFQ?oc=5",
+      "date": "Wed, 30 Sep 2026 23:08:46 GMT",
+      "source": "The Clay Travis & Buck Sexton Show",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bruce Blakeman",
+      "stance": "",
+      "title": "Exclusive | Blakeman joins Jewish leaders in opposing Hochul-backed city takeover of historic NYC hospital - nypost.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbnBfc2Q1d2hlMl80R0U3ZUdIRVpjSFhFeXp5alBWTGJFU2c5OTZGWkVTbkJrbVJFOEZyd1dNWjZEMUJDWGFzZmJZS2F2REF1NEg5aEJzUjJrR0VwX1JPWEFWNm81OFRzRVRwc3NaUWJuWEk4bVZRNWxPWUdWNjdPUWFlT09vTVZMUXF2dGdHYlJWTnMzSnZidDJmYnBPMnRrRmpXbkNfZHBHZw?oc=5",
+      "date": "Wed, 30 Sep 2026 22:15:00 GMT",
+      "source": "nypost.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Douglas Murray",
+      "stance": "",
+      "title": "Douglas Murray: Israel Is Conquering Its Enemies - thefp.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
+      "date": "Wed, 30 Sep 2026 20:01:45 GMT",
+      "source": "thefp.com",
       "confidence": "high"
     },
     {
@@ -51,6 +78,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Candace Owens",
+      "stance": "",
+      "title": "Candace Owens ‘affair’ row: Laura Loomer reacts to ‘gay’ allegations as Israel angle fuels dispute | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM0JYUUZDOXRjWnJFTTdobWFKU3VpeGVXcERRSDlYYUdPZ2VJaUY0Q0ctT2d0RE1hVERwWm1pRmg2TGI0YkpMZ09FT2pucTB6M2VpLWJRaWU5RzZnLWdQTUFOQVRYZzFwUmhadWM0TlM0WUMwRGxBUmE2c1dlSURjTlBWMVJybzRKU21nRW1CWFhUbmQ2WFU2SkhqY2Vkdm9NUFZJWlNSMko2bUdpdzZMeWxLMTJmMktFWVh6N1VjdlpSbHNXSl9vNmo1SzZtdFpKa0VmZ3FJZ3BPd3dGbHRTZEZNemJVZ2FOTUd2Yl82SjlVSFdXM2JR0gH8AUFVX3lxTE9kUk14SHlaXzQ2d21HaFZPLXNjemphSXVFU0stcUpXLWxsZEVKWFBzZDJXN1g4VWwyN0VEa0k4ZjI5SGhmbnJ1b1JmTXZxb1FYcTRlMHBrVTlZSko3akdmSlNhaF80cTJHRzM3aWt2V1NmejRETXRIVFprUHRlbkRDR2JZUmh0VlBuYk8zd0J4ZFhOajFpaWNQLWkzMWNUaExjWWNxWTRsbmlvOW16Rzk0Z1JrRXduQkRPZzI2emVwdFZTdFl2eWcwV3JnODVTaUhjMkVSZVZQMFY1Z1hMUnNUNHpQbnlzVEE0SHJBRFV4MTlfWkduLUlhX1RmMw?oc=5",
+      "date": "Wed, 30 Sep 2026 17:35:01 GMT",
+      "source": "Hindustan Times",
+      "confidence": "high"
+    },
+    {
       "entity": "Laura Loomer",
       "stance": "",
       "title": "Candace Owens ‘affair’ row: Laura Loomer reacts to ‘gay’ allegations as Israel angle fuels dispute | Hindustan Times - Hindustan Times",
@@ -66,6 +102,15 @@
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOdUJCWnJsWmpfU2lGR2lOdTdCUWZIT2FlZGl6SXp4NUpXLW5BOGJLTUh2SWNhUEctcHpBLXFSUjJWY3Joa0JLVUdENENOd1h3UUxsQklSZms2NkN0Mm5VZ0FEdnVwcWJTcDExcjRiajV6aDYxQS05dW5HS0x0OWd1ZnFsZG1OdmNGYW5ZU0VMVHRTU093ZzhqY0FOb2FudXpfdmt6THVjb0Q5aXVldFpwX3loR1lPYUR5VkF5XzFnT2Y0M1liaURGNjVHT0p5eVhYNEV0d25HcnpTWHJTeVh2YW5sNzNwb0pHNDJYZ0pIME5iRFN3RVBFNE5NT0ZmSVA3Y1NIWlgzUlR2N052b3FEclVsVlNYUQ?oc=5",
       "date": "Wed, 30 Sep 2026 17:12:35 GMT",
       "source": "Combat Antisemitism Movement",
+      "confidence": "high"
+    },
+    {
+      "entity": "Brian Kilmeade",
+      "stance": "",
+      "title": "Watch Brian Kilmeade reveals details of attempted hijacking on flight to Israel - The Brian Kilmeade Show - FOX One",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV2daazJDUUFpM0RyaEt0SnM1ZzdBQVNvM0dPNjN0bGFUalZvTjNUYU5PcFNySVdfYXd0RjdITmRuNDZJdDJlTnBLMU1Tam00WEdxTWNwUk1ZMjFvSWZqYkFKMFMybUZGMEJjOVlQNl9VR3laVkM1QnZKV004Y1JmQkM5c3hpTWtQLXZma19mMHNoVjNiYXdkY1hxeGFIdEFQTW1HNkJzZUlWV0I3UWpkZ0xvR1dLOS13ZmJaeWZiaUhQM28?oc=5",
+      "date": "Wed, 30 Sep 2026 16:42:15 GMT",
+      "source": "FOX One",
       "confidence": "high"
     },
     {
@@ -102,6 +147,33 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SekJqYXlhSVg5WnJSOHFmN1I5d3NXNTdCcXRodUh3WEpXT1dCT0V1d1NmaFk1TEtqby1FMTdmTUhTZHVIclZabUVrYnZPN1lBNFNJSHlBODU4MTV1WGROeQ?oc=5",
       "date": "Wed, 30 Sep 2026 15:26:57 GMT",
       "source": "louisianaradionetwork.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Buck Sexton",
+      "stance": "",
+      "title": "Hour 1 - Israel's \"Let's Roll\" Moment | Newsradio 600 KOGO | The Clay Travis and Buck Sexton Show - kogo.iheart.com",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOT3NvQ2lzcWFDcWhUdDRibjYyd214VXZxaURkajc4ekJBazdKT2R4M2Fwak9mMXBvdlhUQXctMlpOZ1FZRWVkT2ZZczNIUzFjWWUyb2hVVmdUR0FFN05VNkZoY0JoaXF1V01Zemo2cnhzdmtvYnNkdU1ib1BZNEEwaDJPR05sLThNTlJ4Wmp2N3hBSC1Cd09UTUZfVGtHcm12akZEMUthUnNyQXI3Rlk1YWNXdXlma1p3aGZuOE9zNGdEUm1VTDllUTVFVGdQR3VWQ09vLWl3aGxPY0hRaGhQX1BSTkNUdw?oc=5",
+      "date": "Wed, 30 Sep 2026 15:25:00 GMT",
+      "source": "kogo.iheart.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Clay Travis",
+      "stance": "",
+      "title": "Hour 1 - Israel's \"Let's Roll\" Moment | Newsradio 600 KOGO | The Clay Travis and Buck Sexton Show - kogo.iheart.com",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOT3NvQ2lzcWFDcWhUdDRibjYyd214VXZxaURkajc4ekJBazdKT2R4M2Fwak9mMXBvdlhUQXctMlpOZ1FZRWVkT2ZZczNIUzFjWWUyb2hVVmdUR0FFN05VNkZoY0JoaXF1V01Zemo2cnhzdmtvYnNkdU1ib1BZNEEwaDJPR05sLThNTlJ4Wmp2N3hBSC1Cd09UTUZfVGtHcm12akZEMUthUnNyQXI3Rlk1YWNXdXlma1p3aGZuOE9zNGdEUm1VTDllUTVFVGdQR3VWQ09vLWl3aGxPY0hRaGhQX1BSTkNUdw?oc=5",
+      "date": "Wed, 30 Sep 2026 15:25:00 GMT",
+      "source": "kogo.iheart.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ben Shapiro",
+      "stance": "",
+      "title": "‘He’s resigning?’: Ben Shapiro slams Mamdani after he announces plan to fight antisemitism | RISING - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVEtJdmlac3RWUkJRZ3AtbG5ObXcxUW5YUHB0UXZBWW9uby1qRG1fck5MWVR4ZWVILVZDSXU2Y0NZbUF6VXBCdjAycXhoQ1VQendUNnpPd0FsNFEwUjN5c2VRQUxUa24zeGZjWGtrMG1KYWx1UkwySDZKRWJWOGhfYzA1QWUwZFc2QThPSVVRZmxuV2NIQWFlZmJSdEpJUUpjc0I3RXJOeS11ZkppRDVpQl9NQnJiSXdtbURXSjJWc2FDQlRRdHRmZ2NHNk9RSGNLZHBaSTA1WlBUdFdDeTFPWlNCSm9sWmVJU1hN?oc=5",
+      "date": "Wed, 30 Sep 2026 14:54:00 GMT",
+      "source": "The Hill",
       "confidence": "high"
     },
     {
@@ -156,6 +228,15 @@
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXNoWEdkeDBTcklQd1hyVUhuMUw4eXJzRi1TMWdQQUFycEhydWxkSzBIRlBUTDh6X2RRd3BVcURDNWFqU3UxTWUxTFRqUTE5eGhaSEFrNDdFeXJLTjFjTFV0dVBYMlJfc0dEejNVcjItNDBobWlCdkt6SWFLTVRNbDVyZTNLc1h3OUFUbFVyV2hqbGdObjAzOUI2Rnc2THFqa3VjckxlOVNfRFdDa0VMM24tQ3pYbzhTUV9Db1B1VGNaNmE3a2doZC1B?oc=5",
       "date": "Wed, 30 Sep 2026 10:24:36 GMT",
       "source": "Jewish Telegraphic Agency",
+      "confidence": "high"
+    },
+    {
+      "entity": "Elizabeth Warren",
+      "stance": "",
+      "title": "Trump's New AI-Powered Government Website Says Iran War Drove Up Gas Prices — Elizabeth Warren Says 'Even - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWlhjWHRGNzNGV3VEYy1NQWJTQXdRTU52UjhKNEF6cEVkbndDWnhyTzMxSWd1cWhpM01tY19ET3FqVVNDSXQ2ME9tUW5EQ0hYck1vN2lRN2lXeFRkbVZ5ZFBtTXBaMGJuYmpkY2M2MS0tVDFURFpEN1IwNDY2VmN1ZWs3cFVhaVpVNURiaHF4UkJET2htYWR3RUE0Q3pCQXFsUDhETnNkaHE5N2RGcU5pWWl6cC1kRDZLUjZGRTRMLWg5QTUyQ1QxZHVsb0FLVy1LNEZDV2xaSzFSdkd0LTk0NXFWN1pBSzVGU0pIUEJZVThjdDl4alZHQ0RvWm1CZ0xUbHdr?oc=5",
+      "date": "Wed, 30 Sep 2026 10:00:33 GMT",
+      "source": "Benzinga",
       "confidence": "high"
     },
     {
@@ -447,21 +528,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Bruce Pearl",
-      "stance": "",
-      "title": "Ex-Auburn coach Bruce Pearl hails Robert Kraft as a hero for banning Macklemore over antisemitic rants - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2NaZ2xvWlBISU1BTDh5MlJzZlJDaTNfNG1FbEJGWjZfMU1fT3hYVm1fSVoxVkVuMGRDSXYzZWdvV3hpRlBLbGJzY0dVU2hPdTFMSXhxMEIwSTBOZkQ2ZzVQSVZrWEkxR0FPVlNxVFNGeVd0UG5HNG1NdTlLU2hqZTdHbUVsT0JPdFBvQXNZdVZSRDVTdGFkamdQc2V5UUdJdVZwOVdseGlTZEZ3RGFSVm9YWUJGeGZYMzVfUEMyc1B6Z1NCcEE?oc=5",
-      "date": "Wed, 23 Sep 2026 21:51:27 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
       "entity": "Mike Johnson",
       "stance": "",
       "title": "Johnson calls for ‘resolution’ of Iran war - The Hill",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXZvbHJlMEo3aWpRSjBjeXVQVmFMcm1nanFmV2JTLXp0N2g3bGsybzlIQ0JJeWoyTUtHZEZUbUVKMmFLal9VWGtuYUhrWFJBU2tTMl9NTGpETThxeC1CLWIzSENqRFFELUJ3c2ZiUEl4RkZHT05LSHh5eDFQbTk2a3VB0gGHAUFVX3lxTE1hWng1WWN4TVJLRnp4bHFtLTI0cGxYXzl6Y01waWoyN1NUYnZCTW9LMEVaMEtpNXZoVWxHZFNxcUFXS0ZwUXhZUnJkS3V1SWxZaTBpXzN3Ql9zUXVwU1YzblR5TUxsOWxSZGMtSnFvRlIzNjdyNVNDNXRuRXdaai13V3F5RF9Kbw?oc=5",
       "date": "Wed, 23 Sep 2026 21:23:00 GMT",
       "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hakeem Jeffries",
+      "stance": "",
+      "title": "House Minority Leader Jeffries Says High Diesel Costs Due to Iran War - c-span.org",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNGNvZ3JzR0lSSWU0dEpHX1FlclIwbU1zTkg0RzE0b1ZhZV9FRVc5aGk4dVhHX3pVY3VPTmJaeXcwQ2hwTXVpN3c3VW9hM3YtdzFTSlAxWjNMbDJmUGllWk82eHg1WVVJc2NXa0pmeTBqS1JsZWx3Ql9OdGU3elI0UXlSWUNuVlRBdkNIRWpVWWszMFZTTWdxaDdEWG1rRDB4VmYxRzFJTTBHSGN3QVdLOVd6Nm1MR1pfTGdmemV3?oc=5",
+      "date": "Wed, 23 Sep 2026 20:35:49 GMT",
+      "source": "c-span.org",
       "confidence": "high"
     },
     {
@@ -489,15 +570,6 @@
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWRkNGNYcEtjRnBjUHJIcVRvSVVpcGw4enJlYXNSVUtOOGdRejJyRko4YTlxYmdfcFExcC1WUmJnOTk3SW10VUlncUl6dmRNbmRTc0xRbWVzY1M3aV9yd3FNLXA0eW9JdTBsODJxbmx5SDh6N19aOWVPRmU3eTZVVmFJdEhBMHdjQlVvWlFLQkI0aFI0MGJyTQ?oc=5",
       "date": "Wed, 23 Sep 2026 20:14:04 GMT",
       "source": "EnergyNow.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gal Gadot",
-      "stance": "",
-      "title": "Gal Gadot to distribute $3 million to Israeli mental health orgs as part of Genesis Prize honors - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOGNZTUstWmMzaEFfREFWNlZZd0VwZ2Q1d180Q0YwQzF0eXlsMURQSmlLVUtwX3A3SEcyRWJIVGNwSzRkcldOa1dlczFENEc0OHRxV1RGN01rRTJnc3E2clhkcV8tajN2eE15cTEybHpQSzFwaHBlRVJiekVwQm04LWtyN2VvRTlIek8zaHNkWXZWZE1pRnhUNTZqbTlBMm5vMkhYaTE5NWpscmotM1lnVTF1ZXpCVjBTVUJSeEp0WHBxV0xkVjdLeHo2dFRPQm5GdkYxSUdJNGE?oc=5",
-      "date": "Wed, 23 Sep 2026 19:46:00 GMT",
-      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -584,6 +656,15 @@
     {
       "entity": "Eric Schmitt",
       "stance": "",
+      "title": "Sen. Eric Schmitt (R-MO) Speaks to Reporters on Iran War - c-span.org",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQell1dW5nWmIxZGpTNTZSZEhDTlhaYUg5eGx1LWV1bGJIUlJnQVIxY2tzR3pDVDN3SlF1SkZja3J3TFNzeUNTeUxUaktMT2dNSlUwMEI0VG1qVzF6ZGFhb0t6MkowMUxtLU1oNlRRM3habTJnYzR5X05DTWd5U2h4QnFSQ3NPOFRlNF9BT0J6dlVacUpLdldkSko4NmxNNmhmLWc2WXB1b1JZczA?oc=5",
+      "date": "Wed, 23 Sep 2026 13:44:44 GMT",
+      "source": "c-span.org",
+      "confidence": "high"
+    },
+    {
+      "entity": "Eric Schmitt",
+      "stance": "",
       "title": "Sen. Eric Schmitt (R-MO) Speaks to Reporters on Iran War - C-SPAN",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQell1dW5nWmIxZGpTNTZSZEhDTlhaYUg5eGx1LWV1bGJIUlJnQVIxY2tzR3pDVDN3SlF1SkZja3J3TFNzeUNTeUxUaktMT2dNSlUwMEI0VG1qVzF6ZGFhb0t6MkowMUxtLU1oNlRRM3habTJnYzR5X05DTWd5U2h4QnFSQ3NPOFRlNF9BT0J6dlVacUpLdldkSko4NmxNNmhmLWc2WXB1b1JZczA?oc=5",
       "date": "Wed, 23 Sep 2026 13:44:44 GMT",
@@ -615,15 +696,6 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZHp2LWI2Yk1EUHJMM2pJWXJjU3pyYmlRSkF6VFh4b2ZocnV0X2hUQmVkTXFBVzFVaUpBOXlLaDFGZl9MMnZ4QjdZUmJuX0ZiQTMyMUVrOFI2VWlyQjFONllqTlAyVlAycGVSbkoxcExFUnJSOFVWckcyLWhrWE9HVlB1OTVBb1NkbU14UzBPT18yc3Bhc0dkTkN1Y1NTOEJuNHdiVGh6M2w0b2ZiSkxpNGdFTGJ6dnJqdlJFdzhoSUZ3YVlIR3fSAdoBQVVfeXFMTjRWQVkzSk85NmdZcFB1S1FQNlQtNEF1ZG5PRlJDU0dFV3VSZlZwVFpmdi00ZkZ0VGlzQlNIZThTV1dJdHlBR3FWY0pJcW1WY2RoUERRQ0cyM3M3d3oybmhPX3E5RVhsOTN3Z0dlSHNTRm9xVmNVQWtpWE5BSzBIVUFCa290djRpTXF1OFF0MFZBa0wzd1NkcmtPR2t0RmlKb0VhSTV1Q3NBOHhpTWFWYldCRzNabzd5QlRBcGo4cjNHNkJSdVd2WTN1eEVwcVVIZjlEVlFSd0czMUE?oc=5",
       "date": "Wed, 23 Sep 2026 12:13:00 GMT",
       "source": "AL.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elizabeth Pipko",
-      "stance": "",
-      "title": "Elizabeth Pipko reacts to President Trump's UN warnings to Iran - Fox Business",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iQWd5Qk5sTlZyQWZwZHNacG1GUkJ4cEZGd19EX1Nyb1ZhRFZfc3dxTnpxNjBucDZOZWlmNnRpN1lHRHJfV2F3dnJaQkxsc2t1WVZQLWVmOFd1MWM?oc=5",
-      "date": "Wed, 23 Sep 2026 12:09:02 GMT",
-      "source": "Fox Business",
       "confidence": "high"
     },
     {
@@ -660,6 +732,33 @@
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY0FSbzRPZWVWSGV6TTI1eW5UM21pTm9PX3hGWWU5M0ZYMHNBTUJWX2pNUU5hMkxReVJpN0M3alZ2N19manpIa2FqaGlBRk1kVENRX1RheTNZS1Y1dkhTcUI1ZUl4Vnh4cXJ3cHVRck1iZ2p1Y0FZRzhTekNkSnZNaV9CV3NscWdxTVZOU0U3aEU2M0FsbWE3RE05aHMzSjIxRTIxdmVBM0VodDN3dE1keWZ2S2ptZlpHQVh3dS1EcGtJdTRXdkEtSzM4ZkhqSERMeTM0RlZLdHVLc25JMnNGT1N6RUxuZWlndDhiU0Itd0xRR1dkWWhpYkFoWnhIa2xjSGd3dHFIRU5nblE?oc=5",
       "date": "Wed, 23 Sep 2026 08:19:00 GMT",
       "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
+      "entity": "Bruce Pearl",
+      "stance": "",
+      "title": "Ex-Auburn coach Bruce Pearl hails Robert Kraft as a hero for banning Macklemore over antisemitic rants - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2NaZ2xvWlBISU1BTDh5MlJzZlJDaTNfNG1FbEJGWjZfMU1fT3hYVm1fSVoxVkVuMGRDSXYzZWdvV3hpRlBLbGJzY0dVU2hPdTFMSXhxMEIwSTBOZkQ2ZzVQSVZrWEkxR0FPVlNxVFNGeVd0UG5HNG1NdTlLU2hqZTdHbUVsT0JPdFBvQXNZdVZSRDVTdGFkamdQc2V5UUdJdVZwOVdseGlTZEZ3RGFSVm9YWUJGeGZYMzVfUEMyc1B6Z1NCcEE?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Elizabeth Pipko",
+      "stance": "",
+      "title": "Elizabeth Pipko reacts to President Trump's UN warnings to Iran - Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iQWd5Qk5sTlZyQWZwZHNacG1GUkJ4cEZGd19EX1Nyb1ZhRFZfc3dxTnpxNjBucDZOZWlmNnRpN1lHRHJfV2F3dnJaQkxsc2t1WVZQLWVmOFd1MWM?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Fox Business",
+      "confidence": "high"
+    },
+    {
+      "entity": "Gal Gadot",
+      "stance": "",
+      "title": "Gal Gadot to distribute $3 million to Israeli mental health orgs as part of Genesis Prize honors - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOGNZTUstWmMzaEFfREFWNlZZd0VwZ2Q1d180Q0YwQzF0eXlsMURQSmlLVUtwX3A3SEcyRWJIVGNwSzRkcldOa1dlczFENEc0OHRxV1RGN01rRTJnc3E2clhkcV8tajN2eE15cTEybHpQSzFwaHBlRVJiekVwQm04LWtyN2VvRTlIek8zaHNkWXZWZE1pRnhUNTZqbTlBMm5vMkhYaTE5NWpscmotM1lnVTF1ZXpCVjBTVUJSeEp0WHBxV0xkVjdLeHo2dFRPQm5GdkYxSUdJNGE?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -984,105 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFVUVHZSYzBxVk0zSTE3SVF3OTd1eDh0UkV0QnhOMlNGTkh2aVFtQ2dfQWRmdXNBNUxjVlR6eXM3ODZUR0pvN1ZFeUtuSDFFdDFrM3paZnhuZHJibkE0dVY4eFV5ZmxiSldXTE5LakZDVXFrcGhpaGpNeHE2TFR5TXdlekdlWmVVLWd6TU8zSXdDTm03aW1aLVBfamNEdDVxeEhXQ3dpdTQzWXpyb0dWUXNFVHBSa0ZMN2ZsemJ4SFZvSlgycXN4OXZFSmJNS1VMY1dj?oc=5",
       "date": "Wed, 16 Sep 2026 21:56:00 GMT",
       "source": "cbs19news.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Caroline Shinkle",
-      "stance": "neutral",
-      "title": "Why NYC needs Caroline Shinkle now more than ever for Congressional District 12 - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV0FpNEY5MlNGVGo0Uk0tWWVDQkRweHl2dXNyU0JnSmdhME0yQlBuQm56a1dlckVVa3B5RDUyNmpLbGpfSE1HSHFNbmo1N3dNTkxaUXVVOVJSamJlTFQyNk9Mcjk0R2R2alZKTktRSEZlazY0a1ctUHoyY19rOUZhY0otLVZNNmhXX3BlMnN2S0tnc1BGTFR2azdZWHBCajkwdlNMUGdzVUMwbEhGQ1R4TndR?oc=5",
-      "date": "Wed, 16 Sep 2026 19:24:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
-      "entity": "Babylon Bee",
-      "stance": "",
-      "title": "Macklemore Performs Concert In Gaza And Oh No! They've Thrown Him Off A Roof - babylonbee.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNblV2NFBTdGVlbnpKTU9SdXZBcEE0ek83SWRqZW1BUXRpUS1NTkJRSUZXWE4wajBqTndDQUxpWFJCeGJNNWhqazJmNGk5cFVCVVNYUkNTSXE4QW1mLXNDNWVQZjVxYjJTYVpEVzdPaF9xZGtfQzhnNXByNHlEcmx0alg0bWJ0bGg1RUxhLVdUc3ZfRERMSXlma2dTSGhuUk8zS0VYbA?oc=5",
-      "date": "Wed, 16 Sep 2026 16:57:39 GMT",
-      "source": "babylonbee.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ben Ferguson",
-      "stance": "",
-      "title": "Watch Ben Ferguson calls out artists boycotting tour over Macklemore anti-Israel rant - The Faulkner Focus - FOX One",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUWlMN1BCWmtOeUg1bFZrYjBIb1cwM0ZoTGhmSHVjc3VuTDJ4ZU10ZmFQRGY5MjhMaWFDSnF4S01jdXJmc1NZX0dnVndqVC1rNTdGSlNPbU40TVd4bFBPZGRaX0tzUDd5djFkaV9MSjhzNzlOLTVXVE04Q2ZsN1BUQURSdDhnLXBaQkk1cFBjQVEtVmYzQS02aFNMMUJtSDRuZW53NXB0b3Nod255bmU3T0lHbjBRM19XajFreWZ1aUZIdW9zOS1Dc3ptcw?oc=5",
-      "date": "Wed, 16 Sep 2026 16:53:44 GMT",
-      "source": "FOX One",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ben Ferguson",
-      "stance": "",
-      "title": "Watch Ben Ferguson calls out artists boycotting tour over Macklemore anti-Israel rant - The Faulkner Focus - fox.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUWlMN1BCWmtOeUg1bFZrYjBIb1cwM0ZoTGhmSHVjc3VuTDJ4ZU10ZmFQRGY5MjhMaWFDSnF4S01jdXJmc1NZX0dnVndqVC1rNTdGSlNPbU40TVd4bFBPZGRaX0tzUDd5djFkaV9MSjhzNzlOLTVXVE04Q2ZsN1BUQURSdDhnLXBaQkk1cFBjQVEtVmYzQS02aFNMMUJtSDRuZW53NXB0b3Nod255bmU3T0lHbjBRM19XajFreWZ1aUZIdW9zOS1Dc3ptcw?oc=5",
-      "date": "Wed, 16 Sep 2026 16:53:44 GMT",
-      "source": "fox.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Greta Thunberg",
-      "stance": "",
-      "title": "Greta Thunberg leads pro-Palestinian backlash against Ed Sheeran - The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E1LWxUR2RpUmF2YURBNkN3V3FKcVE0Tng3bVZVSURQWVdGb0FEbHh1eUZCQ2pQUmhPTElfYk9GLWtxbXE4b3VXcWlycUx3WnNYWU51c2s5S3VFaGcxOGRHOElkQ3EtM25iZzFfdVBhVDV6eGN3LWIxbGllX1FMREE2VDJ1X2JSZUoxdG5DSERkSWRIMnpZeTBfMkpFYldCYkVWVEFYY0J2UQ?oc=5",
-      "date": "Wed, 16 Sep 2026 16:42:00 GMT",
-      "source": "The Telegraph",
-      "confidence": "high"
-    },
-    {
-      "entity": "Greta Thunberg",
-      "stance": "",
-      "title": "Greta Thunberg tells Ed Sheeran the Palestinian people are the 'one victim here' - KEYE",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUFNLWUUxMmVOcWNrM2toSlJqV0VEeTRDOE0yZnl6aUd6MDFPRzZwMnlWbkJKZFI5SHJ5ek9SRDJCaGMxY1pENm9GZ0ZlZEgyNkpqSnQ0RXZmLXpqdGlaR0tQamF0WWVQS1FtV2JMbENEZG1KNVc5bkJZMy04bFVTRnpCTkhPU3NSMzZIb25SSE9QRkttRWRGXzdZSlIwR3lTY1NRd2U1VWxpWDBoWGwxSC1QZFgtVVJXVzlFWC1tX0s4NTZIbVZfeFVNWkNOQUN2THo1QnhsQ2JKa19hdHNpVUV6QUNGVnNkbG5VQUhB?oc=5",
-      "date": "Wed, 16 Sep 2026 15:33:38 GMT",
-      "source": "KEYE",
-      "confidence": "high"
-    },
-    {
-      "entity": "Greta Thunberg",
-      "stance": "",
-      "title": "Greta Thunberg tells Ed Sheeran the Palestinian people are the 'one victim here' - The National Desk",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQLW9SZWNwdGhfelpaRGxxWWlrdHZ1MTFFRU82NWZONGR4d1BDd0JaT3ZjWTN2aExPd1FLRDdPU0xVbEZ6dks1VmJ5SWhVLXIwdTNsamoxU2ZNWkJ5dzFxcnFnOERYeE16bE8yOUNTQTF5LWhsd05ncEhaemVGRURzOEZ0STF0WFZmaGhvcmd0TTNNYWJia0FoNFUyNjJvR1BEOENqRUZUR3J3a0xPUldoV3VNaHVDbGZldkd2dHgyOUl2LXBZSjExTEFWQkdyMjFnczNGWFRKRHoyWjFKYmI5c3JEbnJkb2lSdjVhclh1VTl0WWw5SmZhNVNYUGg?oc=5",
-      "date": "Wed, 16 Sep 2026 15:32:14 GMT",
-      "source": "The National Desk",
-      "confidence": "high"
-    },
-    {
-      "entity": "Thomas Massie",
-      "stance": "",
-      "title": "Rep. Thomas Massie moves to impeach Defense Secretary Pete Hegseth over the Iran war : Trump's Terms - NPR",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaFl4bjNCd3paZGUzb0xwUFVHdWNyVmNsejkxY3I1dnhrSzNzWUlUTmMxb1RpYVoxVUtfeEhrYjdfcHdObkl6ZkpDTFBCRExVQkh5REFXU09Hd2cwSF9rQnNvU0RCNzFuckppS3ZDbUlySHNsYk1mcHR2M0JPMEJLYWNRS0ZOa09fUHRvQVZkQUFmT0lTOXQ4M2hhb1g1M1huanV2TkpNb0dueERLNDUxNFhhNFVETWxUWU5wN21DanJaNGdPc2tB?oc=5",
-      "date": "Wed, 16 Sep 2026 15:03:38 GMT",
-      "source": "NPR",
-      "confidence": "high"
-    },
-    {
-      "entity": "Pete Hegseth",
-      "stance": "",
-      "title": "Rep. Thomas Massie moves to impeach Defense Secretary Pete Hegseth over the Iran war : Trump's Terms - NPR",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaFl4bjNCd3paZGUzb0xwUFVHdWNyVmNsejkxY3I1dnhrSzNzWUlUTmMxb1RpYVoxVUtfeEhrYjdfcHdObkl6ZkpDTFBCRExVQkh5REFXU09Hd2cwSF9rQnNvU0RCNzFuckppS3ZDbUlySHNsYk1mcHR2M0JPMEJLYWNRS0ZOa09fUHRvQVZkQUFmT0lTOXQ4M2hhb1g1M1huanV2TkpNb0dueERLNDUxNFhhNFVETWxUWU5wN21DanJaNGdPc2tB?oc=5",
-      "date": "Wed, 16 Sep 2026 15:03:38 GMT",
-      "source": "NPR",
-      "confidence": "high"
-    },
-    {
-      "entity": "Newsmax",
-      "stance": "",
-      "title": "Iran War Fuel Costs for Americans Top $100 Billion - Newsmax",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FRXV0UUZ4QUlPdmNXSG5FTEp2SnFDNllSQnJZQjM5X19zbVlJTE1xTVZrcU9KNmNPRkdaTmp0RWQ1R1NYbUxYVU5WdU5mWGJrN1F4cDNTUGxNSWhNMWlpYVYtb0Zyai1ZNEdrMzdHdl95dDdXOVBQVA?oc=5",
-      "date": "Wed, 16 Sep 2026 14:42:18 GMT",
-      "source": "Newsmax",
-      "confidence": "high"
-    },
-    {
-      "entity": "Wesley Hunt",
-      "stance": "",
-      "title": "Trump picks anti-Islam, pro-Israel Republican Wesley Hunt as next ambassador to Saudi Arabia - Middle East Eye",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNXdEWXc5b3cyOV9qenNoUEpjZGdnWkM3TE1qTmlQVWF1UjhHNi1INVFZYkticHNRWlF2b1VDQk5jOU11SGVkYjRBNEUxVGJpRmVWUmlXYnctcnowUnJ3WFI0R3hJR3NDN05UekR3M2E1djR1U2ZHajdZTVVBbU9yanB1U1lJMmd3dGRHRGc0SmdXMEhBbVZtV1dpWXlQR21qMDItMGhGV080SE5vZjFCSVZQVTVWNU9xaVRSVw?oc=5",
-      "date": "Wed, 16 Sep 2026 14:30:05 GMT",
-      "source": "Middle East Eye",
       "confidence": "high"
     }
   ]
