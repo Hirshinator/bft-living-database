@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-04 17:22 UTC",
+  "generated": "2026-10-06 18:51 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 665,
+  "cursor": 915,
   "count": 120,
   "mentions": [
     {
@@ -78,7 +78,7 @@
       "confidence": "high"
     },
     {
-      "entity": "Candace Owens",
+      "entity": "Laura Loomer",
       "stance": "",
       "title": "Candace Owens ‘affair’ row: Laura Loomer reacts to ‘gay’ allegations as Israel angle fuels dispute | Hindustan Times - Hindustan Times",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM0JYUUZDOXRjWnJFTTdobWFKU3VpeGVXcERRSDlYYUdPZ2VJaUY0Q0ctT2d0RE1hVERwWm1pRmg2TGI0YkpMZ09FT2pucTB6M2VpLWJRaWU5RzZnLWdQTUFOQVRYZzFwUmhadWM0TlM0WUMwRGxBUmE2c1dlSURjTlBWMVJybzRKU21nRW1CWFhUbmQ2WFU2SkhqY2Vkdm9NUFZJWlNSMko2bUdpdzZMeWxLMTJmMktFWVh6N1VjdlpSbHNXSl9vNmo1SzZtdFpKa0VmZ3FJZ3BPd3dGbHRTZEZNemJVZ2FOTUd2Yl82SjlVSFdXM2JR0gH8AUFVX3lxTE9kUk14SHlaXzQ2d21HaFZPLXNjemphSXVFU0stcUpXLWxsZEVKWFBzZDJXN1g4VWwyN0VEa0k4ZjI5SGhmbnJ1b1JmTXZxb1FYcTRlMHBrVTlZSko3akdmSlNhaF80cTJHRzM3aWt2V1NmejRETXRIVFprUHRlbkRDR2JZUmh0VlBuYk8zd0J4ZFhOajFpaWNQLWkzMWNUaExjWWNxWTRsbmlvOW16Rzk0Z1JrRXduQkRPZzI2emVwdFZTdFl2eWcwV3JnODVTaUhjMkVSZVZQMFY1Z1hMUnNUNHpQbnlzVEE0SHJBRFV4MTlfWkduLUlhX1RmMw?oc=5",
@@ -87,7 +87,7 @@
       "confidence": "high"
     },
     {
-      "entity": "Laura Loomer",
+      "entity": "Candace Owens",
       "stance": "",
       "title": "Candace Owens ‘affair’ row: Laura Loomer reacts to ‘gay’ allegations as Israel angle fuels dispute | Hindustan Times - Hindustan Times",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM0JYUUZDOXRjWnJFTTdobWFKU3VpeGVXcERRSDlYYUdPZ2VJaUY0Q0ctT2d0RE1hVERwWm1pRmg2TGI0YkpMZ09FT2pucTB6M2VpLWJRaWU5RzZnLWdQTUFOQVRYZzFwUmhadWM0TlM0WUMwRGxBUmE2c1dlSURjTlBWMVJybzRKU21nRW1CWFhUbmQ2WFU2SkhqY2Vkdm9NUFZJWlNSMko2bUdpdzZMeWxLMTJmMktFWVh6N1VjdlpSbHNXSl9vNmo1SzZtdFpKa0VmZ3FJZ3BPd3dGbHRTZEZNemJVZ2FOTUd2Yl82SjlVSFdXM2JR0gH8AUFVX3lxTE9kUk14SHlaXzQ2d21HaFZPLXNjemphSXVFU0stcUpXLWxsZEVKWFBzZDJXN1g4VWwyN0VEa0k4ZjI5SGhmbnJ1b1JmTXZxb1FYcTRlMHBrVTlZSko3akdmSlNhaF80cTJHRzM3aWt2V1NmejRETXRIVFprUHRlbkRDR2JZUmh0VlBuYk8zd0J4ZFhOajFpaWNQLWkzMWNUaExjWWNxWTRsbmlvOW16Rzk0Z1JrRXduQkRPZzI2emVwdFZTdFl2eWcwV3JnODVTaUhjMkVSZVZQMFY1Z1hMUnNUNHpQbnlzVEE0SHJBRFV4MTlfWkduLUlhX1RmMw?oc=5",
@@ -102,6 +102,15 @@
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOdUJCWnJsWmpfU2lGR2lOdTdCUWZIT2FlZGl6SXp4NUpXLW5BOGJLTUh2SWNhUEctcHpBLXFSUjJWY3Joa0JLVUdENENOd1h3UUxsQklSZms2NkN0Mm5VZ0FEdnVwcWJTcDExcjRiajV6aDYxQS05dW5HS0x0OWd1ZnFsZG1OdmNGYW5ZU0VMVHRTU093ZzhqY0FOb2FudXpfdmt6THVjb0Q5aXVldFpwX3loR1lPYUR5VkF5XzFnT2Y0M1liaURGNjVHT0p5eVhYNEV0d25HcnpTWHJTeVh2YW5sNzNwb0pHNDJYZ0pIME5iRFN3RVBFNE5NT0ZmSVA3Y1NIWlgzUlR2N052b3FEclVsVlNYUQ?oc=5",
       "date": "Wed, 30 Sep 2026 17:12:35 GMT",
       "source": "Combat Antisemitism Movement",
+      "confidence": "high"
+    },
+    {
+      "entity": "James Fishback",
+      "stance": "",
+      "title": "Far-right Israel critic James Fishback likens abortion to the Holocaust at Ole Miss event - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWZDZWJxY0xKZWNUU0FPcXN2QVNtZE5YaGZyWlhmUTdMNWpoWGlqRW40a1RNQXlkSWFBa3RKclpNaTlNSlVWZ1FzV1UwMDhEMXJJQ3JMRlU3OHBRY254bk1rTGExQlhYbXFIbWVvcll2NFh1SlNlVFRiTldQRjFmS0lUeDJzc2w1cHItMnktVFBkbERDMFd3WDlBVzMxd3BVQ3hodGNZZWE4V2h5MXlRQnBRWExBM3lqMmV3LdIBwgFBVV95cUxOajZLNkFQUDk5ZWJVTVMyVFQ5N1duRnZIM3RwSDZYSW5JSHo4X1RpbkE4NkFQSlhXTnE5Um1zREtCUE1WVVQ3dUMwUWU4SmlUaGZLeGhNMGtaWGY3dHN3cktKYkRtMzBtQzJwQm91SlBIUUZkNk1MWUQyWlFxZEFkWEtiLTk5eDIwZFo2ZVFPZVJKMktoSUo0eGE2WVFvVW0yT2F1Y0ZJTEViMVgzZVNfQWRQVVBfYXljTkpyMUoyQS0xQQ?oc=5",
+      "date": "Wed, 30 Sep 2026 16:43:00 GMT",
+      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -129,6 +138,15 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSEZTWHVJNEY0a0I1VkZ4aXU4QmxHVmI2c2ltUGdvRzJiY2x5ZzBpQkdDTlNGWlZjdUtfeW81YjQ0bk9vTFA5NVF0dmd5VEFlQjctd2pUX0dfWTFPNW5iNU90MnN0VVFXSk0tNlNYLTU5SV9Na0o3bjlwOWVJWklSV01jTXBRcjlaVG44ZEd6eG9RcmZhQU5XQ1RvM0U2QTFTTHdjcERfOWNvXzdNTk00R1JmbzdtQQ?oc=5",
       "date": "Wed, 30 Sep 2026 16:00:55 GMT",
       "source": "The Hollywood Reporter",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jonah Platt",
+      "stance": "",
+      "title": "‘We lost the information war’: Jonah Platt takes on Israel’s online battle - Ynetnews",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15a19WMHJ3RTR4OFlVTFotWkxzcTB4Vk8zRmNRYXZaQTlVZG5sMXZDaUlsdHFWWHhQdXRQQ25kR0hIUzBXeUhGOXFDZ3QzeUNMcDUyZkh0RG1VQ21KSmxwbQ?oc=5",
+      "date": "Wed, 30 Sep 2026 15:54:00 GMT",
+      "source": "Ynetnews",
       "confidence": "high"
     },
     {
@@ -264,6 +282,15 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdHpZNXVXaV83OXlzOE1wN0F1RTlONFNfcWxZOVRZNkE5V0FqMDVYUy1yMlhDNlBDRGxHLThJM3pRRUV6RXYyaWZjcnN6RklnWjctUWp4Vk82N1FlTU5BcU1QNHNBMmdzRHBTN0JYZDNsNmItRmh5RldEYzBTVjlOTW8yS1BJNDd3M21tUVBNUi1ZSVlOQWRLbGhrZ2VQN19ISlE?oc=5",
       "date": "Wed, 30 Sep 2026 09:04:02 GMT",
       "source": "Yahoo Finance",
+      "confidence": "high"
+    },
+    {
+      "entity": "John Fetterman",
+      "stance": "",
+      "title": "Israeli Settlers Killed His Constituent. Fetterman Is Sole Democrat Against Investigating Them. - The Intercept",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXzg1S294dTdab2xwMzBINGxZMDlyOF9na2hiSHZTRFNQOW01VDdud3MyeE5EcVFNc2NRSFJnaUI2bjlQZnV3clFOaVAtaGRkVU1aTk5YaXZFWTVJOTRJTjM5WElzZGxjYkJ6bkZqSUJ0YTNtcXI0aTFTMmh1RDhicm43cktVS2VZUm0xVWNxUjZtcTVyRkdhY2Q0dw?oc=5",
+      "date": "Wed, 30 Sep 2026 04:14:52 GMT",
+      "source": "The Intercept",
       "confidence": "high"
     },
     {
@@ -1056,33 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTExRTmtjckNNaHc5QXdUVlFScVNYeEU0Y3NfYU80SHNwU0trNG11bjJ2c2d6LV9iaVpDeU13VnAyV3lieEU1cGVQOHJYd1gyRGtBTDRfdDBPNG5iWS1kc3doc3JUSi1IbG1WbmxiV1hSQnNNa2J6MjFfTU9mTVNxc0FB0gGHAUFVX3lxTE9mMzFXb3hGcEI5UjhjRkNIZGpMZzBpTXZvV0ViM3h4cWJZLURFMWNUSmhkT3ZZTXZYVnVMdFdyNjZzVEZsMTVPc2hpdGNMLU5Ic3JkdURKMTR6cjRTRDBmaTZoUFhuTkkwb3EyNzNmX0RORXAzRWVuWVNNeldMTzNjRTBQbzRnVQ?oc=5",
       "date": "Wed, 19 Aug 2026 01:14:15 GMT",
       "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tim Kaine",
-      "stance": "",
-      "title": "Iran war is costing Americans millions, Sen. Tim Kaine says - 13newsnow.com",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPV0QxeUo2OW5tTm5jaElKdjVCZlBULXpheEdrSHNQQVFETFcwSVB4a05nVjJDSERKTkZrcGxfQTJweWlneWxwc3Zvdm9mMXhQcWFUN1dnV1hZM05tNU9hSzFWY0JUT3NhblVLdFdvLVR4Q29hUlVVZ3JEZEs5TXBHQkc2YlJSV2VqWnVEcGc3OHBNS1dETkhnVUlGUGV4X19US3R6ckJOUDljNWNBazc1TmpwSjlyZlZ0WmdfNVZHMXY0dTFDU3RYTEUwdngwNHZiZGY3ZGhZa0pid0ZCN2pUOHZKSEVJSU5kc21DM1BBUlFuTmlYR2c?oc=5",
-      "date": "Wed, 16 Sep 2026 23:31:00 GMT",
-      "source": "13newsnow.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tim Kaine",
-      "stance": "",
-      "title": "Kaine renews push for congressional action over Iran war - CBS 19 News",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFVUVHZSYzBxVk0zSTE3SVF3OTd1eDh0UkV0QnhOMlNGTkh2aVFtQ2dfQWRmdXNBNUxjVlR6eXM3ODZUR0pvN1ZFeUtuSDFFdDFrM3paZnhuZHJibkE0dVY4eFV5ZmxiSldXTE5LakZDVXFrcGhpaGpNeHE2TFR5TXdlekdlWmVVLWd6TU8zSXdDTm03aW1aLVBfamNEdDVxeEhXQ3dpdTQzWXpyb0dWUXNFVHBSa0ZMN2ZsemJ4SFZvSlgycXN4OXZFSmJNS1VMY1dj?oc=5",
-      "date": "Wed, 16 Sep 2026 21:56:00 GMT",
-      "source": "CBS 19 News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tim Kaine",
-      "stance": "",
-      "title": "Kaine renews push for congressional action over Iran war - cbs19news.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFVUVHZSYzBxVk0zSTE3SVF3OTd1eDh0UkV0QnhOMlNGTkh2aVFtQ2dfQWRmdXNBNUxjVlR6eXM3ODZUR0pvN1ZFeUtuSDFFdDFrM3paZnhuZHJibkE0dVY4eFV5ZmxiSldXTE5LakZDVXFrcGhpaGpNeHE2TFR5TXdlekdlWmVVLWd6TU8zSXdDTm03aW1aLVBfamNEdDVxeEhXQ3dpdTQzWXpyb0dWUXNFVHBSa0ZMN2ZsemJ4SFZvSlgycXN4OXZFSmJNS1VMY1dj?oc=5",
-      "date": "Wed, 16 Sep 2026 21:56:00 GMT",
-      "source": "cbs19news.com",
       "confidence": "high"
     }
   ]

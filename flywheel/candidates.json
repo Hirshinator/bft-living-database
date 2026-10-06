@@ -1,30 +1,75 @@
 {
-  "generated": "2026-10-04 17:18 UTC",
-  "count": 3,
+  "generated": "2026-10-06 18:46 UTC",
+  "count": 6,
   "candidates": [
     {
-      "name": "Aaron Bastani Reports",
+      "name": "Col. Larry Wilkerson",
       "orientation": "hostile",
       "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
       "sources": [
         {
-          "channel": "Novara Media",
-          "title": "Polanski vs Burnham: The Battle for the Soul of the Left | Aaron Bastani Reports",
-          "date": "2026-10-02",
-          "link": "https://www.youtube.com/watch?v=P5nE_6T0hIo"
+          "channel": "The Jimmy Dore Show",
+          "title": "“China Will DOMINATE The Globe With Partnerships, NOT Violence! – Col. Larry Wilkerson",
+          "date": "2026-10-05",
+          "link": "https://www.youtube.com/watch?v=CwAYL9jrF7g"
         }
       ]
     },
     {
-      "name": "Paul Smith",
+      "name": "Dr. Robert Malone",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "“This Is The ONE Way MAHA Hasn’t Been A Complete Failure!” – Dr. Robert Malone",
+          "date": "2026-10-04",
+          "link": "https://www.youtube.com/watch?v=T5Bx2vP1L7k"
+        }
+      ]
+    },
+    {
+      "name": "Jasem AlJuraid",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "He Was a COMMUNIST in Iran. Now He’s an Unapologetic ZIONIST. | Paul Smith",
-          "date": "2026-09-30",
-          "link": "https://www.youtube.com/watch?v=ZLpAADTPFx0"
+          "title": "Why Kuwait Expelled 330,000 Palestinians | Jasem AlJuraid",
+          "date": "2026-10-05",
+          "link": "https://www.youtube.com/shorts/e4CyCE71Kxc"
+        }
+      ]
+    },
+    {
+      "name": "Jonathan Conricus",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Why Piers Morgan Keeps Inviting Them Back… | Jonathan Conricus",
+          "date": "2026-10-06",
+          "link": "https://www.youtube.com/shorts/SlXXOPlEaxk"
+        },
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Flydubai Flight 1073: How Close Did Israel Come to DISASTER? | Jonathan Conricus",
+          "date": "2026-10-06",
+          "link": "https://www.youtube.com/watch?v=0iGtvL3iNFg"
+        }
+      ]
+    },
+    {
+      "name": "Melanie Phillips",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Gazan Journalist Filmed Hostages Being Beaten — Then Hid the Footage | Melanie Phillips",
+          "date": "2026-10-05",
+          "link": "https://www.youtube.com/watch?v=JOaT4zZztn8"
         }
       ]
     },
