@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-06 18:51 UTC",
+  "generated": "2026-10-07 19:17 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
     {
@@ -53,10 +53,10 @@
     {
       "entity": "Passages",
       "stance": "",
-      "title": "Passages summit trains young Christians to stand with Israel and Jewish students - jns.org",
+      "title": "Passages summit trains young Christians to stand with Israel and Jewish students - JNS.org",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdWtxRXVPRWlMak92V21KR3lFQ2txTmxaNk1FSDlOY252U3Bra3RGMXFXYWxhcVdEMlVZLWVwdEMtSWpoUjlOVkYwd1VCQVNsbGQ2YUxyQXhJaC1sVVJXa2VuR3hNQUlrckJ4UG9OMEFtSGhPSlNWWlZJVHBCaXcwMzZUTEJoVzB2aG53cHNHMmgydU1FcUljQ1JsS0ltN1BJSmZSYnNkVmJ3ZkhmdU5FU1BpalU?oc=5",
       "date": "Wed, 30 Sep 2026 19:17:51 GMT",
-      "source": "jns.org",
+      "source": "JNS.org",
       "confidence": "high"
     },
     {
@@ -93,6 +93,15 @@
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM0JYUUZDOXRjWnJFTTdobWFKU3VpeGVXcERRSDlYYUdPZ2VJaUY0Q0ctT2d0RE1hVERwWm1pRmg2TGI0YkpMZ09FT2pucTB6M2VpLWJRaWU5RzZnLWdQTUFOQVRYZzFwUmhadWM0TlM0WUMwRGxBUmE2c1dlSURjTlBWMVJybzRKU21nRW1CWFhUbmQ2WFU2SkhqY2Vkdm9NUFZJWlNSMko2bUdpdzZMeWxLMTJmMktFWVh6N1VjdlpSbHNXSl9vNmo1SzZtdFpKa0VmZ3FJZ3BPd3dGbHRTZEZNemJVZ2FOTUd2Yl82SjlVSFdXM2JR0gH8AUFVX3lxTE9kUk14SHlaXzQ2d21HaFZPLXNjemphSXVFU0stcUpXLWxsZEVKWFBzZDJXN1g4VWwyN0VEa0k4ZjI5SGhmbnJ1b1JmTXZxb1FYcTRlMHBrVTlZSko3akdmSlNhaF80cTJHRzM3aWt2V1NmejRETXRIVFprUHRlbkRDR2JZUmh0VlBuYk8zd0J4ZFhOajFpaWNQLWkzMWNUaExjWWNxWTRsbmlvOW16Rzk0Z1JrRXduQkRPZzI2emVwdFZTdFl2eWcwV3JnODVTaUhjMkVSZVZQMFY1Z1hMUnNUNHpQbnlzVEE0SHJBRFV4MTlfWkduLUlhX1RmMw?oc=5",
       "date": "Wed, 30 Sep 2026 17:35:01 GMT",
       "source": "Hindustan Times",
+      "confidence": "high"
+    },
+    {
+      "entity": "Nick Matau",
+      "stance": "",
+      "title": "Pro-Israel debater Nick Matau outlines live strategy against online hate speech - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80TGQ4U0JDUWs0dUFLQ01fTGl1WG9xOWllS3JfMUswZmk2cnNmUnluWEVFN0xFUkczSEV5UXRYekotQmlJendfaVpBM3lsNkVtb3g2OXE5cXRwT2tuOTlzWnktdlBnVUhnYXc?oc=5",
+      "date": "Wed, 30 Sep 2026 17:30:20 GMT",
+      "source": "The Jerusalem Post",
       "confidence": "high"
     },
     {
@@ -219,15 +228,6 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeUdLNVRsSnF3dTFqTU5uVjVFVUdUbVJ5SnVUSE9fMzZSS0IyYUQzWlJ6SjFLd2tWSHVkQzY0WVVDMU8xWDVOQUpsR2JjU0FvN3J4eW11NXRvbkk0cENoeVBCS2dBZ0ZPZmJfUEpTc2RaYkpKQXB3YjJHRU1XSUF4SG1BVWN4MkV6YzF0cWhobTh5LTRJWDVhT1lFTQ?oc=5",
       "date": "Wed, 30 Sep 2026 13:53:06 GMT",
       "source": "The New Republic",
-      "confidence": "high"
-    },
-    {
-      "entity": "Nick Matau",
-      "stance": "",
-      "title": "Pro-Israel debater Nick Matau outlines live strategy against online hate speech - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80TGQ4U0JDUWs0dUFLQ01fTGl1WG9xOWllS3JfMUswZmk2cnNmUnluWEVFN0xFUkczSEV5UXRYekotQmlJendfaVpBM3lsNkVtb3g2OXE5cXRwT2tuOTlzWnktdlBnVUhnYXc?oc=5",
-      "date": "Wed, 30 Sep 2026 13:18:41 GMT",
-      "source": "The Jerusalem Post",
       "confidence": "high"
     },
     {
@@ -555,15 +555,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Mike Johnson",
-      "stance": "",
-      "title": "Johnson calls for ‘resolution’ of Iran war - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXZvbHJlMEo3aWpRSjBjeXVQVmFMcm1nanFmV2JTLXp0N2g3bGsybzlIQ0JJeWoyTUtHZEZUbUVKMmFLal9VWGtuYUhrWFJBU2tTMl9NTGpETThxeC1CLWIzSENqRFFELUJ3c2ZiUEl4RkZHT05LSHh5eDFQbTk2a3VB0gGHAUFVX3lxTE1hWng1WWN4TVJLRnp4bHFtLTI0cGxYXzl6Y01waWoyN1NUYnZCTW9LMEVaMEtpNXZoVWxHZFNxcUFXS0ZwUXhZUnJkS3V1SWxZaTBpXzN3Ql9zUXVwU1YzblR5TUxsOWxSZGMtSnFvRlIzNjdyNVNDNXRuRXdaai13V3F5RF9Kbw?oc=5",
-      "date": "Wed, 23 Sep 2026 21:23:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
       "entity": "Hakeem Jeffries",
       "stance": "",
       "title": "House Minority Leader Jeffries Says High Diesel Costs Due to Iran War - c-span.org",
@@ -606,15 +597,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSm9mVngteXpTSmNfZFdTelQ3SWI3U0NfeWtxbFloMFNVeVRmUTh5emk1UTFEMU0xR3hmek5XQ1JPT3pTODBwQUZDU05sTzM1a0ZuWTBWd2c5RDRiMmg2UEN0cldCTWRIWTA2MEdlSWdsSklGaDlfUFZVbXBYcHE4ajVmR0I5QlJNSmhEUDgtYm9zRjByNWFSdC03bnAwcEJGb1VZai03akJmcWJYMWs1QQ?oc=5",
       "date": "Wed, 23 Sep 2026 17:50:21 GMT",
       "source": "The Daily Wire",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ruben Gallego",
-      "stance": "",
-      "title": "Sen. Ruben Gallego: Trump needs to ‘humble himself’ on Iran - Modern Ghana",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TOWc4LVFrZVN5Wm05SkFPNS1YOFZ3dGw3SFJIZ2RDSGU0RjZXaGkyQVJXeWxELUh6ZFBwb3pZN2lHbFp0QVMyZkVYd192QWFRV2l4ckE4akN1cHQ2ZC1B0gFcQVVfeXFMT3FWWmJZT3UyVWg5UGtOeVVkZFdobVF3Ni0xWnBPbGlIVEVoeFVrT3lfVDZ3WlFLQlRjUE42RHpkNVhlejJhLUFCYm5mLTM0RDVocDViQnVnM0RZdUw?oc=5",
-      "date": "Wed, 23 Sep 2026 16:13:36 GMT",
-      "source": "Modern Ghana",
       "confidence": "high"
     },
     {
@@ -759,6 +741,24 @@
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY0FSbzRPZWVWSGV6TTI1eW5UM21pTm9PX3hGWWU5M0ZYMHNBTUJWX2pNUU5hMkxReVJpN0M3alZ2N19manpIa2FqaGlBRk1kVENRX1RheTNZS1Y1dkhTcUI1ZUl4Vnh4cXJ3cHVRck1iZ2p1Y0FZRzhTekNkSnZNaV9CV3NscWdxTVZOU0U3aEU2M0FsbWE3RE05aHMzSjIxRTIxdmVBM0VodDN3dE1keWZ2S2ptZlpHQVh3dS1EcGtJdTRXdkEtSzM4ZkhqSERMeTM0RlZLdHVLc25JMnNGT1N6RUxuZWlndDhiU0Itd0xRR1dkWWhpYkFoWnhIa2xjSGd3dHFIRU5nblE?oc=5",
       "date": "Wed, 23 Sep 2026 08:19:00 GMT",
       "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Johnson",
+      "stance": "",
+      "title": "Johnson calls for ‘resolution’ of Iran war - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXZvbHJlMEo3aWpRSjBjeXVQVmFMcm1nanFmV2JTLXp0N2g3bGsybzlIQ0JJeWoyTUtHZEZUbUVKMmFLal9VWGtuYUhrWFJBU2tTMl9NTGpETThxeC1CLWIzSENqRFFELUJ3c2ZiUEl4RkZHT05LSHh5eDFQbTk2a3VB0gGHAUFVX3lxTE1hWng1WWN4TVJLRnp4bHFtLTI0cGxYXzl6Y01waWoyN1NUYnZCTW9LMEVaMEtpNXZoVWxHZFNxcUFXS0ZwUXhZUnJkS3V1SWxZaTBpXzN3Ql9zUXVwU1YzblR5TUxsOWxSZGMtSnFvRlIzNjdyNVNDNXRuRXdaai13V3F5RF9Kbw?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ruben Gallego",
+      "stance": "",
+      "title": "Sen. Ruben Gallego: Trump needs to ‘humble himself’ on Iran - Modern Ghana",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsOFdTeDkxSnc2emVkeEhLbGlNMlJIbzhmZURnbFQzYTJwVjJxRm43UHc3SE1FZkRGajN6NmhGWWtXeE01X2pfT0d6aEx6cDlVQ0F5OWdyZEVzaVN5SjIw0gFcQVVfeXFMT3FWWmJZT3UyVWg5UGtOeVVkZFdobVF3Ni0xWnBPbGlIVEVoeFVrT3lfVDZ3WlFLQlRjUE42RHpkNVhlejJhLUFCYm5mLTM0RDVocDViQnVnM0RZdUw?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Modern Ghana",
       "confidence": "high"
     },
     {

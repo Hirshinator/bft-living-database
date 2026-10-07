@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06 18:46 UTC",
+  "generated": "2026-10-07 19:12 UTC",
   "count": 6,
   "candidates": [
     {
@@ -16,15 +16,28 @@
       ]
     },
     {
-      "name": "Dr. Robert Malone",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "name": "Dr. Carl Wigren",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
-          "channel": "The Jimmy Dore Show",
-          "title": "“This Is The ONE Way MAHA Hasn’t Been A Complete Failure!” – Dr. Robert Malone",
-          "date": "2026-10-04",
-          "link": "https://www.youtube.com/watch?v=T5Bx2vP1L7k"
+          "channel": "StandWithUs",
+          "title": "What I Witnessed at Israel’s National Morgue After October 7 | Dr. Carl Wigren",
+          "date": "2026-10-07",
+          "link": "https://www.youtube.com/watch?v=hM-KQO-aepw"
+        }
+      ]
+    },
+    {
+      "name": "Israel Friends",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "IsraelFriends",
+          "title": "From the streets of Israel | Israel Friends",
+          "date": "2026-10-06",
+          "link": "https://www.youtube.com/watch?v=kM4MvLCKoKE"
         }
       ]
     },
@@ -33,6 +46,24 @@
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "What ‘Free Palestine’ REALLY Means | Jasem AlJuraid",
+          "date": "2026-10-07",
+          "link": "https://www.youtube.com/shorts/2R2JFO-cWas"
+        },
+        {
+          "channel": "Stand Tall Israel",
+          "title": "How Did an ISLAMIST Become a Pilot? | Jasem AlJuraid",
+          "date": "2026-10-07",
+          "link": "https://www.youtube.com/watch?v=fURGovvzxNs"
+        },
+        {
+          "channel": "Stand Tall Israel",
+          "title": "LIVE: Flydubai Flight 1073 — Terror, Radicalization & the Insider Threat | Jasem AlJuraid",
+          "date": "2026-10-07",
+          "link": "https://www.youtube.com/watch?v=U5u3MlzitHI"
+        },
         {
           "channel": "Stand Tall Israel",
           "title": "Why Kuwait Expelled 330,000 Palestinians | Jasem AlJuraid",
@@ -70,19 +101,6 @@
           "title": "Gazan Journalist Filmed Hostages Being Beaten — Then Hid the Footage | Melanie Phillips",
           "date": "2026-10-05",
           "link": "https://www.youtube.com/watch?v=JOaT4zZztn8"
-        }
-      ]
-    },
-    {
-      "name": "Younes Sadghiani",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Hijacking A Plane To Free Palestine?? | Younes Sadghiani",
-          "date": "2026-10-04",
-          "link": "https://www.youtube.com/shorts/HBg1Hf0EXDc"
         }
       ]
     }
