@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07 19:17 UTC",
+  "generated": "2026-10-08 19:13 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 1165,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -699,24 +699,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Tommy Tuberville",
-      "stance": "",
-      "title": "Fuel costs, Iran and shrimp boats: Doug Jones and Tommy Tuberville sharpen campaign contrast - AL.com",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZHp2LWI2Yk1EUHJMM2pJWXJjU3pyYmlRSkF6VFh4b2ZocnV0X2hUQmVkTXFBVzFVaUpBOXlLaDFGZl9MMnZ4QjdZUmJuX0ZiQTMyMUVrOFI2VWlyQjFONllqTlAyVlAycGVSbkoxcExFUnJSOFVWckcyLWhrWE9HVlB1OTVBb1NkbU14UzBPT18yc3Bhc0dkTkN1Y1NTOEJuNHdiVGh6M2w0b2ZiSkxpNGdFTGJ6dnJqdlJFdzhoSUZ3YVlIR3fSAdoBQVVfeXFMTjRWQVkzSk85NmdZcFB1S1FQNlQtNEF1ZG5PRlJDU0dFV3VSZlZwVFpmdi00ZkZ0VGlzQlNIZThTV1dJdHlBR3FWY0pJcW1WY2RoUERRQ0cyM3M3d3oybmhPX3E5RVhsOTN3Z0dlSHNTRm9xVmNVQWtpWE5BSzBIVUFCa290djRpTXF1OFF0MFZBa0wzd1NkcmtPR2t0RmlKb0VhSTV1Q3NBOHhpTWFWYldCRzNabzd5QlRBcGo4cjNHNkJSdVd2WTN1eEVwcVVIZjlEVlFSd0czMUE?oc=5",
-      "date": "Wed, 23 Sep 2026 12:13:00 GMT",
-      "source": "AL.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Trita Parsi",
-      "stance": "",
-      "title": "“New Low in U.N. History”: Trita Parsi on Trump’s Threat to Annihilate Iran at General Assembly - Democracy Now!",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92bFJGdE15c0o3WmRncjNRV0h3RkNQYWpDamhQM3dnYkxCT0h4alIwWTQyeGVXTERwdFBFYlVQYTEtWnctRWNYQ2d5ZGlHQy1mczZycFJ2aEkwdWlhbWZOS0hKdU5mUWYwOEJGWnFpdGJSZjNxTGxz?oc=5",
-      "date": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "source": "Democracy Now!",
-      "confidence": "high"
-    },
-    {
       "entity": "All Israel News",
       "stance": "",
       "title": "Jewish life in Germany is ‘no longer safe,’ chancellor warns as far-left takes power in Berlin after ‘election intifada’ - All Israel News",
@@ -741,6 +723,24 @@
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY0FSbzRPZWVWSGV6TTI1eW5UM21pTm9PX3hGWWU5M0ZYMHNBTUJWX2pNUU5hMkxReVJpN0M3alZ2N19manpIa2FqaGlBRk1kVENRX1RheTNZS1Y1dkhTcUI1ZUl4Vnh4cXJ3cHVRck1iZ2p1Y0FZRzhTekNkSnZNaV9CV3NscWdxTVZOU0U3aEU2M0FsbWE3RE05aHMzSjIxRTIxdmVBM0VodDN3dE1keWZ2S2ptZlpHQVh3dS1EcGtJdTRXdkEtSzM4ZkhqSERMeTM0RlZLdHVLc25JMnNGT1N6RUxuZWlndDhiU0Itd0xRR1dkWWhpYkFoWnhIa2xjSGd3dHFIRU5nblE?oc=5",
       "date": "Wed, 23 Sep 2026 08:19:00 GMT",
       "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
+      "entity": "Tommy Tuberville",
+      "stance": "",
+      "title": "Fuel costs, Iran and shrimp boats: Doug Jones and Tommy Tuberville sharpen campaign contrast - AL.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZHp2LWI2Yk1EUHJMM2pJWXJjU3pyYmlRSkF6VFh4b2ZocnV0X2hUQmVkTXFBVzFVaUpBOXlLaDFGZl9MMnZ4QjdZUmJuX0ZiQTMyMUVrOFI2VWlyQjFONllqTlAyVlAycGVSbkoxcExFUnJSOFVWckcyLWhrWE9HVlB1OTVBb1NkbU14UzBPT18yc3Bhc0dkTkN1Y1NTOEJuNHdiVGh6M2w0b2ZiSkxpNGdFTGJ6dnJqdlJFdzhoSUZ3YVlIR3fSAdoBQVVfeXFMTjRWQVkzSk85NmdZcFB1S1FQNlQtNEF1ZG5PRlJDU0dFV3VSZlZwVFpmdi00ZkZ0VGlzQlNIZThTV1dJdHlBR3FWY0pJcW1WY2RoUERRQ0cyM3M3d3oybmhPX3E5RVhsOTN3Z0dlSHNTRm9xVmNVQWtpWE5BSzBIVUFCa290djRpTXF1OFF0MFZBa0wzd1NkcmtPR2t0RmlKb0VhSTV1Q3NBOHhpTWFWYldCRzNabzd5QlRBcGo4cjNHNkJSdVd2WTN1eEVwcVVIZjlEVlFSd0czMUE?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "AL.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Trita Parsi",
+      "stance": "",
+      "title": "“New Low in U.N. History”: Trita Parsi on Trump’s Threat to Annihilate Iran at General Assembly - Democracy Now!",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92bFJGdE15c0o3WmRncjNRV0h3RkNQYWpDamhQM3dnYkxCT0h4alIwWTQyeGVXTERwdFBFYlVQYTEtWnctRWNYQ2d5ZGlHQy1mczZycFJ2aEkwdWlhbWZOS0hKdU5mUWYwOEJGWnFpdGJSZjNxTGxz?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Democracy Now!",
       "confidence": "high"
     },
     {

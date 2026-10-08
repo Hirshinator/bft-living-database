@@ -1,17 +1,23 @@
 {
-  "generated": "2026-10-07 19:12 UTC",
-  "count": 6,
+  "generated": "2026-10-08 19:09 UTC",
+  "count": 7,
   "candidates": [
     {
-      "name": "Col. Larry Wilkerson",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "name": "Arnon Rubinstein",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
-          "channel": "The Jimmy Dore Show",
-          "title": "“China Will DOMINATE The Globe With Partnerships, NOT Violence! – Col. Larry Wilkerson",
-          "date": "2026-10-05",
-          "link": "https://www.youtube.com/watch?v=CwAYL9jrF7g"
+          "channel": "Stand Tall Israel",
+          "title": "“I’m Careful Not to Speak HEBREW in Britain Anymore” | Arnon Rubinstein",
+          "date": "2026-10-08",
+          "link": "https://www.youtube.com/watch?v=N93oskPK1Cw"
+        },
+        {
+          "channel": "Stand Tall Israel",
+          "title": "LIVE: “I’m Careful Not to Speak Hebrew in Britain Anymore” | Arnon Rubinstein",
+          "date": "2026-10-08",
+          "link": "https://www.youtube.com/watch?v=Oy8TdzNMVVg"
         }
       ]
     },
@@ -63,12 +69,6 @@
           "title": "LIVE: Flydubai Flight 1073 — Terror, Radicalization & the Insider Threat | Jasem AlJuraid",
           "date": "2026-10-07",
           "link": "https://www.youtube.com/watch?v=U5u3MlzitHI"
-        },
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Why Kuwait Expelled 330,000 Palestinians | Jasem AlJuraid",
-          "date": "2026-10-05",
-          "link": "https://www.youtube.com/shorts/e4CyCE71Kxc"
         }
       ]
     },
@@ -82,25 +82,32 @@
           "title": "Why Piers Morgan Keeps Inviting Them Back… | Jonathan Conricus",
           "date": "2026-10-06",
           "link": "https://www.youtube.com/shorts/SlXXOPlEaxk"
-        },
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Flydubai Flight 1073: How Close Did Israel Come to DISASTER? | Jonathan Conricus",
-          "date": "2026-10-06",
-          "link": "https://www.youtube.com/watch?v=0iGtvL3iNFg"
         }
       ]
     },
     {
-      "name": "Melanie Phillips",
+      "name": "Maggie Tabibi",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Gazan Journalist Filmed Hostages Being Beaten — Then Hid the Footage | Melanie Phillips",
-          "date": "2026-10-05",
-          "link": "https://www.youtube.com/watch?v=JOaT4zZztn8"
+          "title": "Top Israeli News Anchor Says What Few Are Willing To Say... | Maggie Tabibi",
+          "date": "2026-10-08",
+          "link": "https://www.youtube.com/watch?v=u4MaYtXrhqo"
+        }
+      ]
+    },
+    {
+      "name": "Younes Sadaghiani",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "LIVE: The Hidden Threat Facing Israel and the West | Younes Sadaghiani",
+          "date": "2026-10-08",
+          "link": "https://www.youtube.com/watch?v=AkJXWVxz6Mg"
         }
       ]
     }
