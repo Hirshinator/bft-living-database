@@ -1,7 +1,20 @@
 {
-  "generated": "2026-10-08 19:09 UTC",
-  "count": 7,
+  "generated": "2026-10-09 18:39 UTC",
+  "count": 5,
   "candidates": [
+    {
+      "name": "Aadi Achint",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "LIVE: The FlyDubai Plot May Be Just the Beginning… | Aadi Achint",
+          "date": "2026-10-09",
+          "link": "https://www.youtube.com/watch?v=pml90X4K7F8"
+        }
+      ]
+    },
     {
       "name": "Arnon Rubinstein",
       "orientation": "ally",
@@ -18,19 +31,6 @@
           "title": "LIVE: “I’m Careful Not to Speak Hebrew in Britain Anymore” | Arnon Rubinstein",
           "date": "2026-10-08",
           "link": "https://www.youtube.com/watch?v=Oy8TdzNMVVg"
-        }
-      ]
-    },
-    {
-      "name": "Dr. Carl Wigren",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "StandWithUs",
-          "title": "What I Witnessed at Israel’s National Morgue After October 7 | Dr. Carl Wigren",
-          "date": "2026-10-07",
-          "link": "https://www.youtube.com/watch?v=hM-KQO-aepw"
         }
       ]
     },
@@ -73,40 +73,20 @@
       ]
     },
     {
-      "name": "Jonathan Conricus",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Why Piers Morgan Keeps Inviting Them Back… | Jonathan Conricus",
-          "date": "2026-10-06",
-          "link": "https://www.youtube.com/shorts/SlXXOPlEaxk"
-        }
-      ]
-    },
-    {
-      "name": "Maggie Tabibi",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Top Israeli News Anchor Says What Few Are Willing To Say... | Maggie Tabibi",
-          "date": "2026-10-08",
-          "link": "https://www.youtube.com/watch?v=u4MaYtXrhqo"
-        }
-      ]
-    },
-    {
       "name": "Younes Sadaghiani",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
+          "title": "The Disturbing Truth Behind the FlyDubai Plot | Younes Sadaghiani",
+          "date": "2026-10-09",
+          "link": "https://www.youtube.com/watch?v=ijs3NG8X8Hc"
+        },
+        {
+          "channel": "Stand Tall Israel",
           "title": "LIVE: The Hidden Threat Facing Israel and the West | Younes Sadaghiani",
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "link": "https://www.youtube.com/watch?v=AkJXWVxz6Mg"
         }
       ]
