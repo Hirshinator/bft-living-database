@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09 18:43 UTC",
+  "generated": "2026-10-10 17:43 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -282,6 +282,15 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdHpZNXVXaV83OXlzOE1wN0F1RTlONFNfcWxZOVRZNkE5V0FqMDVYUy1yMlhDNlBDRGxHLThJM3pRRUV6RXYyaWZjcnN6RklnWjctUWp4Vk82N1FlTU5BcU1QNHNBMmdzRHBTN0JYZDNsNmItRmh5RldEYzBTVjlOTW8yS1BJNDd3M21tUVBNUi1ZSVlOQWRLbGhrZ2VQN19ISlE?oc=5",
       "date": "Wed, 30 Sep 2026 09:04:02 GMT",
       "source": "Yahoo Finance",
+      "confidence": "high"
+    },
+    {
+      "entity": "Douglas Murray",
+      "stance": "",
+      "title": "Douglas Murray: Israel Is Conquering Its Enemies - The Free Press",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "The Free Press",
       "confidence": "high"
     },
     {
@@ -582,15 +591,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Chevron",
-      "stance": "",
-      "title": "Exxon, Chevron Warn of Continued High Fuel Prices From Iran War - EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWRkNGNYcEtjRnBjUHJIcVRvSVVpcGw4enJlYXNSVUtOOGdRejJyRko4YTlxYmdfcFExcC1WUmJnOTk3SW10VUlncUl6dmRNbmRTc0xRbWVzY1M3aV9yd3FNLXA0eW9JdTBsODJxbmx5SDh6N19aOWVPRmU3eTZVVmFJdEhBMHdjQlVvWlFLQkI0aFI0MGJyTQ?oc=5",
-      "date": "Wed, 23 Sep 2026 20:14:04 GMT",
-      "source": "EnergyNow.com",
-      "confidence": "high"
-    },
-    {
       "entity": "Daily Wire",
       "stance": "",
       "title": "Iran President Delivers Defiant Message In Front Of U.S. Officials - The Daily Wire",
@@ -717,12 +717,39 @@
       "confidence": "high"
     },
     {
+      "entity": "Bruce Pearl",
+      "stance": "",
+      "title": "Ex-Auburn coach Bruce Pearl hails Robert Kraft as a hero for banning Macklemore over antisemitic rants - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2NaZ2xvWlBISU1BTDh5MlJzZlJDaTNfNG1FbEJGWjZfMU1fT3hYVm1fSVoxVkVuMGRDSXYzZWdvV3hpRlBLbGJzY0dVU2hPdTFMSXhxMEIwSTBOZkQ2ZzVQSVZrWEkxR0FPVlNxVFNGeVd0UG5HNG1NdTlLU2hqZTdHbUVsT0JPdFBvQXNZdVZSRDVTdGFkamdQc2V5UUdJdVZwOVdseGlTZEZ3RGFSVm9YWUJGeGZYMzVfUEMyc1B6Z1NCcEE?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Elizabeth Pipko",
+      "stance": "",
+      "title": "Elizabeth Pipko reacts to President Trump's UN warnings to Iran - Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iQWd5Qk5sTlZyQWZwZHNacG1GUkJ4cEZGd19EX1Nyb1ZhRFZfc3dxTnpxNjBucDZOZWlmNnRpN1lHRHJfV2F3dnJaQkxsc2t1WVZQLWVmOFd1MWM?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Fox Business",
+      "confidence": "high"
+    },
+    {
       "entity": "Gal Gadot",
       "stance": "",
       "title": "Gal Gadot Donates 'Israeli Nobel' Prize Money to 26 Charities Aiding Israelis - Haaretz",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY0FSbzRPZWVWSGV6TTI1eW5UM21pTm9PX3hGWWU5M0ZYMHNBTUJWX2pNUU5hMkxReVJpN0M3alZ2N19manpIa2FqaGlBRk1kVENRX1RheTNZS1Y1dkhTcUI1ZUl4Vnh4cXJ3cHVRck1iZ2p1Y0FZRzhTekNkSnZNaV9CV3NscWdxTVZOU0U3aEU2M0FsbWE3RE05aHMzSjIxRTIxdmVBM0VodDN3dE1keWZ2S2ptZlpHQVh3dS1EcGtJdTRXdkEtSzM4ZkhqSERMeTM0RlZLdHVLc25JMnNGT1N6RUxuZWlndDhiU0Itd0xRR1dkWWhpYkFoWnhIa2xjSGd3dHFIRU5nblE?oc=5",
-      "date": "Wed, 23 Sep 2026 08:19:00 GMT",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
       "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
+      "entity": "Gal Gadot",
+      "stance": "",
+      "title": "Gal Gadot to distribute $3 million to Israeli mental health orgs as part of Genesis Prize honors - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOGNZTUstWmMzaEFfREFWNlZZd0VwZ2Q1d180Q0YwQzF0eXlsMURQSmlLVUtwX3A3SEcyRWJIVGNwSzRkcldOa1dlczFENEc0OHRxV1RGN01rRTJnc3E2clhkcV8tajN2eE15cTEybHpQSzFwaHBlRVJiekVwQm04LWtyN2VvRTlIek8zaHNkWXZWZE1pRnhUNTZqbTlBMm5vMkhYaTE5NWpscmotM1lnVTF1ZXpCVjBTVUJSeEp0WHBxV0xkVjdLeHo2dFRPQm5GdkYxSUdJNGE?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -759,33 +786,6 @@
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsOFdTeDkxSnc2emVkeEhLbGlNMlJIbzhmZURnbFQzYTJwVjJxRm43UHc3SE1FZkRGajN6NmhGWWtXeE01X2pfT0d6aEx6cDlVQ0F5OWdyZEVzaVN5SjIw0gFcQVVfeXFMT3FWWmJZT3UyVWg5UGtOeVVkZFdobVF3Ni0xWnBPbGlIVEVoeFVrT3lfVDZ3WlFLQlRjUE42RHpkNVhlejJhLUFCYm5mLTM0RDVocDViQnVnM0RZdUw?oc=5",
       "date": "Wed, 23 Sep 2026 07:00:00 GMT",
       "source": "Modern Ghana",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bruce Pearl",
-      "stance": "",
-      "title": "Ex-Auburn coach Bruce Pearl hails Robert Kraft as a hero for banning Macklemore over antisemitic rants - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2NaZ2xvWlBISU1BTDh5MlJzZlJDaTNfNG1FbEJGWjZfMU1fT3hYVm1fSVoxVkVuMGRDSXYzZWdvV3hpRlBLbGJzY0dVU2hPdTFMSXhxMEIwSTBOZkQ2ZzVQSVZrWEkxR0FPVlNxVFNGeVd0UG5HNG1NdTlLU2hqZTdHbUVsT0JPdFBvQXNZdVZSRDVTdGFkamdQc2V5UUdJdVZwOVdseGlTZEZ3RGFSVm9YWUJGeGZYMzVfUEMyc1B6Z1NCcEE?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elizabeth Pipko",
-      "stance": "",
-      "title": "Elizabeth Pipko reacts to President Trump's UN warnings to Iran - Fox Business",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iQWd5Qk5sTlZyQWZwZHNacG1GUkJ4cEZGd19EX1Nyb1ZhRFZfc3dxTnpxNjBucDZOZWlmNnRpN1lHRHJfV2F3dnJaQkxsc2t1WVZQLWVmOFd1MWM?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Fox Business",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gal Gadot",
-      "stance": "",
-      "title": "Gal Gadot to distribute $3 million to Israeli mental health orgs as part of Genesis Prize honors - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOGNZTUstWmMzaEFfREFWNlZZd0VwZ2Q1d180Q0YwQzF0eXlsMURQSmlLVUtwX3A3SEcyRWJIVGNwSzRkcldOa1dlczFENEc0OHRxV1RGN01rRTJnc3E2clhkcV8tajN2eE15cTEybHpQSzFwaHBlRVJiekVwQm04LWtyN2VvRTlIek8zaHNkWXZWZE1pRnhUNTZqbTlBMm5vMkhYaTE5NWpscmotM1lnVTF1ZXpCVjBTVUJSeEp0WHBxV0xkVjdLeHo2dFRPQm5GdkYxSUdJNGE?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
