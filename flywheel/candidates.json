@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-10 17:39 UTC",
-  "count": 5,
+  "generated": "2026-10-11 17:54 UTC",
+  "count": 7,
   "candidates": [
     {
       "name": "Aadi Achint",
@@ -35,6 +35,19 @@
       ]
     },
     {
+      "name": "Dean Elsdunne",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "StandWithUs",
+          "title": "“We Saw Things That Human Eyes Should Never See” | Dean Elsdunne",
+          "date": "2026-10-11",
+          "link": "https://www.youtube.com/watch?v=zAFoVxl-UMo"
+        }
+      ]
+    },
+    {
       "name": "Israel Friends",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -63,12 +76,19 @@
           "title": "How Did an ISLAMIST Become a Pilot? | Jasem AlJuraid",
           "date": "2026-10-07",
           "link": "https://www.youtube.com/watch?v=fURGovvzxNs"
-        },
+        }
+      ]
+    },
+    {
+      "name": "The Unknown",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "LIVE: Flydubai Flight 1073 — Terror, Radicalization & the Insider Threat | Jasem AlJuraid",
-          "date": "2026-10-07",
-          "link": "https://www.youtube.com/watch?v=U5u3MlzitHI"
+          "title": "“I Cannot Show My Face” — He Left Hamas to Reveal THE TRUTH | The Unknown",
+          "date": "2026-10-11",
+          "link": "https://www.youtube.com/watch?v=tHzr_EF0MU8"
         }
       ]
     },

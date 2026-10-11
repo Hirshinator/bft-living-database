@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-10 17:43 UTC",
+  "generated": "2026-10-11 17:58 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 665,
+  "cursor": 915,
   "count": 120,
   "mentions": [
     {
@@ -114,15 +114,6 @@
       "confidence": "high"
     },
     {
-      "entity": "James Fishback",
-      "stance": "",
-      "title": "Far-right Israel critic James Fishback likens abortion to the Holocaust at Ole Miss event - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWZDZWJxY0xKZWNUU0FPcXN2QVNtZE5YaGZyWlhmUTdMNWpoWGlqRW40a1RNQXlkSWFBa3RKclpNaTlNSlVWZ1FzV1UwMDhEMXJJQ3JMRlU3OHBRY254bk1rTGExQlhYbXFIbWVvcll2NFh1SlNlVFRiTldQRjFmS0lUeDJzc2w1cHItMnktVFBkbERDMFd3WDlBVzMxd3BVQ3hodGNZZWE4V2h5MXlRQnBRWExBM3lqMmV3LdIBwgFBVV95cUxOajZLNkFQUDk5ZWJVTVMyVFQ5N1duRnZIM3RwSDZYSW5JSHo4X1RpbkE4NkFQSlhXTnE5Um1zREtCUE1WVVQ3dUMwUWU4SmlUaGZLeGhNMGtaWGY3dHN3cktKYkRtMzBtQzJwQm91SlBIUUZkNk1MWUQyWlFxZEFkWEtiLTk5eDIwZFo2ZVFPZVJKMktoSUo0eGE2WVFvVW0yT2F1Y0ZJTEViMVgzZVNfQWRQVVBfYXljTkpyMUoyQS0xQQ?oc=5",
-      "date": "Wed, 30 Sep 2026 16:43:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
       "entity": "Brian Kilmeade",
       "stance": "",
       "title": "Watch Brian Kilmeade reveals details of attempted hijacking on flight to Israel - The Brian Kilmeade Show - FOX One",
@@ -147,15 +138,6 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSEZTWHVJNEY0a0I1VkZ4aXU4QmxHVmI2c2ltUGdvRzJiY2x5ZzBpQkdDTlNGWlZjdUtfeW81YjQ0bk9vTFA5NVF0dmd5VEFlQjctd2pUX0dfWTFPNW5iNU90MnN0VVFXSk0tNlNYLTU5SV9Na0o3bjlwOWVJWklSV01jTXBRcjlaVG44ZEd6eG9RcmZhQU5XQ1RvM0U2QTFTTHdjcERfOWNvXzdNTk00R1JmbzdtQQ?oc=5",
       "date": "Wed, 30 Sep 2026 16:00:55 GMT",
       "source": "The Hollywood Reporter",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jonah Platt",
-      "stance": "",
-      "title": "‘We lost the information war’: Jonah Platt takes on Israel’s online battle - Ynetnews",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15a19WMHJ3RTR4OFlVTFotWkxzcTB4Vk8zRmNRYXZaQTlVZG5sMXZDaUlsdHFWWHhQdXRQQ25kR0hIUzBXeUhGOXFDZ3QzeUNMcDUyZkh0RG1VQ21KSmxwbQ?oc=5",
-      "date": "Wed, 30 Sep 2026 15:54:00 GMT",
-      "source": "Ynetnews",
       "confidence": "high"
     },
     {
@@ -260,15 +242,6 @@
     {
       "entity": "Israel Englander",
       "stance": "neutral",
-      "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWW5oVVh3S0V5clZFb3pBbnZIT0Ixdk1ib1pEbG1rZjk1REYwMzR6UXY0alpYRENySzFqZXVNd2N1NTNLLU91elV0akw3bHlxaV9MQllfYnhUTnd3ZHZPaDU4N1VKczBONnB6SnBSRnN6MGt1UERyUUIxV2lIR3NBdTRhOUkySXRfUTdz?oc=5",
-      "date": "Wed, 30 Sep 2026 09:44:00 GMT",
-      "source": "The Motley Fool",
-      "confidence": "high"
-    },
-    {
-      "entity": "Israel Englander",
-      "stance": "neutral",
       "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - The Globe and Mail",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOUEdCZEF2c3E1bDFsNkYycUoybkpMN1VUNmNvSG5UY3lZb21jZHp3Q0dLNER1a0tHR1EtSEE4UVNHZVVLLTlmS2dCby1TNXNyQWdtcmNjbWR4cE13WGM0WDFlT01rV2ZfNURlSVlJV2lhNDdjSGV5YjFXS2tKVU9OLVFxbnM3TDNsdUl3U040Ym5iZC1kbmZTMDBUd1NLQWRRSFY3LVpuQU5IaDc3Z3JCdWtEal9SWEJOWDZlVnVZdi1PQmg5VE1qcUNUdmlQNVB3NjJGbGZad0RFX3ZWbXhaOUpMc0ZKcC1JTDZVaHdrLUFvUHQyaENURzBJWjNqRkFGb0tqVE9hRGNWTkZfYTA0?oc=5",
       "date": "Wed, 30 Sep 2026 09:04:27 GMT",
@@ -285,12 +258,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Douglas Murray",
-      "stance": "",
-      "title": "Douglas Murray: Israel Is Conquering Its Enemies - The Free Press",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
+      "entity": "Israel Englander",
+      "stance": "neutral",
+      "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWW5oVVh3S0V5clZFb3pBbnZIT0Ixdk1ib1pEbG1rZjk1REYwMzR6UXY0alpYRENySzFqZXVNd2N1NTNLLU91elV0akw3bHlxaV9MQllfYnhUTnd3ZHZPaDU4N1VKczBONnB6SnBSRnN6MGt1UERyUUIxV2lIR3NBdTRhOUkySXRfUTdz?oc=5",
       "date": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "source": "The Free Press",
+      "source": "The Motley Fool",
+      "confidence": "high"
+    },
+    {
+      "entity": "James Fishback",
+      "stance": "",
+      "title": "Far-right Israel critic James Fishback likens abortion to the Holocaust at Ole Miss event - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWZDZWJxY0xKZWNUU0FPcXN2QVNtZE5YaGZyWlhmUTdMNWpoWGlqRW40a1RNQXlkSWFBa3RKclpNaTlNSlVWZ1FzV1UwMDhEMXJJQ3JMRlU3OHBRY254bk1rTGExQlhYbXFIbWVvcll2NFh1SlNlVFRiTldQRjFmS0lUeDJzc2w1cHItMnktVFBkbERDMFd3WDlBVzMxd3BVQ3hodGNZZWE4V2h5MXlRQnBRWExBM3lqMmV3LdIBwgFBVV95cUxOajZLNkFQUDk5ZWJVTVMyVFQ5N1duRnZIM3RwSDZYSW5JSHo4X1RpbkE4NkFQSlhXTnE5Um1zREtCUE1WVVQ3dUMwUWU4SmlUaGZLeGhNMGtaWGY3dHN3cktKYkRtMzBtQzJwQm91SlBIUUZkNk1MWUQyWlFxZEFkWEtiLTk5eDIwZFo2ZVFPZVJKMktoSUo0eGE2WVFvVW0yT2F1Y0ZJTEViMVgzZVNfQWRQVVBfYXljTkpyMUoyQS0xQQ?oc=5",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -298,8 +280,26 @@
       "stance": "",
       "title": "Israeli Settlers Killed His Constituent. Fetterman Is Sole Democrat Against Investigating Them. - The Intercept",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXzg1S294dTdab2xwMzBINGxZMDlyOF9na2hiSHZTRFNQOW01VDdud3MyeE5EcVFNc2NRSFJnaUI2bjlQZnV3clFOaVAtaGRkVU1aTk5YaXZFWTVJOTRJTjM5WElzZGxjYkJ6bkZqSUJ0YTNtcXI0aTFTMmh1RDhicm43cktVS2VZUm0xVWNxUjZtcTVyRkdhY2Q0dw?oc=5",
-      "date": "Wed, 30 Sep 2026 04:14:52 GMT",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
       "source": "The Intercept",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jonah Platt",
+      "stance": "",
+      "title": "‘We lost the information war’: Jonah Platt takes on Israel’s online battle - Ynetnews",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15a19WMHJ3RTR4OFlVTFotWkxzcTB4Vk8zRmNRYXZaQTlVZG5sMXZDaUlsdHFWWHhQdXRQQ25kR0hIUzBXeUhGOXFDZ3QzeUNMcDUyZkh0RG1VQ21KSmxwbQ?oc=5",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "Ynetnews",
+      "confidence": "high"
+    },
+    {
+      "entity": "Douglas Murray",
+      "stance": "",
+      "title": "Douglas Murray: Israel Is Conquering Its Enemies - The Free Press",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "The Free Press",
       "confidence": "high"
     },
     {
@@ -825,6 +825,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Laura Ingraham",
+      "stance": "",
+      "title": "Laura Ingraham Claims To Have Opposed Iran War 'From Day One' (She's Lying) - National Memo",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhUURXbE1Ja3ZrRUlpbnZxSUszTmNPMTFtM0c1X2VUWUNqNW9lTDBhSVE0dm5STU9Qa1BuLWJEVl9XRTN3dWNDYzA1RzVLbmpZcmJMRkxYNUxXOEpyUnA1QmFYbw?oc=5",
+      "date": "Wed, 23 Sep 2026 03:30:05 GMT",
+      "source": "National Memo",
+      "confidence": "high"
+    },
+    {
       "entity": "Scott Jennings",
       "stance": "",
       "title": "Scott Jennings Admits He’s Had ‘Doubts’ About Trump’s Ability To Make Iran Deal - aol.com",
@@ -867,15 +876,6 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelVxM0FnUzBYNWt1bjRUeFhrS084RGR6bmtKQ0ZQUjhQV1NGcng4Uzl1b2VFclZ2bnJ6MFRRakNUNWJKMnFxS3pYVVVTTUUzM0F4Y0UzZDVkT2xqcEFtUEx3V1RwbnVpWUJmLU1zdlRVTzVIRERpVHJ4SFRqM0VXSGlXZEJSbUNYN0E?oc=5",
       "date": "Wed, 23 Sep 2026 01:04:14 GMT",
       "source": "jewishinsider.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jacky Rosen",
-      "stance": "",
-      "title": "Jacky Rosen visits Poland to discuss antisemitism, Holocaust issues - Jewish Insider",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelVxM0FnUzBYNWt1bjRUeFhrS084RGR6bmtKQ0ZQUjhQV1NGcng4Uzl1b2VFclZ2bnJ6MFRRakNUNWJKMnFxS3pYVVVTTUUzM0F4Y0UzZDVkT2xqcEFtUEx3V1RwbnVpWUJmLU1zdlRVTzVIRERpVHJ4SFRqM0VXSGlXZEJSbUNYN0E?oc=5",
-      "date": "Wed, 23 Sep 2026 01:04:14 GMT",
-      "source": "Jewish Insider",
       "confidence": "high"
     },
     {
