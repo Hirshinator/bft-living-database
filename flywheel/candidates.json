@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11 17:54 UTC",
-  "count": 7,
+  "generated": "2026-10-12 21:33 UTC",
+  "count": 12,
   "candidates": [
     {
       "name": "Aadi Achint",
@@ -12,25 +12,6 @@
           "title": "LIVE: The FlyDubai Plot May Be Just the Beginning… | Aadi Achint",
           "date": "2026-10-09",
           "link": "https://www.youtube.com/watch?v=pml90X4K7F8"
-        }
-      ]
-    },
-    {
-      "name": "Arnon Rubinstein",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "“I’m Careful Not to Speak HEBREW in Britain Anymore” | Arnon Rubinstein",
-          "date": "2026-10-08",
-          "link": "https://www.youtube.com/watch?v=N93oskPK1Cw"
-        },
-        {
-          "channel": "Stand Tall Israel",
-          "title": "LIVE: “I’m Careful Not to Speak Hebrew in Britain Anymore” | Arnon Rubinstein",
-          "date": "2026-10-08",
-          "link": "https://www.youtube.com/watch?v=Oy8TdzNMVVg"
         }
       ]
     },
@@ -48,6 +29,58 @@
       ]
     },
     {
+      "name": "Guy Nohra LIVE",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Fought the PLO at 15 — Now He Has a Warning for Israel & America | Guy Nohra LIVE",
+          "date": "2026-10-12",
+          "link": "https://www.youtube.com/watch?v=a_LF9gtMV0Q"
+        }
+      ]
+    },
+    {
+      "name": "Harris Sultan",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Why the West MUST Care About Israel | Harris Sultan",
+          "date": "2026-10-12",
+          "link": "https://www.youtube.com/shorts/Kx7bQ3tP0XM"
+        }
+      ]
+    },
+    {
+      "name": "IDF Head",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "“Those 200 Journalists We Killed? They Were ALL Militant Terrorists!” – IDF Head",
+          "date": "2026-10-11",
+          "link": "https://www.youtube.com/watch?v=7OOlJdsg71Q"
+        }
+      ]
+    },
+    {
+      "name": "Imam Tawhidi",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Finally The TRUTH About Israel, Islam & the Muslim Brotherhood | Imam Tawhidi",
+          "date": "2026-10-12",
+          "link": "https://www.youtube.com/watch?v=UbFwPdp67yk"
+        }
+      ]
+    },
+    {
       "name": "Israel Friends",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -61,21 +94,41 @@
       ]
     },
     {
-      "name": "Jasem AlJuraid",
+      "name": "Jasem Aljuraid",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "What ‘Free Palestine’ REALLY Means | Jasem AlJuraid",
-          "date": "2026-10-07",
-          "link": "https://www.youtube.com/shorts/2R2JFO-cWas"
-        },
+          "title": "The UN’s Hypocrisy Makes No Sense! | Jasem Aljuraid",
+          "date": "2026-10-11",
+          "link": "https://www.youtube.com/shorts/MzGCp-0ThWU"
+        }
+      ]
+    },
+    {
+      "name": "Lt. Dean Elsdunne",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
         {
-          "channel": "Stand Tall Israel",
-          "title": "How Did an ISLAMIST Become a Pilot? | Jasem AlJuraid",
-          "date": "2026-10-07",
-          "link": "https://www.youtube.com/watch?v=fURGovvzxNs"
+          "channel": "StandWithUs",
+          "title": "Inside Jerusalem’s Diverse Police Force: Protecting People of All Faiths | Lt. Dean Elsdunne",
+          "date": "2026-10-12",
+          "link": "https://www.youtube.com/shorts/8gPU5jBECQY"
+        }
+      ]
+    },
+    {
+      "name": "Michael Douglas",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "“My New Memoir Is All About SEX SEX & More SEX!” – Michael Douglas",
+          "date": "2026-10-11",
+          "link": "https://www.youtube.com/watch?v=UIAjETtHCy0"
         }
       ]
     },

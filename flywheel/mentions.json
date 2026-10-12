@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-11 17:58 UTC",
+  "generated": "2026-10-12 21:37 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
     {
@@ -600,15 +600,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Scott Galloway",
-      "stance": "",
-      "title": "‘Disqualifying’: Scott Galloway Pushes El-Sayed Hard On Using Gaza ‘Genocide’ Label - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcGZuMkdhaEhpc004b05pdmVwRHFLYjU1QW9YVzYyNWpyQm1ST2wtUUwwUnE5bGFHQldQN3o1a0ZFeGNiOEYtLTNzb0I1LUo0WlFmLTd6UVBqV1VUZWZ4d3prTzBMMVY2YXBWOF9nemFSMVdvRmV5aWVJb0ZfR0Q5SlZhZVhQY0x5aXJSLXJUU0xia0VSb1ZkX1F5b2RJVjg?oc=5",
-      "date": "Wed, 23 Sep 2026 15:55:46 GMT",
-      "source": "Yahoo",
-      "confidence": "high"
-    },
-    {
       "entity": "Tim Kaine",
       "stance": "",
       "title": "Sen. Tim Kaine (D-VA) Speaks to Reporters on Iran War - C-SPAN",
@@ -681,15 +672,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Rick Scott",
-      "stance": "",
-      "title": "Sen. Rick Scott (R-FL) Speaks to Reporters on Iran War - C-SPAN",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQnBWZDhpcnVCdHJsUUlzX1liMlprNFhGSWppYzNQamtfNTVpSTBoZ01yUnVBeUw3WnNqczhya1JGa2JFanRDelk2akJXczliMkRsZWxoMGRZOUpiaGt2RmIwZ18yVFhGY3M2d2JvQkZ6eTI2cXhLcjZ4WVpxbEtseTBJVFI4TWtuUnlINzJuYmNocFd3STF5NmdHSmhXSEhXYjhoNGJjV1A?oc=5",
-      "date": "Wed, 23 Sep 2026 13:33:56 GMT",
-      "source": "C-SPAN",
-      "confidence": "high"
-    },
-    {
       "entity": "Mark Kelly",
       "stance": "",
       "title": "Sen. Mark Kelly (D-AZ) Speaks to Reporters on Iran War - C-SPAN",
@@ -714,6 +696,33 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamNxVGxoRGQxMDRPbUFlU2tTQ0JvbnRrZUtmZFdsemhfb3BFX1hsbEtyODRpb1lLeTJfZmIzM2xSSjJyTjV1LXJfVDN0eWwxaS1rRnRvZDZ0ZHAtM0hSMnhwY2Q4RFVqM3BiLWhjZG5xakM4SVd6ei1lT0RTYjh2bkpmWTFKZy0ySGJ0M3c5VWRpR2xWUHc?oc=5",
       "date": "Wed, 23 Sep 2026 09:26:53 GMT",
       "source": "All Israel News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Johnson",
+      "stance": "",
+      "title": "Johnson calls for ‘resolution’ of Iran war - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXZvbHJlMEo3aWpRSjBjeXVQVmFMcm1nanFmV2JTLXp0N2g3bGsybzlIQ0JJeWoyTUtHZEZUbUVKMmFLal9VWGtuYUhrWFJBU2tTMl9NTGpETThxeC1CLWIzSENqRFFELUJ3c2ZiUEl4RkZHT05LSHh5eDFQbTk2a3VB0gGHAUFVX3lxTE1hWng1WWN4TVJLRnp4bHFtLTI0cGxYXzl6Y01waWoyN1NUYnZCTW9LMEVaMEtpNXZoVWxHZFNxcUFXS0ZwUXhZUnJkS3V1SWxZaTBpXzN3Ql9zUXVwU1YzblR5TUxsOWxSZGMtSnFvRlIzNjdyNVNDNXRuRXdaai13V3F5RF9Kbw?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Rick Scott",
+      "stance": "",
+      "title": "Sen. Rick Scott (R-FL) Speaks to Reporters on Iran War - C-SPAN",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQnBWZDhpcnVCdHJsUUlzX1liMlprNFhGSWppYzNQamtfNTVpSTBoZ01yUnVBeUw3WnNqczhya1JGa2JFanRDelk2akJXczliMkRsZWxoMGRZOUpiaGt2RmIwZ18yVFhGY3M2d2JvQkZ6eTI2cXhLcjZ4WVpxbEtseTBJVFI4TWtuUnlINzJuYmNocFd3STF5NmdHSmhXSEhXYjhoNGJjV1A?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "C-SPAN",
+      "confidence": "high"
+    },
+    {
+      "entity": "Scott Galloway",
+      "stance": "",
+      "title": "‘Disqualifying’: Scott Galloway Pushes El-Sayed Hard On Using Gaza ‘Genocide’ Label - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcGZuMkdhaEhpc004b05pdmVwRHFLYjU1QW9YVzYyNWpyQm1ST2wtUUwwUnE5bGFHQldQN3o1a0ZFeGNiOEYtLTNzb0I1LUo0WlFmLTd6UVBqV1VUZWZ4d3prTzBMMVY2YXBWOF9nemFSMVdvRmV5aWVJb0ZfR0Q5SlZhZVhQY0x5aXJSLXJUU0xia0VSb1ZkX1F5b2RJVjg?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Yahoo",
       "confidence": "high"
     },
     {
@@ -768,15 +777,6 @@
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92bFJGdE15c0o3WmRncjNRV0h3RkNQYWpDamhQM3dnYkxCT0h4alIwWTQyeGVXTERwdFBFYlVQYTEtWnctRWNYQ2d5ZGlHQy1mczZycFJ2aEkwdWlhbWZOS0hKdU5mUWYwOEJGWnFpdGJSZjNxTGxz?oc=5",
       "date": "Wed, 23 Sep 2026 07:00:00 GMT",
       "source": "Democracy Now!",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Johnson",
-      "stance": "",
-      "title": "Johnson calls for ‘resolution’ of Iran war - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXZvbHJlMEo3aWpRSjBjeXVQVmFMcm1nanFmV2JTLXp0N2g3bGsybzlIQ0JJeWoyTUtHZEZUbUVKMmFLal9VWGtuYUhrWFJBU2tTMl9NTGpETThxeC1CLWIzSENqRFFELUJ3c2ZiUEl4RkZHT05LSHh5eDFQbTk2a3VB0gGHAUFVX3lxTE1hWng1WWN4TVJLRnp4bHFtLTI0cGxYXzl6Y01waWoyN1NUYnZCTW9LMEVaMEtpNXZoVWxHZFNxcUFXS0ZwUXhZUnJkS3V1SWxZaTBpXzN3Ql9zUXVwU1YzblR5TUxsOWxSZGMtSnFvRlIzNjdyNVNDNXRuRXdaai13V3F5RF9Kbw?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "The Hill",
       "confidence": "high"
     },
     {
