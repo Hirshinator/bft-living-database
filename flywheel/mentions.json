@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-12 21:37 UTC",
+  "generated": "2026-10-13 19:48 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 1165,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -699,6 +699,24 @@
       "confidence": "high"
     },
     {
+      "entity": "Theo Von",
+      "stance": "",
+      "title": "Theo Von Makes His Gaza Stance Clear After Macklemore Fallout - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNnl3dXVKU2k3czJEVVFQdFNrZzN0aHg1RkVhRG5rbEpVR1lhcEN1YjJsaThVOUdWZGdJYWI5YmRMVlA4S3ZqOHhSVFFVR0lWazZ5QnFQYXZmYXV0Y2VocndRUWg2NFItY1VZQ0NQdDlMUXJkUmQyZW0yVWxSR2ZvQ05QVEFVZUh3aExydGNzZHlJLXZHeEFQTGlYMTg?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Yahoo",
+      "confidence": "high"
+    },
+    {
+      "entity": "Trita Parsi",
+      "stance": "",
+      "title": "“New Low in U.N. History”: Trita Parsi on Trump’s Threat to Annihilate Iran at General Assembly - Democracy Now!",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92bFJGdE15c0o3WmRncjNRV0h3RkNQYWpDamhQM3dnYkxCT0h4alIwWTQyeGVXTERwdFBFYlVQYTEtWnctRWNYQ2d5ZGlHQy1mczZycFJ2aEkwdWlhbWZOS0hKdU5mUWYwOEJGWnFpdGJSZjNxTGxz?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Democracy Now!",
+      "confidence": "high"
+    },
+    {
       "entity": "Mike Johnson",
       "stance": "",
       "title": "Johnson calls for ‘resolution’ of Iran war - The Hill",
@@ -771,30 +789,12 @@
       "confidence": "high"
     },
     {
-      "entity": "Trita Parsi",
-      "stance": "",
-      "title": "“New Low in U.N. History”: Trita Parsi on Trump’s Threat to Annihilate Iran at General Assembly - Democracy Now!",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92bFJGdE15c0o3WmRncjNRV0h3RkNQYWpDamhQM3dnYkxCT0h4alIwWTQyeGVXTERwdFBFYlVQYTEtWnctRWNYQ2d5ZGlHQy1mczZycFJ2aEkwdWlhbWZOS0hKdU5mUWYwOEJGWnFpdGJSZjNxTGxz?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Democracy Now!",
-      "confidence": "high"
-    },
-    {
       "entity": "Ruben Gallego",
       "stance": "",
       "title": "Sen. Ruben Gallego: Trump needs to ‘humble himself’ on Iran - Modern Ghana",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsOFdTeDkxSnc2emVkeEhLbGlNMlJIbzhmZURnbFQzYTJwVjJxRm43UHc3SE1FZkRGajN6NmhGWWtXeE01X2pfT0d6aEx6cDlVQ0F5OWdyZEVzaVN5SjIw0gFcQVVfeXFMT3FWWmJZT3UyVWg5UGtOeVVkZFdobVF3Ni0xWnBPbGlIVEVoeFVrT3lfVDZ3WlFLQlRjUE42RHpkNVhlejJhLUFCYm5mLTM0RDVocDViQnVnM0RZdUw?oc=5",
       "date": "Wed, 23 Sep 2026 07:00:00 GMT",
       "source": "Modern Ghana",
-      "confidence": "high"
-    },
-    {
-      "entity": "Theo Von",
-      "stance": "",
-      "title": "Theo Von Makes His Gaza Stance Clear After Macklemore Fallout - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNnl3dXVKU2k3czJEVVFQdFNrZzN0aHg1RkVhRG5rbEpVR1lhcEN1YjJsaThVOUdWZGdJYWI5YmRMVlA4S3ZqOHhSVFFVR0lWazZ5QnFQYXZmYXV0Y2VocndRUWg2NFItY1VZQ0NQdDlMUXJkUmQyZW0yVWxSR2ZvQ05QVEFVZUh3aExydGNzZHlJLXZHeEFQTGlYMTg?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Yahoo",
       "confidence": "high"
     },
     {

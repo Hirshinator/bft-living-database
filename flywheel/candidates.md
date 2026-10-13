@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-10-12 21:33 UTC
+# Flywheel candidates — 2026-10-13 19:44 UTC
 
-12 new candidate(s) surfaced from monitored channels, not yet in the database.
+11 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Aadi Achint — candidate ALLY (platformed by an ally channel)
@@ -10,7 +10,7 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 - [StandWithUs] *“We Saw Things That Human Eyes Should Never See” | Dean Elsdunne* (2026-10-11) — https://www.youtube.com/watch?v=zAFoVxl-UMo
 
 ### Guy Nohra LIVE — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *He Fought the PLO at 15 — Now He Has a Warning for Israel & America | Guy Nohra LIVE* (2026-10-12) — https://www.youtube.com/watch?v=a_LF9gtMV0Q
+- [Stand Tall Israel] *He Fought the PLO at 15 — Now He Has a Warning for Israel & America | Guy Nohra LIVE* (2026-10-13) — https://www.youtube.com/watch?v=a_LF9gtMV0Q
 
 ### Harris Sultan — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Why the West MUST Care About Israel | Harris Sultan* (2026-10-12) — https://www.youtube.com/shorts/Kx7bQ3tP0XM
@@ -35,7 +35,3 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### The Unknown — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *“I Cannot Show My Face” — He Left Hamas to Reveal THE TRUTH | The Unknown* (2026-10-11) — https://www.youtube.com/watch?v=tHzr_EF0MU8
-
-### Younes Sadaghiani — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *The Disturbing Truth Behind the FlyDubai Plot | Younes Sadaghiani* (2026-10-09) — https://www.youtube.com/watch?v=ijs3NG8X8Hc
-- [Stand Tall Israel] *LIVE: The Hidden Threat Facing Israel and the West | Younes Sadaghiani* (2026-10-09) — https://www.youtube.com/watch?v=AkJXWVxz6Mg
