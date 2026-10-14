@@ -1,20 +1,7 @@
 {
-  "generated": "2026-10-13 19:44 UTC",
-  "count": 11,
+  "generated": "2026-10-14 17:47 UTC",
+  "count": 10,
   "candidates": [
-    {
-      "name": "Aadi Achint",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "LIVE: The FlyDubai Plot May Be Just the Beginning… | Aadi Achint",
-          "date": "2026-10-09",
-          "link": "https://www.youtube.com/watch?v=pml90X4K7F8"
-        }
-      ]
-    },
     {
       "name": "Dean Elsdunne",
       "orientation": "ally",
@@ -133,15 +120,15 @@
       ]
     },
     {
-      "name": "The Unknown",
+      "name": "Paul Bock",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "“I Cannot Show My Face” — He Left Hamas to Reveal THE TRUTH | The Unknown",
-          "date": "2026-10-11",
-          "link": "https://www.youtube.com/watch?v=tHzr_EF0MU8"
+          "title": "Green Beret: The West Has Israel’s Enemies ALL WRONG | Paul Bock",
+          "date": "2026-10-14",
+          "link": "https://www.youtube.com/watch?v=NXCbiQpq4r8"
         }
       ]
     }
