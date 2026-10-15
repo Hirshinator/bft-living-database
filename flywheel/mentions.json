@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14 17:51 UTC",
+  "generated": "2026-10-15 17:41 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -258,6 +258,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Douglas Murray",
+      "stance": "",
+      "title": "Douglas Murray: Israel Is Conquering Its Enemies - The Free Press",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "The Free Press",
+      "confidence": "high"
+    },
+    {
       "entity": "Israel Englander",
       "stance": "neutral",
       "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - The Motley Fool",
@@ -291,15 +300,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15a19WMHJ3RTR4OFlVTFotWkxzcTB4Vk8zRmNRYXZaQTlVZG5sMXZDaUlsdHFWWHhQdXRQQ25kR0hIUzBXeUhGOXFDZ3QzeUNMcDUyZkh0RG1VQ21KSmxwbQ?oc=5",
       "date": "Wed, 30 Sep 2026 07:00:00 GMT",
       "source": "Ynetnews",
-      "confidence": "high"
-    },
-    {
-      "entity": "Douglas Murray",
-      "stance": "",
-      "title": "Douglas Murray: Israel Is Conquering Its Enemies - The Free Press",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
-      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "source": "The Free Press",
       "confidence": "high"
     },
     {

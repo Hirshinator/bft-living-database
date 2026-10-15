@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14 17:47 UTC",
-  "count": 10,
+  "generated": "2026-10-15 17:36 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Dean Elsdunne",
@@ -16,6 +16,32 @@
       ]
     },
     {
+      "name": "Ex-Muslim Adam Seeker",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "What Does the Quran REALLY Say About Jews & Israel? | Ex-Muslim Adam Seeker",
+          "date": "2026-10-15",
+          "link": "https://www.youtube.com/watch?v=kjJB7iQlCD4"
+        }
+      ]
+    },
+    {
+      "name": "Guy Nohra",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Survived Lebanon’s Collapse — Is the West Ignoring the Same Signs? | Guy Nohra",
+          "date": "2026-10-14",
+          "link": "https://www.youtube.com/watch?v=C5hYJ8fgBYM"
+        }
+      ]
+    },
+    {
       "name": "Guy Nohra LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -25,32 +51,6 @@
           "title": "He Fought the PLO at 15 — Now He Has a Warning for Israel & America | Guy Nohra LIVE",
           "date": "2026-10-13",
           "link": "https://www.youtube.com/watch?v=a_LF9gtMV0Q"
-        }
-      ]
-    },
-    {
-      "name": "Harris Sultan",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Why the West MUST Care About Israel | Harris Sultan",
-          "date": "2026-10-12",
-          "link": "https://www.youtube.com/shorts/Kx7bQ3tP0XM"
-        }
-      ]
-    },
-    {
-      "name": "IDF Head",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "“Those 200 Journalists We Killed? They Were ALL Militant Terrorists!” – IDF Head",
-          "date": "2026-10-11",
-          "link": "https://www.youtube.com/watch?v=7OOlJdsg71Q"
         }
       ]
     },
@@ -81,19 +81,6 @@
       ]
     },
     {
-      "name": "Jasem Aljuraid",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "The UN’s Hypocrisy Makes No Sense! | Jasem Aljuraid",
-          "date": "2026-10-11",
-          "link": "https://www.youtube.com/shorts/MzGCp-0ThWU"
-        }
-      ]
-    },
-    {
       "name": "Lt. Dean Elsdunne",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -103,19 +90,6 @@
           "title": "Inside Jerusalem’s Diverse Police Force: Protecting People of All Faiths | Lt. Dean Elsdunne",
           "date": "2026-10-12",
           "link": "https://www.youtube.com/shorts/8gPU5jBECQY"
-        }
-      ]
-    },
-    {
-      "name": "Michael Douglas",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "“My New Memoir Is All About SEX SEX & More SEX!” – Michael Douglas",
-          "date": "2026-10-11",
-          "link": "https://www.youtube.com/watch?v=UIAjETtHCy0"
         }
       ]
     },
