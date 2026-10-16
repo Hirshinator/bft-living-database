@@ -1,20 +1,7 @@
 {
-  "generated": "2026-10-15 17:36 UTC",
-  "count": 8,
+  "generated": "2026-10-16 17:10 UTC",
+  "count": 6,
   "candidates": [
-    {
-      "name": "Dean Elsdunne",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "StandWithUs",
-          "title": "“We Saw Things That Human Eyes Should Never See” | Dean Elsdunne",
-          "date": "2026-10-11",
-          "link": "https://www.youtube.com/watch?v=zAFoVxl-UMo"
-        }
-      ]
-    },
     {
       "name": "Ex-Muslim Adam Seeker",
       "orientation": "ally",
@@ -42,32 +29,6 @@
       ]
     },
     {
-      "name": "Guy Nohra LIVE",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Fought the PLO at 15 — Now He Has a Warning for Israel & America | Guy Nohra LIVE",
-          "date": "2026-10-13",
-          "link": "https://www.youtube.com/watch?v=a_LF9gtMV0Q"
-        }
-      ]
-    },
-    {
-      "name": "Imam Tawhidi",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Finally The TRUTH About Israel, Islam & the Muslim Brotherhood | Imam Tawhidi",
-          "date": "2026-10-12",
-          "link": "https://www.youtube.com/watch?v=UbFwPdp67yk"
-        }
-      ]
-    },
-    {
       "name": "Israel Friends",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -87,9 +48,28 @@
       "sources": [
         {
           "channel": "StandWithUs",
+          "title": "Israel Police Investigations Into Attacks on Arabs in Judea & Samaria/West Bank | Lt. Dean Elsdunne",
+          "date": "2026-10-15",
+          "link": "https://www.youtube.com/watch?v=Dv6guJXl950"
+        },
+        {
+          "channel": "StandWithUs",
           "title": "Inside Jerusalem’s Diverse Police Force: Protecting People of All Faiths | Lt. Dean Elsdunne",
           "date": "2026-10-12",
           "link": "https://www.youtube.com/shorts/8gPU5jBECQY"
+        }
+      ]
+    },
+    {
+      "name": "Mansoor Laghari",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "A Muslim Wore a Hostage Pin at Al Aqsa — “Remove It or Leave” | Mansoor Laghari",
+          "date": "2026-10-15",
+          "link": "https://www.youtube.com/watch?v=wgNw7c5nAng"
         }
       ]
     },
