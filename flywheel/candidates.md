@@ -1,4 +1,4 @@
-# Flywheel candidates — 2026-10-16 17:10 UTC
+# Flywheel candidates — 2026-10-17 16:08 UTC
 
 6 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
@@ -14,7 +14,6 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### Lt. Dean Elsdunne — candidate ALLY (platformed by an ally channel)
 - [StandWithUs] *Israel Police Investigations Into Attacks on Arabs in Judea & Samaria/West Bank | Lt. Dean Elsdunne* (2026-10-15) — https://www.youtube.com/watch?v=Dv6guJXl950
-- [StandWithUs] *Inside Jerusalem’s Diverse Police Force: Protecting People of All Faiths | Lt. Dean Elsdunne* (2026-10-12) — https://www.youtube.com/shorts/8gPU5jBECQY
 
 ### Mansoor Laghari — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *A Muslim Wore a Hostage Pin at Al Aqsa — “Remove It or Leave” | Mansoor Laghari* (2026-10-15) — https://www.youtube.com/watch?v=wgNw7c5nAng
