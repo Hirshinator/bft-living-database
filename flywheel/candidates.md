@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-10-17 16:08 UTC
+# Flywheel candidates — 2026-10-18 16:21 UTC
 
-6 new candidate(s) surfaced from monitored channels, not yet in the database.
+8 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Ex-Muslim Adam Seeker — candidate ALLY (platformed by an ally channel)
@@ -12,11 +12,17 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Israel Friends — candidate ALLY (platformed by an ally channel)
 - [IsraelFriends] *From the streets of Israel | Israel Friends* (2026-10-06) — https://www.youtube.com/watch?v=kM4MvLCKoKE
 
+### Jonathan Conricus — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Israel Isn’t Going Anywhere—Get Used to It 🇮🇱 | Jonathan Conricus* (2026-10-18) — https://www.youtube.com/shorts/0jidCNZZwiE
+
 ### Lt. Dean Elsdunne — candidate ALLY (platformed by an ally channel)
 - [StandWithUs] *Israel Police Investigations Into Attacks on Arabs in Judea & Samaria/West Bank | Lt. Dean Elsdunne* (2026-10-15) — https://www.youtube.com/watch?v=Dv6guJXl950
 
 ### Mansoor Laghari — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *A Muslim Wore a Hostage Pin at Al Aqsa — “Remove It or Leave” | Mansoor Laghari* (2026-10-15) — https://www.youtube.com/watch?v=wgNw7c5nAng
 
-### Paul Bock — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *Green Beret: The West Has Israel’s Enemies ALL WRONG | Paul Bock* (2026-10-14) — https://www.youtube.com/watch?v=NXCbiQpq4r8
+### Shady Shae — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae* (2026-10-18) — https://www.youtube.com/shorts/oMaWxYRnkkI
+
+### Then Asked THIS — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae* (2026-10-18) — https://www.youtube.com/shorts/oMaWxYRnkkI

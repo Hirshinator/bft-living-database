@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-17 16:08 UTC",
-  "count": 6,
+  "generated": "2026-10-18 16:21 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Ex-Muslim Adam Seeker",
@@ -42,6 +42,19 @@
       ]
     },
     {
+      "name": "Jonathan Conricus",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Israel Isn’t Going Anywhere—Get Used to It 🇮🇱 | Jonathan Conricus",
+          "date": "2026-10-18",
+          "link": "https://www.youtube.com/shorts/0jidCNZZwiE"
+        }
+      ]
+    },
+    {
       "name": "Lt. Dean Elsdunne",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -68,15 +81,28 @@
       ]
     },
     {
-      "name": "Paul Bock",
+      "name": "Shady Shae",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Green Beret: The West Has Israel’s Enemies ALL WRONG | Paul Bock",
-          "date": "2026-10-14",
-          "link": "https://www.youtube.com/watch?v=NXCbiQpq4r8"
+          "title": "He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae",
+          "date": "2026-10-18",
+          "link": "https://www.youtube.com/shorts/oMaWxYRnkkI"
+        }
+      ]
+    },
+    {
+      "name": "Then Asked THIS",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae",
+          "date": "2026-10-18",
+          "link": "https://www.youtube.com/shorts/oMaWxYRnkkI"
         }
       ]
     }
