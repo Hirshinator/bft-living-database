@@ -1,30 +1,17 @@
 {
-  "generated": "2026-10-18 16:21 UTC",
+  "generated": "2026-10-19 19:01 UTC",
   "count": 8,
   "candidates": [
     {
-      "name": "Ex-Muslim Adam Seeker",
+      "name": "Abteen Vaziri",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "What Does the Quran REALLY Say About Jews & Israel? | Ex-Muslim Adam Seeker",
-          "date": "2026-10-15",
-          "link": "https://www.youtube.com/watch?v=kjJB7iQlCD4"
-        }
-      ]
-    },
-    {
-      "name": "Guy Nohra",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Survived Lebanon’s Collapse — Is the West Ignoring the Same Signs? | Guy Nohra",
-          "date": "2026-10-14",
-          "link": "https://www.youtube.com/watch?v=C5hYJ8fgBYM"
+          "title": "He Defended Israel Inside a Texas Mosque—Then Chaos Erupted | Abteen Vaziri",
+          "date": "2026-10-18",
+          "link": "https://www.youtube.com/watch?v=8PXUIuPBewU"
         }
       ]
     },
@@ -68,15 +55,15 @@
       ]
     },
     {
-      "name": "Mansoor Laghari",
+      "name": "Paul Bock",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "A Muslim Wore a Hostage Pin at Al Aqsa — “Remove It or Leave” | Mansoor Laghari",
-          "date": "2026-10-15",
-          "link": "https://www.youtube.com/watch?v=wgNw7c5nAng"
+          "title": "Green Beret Warns: The West Isn’t Ready for What’s Coming | Paul Bock",
+          "date": "2026-10-19",
+          "link": "https://www.youtube.com/watch?v=A3AF_wPGdUM"
         }
       ]
     },
@@ -103,6 +90,19 @@
           "title": "He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae",
           "date": "2026-10-18",
           "link": "https://www.youtube.com/shorts/oMaWxYRnkkI"
+        }
+      ]
+    },
+    {
+      "name": "Then Chaos Erupted",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Defended Israel Inside a Texas Mosque—Then Chaos Erupted | Abteen Vaziri",
+          "date": "2026-10-18",
+          "link": "https://www.youtube.com/watch?v=8PXUIuPBewU"
         }
       ]
     }

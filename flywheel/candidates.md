@@ -1,13 +1,10 @@
-# Flywheel candidates — 2026-10-18 16:21 UTC
+# Flywheel candidates — 2026-10-19 19:01 UTC
 
 8 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
-### Ex-Muslim Adam Seeker — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *What Does the Quran REALLY Say About Jews & Israel? | Ex-Muslim Adam Seeker* (2026-10-15) — https://www.youtube.com/watch?v=kjJB7iQlCD4
-
-### Guy Nohra — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *He Survived Lebanon’s Collapse — Is the West Ignoring the Same Signs? | Guy Nohra* (2026-10-14) — https://www.youtube.com/watch?v=C5hYJ8fgBYM
+### Abteen Vaziri — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *He Defended Israel Inside a Texas Mosque—Then Chaos Erupted | Abteen Vaziri* (2026-10-18) — https://www.youtube.com/watch?v=8PXUIuPBewU
 
 ### Israel Friends — candidate ALLY (platformed by an ally channel)
 - [IsraelFriends] *From the streets of Israel | Israel Friends* (2026-10-06) — https://www.youtube.com/watch?v=kM4MvLCKoKE
@@ -18,11 +15,14 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Lt. Dean Elsdunne — candidate ALLY (platformed by an ally channel)
 - [StandWithUs] *Israel Police Investigations Into Attacks on Arabs in Judea & Samaria/West Bank | Lt. Dean Elsdunne* (2026-10-15) — https://www.youtube.com/watch?v=Dv6guJXl950
 
-### Mansoor Laghari — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *A Muslim Wore a Hostage Pin at Al Aqsa — “Remove It or Leave” | Mansoor Laghari* (2026-10-15) — https://www.youtube.com/watch?v=wgNw7c5nAng
+### Paul Bock — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Green Beret Warns: The West Isn’t Ready for What’s Coming | Paul Bock* (2026-10-19) — https://www.youtube.com/watch?v=A3AF_wPGdUM
 
 ### Shady Shae — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae* (2026-10-18) — https://www.youtube.com/shorts/oMaWxYRnkkI
 
 ### Then Asked THIS — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae* (2026-10-18) — https://www.youtube.com/shorts/oMaWxYRnkkI
+
+### Then Chaos Erupted — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *He Defended Israel Inside a Texas Mosque—Then Chaos Erupted | Abteen Vaziri* (2026-10-18) — https://www.youtube.com/watch?v=8PXUIuPBewU
