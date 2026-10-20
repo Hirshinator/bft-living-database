@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19 19:01 UTC",
+  "generated": "2026-10-20 17:46 UTC",
   "count": 8,
   "candidates": [
     {
@@ -38,19 +38,6 @@
           "title": "Israel Isn’t Going Anywhere—Get Used to It 🇮🇱 | Jonathan Conricus",
           "date": "2026-10-18",
           "link": "https://www.youtube.com/shorts/0jidCNZZwiE"
-        }
-      ]
-    },
-    {
-      "name": "Lt. Dean Elsdunne",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "StandWithUs",
-          "title": "Israel Police Investigations Into Attacks on Arabs in Judea & Samaria/West Bank | Lt. Dean Elsdunne",
-          "date": "2026-10-15",
-          "link": "https://www.youtube.com/watch?v=Dv6guJXl950"
         }
       ]
     },
@@ -103,6 +90,19 @@
           "title": "He Defended Israel Inside a Texas Mosque—Then Chaos Erupted | Abteen Vaziri",
           "date": "2026-10-18",
           "link": "https://www.youtube.com/watch?v=8PXUIuPBewU"
+        }
+      ]
+    },
+    {
+      "name": "Younes Sadaghiani",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "If Israel Falls… | Younes Sadaghiani",
+          "date": "2026-10-20",
+          "link": "https://www.youtube.com/shorts/HwLTndz_iXs"
         }
       ]
     }

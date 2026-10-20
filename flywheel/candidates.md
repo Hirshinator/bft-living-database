@@ -1,4 +1,4 @@
-# Flywheel candidates — 2026-10-19 19:01 UTC
+# Flywheel candidates — 2026-10-20 17:46 UTC
 
 8 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
@@ -12,9 +12,6 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Jonathan Conricus — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Israel Isn’t Going Anywhere—Get Used to It 🇮🇱 | Jonathan Conricus* (2026-10-18) — https://www.youtube.com/shorts/0jidCNZZwiE
 
-### Lt. Dean Elsdunne — candidate ALLY (platformed by an ally channel)
-- [StandWithUs] *Israel Police Investigations Into Attacks on Arabs in Judea & Samaria/West Bank | Lt. Dean Elsdunne* (2026-10-15) — https://www.youtube.com/watch?v=Dv6guJXl950
-
 ### Paul Bock — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Green Beret Warns: The West Isn’t Ready for What’s Coming | Paul Bock* (2026-10-19) — https://www.youtube.com/watch?v=A3AF_wPGdUM
 
@@ -26,3 +23,6 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### Then Chaos Erupted — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *He Defended Israel Inside a Texas Mosque—Then Chaos Erupted | Abteen Vaziri* (2026-10-18) — https://www.youtube.com/watch?v=8PXUIuPBewU
+
+### Younes Sadaghiani — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *If Israel Falls… | Younes Sadaghiani* (2026-10-20) — https://www.youtube.com/shorts/HwLTndz_iXs
