@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-20 17:51 UTC",
+  "generated": "2026-10-21 17:59 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 665,
+  "cursor": 915,
   "count": 120,
   "mentions": [
     {
@@ -123,15 +123,6 @@
       "confidence": "high"
     },
     {
-      "entity": "John Fetterman",
-      "stance": "",
-      "title": "Fetterman Joins GOP to Block Effort to Expose Israeli Abuses in West Bank - Truthout",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenhHM0EyXzNESjF1c24zTlZEXzI2QzlrZGhIMzVFV2dDanN1bFYtclY0LUcyVW1URzV4UEt5UWlNNlRyTnJtQnV5clBpT3Q1My01S2lZY3hiNTYtbzBhd1MzdXpRcU92RXFNUzVDVkxhN2VrNWdRY3RvRERlRDN6X1VTVzlVb19VYjd3WmY4SHM2M252cmlJcTBCN09IT3psUnVVTXJqZw?oc=5",
-      "date": "Wed, 30 Sep 2026 16:07:38 GMT",
-      "source": "Truthout",
-      "confidence": "high"
-    },
-    {
       "entity": "David Ellison",
       "stance": "pro",
       "title": "Being Clarissa Ward: The CNN Fixture on Gaza, Trump and Her Ellison-Era Future - The Hollywood Reporter",
@@ -213,6 +204,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Katie Halper",
+      "stance": "",
+      "title": "Katie Halper DESTROYS Zionist NYU Professor for \"Slave Owner\" Gaza Take - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lbnVZZlVfYkxZX2ZWOFpjVVlZN3BabFhUdE14S1hSVzBTb1lWX19ySmJaNXVoZ2swelc3SWVKcWJZcVJzX0w4T3J4VUZzT3J2T1Bfa2NJZ3JIc2lB?oc=5",
+      "date": "Wed, 30 Sep 2026 11:00:10 GMT",
+      "source": "YouTube",
+      "confidence": "high"
+    },
+    {
       "entity": "All Israel News",
       "stance": "",
       "title": "‘Second 9/11 averted’: Pilot tries to hijack Israel-bound flight from Dubai in attempted terror attack - All Israel News",
@@ -253,17 +253,8 @@
       "stance": "neutral",
       "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdHpZNXVXaV83OXlzOE1wN0F1RTlONFNfcWxZOVRZNkE5V0FqMDVYUy1yMlhDNlBDRGxHLThJM3pRRUV6RXYyaWZjcnN6RklnWjctUWp4Vk82N1FlTU5BcU1QNHNBMmdzRHBTN0JYZDNsNmItRmh5RldEYzBTVjlOTW8yS1BJNDd3M21tUVBNUi1ZSVlOQWRLbGhrZ2VQN19ISlE?oc=5",
-      "date": "Wed, 30 Sep 2026 09:04:02 GMT",
-      "source": "Yahoo Finance",
-      "confidence": "high"
-    },
-    {
-      "entity": "Douglas Murray",
-      "stance": "",
-      "title": "Douglas Murray: Israel Is Conquering Its Enemies - The Free Press",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
       "date": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "source": "The Free Press",
+      "source": "Yahoo Finance",
       "confidence": "high"
     },
     {
@@ -294,12 +285,30 @@
       "confidence": "high"
     },
     {
+      "entity": "John Fetterman",
+      "stance": "",
+      "title": "Fetterman Joins GOP to Block Effort to Expose Israeli Abuses in West Bank - Truthout",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenhHM0EyXzNESjF1c24zTlZEXzI2QzlrZGhIMzVFV2dDanN1bFYtclY0LUcyVW1URzV4UEt5UWlNNlRyTnJtQnV5clBpT3Q1My01S2lZY3hiNTYtbzBhd1MzdXpRcU92RXFNUzVDVkxhN2VrNWdRY3RvRERlRDN6X1VTVzlVb19VYjd3WmY4SHM2M252cmlJcTBCN09IT3psUnVVTXJqZw?oc=5",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "Truthout",
+      "confidence": "high"
+    },
+    {
       "entity": "Jonah Platt",
       "stance": "",
       "title": "‘We lost the information war’: Jonah Platt takes on Israel’s online battle - Ynetnews",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15a19WMHJ3RTR4OFlVTFotWkxzcTB4Vk8zRmNRYXZaQTlVZG5sMXZDaUlsdHFWWHhQdXRQQ25kR0hIUzBXeUhGOXFDZ3QzeUNMcDUyZkh0RG1VQ21KSmxwbQ?oc=5",
       "date": "Wed, 30 Sep 2026 07:00:00 GMT",
       "source": "Ynetnews",
+      "confidence": "high"
+    },
+    {
+      "entity": "Douglas Murray",
+      "stance": "",
+      "title": "Douglas Murray: Israel Is Conquering Its Enemies - The Free Press",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HeFJsMXdpTUs3cnFjaEYxVXZVOFhPbHJvdzJQdFE0YW5USG80b05wSnpWOTA2STJ3SmdDNHdBMGllOV9pWEtQVWdQMkNTdTF1Q2NELXpBS0hmNXg0TWtoSll4ZjVRMWlTX05yT0NB?oc=5",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "The Free Press",
       "confidence": "high"
     },
     {
@@ -879,6 +888,51 @@
       "confidence": "high"
     },
     {
+      "entity": "Jon Ossoff",
+      "stance": "",
+      "title": "‘Is Iran Paying You?’: Jon Ossoff, El-Sayed Under Fire Over ‘Israel Hate’; Mike Collins Explodes - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTHhDUk9ncHN6aHdRcTR1OVZRRGo3RGJmOHZQRml4YUdJLWplVElxTHowYnVDZWtDN1dMVDZiQW5KM3ZvME55eEdZRlp5WmpqNTMzQVhRZ0hZUjI3RzBpSDhOWlp4ZEVxcGNvWlpoT0pzMDZoN05ic0VPUFItRkowcXFXb2lFN0ZwXzI0aWxic1VNZXBYYzY4YnBGQkgzeUh1VVFTRXE4SFo3RnliT1A4SnczSUN1RVh5aWVtaURZQTY5VUNmRlFMa1J6Wm53Y0RfZW9LdFRZZzkwcGlmSTFXR0lmbHNnQ2pFRFlOVzR5Nk1xLXRfdW1kQnhuYnh4dw?oc=5",
+      "date": "Wed, 21 Oct 2026 17:29:11 GMT",
+      "source": "The Times of India",
+      "confidence": "high"
+    },
+    {
+      "entity": "John Cornyn",
+      "stance": "",
+      "title": "VIDEO: Cornyn Joins Squawk Box on the Midterm Elections, Ukraine, Iran, and AI - Forth.News",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aQjI1bkFYWFowTFoyM1BUZE9HLVVRQVJxQ1drek5VX0dZbDgxUXJad3I3bWdfeFdOdEVWMXcxN2x1V1pHWk9Zc0NWbS1iSTA0OUVYNTZOcjdwTjJpM1ZkTXlnT0tIWHdnR1dCSnFEMm0?oc=5",
+      "date": "Wed, 21 Oct 2026 15:01:38 GMT",
+      "source": "Forth.News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hasan Piker",
+      "stance": "",
+      "title": "Democratic push grows for Ilhan Omar, Fateh to cancel Hasan Piker event - Jewish Insider",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNENINi1GTjljbTVrNkh2V091VTZqUlB6QWUwdTVTLTIweG1OMVh3UWNFb29yclJpT0x4dlVtSVdmNHJBaV9ZTTV5TFhKZVBBaGlEMjZacGVWZGlGRTI2NGNHUHJTa3lpc1p6QVFOS3dSNEk3SVpKcVktXzcyeGI1Yk92TGh5aVpRUm1iNldfa0t0RUcwV2VKekJHT0w?oc=5",
+      "date": "Wed, 21 Oct 2026 08:45:29 GMT",
+      "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ilhan Omar",
+      "stance": "",
+      "title": "Democratic push grows for Ilhan Omar, Fateh to cancel Hasan Piker event - Jewish Insider",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNENINi1GTjljbTVrNkh2V091VTZqUlB6QWUwdTVTLTIweG1OMVh3UWNFb29yclJpT0x4dlVtSVdmNHJBaV9ZTTV5TFhKZVBBaGlEMjZacGVWZGlGRTI2NGNHUHJTa3lpc1p6QVFOS3dSNEk3SVpKcVktXzcyeGI1Yk92TGh5aVpRUm1iNldfa0t0RUcwV2VKekJHT0w?oc=5",
+      "date": "Wed, 21 Oct 2026 08:45:29 GMT",
+      "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Israel Englander",
+      "stance": "neutral",
+      "title": "Millennium Management and Israel Englander Reveal 5.3% Stake in Whirlpool Corporation - Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYmxEbE4xYVJzXy1zUWtzazZ1RmdHODhTdDU2YlpYNUpPZDhlRXo0cTJ6V0FBUG1LaU9lVUtubF85RzQ5NEM1b3o5enR3cFluU01peDlGQTlYOU9rR0RXYmxnSVdEbHhDTHdHblRLZjVpcU9FcDk4cHlyUVhNMVdHZXdsUjRpUjgxdmJWbFZzelpOS0tHNE5ELW1RVXZaVWpaWGpoUUVsLTJQZkx2OWhnNXJBYlVZc2d6cUxFT0UzRjh6bzBodnN0REFn?oc=5",
+      "date": "Wed, 21 Oct 2026 01:25:06 GMT",
+      "source": "Kalkine Media",
+      "confidence": "high"
+    },
+    {
       "entity": "Joe Kent",
       "stance": "",
       "title": "Former National Counterterrorism chief Joe Kent sat with Tucker Carlson, claiming key dissenting voices were silenced before the Iran war. - SCNow",
@@ -1029,60 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RXdGszU1g5ZUdJdHZXRUJlMEp1b3VjWWtvTVNpWHNQZjU3R0V6VTBJWlppNkprY0VqckpydHYtclNxb256bHU0cGV0UFp5azBwZ2ZiVHZqSmpUVlNpTjNVaVRFbFlISnB2ZFF6aVV4Rkc4b2FoTmdZMzhkNVlpZEZxVdIBiAFBVV95cUxPYjFzaVRBMV81YVZ0Yi05M1lWN1dFcWZrYU54WGJvY3hWWUJkd0I4bldPYl84RHZoNDNLa0R2LTdaYWJfdTNfWVdLUm5heEVxNkNKVXIyLUphXy1uYTNVU3EyTFNsa1VuTkFndVNheHAyM3NGRzIzQl82dTNkUS1XcHFvbUJBMWtz?oc=5",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "thehill.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ariel Or",
-      "stance": "pro",
-      "title": "Swell Ariel Or: Hollywood antisemitism drove me to pro-Israel activism - The Jewish Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPako2NVo5dFIyeVd0U01wbVBWUnpkczZYWlhmU05IVUMxQlYwcGllQlJ4LVBkOGk2OTVRU09wLTBPNFhMbTZ0LU5XNE1vSDhMN2ZlRDBOMEFZUmZjODRiZzkyUTl3ejRvV3BDNFpKS0Z3X2N2a1IxXzBvYmJKRWRFSTBydHp5UU10bkQ1dzZBQnQ2TlA3QXptdzBna2hKUQ?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "The Jewish Chronicle",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rick Scott",
-      "stance": "",
-      "title": "Trump ‘is going to have to’ escalate Iran war: Rick Scott - Washington Examiner",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTZUbG95SGNrZjZkR3huRVNQU1gyUmwwd250djM3b3RaODVtbElQdnlTN1BxT3ZiTjhKUi1IVy03eDhjT2VSbU9yQmlKcG1HQ1JKN0hlS2l6WDlBbXZhRzJ3bktGVWJ1YUp4Nkg5MGUxaFNWVHhoTzJob2VIXzFIWDJtTVNZUFVraU02U2twcDJLckMwZmtBV3phdlVDMHNXRVE?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "Washington Examiner",
-      "confidence": "high"
-    },
-    {
-      "entity": "Don Bacon",
-      "stance": "",
-      "title": "Bacon urges Trump to ‘say less’ after ‘contradictory’ Iran messages - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RXdGszU1g5ZUdJdHZXRUJlMEp1b3VjWWtvTVNpWHNQZjU3R0V6VTBJWlppNkprY0VqckpydHYtclNxb256bHU0cGV0UFp5azBwZ2ZiVHZqSmpUVlNpTjNVaVRFbFlISnB2ZFF6aVV4Rkc4b2FoTmdZMzhkNVlpZEZxVdIBiAFBVV95cUxPYjFzaVRBMV81YVZ0Yi05M1lWN1dFcWZrYU54WGJvY3hWWUJkd0I4bldPYl84RHZoNDNLa0R2LTdaYWJfdTNfWVdLUm5heEVxNkNKVXIyLUphXy1uYTNVU3EyTFNsa1VuTkFndVNheHAyM3NGRzIzQl82dTNkUS1XcHFvbUJBMWtz?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Anti-Defamation League (ADL)",
-      "stance": "",
-      "title": "A Crisis of Representation: Antisemitism and Inclusion in Higher Education Unions - Anti-Defamation League",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNC14cWVGcktaeS0taDI0SmlHTVpNb3F5OG9FREtNRnp1UTF6Tk5NdlJnN1ZDS051Um9BSXc3Z1lQWHJuY3dscnk3UGtiOGhBbTNLYm9Lb3F1MTJ5RDgzRzNVbllTZU5wZllIOVMwb0ZZVHZQdXRQTUpGZnRSSmV3cUw3V2k5aDIxZHp2Q3Z1V2dhWTQ5aXJhY05JSXk0OHR5MDhpRGxCLVNOTHFBeEE?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "Anti-Defamation League",
-      "confidence": "high"
-    },
-    {
-      "entity": "Similarweb",
-      "stance": "",
-      "title": "Similarweb Opens Up AI Ad Market - israeldefense.co.il",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mcmhIZ1lwS2xiTmd2TmVkaERTVHVwd0pUdmxaekN5dDFzd0d3V3lENW9oaVpSMkVraUZrVU1mZktjTzBucGIwY3pwUk5qdHY1S0tTN3M2RGw?oc=5",
-      "date": "Wed, 19 Aug 2026 05:02:38 GMT",
-      "source": "israeldefense.co.il",
-      "confidence": "high"
-    },
-    {
-      "entity": "NewsNation",
-      "stance": "",
-      "title": "Iran strikes ship, doubles down on closing Strait of Hormuz - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTExRTmtjckNNaHc5QXdUVlFScVNYeEU0Y3NfYU80SHNwU0trNG11bjJ2c2d6LV9iaVpDeU13VnAyV3lieEU1cGVQOHJYd1gyRGtBTDRfdDBPNG5iWS1kc3doc3JUSi1IbG1WbmxiV1hSQnNNa2J6MjFfTU9mTVNxc0FB0gGHAUFVX3lxTE9mMzFXb3hGcEI5UjhjRkNIZGpMZzBpTXZvV0ViM3h4cWJZLURFMWNUSmhkT3ZZTXZYVnVMdFdyNjZzVEZsMTVPc2hpdGNMLU5Ic3JkdURKMTR6cjRTRDBmaTZoUFhuTkkwb3EyNzNmX0RORXAzRWVuWVNNeldMTzNjRTBQbzRnVQ?oc=5",
-      "date": "Wed, 19 Aug 2026 01:14:15 GMT",
-      "source": "NewsNation",
       "confidence": "high"
     }
   ]

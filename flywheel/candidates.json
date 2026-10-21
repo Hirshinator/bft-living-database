@@ -1,17 +1,30 @@
 {
-  "generated": "2026-10-20 17:46 UTC",
-  "count": 8,
+  "generated": "2026-10-21 17:54 UTC",
+  "count": 7,
   "candidates": [
     {
-      "name": "Abteen Vaziri",
+      "name": "Arul Velusamy LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "He Defended Israel Inside a Texas Mosque—Then Chaos Erupted | Abteen Vaziri",
-          "date": "2026-10-18",
-          "link": "https://www.youtube.com/watch?v=8PXUIuPBewU"
+          "title": "Israel, Radicalization & the Future of the West | Arul Velusamy LIVE",
+          "date": "2026-10-21",
+          "link": "https://www.youtube.com/watch?v=Cyzol3e0mVE"
+        }
+      ]
+    },
+    {
+      "name": "Danny Alexander LIVE",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Is Europe Next? Israel’s Warning to the West | Danny Alexander LIVE",
+          "date": "2026-10-21",
+          "link": "https://www.youtube.com/watch?v=6mWb0Jw-GIE"
         }
       ]
     },
@@ -29,15 +42,15 @@
       ]
     },
     {
-      "name": "Jonathan Conricus",
+      "name": "Lee Trink LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Israel Isn’t Going Anywhere—Get Used to It 🇮🇱 | Jonathan Conricus",
-          "date": "2026-10-18",
-          "link": "https://www.youtube.com/shorts/0jidCNZZwiE"
+          "title": "Hollywood, Gen Z & Why Israel Is Losing the Culture War | Lee Trink LIVE",
+          "date": "2026-10-21",
+          "link": "https://www.youtube.com/watch?v=DzIFYQKQcps"
         }
       ]
     },
@@ -55,41 +68,15 @@
       ]
     },
     {
-      "name": "Shady Shae",
+      "name": "Shadi Khalloul",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae",
-          "date": "2026-10-18",
-          "link": "https://www.youtube.com/shorts/oMaWxYRnkkI"
-        }
-      ]
-    },
-    {
-      "name": "Then Asked THIS",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Saw Israel Saving Muslim Kids—Then Asked THIS | Shady Shae",
-          "date": "2026-10-18",
-          "link": "https://www.youtube.com/shorts/oMaWxYRnkkI"
-        }
-      ]
-    },
-    {
-      "name": "Then Chaos Erupted",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Defended Israel Inside a Texas Mosque—Then Chaos Erupted | Abteen Vaziri",
-          "date": "2026-10-18",
-          "link": "https://www.youtube.com/watch?v=8PXUIuPBewU"
+          "title": "Without Israel, My People Might Not EXIST | Shadi Khalloul",
+          "date": "2026-10-21",
+          "link": "https://www.youtube.com/watch?v=XFotKZQXAe4"
         }
       ]
     },
