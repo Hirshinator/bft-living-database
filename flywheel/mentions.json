@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21 17:59 UTC",
+  "generated": "2026-10-22 17:55 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
     {
@@ -888,12 +888,48 @@
       "confidence": "high"
     },
     {
+      "entity": "NewsNation",
+      "stance": "",
+      "title": "Netanyahu hints war in Iran isn’t over, tells Trump ‘We have a job to finish’ - NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGJtclFYLUZFeFBNNURfWGtlVkVkbWdlNnNWZGQ5Rk9QRUhObmU3eTNmdnAxdHNieUprWENVYXlRZUk3SUo2S21sYXFjQ0poYmlyU0dlbFFXVHRqb3NaMW4ydzhnRWd2ZEl3WENjd29WYVc5bWwxWU5vM2dCYUZZcTZQVWbSAYoBQVVfeXFMUEdLaTVoSTlGQnhtQ1dwX0Y0Vm9LX2VVY29IaHk3U25wWmE5RWdnUlJGREQ0MUFrNEl6M1dINnE2TmNNOWplRzRMT2ZKNmtrcWV2cWxmVWlEeWhUUHZZeGlfZm9uT2pzZ2V4TW5jZnJQX05nNXhjUzFlTGlGRzNvRUh2dmk0UG5BWnZB?oc=5",
+      "date": "Wed, 21 Oct 2026 23:46:32 GMT",
+      "source": "NewsNation",
+      "confidence": "high"
+    },
+    {
+      "entity": "Peter Thiel",
+      "stance": "",
+      "title": "Peter Thiel breaks with Trump over Iran war: ‘We should not have done it’ - Politico",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWDVTYThmX3RmY2M5YnNvRDZZQmxjTzJ3bE1teG9NMkNWOGpmZ2R1ZHllOG9pbUFEU0JKN2xLcmY3ZWFlY0RoLURYeno4aTk4RHllSTQwZWFsMHFkdzF2ZVh0eV9ZNnNacU1zdFNOQUlVNC14V3lLTWNLTjdCODlYRGdn?oc=5",
+      "date": "Wed, 21 Oct 2026 23:33:00 GMT",
+      "source": "Politico",
+      "confidence": "high"
+    },
+    {
+      "entity": "Shabbos Kestenbaum",
+      "stance": "",
+      "title": "Shabbos Kestenbaum combats Antisemitism at Bakersfield College - The Renegade Rip",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRG1KdjQ1clNIeFAtUUQzMzNJNk5wS3VwWE15NVZVTWNKaGR6NGN0c1ZvSkd2VjhlRzZMT0FibGRjd3ZQYWZidHV0OGh5SDhRaU1Id1lqeE5XUVlSOGlURVBtSFRIM2NVQVJPQU53V2p4NUcxandDYVRSc1haRnREbF8xTVRFaWJlUXJ6eUdRQkx6LUNBcVZSbVZpTWg2SFNjOUY5Qw?oc=5",
+      "date": "Wed, 21 Oct 2026 20:42:01 GMT",
+      "source": "The Renegade Rip",
+      "confidence": "high"
+    },
+    {
       "entity": "Jon Ossoff",
       "stance": "",
       "title": "‘Is Iran Paying You?’: Jon Ossoff, El-Sayed Under Fire Over ‘Israel Hate’; Mike Collins Explodes - The Times of India",
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTHhDUk9ncHN6aHdRcTR1OVZRRGo3RGJmOHZQRml4YUdJLWplVElxTHowYnVDZWtDN1dMVDZiQW5KM3ZvME55eEdZRlp5WmpqNTMzQVhRZ0hZUjI3RzBpSDhOWlp4ZEVxcGNvWlpoT0pzMDZoN05ic0VPUFItRkowcXFXb2lFN0ZwXzI0aWxic1VNZXBYYzY4YnBGQkgzeUh1VVFTRXE4SFo3RnliT1A4SnczSUN1RVh5aWVtaURZQTY5VUNmRlFMa1J6Wm53Y0RfZW9LdFRZZzkwcGlmSTFXR0lmbHNnQ2pFRFlOVzR5Nk1xLXRfdW1kQnhuYnh4dw?oc=5",
       "date": "Wed, 21 Oct 2026 17:29:11 GMT",
       "source": "The Times of India",
+      "confidence": "high"
+    },
+    {
+      "entity": "Rick Scott",
+      "stance": "",
+      "title": "Sen. Rick Scott Visits Israel to Strengthen Partnerships with U.S. - U.S. Senator Rick Scott (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0xWdFd1RjVTVHVBQnpFRE4teUZnMWxVaU5lWmNkRExRaXBPOU51dXNZUTRmSDczMG5VNkRWMHBJZFJSaGlodWhLaXBnc2R0WkZsT1JoX2J1aDdfb1EtR2psYTR2TWppamNqVTV2VXMyb0VFZjR6cFNEMHV0M2E4MzZnNUM5MFBhYUxaX3d5SW55VGxIeUVQLUxRSXZJMTYwNG1fanhTaFg?oc=5",
+      "date": "Wed, 21 Oct 2026 15:30:00 GMT",
+      "source": "U.S. Senator Rick Scott (.gov)",
       "confidence": "high"
     },
     {
@@ -921,6 +957,24 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNENINi1GTjljbTVrNkh2V091VTZqUlB6QWUwdTVTLTIweG1OMVh3UWNFb29yclJpT0x4dlVtSVdmNHJBaV9ZTTV5TFhKZVBBaGlEMjZacGVWZGlGRTI2NGNHUHJTa3lpc1p6QVFOS3dSNEk3SVpKcVktXzcyeGI1Yk92TGh5aVpRUm1iNldfa0t0RUcwV2VKekJHT0w?oc=5",
       "date": "Wed, 21 Oct 2026 08:45:29 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Pete Hegseth",
+      "stance": "",
+      "title": "Hegseth meets Netanyahu on unannounced Israel visit - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQU1SU1R3eUwtXzVwZDVoNlpIQUFFUDhtUl9Nbng0Q2dRYUxXUkZjYTNkMnB3X0M5T096ZEtZMlltM0JTbC1JY21ESC1GRk5QVmtxbmdySS1Ydkl2UWF0T3dtc1pwQzg1LWZBUDlXZDdmZDFTY1N5UWtzR3RNS2lVNWlaTW9sT29zM1lBR29yanpwdE5GTjN6ONIBngFBVV95cUxQRnJ5dlBiLUFqbTJMZHd2VS1hV1J6cV9pMVJmazIyOUlkSXhYLW0zY0FKcHNYYzZ6RWl1MFhOV2VSQkZONEM3UlZSNkNFUVlPd0QtTVZYUWxOXzVlcUNpTHlHd3VvWkNSLVM3QklCOXhMdDQzSGg3bjB2Wklhd1hLbzFHNUcwME9pc1JBTDFIc25FUjlFWmR5dS1Bbk1IQQ?oc=5",
+      "date": "Wed, 21 Oct 2026 08:07:20 GMT",
+      "source": "Al Jazeera",
+      "confidence": "high"
+    },
+    {
+      "entity": "NewsNation",
+      "stance": "",
+      "title": "Hegseth meets Netanyahu as US, Israel discuss renewed Iran strikes - NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53YjVabzNFaVRWc2ZNeFFiOFVhTU9OejgzX2ZZbXBobEQxT2FiUXI4Mk9ua0ZaU2ZnblAxamJ1ejNNVUlMd2pJc2VvbndKTUY3X2JGbUstXzdZOWxLckhFUkFFWjlWU2tIbGpDRFMydkVDdHBSY0dYRU5xTHh0Z9IBgwFBVV95cUxNTnpSbXJpX1UtUXRzUGEtalFYazQzeFY3Ny1BR2Z2ejljcktXaXBWQVN1VEtwaEZ5OHFKNnBVbVY0dG92QVVaeVRaTUEtMXI5VUlSa0l6QVFST3oxOUJKVFJOeFM3S3BzcUUtMUFJcUtIaTU5RGdjQmQ3cWFFQ2dHRU43RQ?oc=5",
+      "date": "Wed, 21 Oct 2026 03:52:50 GMT",
+      "source": "NewsNation",
       "confidence": "high"
     },
     {
@@ -1029,60 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNbUZuTGJBNFJZTXhubEdmLUtHREUxWFdpcDJjR3hYWmtqUFBfcU5rbDVIYkJzenA0S1hxRUd6OFNtcnFhVUF6RFJjUVFYaWhVUmFxX1gwYjctckZNTEJYMG9BTHJxM0MyY2h4allqdkVhQTZZY3VKa1poXzJQVzUtQ0hTdE9IUnlJeDNSYW1SbDVIS0tFWTI3TDhZTnZKVW9Pa1QzTFlfTVRJNHpyOFNVM056MXZSdm9hZnJoS0hycjFHWldYSlcyUEx5Z3VSWTlXU2lIZXZ6RFRaeVVYV2pvTmp5Z2FwUERzNXZWRTJMSkJ0aTB0V0F5Tlk3b0ltWWY1NGZHanBOMHlBMW94aUg2V3pOSngwZ2dYdW1Zd09RREVyLU91eUpz?oc=5",
       "date": "Wed, 19 Aug 2026 11:34:52 GMT",
       "source": "The Daily News | Texas' Oldest Newspaper",
-      "confidence": "high"
-    },
-    {
-      "entity": "Allot",
-      "stance": "",
-      "title": "Allot Leads Founding Industry and Academic Consortium to Launch Israeli Post-Quantum Communications Initiative - Quantum Computing Report",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOU9KWnhOSENKS05XQ2w5d2c3dGNVOUNGYXFJX2QzR3daNzBmOWlJdEFBbEhfZ1d5R2h2MUNyQmhkWUxJR1BuRDdLX2NiZG1aeGdiWDR6YlJRbEk3T3kyMmxobmk4elM4d3lnakNpT3F2Ri1OY1pKcnRyLVZ3anRVWjIzOEhtRHh0RjJwZVNpRDhJelJud2tWY01XVmhqR1lCcDVCNldwRkxkY3lTYUhpS29xWnhCYnV6ZndCOFl2VkF5QmNOYUVESXJyWEplOWJWekNJMmQzOVpsU0JadThn?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "Quantum Computing Report",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rick Scott",
-      "stance": "",
-      "title": "Rick Scott: Trump will have to resume full war with Iran - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWHpHZjFsTHJMZUlYYS1xak1NYnN5OWpmX0I5clNrUXJZSWIwbzdDdld2bnFuazl2M2hXemFTdjBDenk3dHgyT2RXenpRQS1UZXhOekpaRExYc29UVWxjdEdLaDNMUnZCQi1ZLU1xUGh6Rm1GMTctWF9PbUVWYm5pN2J5eWl6MWFDVjRHQTNxQVZhTHg5T3NOWNIBngFBVV95cUxQOXg2dVEwN3VQYjJod2pxbHdGZVlJeWYwWDBScnhDbkJGZzlrbkEwTWJ2ZklFOW9vVWk5YkU1eVVzZE1UWVBReUlIYzB1d21Pc3RXRVFtS2VDYTcyVW1SSU9wZFZPbUxVTm91NzB1TzczS19WOTFaSDNIOEZPWjE5T1ZXZTVCdWZ3bnJHN2dJR2c1TTZ3bGYxTGN3S2REUQ?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ron DeSantis",
-      "stance": "",
-      "title": "Two pro-Israel candidates will vie to succeed Florida Governor Ron DeSantis - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONjdrbzFaOHRPVmg0enVvTHJZZ2VHaEQtYk1iN3g0RDRoZ01KSWhVT2ZkUkUyM1lfai1FSm10Wk4tTHVHTDVULUVkQzlWRHhtMExzLWNyMkl1OTdud3kzaUpiV0VEUUV5dldPem0yYkZfcnJqYTg4bVUybHVLNWNyZm1Wd2lnZG5RNzRlSEJtVjIwY3RmM3o1bW1xX3B4VUVUM3plTFloendOUdIBrwFBVV95cUxQSEU0dDRLODVNN1FtaUxBTDlBMlczSzRJVGNseHlZekJKeG5XQm4yVUNxdkMwM0ZmVFJmc0gtVEV0RWNaWFE2Mk1FcUh5V0NhTjRkbGlYZ3hKLV9MQklKS0lXR1N3d0JiVFFCM2VJZENaQ2NhMzd1VUJOVHFDX2FZLXVKR1NPQnZodFp6MU5XS3JhZllEVFduM05HbVVxRGdqVUp1QlpZZEJOUEtra0hJ?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ariel Or",
-      "stance": "pro",
-      "title": "Swell Ariel Or: Hollywood antisemitism drove me to pro-Israel activism - thejc.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPako2NVo5dFIyeVd0U01wbVBWUnpkczZYWlhmU05IVUMxQlYwcGllQlJ4LVBkOGk2OTVRU09wLTBPNFhMbTZ0LU5XNE1vSDhMN2ZlRDBOMEFZUmZjODRiZzkyUTl3ejRvV3BDNFpKS0Z3X2N2a1IxXzBvYmJKRWRFSTBydHp5UU10bkQ1dzZBQnQ2TlA3QXptdzBna2hKUQ?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "thejc.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mark Levin",
-      "stance": "",
-      "title": "Mark Levin’s strategic folly on Iran - Washington Examiner",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLUJGVmV2UWV2UnpyMnFRX1RrV1JXLWhyMG5xQlFEREJENThoUGdzSFdXUzhEQTJOWUs2dE5rODFyMEM1amlPVUVtcmxTVWNYVkplWnZWeTBtNWxHUDh3SVVEelFGcUE0TXlLd0Q4dTJFU1FlRldCNGFMNEVvQ3hZdldJaUg1NWIycEI5NXpMNA?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "Washington Examiner",
-      "confidence": "high"
-    },
-    {
-      "entity": "Don Bacon",
-      "stance": "",
-      "title": "Bacon urges Trump to ‘say less’ after ‘contradictory’ Iran messages - thehill.com",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RXdGszU1g5ZUdJdHZXRUJlMEp1b3VjWWtvTVNpWHNQZjU3R0V6VTBJWlppNkprY0VqckpydHYtclNxb256bHU0cGV0UFp5azBwZ2ZiVHZqSmpUVlNpTjNVaVRFbFlISnB2ZFF6aVV4Rkc4b2FoTmdZMzhkNVlpZEZxVdIBiAFBVV95cUxPYjFzaVRBMV81YVZ0Yi05M1lWN1dFcWZrYU54WGJvY3hWWUJkd0I4bldPYl84RHZoNDNLa0R2LTdaYWJfdTNfWVdLUm5heEVxNkNKVXIyLUphXy1uYTNVU3EyTFNsa1VuTkFndVNheHAyM3NGRzIzQl82dTNkUS1XcHFvbUJBMWtz?oc=5",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "thehill.com",
       "confidence": "high"
     }
   ]

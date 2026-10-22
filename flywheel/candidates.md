@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-10-21 17:54 UTC
+# Flywheel candidates — 2026-10-22 17:51 UTC
 
-7 new candidate(s) surfaced from monitored channels, not yet in the database.
+6 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Arul Velusamy LIVE — candidate ALLY (platformed by an ally channel)
@@ -9,14 +9,11 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Danny Alexander LIVE — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Is Europe Next? Israel’s Warning to the West | Danny Alexander LIVE* (2026-10-21) — https://www.youtube.com/watch?v=6mWb0Jw-GIE
 
+### Danny Burmawi — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *The Most TOXIC Cause in History | Danny Burmawi* (2026-10-21) — https://www.youtube.com/shorts/MtnhA8RtB4o
+
 ### Israel Friends — candidate ALLY (platformed by an ally channel)
 - [IsraelFriends] *From the streets of Israel | Israel Friends* (2026-10-06) — https://www.youtube.com/watch?v=kM4MvLCKoKE
-
-### Lee Trink LIVE — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *Hollywood, Gen Z & Why Israel Is Losing the Culture War | Lee Trink LIVE* (2026-10-21) — https://www.youtube.com/watch?v=DzIFYQKQcps
-
-### Paul Bock — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *Green Beret Warns: The West Isn’t Ready for What’s Coming | Paul Bock* (2026-10-19) — https://www.youtube.com/watch?v=A3AF_wPGdUM
 
 ### Shadi Khalloul — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Without Israel, My People Might Not EXIST | Shadi Khalloul* (2026-10-21) — https://www.youtube.com/watch?v=XFotKZQXAe4

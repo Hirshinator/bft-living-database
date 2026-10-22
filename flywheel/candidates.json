@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21 17:54 UTC",
-  "count": 7,
+  "generated": "2026-10-22 17:51 UTC",
+  "count": 6,
   "candidates": [
     {
       "name": "Arul Velusamy LIVE",
@@ -29,6 +29,19 @@
       ]
     },
     {
+      "name": "Danny Burmawi",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "The Most TOXIC Cause in History | Danny Burmawi",
+          "date": "2026-10-21",
+          "link": "https://www.youtube.com/shorts/MtnhA8RtB4o"
+        }
+      ]
+    },
+    {
       "name": "Israel Friends",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -38,32 +51,6 @@
           "title": "From the streets of Israel | Israel Friends",
           "date": "2026-10-06",
           "link": "https://www.youtube.com/watch?v=kM4MvLCKoKE"
-        }
-      ]
-    },
-    {
-      "name": "Lee Trink LIVE",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Hollywood, Gen Z & Why Israel Is Losing the Culture War | Lee Trink LIVE",
-          "date": "2026-10-21",
-          "link": "https://www.youtube.com/watch?v=DzIFYQKQcps"
-        }
-      ]
-    },
-    {
-      "name": "Paul Bock",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Green Beret Warns: The West Isn’t Ready for What’s Coming | Paul Bock",
-          "date": "2026-10-19",
-          "link": "https://www.youtube.com/watch?v=A3AF_wPGdUM"
         }
       ]
     },
