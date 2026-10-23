@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-22 17:55 UTC",
+  "generated": "2026-10-23 17:47 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 1165,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -969,6 +969,15 @@
       "confidence": "high"
     },
     {
+      "entity": "The Dispatch",
+      "stance": "",
+      "title": "The Election Israel Has Waited Three Years For - The Dispatch",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xcU5UVWJsdmtKb3lkMTFMSlg0bHZmRjFwTDdwSWJoQlFXb0w4OF9UTTVoM3U2aVg0ZFdtUFpWV1RjWkk0SHUtM0puOHNpMFZBUGdFQjR6WkpGTDBTa2l1dkVmUzZJQkRFNWdoRnJaZmtaWHk0TmEw?oc=5",
+      "date": "Wed, 21 Oct 2026 05:04:49 GMT",
+      "source": "The Dispatch",
+      "confidence": "high"
+    },
+    {
       "entity": "NewsNation",
       "stance": "",
       "title": "Hegseth meets Netanyahu as US, Israel discuss renewed Iran strikes - NewsNation",
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUU5KaTJXWUxaZ3NPZDBYdHRubEZKS3o5bzlmMHZncVUxUHRMcXpTM1FhRFkzZy1nT3lxNXltNURPTFh0RE1TVGtYRlZDaXdOLW83ZzBYV0RySk10a2xYejJWLWxxWG1ydXY5eTVjOGFkdlk5djJGbG1ZTWlRRWZFbUlKU1FjeWdzemhJS3U5dlZkNzBWQllQUXJ0MUhaWnRxUmpOalZtcG9oTVhjOGRxX3ln0gG3AUFVX3lxTE8xMlB1VDJwU0VwSEcySk5QS21ta3h5MkR3bkdHODYxb3NQb09sQ1pwRWE4YlhqYy1LSmxhTWhPS0xQcEN1VTZDeHEyODZwYk85SFV1NW1xcGpqMlZENmdXTE1LUnNFRENER3laLW1rVjhGZTliSy1Idjhid192d09DUnZsOVNid3JqbnhLVFQtQ3l1dTA2QnlFSE52VVJBRTlxa3FPazBZY2dpWWRZNGhvcGRINFhXYw?oc=5",
       "date": "Wed, 19 Aug 2026 15:50:50 GMT",
       "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
-      "entity": "Joe Kent",
-      "stance": "",
-      "title": "Former National Counterterrorism chief Joe Kent sat with Tucker Carlson, claiming key dissenting voices were silenced before the Iran war. - The Daily News | Texas' Oldest Newspaper",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNbUZuTGJBNFJZTXhubEdmLUtHREUxWFdpcDJjR3hYWmtqUFBfcU5rbDVIYkJzenA0S1hxRUd6OFNtcnFhVUF6RFJjUVFYaWhVUmFxX1gwYjctckZNTEJYMG9BTHJxM0MyY2h4allqdkVhQTZZY3VKa1poXzJQVzUtQ0hTdE9IUnlJeDNSYW1SbDVIS0tFWTI3TDhZTnZKVW9Pa1QzTFlfTVRJNHpyOFNVM056MXZSdm9hZnJoS0hycjFHWldYSlcyUEx5Z3VSWTlXU2lIZXZ6RFRaeVVYV2pvTmp5Z2FwUERzNXZWRTJMSkJ0aTB0V0F5Tlk3b0ltWWY1NGZHanBOMHlBMW94aUg2V3pOSngwZ2dYdW1Zd09RREVyLU91eUpz?oc=5",
-      "date": "Wed, 19 Aug 2026 11:34:52 GMT",
-      "source": "The Daily News | Texas' Oldest Newspaper",
       "confidence": "high"
     }
   ]

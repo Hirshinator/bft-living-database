@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-22 17:51 UTC",
-  "count": 6,
+  "generated": "2026-10-23 17:43 UTC",
+  "count": 7,
   "candidates": [
     {
       "name": "Arul Velusamy LIVE",
@@ -42,6 +42,19 @@
       ]
     },
     {
+      "name": "Harris Sultan",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "It’s Not JUST Israel Derangement Syndrome… | Harris Sultan",
+          "date": "2026-10-22",
+          "link": "https://www.youtube.com/shorts/y10HvpMlbWw"
+        }
+      ]
+    },
+    {
       "name": "Israel Friends",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -55,6 +68,19 @@
       ]
     },
     {
+      "name": "Nikos Sotirakopoulos",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "The Far Left and Far Right Have ONE Thing in Common | Nikos Sotirakopoulos",
+          "date": "2026-10-23",
+          "link": "https://www.youtube.com/watch?v=Hed0FnchKmU"
+        }
+      ]
+    },
+    {
       "name": "Shadi Khalloul",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -64,19 +90,6 @@
           "title": "Without Israel, My People Might Not EXIST | Shadi Khalloul",
           "date": "2026-10-21",
           "link": "https://www.youtube.com/watch?v=XFotKZQXAe4"
-        }
-      ]
-    },
-    {
-      "name": "Younes Sadaghiani",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "If Israel Falls… | Younes Sadaghiani",
-          "date": "2026-10-20",
-          "link": "https://www.youtube.com/shorts/HwLTndz_iXs"
         }
       ]
     }
