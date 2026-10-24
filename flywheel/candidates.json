@@ -1,33 +1,7 @@
 {
-  "generated": "2026-10-23 17:43 UTC",
+  "generated": "2026-10-24 16:26 UTC",
   "count": 7,
   "candidates": [
-    {
-      "name": "Arul Velusamy LIVE",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Israel, Radicalization & the Future of the West | Arul Velusamy LIVE",
-          "date": "2026-10-21",
-          "link": "https://www.youtube.com/watch?v=Cyzol3e0mVE"
-        }
-      ]
-    },
-    {
-      "name": "Danny Alexander LIVE",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Is Europe Next? Israel’s Warning to the West | Danny Alexander LIVE",
-          "date": "2026-10-21",
-          "link": "https://www.youtube.com/watch?v=6mWb0Jw-GIE"
-        }
-      ]
-    },
     {
       "name": "Danny Burmawi",
       "orientation": "ally",
@@ -90,6 +64,32 @@
           "title": "Without Israel, My People Might Not EXIST | Shadi Khalloul",
           "date": "2026-10-21",
           "link": "https://www.youtube.com/watch?v=XFotKZQXAe4"
+        }
+      ]
+    },
+    {
+      "name": "Shady Shae",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "What He Saw in Israel SHOCKED Him! | Shady Shae",
+          "date": "2026-10-23",
+          "link": "https://www.youtube.com/shorts/K3BnaiTBYjI"
+        }
+      ]
+    },
+    {
+      "name": "The Unknown",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Former Hamas Insider Answers YOUR Questions LIVE | The Unknown",
+          "date": "2026-10-23",
+          "link": "https://www.youtube.com/watch?v=rXyPB0I57B0"
         }
       ]
     }
