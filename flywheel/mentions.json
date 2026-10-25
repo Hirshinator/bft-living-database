@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-24 16:30 UTC",
+  "generated": "2026-10-25 17:02 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -924,6 +924,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Benchmark",
+      "stance": "",
+      "title": "Bank of Israel keeps benchmark rate at 3.25% ahead of election - Mezha.net",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5kd3Y1NlBYUFFWbXBsVVJwYjFHdlpCNjdYZ0FVZmpFMWRmQmR5NmtCTWZkSWxWOFVLM1hPbkJ2TDN6WnJ3NHp1RjhlT1QxYzFnbXdMOFFKX1p6TDlYV1J0RERNTHhhQ3ZQTEVkMEx6WllVUGgxcjgzcS1XLVdJdw?oc=5",
+      "date": "Wed, 21 Oct 2026 16:05:18 GMT",
+      "source": "Mezha.net",
+      "confidence": "high"
+    },
+    {
       "entity": "Rick Scott",
       "stance": "",
       "title": "Sen. Rick Scott Visits Israel to Strengthen Partnerships with U.S. - U.S. Senator Rick Scott (.gov)",
@@ -969,6 +978,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Daily Wire",
+      "stance": "",
+      "title": "Hegseth’s Mystery Meeting With Netanyahu Comes At Critical Moment For Iran - The Daily Wire",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSm9mVngteXpTSmNfZFdTelQ3SWI3U0NfeWtxbFloMFNVeVRmUTh5emk1UTFEMU0xR3hmek5XQ1JPT3pTODBwQUZDU05sTzM1a0ZuWTBWd2c5RDRiMmg2UEN0cldCTWRIWTA2MEdlSWdsSklGaDlfUFZVbXBYcHE4ajVmR0I5QlJNSmhEUDgtYm9zRjByNWFSdC03bnAwcEJGb1VZai03akJmcWJYMWs1QQ?oc=5",
+      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "source": "The Daily Wire",
+      "confidence": "high"
+    },
+    {
       "entity": "The Dispatch",
       "stance": "",
       "title": "The Election Israel Has Waited Three Years For - The Dispatch",
@@ -984,6 +1002,15 @@
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53YjVabzNFaVRWc2ZNeFFiOFVhTU9OejgzX2ZZbXBobEQxT2FiUXI4Mk9ua0ZaU2ZnblAxamJ1ejNNVUlMd2pJc2VvbndKTUY3X2JGbUstXzdZOWxLckhFUkFFWjlWU2tIbGpDRFMydkVDdHBSY0dYRU5xTHh0Z9IBgwFBVV95cUxNTnpSbXJpX1UtUXRzUGEtalFYazQzeFY3Ny1BR2Z2ejljcktXaXBWQVN1VEtwaEZ5OHFKNnBVbVY0dG92QVVaeVRaTUEtMXI5VUlSa0l6QVFST3oxOUJKVFJOeFM3S3BzcUUtMUFJcUtIaTU5RGdjQmQ3cWFFQ2dHRU43RQ?oc=5",
       "date": "Wed, 21 Oct 2026 03:52:50 GMT",
       "source": "NewsNation",
+      "confidence": "high"
+    },
+    {
+      "entity": "Daily Wire",
+      "stance": "",
+      "title": "Trump Ambassador Defends Iran, Rewrites History On Jews - The Daily Wire",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZklwNU44RDRrajBRM21xdmJVVlBDdl94VFZfZnVkMDhMSDJNV1N3Ml85NlZ6bG9USWhBZ0Iyb1RKVFZBZ2xoZ0pmSE42RzFfY2NCVDFVdDYzUnpZSzk0Z1Q3aFBheV83U01OYTBuZkhaODhTcmhYNV96OWEzTldWUjkycUIyUmhPejVYa1Z3?oc=5",
+      "date": "Wed, 21 Oct 2026 01:56:59 GMT",
+      "source": "The Daily Wire",
       "confidence": "high"
     },
     {
@@ -1056,33 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOejR2OUxzSjhhMmF1ZmhrMTFONng0dmpsLW5FMnlMZVByQ1g0Y0lLaEZnOTN5ekZ4dTFaQ0lMM0hDRUd1dERrVmlKTzk4emN0Znd3RjBaTzhCSmxMS0xXbmlpT2xWZFNLY2gtQXg1bkw1V3JoVERzMFN1dFFQTXRaaXBjWXVlZkktR3YybHlkQ1JseWVXS25yTTJYSWhackdjMmpZeHdmQU5UOEY0a05HNG41aF8?oc=5",
       "date": "Wed, 19 Aug 2026 17:41:12 GMT",
       "source": "MS NOW",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "Why Trump Needs to Finish the War with Iran - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX1dvVUEtQmM2aFpCWm5mZ1pGVDc2UEQ3VUE1MkRHb1lhUFF6cjRiRlVPSmxWTGNfR01uWFkxUWpmOTdDSGdjQnpfcF9uRHF5TzJEMkt2T21lcDgwNnlKbkFFb1M4WHdySnVlOVZ3MFRZZGFZeEpSc0FBd3JvU2hSLXRiMGRXXy03ZVU3Xzk2VFlteVZkWkxJRU9oaw?oc=5",
-      "date": "Wed, 19 Aug 2026 16:59:39 GMT",
-      "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "Newsmax",
-      "stance": "",
-      "title": "Sen. Rick Scott: Trump May Need More Strikes on Iran - Newsmax",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV3BQM3R2Slh5a3ZIN01tNXJOVFVST3BISHhRQTFOYm5scXc0MjNwM0VKN2JYNVZTSVQwOExDVnk4QW1neWpyNXFUWmIzWVFNTTV0cmdvdHlpZk1ja0ZkZHQyeWhYanF1ZEc1Qjhva0U5cy1xb2xldmZ2ekd0RmE5RkRMZw?oc=5",
-      "date": "Wed, 19 Aug 2026 16:02:50 GMT",
-      "source": "Newsmax",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Huckabee",
-      "stance": "",
-      "title": "Huckabee stands by calling violent settlers ‘terrorists’: They’re ‘pouring gas on a fire’ - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUU5KaTJXWUxaZ3NPZDBYdHRubEZKS3o5bzlmMHZncVUxUHRMcXpTM1FhRFkzZy1nT3lxNXltNURPTFh0RE1TVGtYRlZDaXdOLW83ZzBYV0RySk10a2xYejJWLWxxWG1ydXY5eTVjOGFkdlk5djJGbG1ZTWlRRWZFbUlKU1FjeWdzemhJS3U5dlZkNzBWQllQUXJ0MUhaWnRxUmpOalZtcG9oTVhjOGRxX3ln0gG3AUFVX3lxTE8xMlB1VDJwU0VwSEcySk5QS21ta3h5MkR3bkdHODYxb3NQb09sQ1pwRWE4YlhqYy1LSmxhTWhPS0xQcEN1VTZDeHEyODZwYk85SFV1NW1xcGpqMlZENmdXTE1LUnNFRENER3laLW1rVjhGZTliSy1Idjhid192d09DUnZsOVNid3JqbnhLVFQtQ3l1dTA2QnlFSE52VVJBRTlxa3FPazBZY2dpWWRZNGhvcGRINFhXYw?oc=5",
-      "date": "Wed, 19 Aug 2026 15:50:50 GMT",
-      "source": "The Times of Israel",
       "confidence": "high"
     }
   ]

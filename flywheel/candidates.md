@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-10-24 16:26 UTC
+# Flywheel candidates — 2026-10-25 16:57 UTC
 
-7 new candidate(s) surfaced from monitored channels, not yet in the database.
+6 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Danny Burmawi — candidate ALLY (platformed by an ally channel)
@@ -14,9 +14,6 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### Nikos Sotirakopoulos — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *The Far Left and Far Right Have ONE Thing in Common | Nikos Sotirakopoulos* (2026-10-23) — https://www.youtube.com/watch?v=Hed0FnchKmU
-
-### Shadi Khalloul — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *Without Israel, My People Might Not EXIST | Shadi Khalloul* (2026-10-21) — https://www.youtube.com/watch?v=XFotKZQXAe4
 
 ### Shady Shae — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *What He Saw in Israel SHOCKED Him! | Shady Shae* (2026-10-23) — https://www.youtube.com/shorts/K3BnaiTBYjI
