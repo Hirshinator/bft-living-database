@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-25 17:02 UTC",
+  "generated": "2026-10-26 19:06 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 665,
+  "cursor": 915,
   "count": 120,
   "mentions": [
     {
@@ -915,12 +915,30 @@
       "confidence": "high"
     },
     {
+      "entity": "Jerry Seinfeld",
+      "stance": "",
+      "title": "The ‘Seinfeld’ cast reunites (but not really) to address Israel’s elections - The Forward",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUVZTcDRFLUF6TkJGZkRuNTRzMHBPR1dDWGt5V1NiU0hNdUtndTBuTkUwOGFNeHhybjhucVhBS2hqYkYzeEl2VmM0a0lxNmlKSDhzTlRPU3JtUDZuVkt3ZEVOc3ItM05NSVNjX3dCWWs0a0habXZINVlUSzlJMXIwODgyZ0xabjk4YnloM1lZd0pXT3Y5?oc=5",
+      "date": "Wed, 21 Oct 2026 19:52:19 GMT",
+      "source": "The Forward",
+      "confidence": "high"
+    },
+    {
       "entity": "Jon Ossoff",
       "stance": "",
       "title": "‘Is Iran Paying You?’: Jon Ossoff, El-Sayed Under Fire Over ‘Israel Hate’; Mike Collins Explodes - The Times of India",
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTHhDUk9ncHN6aHdRcTR1OVZRRGo3RGJmOHZQRml4YUdJLWplVElxTHowYnVDZWtDN1dMVDZiQW5KM3ZvME55eEdZRlp5WmpqNTMzQVhRZ0hZUjI3RzBpSDhOWlp4ZEVxcGNvWlpoT0pzMDZoN05ic0VPUFItRkowcXFXb2lFN0ZwXzI0aWxic1VNZXBYYzY4YnBGQkgzeUh1VVFTRXE4SFo3RnliT1A4SnczSUN1RVh5aWVtaURZQTY5VUNmRlFMa1J6Wm53Y0RfZW9LdFRZZzkwcGlmSTFXR0lmbHNnQ2pFRFlOVzR5Nk1xLXRfdW1kQnhuYnh4dw?oc=5",
       "date": "Wed, 21 Oct 2026 17:29:11 GMT",
       "source": "The Times of India",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jonah Platt",
+      "stance": "",
+      "title": "Jonah Platt - The Pittsburgh Jewish Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JQ05LVlV6MTFSbWszaUZLTW1MVTIyeHY1cmZaWHBTQjVVZV9oY2dlT1czWE41MFdlVW1oSVFUVjJnN3FveG85dDU2TTFKcERRWmt4U1VtbzI3bjB6T2RERXJLWEtDekFBOVBKSmVHSQ?oc=5",
+      "date": "Wed, 21 Oct 2026 17:20:37 GMT",
+      "source": "The Pittsburgh Jewish Chronicle",
       "confidence": "high"
     },
     {
@@ -996,6 +1014,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Hudson Institute",
+      "stance": "",
+      "title": "Is There an Effective “America First” Position on Israel? - Hudson Institute",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcFpjZjBuNXp5dGx6QlZSbzBfZ2R4ellheTFqSGJ5QUtIQkMxZFU4Z2h0VDZBM0d6bTIzUzVLemxXU0tqWTdlZ3N1VXJFaDV1VWVHT0ZfcTQ0RTZmbW4yQW0yOTV4WE5LSUowRVVNY3JURTE0Wm5NellpbFd3R1VWMjE2Y0x4VFhKMmlYVlhMVDdyUDJxbmNHcXdIQmd6Zw?oc=5",
+      "date": "Wed, 21 Oct 2026 04:00:00 GMT",
+      "source": "Hudson Institute",
+      "confidence": "high"
+    },
+    {
       "entity": "NewsNation",
       "stance": "",
       "title": "Hegseth meets Netanyahu as US, Israel discuss renewed Iran strikes - NewsNation",
@@ -1023,6 +1050,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Lydia Moynihan",
+      "stance": "",
+      "title": "Ana Navarro SHUTS DOWN Lydia Moynihan With A BRUTAL FACT-CHECKS - AND She Can’t Respond It! Iran (eXo0j6uvLJ) - Unisba Media",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNamQwb1lOQTFWUVlpTWtHSUFTa3NBV1VnVldsc2tmNV9XTVJCZTFtYlRuY01EeXN5UGxUYzhMOE84YmNLRU9oOHFjb3RWWUtraXFiT2NLQWlCOUNfTU9DcGRTNW55bldlX0xKNmdkQnphN1VOeXBuQVZPYmRtVlVaVFVpaw?oc=5",
+      "date": "Wed, 21 Oct 2026 01:15:16 GMT",
+      "source": "Unisba Media",
+      "confidence": "high"
+    },
+    {
       "entity": "Joe Kent",
       "stance": "",
       "title": "Former National Counterterrorism chief Joe Kent sat with Tucker Carlson, claiming key dissenting voices were silenced before the Iran war. - SCNow",
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CRk9PMkpGc1NJMjBmRERWUGdwem9kOENkWEpkZlFYYklwZng5VGhLanNaejdNRnp3bnZ5bHBJV1hJN3JvSkFoUmtLbmxwd0FDMndzajBiVVV4SXVT?oc=5",
       "date": "Wed, 19 Aug 2026 22:24:34 GMT",
       "source": "YouTube",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tim Pool",
-      "stance": "yellowflag",
-      "title": "[Live] Alex Jones Says Tim Pool Could Be An ISRAELI ASSET - TYT.com",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9CQ2ZvU3puVHpDOF96UnYwYlZycFg4RlVfSFBZX04wV0tzcGIwVDNkcTFITjZOMTJEZk5JS0VvUWt5TU1DNWNkS2FB?oc=5",
-      "date": "Wed, 19 Aug 2026 22:03:23 GMT",
-      "source": "TYT.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "Iran’s Economic Breaking Point and Renewed Russian Drone Strikes - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVlUxSm9qaXg0UGtwVFAzSU1VZkxmeUR1azIyUkNNa2FFSGt5VVJUUklQdHU5NnRKeXR1Zml1cTVLa1pPa2pVaDBzSG8xOTFuN3lNLVd0SG1vVWZlRXp1RmZEeDFHdnU1TjY5dlJxalI3ZnhwYWNrM3g1TTBnM1N4SFlDeW5iX0FCRm5paE1NUnAzaVRLQlJaYXFMLWxtT29GaFBTVWxYSFh0MFp0X3RiOWVJcG5OZ1k?oc=5",
-      "date": "Wed, 19 Aug 2026 19:59:37 GMT",
-      "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "National Review",
-      "stance": "",
-      "title": "What the Florida Primary Results Say About Antisemitism in the GOP - National Review",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR1dQcDMtSXZDOFRmdzA1TXROTjhMMDNJbkEyNV8xNGFYNmR0Y2c3QUowVExkaDVlVkN4eVUtelpfaUpSY0VMZjc3ZkNGR3JaRUVTVVgyX1FrWVBEZ2tBQS1NSV9tQTVyMWR4bjhpU015YWtCRUQweXZ2TURQVGVKdkYxYjJkbFp1ZkdxWEI3ZWZBZE95U1ZaUUZfd3liYzlFWFdjSjJB0gGrAUFVX3lxTFBKcGtWYUdzamlGTjdPb2kwSnZhTE9CcVYyWWRJaHJhai1ITmNnOFl5am50NGkwQzZsb0V1eFU0SG5lVDBITFAtNjRCa1NtM080eFdyM3FwRGpyUGFfVVZfRzYzMjUzbHVsVk03ZVFkemJocUUxbE5wbTcwQ1RtMUJMVEdrckF6S3ctNWE4RDc5c0o2c3ZZVEFhZnFBS2s1ZzktdlZPenR0YjhTVQ?oc=5",
-      "date": "Wed, 19 Aug 2026 18:03:06 GMT",
-      "source": "National Review",
-      "confidence": "high"
-    },
-    {
-      "entity": "Mike Johnson",
-      "stance": "",
-      "title": "Let’s go through the checklist of the White House’s goals in Iran, Mike Johnson - MS NOW",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOejR2OUxzSjhhMmF1ZmhrMTFONng0dmpsLW5FMnlMZVByQ1g0Y0lLaEZnOTN5ekZ4dTFaQ0lMM0hDRUd1dERrVmlKTzk4emN0Znd3RjBaTzhCSmxMS0xXbmlpT2xWZFNLY2gtQXg1bkw1V3JoVERzMFN1dFFQTXRaaXBjWXVlZkktR3YybHlkQ1JseWVXS25yTTJYSWhackdjMmpZeHdmQU5UOEY0a05HNG41aF8?oc=5",
-      "date": "Wed, 19 Aug 2026 17:41:12 GMT",
-      "source": "MS NOW",
       "confidence": "high"
     }
   ]
