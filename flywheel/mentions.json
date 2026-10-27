@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-26 19:06 UTC",
+  "generated": "2026-10-27 18:37 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
     {
@@ -888,21 +888,21 @@
       "confidence": "high"
     },
     {
+      "entity": "Peter Thiel",
+      "stance": "",
+      "title": "Peter Thiel breaks with Trump over Iran war: ‘We should not have done it’ - Politico",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWDVTYThmX3RmY2M5YnNvRDZZQmxjTzJ3bE1teG9NMkNWOGpmZ2R1ZHllOG9pbUFEU0JKN2xLcmY3ZWFlY0RoLURYeno4aTk4RHllSTQwZWFsMHFkdzF2ZVh0eV9ZNnNacU1zdFNOQUlVNC14V3lLTWNLTjdCODlYRGdn?oc=5",
+      "date": "Wed, 21 Oct 2026 23:54:00 GMT",
+      "source": "Politico",
+      "confidence": "high"
+    },
+    {
       "entity": "NewsNation",
       "stance": "",
       "title": "Netanyahu hints war in Iran isn’t over, tells Trump ‘We have a job to finish’ - NewsNation",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGJtclFYLUZFeFBNNURfWGtlVkVkbWdlNnNWZGQ5Rk9QRUhObmU3eTNmdnAxdHNieUprWENVYXlRZUk3SUo2S21sYXFjQ0poYmlyU0dlbFFXVHRqb3NaMW4ydzhnRWd2ZEl3WENjd29WYVc5bWwxWU5vM2dCYUZZcTZQVWbSAYoBQVVfeXFMUEdLaTVoSTlGQnhtQ1dwX0Y0Vm9LX2VVY29IaHk3U25wWmE5RWdnUlJGREQ0MUFrNEl6M1dINnE2TmNNOWplRzRMT2ZKNmtrcWV2cWxmVWlEeWhUUHZZeGlfZm9uT2pzZ2V4TW5jZnJQX05nNXhjUzFlTGlGRzNvRUh2dmk0UG5BWnZB?oc=5",
       "date": "Wed, 21 Oct 2026 23:46:32 GMT",
       "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Peter Thiel",
-      "stance": "",
-      "title": "Peter Thiel breaks with Trump over Iran war: ‘We should not have done it’ - Politico",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWDVTYThmX3RmY2M5YnNvRDZZQmxjTzJ3bE1teG9NMkNWOGpmZ2R1ZHllOG9pbUFEU0JKN2xLcmY3ZWFlY0RoLURYeno4aTk4RHllSTQwZWFsMHFkdzF2ZVh0eV9ZNnNacU1zdFNOQUlVNC14V3lLTWNLTjdCODlYRGdn?oc=5",
-      "date": "Wed, 21 Oct 2026 23:33:00 GMT",
-      "source": "Politico",
       "confidence": "high"
     },
     {
@@ -1041,6 +1041,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Ruben Gallego",
+      "stance": "",
+      "title": "Arizona U.S. Senator Ruben Gallego is calling on President Trump once again to end the Iran war - KTAR News 92.3 FM",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc0VicUVtNEJXUldNV2htdXlCVUlhNzRrY2VERFNlaklCT3ZscmZKSEItMnFvX0w5dDNVdFN1TXRJYnh6dm1JTndud2NkVjc2elBPSnJsOEJudHZvV2JoYjg2RlZWbDRrOTBQNm5Ranh0X3J1NWhYbENnZUJQYllxSnhpb3hsa3hsM0Z2V2NmS25VYWw3YzBuaC1QVVJMOGtXSXM4MWtueHU3N0FyT3VlajRfQnVwaU1EWkgtNGg1ZDVhU2VqQzAzZWFTRi13MkFSQkZ0SGJ6NzdGd1NmdE1XSUhzNnVWMlB4?oc=5",
+      "date": "Wed, 21 Oct 2026 01:49:16 GMT",
+      "source": "KTAR News 92.3 FM",
+      "confidence": "high"
+    },
+    {
       "entity": "Israel Englander",
       "stance": "neutral",
       "title": "Millennium Management and Israel Englander Reveal 5.3% Stake in Whirlpool Corporation - Kalkine Media",
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFhmVFhWM0VibW9ZbmxLNG55UWxPLUxhNUdBQmJSVFM0cFlPWFM2UFI3R0hGelJyejNmbnNNVm1sU05sckRLTFNRam43SHRyUS1xcURRYTFaemZpY19vV1VoRDZRSm5JVlpzUWZZVmtDeElzdHN4QUNvTktrclJjeFhMdHk0ZjloR1drMWM3UkJtOGgybkhFcHF1Vlhya0k2VXFzR3U2RXhMdlRH?oc=5",
       "date": "Wed, 19 Aug 2026 23:46:00 GMT",
       "source": "Newsmax",
-      "confidence": "high"
-    },
-    {
-      "entity": "Natasha Hausdorff",
-      "stance": "",
-      "title": "Natasha Hausdorff on unravelling Gaza starvation claims & misinformation about the West Bank - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CRk9PMkpGc1NJMjBmRERWUGdwem9kOENkWEpkZlFYYklwZng5VGhLanNaejdNRnp3bnZ5bHBJV1hJN3JvSkFoUmtLbmxwd0FDMndzajBiVVV4SXVT?oc=5",
-      "date": "Wed, 19 Aug 2026 22:24:34 GMT",
-      "source": "YouTube",
       "confidence": "high"
     }
   ]

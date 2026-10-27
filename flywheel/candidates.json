@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26 19:01 UTC",
-  "count": 6,
+  "generated": "2026-10-27 18:33 UTC",
+  "count": 7,
   "candidates": [
     {
       "name": "Arul Velusamy",
@@ -22,19 +22,6 @@
       ]
     },
     {
-      "name": "Harris Sultan",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "It’s Not JUST Israel Derangement Syndrome… | Harris Sultan",
-          "date": "2026-10-22",
-          "link": "https://www.youtube.com/shorts/y10HvpMlbWw"
-        }
-      ]
-    },
-    {
       "name": "Israel Friends",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -44,6 +31,32 @@
           "title": "From the streets of Israel | Israel Friends",
           "date": "2026-10-06",
           "link": "https://www.youtube.com/watch?v=kM4MvLCKoKE"
+        }
+      ]
+    },
+    {
+      "name": "Itai Schimmel LIVE",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "What It Really Means to Stand With Israel | Itai Schimmel LIVE",
+          "date": "2026-10-27",
+          "link": "https://www.youtube.com/watch?v=IuBRMU0Cth8"
+        }
+      ]
+    },
+    {
+      "name": "Mustapha Ezzarghani",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "“We Pushed the Jews Out. Where Were They Supposed to Go?” | Mustapha Ezzarghani",
+          "date": "2026-10-27",
+          "link": "https://www.youtube.com/shorts/WkoH_vw1ir4"
         }
       ]
     },
