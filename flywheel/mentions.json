@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-27 18:37 UTC",
+  "generated": "2026-10-28 18:43 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 1165,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -372,6 +372,42 @@
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQlZ6cmUyckNwY2VTd1pVNUVOQkJ3TU0yYXB5MjNTeWROdk9ndHBmVkJUbVNwdFhwTFJuZUhWUXNCWjVFOVJHSGZCaFAxcmQ2UlhsYzVubzJCWFNRZF9NOGpvN3dqbE94Y2wzRjl2LTFleS11dU9qMHVrT1Zsb2wtRlAxbjZ3UTlBZGxjZGpuLVhlQ2hfRzMzeDhJLVdBcXM1d2pmcFpNSGZMbmctVndxcDZJWDZQSk12bnlXMVE2WXBQaHQ1?oc=5",
       "date": "Wed, 29 Jul 2026 07:00:00 GMT",
       "source": "Jewish Telegraphic Agency",
+      "confidence": "high"
+    },
+    {
+      "entity": "Van Jones",
+      "stance": "",
+      "title": "Van Jones Calls Out ‘Poisonous’ Antisemitic Push to ‘Trick’ Blacks, Make Young People ‘Protest Pawns’ Against Jews - Algemeiner.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQTNaTVZuenJsSGF1WGFCUFlUbWMzdVN5bXBkc0FWcWlxWndZNUtjdHRqQWdlMlZTWnpzTm9IRDFPeW1XTm5zeTVJWmJjU0hlWUpZenlnMm13UlV4d0RFZzJPaExQSWMwQ2pMUVpjTk5FbTlPMWx5MTJ6MUR5THNnbUdCZkpwU0NHaWc3bzdPTVhybWFWbU9sZktxUlVJa1lnMlVLbGljX0NQcFZOcmFiMmRkbjhMLWN3VjFSYXAzVktTTzNWZmVGbVJMZmtsbG51ai1DNGEtWC1fNm8?oc=5",
+      "date": "Wed, 28 Oct 2026 17:31:00 GMT",
+      "source": "Algemeiner.com",
+      "confidence": "high"
+    },
+    {
+      "entity": "Combat Antisemitism Movement (CAM)",
+      "stance": "pro",
+      "title": "\"Antisemitism Is a Western Civilization Issue\" - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14enJfNjlZT2ljaUpRQ1lYcmhLVzkzQlB0RnFxMjA1UDZOcTVrNjNUelU1QTBualZsTzhYT0pMMWZveFhJczNUNHN6MVN4anYzTGFORWJqWW4zdm91YW4xLTZTNEJybjRMTHc?oc=5",
+      "date": "Wed, 28 Oct 2026 11:41:50 GMT",
+      "source": "The Jerusalem Post",
+      "confidence": "high"
+    },
+    {
+      "entity": "Adam Milstein",
+      "stance": "pro",
+      "title": "Why Adam Milstein Calls the U.S.-Israel Alliance a Partnership, Not a Charity - Impakter",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMkFlUHFLZUZqZkMzY1NsN2NJNFFJbFFuLU05aEV5eE5jMzFzNWVmbXUxbE5CRENrVGVaLWF6UXp6ZWxVd0dDUXUtUG5aUWJ1REZ0YUR6Nk44WnVOWjVUbndPcDJMQjdjOU5CV05OT193NjFFLTJSVzZSdWJGNFEzTDk0QWY5Y0FyVm9Oc2JDRFZxOEEzREFvbnJvNHRDdw?oc=5",
+      "date": "Wed, 28 Oct 2026 11:10:10 GMT",
+      "source": "Impakter",
+      "confidence": "high"
+    },
+    {
+      "entity": "Van Jones",
+      "stance": "",
+      "title": "At MDA gala, Van Jones calls antisemitism ‘poison that is being put in’ the Black community - Jewish Insider",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFdPVE8tMHlZVVFzZkNIbVFDMzExMlJvaHFqQmEyZkFHa2hGNF9VeUJ1M1FwMElvMnZjOGs2TU1ac0hUNTFjb0oxZ2dwNWJqS2pnM1EwbG95aFptOV9JZVBDX1hjUGNrVlpRXzNBN3Q1OGEtcUF2OEYxeDdtb3R5eGFuMDM0aVdSRlJfbWhPS1lxb1QzUHltX0N4S0Q1di11LTVuMDFycllZbVRZeFZlM2sxQ3FjUnJTNVZ6M0FwWnk?oc=5",
+      "date": "Wed, 28 Oct 2026 08:09:09 GMT",
+      "source": "Jewish Insider",
       "confidence": "high"
     },
     {
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc0VicUVtNEJXUldNV2htdXlCVUlhNzRrY2VERFNlaklCT3ZscmZKSEItMnFvX0w5dDNVdFN1TXRJYnh6dm1JTndud2NkVjc2elBPSnJsOEJudHZvV2JoYjg2RlZWbDRrOTBQNm5Ranh0X3J1NWhYbENnZUJQYllxSnhpb3hsa3hsM0Z2V2NmS25VYWw3YzBuaC1QVVJMOGtXSXM4MWtueHU3N0FyT3VlajRfQnVwaU1EWkgtNGg1ZDVhU2VqQzAzZWFTRi13MkFSQkZ0SGJ6NzdGd1NmdE1XSUhzNnVWMlB4?oc=5",
       "date": "Wed, 21 Oct 2026 01:49:16 GMT",
       "source": "KTAR News 92.3 FM",
-      "confidence": "high"
-    },
-    {
-      "entity": "Israel Englander",
-      "stance": "neutral",
-      "title": "Millennium Management and Israel Englander Reveal 5.3% Stake in Whirlpool Corporation - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYmxEbE4xYVJzXy1zUWtzazZ1RmdHODhTdDU2YlpYNUpPZDhlRXo0cTJ6V0FBUG1LaU9lVUtubF85RzQ5NEM1b3o5enR3cFluU01peDlGQTlYOU9rR0RXYmxnSVdEbHhDTHdHblRLZjVpcU9FcDk4cHlyUVhNMVdHZXdsUjRpUjgxdmJWbFZzelpOS0tHNE5ELW1RVXZaVWpaWGpoUUVsLTJQZkx2OWhnNXJBYlVZc2d6cUxFT0UzRjh6bzBodnN0REFn?oc=5",
-      "date": "Wed, 21 Oct 2026 01:25:06 GMT",
-      "source": "Kalkine Media",
-      "confidence": "high"
-    },
-    {
-      "entity": "Lydia Moynihan",
-      "stance": "",
-      "title": "Ana Navarro SHUTS DOWN Lydia Moynihan With A BRUTAL FACT-CHECKS - AND She Can’t Respond It! Iran (eXo0j6uvLJ) - Unisba Media",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNamQwb1lOQTFWUVlpTWtHSUFTa3NBV1VnVldsc2tmNV9XTVJCZTFtYlRuY01EeXN5UGxUYzhMOE84YmNLRU9oOHFjb3RWWUtraXFiT2NLQWlCOUNfTU9DcGRTNW55bldlX0xKNmdkQnphN1VOeXBuQVZPYmRtVlVaVFVpaw?oc=5",
-      "date": "Wed, 21 Oct 2026 01:15:16 GMT",
-      "source": "Unisba Media",
-      "confidence": "high"
-    },
-    {
-      "entity": "Joe Kent",
-      "stance": "",
-      "title": "Former National Counterterrorism chief Joe Kent sat with Tucker Carlson, claiming key dissenting voices were silenced before the Iran war. - SCNow",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVlRJU1BxcnY4UENBZkw4aEVzNlV5TC1rX0VyaFU2RElrM084WGctNWNmTXlJcjdyU19rc2ZORXZLaDZ6Q2dybkJMdUFBMERoeUNOTVJHY1l1RlVqV1JxSW9aR1JIaVVFeUk1dGVmblBnNExPUkVXcEMwU1BnU01QZWFQMGttR3lXdExNbVpwSzBDb0RHUjI0NzBNSmcwOXoxeUpseHhB?oc=5",
-      "date": "Wed, 19 Aug 2026 23:52:55 GMT",
-      "source": "SCNow",
-      "confidence": "high"
-    },
-    {
-      "entity": "Newsmax",
-      "stance": "",
-      "title": "Trump: Iran Will Face 'Most Crushing Economic Operation' Ever - Newsmax",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFhmVFhWM0VibW9ZbmxLNG55UWxPLUxhNUdBQmJSVFM0cFlPWFM2UFI3R0hGelJyejNmbnNNVm1sU05sckRLTFNRam43SHRyUS1xcURRYTFaemZpY19vV1VoRDZRSm5JVlpzUWZZVmtDeElzdHN4QUNvTktrclJjeFhMdHk0ZjloR1drMWM3UkJtOGgybkhFcHF1Vlhya0k2VXFzR3U2RXhMdlRH?oc=5",
-      "date": "Wed, 19 Aug 2026 23:46:00 GMT",
-      "source": "Newsmax",
       "confidence": "high"
     }
   ]

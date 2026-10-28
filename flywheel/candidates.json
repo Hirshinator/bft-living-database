@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27 18:33 UTC",
-  "count": 7,
+  "generated": "2026-10-28 18:39 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Arul Velusamy",
@@ -35,6 +35,19 @@
       ]
     },
     {
+      "name": "Itai Schimmel",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "The Israel You NEVER See in the News | Itai Schimmel",
+          "date": "2026-10-28",
+          "link": "https://www.youtube.com/watch?v=IjgJryArhSI"
+        }
+      ]
+    },
+    {
       "name": "Itai Schimmel LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -44,6 +57,19 @@
           "title": "What It Really Means to Stand With Israel | Itai Schimmel LIVE",
           "date": "2026-10-27",
           "link": "https://www.youtube.com/watch?v=IuBRMU0Cth8"
+        }
+      ]
+    },
+    {
+      "name": "Lee Trink",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Antisemitism Has a NEW Name | Lee Trink",
+          "date": "2026-10-28",
+          "link": "https://www.youtube.com/shorts/DSJu8kulWn4"
         }
       ]
     },
@@ -61,28 +87,15 @@
       ]
     },
     {
-      "name": "Nikos Sotirakopoulos",
+      "name": "Oded Ailam",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "The Far Left and Far Right Have ONE Thing in Common | Nikos Sotirakopoulos",
-          "date": "2026-10-23",
-          "link": "https://www.youtube.com/watch?v=Hed0FnchKmU"
-        }
-      ]
-    },
-    {
-      "name": "Shady Shae",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "What He Saw in Israel SHOCKED Him! | Shady Shae",
-          "date": "2026-10-23",
-          "link": "https://www.youtube.com/shorts/K3BnaiTBYjI"
+          "title": "LIVE: Israel’s Election Stalemate—Former Mossad Chief on What Comes Next | Oded Ailam",
+          "date": "2026-10-28",
+          "link": "https://www.youtube.com/watch?v=KxrhyGzK1NA"
         }
       ]
     },
