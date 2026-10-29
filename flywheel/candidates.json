@@ -1,23 +1,17 @@
 {
-  "generated": "2026-10-28 18:39 UTC",
-  "count": 8,
+  "generated": "2026-10-29 18:47 UTC",
+  "count": 6,
   "candidates": [
     {
-      "name": "Arul Velusamy",
+      "name": "Harris Sultan",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Why Israel’s Battle Is Much BIGGER Than Gaza | Arul Velusamy",
-          "date": "2026-10-26",
-          "link": "https://www.youtube.com/watch?v=COVgMevN3wc"
-        },
-        {
-          "channel": "Stand Tall Israel",
-          "title": "“The Problem Isn’t JUST Hamas” | Arul Velusamy",
-          "date": "2026-10-25",
-          "link": "https://www.youtube.com/shorts/N8sgLjQqBHA"
+          "title": "Ex-Muslim Warns: The West Is in SERIOUS Trouble | Harris Sultan",
+          "date": "2026-10-29",
+          "link": "https://www.youtube.com/watch?v=-RpBbRKjb20"
         }
       ]
     },
@@ -41,22 +35,9 @@
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "The Israel You NEVER See in the News | Itai Schimmel",
+          "title": "The Israel You Will NEVER See in the News | Itai Schimmel",
           "date": "2026-10-28",
           "link": "https://www.youtube.com/watch?v=IjgJryArhSI"
-        }
-      ]
-    },
-    {
-      "name": "Itai Schimmel LIVE",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "What It Really Means to Stand With Israel | Itai Schimmel LIVE",
-          "date": "2026-10-27",
-          "link": "https://www.youtube.com/watch?v=IuBRMU0Cth8"
         }
       ]
     },
@@ -74,15 +55,15 @@
       ]
     },
     {
-      "name": "Mustapha Ezzarghani",
+      "name": "Naftali Aklum",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "“We Pushed the Jews Out. Where Were They Supposed to Go?” | Mustapha Ezzarghani",
-          "date": "2026-10-27",
-          "link": "https://www.youtube.com/shorts/WkoH_vw1ir4"
+          "title": "LIVE: My Family Risked Everything for ISRAEL — Here’s Why | Naftali Aklum",
+          "date": "2026-10-29",
+          "link": "https://www.youtube.com/watch?v=jQYXIx1IGIs"
         }
       ]
     },
@@ -94,21 +75,8 @@
         {
           "channel": "Stand Tall Israel",
           "title": "LIVE: Israel’s Election Stalemate—Former Mossad Chief on What Comes Next | Oded Ailam",
-          "date": "2026-10-28",
+          "date": "2026-10-29",
           "link": "https://www.youtube.com/watch?v=KxrhyGzK1NA"
-        }
-      ]
-    },
-    {
-      "name": "The Unknown",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Former Hamas Insider Answers YOUR Questions LIVE | The Unknown",
-          "date": "2026-10-26",
-          "link": "https://www.youtube.com/watch?v=rXyPB0I57B0"
         }
       ]
     }
