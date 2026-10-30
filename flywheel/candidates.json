@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29 18:47 UTC",
-  "count": 6,
+  "generated": "2026-10-30 18:25 UTC",
+  "count": 7,
   "candidates": [
     {
       "name": "Harris Sultan",
@@ -62,7 +62,7 @@
         {
           "channel": "Stand Tall Israel",
           "title": "LIVE: My Family Risked Everything for ISRAEL — Here’s Why | Naftali Aklum",
-          "date": "2026-10-29",
+          "date": "2026-10-30",
           "link": "https://www.youtube.com/watch?v=jQYXIx1IGIs"
         }
       ]
@@ -77,6 +77,19 @@
           "title": "LIVE: Israel’s Election Stalemate—Former Mossad Chief on What Comes Next | Oded Ailam",
           "date": "2026-10-29",
           "link": "https://www.youtube.com/watch?v=KxrhyGzK1NA"
+        }
+      ]
+    },
+    {
+      "name": "Rachid Hammami",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "“They Use Palestinians for THIS…” | Rachid Hammami",
+          "date": "2026-10-30",
+          "link": "https://www.youtube.com/shorts/zP05Fcwtm6s"
         }
       ]
     }

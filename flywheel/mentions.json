@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-29 18:51 UTC",
+  "generated": "2026-10-30 18:29 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -372,6 +372,51 @@
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQlZ6cmUyckNwY2VTd1pVNUVOQkJ3TU0yYXB5MjNTeWROdk9ndHBmVkJUbVNwdFhwTFJuZUhWUXNCWjVFOVJHSGZCaFAxcmQ2UlhsYzVubzJCWFNRZF9NOGpvN3dqbE94Y2wzRjl2LTFleS11dU9qMHVrT1Zsb2wtRlAxbjZ3UTlBZGxjZGpuLVhlQ2hfRzMzeDhJLVdBcXM1d2pmcFpNSGZMbmctVndxcDZJWDZQSk12bnlXMVE2WXBQaHQ1?oc=5",
       "date": "Wed, 29 Jul 2026 07:00:00 GMT",
       "source": "Jewish Telegraphic Agency",
+      "confidence": "high"
+    },
+    {
+      "entity": "Erick Erickson",
+      "stance": "",
+      "title": "S15 EP193: Hour 1 - Israel and the Arabs - The Erick Erickson Show - iHeart",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMUZQZEkyaTNXZ1VyZXFYSmJVc1k3cjJyckxvWWtLTC1SRlVlLW9JOEVSdUJrcW1mdzl3ckVYTE9LOGpoVlY2aUlJamFoQ1lfZkFFaExsdmRCQlIwNHZBTjFLZ1lfSVgwUkh6T1o5bHpyaGdYSnZ2a2tmMU5NVWhReWpGYjI3TjdTTXpjQU55WmtCemNfVXdiU01CU0d1aFZRVzhLVUFDYVBEZXhDaHc?oc=5",
+      "date": "Wed, 28 Oct 2026 23:45:54 GMT",
+      "source": "iHeart",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ben Shapiro",
+      "stance": "",
+      "title": "Netanyahu, opposition leader agree on foreign policy issues, Ben Shapiro says - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XbDZZNEQzNG44UnFkbHdTNDF1YWlIdVpZeHFOMFhJYmZicDJIRE5sZGxaaV9pTUpPM0dfVkliMTh5RmVmaWd1NlRzVG5FX1VJZ3pJWjZn?oc=5",
+      "date": "Wed, 28 Oct 2026 20:29:38 GMT",
+      "source": "Fox News",
+      "confidence": "high"
+    },
+    {
+      "entity": "Daily Wire",
+      "stance": "",
+      "title": "Israel’s Inconclusive Election Hands Netanyahu Another Win - The Daily Wire",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVllaMHA1V3BrSkRKbzNBV01ScWNfcDlLYmx6cE4tM0NCTHhrWll4b1h1d0xHVXN3T2N4N21WSFh1RTFya2RWOFQ0M0NZZDlnelQzam5aVmtmQ1dLYWEwRVNNcjJJSGJxQmR5Z0R3TTFPZVF3NEhZOXZGeF90bm9NMmVYR3NrUXp4S0t2SWxsbU9SUQ?oc=5",
+      "date": "Wed, 28 Oct 2026 19:30:53 GMT",
+      "source": "The Daily Wire",
+      "confidence": "high"
+    },
+    {
+      "entity": "Cliff May",
+      "stance": "",
+      "title": "Canada’s anti-Zionist crack up: Casey Babb on Foreign Podicy with Cliff May - The Macdonald-Laurier Institute",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdDZ5YU5SM3VBY0JYSGhtRGJUR1dKQWNzVUlBSWk2YWhRSDFSbHlkRVNEU24xT20zNkZKNDNSZDZja0Vaa3I2VVd2T28zLVkxOXVuRzJEa3VlcHhrTFExNWVkMGdFRnRrQmprb2R4T0NLb3kwUjlpSl80U0ZYM0xXcDZ4bVpZU2JMTnlKUkxja25OU2NOUW9zcmxMSDFEYlNkSWFidA?oc=5",
+      "date": "Wed, 28 Oct 2026 19:26:59 GMT",
+      "source": "The Macdonald-Laurier Institute",
+      "confidence": "high"
+    },
+    {
+      "entity": "Check Point Software",
+      "stance": "",
+      "title": "Report | Israeli Elections, 2026 - Check Point Software",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTEd0aEdMMlp3MVRJY2locldvUERPSHAwTXJ0RHpRMUd6Nkd3NElkVDYtay12MW9FMUxvaVFva1pLRHloUnhNZTVRbWktenRCVUx4OFE0ekw0X2w4WVFUY0JBRXFWTWpDd1JnX1gtYXppRzNfMFF4a0V5Sm1DcEo1R2RRQ19Rem9mc2c?oc=5",
+      "date": "Wed, 28 Oct 2026 17:50:45 GMT",
+      "source": "Check Point Software",
       "confidence": "high"
     },
     {
@@ -1038,51 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSm9mVngteXpTSmNfZFdTelQ3SWI3U0NfeWtxbFloMFNVeVRmUTh5emk1UTFEMU0xR3hmek5XQ1JPT3pTODBwQUZDU05sTzM1a0ZuWTBWd2c5RDRiMmg2UEN0cldCTWRIWTA2MEdlSWdsSklGaDlfUFZVbXBYcHE4ajVmR0I5QlJNSmhEUDgtYm9zRjByNWFSdC03bnAwcEJGb1VZai03akJmcWJYMWs1QQ?oc=5",
       "date": "Wed, 21 Oct 2026 07:00:00 GMT",
       "source": "The Daily Wire",
-      "confidence": "high"
-    },
-    {
-      "entity": "The Dispatch",
-      "stance": "",
-      "title": "The Election Israel Has Waited Three Years For - The Dispatch",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xcU5UVWJsdmtKb3lkMTFMSlg0bHZmRjFwTDdwSWJoQlFXb0w4OF9UTTVoM3U2aVg0ZFdtUFpWV1RjWkk0SHUtM0puOHNpMFZBUGdFQjR6WkpGTDBTa2l1dkVmUzZJQkRFNWdoRnJaZmtaWHk0TmEw?oc=5",
-      "date": "Wed, 21 Oct 2026 05:04:49 GMT",
-      "source": "The Dispatch",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "Is There an Effective “America First” Position on Israel? - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcFpjZjBuNXp5dGx6QlZSbzBfZ2R4ellheTFqSGJ5QUtIQkMxZFU4Z2h0VDZBM0d6bTIzUzVLemxXU0tqWTdlZ3N1VXJFaDV1VWVHT0ZfcTQ0RTZmbW4yQW0yOTV4WE5LSUowRVVNY3JURTE0Wm5NellpbFd3R1VWMjE2Y0x4VFhKMmlYVlhMVDdyUDJxbmNHcXdIQmd6Zw?oc=5",
-      "date": "Wed, 21 Oct 2026 04:00:00 GMT",
-      "source": "Hudson Institute",
-      "confidence": "high"
-    },
-    {
-      "entity": "NewsNation",
-      "stance": "",
-      "title": "Hegseth meets Netanyahu as US, Israel discuss renewed Iran strikes - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53YjVabzNFaVRWc2ZNeFFiOFVhTU9OejgzX2ZZbXBobEQxT2FiUXI4Mk9ua0ZaU2ZnblAxamJ1ejNNVUlMd2pJc2VvbndKTUY3X2JGbUstXzdZOWxLckhFUkFFWjlWU2tIbGpDRFMydkVDdHBSY0dYRU5xTHh0Z9IBgwFBVV95cUxNTnpSbXJpX1UtUXRzUGEtalFYazQzeFY3Ny1BR2Z2ejljcktXaXBWQVN1VEtwaEZ5OHFKNnBVbVY0dG92QVVaeVRaTUEtMXI5VUlSa0l6QVFST3oxOUJKVFJOeFM3S3BzcUUtMUFJcUtIaTU5RGdjQmQ3cWFFQ2dHRU43RQ?oc=5",
-      "date": "Wed, 21 Oct 2026 03:52:50 GMT",
-      "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Daily Wire",
-      "stance": "",
-      "title": "Trump Ambassador Defends Iran, Rewrites History On Jews - The Daily Wire",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZklwNU44RDRrajBRM21xdmJVVlBDdl94VFZfZnVkMDhMSDJNV1N3Ml85NlZ6bG9USWhBZ0Iyb1RKVFZBZ2xoZ0pmSE42RzFfY2NCVDFVdDYzUnpZSzk0Z1Q3aFBheV83U01OYTBuZkhaODhTcmhYNV96OWEzTldWUjkycUIyUmhPejVYa1Z3?oc=5",
-      "date": "Wed, 21 Oct 2026 01:56:59 GMT",
-      "source": "The Daily Wire",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ruben Gallego",
-      "stance": "",
-      "title": "Arizona U.S. Senator Ruben Gallego is calling on President Trump once again to end the Iran war - KTAR News 92.3 FM",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc0VicUVtNEJXUldNV2htdXlCVUlhNzRrY2VERFNlaklCT3ZscmZKSEItMnFvX0w5dDNVdFN1TXRJYnh6dm1JTndud2NkVjc2elBPSnJsOEJudHZvV2JoYjg2RlZWbDRrOTBQNm5Ranh0X3J1NWhYbENnZUJQYllxSnhpb3hsa3hsM0Z2V2NmS25VYWw3YzBuaC1QVVJMOGtXSXM4MWtueHU3N0FyT3VlajRfQnVwaU1EWkgtNGg1ZDVhU2VqQzAzZWFTRi13MkFSQkZ0SGJ6NzdGd1NmdE1XSUhzNnVWMlB4?oc=5",
-      "date": "Wed, 21 Oct 2026 01:49:16 GMT",
-      "source": "KTAR News 92.3 FM",
       "confidence": "high"
     }
   ]
