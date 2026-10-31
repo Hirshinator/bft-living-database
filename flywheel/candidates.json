@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30 18:25 UTC",
+  "generated": "2026-10-31 17:30 UTC",
   "count": 7,
   "candidates": [
     {
@@ -25,19 +25,6 @@
           "title": "From the streets of Israel | Israel Friends",
           "date": "2026-10-06",
           "link": "https://www.youtube.com/watch?v=kM4MvLCKoKE"
-        }
-      ]
-    },
-    {
-      "name": "Itai Schimmel",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "The Israel You Will NEVER See in the News | Itai Schimmel",
-          "date": "2026-10-28",
-          "link": "https://www.youtube.com/watch?v=IjgJryArhSI"
         }
       ]
     },
@@ -90,6 +77,19 @@
           "title": "“They Use Palestinians for THIS…” | Rachid Hammami",
           "date": "2026-10-30",
           "link": "https://www.youtube.com/shorts/zP05Fcwtm6s"
+        }
+      ]
+    },
+    {
+      "name": "Watch Why",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "This Ad Terrified Van Jones — Watch Why",
+          "date": "2026-10-31",
+          "link": "https://www.youtube.com/shorts/J26mtsp4hPY"
         }
       ]
     }

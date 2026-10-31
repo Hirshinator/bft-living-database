@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-30 18:29 UTC",
+  "generated": "2026-10-31 17:34 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 665,
+  "cursor": 915,
   "count": 120,
   "mentions": [
     {
@@ -375,6 +375,15 @@
       "confidence": "high"
     },
     {
+      "entity": "JD Vance",
+      "stance": "",
+      "title": "Exclusive | Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNXzVvb25ndkFLZDV5RnM2dGE2NGRlcHZNTV8wMFl2Z3lNdFk2TnpqSUQ5QXJkSkNlZThnMzI0ai1iVW1YMWxsZUdGcFRBdmNudmR0SFZqOTJMOUNIVjRzNV84OWVoMkhvZy16VzFsel8zOVVyLXpxajV2WlQ3TVdScTFwZGh6NTUzbjBxa0I3bzVDWDFHUFBRUHFPcW9GeU41cVpKN0xMYTdJek54VXQtSlVEZVM4M1k?oc=5",
+      "date": "Wed, 28 Oct 2026 23:46:00 GMT",
+      "source": "WSJ",
+      "confidence": "high"
+    },
+    {
       "entity": "Erick Erickson",
       "stance": "",
       "title": "S15 EP193: Hour 1 - Israel and the Arabs - The Erick Erickson Show - iHeart",
@@ -429,6 +438,33 @@
       "confidence": "high"
     },
     {
+      "entity": "Matti Friedman",
+      "stance": "",
+      "title": "Author Matti Friedman discusses situation in Israel at TBS event - Jewish Community Voice",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX0NaQVh4UlN3M3dFbnBQR1I0NVJEaV9yWUl3OXVZc3UtbXBnWWVyNGFCSFIwT1BKM01Wb0pwRngta1lGU2g3bnJqTWVLSDZ3UXp3ZmUyRjNHeEZqamtISllTaExZMVVHbi05aTVkSHJnMG5vaE1FdG5tekVNNk9HUDV0Y2FtOERpQk5CanM0Z3VOVTY0eDRoMV9LUU5rbWpGejQyaEVkTV8?oc=5",
+      "date": "Wed, 28 Oct 2026 15:54:23 GMT",
+      "source": "Jewish Community Voice",
+      "confidence": "high"
+    },
+    {
+      "entity": "Israel Englander",
+      "stance": "neutral",
+      "title": "Israel Englander - 2016-06-09 - The World's Richest Hedge Fund Billionaires - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uVGJyWXJQUmlIZEM3Ul9PbXFXU3hZS05iMVpvSkdPX29hakt4b2p3bFptUU93cDhEbnBkYnlVZ251R2NMNWJob1NLd3BnQ2FGYUNwTkpEc2t6YWFybFU1OGVGdFI4RFdzRUJJSw?oc=5",
+      "date": "Wed, 28 Oct 2026 15:53:57 GMT",
+      "source": "Forbes",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hudson Institute",
+      "stance": "",
+      "title": "Iran’s Maritime Threat and the Conflict in Yemen - Hudson Institute",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRHVrWktJMUZZaTZYRVBiNnpmNllQWVlfdXFUSjFaNW1ydklTX01ZVUpPQ0FhaUZ0Tl9LbGt0aEpwaUktQllGSTJGaHpWUnFDQm5falZ3ZHA2M0VVOGx5cnVOb2tTVG5VQ3NETlBvRE1UaTBZYzZzMmdzOVNlMWZOeW1aU1p6Z3FDdUdVRXpSUUtfRXEwVU5lREVaalJCSDdS?oc=5",
+      "date": "Wed, 28 Oct 2026 12:00:00 GMT",
+      "source": "Hudson Institute",
+      "confidence": "high"
+    },
+    {
       "entity": "Combat Antisemitism Movement (CAM)",
       "stance": "pro",
       "title": "\"Antisemitism Is a Western Civilization Issue\" - The Jerusalem Post",
@@ -453,6 +489,15 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFdPVE8tMHlZVVFzZkNIbVFDMzExMlJvaHFqQmEyZkFHa2hGNF9VeUJ1M1FwMElvMnZjOGs2TU1ac0hUNTFjb0oxZ2dwNWJqS2pnM1EwbG95aFptOV9JZVBDX1hjUGNrVlpRXzNBN3Q1OGEtcUF2OEYxeDdtb3R5eGFuMDM0aVdSRlJfbWhPS1lxb1QzUHltX0N4S0Q1di11LTVuMDFycllZbVRZeFZlM2sxQ3FjUnJTNVZ6M0FwWnk?oc=5",
       "date": "Wed, 28 Oct 2026 08:09:09 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hudson Institute",
+      "stance": "",
+      "title": "Vance Reopens Iran Diplomacy as Trump Weighs Renewed Strikes - Hudson Institute",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc0ctY3BRcXU0ekJWb3F2VzFPZ0RsNGROQWFhZkdlOUY4aE9qMDBFRDByZDR3dmg3TG9Kc01CdmFaWGg5dS1vNDN4Rm1JRUVhcFVfT3ZBNFdPbmpzS2owQ1BncnNmeVlONXhNOWl5dWI2VGNDRWctTEl3QnNJVm1EZDFpeDJZSGlOaWlXZVV6LUxTNkdwTDVndVdCNkczc1hEeTJibUpjVU9HQVY1elo2RXpCOUo4VEFmdWREZk1mYXJkY0k?oc=5",
+      "date": "Wed, 28 Oct 2026 04:00:00 GMT",
+      "source": "Hudson Institute",
       "confidence": "high"
     },
     {
@@ -996,15 +1041,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Jerry Seinfeld",
-      "stance": "",
-      "title": "The ‘Seinfeld’ cast reunites (but not really) to address Israel’s elections - The Forward",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUVZTcDRFLUF6TkJGZkRuNTRzMHBPR1dDWGt5V1NiU0hNdUtndTBuTkUwOGFNeHhybjhucVhBS2hqYkYzeEl2VmM0a0lxNmlKSDhzTlRPU3JtUDZuVkt3ZEVOc3ItM05NSVNjX3dCWWs0a0habXZINVlUSzlJMXIwODgyZ0xabjk4YnloM1lZd0pXT3Y5?oc=5",
-      "date": "Wed, 21 Oct 2026 19:52:19 GMT",
-      "source": "The Forward",
-      "confidence": "high"
-    },
-    {
       "entity": "Jon Ossoff",
       "stance": "",
       "title": "‘Is Iran Paying You?’: Jon Ossoff, El-Sayed Under Fire Over ‘Israel Hate’; Mike Collins Explodes - The Times of India",
@@ -1047,42 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aQjI1bkFYWFowTFoyM1BUZE9HLVVRQVJxQ1drek5VX0dZbDgxUXJad3I3bWdfeFdOdEVWMXcxN2x1V1pHWk9Zc0NWbS1iSTA0OUVYNTZOcjdwTjJpM1ZkTXlnT0tIWHdnR1dCSnFEMm0?oc=5",
       "date": "Wed, 21 Oct 2026 15:01:38 GMT",
       "source": "Forth.News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hasan Piker",
-      "stance": "",
-      "title": "Democratic push grows for Ilhan Omar, Fateh to cancel Hasan Piker event - Jewish Insider",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNENINi1GTjljbTVrNkh2V091VTZqUlB6QWUwdTVTLTIweG1OMVh3UWNFb29yclJpT0x4dlVtSVdmNHJBaV9ZTTV5TFhKZVBBaGlEMjZacGVWZGlGRTI2NGNHUHJTa3lpc1p6QVFOS3dSNEk3SVpKcVktXzcyeGI1Yk92TGh5aVpRUm1iNldfa0t0RUcwV2VKekJHT0w?oc=5",
-      "date": "Wed, 21 Oct 2026 08:45:29 GMT",
-      "source": "Jewish Insider",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ilhan Omar",
-      "stance": "",
-      "title": "Democratic push grows for Ilhan Omar, Fateh to cancel Hasan Piker event - Jewish Insider",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNENINi1GTjljbTVrNkh2V091VTZqUlB6QWUwdTVTLTIweG1OMVh3UWNFb29yclJpT0x4dlVtSVdmNHJBaV9ZTTV5TFhKZVBBaGlEMjZacGVWZGlGRTI2NGNHUHJTa3lpc1p6QVFOS3dSNEk3SVpKcVktXzcyeGI1Yk92TGh5aVpRUm1iNldfa0t0RUcwV2VKekJHT0w?oc=5",
-      "date": "Wed, 21 Oct 2026 08:45:29 GMT",
-      "source": "Jewish Insider",
-      "confidence": "high"
-    },
-    {
-      "entity": "Pete Hegseth",
-      "stance": "",
-      "title": "Hegseth meets Netanyahu on unannounced Israel visit - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQU1SU1R3eUwtXzVwZDVoNlpIQUFFUDhtUl9Nbng0Q2dRYUxXUkZjYTNkMnB3X0M5T096ZEtZMlltM0JTbC1JY21ESC1GRk5QVmtxbmdySS1Ydkl2UWF0T3dtc1pwQzg1LWZBUDlXZDdmZDFTY1N5UWtzR3RNS2lVNWlaTW9sT29zM1lBR29yanpwdE5GTjN6ONIBngFBVV95cUxQRnJ5dlBiLUFqbTJMZHd2VS1hV1J6cV9pMVJmazIyOUlkSXhYLW0zY0FKcHNYYzZ6RWl1MFhOV2VSQkZONEM3UlZSNkNFUVlPd0QtTVZYUWxOXzVlcUNpTHlHd3VvWkNSLVM3QklCOXhMdDQzSGg3bjB2Wklhd1hLbzFHNUcwME9pc1JBTDFIc25FUjlFWmR5dS1Bbk1IQQ?oc=5",
-      "date": "Wed, 21 Oct 2026 08:07:20 GMT",
-      "source": "Al Jazeera",
-      "confidence": "high"
-    },
-    {
-      "entity": "Daily Wire",
-      "stance": "",
-      "title": "Hegseth’s Mystery Meeting With Netanyahu Comes At Critical Moment For Iran - The Daily Wire",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSm9mVngteXpTSmNfZFdTelQ3SWI3U0NfeWtxbFloMFNVeVRmUTh5emk1UTFEMU0xR3hmek5XQ1JPT3pTODBwQUZDU05sTzM1a0ZuWTBWd2c5RDRiMmg2UEN0cldCTWRIWTA2MEdlSWdsSklGaDlfUFZVbXBYcHE4ajVmR0I5QlJNSmhEUDgtYm9zRjByNWFSdC03bnAwcEJGb1VZai03akJmcWJYMWs1QQ?oc=5",
-      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "source": "The Daily Wire",
       "confidence": "high"
     }
   ]
