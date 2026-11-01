@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-31 17:34 UTC",
+  "generated": "2026-11-01 18:20 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
     {
@@ -438,6 +438,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Sacha Baron Cohen",
+      "stance": "",
+      "title": "Sacha Baron Cohen wants to fight bigotry. But is Ali G part of the problem? - Jewish Telegraphic Agency",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ1FBMlQzQUVsdkdUNlU4b0FsNXREUTdsRTVyWWVzQWhBY1JDQTJnbHQyQWNiR2xZZklpZ1R5Nms3cDI5UUdBZ0lpSENsUDN4UXdEZ1RIQktYbmVwek93dWtCRjBIRldvdlR0WDYxUDVFTklXYmY4YUhxSjlKN0JxOFowNnNXTTRiQ3NnaDV0ZlFaY1ZraDkyd09PbkJ6TUdlMlBsSEtOZ2lJOUNDZHVfSzFR?oc=5",
+      "date": "Wed, 28 Oct 2026 17:30:14 GMT",
+      "source": "Jewish Telegraphic Agency",
+      "confidence": "high"
+    },
+    {
       "entity": "Matti Friedman",
       "stance": "",
       "title": "Author Matti Friedman discusses situation in Israel at TBS event - Jewish Community Voice",
@@ -462,6 +471,15 @@
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRHVrWktJMUZZaTZYRVBiNnpmNllQWVlfdXFUSjFaNW1ydklTX01ZVUpPQ0FhaUZ0Tl9LbGt0aEpwaUktQllGSTJGaHpWUnFDQm5falZ3ZHA2M0VVOGx5cnVOb2tTVG5VQ3NETlBvRE1UaTBZYzZzMmdzOVNlMWZOeW1aU1p6Z3FDdUdVRXpSUUtfRXEwVU5lREVaalJCSDdS?oc=5",
       "date": "Wed, 28 Oct 2026 12:00:00 GMT",
       "source": "Hudson Institute",
+      "confidence": "high"
+    },
+    {
+      "entity": "National Review",
+      "stance": "",
+      "title": "Netanyahu Lives Another Day - National Review",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hVTdCd2ljTURwbFNCTlZQTm1oZ0ZSakZDQnExNUJYOHlNblMyNkh6a01ubVRuRS13cjR1UkdSQ1JCWFJyVGdtM3R0bWJXLThsWnc4VVBrUzBMUzd2VEoyREN3bVBzWlpXU0ZIRmhFVjdZMXRFYmc?oc=5",
+      "date": "Wed, 28 Oct 2026 11:42:21 GMT",
+      "source": "National Review",
       "confidence": "high"
     },
     {
@@ -1014,30 +1032,12 @@
       "confidence": "high"
     },
     {
-      "entity": "Peter Thiel",
-      "stance": "",
-      "title": "Peter Thiel breaks with Trump over Iran war: ‘We should not have done it’ - Politico",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWDVTYThmX3RmY2M5YnNvRDZZQmxjTzJ3bE1teG9NMkNWOGpmZ2R1ZHllOG9pbUFEU0JKN2xLcmY3ZWFlY0RoLURYeno4aTk4RHllSTQwZWFsMHFkdzF2ZVh0eV9ZNnNacU1zdFNOQUlVNC14V3lLTWNLTjdCODlYRGdn?oc=5",
-      "date": "Wed, 21 Oct 2026 23:54:00 GMT",
-      "source": "Politico",
-      "confidence": "high"
-    },
-    {
       "entity": "NewsNation",
       "stance": "",
       "title": "Netanyahu hints war in Iran isn’t over, tells Trump ‘We have a job to finish’ - NewsNation",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGJtclFYLUZFeFBNNURfWGtlVkVkbWdlNnNWZGQ5Rk9QRUhObmU3eTNmdnAxdHNieUprWENVYXlRZUk3SUo2S21sYXFjQ0poYmlyU0dlbFFXVHRqb3NaMW4ydzhnRWd2ZEl3WENjd29WYVc5bWwxWU5vM2dCYUZZcTZQVWbSAYoBQVVfeXFMUEdLaTVoSTlGQnhtQ1dwX0Y0Vm9LX2VVY29IaHk3U25wWmE5RWdnUlJGREQ0MUFrNEl6M1dINnE2TmNNOWplRzRMT2ZKNmtrcWV2cWxmVWlEeWhUUHZZeGlfZm9uT2pzZ2V4TW5jZnJQX05nNXhjUzFlTGlGRzNvRUh2dmk0UG5BWnZB?oc=5",
       "date": "Wed, 21 Oct 2026 23:46:32 GMT",
       "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Shabbos Kestenbaum",
-      "stance": "",
-      "title": "Shabbos Kestenbaum combats Antisemitism at Bakersfield College - The Renegade Rip",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRG1KdjQ1clNIeFAtUUQzMzNJNk5wS3VwWE15NVZVTWNKaGR6NGN0c1ZvSkd2VjhlRzZMT0FibGRjd3ZQYWZidHV0OGh5SDhRaU1Id1lqeE5XUVlSOGlURVBtSFRIM2NVQVJPQU53V2p4NUcxandDYVRSc1haRnREbF8xTVRFaWJlUXJ6eUdRQkx6LUNBcVZSbVZpTWg2SFNjOUY5Qw?oc=5",
-      "date": "Wed, 21 Oct 2026 20:42:01 GMT",
-      "source": "The Renegade Rip",
       "confidence": "high"
     },
     {

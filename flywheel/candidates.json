@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-31 17:30 UTC",
-  "count": 7,
+  "generated": "2026-11-01 18:15 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Harris Sultan",
@@ -29,15 +29,15 @@
       ]
     },
     {
-      "name": "Lee Trink",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
+      "name": "Judge Napolitano",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
       "sources": [
         {
-          "channel": "Stand Tall Israel",
-          "title": "Antisemitism Has a NEW Name | Lee Trink",
-          "date": "2026-10-28",
-          "link": "https://www.youtube.com/shorts/DSJu8kulWn4"
+          "channel": "The Jimmy Dore Show",
+          "title": "“This Is EXACTLY How We Got The Surveillance State” – Judge Napolitano",
+          "date": "2026-10-31",
+          "link": "https://www.youtube.com/watch?v=14EaP0S1VDE"
         }
       ]
     },
@@ -61,6 +61,12 @@
       "sources": [
         {
           "channel": "Stand Tall Israel",
+          "title": "Former Mossad Chief: The West Is Making a Dangerous Mistake | Oded Ailam",
+          "date": "2026-11-01",
+          "link": "https://www.youtube.com/watch?v=0gAAuhUGiU0"
+        },
+        {
+          "channel": "Stand Tall Israel",
           "title": "LIVE: Israel’s Election Stalemate—Former Mossad Chief on What Comes Next | Oded Ailam",
           "date": "2026-10-29",
           "link": "https://www.youtube.com/watch?v=KxrhyGzK1NA"
@@ -77,6 +83,19 @@
           "title": "“They Use Palestinians for THIS…” | Rachid Hammami",
           "date": "2026-10-30",
           "link": "https://www.youtube.com/shorts/zP05Fcwtm6s"
+        }
+      ]
+    },
+    {
+      "name": "Then Said THIS",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "Israeli Actress Thought Cameras Were Off — Then Said THIS",
+          "date": "2026-10-31",
+          "link": "https://www.youtube.com/watch?v=8zQAdP2FOkY"
         }
       ]
     },
