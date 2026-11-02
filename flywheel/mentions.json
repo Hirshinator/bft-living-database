@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-01 18:20 UTC",
+  "generated": "2026-11-02 22:13 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 1165,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -507,6 +507,15 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFdPVE8tMHlZVVFzZkNIbVFDMzExMlJvaHFqQmEyZkFHa2hGNF9VeUJ1M1FwMElvMnZjOGs2TU1ac0hUNTFjb0oxZ2dwNWJqS2pnM1EwbG95aFptOV9JZVBDX1hjUGNrVlpRXzNBN3Q1OGEtcUF2OEYxeDdtb3R5eGFuMDM0aVdSRlJfbWhPS1lxb1QzUHltX0N4S0Q1di11LTVuMDFycllZbVRZeFZlM2sxQ3FjUnJTNVZ6M0FwWnk?oc=5",
       "date": "Wed, 28 Oct 2026 08:09:09 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Yeshiva University",
+      "stance": "",
+      "title": "‘Paw Patrol’ co-creator asks Yeshiva University students to ‘bet on themselves’ - The Jewish Star",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMldvb05FZnhRLS1md1BCOWk0Q09ZMEkybUpvRF9QS1NmeEYza0lsbmphUE9Fa1VUUnBZVFJ4d1NWZzFXbVdMWjEtUkxLZFZtMjNYUGJ0LTlUYlVIX3VsRGcwUVg0amNWMGhNREt3WnBnclpTSVNYMWM4d2VERTBUSVB2dVJZdDA4UmVhVWJkczVxWUxnUi1SQ0lETERNME9ITU8zZnhDWkozRWlqY1lMMDRxUXJ1aDZRUVF4RA?oc=5",
+      "date": "Wed, 28 Oct 2026 04:00:00 GMT",
+      "source": "The Jewish Star",
       "confidence": "high"
     },
     {
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0xWdFd1RjVTVHVBQnpFRE4teUZnMWxVaU5lWmNkRExRaXBPOU51dXNZUTRmSDczMG5VNkRWMHBJZFJSaGlodWhLaXBnc2R0WkZsT1JoX2J1aDdfb1EtR2psYTR2TWppamNqVTV2VXMyb0VFZjR6cFNEMHV0M2E4MzZnNUM5MFBhYUxaX3d5SW55VGxIeUVQLUxRSXZJMTYwNG1fanhTaFg?oc=5",
       "date": "Wed, 21 Oct 2026 15:30:00 GMT",
       "source": "U.S. Senator Rick Scott (.gov)",
-      "confidence": "high"
-    },
-    {
-      "entity": "John Cornyn",
-      "stance": "",
-      "title": "VIDEO: Cornyn Joins Squawk Box on the Midterm Elections, Ukraine, Iran, and AI - Forth.News",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aQjI1bkFYWFowTFoyM1BUZE9HLVVRQVJxQ1drek5VX0dZbDgxUXJad3I3bWdfeFdOdEVWMXcxN2x1V1pHWk9Zc0NWbS1iSTA0OUVYNTZOcjdwTjJpM1ZkTXlnT0tIWHdnR1dCSnFEMm0?oc=5",
-      "date": "Wed, 21 Oct 2026 15:01:38 GMT",
-      "source": "Forth.News",
       "confidence": "high"
     }
   ]

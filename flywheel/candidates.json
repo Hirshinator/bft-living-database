@@ -1,17 +1,43 @@
 {
-  "generated": "2026-11-01 18:15 UTC",
-  "count": 8,
+  "generated": "2026-11-02 22:09 UTC",
+  "count": 11,
   "candidates": [
     {
-      "name": "Harris Sultan",
+      "name": "Abraham Hamra",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Ex-Muslim Warns: The West Is in SERIOUS Trouble | Harris Sultan",
-          "date": "2026-10-29",
-          "link": "https://www.youtube.com/watch?v=-RpBbRKjb20"
+          "title": "He Threw a Rock at My Head — Police Did Nothing | Abraham Hamra",
+          "date": "2026-11-02",
+          "link": "https://www.youtube.com/shorts/XuJVQP8LDOw"
+        }
+      ]
+    },
+    {
+      "name": "Abteen Vaziri",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "57 Muslim Countries. Only Israel Helped. | Abteen Vaziri",
+          "date": "2026-11-01",
+          "link": "https://www.youtube.com/shorts/GMgAP7C0ix0"
+        }
+      ]
+    },
+    {
+      "name": "Glenn Diesen",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "Democracy in Western Europe Is on Its DEATHBED – Glenn Diesen",
+          "date": "2026-11-02",
+          "link": "https://www.youtube.com/watch?v=jY5lafKRkDQ"
         }
       ]
     },
@@ -64,12 +90,19 @@
           "title": "Former Mossad Chief: The West Is Making a Dangerous Mistake | Oded Ailam",
           "date": "2026-11-01",
           "link": "https://www.youtube.com/watch?v=0gAAuhUGiU0"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Police Did Nothing",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "LIVE: Israel’s Election Stalemate—Former Mossad Chief on What Comes Next | Oded Ailam",
-          "date": "2026-10-29",
-          "link": "https://www.youtube.com/watch?v=KxrhyGzK1NA"
+          "title": "He Threw a Rock at My Head — Police Did Nothing | Abraham Hamra",
+          "date": "2026-11-02",
+          "link": "https://www.youtube.com/shorts/XuJVQP8LDOw"
         }
       ]
     },
