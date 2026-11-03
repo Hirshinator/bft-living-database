@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02 22:09 UTC",
-  "count": 11,
+  "generated": "2026-11-03 19:57 UTC",
+  "count": 6,
   "candidates": [
     {
       "name": "Abraham Hamra",
@@ -55,32 +55,6 @@
       ]
     },
     {
-      "name": "Judge Napolitano",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "“This Is EXACTLY How We Got The Surveillance State” – Judge Napolitano",
-          "date": "2026-10-31",
-          "link": "https://www.youtube.com/watch?v=14EaP0S1VDE"
-        }
-      ]
-    },
-    {
-      "name": "Naftali Aklum",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "LIVE: My Family Risked Everything for ISRAEL — Here’s Why | Naftali Aklum",
-          "date": "2026-10-30",
-          "link": "https://www.youtube.com/watch?v=jQYXIx1IGIs"
-        }
-      ]
-    },
-    {
       "name": "Oded Ailam",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -103,45 +77,6 @@
           "title": "He Threw a Rock at My Head — Police Did Nothing | Abraham Hamra",
           "date": "2026-11-02",
           "link": "https://www.youtube.com/shorts/XuJVQP8LDOw"
-        }
-      ]
-    },
-    {
-      "name": "Rachid Hammami",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "“They Use Palestinians for THIS…” | Rachid Hammami",
-          "date": "2026-10-30",
-          "link": "https://www.youtube.com/shorts/zP05Fcwtm6s"
-        }
-      ]
-    },
-    {
-      "name": "Then Said THIS",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "Israeli Actress Thought Cameras Were Off — Then Said THIS",
-          "date": "2026-10-31",
-          "link": "https://www.youtube.com/watch?v=8zQAdP2FOkY"
-        }
-      ]
-    },
-    {
-      "name": "Watch Why",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "This Ad Terrified Van Jones — Watch Why",
-          "date": "2026-10-31",
-          "link": "https://www.youtube.com/shorts/J26mtsp4hPY"
         }
       ]
     }
