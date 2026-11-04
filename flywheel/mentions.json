@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-03 20:01 UTC",
+  "generated": "2026-11-04 20:20 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -462,6 +462,15 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uVGJyWXJQUmlIZEM3Ul9PbXFXU3hZS05iMVpvSkdPX29hakt4b2p3bFptUU93cDhEbnBkYnlVZ251R2NMNWJob1NLd3BnQ2FGYUNwTkpEc2t6YWFybFU1OGVGdFI4RFdzRUJJSw?oc=5",
       "date": "Wed, 28 Oct 2026 15:53:57 GMT",
       "source": "Forbes",
+      "confidence": "high"
+    },
+    {
+      "entity": "Gal Gadot",
+      "stance": "",
+      "title": "Gal Gadot reveals plans to move back to Israel amid rising antisemitism - The Jewish Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWEJ3V3BscHZXY3ozdTcxU3ZLV2I0ajRhUWpSOVp3OWNOZUstNnpJeFBmZUVTZE50OFNsb0NMMzFmYW51U0FNMUt6ZlV4b1hvNXFjUDBmV04tQXZXZXQzR2NUSFBZSmFtVFpJSFZ0QTBJajdJbGd0ZmgyRWlhWjY4Y0sxb2JaMkdxekZKWUVqUXJUVTQ?oc=5",
+      "date": "Wed, 28 Oct 2026 14:54:46 GMT",
+      "source": "The Jewish Chronicle",
       "confidence": "high"
     },
     {
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5kd3Y1NlBYUFFWbXBsVVJwYjFHdlpCNjdYZ0FVZmpFMWRmQmR5NmtCTWZkSWxWOFVLM1hPbkJ2TDN6WnJ3NHp1RjhlT1QxYzFnbXdMOFFKX1p6TDlYV1J0RERNTHhhQ3ZQTEVkMEx6WllVUGgxcjgzcS1XLVdJdw?oc=5",
       "date": "Wed, 21 Oct 2026 16:05:18 GMT",
       "source": "Mezha.net",
-      "confidence": "high"
-    },
-    {
-      "entity": "Rick Scott",
-      "stance": "",
-      "title": "Sen. Rick Scott Visits Israel to Strengthen Partnerships with U.S. - U.S. Senator Rick Scott (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0xWdFd1RjVTVHVBQnpFRE4teUZnMWxVaU5lWmNkRExRaXBPOU51dXNZUTRmSDczMG5VNkRWMHBJZFJSaGlodWhLaXBnc2R0WkZsT1JoX2J1aDdfb1EtR2psYTR2TWppamNqVTV2VXMyb0VFZjR6cFNEMHV0M2E4MzZnNUM5MFBhYUxaX3d5SW55VGxIeUVQLUxRSXZJMTYwNG1fanhTaFg?oc=5",
-      "date": "Wed, 21 Oct 2026 15:30:00 GMT",
-      "source": "U.S. Senator Rick Scott (.gov)",
       "confidence": "high"
     }
   ]
