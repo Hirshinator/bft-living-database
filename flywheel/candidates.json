@@ -1,20 +1,7 @@
 {
-  "generated": "2026-11-04 20:16 UTC",
-  "count": 5,
+  "generated": "2026-11-05 20:28 UTC",
+  "count": 4,
   "candidates": [
-    {
-      "name": "Abraham Hamra",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Threw a Rock at My Head — Police Did Nothing | Abraham Hamra",
-          "date": "2026-11-02",
-          "link": "https://www.youtube.com/shorts/XuJVQP8LDOw"
-        }
-      ]
-    },
     {
       "name": "Danny Alexander LIVE",
       "orientation": "ally",
@@ -22,22 +9,22 @@
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Is Europe Next? Israel, Islamism & the West | Danny Alexander LIVE",
-          "date": "2026-11-04",
+          "title": "Israel, Islamism & the West | Danny Alexander LIVE",
+          "date": "2026-11-05",
           "link": "https://www.youtube.com/watch?v=QqFN4eXsB_8"
         }
       ]
     },
     {
-      "name": "Glenn Diesen",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "name": "David Daoud LIVE",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
-          "channel": "The Jimmy Dore Show",
-          "title": "Democracy in Western Europe Is on Its DEATHBED – Glenn Diesen",
-          "date": "2026-11-02",
-          "link": "https://www.youtube.com/watch?v=jY5lafKRkDQ"
+          "channel": "Stand Tall Israel",
+          "title": "Is Israel's Political Crisis Putting It's Security AT RISK? | David Daoud LIVE",
+          "date": "2026-11-05",
+          "link": "https://www.youtube.com/watch?v=cFSIn9KDvxc"
         }
       ]
     },
@@ -55,15 +42,15 @@
       ]
     },
     {
-      "name": "Police Did Nothing",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
+      "name": "Jeff Bridges",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
       "sources": [
         {
-          "channel": "Stand Tall Israel",
-          "title": "He Threw a Rock at My Head — Police Did Nothing | Abraham Hamra",
-          "date": "2026-11-02",
-          "link": "https://www.youtube.com/shorts/XuJVQP8LDOw"
+          "channel": "The Jimmy Dore Show",
+          "title": "My Memory Has Been COMPLETELY WIPED! – Jeff Bridges",
+          "date": "2026-11-04",
+          "link": "https://www.youtube.com/watch?v=FNQ7Or20YE4"
         }
       ]
     }
