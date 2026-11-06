@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-05 20:32 UTC",
+  "generated": "2026-11-06 19:54 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
     {
@@ -516,6 +516,15 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFdPVE8tMHlZVVFzZkNIbVFDMzExMlJvaHFqQmEyZkFHa2hGNF9VeUJ1M1FwMElvMnZjOGs2TU1ac0hUNTFjb0oxZ2dwNWJqS2pnM1EwbG95aFptOV9JZVBDX1hjUGNrVlpRXzNBN3Q1OGEtcUF2OEYxeDdtb3R5eGFuMDM0aVdSRlJfbWhPS1lxb1QzUHltX0N4S0Q1di11LTVuMDFycllZbVRZeFZlM2sxQ3FjUnJTNVZ6M0FwWnk?oc=5",
       "date": "Wed, 28 Oct 2026 08:09:09 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Sacha Baron Cohen",
+      "stance": "",
+      "title": "Sacha Baron Cohen wants to fight bigotry. But is Ali G part of the problem? - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYjkwM2RqMFdxNlY3cnVhdXlIZHFONkZDNjhZcjdoOUlOV3hfeVlKdDhaMElfWC1LTmpWRXFQaTh1M3dTYTgxWlNYZURjZkJMdE5hNGxlMGdzOUVaQ3psT0dxRjJlMjhMUXV3Y3JwSFFrSGJoSm1BZEU3M0JEQkpyN2J3TkRjeTAxbFg2cGhrT3BiUlcxYVRodTcwZ2oxejF3VmxuOWJ6WVBUY2VDamw2bktVXzRxOVXSAbwBQVVfeXFMTVA4YWZjVFVFWTQyOWJ3VHJ3ZGp0bzg0TEk0WEtub2o3RVE2czFRTFg2Z2RuUlFLcTR5c2lPYU05ZHNWN213dWl1bUh1ZkNSbG9zU0FEZVRwck1SUmlHNHRhNUFJVk51VTFOaTlRaFo2ZDhrdS1Hdm1fT3pYNUlGeUtWY3BweWF2bXFlczJLWmIxUUZxLTdvaFN0Y3ZkTFRKVi11cFBVNS1OdTlneTUzazY4UXRObUdSQjg2Mjc?oc=5",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
       "confidence": "high"
     },
     {
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JQ05LVlV6MTFSbWszaUZLTW1MVTIyeHY1cmZaWHBTQjVVZV9oY2dlT1czWE41MFdlVW1oSVFUVjJnN3FveG85dDU2TTFKcERRWmt4U1VtbzI3bjB6T2RERXJLWEtDekFBOVBKSmVHSQ?oc=5",
       "date": "Wed, 21 Oct 2026 17:20:37 GMT",
       "source": "The Pittsburgh Jewish Chronicle",
-      "confidence": "high"
-    },
-    {
-      "entity": "Benchmark",
-      "stance": "",
-      "title": "Bank of Israel keeps benchmark rate at 3.25% ahead of election - Mezha.net",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5kd3Y1NlBYUFFWbXBsVVJwYjFHdlpCNjdYZ0FVZmpFMWRmQmR5NmtCTWZkSWxWOFVLM1hPbkJ2TDN6WnJ3NHp1RjhlT1QxYzFnbXdMOFFKX1p6TDlYV1J0RERNTHhhQ3ZQTEVkMEx6WllVUGgxcjgzcS1XLVdJdw?oc=5",
-      "date": "Wed, 21 Oct 2026 16:05:18 GMT",
-      "source": "Mezha.net",
       "confidence": "high"
     }
   ]

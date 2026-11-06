@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-05 20:28 UTC",
-  "count": 4,
+  "generated": "2026-11-06 19:51 UTC",
+  "count": 5,
   "candidates": [
     {
       "name": "Danny Alexander LIVE",
@@ -16,14 +16,14 @@
       ]
     },
     {
-      "name": "David Daoud LIVE",
+      "name": "David Daoud",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Is Israel's Political Crisis Putting It's Security AT RISK? | David Daoud LIVE",
-          "date": "2026-11-05",
+          "title": "America's Support for Israel Is CRUMBLING? Expert Issues Stark Warning | David Daoud",
+          "date": "2026-11-06",
           "link": "https://www.youtube.com/watch?v=cFSIn9KDvxc"
         }
       ]
@@ -38,6 +38,19 @@
           "title": "From the streets of Israel | Israel Friends",
           "date": "2026-10-06",
           "link": "https://www.youtube.com/watch?v=kM4MvLCKoKE"
+        }
+      ]
+    },
+    {
+      "name": "Jasem Aljuraid",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "“24 Hours to Leave!” — His Crime? Defending Israel | Jasem Aljuraid",
+          "date": "2026-11-06",
+          "link": "https://www.youtube.com/watch?v=40kY27KT2X8"
         }
       ]
     },
