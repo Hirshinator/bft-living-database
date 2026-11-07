@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-11-06 19:51 UTC
+# Flywheel candidates — 2026-11-07 17:56 UTC
 
-5 new candidate(s) surfaced from monitored channels, not yet in the database.
+4 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Danny Alexander LIVE — candidate ALLY (platformed by an ally channel)
@@ -14,6 +14,3 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### Jasem Aljuraid — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *“24 Hours to Leave!” — His Crime? Defending Israel | Jasem Aljuraid* (2026-11-06) — https://www.youtube.com/watch?v=40kY27KT2X8
-
-### Jeff Bridges — candidate HOSTILE / check orientation (boosted by a hostile channel)
-- [The Jimmy Dore Show] *My Memory Has Been COMPLETELY WIPED! – Jeff Bridges* (2026-11-04) — https://www.youtube.com/watch?v=FNQ7Or20YE4
