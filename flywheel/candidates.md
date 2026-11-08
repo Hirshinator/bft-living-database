@@ -1,10 +1,10 @@
-# Flywheel candidates — 2026-11-07 17:56 UTC
+# Flywheel candidates — 2026-11-08 18:13 UTC
 
 4 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
-### Danny Alexander LIVE — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *Israel, Islamism & the West | Danny Alexander LIVE* (2026-11-05) — https://www.youtube.com/watch?v=QqFN4eXsB_8
+### Alan Dershowitz — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Is America ABANDONING Israel? | Alan Dershowitz* (2026-11-08) — https://www.youtube.com/watch?v=RyYYom0xxLo
 
 ### David Daoud — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *America's Support for Israel Is CRUMBLING? Expert Issues Stark Warning | David Daoud* (2026-11-06) — https://www.youtube.com/watch?v=cFSIn9KDvxc
