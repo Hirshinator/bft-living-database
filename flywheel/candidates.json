@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-08 18:13 UTC",
-  "count": 4,
+  "generated": "2026-11-09 22:52 UTC",
+  "count": 5,
   "candidates": [
     {
       "name": "Alan Dershowitz",
@@ -16,15 +16,34 @@
       ]
     },
     {
-      "name": "David Daoud",
+      "name": "Danny Alexander",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "America's Support for Israel Is CRUMBLING? Expert Issues Stark Warning | David Daoud",
-          "date": "2026-11-06",
-          "link": "https://www.youtube.com/watch?v=cFSIn9KDvxc"
+          "title": "“Free Palestine is a Trojan Horse!” | Danny Alexander",
+          "date": "2026-11-09",
+          "link": "https://www.youtube.com/shorts/S6I4t4TWzDo"
+        },
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Europe Underestimated Islamism. Now It’s Paying the Price. | Danny Alexander",
+          "date": "2026-11-09",
+          "link": "https://www.youtube.com/watch?v=3051m-Awp-g"
+        }
+      ]
+    },
+    {
+      "name": "Imam Tawhidi",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Has America Gone SOFT On Extremists? | Imam Tawhidi",
+          "date": "2026-11-09",
+          "link": "https://www.youtube.com/shorts/DiJfn7EMJ2Y"
         }
       ]
     },
@@ -42,15 +61,21 @@
       ]
     },
     {
-      "name": "Jasem Aljuraid",
+      "name": "Oded Ailam",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "“24 Hours to Leave!” — His Crime? Defending Israel | Jasem Aljuraid",
-          "date": "2026-11-06",
-          "link": "https://www.youtube.com/watch?v=40kY27KT2X8"
+          "title": "Mahmoud Abbas Was Elected for 4 Years. It’s Been 21. | Oded Ailam",
+          "date": "2026-11-08",
+          "link": "https://www.youtube.com/shorts/Qa1t_icfj_k"
+        },
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Former Mossad Chief: The West Is Ignoring a Terrifying Warning | Oded Ailam",
+          "date": "2026-11-08",
+          "link": "https://www.youtube.com/watch?v=3KGRgSLiOVc"
         }
       ]
     }

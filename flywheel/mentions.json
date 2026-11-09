@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-08 18:16 UTC",
+  "generated": "2026-11-09 22:56 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -393,15 +393,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Ben Shapiro",
-      "stance": "",
-      "title": "Netanyahu, opposition leader agree on foreign policy issues, Ben Shapiro says - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XbDZZNEQzNG44UnFkbHdTNDF1YWlIdVpZeHFOMFhJYmZicDJIRE5sZGxaaV9pTUpPM0dfVkliMTh5RmVmaWd1NlRzVG5FX1VJZ3pJWjZn?oc=5",
-      "date": "Wed, 28 Oct 2026 20:29:38 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
       "entity": "Daily Wire",
       "stance": "",
       "title": "Israel’s Inconclusive Election Hands Netanyahu Another Win - The Daily Wire",
@@ -516,6 +507,15 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFdPVE8tMHlZVVFzZkNIbVFDMzExMlJvaHFqQmEyZkFHa2hGNF9VeUJ1M1FwMElvMnZjOGs2TU1ac0hUNTFjb0oxZ2dwNWJqS2pnM1EwbG95aFptOV9JZVBDX1hjUGNrVlpRXzNBN3Q1OGEtcUF2OEYxeDdtb3R5eGFuMDM0aVdSRlJfbWhPS1lxb1QzUHltX0N4S0Q1di11LTVuMDFycllZbVRZeFZlM2sxQ3FjUnJTNVZ6M0FwWnk?oc=5",
       "date": "Wed, 28 Oct 2026 08:09:09 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Ben Shapiro",
+      "stance": "",
+      "title": "Netanyahu, opposition leader agree on foreign policy issues, Ben Shapiro says - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XbDZZNEQzNG44UnFkbHdTNDF1YWlIdVpZeHFOMFhJYmZicDJIRE5sZGxaaV9pTUpPM0dfVkliMTh5RmVmaWd1NlRzVG5FX1VJZ3pJWjZn?oc=5",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "Fox News",
       "confidence": "high"
     },
     {
