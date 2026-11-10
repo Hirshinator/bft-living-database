@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09 22:52 UTC",
-  "count": 5,
+  "generated": "2026-11-10 20:14 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Alan Dershowitz",
@@ -61,6 +61,19 @@
       ]
     },
     {
+      "name": "Janatan Sayeh",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Iran's Regime Arrested and Beat Him. His Story Is CHILLING | Janatan Sayeh",
+          "date": "2026-11-10",
+          "link": "https://www.youtube.com/watch?v=RCnUOgSkyJY"
+        }
+      ]
+    },
+    {
       "name": "Oded Ailam",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -76,6 +89,44 @@
           "title": "Former Mossad Chief: The West Is Ignoring a Terrifying Warning | Oded Ailam",
           "date": "2026-11-08",
           "link": "https://www.youtube.com/watch?v=3KGRgSLiOVc"
+        }
+      ]
+    },
+    {
+      "name": "StandWithUs Podcast",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "StandWithUs",
+          "title": "James Maslow on October 7, antisemitism and social media | StandWithUs Podcast",
+          "date": "2026-11-10",
+          "link": "https://www.youtube.com/watch?v=mXpn_V7eoYY"
+        },
+        {
+          "channel": "StandWithUs",
+          "title": "James Maslow on Israel's diversity and what the world gets wrong | StandWithUs Podcast",
+          "date": "2026-11-10",
+          "link": "https://www.youtube.com/watch?v=4ejNnbhZTME"
+        },
+        {
+          "channel": "StandWithUs",
+          "title": "James Maslow on social media and truth | StandWithUs Podcast",
+          "date": "2026-11-10",
+          "link": "https://www.youtube.com/shorts/am5b0cy2P8Q"
+        }
+      ]
+    },
+    {
+      "name": "Then Floats Amnesty",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
+      "sources": [
+        {
+          "channel": "The Jimmy Dore Show",
+          "title": "Trump Admits Deportations “Too Tough” — Then Floats Amnesty",
+          "date": "2026-11-10",
+          "link": "https://www.youtube.com/watch?v=JGsQfvJpGCA"
         }
       ]
     }

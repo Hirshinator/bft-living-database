@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-11-09 22:52 UTC
+# Flywheel candidates — 2026-11-10 20:14 UTC
 
-5 new candidate(s) surfaced from monitored channels, not yet in the database.
+8 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Alan Dershowitz — candidate ALLY (platformed by an ally channel)
@@ -16,6 +16,17 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Israel Friends — candidate ALLY (platformed by an ally channel)
 - [IsraelFriends] *From the streets of Israel | Israel Friends* (2026-10-06) — https://www.youtube.com/watch?v=kM4MvLCKoKE
 
+### Janatan Sayeh — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Iran's Regime Arrested and Beat Him. His Story Is CHILLING | Janatan Sayeh* (2026-11-10) — https://www.youtube.com/watch?v=RCnUOgSkyJY
+
 ### Oded Ailam — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Mahmoud Abbas Was Elected for 4 Years. It’s Been 21. | Oded Ailam* (2026-11-08) — https://www.youtube.com/shorts/Qa1t_icfj_k
 - [Stand Tall Israel] *Former Mossad Chief: The West Is Ignoring a Terrifying Warning | Oded Ailam* (2026-11-08) — https://www.youtube.com/watch?v=3KGRgSLiOVc
+
+### StandWithUs Podcast — candidate ALLY (platformed by an ally channel)
+- [StandWithUs] *James Maslow on October 7, antisemitism and social media | StandWithUs Podcast* (2026-11-10) — https://www.youtube.com/watch?v=mXpn_V7eoYY
+- [StandWithUs] *James Maslow on Israel's diversity and what the world gets wrong | StandWithUs Podcast* (2026-11-10) — https://www.youtube.com/watch?v=4ejNnbhZTME
+- [StandWithUs] *James Maslow on social media and truth | StandWithUs Podcast* (2026-11-10) — https://www.youtube.com/shorts/am5b0cy2P8Q
+
+### Then Floats Amnesty — candidate HOSTILE / check orientation (boosted by a hostile channel)
+- [The Jimmy Dore Show] *Trump Admits Deportations “Too Tough” — Then Floats Amnesty* (2026-11-10) — https://www.youtube.com/watch?v=JGsQfvJpGCA

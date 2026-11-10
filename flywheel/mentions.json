@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-09 22:56 UTC",
+  "generated": "2026-11-10 20:17 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 665,
+  "cursor": 915,
   "count": 120,
   "mentions": [
     {
@@ -438,15 +438,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Matti Friedman",
-      "stance": "",
-      "title": "Author Matti Friedman discusses situation in Israel at TBS event - Jewish Community Voice",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX0NaQVh4UlN3M3dFbnBQR1I0NVJEaV9yWUl3OXVZc3UtbXBnWWVyNGFCSFIwT1BKM01Wb0pwRngta1lGU2g3bnJqTWVLSDZ3UXp3ZmUyRjNHeEZqamtISllTaExZMVVHbi05aTVkSHJnMG5vaE1FdG5tekVNNk9HUDV0Y2FtOERpQk5CanM0Z3VOVTY0eDRoMV9LUU5rbWpGejQyaEVkTV8?oc=5",
-      "date": "Wed, 28 Oct 2026 15:54:23 GMT",
-      "source": "Jewish Community Voice",
-      "confidence": "high"
-    },
-    {
       "entity": "Israel Englander",
       "stance": "neutral",
       "title": "Israel Englander - 2016-06-09 - The World's Richest Hedge Fund Billionaires - Forbes",
@@ -462,15 +453,6 @@
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWEJ3V3BscHZXY3ozdTcxU3ZLV2I0ajRhUWpSOVp3OWNOZUstNnpJeFBmZUVTZE50OFNsb0NMMzFmYW51U0FNMUt6ZlV4b1hvNXFjUDBmV04tQXZXZXQzR2NUSFBZSmFtVFpJSFZ0QTBJajdJbGd0ZmgyRWlhWjY4Y0sxb2JaMkdxekZKWUVqUXJUVTQ?oc=5",
       "date": "Wed, 28 Oct 2026 14:54:46 GMT",
       "source": "The Jewish Chronicle",
-      "confidence": "high"
-    },
-    {
-      "entity": "Hudson Institute",
-      "stance": "",
-      "title": "Iran’s Maritime Threat and the Conflict in Yemen - Hudson Institute",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRHVrWktJMUZZaTZYRVBiNnpmNllQWVlfdXFUSjFaNW1ydklTX01ZVUpPQ0FhaUZ0Tl9LbGt0aEpwaUktQllGSTJGaHpWUnFDQm5falZ3ZHA2M0VVOGx5cnVOb2tTVG5VQ3NETlBvRE1UaTBZYzZzMmdzOVNlMWZOeW1aU1p6Z3FDdUdVRXpSUUtfRXEwVU5lREVaalJCSDdS?oc=5",
-      "date": "Wed, 28 Oct 2026 12:00:00 GMT",
-      "source": "Hudson Institute",
       "confidence": "high"
     },
     {
@@ -507,6 +489,24 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFdPVE8tMHlZVVFzZkNIbVFDMzExMlJvaHFqQmEyZkFHa2hGNF9VeUJ1M1FwMElvMnZjOGs2TU1ac0hUNTFjb0oxZ2dwNWJqS2pnM1EwbG95aFptOV9JZVBDX1hjUGNrVlpRXzNBN3Q1OGEtcUF2OEYxeDdtb3R5eGFuMDM0aVdSRlJfbWhPS1lxb1QzUHltX0N4S0Q1di11LTVuMDFycllZbVRZeFZlM2sxQ3FjUnJTNVZ6M0FwWnk?oc=5",
       "date": "Wed, 28 Oct 2026 08:09:09 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Hudson Institute",
+      "stance": "",
+      "title": "Iran’s Maritime Threat and the Conflict in Yemen - Hudson Institute",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRHVrWktJMUZZaTZYRVBiNnpmNllQWVlfdXFUSjFaNW1ydklTX01ZVUpPQ0FhaUZ0Tl9LbGt0aEpwaUktQllGSTJGaHpWUnFDQm5falZ3ZHA2M0VVOGx5cnVOb2tTVG5VQ3NETlBvRE1UaTBZYzZzMmdzOVNlMWZOeW1aU1p6Z3FDdUdVRXpSUUtfRXEwVU5lREVaalJCSDdS?oc=5",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "Hudson Institute",
+      "confidence": "high"
+    },
+    {
+      "entity": "Matti Friedman",
+      "stance": "",
+      "title": "Author Matti Friedman discusses situation in Israel at TBS event - Jewish Community Voice",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX0NaQVh4UlN3M3dFbnBQR1I0NVJEaV9yWUl3OXVZc3UtbXBnWWVyNGFCSFIwT1BKM01Wb0pwRngta1lGU2g3bnJqTWVLSDZ3UXp3ZmUyRjNHeEZqamtISllTaExZMVVHbi05aTVkSHJnMG5vaE1FdG5tekVNNk9HUDV0Y2FtOERpQk5CanM0Z3VOVTY0eDRoMV9LUU5rbWpGejQyaEVkTV8?oc=5",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "Jewish Community Voice",
       "confidence": "high"
     },
     {
