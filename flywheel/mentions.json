@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10 20:17 UTC",
+  "generated": "2026-11-11 20:04 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
     {
@@ -492,6 +492,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Sacha Baron Cohen",
+      "stance": "",
+      "title": "Sacha Baron Cohen wants to fight bigotry. But is Ali G part of the problem? - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYjkwM2RqMFdxNlY3cnVhdXlIZHFONkZDNjhZcjdoOUlOV3hfeVlKdDhaMElfWC1LTmpWRXFQaTh1M3dTYTgxWlNYZURjZkJMdE5hNGxlMGdzOUVaQ3psT0dxRjJlMjhMUXV3Y3JwSFFrSGJoSm1BZEU3M0JEQkpyN2J3TkRjeTAxbFg2cGhrT3BiUlcxYVRodTcwZ2oxejF3VmxuOWJ6WVBUY2VDamw2bktVXzRxOVXSAbwBQVVfeXFMTVA4YWZjVFVFWTQyOWJ3VHJ3ZGp0bzg0TEk0WEtub2o3RVE2czFRTFg2Z2RuUlFLcTR5c2lPYU05ZHNWN213dWl1bUh1ZkNSbG9zU0FEZVRwck1SUmlHNHRhNUFJVk51VTFOaTlRaFo2ZDhrdS1Hdm1fT3pYNUlGeUtWY3BweWF2bXFlczJLWmIxUUZxLTdvaFN0Y3ZkTFRKVi11cFBVNS1OdTlneTUzazY4UXRObUdSQjg2Mjc?oc=5",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
       "entity": "Hudson Institute",
       "stance": "",
       "title": "Iran’s Maritime Threat and the Conflict in Yemen - Hudson Institute",
@@ -516,15 +525,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XbDZZNEQzNG44UnFkbHdTNDF1YWlIdVpZeHFOMFhJYmZicDJIRE5sZGxaaV9pTUpPM0dfVkliMTh5RmVmaWd1NlRzVG5FX1VJZ3pJWjZn?oc=5",
       "date": "Wed, 28 Oct 2026 07:00:00 GMT",
       "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Sacha Baron Cohen",
-      "stance": "",
-      "title": "Sacha Baron Cohen wants to fight bigotry. But is Ali G part of the problem? - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYjkwM2RqMFdxNlY3cnVhdXlIZHFONkZDNjhZcjdoOUlOV3hfeVlKdDhaMElfWC1LTmpWRXFQaTh1M3dTYTgxWlNYZURjZkJMdE5hNGxlMGdzOUVaQ3psT0dxRjJlMjhMUXV3Y3JwSFFrSGJoSm1BZEU3M0JEQkpyN2J3TkRjeTAxbFg2cGhrT3BiUlcxYVRodTcwZ2oxejF3VmxuOWJ6WVBUY2VDamw2bktVXzRxOVXSAbwBQVVfeXFMTVA4YWZjVFVFWTQyOWJ3VHJ3ZGp0bzg0TEk0WEtub2o3RVE2czFRTFg2Z2RuUlFLcTR5c2lPYU05ZHNWN213dWl1bUh1ZkNSbG9zU0FEZVRwck1SUmlHNHRhNUFJVk51VTFOaTlRaFo2ZDhrdS1Hdm1fT3pYNUlGeUtWY3BweWF2bXFlczJLWmIxUUZxLTdvaFN0Y3ZkTFRKVi11cFBVNS1OdTlneTUzazY4UXRObUdSQjg2Mjc?oc=5",
-      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
       "confidence": "high"
     },
     {

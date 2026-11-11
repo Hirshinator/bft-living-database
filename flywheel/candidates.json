@@ -1,20 +1,7 @@
 {
-  "generated": "2026-11-10 20:14 UTC",
+  "generated": "2026-11-11 20:00 UTC",
   "count": 8,
   "candidates": [
-    {
-      "name": "Alan Dershowitz",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Is America ABANDONING Israel? | Alan Dershowitz",
-          "date": "2026-11-08",
-          "link": "https://www.youtube.com/watch?v=RyYYom0xxLo"
-        }
-      ]
-    },
     {
       "name": "Danny Alexander",
       "orientation": "ally",
@@ -31,6 +18,19 @@
           "title": "Europe Underestimated Islamism. Now It’s Paying the Price. | Danny Alexander",
           "date": "2026-11-09",
           "link": "https://www.youtube.com/watch?v=3051m-Awp-g"
+        }
+      ]
+    },
+    {
+      "name": "David Daoud",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "America Turning AGAINST Israel? Expert Sounds the Alarm | David Daoud",
+          "date": "2026-11-11",
+          "link": "https://www.youtube.com/watch?v=r3tuzqE2-k8"
         }
       ]
     },
@@ -61,34 +61,28 @@
       ]
     },
     {
-      "name": "Janatan Sayeh",
+      "name": "Jamie Glazov LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Iran's Regime Arrested and Beat Him. His Story Is CHILLING | Janatan Sayeh",
-          "date": "2026-11-10",
-          "link": "https://www.youtube.com/watch?v=RCnUOgSkyJY"
+          "title": "The Dangerous Alliance Threatening Israel & the West | Jamie Glazov LIVE",
+          "date": "2026-11-11",
+          "link": "https://www.youtube.com/watch?v=SSoZkEQgHbQ"
         }
       ]
     },
     {
-      "name": "Oded Ailam",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
+      "name": "Latest Appearance Disturbing",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
       "sources": [
         {
-          "channel": "Stand Tall Israel",
-          "title": "Mahmoud Abbas Was Elected for 4 Years. It’s Been 21. | Oded Ailam",
-          "date": "2026-11-08",
-          "link": "https://www.youtube.com/shorts/Qa1t_icfj_k"
-        },
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Former Mossad Chief: The West Is Ignoring a Terrifying Warning | Oded Ailam",
-          "date": "2026-11-08",
-          "link": "https://www.youtube.com/watch?v=3KGRgSLiOVc"
+          "channel": "The Jimmy Dore Show",
+          "title": "Mitch McConnell Far Gone — Latest Appearance Disturbing",
+          "date": "2026-11-10",
+          "link": "https://www.youtube.com/watch?v=iQo-39ckKtA"
         }
       ]
     },
@@ -97,6 +91,12 @@
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
+        {
+          "channel": "StandWithUs",
+          "title": "James Maslow on his grandfather and the hate spreading in America | StandWithUs Podcast",
+          "date": "2026-11-10",
+          "link": "https://www.youtube.com/shorts/pi9RcEX_CMU"
+        },
         {
           "channel": "StandWithUs",
           "title": "James Maslow on October 7, antisemitism and social media | StandWithUs Podcast",
