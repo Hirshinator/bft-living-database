@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-11 20:04 UTC",
+  "generated": "2026-11-12 20:43 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 1165,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -474,21 +474,21 @@
       "confidence": "high"
     },
     {
-      "entity": "Adam Milstein",
-      "stance": "pro",
-      "title": "Why Adam Milstein Calls the U.S.-Israel Alliance a Partnership, Not a Charity - Impakter",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMkFlUHFLZUZqZkMzY1NsN2NJNFFJbFFuLU05aEV5eE5jMzFzNWVmbXUxbE5CRENrVGVaLWF6UXp6ZWxVd0dDUXUtUG5aUWJ1REZ0YUR6Nk44WnVOWjVUbndPcDJMQjdjOU5CV05OT193NjFFLTJSVzZSdWJGNFEzTDk0QWY5Y0FyVm9Oc2JDRFZxOEEzREFvbnJvNHRDdw?oc=5",
-      "date": "Wed, 28 Oct 2026 11:10:10 GMT",
-      "source": "Impakter",
-      "confidence": "high"
-    },
-    {
       "entity": "Van Jones",
       "stance": "",
       "title": "At MDA gala, Van Jones calls antisemitism ‘poison that is being put in’ the Black community - Jewish Insider",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFdPVE8tMHlZVVFzZkNIbVFDMzExMlJvaHFqQmEyZkFHa2hGNF9VeUJ1M1FwMElvMnZjOGs2TU1ac0hUNTFjb0oxZ2dwNWJqS2pnM1EwbG95aFptOV9JZVBDX1hjUGNrVlpRXzNBN3Q1OGEtcUF2OEYxeDdtb3R5eGFuMDM0aVdSRlJfbWhPS1lxb1QzUHltX0N4S0Q1di11LTVuMDFycllZbVRZeFZlM2sxQ3FjUnJTNVZ6M0FwWnk?oc=5",
       "date": "Wed, 28 Oct 2026 08:09:09 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Adam Milstein",
+      "stance": "pro",
+      "title": "Why Adam Milstein Calls the U.S.-Israel Alliance a Partnership, Not a Charity - Impakter",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMkFlUHFLZUZqZkMzY1NsN2NJNFFJbFFuLU05aEV5eE5jMzFzNWVmbXUxbE5CRENrVGVaLWF6UXp6ZWxVd0dDUXUtUG5aUWJ1REZ0YUR6Nk44WnVOWjVUbndPcDJMQjdjOU5CV05OT193NjFFLTJSVzZSdWJGNFEzTDk0QWY5Y0FyVm9Oc2JDRFZxOEEzREFvbnJvNHRDdw?oc=5",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "Impakter",
       "confidence": "high"
     },
     {

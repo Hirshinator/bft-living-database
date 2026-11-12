@@ -1,23 +1,17 @@
 {
-  "generated": "2026-11-11 20:00 UTC",
+  "generated": "2026-11-12 20:39 UTC",
   "count": 8,
   "candidates": [
     {
-      "name": "Danny Alexander",
+      "name": "Bill Roggio LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "“Free Palestine is a Trojan Horse!” | Danny Alexander",
-          "date": "2026-11-09",
-          "link": "https://www.youtube.com/shorts/S6I4t4TWzDo"
-        },
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Europe Underestimated Islamism. Now It’s Paying the Price. | Danny Alexander",
-          "date": "2026-11-09",
-          "link": "https://www.youtube.com/watch?v=3051m-Awp-g"
+          "title": "Israel Hit Them Hard. Now Comes the Dangerous Part | Bill Roggio LIVE",
+          "date": "2026-11-12",
+          "link": "https://www.youtube.com/watch?v=kNG5Gr9E4bw"
         }
       ]
     },
@@ -35,15 +29,15 @@
       ]
     },
     {
-      "name": "Imam Tawhidi",
+      "name": "Ihab Shlayan LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Has America Gone SOFT On Extremists? | Imam Tawhidi",
-          "date": "2026-11-09",
-          "link": "https://www.youtube.com/shorts/DiJfn7EMJ2Y"
+          "title": "25-Year IDF Veteran Reveals His URGENT Appeal to Mike Huckabee! | Ihab Shlayan LIVE",
+          "date": "2026-11-12",
+          "link": "https://www.youtube.com/watch?v=kFdE0Kgpy24"
         }
       ]
     },
@@ -52,6 +46,12 @@
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
+        {
+          "channel": "IsraelFriends",
+          "title": "Bridge the Ocean: A Live Symposium | Israel Friends",
+          "date": "2026-11-12",
+          "link": "https://www.youtube.com/watch?v=SnyY_zhnD4Q"
+        },
         {
           "channel": "IsraelFriends",
           "title": "From the streets of Israel | Israel Friends",
@@ -68,7 +68,7 @@
         {
           "channel": "Stand Tall Israel",
           "title": "The Dangerous Alliance Threatening Israel & the West | Jamie Glazov LIVE",
-          "date": "2026-11-11",
+          "date": "2026-11-12",
           "link": "https://www.youtube.com/watch?v=SSoZkEQgHbQ"
         }
       ]
@@ -87,10 +87,35 @@
       ]
     },
     {
+      "name": "Miad Maleki",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Fled Iran. Then He Went After Tehran’s Oil Money | Miad Maleki",
+          "date": "2026-11-12",
+          "link": "https://www.youtube.com/watch?v=XPQyXdloRjM"
+        }
+      ]
+    },
+    {
       "name": "StandWithUs Podcast",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
+        {
+          "channel": "StandWithUs",
+          "title": "James Maslow on Israel's diversity | StandWithUs Podcast",
+          "date": "2026-11-12",
+          "link": "https://www.youtube.com/shorts/Ee6obi-CWNE"
+        },
+        {
+          "channel": "StandWithUs",
+          "title": "James Maslow on bringing Big Time Rush to Israel | StandWithUs Podcast",
+          "date": "2026-11-12",
+          "link": "https://www.youtube.com/shorts/O2rn6-Wg21w"
+        },
         {
           "channel": "StandWithUs",
           "title": "James Maslow on his grandfather and the hate spreading in America | StandWithUs Podcast",
@@ -114,19 +139,6 @@
           "title": "James Maslow on social media and truth | StandWithUs Podcast",
           "date": "2026-11-10",
           "link": "https://www.youtube.com/shorts/am5b0cy2P8Q"
-        }
-      ]
-    },
-    {
-      "name": "Then Floats Amnesty",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "Trump Admits Deportations “Too Tough” — Then Floats Amnesty",
-          "date": "2026-11-10",
-          "link": "https://www.youtube.com/watch?v=JGsQfvJpGCA"
         }
       ]
     }
