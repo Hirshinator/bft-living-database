@@ -1,7 +1,20 @@
 {
-  "generated": "2026-11-12 20:39 UTC",
-  "count": 8,
+  "generated": "2026-11-13 20:19 UTC",
+  "count": 10,
   "candidates": [
+    {
+      "name": "Ahmad Sharawi",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Arab Analyst Reveals What the Arab World Gets WRONG About Israel | Ahmad Sharawi",
+          "date": "2026-11-13",
+          "link": "https://www.youtube.com/watch?v=ZJo-PDZeo6o"
+        }
+      ]
+    },
     {
       "name": "Bill Roggio LIVE",
       "orientation": "ally",
@@ -10,7 +23,7 @@
         {
           "channel": "Stand Tall Israel",
           "title": "Israel Hit Them Hard. Now Comes the Dangerous Part | Bill Roggio LIVE",
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "link": "https://www.youtube.com/watch?v=kNG5Gr9E4bw"
         }
       ]
@@ -57,6 +70,19 @@
           "title": "From the streets of Israel | Israel Friends",
           "date": "2026-10-06",
           "link": "https://www.youtube.com/watch?v=kM4MvLCKoKE"
+        }
+      ]
+    },
+    {
+      "name": "Jamie Glazov",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Who Fueled the Hate After Oct. 7? | Jamie Glazov",
+          "date": "2026-11-13",
+          "link": "https://www.youtube.com/shorts/NPt8GZpBKvg"
         }
       ]
     },

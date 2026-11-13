@@ -1,10 +1,13 @@
-# Flywheel candidates — 2026-11-12 20:39 UTC
+# Flywheel candidates — 2026-11-13 20:19 UTC
 
-8 new candidate(s) surfaced from monitored channels, not yet in the database.
+10 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
+### Ahmad Sharawi — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Arab Analyst Reveals What the Arab World Gets WRONG About Israel | Ahmad Sharawi* (2026-11-13) — https://www.youtube.com/watch?v=ZJo-PDZeo6o
+
 ### Bill Roggio LIVE — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *Israel Hit Them Hard. Now Comes the Dangerous Part | Bill Roggio LIVE* (2026-11-12) — https://www.youtube.com/watch?v=kNG5Gr9E4bw
+- [Stand Tall Israel] *Israel Hit Them Hard. Now Comes the Dangerous Part | Bill Roggio LIVE* (2026-11-13) — https://www.youtube.com/watch?v=kNG5Gr9E4bw
 
 ### David Daoud — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *America Turning AGAINST Israel? Expert Sounds the Alarm | David Daoud* (2026-11-11) — https://www.youtube.com/watch?v=r3tuzqE2-k8
@@ -15,6 +18,9 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Israel Friends — candidate ALLY (platformed by an ally channel)
 - [IsraelFriends] *Bridge the Ocean: A Live Symposium | Israel Friends* (2026-11-12) — https://www.youtube.com/watch?v=SnyY_zhnD4Q
 - [IsraelFriends] *From the streets of Israel | Israel Friends* (2026-10-06) — https://www.youtube.com/watch?v=kM4MvLCKoKE
+
+### Jamie Glazov — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Who Fueled the Hate After Oct. 7? | Jamie Glazov* (2026-11-13) — https://www.youtube.com/shorts/NPt8GZpBKvg
 
 ### Jamie Glazov LIVE — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *The Dangerous Alliance Threatening Israel & the West | Jamie Glazov LIVE* (2026-11-12) — https://www.youtube.com/watch?v=SSoZkEQgHbQ
