@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-13 20:19 UTC",
-  "count": 10,
+  "generated": "2026-11-14 18:39 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Ahmad Sharawi",
@@ -25,19 +25,6 @@
           "title": "Israel Hit Them Hard. Now Comes the Dangerous Part | Bill Roggio LIVE",
           "date": "2026-11-13",
           "link": "https://www.youtube.com/watch?v=kNG5Gr9E4bw"
-        }
-      ]
-    },
-    {
-      "name": "David Daoud",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "America Turning AGAINST Israel? Expert Sounds the Alarm | David Daoud",
-          "date": "2026-11-11",
-          "link": "https://www.youtube.com/watch?v=r3tuzqE2-k8"
         }
       ]
     },
@@ -96,19 +83,6 @@
           "title": "The Dangerous Alliance Threatening Israel & the West | Jamie Glazov LIVE",
           "date": "2026-11-12",
           "link": "https://www.youtube.com/watch?v=SSoZkEQgHbQ"
-        }
-      ]
-    },
-    {
-      "name": "Latest Appearance Disturbing",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "The Jimmy Dore Show",
-          "title": "Mitch McConnell Far Gone — Latest Appearance Disturbing",
-          "date": "2026-11-10",
-          "link": "https://www.youtube.com/watch?v=iQo-39ckKtA"
         }
       ]
     },

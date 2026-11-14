@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-13 20:23 UTC",
+  "generated": "2026-11-14 18:42 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 415,
+  "cursor": 665,
   "count": 120,
   "mentions": [
     {
@@ -402,15 +402,6 @@
       "confidence": "high"
     },
     {
-      "entity": "Cliff May",
-      "stance": "",
-      "title": "Canada’s anti-Zionist crack up: Casey Babb on Foreign Podicy with Cliff May - The Macdonald-Laurier Institute",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdDZ5YU5SM3VBY0JYSGhtRGJUR1dKQWNzVUlBSWk2YWhRSDFSbHlkRVNEU24xT20zNkZKNDNSZDZja0Vaa3I2VVd2T28zLVkxOXVuRzJEa3VlcHhrTFExNWVkMGdFRnRrQmprb2R4T0NLb3kwUjlpSl80U0ZYM0xXcDZ4bVpZU2JMTnlKUkxja25OU2NOUW9zcmxMSDFEYlNkSWFidA?oc=5",
-      "date": "Wed, 28 Oct 2026 19:26:59 GMT",
-      "source": "The Macdonald-Laurier Institute",
-      "confidence": "high"
-    },
-    {
       "entity": "Check Point Software",
       "stance": "",
       "title": "Report | Israeli Elections, 2026 - Check Point Software",
@@ -480,6 +471,15 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFdPVE8tMHlZVVFzZkNIbVFDMzExMlJvaHFqQmEyZkFHa2hGNF9VeUJ1M1FwMElvMnZjOGs2TU1ac0hUNTFjb0oxZ2dwNWJqS2pnM1EwbG95aFptOV9JZVBDX1hjUGNrVlpRXzNBN3Q1OGEtcUF2OEYxeDdtb3R5eGFuMDM0aVdSRlJfbWhPS1lxb1QzUHltX0N4S0Q1di11LTVuMDFycllZbVRZeFZlM2sxQ3FjUnJTNVZ6M0FwWnk?oc=5",
       "date": "Wed, 28 Oct 2026 08:09:09 GMT",
       "source": "Jewish Insider",
+      "confidence": "high"
+    },
+    {
+      "entity": "Cliff May",
+      "stance": "",
+      "title": "Canada’s anti-Zionist crack up: Casey Babb on Foreign Podicy with Cliff May - The Macdonald-Laurier Institute",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdDZ5YU5SM3VBY0JYSGhtRGJUR1dKQWNzVUlBSWk2YWhRSDFSbHlkRVNEU24xT20zNkZKNDNSZDZja0Vaa3I2VVd2T28zLVkxOXVuRzJEa3VlcHhrTFExNWVkMGdFRnRrQmprb2R4T0NLb3kwUjlpSl80U0ZYM0xXcDZ4bVpZU2JMTnlKUkxja25OU2NOUW9zcmxMSDFEYlNkSWFidA?oc=5",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "The Macdonald-Laurier Institute",
       "confidence": "high"
     },
     {

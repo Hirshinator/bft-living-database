@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-11-13 20:19 UTC
+# Flywheel candidates — 2026-11-14 18:39 UTC
 
-10 new candidate(s) surfaced from monitored channels, not yet in the database.
+8 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Ahmad Sharawi — candidate ALLY (platformed by an ally channel)
@@ -8,9 +8,6 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### Bill Roggio LIVE — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Israel Hit Them Hard. Now Comes the Dangerous Part | Bill Roggio LIVE* (2026-11-13) — https://www.youtube.com/watch?v=kNG5Gr9E4bw
-
-### David Daoud — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *America Turning AGAINST Israel? Expert Sounds the Alarm | David Daoud* (2026-11-11) — https://www.youtube.com/watch?v=r3tuzqE2-k8
 
 ### Ihab Shlayan LIVE — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *25-Year IDF Veteran Reveals His URGENT Appeal to Mike Huckabee! | Ihab Shlayan LIVE* (2026-11-12) — https://www.youtube.com/watch?v=kFdE0Kgpy24
@@ -24,9 +21,6 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 
 ### Jamie Glazov LIVE — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *The Dangerous Alliance Threatening Israel & the West | Jamie Glazov LIVE* (2026-11-12) — https://www.youtube.com/watch?v=SSoZkEQgHbQ
-
-### Latest Appearance Disturbing — candidate HOSTILE / check orientation (boosted by a hostile channel)
-- [The Jimmy Dore Show] *Mitch McConnell Far Gone — Latest Appearance Disturbing* (2026-11-10) — https://www.youtube.com/watch?v=iQo-39ckKtA
 
 ### Miad Maleki — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *He Fled Iran. Then He Went After Tehran’s Oil Money | Miad Maleki* (2026-11-12) — https://www.youtube.com/watch?v=XPQyXdloRjM
