@@ -1,6 +1,6 @@
-# Flywheel candidates — 2026-11-14 18:39 UTC
+# Flywheel candidates — 2026-11-15 19:14 UTC
 
-8 new candidate(s) surfaced from monitored channels, not yet in the database.
+9 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
 
 ### Ahmad Sharawi — candidate ALLY (platformed by an ally channel)
@@ -19,11 +19,14 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Jamie Glazov — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *Who Fueled the Hate After Oct. 7? | Jamie Glazov* (2026-11-13) — https://www.youtube.com/shorts/NPt8GZpBKvg
 
-### Jamie Glazov LIVE — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *The Dangerous Alliance Threatening Israel & the West | Jamie Glazov LIVE* (2026-11-12) — https://www.youtube.com/watch?v=SSoZkEQgHbQ
-
 ### Miad Maleki — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *He Fled Iran. Then He Went After Tehran’s Oil Money | Miad Maleki* (2026-11-12) — https://www.youtube.com/watch?v=XPQyXdloRjM
+
+### Ori Hukima LIVE — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Hamas Stormed His Base on October 7. He Had to Command by Phone | Ori Hukima LIVE* (2026-11-15) — https://www.youtube.com/watch?v=uVFtJIUvARY
+
+### Rahul Sur — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *Former UN Official EXPOSES Disturbing UN Double Standards | Rahul Sur* (2026-11-15) — https://www.youtube.com/watch?v=zjBMZr2nRm8
 
 ### StandWithUs Podcast — candidate ALLY (platformed by an ally channel)
 - [StandWithUs] *James Maslow on Israel's diversity | StandWithUs Podcast* (2026-11-12) — https://www.youtube.com/shorts/Ee6obi-CWNE

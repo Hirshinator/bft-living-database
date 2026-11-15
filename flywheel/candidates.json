@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14 18:39 UTC",
-  "count": 8,
+  "generated": "2026-11-15 19:14 UTC",
+  "count": 9,
   "candidates": [
     {
       "name": "Ahmad Sharawi",
@@ -74,19 +74,6 @@
       ]
     },
     {
-      "name": "Jamie Glazov LIVE",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "The Dangerous Alliance Threatening Israel & the West | Jamie Glazov LIVE",
-          "date": "2026-11-12",
-          "link": "https://www.youtube.com/watch?v=SSoZkEQgHbQ"
-        }
-      ]
-    },
-    {
       "name": "Miad Maleki",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -96,6 +83,32 @@
           "title": "He Fled Iran. Then He Went After Tehran’s Oil Money | Miad Maleki",
           "date": "2026-11-12",
           "link": "https://www.youtube.com/watch?v=XPQyXdloRjM"
+        }
+      ]
+    },
+    {
+      "name": "Ori Hukima LIVE",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Hamas Stormed His Base on October 7. He Had to Command by Phone | Ori Hukima LIVE",
+          "date": "2026-11-15",
+          "link": "https://www.youtube.com/watch?v=uVFtJIUvARY"
+        }
+      ]
+    },
+    {
+      "name": "Rahul Sur",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Former UN Official EXPOSES Disturbing UN Double Standards | Rahul Sur",
+          "date": "2026-11-15",
+          "link": "https://www.youtube.com/watch?v=zjBMZr2nRm8"
         }
       ]
     },
