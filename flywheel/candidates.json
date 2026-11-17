@@ -1,30 +1,17 @@
 {
-  "generated": "2026-11-16 22:44 UTC",
-  "count": 6,
+  "generated": "2026-11-17 21:30 UTC",
+  "count": 5,
   "candidates": [
     {
-      "name": "Ahmad Sharawi",
+      "name": "Bill Roggio",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Arab Analyst Reveals What the Arab World Gets WRONG About Israel | Ahmad Sharawi",
-          "date": "2026-11-13",
-          "link": "https://www.youtube.com/watch?v=ZJo-PDZeo6o"
-        }
-      ]
-    },
-    {
-      "name": "Bill Roggio LIVE",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Israel Hit Them Hard. Now Comes the Dangerous Part | Bill Roggio LIVE",
-          "date": "2026-11-13",
-          "link": "https://www.youtube.com/watch?v=kNG5Gr9E4bw"
+          "title": "Israel's Enemies Are NOT Defeated! | Bill Roggio",
+          "date": "2026-11-17",
+          "link": "https://www.youtube.com/watch?v=bOY-BZ9jGFQ"
         }
       ]
     },
@@ -54,7 +41,7 @@
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Why the Radical Left and Islamists REALLY Join Forces | Jamie Glazov",
+          "title": "He Escaped Soviet Communism. Now He's Warning America | Jamie Glazov",
           "date": "2026-11-16",
           "link": "https://www.youtube.com/watch?v=S6QXlWm85d0"
         },
@@ -107,12 +94,6 @@
           "title": "James Maslow on October 7, antisemitism and social media | StandWithUs Podcast",
           "date": "2026-11-10",
           "link": "https://www.youtube.com/watch?v=mXpn_V7eoYY"
-        },
-        {
-          "channel": "StandWithUs",
-          "title": "James Maslow on Israel's diversity and what the world gets wrong | StandWithUs Podcast",
-          "date": "2026-11-10",
-          "link": "https://www.youtube.com/watch?v=4ejNnbhZTME"
         }
       ]
     }
