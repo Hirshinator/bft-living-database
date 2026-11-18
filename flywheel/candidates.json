@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17 21:30 UTC",
-  "count": 5,
+  "generated": "2026-11-18 21:06 UTC",
+  "count": 7,
   "candidates": [
     {
       "name": "Bill Roggio",
@@ -9,9 +9,22 @@
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Israel's Enemies Are NOT Defeated! | Bill Roggio",
+          "title": "Israel Hit Them Hard. But the Next War May Be CLOSER Than You Think | Bill Roggio",
           "date": "2026-11-17",
           "link": "https://www.youtube.com/watch?v=bOY-BZ9jGFQ"
+        }
+      ]
+    },
+    {
+      "name": "Chico Muya",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "The Free Palestine Movement Is NOT What You Think! | Chico Muya",
+          "date": "2026-11-18",
+          "link": "https://www.youtube.com/watch?v=iWxx3kKIiFE"
         }
       ]
     },
@@ -44,12 +57,19 @@
           "title": "He Escaped Soviet Communism. Now He's Warning America | Jamie Glazov",
           "date": "2026-11-16",
           "link": "https://www.youtube.com/watch?v=S6QXlWm85d0"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Jasem AlJuraid",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Who Fueled the Hate After Oct. 7? | Jamie Glazov",
-          "date": "2026-11-13",
-          "link": "https://www.youtube.com/shorts/NPt8GZpBKvg"
+          "title": "The Muslim Brotherhood Is Taking Over… | Jasem AlJuraid",
+          "date": "2026-11-18",
+          "link": "https://www.youtube.com/shorts/UPjK3iY17f8"
         }
       ]
     },
@@ -88,12 +108,6 @@
           "title": "James Maslow on his grandfather and the hate spreading in America | StandWithUs Podcast",
           "date": "2026-11-10",
           "link": "https://www.youtube.com/shorts/pi9RcEX_CMU"
-        },
-        {
-          "channel": "StandWithUs",
-          "title": "James Maslow on October 7, antisemitism and social media | StandWithUs Podcast",
-          "date": "2026-11-10",
-          "link": "https://www.youtube.com/watch?v=mXpn_V7eoYY"
         }
       ]
     }
