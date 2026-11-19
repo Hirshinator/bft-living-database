@@ -1,20 +1,7 @@
 {
-  "generated": "2026-11-18 21:06 UTC",
+  "generated": "2026-11-19 21:11 UTC",
   "count": 7,
   "candidates": [
-    {
-      "name": "Bill Roggio",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "Israel Hit Them Hard. But the Next War May Be CLOSER Than You Think | Bill Roggio",
-          "date": "2026-11-17",
-          "link": "https://www.youtube.com/watch?v=bOY-BZ9jGFQ"
-        }
-      ]
-    },
     {
       "name": "Chico Muya",
       "orientation": "ally",
@@ -48,19 +35,6 @@
       ]
     },
     {
-      "name": "Jamie Glazov",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Escaped Soviet Communism. Now He's Warning America | Jamie Glazov",
-          "date": "2026-11-16",
-          "link": "https://www.youtube.com/watch?v=S6QXlWm85d0"
-        }
-      ]
-    },
-    {
       "name": "Jasem AlJuraid",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -74,15 +48,41 @@
       ]
     },
     {
-      "name": "Ori Hukima LIVE",
+      "name": "Ramin Parsa",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Hamas Stormed His Base on October 7. He Had to Command by Phone | Ori Hukima LIVE",
-          "date": "2026-11-16",
-          "link": "https://www.youtube.com/watch?v=uVFtJIUvARY"
+          "title": "He Chanted “DEATH to Israel.” How Did He End Up in Jerusalem? | Ramin Parsa",
+          "date": "2026-11-19",
+          "link": "https://www.youtube.com/watch?v=6ZKn1-NTnU8"
+        }
+      ]
+    },
+    {
+      "name": "Seth Frantzman LIVE",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "The Middle East Is Being RESHAPED. Who’s Most at Risk? | Seth Frantzman LIVE",
+          "date": "2026-11-19",
+          "link": "https://www.youtube.com/watch?v=VB_ol0HxrVo"
+        }
+      ]
+    },
+    {
+      "name": "Shmuel Sackett LIVE",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Tried to Stop Israel’s Peace Deal. Was He Right? | Shmuel Sackett LIVE",
+          "date": "2026-11-19",
+          "link": "https://www.youtube.com/watch?v=15AM0yeVVhE"
         }
       ]
     },
@@ -96,18 +96,6 @@
           "title": "James Maslow on Israel's diversity | StandWithUs Podcast",
           "date": "2026-11-12",
           "link": "https://www.youtube.com/shorts/Ee6obi-CWNE"
-        },
-        {
-          "channel": "StandWithUs",
-          "title": "James Maslow on bringing Big Time Rush to Israel | StandWithUs Podcast",
-          "date": "2026-11-12",
-          "link": "https://www.youtube.com/shorts/O2rn6-Wg21w"
-        },
-        {
-          "channel": "StandWithUs",
-          "title": "James Maslow on his grandfather and the hate spreading in America | StandWithUs Podcast",
-          "date": "2026-11-10",
-          "link": "https://www.youtube.com/shorts/pi9RcEX_CMU"
         }
       ]
     }
