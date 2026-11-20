@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19 21:11 UTC",
-  "count": 7,
+  "generated": "2026-11-20 20:55 UTC",
+  "count": 8,
   "candidates": [
     {
       "name": "Chico Muya",
@@ -48,6 +48,19 @@
       ]
     },
     {
+      "name": "Major Ori Hukima",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "I Lost 8 Soldiers. How Do You Ask the Rest to Follow You? | Major Ori Hukima",
+          "date": "2026-11-20",
+          "link": "https://www.youtube.com/watch?v=0F5Zs-D9THw"
+        }
+      ]
+    },
+    {
       "name": "Ramin Parsa",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -68,7 +81,7 @@
         {
           "channel": "Stand Tall Israel",
           "title": "The Middle East Is Being RESHAPED. Who’s Most at Risk? | Seth Frantzman LIVE",
-          "date": "2026-11-19",
+          "date": "2026-11-20",
           "link": "https://www.youtube.com/watch?v=VB_ol0HxrVo"
         }
       ]
@@ -81,21 +94,21 @@
         {
           "channel": "Stand Tall Israel",
           "title": "He Tried to Stop Israel’s Peace Deal. Was He Right? | Shmuel Sackett LIVE",
-          "date": "2026-11-19",
+          "date": "2026-11-20",
           "link": "https://www.youtube.com/watch?v=15AM0yeVVhE"
         }
       ]
     },
     {
-      "name": "StandWithUs Podcast",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
+      "name": "With Ash Sarkar",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
       "sources": [
         {
-          "channel": "StandWithUs",
-          "title": "James Maslow on Israel's diversity | StandWithUs Podcast",
-          "date": "2026-11-12",
-          "link": "https://www.youtube.com/shorts/Ee6obi-CWNE"
+          "channel": "Novara Media",
+          "title": "Owen Jones: Our World Order Is Collapsing in Real Time | With Ash Sarkar",
+          "date": "2026-11-20",
+          "link": "https://www.youtube.com/watch?v=RYjICzwTLq0"
         }
       ]
     }
