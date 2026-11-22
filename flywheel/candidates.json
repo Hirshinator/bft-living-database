@@ -1,20 +1,7 @@
 {
-  "generated": "2026-11-21 19:56 UTC",
+  "generated": "2026-11-22 20:09 UTC",
   "count": 8,
   "candidates": [
-    {
-      "name": "Chico Muya",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "The Free Palestine Movement Is NOT What You Think! | Chico Muya",
-          "date": "2026-11-18",
-          "link": "https://www.youtube.com/watch?v=iWxx3kKIiFE"
-        }
-      ]
-    },
     {
       "name": "Israel Friends",
       "orientation": "ally",
@@ -35,15 +22,15 @@
       ]
     },
     {
-      "name": "Jasem AlJuraid",
+      "name": "Jasem Aljuraid",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "The Muslim Brotherhood Is Taking Over… | Jasem AlJuraid",
-          "date": "2026-11-18",
-          "link": "https://www.youtube.com/shorts/UPjK3iY17f8"
+          "title": "The Muslim Brotherhood Is “AHEAD of Schedule” | Jasem Aljuraid",
+          "date": "2026-11-22",
+          "link": "https://www.youtube.com/watch?v=X122d9OHbJ0"
         }
       ]
     },
@@ -61,19 +48,6 @@
       ]
     },
     {
-      "name": "Ramin Parsa",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Chanted “DEATH to Israel.” How Did He End Up in Jerusalem? | Ramin Parsa",
-          "date": "2026-11-19",
-          "link": "https://www.youtube.com/watch?v=6ZKn1-NTnU8"
-        }
-      ]
-    },
-    {
       "name": "Seth Frantzman LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -83,6 +57,19 @@
           "title": "The Middle East Is Being RESHAPED. Who’s Most at Risk? | Seth Frantzman LIVE",
           "date": "2026-11-20",
           "link": "https://www.youtube.com/watch?v=VB_ol0HxrVo"
+        }
+      ]
+    },
+    {
+      "name": "Shmuel Sackett",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "This Handshake Was Supposed to Bring Peace. Why Did He Fight It? | Shmuel Sackett",
+          "date": "2026-11-22",
+          "link": "https://www.youtube.com/watch?v=nbMHBizcejQ"
         }
       ]
     },
@@ -100,6 +87,19 @@
       ]
     },
     {
+      "name": "Tal Dooreck Aloni",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Traveled the World Hiding His Israeli Identity | Tal Dooreck Aloni",
+          "date": "2026-11-22",
+          "link": "https://www.youtube.com/watch?v=5ZEK88De9aA"
+        }
+      ]
+    },
+    {
       "name": "With Ash Sarkar",
       "orientation": "hostile",
       "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
@@ -107,7 +107,7 @@
         {
           "channel": "Novara Media",
           "title": "Owen Jones: Our World Order Is Collapsing in Real Time | With Ash Sarkar",
-          "date": "2026-11-20",
+          "date": "2026-11-22",
           "link": "https://www.youtube.com/watch?v=RYjICzwTLq0"
         }
       ]
