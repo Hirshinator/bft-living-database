@@ -1,4 +1,4 @@
-# Flywheel candidates — 2026-11-24 00:35 UTC
+# Flywheel candidates — 2026-11-24 22:54 UTC
 
 8 new candidate(s) surfaced from monitored channels, not yet in the database.
 Review, verify each on the record, then add. (Once added they drop off automatically.)
@@ -13,11 +13,11 @@ Review, verify each on the record, then add. (Once added they drop off automatic
 ### Jasem Aljuraid — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *The Muslim Brotherhood Is “AHEAD of Schedule” | Jasem Aljuraid* (2026-11-22) — https://www.youtube.com/watch?v=X122d9OHbJ0
 
-### Major Ori Hukima — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *I Lost 8 Soldiers. How Do You Ask the Rest to Follow You? | Major Ori Hukima* (2026-11-20) — https://www.youtube.com/watch?v=0F5Zs-D9THw
+### Sebastian Di Benedetto — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *He Spoke Out for Israel. Then They Leaked His Number. | Sebastian Di Benedetto* (2026-11-24) — https://www.youtube.com/watch?v=Ur4ilDRjmtU
 
-### Seth Frantzman LIVE — candidate ALLY (platformed by an ally channel)
-- [Stand Tall Israel] *The Middle East Is Being RESHAPED. Who’s Most at Risk? | Seth Frantzman LIVE* (2026-11-20) — https://www.youtube.com/watch?v=VB_ol0HxrVo
+### Seth Frantzman — candidate ALLY (platformed by an ally channel)
+- [Stand Tall Israel] *He Covered the Fall of ISIS. Can Hamas Be Defeated Too? | Seth Frantzman* (2026-11-24) — https://www.youtube.com/watch?v=OmNwzGtP0do
 
 ### Shmuel Sackett — candidate ALLY (platformed by an ally channel)
 - [Stand Tall Israel] *This Handshake Was Supposed to Bring Peace. Why Did He Fight It? | Shmuel Sackett* (2026-11-22) — https://www.youtube.com/watch?v=nbMHBizcejQ
