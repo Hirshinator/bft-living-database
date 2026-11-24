@@ -1,7 +1,20 @@
 {
-  "generated": "2026-11-22 20:09 UTC",
+  "generated": "2026-11-24 00:35 UTC",
   "count": 8,
   "candidates": [
+    {
+      "name": "Alan Dershowitz",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "Abbas Asked Me to Call Bibi. I Had ONE Question  | Alan Dershowitz",
+          "date": "2026-11-23",
+          "link": "https://www.youtube.com/watch?v=tbfrqz1s-fI"
+        }
+      ]
+    },
     {
       "name": "Israel Friends",
       "orientation": "ally",
@@ -74,28 +87,15 @@
       ]
     },
     {
-      "name": "Shmuel Sackett LIVE",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
+      "name": "This Is EXPLOSIVE",
+      "orientation": "hostile",
+      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
       "sources": [
         {
-          "channel": "Stand Tall Israel",
-          "title": "He Tried to Stop Israel’s Peace Deal. Was He Right? | Shmuel Sackett LIVE",
-          "date": "2026-11-20",
-          "link": "https://www.youtube.com/watch?v=15AM0yeVVhE"
-        }
-      ]
-    },
-    {
-      "name": "Tal Dooreck Aloni",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Traveled the World Hiding His Israeli Identity | Tal Dooreck Aloni",
-          "date": "2026-11-22",
-          "link": "https://www.youtube.com/watch?v=5ZEK88De9aA"
+          "channel": "Owen Jones",
+          "title": "BBC Star Exposes Its Gaza Coverage – This Is EXPLOSIVE",
+          "date": "2026-11-23",
+          "link": "https://www.youtube.com/watch?v=lWKQQZSa8vo"
         }
       ]
     },
