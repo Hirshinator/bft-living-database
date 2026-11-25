@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24 22:54 UTC",
-  "count": 8,
+  "generated": "2026-11-25 22:08 UTC",
+  "count": 6,
   "candidates": [
     {
       "name": "Alan Dershowitz",
@@ -35,19 +35,6 @@
       ]
     },
     {
-      "name": "Jasem Aljuraid",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "The Muslim Brotherhood Is “AHEAD of Schedule” | Jasem Aljuraid",
-          "date": "2026-11-22",
-          "link": "https://www.youtube.com/watch?v=X122d9OHbJ0"
-        }
-      ]
-    },
-    {
       "name": "Sebastian Di Benedetto",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -70,19 +57,6 @@
           "title": "He Covered the Fall of ISIS. Can Hamas Be Defeated Too? | Seth Frantzman",
           "date": "2026-11-24",
           "link": "https://www.youtube.com/watch?v=OmNwzGtP0do"
-        }
-      ]
-    },
-    {
-      "name": "Shmuel Sackett",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "This Handshake Was Supposed to Bring Peace. Why Did He Fight It? | Shmuel Sackett",
-          "date": "2026-11-22",
-          "link": "https://www.youtube.com/watch?v=nbMHBizcejQ"
         }
       ]
     },

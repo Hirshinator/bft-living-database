@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-24 22:59 UTC",
+  "generated": "2026-11-25 22:12 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 665,
+  "cursor": 915,
   "count": 120,
   "mentions": [
     {
@@ -717,6 +717,51 @@
       "confidence": "high"
     },
     {
+      "entity": "Josh Shapiro",
+      "stance": "",
+      "title": "Josh Shapiro, set to run in 2028, slams ‘failed’ Netanyahu, says Biden didn’t check Israel enough - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFYtR2ZXbDB6VGRoem4wc0VhbC1Cb1BGaGY0LXBGT3p4TGx2RU14TmlnN012YzJteDRsdE9FQ0cydndoTWtsLTVlZ1dVYjNzYkpkWFRsLThrazVzd2FtczJSY01SR0Y4Vi03N015ZnFMbFNiVk9oNnp2bjB6SGxUVm5LYTFMZE0yZ1hmakJSREZtU2J0b21ic3JheFJxemQ1T082VE1tX2trMGpTdFBjcEY2VUd2djNTTF9KVFZua9IBxAFBVV95cUxQM3lkOGppbEtoam9Ccnd0UmUtbkM2NXZKdExzRzgyN3F1QTdZTEJqa081QWU1X3BVbXFrVVN1M1VFRVNjc0JLSFplU05Pb3lTWGY1Tmdoa3N0T01OS1VWUm10LVdCTERVY2liaFdyZDJuZHB3VWIyN1FHRXU3ZGEyd0UwWmRzU2ptNHpuN0hwRy1Ia1lTcl81TjdZZDVxNk5mVjJNQXpDdkFyNFlrbnFyX1lxNURzLXBxRnZTZU5wRFVQVWxx?oc=5",
+      "date": "Wed, 25 Nov 2026 18:52:03 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "Josh Shapiro",
+      "stance": "",
+      "title": "Shapiro says Biden should’ve done more to rein in Netanyahu - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU1NGRzlxZkxGNF9oV3pqX3FQQmZ0ak5UYzhHR0Z1NVpDSW1FaW80RUdaZm1venRtX1AyaFh4YTdFQmR0bVNuaFo2djdJcHJfWUhOZjJkdV83WEFOajNoZlY0OElYTzc1MEh1TmVwZEI1aG11d3c5aTNCU0RnVFZmY0Jia1JRRXBz0gGOAUFVX3lxTE1pdWVjc19tYzFINk1WYzdJbDJ1TmVKS1c4cTNuQ0xFUlFDTVM0RXFfTUhWMmpHRFhpcmk4SGFnY3ljZHhpV3RrUHEweU94TUM3V2UyUFR0d2ZlYXh4WFZKYmE0NmtQdk0ydHFLamxLMUl0SmNXajhocjFJVVZkUFVqZmFNUS1WU3BpYUVuQ1E?oc=5",
+      "date": "Wed, 25 Nov 2026 15:41:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Jon Ossoff",
+      "stance": "",
+      "title": "The rise of Ossoff and Rubio means Jewish voters may get the 2028 presidential candidates they want - The Forward",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94MzJvTW9MZGdiNE5UMzdFWU42VXFtaWg0eXpJRGJUZzNmWkk1aU5uSGZ3M2trRDd6TDZUWDh4Vmkzdm9XNXlUQUlkQWFlQzczNEZyb24xeHQtQjJLWUNES1dmelpHanNRZVloQUNXQndQZkc4aGw4b2M0eTJHbGM?oc=5",
+      "date": "Wed, 25 Nov 2026 10:51:59 GMT",
+      "source": "The Forward",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mario Nawfal",
+      "stance": "yellowflag",
+      "title": "Dollar approaches 3 million rials in Iran amid rationing, Mario Nawfal notes - Traders Union",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPazNVSUxPbUpvX25VdktNYnBSNmM2Y2lwZTdqcVFQampWdmtfLXFpUlZySlJxa284NUpuaGZJbXYwWDRLNUVia2RfaW5CM2hObUNhR2NVZXB4X2dVMWhRQng4X3ZPOFZDYU1teDJNeWJtZW9lOFZsZVpzU1B4R2MtNjJTQzNzX1Zqb0x3TUpjVW8?oc=5",
+      "date": "Wed, 25 Nov 2026 02:40:28 GMT",
+      "source": "Traders Union",
+      "confidence": "high"
+    },
+    {
+      "entity": "Josh Shapiro",
+      "stance": "",
+      "title": "Shapiro Accuses Biden of Not Doing Enough to Rein In Netanyahu - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ3BaYmxXQ2RhWkNQaXNSUDU3ak1zYlJ4bzNWNk85Szlsc0J5VW1PcVRDN0k5aERSVG5PYjJGQjRnZm4zbTBvX2cwU2k4YXhlN1B0RlRZczcwR25WUnd5VjV3Y2xBR2lnOEVMSDEwQnRVbTg2a3djeHEyQmlQdHBSSEJ4Si14UmRpSkRyZ2x2WjNMSGNydzdseFB2UjVjdkNqOVoyaGV5RkgtaTA?oc=5",
+      "date": "Wed, 25 Nov 2026 02:00:00 GMT",
+      "source": "WSJ",
+      "confidence": "high"
+    },
+    {
       "entity": "Mike Johnson",
       "stance": "",
       "title": "Mike Johnson on Elections, Fuel Prices & Iran Policy - KTALnews.com",
@@ -1038,51 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcjFPbFZtY2NjQlVwQS1QSTgxTk1CcWVVM2RqWTVjdzBJdENsWHBzcjZ3OGN2S2hycUUtaFdjV09QUFJQdC1kNUNpQW5fblFfS2xycERWZG8xYW1VSG92Ukh0TkoyZl81T2IzdXpaTDVYUklkZzdjTGFoc003MWlWQjBocXpJck5EU0hEZWRqeGtFdXFPekFPRUlGbw?oc=5",
       "date": "Wed, 23 Sep 2026 01:37:00 GMT",
       "source": "WOSU Public Media",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bernie Moreno",
-      "stance": "",
-      "title": "Ohio Sen. Bernie Moreno on Iran conflict: ‘We all want this to end’ - The Statehouse News Bureau",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZVpuNkd6RWstN2FFMkJOVDhWWWd2Z0RydTc2UXJTcWtxMndxaTRQZTlIQ01nVjAzMnFUcXBRblVVNDc4aDA1dmN3b2ltZ1FjM1pGdktoZl9lZVE5SFVMSnM5SklVU2o2bzJuTGZhZWZPSGZHbkNvN2p3dE1vczB4S05rSnNXSlBDLVJoRENsRGNZektnLURzaDlEZ3pHYzJiUjJiSGxyM2d6dWRhN3hDQXYyTGRFUThZVmZORw?oc=5",
-      "date": "Wed, 23 Sep 2026 01:37:00 GMT",
-      "source": "The Statehouse News Bureau",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jacky Rosen",
-      "stance": "",
-      "title": "Jacky Rosen visits Poland to discuss antisemitism, Holocaust issues - jewishinsider.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelVxM0FnUzBYNWt1bjRUeFhrS084RGR6bmtKQ0ZQUjhQV1NGcng4Uzl1b2VFclZ2bnJ6MFRRakNUNWJKMnFxS3pYVVVTTUUzM0F4Y0UzZDVkT2xqcEFtUEx3V1RwbnVpWUJmLU1zdlRVTzVIRERpVHJ4SFRqM0VXSGlXZEJSbUNYN0E?oc=5",
-      "date": "Wed, 23 Sep 2026 01:04:14 GMT",
-      "source": "jewishinsider.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "NewsNation",
-      "stance": "",
-      "title": "Netanyahu hints war in Iran isn’t over, tells Trump ‘We have a job to finish’ - NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGJtclFYLUZFeFBNNURfWGtlVkVkbWdlNnNWZGQ5Rk9QRUhObmU3eTNmdnAxdHNieUprWENVYXlRZUk3SUo2S21sYXFjQ0poYmlyU0dlbFFXVHRqb3NaMW4ydzhnRWd2ZEl3WENjd29WYVc5bWwxWU5vM2dCYUZZcTZQVWbSAYoBQVVfeXFMUEdLaTVoSTlGQnhtQ1dwX0Y0Vm9LX2VVY29IaHk3U25wWmE5RWdnUlJGREQ0MUFrNEl6M1dINnE2TmNNOWplRzRMT2ZKNmtrcWV2cWxmVWlEeWhUUHZZeGlfZm9uT2pzZ2V4TW5jZnJQX05nNXhjUzFlTGlGRzNvRUh2dmk0UG5BWnZB?oc=5",
-      "date": "Wed, 21 Oct 2026 23:46:32 GMT",
-      "source": "NewsNation",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jon Ossoff",
-      "stance": "",
-      "title": "‘Is Iran Paying You?’: Jon Ossoff, El-Sayed Under Fire Over ‘Israel Hate’; Mike Collins Explodes - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTHhDUk9ncHN6aHdRcTR1OVZRRGo3RGJmOHZQRml4YUdJLWplVElxTHowYnVDZWtDN1dMVDZiQW5KM3ZvME55eEdZRlp5WmpqNTMzQVhRZ0hZUjI3RzBpSDhOWlp4ZEVxcGNvWlpoT0pzMDZoN05ic0VPUFItRkowcXFXb2lFN0ZwXzI0aWxic1VNZXBYYzY4YnBGQkgzeUh1VVFTRXE4SFo3RnliT1A4SnczSUN1RVh5aWVtaURZQTY5VUNmRlFMa1J6Wm53Y0RfZW9LdFRZZzkwcGlmSTFXR0lmbHNnQ2pFRFlOVzR5Nk1xLXRfdW1kQnhuYnh4dw?oc=5",
-      "date": "Wed, 21 Oct 2026 17:29:11 GMT",
-      "source": "The Times of India",
-      "confidence": "high"
-    },
-    {
-      "entity": "Jonah Platt",
-      "stance": "",
-      "title": "Jonah Platt - The Pittsburgh Jewish Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JQ05LVlV6MTFSbWszaUZLTW1MVTIyeHY1cmZaWHBTQjVVZV9oY2dlT1czWE41MFdlVW1oSVFUVjJnN3FveG85dDU2TTFKcERRWmt4U1VtbzI3bjB6T2RERXJLWEtDekFBOVBKSmVHSQ?oc=5",
-      "date": "Wed, 21 Oct 2026 17:20:37 GMT",
-      "source": "The Pittsburgh Jewish Chronicle",
       "confidence": "high"
     }
   ]
