@@ -1,17 +1,30 @@
 {
-  "generated": "2026-11-25 22:08 UTC",
-  "count": 6,
+  "generated": "2026-11-26 22:07 UTC",
+  "count": 7,
   "candidates": [
     {
-      "name": "Alan Dershowitz",
+      "name": "Dan Schueftan",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
       "sources": [
         {
           "channel": "Stand Tall Israel",
-          "title": "Abbas Asked Me to Call Bibi. I Had ONE Question  | Alan Dershowitz",
-          "date": "2026-11-23",
-          "link": "https://www.youtube.com/watch?v=tbfrqz1s-fI"
+          "title": "Israeli Professor Makes a TERRIFYING Prediction About Jews in America! | Dan Schueftan",
+          "date": "2026-11-26",
+          "link": "https://www.youtube.com/watch?v=QKUHuH8We5U"
+        }
+      ]
+    },
+    {
+      "name": "Gunn Gook LIVE",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Stood ALONE in South Korea to Defend Israel | Gunn Gook LIVE",
+          "date": "2026-11-26",
+          "link": "https://www.youtube.com/watch?v=c5N6DHyi7Ug"
         }
       ]
     },
@@ -31,6 +44,19 @@
           "title": "From the streets of Israel | Israel Friends",
           "date": "2026-10-06",
           "link": "https://www.youtube.com/watch?v=kM4MvLCKoKE"
+        }
+      ]
+    },
+    {
+      "name": "Jasem AlJuraid",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "We Fled the Muslim Brotherhood. They Followed Us! | Jasem AlJuraid",
+          "date": "2026-11-26",
+          "link": "https://www.youtube.com/shorts/Rg3NRUp_cj4"
         }
       ]
     },
@@ -70,19 +96,6 @@
           "title": "BBC Star Exposes Its Gaza Coverage – This Is EXPLOSIVE",
           "date": "2026-11-23",
           "link": "https://www.youtube.com/watch?v=lWKQQZSa8vo"
-        }
-      ]
-    },
-    {
-      "name": "With Ash Sarkar",
-      "orientation": "hostile",
-      "signal": "candidate HOSTILE / check orientation (boosted by a hostile channel)",
-      "sources": [
-        {
-          "channel": "Novara Media",
-          "title": "Owen Jones: Our World Order Is Collapsing in Real Time | With Ash Sarkar",
-          "date": "2026-11-22",
-          "link": "https://www.youtube.com/watch?v=RYjICzwTLq0"
         }
       ]
     }

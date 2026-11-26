@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-25 22:12 UTC",
+  "generated": "2026-11-26 22:11 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 915,
+  "cursor": 1165,
   "count": 120,
   "mentions": [
     {
@@ -726,6 +726,42 @@
       "confidence": "high"
     },
     {
+      "entity": "Mike Evans",
+      "stance": "",
+      "title": "Mike Evans set to become first evangelical Christian to receive Israel’s Presidential Medal of Honor - Ynetnews",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yaGw1bF9pd3MzTXhNTHRESUVkTmE1RzNWczBLYzBONXNocm5NVW1EaXRMazBEcVlqZFgzaEJsY1c1NkpwUjRrU0Z5UlVtclpneG8wX1JB?oc=5",
+      "date": "Wed, 25 Nov 2026 17:09:34 GMT",
+      "source": "Ynetnews",
+      "confidence": "high"
+    },
+    {
+      "entity": "Replit",
+      "stance": "hostile",
+      "title": "Palestinian-Jordanian-American CEO of Replit Amjad Masad Welcomes Jensen Huang’s Return to NVIDIA - lovin.co",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLU1WdTZYV2JqZDkyTTVURHJBOW56cEJWa0JFeEp0VGhzQlEwdHRUR3lvVUZENHA3Z0tqNE9OSHQ5ZkI1dFFaSlBWUEg4aklsQTBWckd3UXpQRHNPRVJqMVp3NFlMU09CM0Y5SURtMk9vV1JaS2FmN0JqZnczVkJ6MU5peHY4N2lzcXFnSms3ZVJNeVV6N0xzYkNRRFBlWm5SbWFPZVg0UUstblI2MnI3RmVsUHlQNlRnMlFXVlItbVVLd01sU3Br?oc=5",
+      "date": "Wed, 25 Nov 2026 16:41:23 GMT",
+      "source": "lovin.co",
+      "confidence": "high"
+    },
+    {
+      "entity": "Pramila Jayapal",
+      "stance": "",
+      "title": "'We need to stop the war in Iran': US Congresswoman Pramila Jayapal - Tête à tête - France 24",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOakM5REJuN2M0NTl1eEw4alFiU1pFWk15NHZGdE95N1ZDOWppQWd6TlI4QnBRbEQwVzYwd25SLTZEalNVbTRHYlVoVm5aWE42aEc0ZVoycHcxRlFMbDRyRHZnTlpDa0RCVldaYWtnMlc2dnFZOVhXd2R1cnJoczdaelNZdjZtcnJpTW53RWxTZDFiODdUbk5aRjZ6b0dNX2FyUVg0UXhVbkZZdWNfY2hpenRwQ2pMYkNsZnNORGpjWGlndGI5RklWM1luNE9MTkVzbDdr?oc=5",
+      "date": "Wed, 25 Nov 2026 15:46:59 GMT",
+      "source": "France 24",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Huckabee",
+      "stance": "",
+      "title": "U.S. military aid to Israel will not stop by end of year, envoy Huckabee says - Haaretz",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOV2JYQU5UcFBPWW1udlVjd3BrZmhfQ1JxWHJGLXVmWVMwY0ZOUDdiM0pBYTRqUktlelVqT0JSRmNGczZ3bm1TdFpZcWZSS3Bxa2JhODk2NkRIRmZEUnc5TWNEUUVHVk9qU0lPX3dyZlhPbUFZMkY4VWkweHdNZ2duLUpWWXFZSjBsZV9HVjdPbEZwZjJ3aDVXRlNKQXhaUW5zVy1YX3EyZjdXd2JPcW9ySXJzcS02ODJhbXJvalRVcWZvX2Y3TXUwcEx5RkVfdVBvQXBNZmVfcVRMTEJxaElSMmtqRUQxb0dvcUczU3hKVmEzd0lBY2Fwcl9OM09CQkJielFOUUk0SUdaUG8?oc=5",
+      "date": "Wed, 25 Nov 2026 15:43:00 GMT",
+      "source": "Haaretz",
+      "confidence": "high"
+    },
+    {
       "entity": "Josh Shapiro",
       "stance": "",
       "title": "Shapiro says Biden should’ve done more to rein in Netanyahu - The Hill",
@@ -735,12 +771,75 @@
       "confidence": "high"
     },
     {
+      "entity": "Robby Soave",
+      "stance": "",
+      "title": "What?! Cenk Uygur blames Israel for Jensen Huang debacle: Robby Soave | RISING - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbnAtZ3hnaV9qZjk4ZDFmV2pKN2c2dW1hTGt3UzRRUlNCNmtYaGRTcG5DOGVOTmFDM1B6T3pZUDFHazAyNzdiNkNPd0EtU1JvOXhBdm1TU2w0RjVQWm5WdGlLd0w2MVVUbEVuMVBMV1pqckdtRFNNTEYyUkkxOFA4VmJabzM2eVNjOVVZcWJRcGkxYnhYbnB5Z0gyY2lKNEtOUWFFbXNzZEpvdm5vY1E?oc=5",
+      "date": "Wed, 25 Nov 2026 14:39:00 GMT",
+      "source": "The Hill",
+      "confidence": "high"
+    },
+    {
+      "entity": "Sean Hannity",
+      "stance": "",
+      "title": "‘TOTAL WIN’: Trump Warns Democrats Not to Ruin Iran Victory as War Funding Runs Through January - Sean Hannity",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVkxkd3ExWWpOYmpFeElRbVViYjl3bGF5WjZfenoxNUNXRUNjLV83UUo1M0ZoVndHcl9JTlMzX2wzaXB2eHYxN2xDZmRGRUFJbERPR014Ylc4alcteVFzY2d5SGs5WHRxQ1U0bXd1aGNES3U3OUV4Yk9ZSXMyWk41dHNVbmF0a0hyNmtBdU5waEkwVEpJblA4aFBQckgtak9oRXE3WDlPMzNDOGdzOE5WeVU3RG84M3JtemFrWEticnY4UQ?oc=5",
+      "date": "Wed, 25 Nov 2026 14:20:31 GMT",
+      "source": "Sean Hannity",
+      "confidence": "high"
+    },
+    {
+      "entity": "Steny Hoyer",
+      "stance": "",
+      "title": "Herzog to honor veteran Democratic lawmaker Steny Hoyer, Jewish communal leaders with Presidential Medal - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQb0x4WHkwRDlwc0w4M1BFc3dZcXJwT3g1amhKb25zR3JzT1pTaDJVcjFpVjBFS25IUW5zM25XZ3pBVnh6eVAzVzBwcFNXYTdLQm5VbDJQV1RKYmptdUkxMUlJNU9HSjFqT2RIdEVSbjlOUm5SN0lqX2h6VUVROGw3MW5kU2tUMVo2UlEyQkhPbGxYSjcwNmtNejhGdFg3UlVmTU1GcjA1VUJ4TjdKamxiN2N1cmRSZ0xSSElmUzZXZFVwdko4Y3Y3UEp1ZHdxSW95UDZaVnBGZVVtbVlVb2lzRXVSZw?oc=5",
+      "date": "Wed, 25 Nov 2026 13:20:41 GMT",
+      "source": "The Times of Israel",
+      "confidence": "high"
+    },
+    {
+      "entity": "National Review",
+      "stance": "",
+      "title": "Chris Van Hollen’s Anti-Israel Turn - National Review",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMYWxhOG00dzRwY0xCMkxITGdrcjFoYW04dTE1ZXRtb09tdTU3N2hfdExPN1FNbHNvVm9XWUtBYS1fZEJnYWU4OWZLd050ZGZ3OGE3RnFDdl96YlhoRjJQRDhrd2loUGtGYzFBcnZLMVBrWlBIbGcxYmsybVVkMlk?oc=5",
+      "date": "Wed, 25 Nov 2026 11:00:00 GMT",
+      "source": "National Review",
+      "confidence": "high"
+    },
+    {
+      "entity": "National Review",
+      "stance": "",
+      "title": "On College Campuses, Nothing Is Free from Antisemitism - National Review",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSi1JWngwMGxlR3JMa1NfMTZuTHpFRmh5SExKbWk2Qnp3RzZoRW9rZTU5WWhUckJMTTJlZXl4UVVBWDdzSkNITWFFNkYwTUQ2eGtNSnlZek5kWjFkOWUyM0tfX0VmZVhGN2JqQWVpcWhISC1PVHJzRGVPQk03QkdfY0hfTTVtQ1dHenFGN3h5cUhQbHhnU2Fz?oc=5",
+      "date": "Wed, 25 Nov 2026 11:00:00 GMT",
+      "source": "National Review",
+      "confidence": "high"
+    },
+    {
       "entity": "Jon Ossoff",
       "stance": "",
       "title": "The rise of Ossoff and Rubio means Jewish voters may get the 2028 presidential candidates they want - The Forward",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94MzJvTW9MZGdiNE5UMzdFWU42VXFtaWg0eXpJRGJUZzNmWkk1aU5uSGZ3M2trRDd6TDZUWDh4Vmkzdm9XNXlUQUlkQWFlQzczNEZyb24xeHQtQjJLWUNES1dmelpHanNRZVloQUNXQndQZkc4aGw4b2M0eTJHbGM?oc=5",
       "date": "Wed, 25 Nov 2026 10:51:59 GMT",
       "source": "The Forward",
+      "confidence": "high"
+    },
+    {
+      "entity": "Mike Huckabee",
+      "stance": "",
+      "title": "Huckabee Casts Doubt on Trump’s Pledge to End Military Aid to Israel This Year - Politics Today",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSVJoeHJEQmg3SkhkNXg0eVJDRlE2STYxSzBoUDJ0cGhlNlVQMzdXazlJYllNNHRJWE1ROWZ4dnUzYWFIVkFFLUhNQzBqcXNIZDZ0M29qaGxmcVZZb0VGZlo3QTFUNjRWN2Q1V2RfLWhQS08wWFZOUkVISXpmdTBPVGlHRm9MNlB4YlB0RmFwbmp5ZjlINmpkTW9jcVA0dnRieUhER0hLYw?oc=5",
+      "date": "Wed, 25 Nov 2026 03:26:24 GMT",
+      "source": "Politics Today",
+      "confidence": "high"
+    },
+    {
+      "entity": "National Review",
+      "stance": "",
+      "title": "Watch: Noah Rothman and Scott Horton Debate the Necessity of the Iran War - National Review",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemk3bWd3TjdlbDFXbFN5SUVLMTRmTTZ1U3Q1bGQ5Smt3TFFzenFjLUlCeHZzV1ltX25jV0dLS1VoUDlqV0x5T1dtYnZLc2l6VEk1VkFYSTVWanNldm91ZVhfNE52SmlONEhyRU1IVG1DZXVNZHFLNTk5ZXhTUXAybzhqNGoxVkppUTlqUG1XY2VQWG9ZZDhrU3N5OEY4WWZFNU9JMHpUT05nTVNXLW00?oc=5",
+      "date": "Wed, 25 Nov 2026 03:16:27 GMT",
+      "source": "National Review",
       "confidence": "high"
     },
     {
@@ -759,6 +858,24 @@
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ3BaYmxXQ2RhWkNQaXNSUDU3ak1zYlJ4bzNWNk85Szlsc0J5VW1PcVRDN0k5aERSVG5PYjJGQjRnZm4zbTBvX2cwU2k4YXhlN1B0RlRZczcwR25WUnd5VjV3Y2xBR2lnOEVMSDEwQnRVbTg2a3djeHEyQmlQdHBSSEJ4Si14UmRpSkRyZ2x2WjNMSGNydzdseFB2UjVjdkNqOVoyaGV5RkgtaTA?oc=5",
       "date": "Wed, 25 Nov 2026 02:00:00 GMT",
       "source": "WSJ",
+      "confidence": "high"
+    },
+    {
+      "entity": "Myron Gaines",
+      "stance": "",
+      "title": "Watch: Pro-Israel advocate confronts Holocaust denier Myron Gaines at UCLA - Israel National News",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jQVVQdWNqbGVZLUN2QnZPcEFoR3FDOVUtbjJIM1paTy1sd2Qtc3NuOF9Za0xZaDBneVhKcDlCMzZmX3lvWEd4Ukg4aENDY3JTQ2NmeDM0RVcyUQ?oc=5",
+      "date": "Wed, 25 Nov 2026 01:11:23 GMT",
+      "source": "Israel National News",
+      "confidence": "high"
+    },
+    {
+      "entity": "NewsNation",
+      "stance": "",
+      "title": "NY jury convicts China’s Huawei in case involving Iran, stolen secrets - NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSTEyQmhQWjJzWkNqemExX3BiWTN3Z1VSTjM4VWlCbGRJYUNtRHdjZWlOT0l4bER6bnJwVE1YYURsUjMzT1MtZEdaMzlNZjZtbVljLWlkbkg5cElNbG9KSTk4Q0k0djNhYVNNd3M0UjdFYnh1dVlNMG9zcFJRU1RLd9IBhgFBVV95cUxQNmU1SVZrcHJ4SWtoTWFmNzk2cGtvTGVBT3hULVJtd1RaT3RqQ0kzejNpMGJFUHJaWkU0UkEyVlktQUxlclBGVEhmUDFsakpEY3I1WHJfNkhVWGhHenVaOHlXelBjYzZNd0FxTEFwekoxOFJZeV9VeG9oSzJKZkZ1REh0djJ3QQ?oc=5",
+      "date": "Wed, 25 Nov 2026 00:10:24 GMT",
+      "source": "NewsNation",
       "confidence": "high"
     },
     {
@@ -966,123 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcGZuMkdhaEhpc004b05pdmVwRHFLYjU1QW9YVzYyNWpyQm1ST2wtUUwwUnE5bGFHQldQN3o1a0ZFeGNiOEYtLTNzb0I1LUo0WlFmLTd6UVBqV1VUZWZ4d3prTzBMMVY2YXBWOF9nemFSMVdvRmV5aWVJb0ZfR0Q5SlZhZVhQY0x5aXJSLXJUU0xia0VSb1ZkX1F5b2RJVjg?oc=5",
       "date": "Wed, 23 Sep 2026 07:00:00 GMT",
       "source": "Yahoo",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bruce Pearl",
-      "stance": "",
-      "title": "Ex-Auburn coach Bruce Pearl hails Robert Kraft as a hero for banning Macklemore over antisemitic rants - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2NaZ2xvWlBISU1BTDh5MlJzZlJDaTNfNG1FbEJGWjZfMU1fT3hYVm1fSVoxVkVuMGRDSXYzZWdvV3hpRlBLbGJzY0dVU2hPdTFMSXhxMEIwSTBOZkQ2ZzVQSVZrWEkxR0FPVlNxVFNGeVd0UG5HNG1NdTlLU2hqZTdHbUVsT0JPdFBvQXNZdVZSRDVTdGFkamdQc2V5UUdJdVZwOVdseGlTZEZ3RGFSVm9YWUJGeGZYMzVfUEMyc1B6Z1NCcEE?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Fox News",
-      "confidence": "high"
-    },
-    {
-      "entity": "Elizabeth Pipko",
-      "stance": "",
-      "title": "Elizabeth Pipko reacts to President Trump's UN warnings to Iran - Fox Business",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iQWd5Qk5sTlZyQWZwZHNacG1GUkJ4cEZGd19EX1Nyb1ZhRFZfc3dxTnpxNjBucDZOZWlmNnRpN1lHRHJfV2F3dnJaQkxsc2t1WVZQLWVmOFd1MWM?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Fox Business",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gal Gadot",
-      "stance": "",
-      "title": "Gal Gadot Donates 'Israeli Nobel' Prize Money to 26 Charities Aiding Israelis - Haaretz",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY0FSbzRPZWVWSGV6TTI1eW5UM21pTm9PX3hGWWU5M0ZYMHNBTUJWX2pNUU5hMkxReVJpN0M3alZ2N19manpIa2FqaGlBRk1kVENRX1RheTNZS1Y1dkhTcUI1ZUl4Vnh4cXJ3cHVRck1iZ2p1Y0FZRzhTekNkSnZNaV9CV3NscWdxTVZOU0U3aEU2M0FsbWE3RE05aHMzSjIxRTIxdmVBM0VodDN3dE1keWZ2S2ptZlpHQVh3dS1EcGtJdTRXdkEtSzM4ZkhqSERMeTM0RlZLdHVLc25JMnNGT1N6RUxuZWlndDhiU0Itd0xRR1dkWWhpYkFoWnhIa2xjSGd3dHFIRU5nblE?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Haaretz",
-      "confidence": "high"
-    },
-    {
-      "entity": "Gal Gadot",
-      "stance": "",
-      "title": "Gal Gadot to distribute $3 million to Israeli mental health orgs as part of Genesis Prize honors - The Times of Israel",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOGNZTUstWmMzaEFfREFWNlZZd0VwZ2Q1d180Q0YwQzF0eXlsMURQSmlLVUtwX3A3SEcyRWJIVGNwSzRkcldOa1dlczFENEc0OHRxV1RGN01rRTJnc3E2clhkcV8tajN2eE15cTEybHpQSzFwaHBlRVJiekVwQm04LWtyN2VvRTlIek8zaHNkWXZWZE1pRnhUNTZqbTlBMm5vMkhYaTE5NWpscmotM1lnVTF1ZXpCVjBTVUJSeEp0WHBxV0xkVjdLeHo2dFRPQm5GdkYxSUdJNGE?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "The Times of Israel",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tommy Tuberville",
-      "stance": "",
-      "title": "Fuel costs, Iran and shrimp boats: Doug Jones and Tommy Tuberville sharpen campaign contrast - AL.com",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZHp2LWI2Yk1EUHJMM2pJWXJjU3pyYmlRSkF6VFh4b2ZocnV0X2hUQmVkTXFBVzFVaUpBOXlLaDFGZl9MMnZ4QjdZUmJuX0ZiQTMyMUVrOFI2VWlyQjFONllqTlAyVlAycGVSbkoxcExFUnJSOFVWckcyLWhrWE9HVlB1OTVBb1NkbU14UzBPT18yc3Bhc0dkTkN1Y1NTOEJuNHdiVGh6M2w0b2ZiSkxpNGdFTGJ6dnJqdlJFdzhoSUZ3YVlIR3fSAdoBQVVfeXFMTjRWQVkzSk85NmdZcFB1S1FQNlQtNEF1ZG5PRlJDU0dFV3VSZlZwVFpmdi00ZkZ0VGlzQlNIZThTV1dJdHlBR3FWY0pJcW1WY2RoUERRQ0cyM3M3d3oybmhPX3E5RVhsOTN3Z0dlSHNTRm9xVmNVQWtpWE5BSzBIVUFCa290djRpTXF1OFF0MFZBa0wzd1NkcmtPR2t0RmlKb0VhSTV1Q3NBOHhpTWFWYldCRzNabzd5QlRBcGo4cjNHNkJSdVd2WTN1eEVwcVVIZjlEVlFSd0czMUE?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "AL.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Ruben Gallego",
-      "stance": "",
-      "title": "Sen. Ruben Gallego: Trump needs to ‘humble himself’ on Iran - Modern Ghana",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsOFdTeDkxSnc2emVkeEhLbGlNMlJIbzhmZURnbFQzYTJwVjJxRm43UHc3SE1FZkRGajN6NmhGWWtXeE01X2pfT0d6aEx6cDlVQ0F5OWdyZEVzaVN5SjIw0gFcQVVfeXFMT3FWWmJZT3UyVWg5UGtOeVVkZFdobVF3Ni0xWnBPbGlIVEVoeFVrT3lfVDZ3WlFLQlRjUE42RHpkNVhlejJhLUFCYm5mLTM0RDVocDViQnVnM0RZdUw?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Modern Ghana",
-      "confidence": "high"
-    },
-    {
-      "entity": "Tim Kaine",
-      "stance": "",
-      "title": "Kaine calls Iran war ‘triply illegal,’ says it should ‘end immediately’ - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PUUIwbHR4RzNENjJCV0Q5UEM4elVycFFmamVKcjdhaE96ZDg1V240ZUNBN1J2c2lhZm42c2xKSDlXc1dvWDlqMFRwV3pZVkxFejdsaUgwZWJCdXkwdV9mRWh4dG5oT1BKXzhwWEVpTTBjOW92VjZILdIBfkFVX3lxTFA1TDFNRkNjR050bDE2WXlkc0EwTzU4bElpaWFWWkFSYzJhWVBFV2tQZlljNE5GcUZmWUxHY3hhbzRGR21VSHhiZVloNGVEd1ROZDUwalRQdU02RFlDNWc5NTFBYm83bmVyd3NvOEY2UDBuSDlBUHFJMXhKTWFGZw?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "The Hill",
-      "confidence": "high"
-    },
-    {
-      "entity": "All Israel News",
-      "stance": "",
-      "title": "In solidarity with Israel - All Israel News",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wcnBVaHVDWk1tZGQxaGtfMFJfaVEyTmlHYmtEWEVqQVB5SUVqa29OU2E1MjFVYllnWTJreTQ4eFhXNFNoMHhkUXQ4dWdEUFFDWHMzRDk2azhJRkgzajBfOTI5SFViblE?oc=5",
-      "date": "Wed, 23 Sep 2026 06:54:51 GMT",
-      "source": "All Israel News",
-      "confidence": "high"
-    },
-    {
-      "entity": "The Dispatch",
-      "stance": "",
-      "title": "The Media’s Weird Obsession With Israel - The Dispatch",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRmdxVUIxdXJJNUItdEFUM0RoNmVudTlkeDdnNjB4aUtEQTFDOGNXdTFuazBSa3MxN0x0X1NxVmowck9pNnRyeFhvcnViNkEyVGQ4NC01cVF0MDZwRmhrQnp3OU9MMEg3YlZ4WXNDaG9IbnNFQ3VJNVR4RkVQaThhSg?oc=5",
-      "date": "Wed, 23 Sep 2026 05:08:07 GMT",
-      "source": "The Dispatch",
-      "confidence": "high"
-    },
-    {
-      "entity": "Laura Ingraham",
-      "stance": "",
-      "title": "Laura Ingraham Claims To Have Opposed Iran War 'From Day One' (She's Lying) - National Memo",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhUURXbE1Ja3ZrRUlpbnZxSUszTmNPMTFtM0c1X2VUWUNqNW9lTDBhSVE0dm5STU9Qa1BuLWJEVl9XRTN3dWNDYzA1RzVLbmpZcmJMRkxYNUxXOEpyUnA1QmFYbw?oc=5",
-      "date": "Wed, 23 Sep 2026 03:30:05 GMT",
-      "source": "National Memo",
-      "confidence": "high"
-    },
-    {
-      "entity": "Scott Jennings",
-      "stance": "",
-      "title": "Scott Jennings Admits He’s Had ‘Doubts’ About Trump’s Ability To Make Iran Deal - aol.com",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcjczZ2ZKOUFvek1qbWQxcXdoU2ZnNFlrU05HNFJfT0xjY0pxNmU1elgybEtSSzJXVzR2SkZMc1BrdTZMd09VUTBMWXZJOVdOZHZkeGxDT0N2clZqWExFbHpJb183VlNweDMtRUVqNHoxQ1lFVm9BMUxnb21ibE9YR1FR?oc=5",
-      "date": "Wed, 23 Sep 2026 02:59:00 GMT",
-      "source": "aol.com",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bernie Moreno",
-      "stance": "",
-      "title": "Ohio Sen. Bernie Moreno on Iran conflict: ‘We all want this to end’ - wosu.org",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcjFPbFZtY2NjQlVwQS1QSTgxTk1CcWVVM2RqWTVjdzBJdENsWHBzcjZ3OGN2S2hycUUtaFdjV09QUFJQdC1kNUNpQW5fblFfS2xycERWZG8xYW1VSG92Ukh0TkoyZl81T2IzdXpaTDVYUklkZzdjTGFoc003MWlWQjBocXpJck5EU0hEZWRqeGtFdXFPekFPRUlGbw?oc=5",
-      "date": "Wed, 23 Sep 2026 01:37:00 GMT",
-      "source": "wosu.org",
-      "confidence": "high"
-    },
-    {
-      "entity": "Bernie Moreno",
-      "stance": "",
-      "title": "Ohio Sen. Bernie Moreno on Iran conflict: ‘We all want this to end’ - WOSU Public Media",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcjFPbFZtY2NjQlVwQS1QSTgxTk1CcWVVM2RqWTVjdzBJdENsWHBzcjZ3OGN2S2hycUUtaFdjV09QUFJQdC1kNUNpQW5fblFfS2xycERWZG8xYW1VSG92Ukh0TkoyZl81T2IzdXpaTDVYUklkZzdjTGFoc003MWlWQjBocXpJck5EU0hEZWRqeGtFdXFPekFPRUlGbw?oc=5",
-      "date": "Wed, 23 Sep 2026 01:37:00 GMT",
-      "source": "WOSU Public Media",
       "confidence": "high"
     }
   ]
