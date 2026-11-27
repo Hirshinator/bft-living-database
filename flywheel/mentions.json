@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-26 22:11 UTC",
+  "generated": "2026-11-27 21:53 UTC",
   "monitored_total": 1250,
   "swept_this_run": 250,
-  "cursor": 1165,
+  "cursor": 165,
   "count": 120,
   "mentions": [
     {
@@ -744,6 +744,15 @@
       "confidence": "high"
     },
     {
+      "entity": "Alex Clark",
+      "stance": "pro",
+      "title": "Knowles and Clark Blame Iran War and \"Corporate Capture\" for GOP's 48-Seat Midterm Rout - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLX0k0enJkdGdDRUVvN3lySkI2c1Y2WW5aZFV0cnJoYjRDb2VDOEtVbEtIYnBfeTd6U3ozZWluZUFxOEdlWHJobmk4ZFZDdmViaEM0bUNBQXBIVm8?oc=5",
+      "date": "Wed, 25 Nov 2026 16:08:00 GMT",
+      "source": "BigGo Finance",
+      "confidence": "high"
+    },
+    {
       "entity": "Pramila Jayapal",
       "stance": "",
       "title": "'We need to stop the war in Iran': US Congresswoman Pramila Jayapal - Tête à tête - France 24",
@@ -1074,15 +1083,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQnBWZDhpcnVCdHJsUUlzX1liMlprNFhGSWppYzNQamtfNTVpSTBoZ01yUnVBeUw3WnNqczhya1JGa2JFanRDelk2akJXczliMkRsZWxoMGRZOUpiaGt2RmIwZ18yVFhGY3M2d2JvQkZ6eTI2cXhLcjZ4WVpxbEtseTBJVFI4TWtuUnlINzJuYmNocFd3STF5NmdHSmhXSEhXYjhoNGJjV1A?oc=5",
       "date": "Wed, 23 Sep 2026 07:00:00 GMT",
       "source": "C-SPAN",
-      "confidence": "high"
-    },
-    {
-      "entity": "Scott Galloway",
-      "stance": "",
-      "title": "‘Disqualifying’: Scott Galloway Pushes El-Sayed Hard On Using Gaza ‘Genocide’ Label - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcGZuMkdhaEhpc004b05pdmVwRHFLYjU1QW9YVzYyNWpyQm1ST2wtUUwwUnE5bGFHQldQN3o1a0ZFeGNiOEYtLTNzb0I1LUo0WlFmLTd6UVBqV1VUZWZ4d3prTzBMMVY2YXBWOF9nemFSMVdvRmV5aWVJb0ZfR0Q5SlZhZVhQY0x5aXJSLXJUU0xia0VSb1ZkX1F5b2RJVjg?oc=5",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Yahoo",
       "confidence": "high"
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26 22:07 UTC",
-  "count": 7,
+  "generated": "2026-11-27 21:48 UTC",
+  "count": 6,
   "candidates": [
     {
       "name": "Dan Schueftan",
@@ -16,6 +16,19 @@
       ]
     },
     {
+      "name": "Ex-Muslim Sahil",
+      "orientation": "ally",
+      "signal": "candidate ALLY (platformed by an ally channel)",
+      "sources": [
+        {
+          "channel": "Stand Tall Israel",
+          "title": "He Warned Me THIS Would Happen... | Ex-Muslim Sahil",
+          "date": "2026-11-27",
+          "link": "https://www.youtube.com/watch?v=MVs0Ig9odi8"
+        }
+      ]
+    },
+    {
       "name": "Gunn Gook LIVE",
       "orientation": "ally",
       "signal": "candidate ALLY (platformed by an ally channel)",
@@ -23,7 +36,7 @@
         {
           "channel": "Stand Tall Israel",
           "title": "He Stood ALONE in South Korea to Defend Israel | Gunn Gook LIVE",
-          "date": "2026-11-26",
+          "date": "2026-11-27",
           "link": "https://www.youtube.com/watch?v=c5N6DHyi7Ug"
         }
       ]
@@ -57,32 +70,6 @@
           "title": "We Fled the Muslim Brotherhood. They Followed Us! | Jasem AlJuraid",
           "date": "2026-11-26",
           "link": "https://www.youtube.com/shorts/Rg3NRUp_cj4"
-        }
-      ]
-    },
-    {
-      "name": "Sebastian Di Benedetto",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Spoke Out for Israel. Then They Leaked His Number. | Sebastian Di Benedetto",
-          "date": "2026-11-24",
-          "link": "https://www.youtube.com/watch?v=Ur4ilDRjmtU"
-        }
-      ]
-    },
-    {
-      "name": "Seth Frantzman",
-      "orientation": "ally",
-      "signal": "candidate ALLY (platformed by an ally channel)",
-      "sources": [
-        {
-          "channel": "Stand Tall Israel",
-          "title": "He Covered the Fall of ISIS. Can Hamas Be Defeated Too? | Seth Frantzman",
-          "date": "2026-11-24",
-          "link": "https://www.youtube.com/watch?v=OmNwzGtP0do"
         }
       ]
     },
